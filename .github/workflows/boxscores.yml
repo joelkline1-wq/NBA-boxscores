@@ -1,5 +1,7 @@
 name: Fetch NBA box scores
 on:
+  schedule:
+    - cron: '17 * * * *'
   push:
     branches: [main]
     paths:
@@ -33,7 +35,11 @@ jobs:
         env:
           REQUEST_DATE: ${{ inputs.date }}
           GAME_IDS: ${{ inputs.game_ids }}
+          TRIGGER_EVENT: ${{ github.event_name }}
         run: |
+          if [ "$TRIGGER_EVENT" = "schedule" ] && [ -z "$REQUEST_DATE" ]; then
+            REQUEST_DATE=$(python -c 'from datetime import datetime, timedelta; from zoneinfo import ZoneInfo; print((datetime.now(ZoneInfo("America/Chicago")) - timedelta(hours=6)).date().isoformat())')
+          fi
           args=()
           if [ -n "$REQUEST_DATE" ]; then args+=(--date "$REQUEST_DATE"); fi
           if [ -n "$GAME_IDS" ]; then args+=(--game-ids "$GAME_IDS"); fi
@@ -53,6 +59,7 @@ jobs:
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh NBA box scores'
+            git pull --rebase origin main
             git push
           fi
       - uses: actions/upload-artifact@v4
