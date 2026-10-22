@@ -8,7 +8,7 @@ Open [Fetch NBA box scores](https://github.com/joelkline1-wq/NBA-boxscores/actio
 
 Successful runs commit `data/YYYY-MM-DD/boxscores.json`, `players.csv`, and original source responses under `raw/`. The files uploaded initially at the repository root are older setup snapshots; use dated files under `data/` for subsequent runs.
 
-The workflow also runs when its own configuration or either fetcher changes on main. No recurring schedule is enabled.
+The workflow refreshes automatically every hour, at minute 17 (GitHub may delay scheduled runs). It also runs when its own configuration or either fetcher changes on main. No manual click is needed for routine collection.\n\nScheduled runs before 6 AM America/Chicago refresh the previous evening's date so overnight games are captured through their final scores. At 6 AM they switch to the new date. Manual runs still use today's date unless you enter one explicitly. Automatic collection does not send ChatGPT messages; ask ChatGPT to read the latest saved results when you want analysis.
 
 ## Data sources
 
