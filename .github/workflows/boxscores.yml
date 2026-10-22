@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'fetch_boxscores.py'
+      - 'fetch_espn.py'
       - '.github/workflows/boxscores.yml'
   workflow_dispatch:
     inputs:
@@ -36,7 +37,15 @@ jobs:
           args=()
           if [ -n "$REQUEST_DATE" ]; then args+=(--date "$REQUEST_DATE"); fi
           if [ -n "$GAME_IDS" ]; then args+=(--game-ids "$GAME_IDS"); fi
-          python fetch_boxscores.py "${args[@]}"
+          if ! python fetch_boxscores.py "${args[@]}"; then
+            if [ -n "$GAME_IDS" ]; then
+              echo 'NBA game IDs cannot be used with ESPN; retry without game IDs for date-based fallback.'
+              exit 1
+            fi
+            fallback_args=()
+            if [ -n "$REQUEST_DATE" ]; then fallback_args+=(--date "$REQUEST_DATE"); fi
+            python fetch_espn.py "${fallback_args[@]}"
+          fi
       - name: Save verified output in repository
         run: |
           git config user.name 'github-actions[bot]'
