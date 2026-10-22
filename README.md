@@ -1,45 +1,40 @@
 # NBA box-score fetcher
 
-Runs with Python 3.11+; no packages or NBA API key required. Downloads the NBA liveData scoreboard and each game's box score. Availability depends on the NBA endpoint accepting requests from the machine running it. This is an unofficial use of NBA public endpoints, not a guaranteed service.
+Fetch NBA game scores and player box scores on demand using GitHub Actions. Python 3.11+; no external packages or API keys required.
 
-## Run on your computer
+## Refresh the data
 
-    python fetch_boxscores.py
+Open [Fetch NBA box scores](https://github.com/joelkline1-wq/NBA-boxscores/actions/workflows/boxscores.yml), click **Run workflow**, and leave the fields blank for today in America/Chicago. For another date, enter YYYY-MM-DD. Check that the run finishes successfully before treating files as fresh.
 
-Today's default date uses America/Chicago. The NBA scoreboard must actually match the requested date; it refuses to relabel another day's results. After midnight, pass the evening's explicit date if the NBA scoreboard still carries those games:
+Successful runs commit `data/YYYY-MM-DD/boxscores.json`, `players.csv`, and original source responses under `raw/`. The files uploaded initially at the repository root are older setup snapshots; use dated files under `data/` for subsequent runs.
 
-    python fetch_boxscores.py --date 2026-10-21
+The workflow also runs when its own configuration or either fetcher changes on main. No recurring schedule is enabled.
 
-Historical box scores require known NBA game IDs:
+## Data sources
 
-    python fetch_boxscores.py --date 2026-10-21 --game-ids 0022600090,0022600091
+The workflow first tries NBA liveData. An initial GitHub-hosted run was rejected by that endpoint with HTTP 403, so it falls back to ESPN's publicly accessible scoreboard and summary JSON endpoints. These endpoints are unofficial integrations and can change or restrict access. No uptime or refresh-delay guarantee is implied.
 
-## Run on GitHub
+Every report identifies its source. ESPN event and player IDs differ from NBA IDs: use `id_namespace` before joining IDs across sources. ESPN minutes are display minutes; NBA minutes are ISO durations. Do not assume the two formats are identical.
 
-1. Create a repository such as `nba-boxscores` (private is fine).
-2. Put this folder's contents at its root, including `.github/workflows/boxscores.yml`. Uploading only the ZIP will not install the workflow. Ensure the workflow is on the default branch.
-3. In Actions, select **Fetch NBA box scores**, then **Run workflow**. Leave inputs blank for today.
-4. Successful runs commit `data/YYYY-MM-DD/boxscores.json`, `players.csv` and `raw/` responses to the repository. The ChatGPT GitHub connector can then read these files if the repository is accessible to it. Organization policy or protected branches may require using the downloadable workflow artifact instead of committing.
+## Contents
 
-This package is manual/on-demand. No recurring schedule is enabled. It contains no personal roster. Keep all NBA players so league availability and roster filters can be maintained separately.
+Player names and IDs; teams and opponents; live/final status; starter and playing status; minutes; PTS, FGM/FGA, FTM/FTA, 3PTM/3PTA, OREB, DREB, REB, AST, ST, BLK, TO and PF. Shooting percentages are decimal ratios, with blank/null for zero attempts. For aggregate percentages, sum makes and attempts first. Triple-doubles are not scored.
 
-## Output and safeguards
+Raw responses and source URLs are retained, with fetch timestamps. Missing data is not fabricated as zero. ESPN final-game player point totals must match the final team score. Partial failures fail the workflow and do not commit new data; inspect run status and timestamps so an older snapshot is not mistaken for current data. Partial downloads may be available as run artifacts.
 
-- Player IDs, names, teams, opponents, scores, playing status, starter flags, minutes and game status.
-- FGM/FGA, FTM/FTA, 3PTM/3PTA, PTS, OREB, DREB, REB, AST, ST, BLK, TO, PF.
-- FG%, FT%, 3PT% are decimal ratios (0.5 means 50%). A zero-attempt percentage is blank/null. For a team total, sum makes and attempts before dividing; never average player percentages.
-- Minutes retain the NBA ISO duration format. Missing stats remain blank/null rather than fabricated zeros. Check `played` and availability before interpreting DNP rows.
-- Triple-doubles are not scored. This is data collection, not a player ranking or add/drop model.
-- Original JSON, source URLs, fetch timestamps and live/final status are preserved. No automatic inference that limited minutes reflect a permanent role change.
-- Failed games mark the report incomplete and return a failing exit code. The workflow does not commit partial results, but retains them as an artifact for inspection. Earlier snapshots may remain in the repository after a failed run; always check timestamps and run status.
-- Today's scoreboard endpoint is not a historical date lookup. Explicit historical game IDs are supported when NBA retains the box-score JSON.
+No personal fantasy roster is embedded. Capture all players, then filter by the latest league rosters separately.
 
-## Sources
+## Local use
+
+```bash
+python fetch_boxscores.py --date 2026-10-21
+python fetch_espn.py --date 2026-10-21
+```
+
+NBA's scoreboard only supplies its current basketball date. Its historical box-score requests require known NBA game IDs via `--game-ids`. ESPN supports date-based lookup; do not pass NBA game IDs to it.
+
+## References
 
 - https://github.com/swar/nba_api/blob/master/docs/nba_api/live/endpoints/scoreboard.md
 - https://github.com/swar/nba_api/blob/master/docs/nba_api/live/endpoints/boxscore.md
 - https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow
-
-## Validation
-
-See VALIDATION.md for the actual test results from the creation session. Live data files are snapshots, not promises of continuously updated scores.
