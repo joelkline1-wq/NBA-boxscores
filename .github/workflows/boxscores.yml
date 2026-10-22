@@ -1,0 +1,53 @@
+name: Fetch NBA box scores
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fetch_boxscores.py'
+      - '.github/workflows/boxscores.yml'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'NBA game date (YYYY-MM-DD); blank means today in Chicago'
+        required: false
+        default: ''
+      game_ids:
+        description: 'Optional comma-separated NBA game IDs (for a historical date)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: nba-boxscores
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download box scores
+        env:
+          REQUEST_DATE: ${{ inputs.date }}
+          GAME_IDS: ${{ inputs.game_ids }}
+        run: |
+          args=()
+          if [ -n "$REQUEST_DATE" ]; then args+=(--date "$REQUEST_DATE"); fi
+          if [ -n "$GAME_IDS" ]; then args+=(--game-ids "$GAME_IDS"); fi
+          python fetch_boxscores.py "${args[@]}"
+      - name: Save verified output in repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh NBA box scores'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nba-boxscores
+          path: data/
