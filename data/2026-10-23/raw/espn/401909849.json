@@ -311,6 +311,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -375,9 +377,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401914128",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909838",
@@ -3200,7 +3200,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3251,7 +3251,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877190%3Foutcomes%3D0ML86866056_1",
           "text": "Home Bet",
@@ -3275,7 +3275,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877190%3Foutcomes%3D0ML86866056_3",
           "text": "Away Bet",
@@ -3415,7 +3415,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877190%3Foutcomes%3D0ML86866056_1",
               "text": "Home Bet",
@@ -3447,7 +3447,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877190%3Foutcomes%3D0ML86866056_3",
               "text": "Away Bet",
@@ -3779,20 +3779,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "26",
-      "gameProjection": "64",
-      "teamChanceLoss": "36"
-    },
-    "awayTeam": {
-      "id": "3",
-      "gameProjection": "36",
-      "teamChanceLoss": "64"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4738,6 +4724,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "26",
+      "gameProjection": "64",
+      "teamChanceLoss": "36"
+    },
+    "awayTeam": {
+      "id": "3",
+      "gameProjection": "36",
+      "teamChanceLoss": "64"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401909849",
     "uid": "s:40~l:46~e:401909849",
@@ -4758,7 +4758,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -5751,12 +5751,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909849",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5770,42 +5764,42 @@
         "type": "team"
       },
       {
-        "ticketName": "10/23 vs Pelicans 859 tickets left",
+        "ticketName": "10/23 vs Pelicans 412 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-23-2026/production/7432789?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/25 vs Lakers 2834 tickets left",
+        "ticketName": "10/25 vs Lakers 2770 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-25-2026/production/7433100?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 vs Grizzlies 2366 tickets left",
+        "ticketName": "10/26 vs Grizzlies 2377 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-26-2026/production/7433042?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Spurs 3275 tickets left",
+        "ticketName": "10/28 vs Spurs 3246 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-28-2026/production/7433007?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 vs Trail Blazers 3198 tickets left",
+        "ticketName": "10/31 vs Trail Blazers 3201 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026/production/7433146?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Spurs 2029 tickets left",
+        "ticketName": "11/2 @ Spurs 2003 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-2-2026/production/7433009?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Pelicans 2960 tickets left",
+        "ticketName": "11/4 @ Pelicans 2899 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-4-2026/production/7432801?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Mavericks 5805 tickets left",
+        "ticketName": "11/6 @ Mavericks 5801 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-31-2026--sports-nba-basketball/production/7417921?wsUser=717",
         "type": "event"
       },
@@ -5815,32 +5809,32 @@
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Heat 3689 tickets left",
+        "ticketName": "11/10 vs Heat 3745 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-10-2026/production/7432879?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Magic 3547 tickets left",
+        "ticketName": "11/11 vs Magic 3535 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-11-2026/production/7433138?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Rockets 4943 tickets left",
+        "ticketName": "11/13 @ Rockets 4994 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Spurs 4474 tickets left",
+        "ticketName": "11/15 vs Spurs 4442 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-15-2026/production/7433017?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Clippers 4929 tickets left",
+        "ticketName": "11/17 @ Clippers 4913 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-17-2026/production/7433110?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Lakers 4998 tickets left",
+        "ticketName": "11/18 @ Lakers 5020 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-18-2026/production/7433112?wsUser=717",
         "type": "event"
       }
@@ -5849,7 +5843,7 @@
       "opponentTeamName": "Pelicans",
       "currentTeamName": "Jazz",
       "venueName": "Delta Center",
-      "summary": "Tickets as low as $22",
+      "summary": "Tickets as low as $19",
       "date": "2026-10-24T01:30Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -5859,6 +5853,12 @@
       "teamLink": "https://www.vividseats.com/utah-jazz-tickets--sports-nba-basketball/performer/902?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909849",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

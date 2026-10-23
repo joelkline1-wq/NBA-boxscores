@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909092",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401918011",
@@ -2959,6 +2959,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-10-23T20:05Z",
+          "athlete": {
+            "id": "4592691",
+            "uid": "s:40~l:46~a:4592691",
+            "guid": "a2ffece1-7bf0-3c54-aa59-b150b6ecd315",
+            "lastName": "LaRavia",
+            "fullName": "Jake LaRavia",
+            "displayName": "Jake LaRavia",
+            "shortName": "J. LaRavia",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4592691/jake-laravia",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png",
+              "alt": "Jake LaRavia"
+            },
+            "jersey": "12",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4592691?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Ankle",
+            "location": "Leg",
+            "detail": "Sprain",
+            "side": "Right",
+            "returnDate": "2026-10-25"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-10-23T00:10Z",
           "athlete": {
             "id": "5060631",
@@ -3077,67 +3138,6 @@
             "detail": "Strain",
             "side": "Right",
             "returnDate": "2026-10-25"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-23T00:10Z",
-          "athlete": {
-            "id": "4592691",
-            "uid": "s:40~l:46~a:4592691",
-            "guid": "a2ffece1-7bf0-3c54-aa59-b150b6ecd315",
-            "lastName": "LaRavia",
-            "fullName": "Jake LaRavia",
-            "displayName": "Jake LaRavia",
-            "shortName": "J. LaRavia",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4592691/jake-laravia",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png",
-              "alt": "Jake LaRavia"
-            },
-            "jersey": "12",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4592691?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Right",
-            "returnDate": "2026-10-23"
           }
         }
       ]
@@ -3564,7 +3564,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3589,7 +3589,7 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 295,
+        "moneyLine": 285,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
@@ -3600,7 +3600,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -375,
+        "moneyLine": -360,
         "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/13?lang=en&region=us"
@@ -3615,7 +3615,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877192%3Foutcomes%3D0ML86866058_1",
           "text": "Home Bet",
@@ -3639,7 +3639,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877192%3Foutcomes%3D0ML86866058_3",
           "text": "Away Bet",
@@ -3772,14 +3772,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-375",
+            "odds": "-360",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877192%3Foutcomes%3D0ML86866058_1",
               "text": "Home Bet",
@@ -3804,14 +3804,14 @@
         },
         "away": {
           "close": {
-            "odds": "+295",
+            "odds": "+285",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877192%3Foutcomes%3D0ML86866058_3",
               "text": "Away Bet",
@@ -4143,6 +4143,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "13",
+      "gameProjection": "74.2",
+      "teamChanceLoss": "25.8"
+    },
+    "awayTeam": {
+      "id": "12",
+      "gameProjection": "25.8",
+      "teamChanceLoss": "74.2"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5088,20 +5102,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "13",
-      "gameProjection": "74.2",
-      "teamChanceLoss": "25.8"
-    },
-    "awayTeam": {
-      "id": "12",
-      "gameProjection": "25.8",
-      "teamChanceLoss": "74.2"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909851",
     "uid": "s:40~l:46~e:401909851",
@@ -6112,77 +6112,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/23 vs Clippers 2004 tickets left",
+        "ticketName": "10/23 vs Clippers 1883 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-23-2026/production/7433094?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/25 @ Jazz 2834 tickets left",
+        "ticketName": "10/25 @ Jazz 2770 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-25-2026/production/7433100?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/27 vs Trail Blazers 4636 tickets left",
+        "ticketName": "10/27 vs Trail Blazers 4631 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-27-2026/production/7433104?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Clippers 3779 tickets left",
+        "ticketName": "10/28 @ Clippers 4126 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-28-2026/production/7433102?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ Warriors 5302 tickets left",
+        "ticketName": "10/30 @ Warriors 5293 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-10-30-2026--sports-nba-basketball/production/7420142?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 vs Raptors 4192 tickets left",
+        "ticketName": "11/1 vs Raptors 4167 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-1-2026/production/7433108?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Heat 5575 tickets left",
+        "ticketName": "11/2 vs Heat 5563 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Kings 5955 tickets left",
+        "ticketName": "11/4 @ Kings 5942 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-4-2026/production/7432997?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Trail Blazers 5481 tickets left",
+        "ticketName": "11/6 vs Trail Blazers 5487 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-30-2026--sports-nba-basketball/production/7420168?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Pistons 4827 tickets left",
+        "ticketName": "11/8 @ Pistons 4783 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 @ Hawks 4478 tickets left",
+        "ticketName": "11/9 @ Hawks 4475 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-9-2026/production/7433066?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Bucks 3845 tickets left",
+        "ticketName": "11/11 @ Bucks 3855 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-11-2026/production/7432895?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Suns 3867 tickets left",
+        "ticketName": "11/15 @ Suns 3858 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Hornets 5489 tickets left",
+        "ticketName": "11/17 vs Hornets 5493 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Jazz 4998 tickets left",
+        "ticketName": "11/18 vs Jazz 5020 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-18-2026/production/7433112?wsUser=717",
         "type": "event"
       }
@@ -6191,7 +6191,7 @@
       "opponentTeamName": "Clippers",
       "currentTeamName": "Lakers",
       "venueName": "crypto.com Arena",
-      "summary": "Tickets as low as $64",
+      "summary": "Tickets as low as $77",
       "date": "2026-10-24T02:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
