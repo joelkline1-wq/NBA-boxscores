@@ -161,7 +161,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Zach Zarba",
+        "displayName": "Zach Zarba",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Sean Corbin",
+        "displayName": "Sean Corbin",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Robert Hussey",
+        "displayName": "Robert Hussey",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -339,6 +371,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -403,9 +437,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
         },
         {
           "id": "401908621",
@@ -603,8 +635,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -669,7 +699,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -760,6 +792,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -824,9 +858,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401914128",
@@ -848,6 +880,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -912,9 +946,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401908941",
@@ -1024,6 +1056,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -1088,9 +1122,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
         },
         {
           "id": "401898719",
@@ -2725,8 +2757,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-21T22:21Z",
+          "status": "Out",
+          "date": "2026-10-23T00:06Z",
           "athlete": {
             "id": "4592427",
             "uid": "s:40~l:46~a:4592427",
@@ -2767,21 +2799,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Hamstring",
             "location": "Leg",
+            "detail": "Not Specified",
             "side": "Not Specified",
-            "returnDate": "2026-10-22"
+            "returnDate": "2026-10-24"
           }
         },
         {
@@ -2870,16 +2903,16 @@
           }
         ]
       },
-      "details": "OKC -7.5",
+      "details": "OKC -8.5",
       "overUnder": 236.5,
-      "spread": -7.5,
+      "spread": -8.5,
       "overOdds": -108.0,
       "underOdds": -112.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 270,
-        "spreadOdds": -102.0,
+        "spreadOdds": -118.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/7?lang=en&region=us"
         },
@@ -2890,7 +2923,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -340,
-        "spreadOdds": -118.0,
+        "spreadOdds": -102.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/25?lang=en&region=us"
         },
@@ -2953,7 +2986,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156N750_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156N850_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -2966,7 +2999,7 @@
               "gameId": 401909094,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:OKC-7.5"
+              "betDetails": "Spread:OKC-8.5"
             }
           }
         },
@@ -2977,7 +3010,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156P750_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156P850_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -2990,7 +3023,7 @@
               "gameId": 401909094,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:DEN+7.5"
+              "betDetails": "Spread:DEN+8.5"
             }
           }
         },
@@ -3129,8 +3162,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-7.5",
-            "odds": "-118",
+            "line": "-8.5",
+            "odds": "-102",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3138,7 +3171,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156N750_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156N850_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3151,7 +3184,7 @@
                   "gameId": 401909094,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:OKC-7.5"
+                  "betDetails": "Spread:OKC-8.5"
                 }
               }
             }
@@ -3163,8 +3196,8 @@
         },
         "away": {
           "close": {
-            "line": "+7.5",
-            "odds": "-102",
+            "line": "+8.5",
+            "odds": "-118",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3172,7 +3205,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156P750_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34510280%3Foutcomes%3D0HC85842156P850_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3185,7 +3218,7 @@
                   "gameId": 401909094,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:DEN+7.5"
+                  "betDetails": "Spread:DEN+8.5"
                 }
               }
             }
@@ -3449,6 +3482,177 @@
     },
     "articles": [
       {
+        "id": 50253148,
+        "nowId": "1-50253148",
+        "contentKey": "50253148-1-5-1",
+        "dataSourceIdentifier": "f972d3dd281be",
+        "type": "HeadlineNews",
+        "headline": "Cavs coach Atkinson 'depressed' when LeBron deal fell through",
+        "description": "When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson.",
+        "lastModified": "2026-10-23T00:30:44Z",
+        "published": "2026-10-23T00:30:44Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "462b6a1e1a153",
+            "id": 50253097,
+            "type": "header",
+            "name": "Le Bron James vs Knicks_261020 [1296x729]",
+            "caption": "LeBron James faces his former team, the Cavaliers, with his new team, the 76ers, on Thursday night.",
+            "alt": "LeBron James faces his old team, the Cavaliers, with his new team, the 76ers, on Thursday night.",
+            "credit": "Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1022/r1734797_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Fans erupt after LeBron drains his first 3-pointer with 76ers",
+            "caption": "Fans erupt after LeBron drains his first 3-pointer with 76ers",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/a08d8120ade54c80a8532fc611269ece1187/a08d8120ade54c80a8532fc611269ece1187.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4408,
+            "type": "team",
+            "uid": "s:40~l:46~t:5",
+            "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+            "description": "Cleveland Cavaliers",
+            "sportId": 46,
+            "teamId": 5,
+            "team": {
+              "id": 5,
+              "description": "Cleveland Cavaliers",
+              "abbreviation": "CLE",
+              "shortDisplayName": "Cavaliers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9385,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:1966",
+            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
+            "description": "LeBron James",
+            "sportId": 46,
+            "athleteId": 1966,
+            "athlete": {
+              "id": 1966,
+              "description": "LeBron James",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 698422,
+            "type": "contributor",
+            "guid": "1d8ecf87-0581-33b4-9cad-7e7d488956ab",
+            "description": "Dave McMenamin",
+            "slug": "dave-mcmenamin",
+            "contributor": {
+              "id": 1836,
+              "description": "Dave McMenamin"
+            }
+          }
+        ],
+        "byline": "Dave McMenamin",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50253148"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50253148"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/soccer/story?storyId=50253148"
+          },
+          "web": {
+            "href": "https://www.espn.com/soccer/story/_/id/50253148/cavs-coach-atkinson-depressed-lebron-deal-fell-through"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50252942,
         "nowId": "1-50252942",
         "contentKey": "50252942-1-293-1",
@@ -3456,8 +3660,8 @@
         "type": "Media",
         "headline": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
         "description": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
-        "lastModified": "2026-10-22T23:20:23Z",
-        "published": "2026-10-22T23:20:23Z",
+        "lastModified": "2026-10-23T00:08:18Z",
+        "published": "2026-10-23T00:08:18Z",
         "images": [
           {
             "name": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
@@ -3465,7 +3669,7 @@
             "alt": "",
             "height": 324,
             "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_185138065_37061461137/ss_20261022_185138065_37061461137.jpg"
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_185138065_37061461207/ss_20261022_185138065_37061461207.jpg"
           }
         ],
         "categories": [
@@ -3650,8 +3854,8 @@
         "type": "HeadlineNews",
         "headline": "Co-defendant denies Billups gave him info, pleads guilty in NBA gambling case",
         "description": "Eric Earnest pleaded guilty to conspiracy to commit wire fraud Thursday but denied receiving inside information from former NBA player and coach Chauncey Billups.",
-        "lastModified": "2026-10-22T23:26:24Z",
-        "published": "2026-10-22T23:26:24Z",
+        "lastModified": "2026-10-23T00:27:05Z",
+        "published": "2026-10-23T00:27:05Z",
         "images": [
           {
             "dataSourceIdentifier": "730c363aecb9f",
@@ -4016,136 +4220,6 @@
                 "href": "https://www.espn.com/video/clip?id=c91b17333d2e7"
               }
             }
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50251603,
-        "nowId": "1-50251603",
-        "contentKey": "50251603-1-5-1",
-        "dataSourceIdentifier": "ae1795a2a09e7",
-        "type": "HeadlineNews",
-        "headline": "President Trump criticizes 76ers' LeBron James for actions amid national anthem",
-        "description": "President Donald Trump has accused LeBron James of disrespecting the U.S. after the 76ers star appeared to continue his warmups during the national anthem.",
-        "lastModified": "2026-10-22T23:37:44Z",
-        "published": "2026-10-22T23:37:44Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "ad173c07c2db1",
-            "id": 50251457,
-            "type": "header",
-            "name": "LeBron [600x600]",
-            "credit": "Jesse D. Garrabrant/NBAE via Getty Images",
-            "height": 600,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1022/r1734683_600x600_1-1.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9385,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:1966",
-            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
-            "description": "LeBron James",
-            "sportId": 46,
-            "athleteId": 1966,
-            "athlete": {
-              "id": 1966,
-              "description": "LeBron James",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50251603"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50251603"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50251603"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50251603/president-trump-criticizes-lebron-james-anthem-actions"
           }
         },
         "premium": false
@@ -5115,6 +5189,12 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909094",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5128,77 +5208,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/22 vs Nuggets 238 tickets left",
+        "ticketName": "10/22 vs Nuggets 196 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-21-2026--sports-nba-basketball/production/7415524?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/25 vs Clippers 1707 tickets left",
+        "ticketName": "10/25 vs Clippers 1715 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-25-2026/production/7433098?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 vs Suns 2291 tickets left",
+        "ticketName": "10/26 vs Suns 2255 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-26-2026/production/7432969?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Mavericks 8264 tickets left",
+        "ticketName": "10/28 @ Mavericks 8226 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-28-2026/production/7433116?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Rockets 4483 tickets left",
+        "ticketName": "10/31 @ Rockets 4468 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Cavaliers 3889 tickets left",
+        "ticketName": "11/2 @ Cavaliers 3914 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-2-2026/production/7432827?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Cavaliers 1896 tickets left",
+        "ticketName": "11/4 vs Cavaliers 1900 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-4-2026/production/7433156?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Grizzlies 3721 tickets left",
+        "ticketName": "11/6 @ Grizzlies 3720 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-30-2026--sports-nba-basketball/production/7419906?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Wizards 2931 tickets left",
+        "ticketName": "11/7 vs Wizards 2942 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Trail Blazers 4793 tickets left",
+        "ticketName": "11/10 @ Trail Blazers 4784 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Trail Blazers 4933 tickets left",
+        "ticketName": "11/11 @ Trail Blazers 4892 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Clippers 4825 tickets left",
+        "ticketName": "11/13 @ Clippers 4801 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Kings 7439 tickets left",
+        "ticketName": "11/15 @ Kings 7399 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Hawks 2424 tickets left",
+        "ticketName": "11/18 vs Hawks 2406 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-18-2026/production/7433070?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Pelicans 2604 tickets left",
+        "ticketName": "11/20 vs Pelicans 2584 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
         "type": "event"
       }
@@ -5217,12 +5297,6 @@
       "teamLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets--sports-nba-basketball/performer/16164?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909094",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
