@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Pat Fraher",
+        "displayName": "Pat Fraher",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Brent Barnaky",
+        "displayName": "Brent Barnaky",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Nate Green",
+        "displayName": "Nate Green",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,8 +343,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -377,7 +407,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898396",
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909839",
@@ -996,8 +1028,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -1062,7 +1092,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898408",
@@ -1084,8 +1116,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -1150,7 +1180,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909840",
@@ -2655,8 +2687,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-22T20:15Z",
+          "status": "Out",
+          "date": "2026-10-23T22:02Z",
           "athlete": {
             "id": "5105806",
             "uid": "s:40~l:46~a:5105806",
@@ -2697,22 +2729,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Calf",
             "location": "Leg",
             "detail": "Soreness",
             "side": "Right",
-            "returnDate": "2026-10-23"
+            "returnDate": "2026-10-24"
           }
         },
         {
@@ -2986,7 +3018,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3004,10 +3036,10 @@
         ]
       },
       "details": "IND -7.5",
-      "overUnder": 239.5,
+      "overUnder": 241.5,
       "spread": -7.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
@@ -3037,7 +3069,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0ML86866052_1",
           "text": "Home Bet",
@@ -3061,7 +3093,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0ML86866052_3",
           "text": "Away Bet",
@@ -3134,7 +3166,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052O23950_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052O24150_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3147,7 +3179,7 @@
               "gameId": 401909844,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:239.5"
+              "betDetails": "Over:241.5"
             }
           }
         },
@@ -3158,7 +3190,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052U23950_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052U24150_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3171,7 +3203,7 @@
               "gameId": 401909844,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:239.5"
+              "betDetails": "Under:241.5"
             }
           }
         },
@@ -3201,7 +3233,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0ML86866052_1",
               "text": "Home Bet",
@@ -3233,7 +3265,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0ML86866052_3",
               "text": "Away Bet",
@@ -3334,8 +3366,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o239.5",
-            "odds": "-112",
+            "line": "o241.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3343,7 +3375,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052O23950_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052O24150_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3356,7 +3388,7 @@
                   "gameId": 401909844,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:239.5"
+                  "betDetails": "Over:241.5"
                 }
               }
             }
@@ -3368,8 +3400,8 @@
         },
         "under": {
           "close": {
-            "line": "u239.5",
-            "odds": "-108",
+            "line": "u241.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3377,7 +3409,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052U23950_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34877186%3Foutcomes%3D0OU86866052U24150_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3390,7 +3422,7 @@
                   "gameId": 401909844,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:239.5"
+                  "betDetails": "Under:241.5"
                 }
               }
             }
@@ -4510,6 +4542,7 @@
       }
     ]
   },
+  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -4523,7 +4556,153 @@
       "teamChanceLoss": "67.2"
     }
   },
-  "winprobability": [],
+  "article": {
+    "id": 50245615,
+    "nowId": "1-50245615",
+    "contentKey": "50245615-1-22-1",
+    "dataSourceIdentifier": "0932ac95efbcc",
+    "publishedkey": "nba401909844",
+    "type": "Preview",
+    "gameId": "401909844",
+    "headline": "Dallas travels to Indiana for non-conference matchup",
+    "description": "Dallas Mavericks (0-1, ninth in the Western Conference) vs. Indiana Pacers (1-0, seventh in the Eastern Conference)",
+    "title": "Dallas travels to Indiana for non-conference matchup",
+    "linkText": "Dallas travels to Indiana for non-conference matchup",
+    "categorized": "2026-10-22T06:05:12Z",
+    "originallyPosted": "2026-10-22T06:05:11Z",
+    "lastModified": "2026-10-22T06:05:12Z",
+    "published": "2026-10-22T06:05:11Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4438,
+        "type": "team",
+        "uid": "s:40~l:46~t:11",
+        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+        "description": "Indiana Pacers",
+        "sportId": 46,
+        "teamId": 11,
+        "team": {
+          "id": 11,
+          "description": "Indiana Pacers",
+          "abbreviation": "IND",
+          "shortDisplayName": "Pacers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4485,
+        "type": "team",
+        "uid": "s:40~l:46~t:6",
+        "guid": "f00d1f4e-4ce6-d581-466c-5b52531cf7ad",
+        "description": "Dallas Mavericks",
+        "sportId": 46,
+        "teamId": 6,
+        "team": {
+          "id": 6,
+          "description": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "shortDisplayName": "Mavericks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909844",
+        "guid": "ed76a167-01a8-39cc-a738-f637c65ccc5f",
+        "description": "Dallas Mavericks @ Indiana Pacers",
+        "eventId": 401909844,
+        "event": {
+          "id": 401909844,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Dallas Mavericks @ Indiana Pacers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Indiana Pacers",
+      "Dallas Mavericks",
+      "Dallas Mavericks @ Indiana Pacers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/dal/dallas-mavericks\">Dallas Mavericks</a> (0-1, ninth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (1-0, seventh in the Eastern Conference)\n\n\r\n              Indianapolis; Friday, 7 p.m. EDT\n\n\r\n              BOTTOM LINE: Indiana and Dallas meet in non-conference action.\n\n\r\n              Indiana went 19-63 overall last season while going 11-30 at home. The Pacers gave up 120.4 points per game while committing 20.9 fouls last season.\n\n\r\n              Dallas finished 26-56 overall, 14-37 in Western Conference action and 10-31 on the road last season. The Mavericks allowed opponents to score 119.6 points per game and shoot 47.8% from the field last season.\n\n\r\n              INJURIES: Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396909/aaron-nesmith\">Aaron Nesmith</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/2530530/tj-mcconnell\">T.J. McConnell</a>: out (hamstring).\n\n\r\n              Mavericks: <a href=\"http://www.espn.com/nba/player/_/id/5148538/tarik-biberovic\">Tarik Biberovic</a>: out (heel), <a href=\"http://www.espn.com/nba/player/_/id/3138160/caleb-martin\">Caleb Martin</a>: out (thumb), <a href=\"http://www.espn.com/nba/player/_/id/5105806/jett-howard\">Jett Howard</a>: out (calf), <a href=\"http://www.espn.com/nba/player/_/id/4683688/dereck-lively-ii\">Dereck Lively II</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4593125/santi-aldama\">Santi Aldama</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50245615"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50245615"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50245615"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909844"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909844",
     "uid": "s:40~l:46~e:401909844",
@@ -5349,153 +5528,6 @@
       ]
     }
   },
-  "article": {
-    "id": 50245615,
-    "nowId": "1-50245615",
-    "contentKey": "50245615-1-22-1",
-    "dataSourceIdentifier": "0932ac95efbcc",
-    "publishedkey": "nba401909844",
-    "type": "Preview",
-    "gameId": "401909844",
-    "headline": "Dallas travels to Indiana for non-conference matchup",
-    "description": "Dallas Mavericks (0-1, ninth in the Western Conference) vs. Indiana Pacers (1-0, seventh in the Eastern Conference)",
-    "title": "Dallas travels to Indiana for non-conference matchup",
-    "linkText": "Dallas travels to Indiana for non-conference matchup",
-    "categorized": "2026-10-22T06:05:12Z",
-    "originallyPosted": "2026-10-22T06:05:11Z",
-    "lastModified": "2026-10-22T06:05:12Z",
-    "published": "2026-10-22T06:05:11Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4438,
-        "type": "team",
-        "uid": "s:40~l:46~t:11",
-        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
-        "description": "Indiana Pacers",
-        "sportId": 46,
-        "teamId": 11,
-        "team": {
-          "id": 11,
-          "description": "Indiana Pacers",
-          "abbreviation": "IND",
-          "shortDisplayName": "Pacers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4485,
-        "type": "team",
-        "uid": "s:40~l:46~t:6",
-        "guid": "f00d1f4e-4ce6-d581-466c-5b52531cf7ad",
-        "description": "Dallas Mavericks",
-        "sportId": 46,
-        "teamId": 6,
-        "team": {
-          "id": 6,
-          "description": "Dallas Mavericks",
-          "abbreviation": "DAL",
-          "shortDisplayName": "Mavericks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909844",
-        "guid": "ed76a167-01a8-39cc-a738-f637c65ccc5f",
-        "description": "Dallas Mavericks @ Indiana Pacers",
-        "eventId": 401909844,
-        "event": {
-          "id": 401909844,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Dallas Mavericks @ Indiana Pacers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Indiana Pacers",
-      "Dallas Mavericks",
-      "Dallas Mavericks @ Indiana Pacers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/dal/dallas-mavericks\">Dallas Mavericks</a> (0-1, ninth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (1-0, seventh in the Eastern Conference)\n\n\r\n              Indianapolis; Friday, 7 p.m. EDT\n\n\r\n              BOTTOM LINE: Indiana and Dallas meet in non-conference action.\n\n\r\n              Indiana went 19-63 overall last season while going 11-30 at home. The Pacers gave up 120.4 points per game while committing 20.9 fouls last season.\n\n\r\n              Dallas finished 26-56 overall, 14-37 in Western Conference action and 10-31 on the road last season. The Mavericks allowed opponents to score 119.6 points per game and shoot 47.8% from the field last season.\n\n\r\n              INJURIES: Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396909/aaron-nesmith\">Aaron Nesmith</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/2530530/tj-mcconnell\">T.J. McConnell</a>: out (hamstring).\n\n\r\n              Mavericks: <a href=\"http://www.espn.com/nba/player/_/id/5148538/tarik-biberovic\">Tarik Biberovic</a>: out (heel), <a href=\"http://www.espn.com/nba/player/_/id/3138160/caleb-martin\">Caleb Martin</a>: out (thumb), <a href=\"http://www.espn.com/nba/player/_/id/5105806/jett-howard\">Jett Howard</a>: out (calf), <a href=\"http://www.espn.com/nba/player/_/id/4683688/dereck-lively-ii\">Dereck Lively II</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4593125/santi-aldama\">Santi Aldama</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50245615"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50245615"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50245615"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909844"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -5510,37 +5542,37 @@
         "type": "team"
       },
       {
-        "ticketName": "10/23 vs Mavericks 542 tickets left",
+        "ticketName": "10/23 vs Mavericks 371 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-23-2026/production/7432845?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/25 @ Nets 2341 tickets left",
+        "ticketName": "10/25 @ Nets 2296 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-10-25-2026/production/7432847?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Bucks 4346 tickets left",
+        "ticketName": "10/26 @ Bucks 4340 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-26-2026/production/7432849?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs 76ers 3378 tickets left",
+        "ticketName": "10/28 vs 76ers 3385 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-28-2026/production/7432851?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ Heat 5227 tickets left",
+        "ticketName": "10/30 @ Heat 5226 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-31-2026--sports-nba-basketball/production/7419660?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 vs Nets 2989 tickets left",
+        "ticketName": "11/1 vs Nets 2987 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-1-2026/production/7432853?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Hawks 3568 tickets left",
+        "ticketName": "11/2 vs Hawks 3594 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-2-2026/production/7432855?wsUser=717",
         "type": "event"
       },
@@ -5550,32 +5582,32 @@
         "type": "event"
       },
       {
-        "ticketName": "11/9 @ Mavericks 4926 tickets left",
+        "ticketName": "11/9 @ Mavericks 4936 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-9-2026/production/7432861?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Wizards 3242 tickets left",
+        "ticketName": "11/11 vs Wizards 3249 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-11-2026/production/7432863?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Knicks 3810 tickets left",
+        "ticketName": "11/13 vs Knicks 3818 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ 76ers 2590 tickets left",
+        "ticketName": "11/15 @ 76ers 2592 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Rockets 4256 tickets left",
+        "ticketName": "11/18 vs Rockets 4254 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Cavaliers 3469 tickets left",
+        "ticketName": "11/20 @ Cavaliers 3487 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-31-2026--sports-nba-basketball/production/7419581?wsUser=717",
         "type": "event"
       }
@@ -5584,7 +5616,7 @@
       "opponentTeamName": "Mavericks",
       "currentTeamName": "Pacers",
       "venueName": "Gainbridge Fieldhouse",
-      "summary": "Tickets as low as $78",
+      "summary": "Tickets as low as $104",
       "date": "2026-10-23T23:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6203,6 +6235,89 @@
               ]
             },
             {
+              "team": "Chicago",
+              "link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
+              "id": "4",
+              "uid": "s:40~l:46~t:4",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 1.0,
+                  "displayValue": "W1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5,
+                  "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                }
+              ]
+            },
+            {
               "team": "Cleveland",
               "link": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers",
               "id": "5",
@@ -6298,8 +6413,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "name": "losses",
@@ -6308,8 +6423,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "streak",
@@ -6318,8 +6433,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": -2.0,
+                  "displayValue": "L2"
                 },
                 {
                   "name": "winPercent",
@@ -6365,89 +6480,6 @@
                     "dark"
                   ],
                   "lastUpdated": "2024-06-25T21:14Z"
-                }
-              ]
-            },
-            {
-              "team": "Chicago",
-              "link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
-              "id": "4",
-              "uid": "s:40~l:46~t:4",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Wins",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
                 }
               ]
             }
