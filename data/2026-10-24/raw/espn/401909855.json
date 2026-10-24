@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909093",
@@ -663,6 +663,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -727,9 +729,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
         }
       ]
     },
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401908942",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909835",
@@ -1172,8 +1172,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -1238,7 +1236,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -1426,25 +1426,25 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Day-To-Day",
+                "status": "Out",
                 "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-10-23T21:03Z",
+                  "status": "Out",
+                  "date": "2026-10-24T17:06Z",
                   "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
+                    "id": "4",
+                    "name": "INJURY_STATUS_OUT",
+                    "description": "out",
+                    "abbreviation": "O"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
+                      "description": "OUT",
+                      "abbreviation": "OUT",
+                      "displayDescription": "Out"
                     },
                     "type": "Back",
                     "location": "Torso",
-                    "returnDate": "2026-10-24"
+                    "returnDate": "2026-10-25"
                   }
                 }
               },
@@ -1521,25 +1521,25 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Day-To-Day",
+                "status": "Out",
                 "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-10-23T21:03Z",
+                  "status": "Out",
+                  "date": "2026-10-24T17:06Z",
                   "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
+                    "id": "4",
+                    "name": "INJURY_STATUS_OUT",
+                    "description": "out",
+                    "abbreviation": "O"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
+                      "description": "OUT",
+                      "abbreviation": "OUT",
+                      "displayDescription": "Out"
                     },
                     "type": "Back",
                     "location": "Torso",
-                    "returnDate": "2026-10-24"
+                    "returnDate": "2026-10-25"
                   }
                 }
               },
@@ -2638,6 +2638,62 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-10-24T17:06Z",
+          "athlete": {
+            "id": "1966",
+            "uid": "s:40~l:46~a:1966",
+            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
+            "lastName": "James",
+            "fullName": "LeBron James",
+            "displayName": "LeBron James",
+            "shortName": "L. James",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+              "alt": "LeBron James"
+            },
+            "jersey": "23",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "returnDate": "2026-10-25"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-10-23T21:10Z",
           "athlete": {
             "id": "3904625",
@@ -2755,62 +2811,6 @@
             "location": "Leg",
             "detail": "Sprain",
             "side": "Left",
-            "returnDate": "2026-10-24"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-23T21:03Z",
-          "athlete": {
-            "id": "1966",
-            "uid": "s:40~l:46~a:1966",
-            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
-            "lastName": "James",
-            "fullName": "LeBron James",
-            "displayName": "LeBron James",
-            "shortName": "L. James",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
-              "alt": "LeBron James"
-            },
-            "jersey": "23",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Back",
-            "location": "Torso",
             "returnDate": "2026-10-24"
           }
         },
@@ -3027,7 +3027,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3047,12 +3047,12 @@
       "details": "PHI -12.5",
       "overUnder": 235.5,
       "spread": -12.5,
-      "overOdds": -108.0,
-      "underOdds": -112.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 490,
+        "moneyLine": 425,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/15?lang=en&region=us"
@@ -3063,7 +3063,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -675,
+        "moneyLine": -575,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
@@ -3078,7 +3078,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888782%3Foutcomes%3D0ML86897837_1",
           "text": "Home Bet",
@@ -3102,7 +3102,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888782%3Foutcomes%3D0ML86897837_3",
           "text": "Away Bet",
@@ -3235,14 +3235,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-675",
+            "odds": "-575",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888782%3Foutcomes%3D0ML86897837_1",
               "text": "Home Bet",
@@ -3267,14 +3267,14 @@
         },
         "away": {
           "close": {
-            "odds": "+490",
+            "odds": "+425",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888782%3Foutcomes%3D0ML86897837_3",
               "text": "Away Bet",
@@ -3376,7 +3376,7 @@
         "over": {
           "close": {
             "line": "o235.5",
-            "odds": "-108",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3410,7 +3410,7 @@
         "under": {
           "close": {
             "line": "u235.5",
-            "odds": "-112",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3644,8 +3644,8 @@
         "type": "HeadlineNews",
         "headline": "Sources: Magic's Banchero out multiple weeks with low-grade high ankle sprain",
         "description": "Magic star Paolo Banchero sustained a low-grade high ankle sprain and will miss multiple weeks, sources told ESPN's Shams Charania.",
-        "lastModified": "2026-10-24T16:45:44Z",
-        "published": "2026-10-24T16:45:44Z",
+        "lastModified": "2026-10-24T17:19:00Z",
+        "published": "2026-10-24T17:19:00Z",
         "images": [
           {
             "dataSourceIdentifier": "7a5477bc7f192",
@@ -3656,6 +3656,14 @@
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/1024/r1735465_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
+            "caption": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/038cf5f1-84ed-4e9f-a15b-96d37bb37752/038cf5f1-84ed-4e9f-a15b-96d37bb37752.jpg"
           }
         ],
         "categories": [
@@ -5737,47 +5745,47 @@
         "type": "team"
       },
       {
-        "ticketName": "10/24 vs Bucks 2442 tickets left",
+        "ticketName": "10/24 vs Bucks 2226 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-24-2026/production/7432883?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/25 vs Pistons 2828 tickets left",
+        "ticketName": "10/25 vs Pistons 2863 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Pacers 3189 tickets left",
+        "ticketName": "10/28 @ Pacers 3195 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-28-2026/production/7432851?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Knicks 3817 tickets left",
+        "ticketName": "10/30 vs Knicks 3815 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Hornets 6481 tickets left",
+        "ticketName": "10/31 @ Hornets 6479 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Pistons 4627 tickets left",
+        "ticketName": "11/4 @ Pistons 4630 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Cavaliers 2752 tickets left",
+        "ticketName": "11/6 @ Cavaliers 2736 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Bulls 3753 tickets left",
+        "ticketName": "11/8 @ Bulls 3746 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Celtics 4064 tickets left",
+        "ticketName": "11/10 vs Celtics 4054 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
         "type": "event"
       },
@@ -5787,22 +5795,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Pacers 2525 tickets left",
+        "ticketName": "11/15 vs Pacers 2505 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nets 4331 tickets left",
+        "ticketName": "11/16 @ Nets 4340 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Magic 4735 tickets left",
+        "ticketName": "11/18 @ Magic 4736 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Bucks 2912 tickets left",
+        "ticketName": "11/21 vs Bucks 2916 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       }
@@ -5811,7 +5819,7 @@
       "opponentTeamName": "Bucks",
       "currentTeamName": "76ers",
       "venueName": "Xfinity Mobile Arena",
-      "summary": "Tickets as low as $71",
+      "summary": "Tickets as low as $65",
       "date": "2026-10-24T23:30Z",
       "dateDay": "Sat",
       "homeAway": "home",

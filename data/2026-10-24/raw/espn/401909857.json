@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
         },
         {
           "id": "401908943",
@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909837",
@@ -1084,8 +1084,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -1150,7 +1148,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909846",
@@ -2731,6 +2731,62 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-10-24T16:58Z",
+          "athlete": {
+            "id": "5242496",
+            "uid": "s:40~l:46~a:5242496",
+            "guid": "13c2a19f-d803-32b5-a344-cf07dc594665",
+            "lastName": "Essengue",
+            "fullName": "Noa Essengue",
+            "displayName": "Noa Essengue",
+            "shortName": "N. Essengue",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5242496/noa-essengue",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5242496.png",
+              "alt": "Noa Essengue"
+            },
+            "jersey": "2",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Head",
+            "location": "Head",
+            "returnDate": "2026-10-24"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-10-19T17:38Z",
           "athlete": {
@@ -3049,7 +3105,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3067,10 +3123,10 @@
         ]
       },
       "details": "CHI -2.5",
-      "overUnder": 244.5,
+      "overUnder": 243.5,
       "spread": -2.5,
-      "overOdds": -105.0,
-      "underOdds": -115.0,
+      "overOdds": -115.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
@@ -3100,7 +3156,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0ML86897843_1",
           "text": "Home Bet",
@@ -3124,7 +3180,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0ML86897843_3",
           "text": "Away Bet",
@@ -3197,7 +3253,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843O24450_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843O24350_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3210,7 +3266,7 @@
               "gameId": 401909857,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:244.5"
+              "betDetails": "Over:243.5"
             }
           }
         },
@@ -3221,7 +3277,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843U24450_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843U24350_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3234,7 +3290,7 @@
               "gameId": 401909857,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:244.5"
+              "betDetails": "Under:243.5"
             }
           }
         },
@@ -3264,7 +3320,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0ML86897843_1",
               "text": "Home Bet",
@@ -3296,7 +3352,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0ML86897843_3",
               "text": "Away Bet",
@@ -3397,8 +3453,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o244.5",
-            "odds": "-105",
+            "line": "o243.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3406,7 +3462,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843O24450_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843O24350_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3419,7 +3475,7 @@
                   "gameId": 401909857,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:244.5"
+                  "betDetails": "Over:243.5"
                 }
               }
             }
@@ -3431,8 +3487,8 @@
         },
         "under": {
           "close": {
-            "line": "u244.5",
-            "odds": "-115",
+            "line": "u243.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3440,7 +3496,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843U24450_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888787%3Foutcomes%3D0OU86897843U24350_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3453,7 +3509,7 @@
                   "gameId": 401909857,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:244.5"
+                  "betDetails": "Under:243.5"
                 }
               }
             }
@@ -3652,8 +3708,8 @@
         "type": "HeadlineNews",
         "headline": "Sources: Magic's Banchero out multiple weeks with low-grade high ankle sprain",
         "description": "Magic star Paolo Banchero sustained a low-grade high ankle sprain and will miss multiple weeks, sources told ESPN's Shams Charania.",
-        "lastModified": "2026-10-24T16:45:44Z",
-        "published": "2026-10-24T16:45:44Z",
+        "lastModified": "2026-10-24T17:19:00Z",
+        "published": "2026-10-24T17:19:00Z",
         "images": [
           {
             "dataSourceIdentifier": "7a5477bc7f192",
@@ -3664,6 +3720,14 @@
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/1024/r1735465_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
+            "caption": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/038cf5f1-84ed-4e9f-a15b-96d37bb37752/038cf5f1-84ed-4e9f-a15b-96d37bb37752.jpg"
           }
         ],
         "categories": [
@@ -4755,20 +4819,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "4",
-      "gameProjection": "47.3",
-      "teamChanceLoss": "52.7"
-    },
-    "awayTeam": {
-      "id": "27",
-      "gameProjection": "52.7",
-      "teamChanceLoss": "47.3"
-    }
-  },
   "header": {
     "id": "401909857",
     "uid": "s:40~l:46~e:401909857",
@@ -5586,6 +5636,20 @@
       ]
     }
   },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "4",
+      "gameProjection": "47.3",
+      "teamChanceLoss": "52.7"
+    },
+    "awayTeam": {
+      "id": "27",
+      "gameProjection": "52.7",
+      "teamChanceLoss": "47.3"
+    }
+  },
   "article": {
     "id": 50263728,
     "nowId": "1-50263728",
@@ -5753,42 +5817,42 @@
         "type": "team"
       },
       {
-        "ticketName": "10/24 vs Wizards 1485 tickets left",
+        "ticketName": "10/24 vs Wizards 1409 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-24-2026/production/7433025?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Celtics 3257 tickets left",
+        "ticketName": "10/26 @ Celtics 3283 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-10-26-2026/production/7433060?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Knicks 4580 tickets left",
+        "ticketName": "10/28 vs Knicks 4567 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-28-2026/production/7432931?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ Celtics 4103 tickets left",
+        "ticketName": "10/30 @ Celtics 4100 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419729?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Knicks 3480 tickets left",
+        "ticketName": "11/4 @ Knicks 3460 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs 76ers 3753 tickets left",
+        "ticketName": "11/8 vs 76ers 3746 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Spurs 7106 tickets left",
+        "ticketName": "11/11 vs Spurs 7098 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-11-2026/production/7433015?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Hawks 4852 tickets left",
+        "ticketName": "11/13 vs Hawks 4826 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-30-2026--sports-nba-basketball/production/7419768?wsUser=717",
         "type": "event"
       },
@@ -5798,12 +5862,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Cavaliers 3273 tickets left",
+        "ticketName": "11/16 @ Cavaliers 3279 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-16-2026/production/7433072?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Nets 3454 tickets left",
+        "ticketName": "11/18 @ Nets 3452 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-18-2026/production/7433076?wsUser=717",
         "type": "event"
       },
@@ -5827,7 +5891,7 @@
       "opponentTeamName": "Wizards",
       "currentTeamName": "Bulls",
       "venueName": "United Center",
-      "summary": "Tickets as low as $71",
+      "summary": "Tickets as low as $66",
       "date": "2026-10-25T00:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
