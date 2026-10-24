@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Nick Buchert",
+        "displayName": "Nick Buchert",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Andy Nagy",
+        "displayName": "Andy Nagy",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "CJ Washington",
+        "displayName": "CJ Washington",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909843",
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -820,6 +852,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -884,9 +918,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
         },
         {
           "id": "401898400",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2551,8 +2583,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T19:34Z",
+          "status": "Out",
+          "date": "2026-10-24T23:15Z",
           "athlete": {
             "id": "2990992",
             "uid": "s:40~l:46~a:2990992",
@@ -2593,22 +2625,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Forearm",
             "location": "Arm",
             "detail": "Strain",
             "side": "Left",
-            "returnDate": "2026-10-24"
+            "returnDate": "2026-10-26"
           }
         },
         {
@@ -2669,67 +2701,6 @@
             "location": "Leg",
             "side": "Left",
             "returnDate": "2026-10-26"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T17:18Z",
-          "athlete": {
-            "id": "4711272",
-            "uid": "s:40~l:46~a:4711272",
-            "guid": "b2e3effa-a7ab-3837-8d7e-da8b05577441",
-            "lastName": "Sheppard",
-            "fullName": "Reed Sheppard",
-            "displayName": "Reed Sheppard",
-            "shortName": "R. Sheppard",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4711272/reed-sheppard",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4711272.png",
-              "alt": "Reed Sheppard"
-            },
-            "jersey": "15",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4711272?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "detail": "Bruise",
-            "side": "Left",
-            "returnDate": "2026-10-24"
           }
         },
         {
@@ -4406,20 +4377,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "1",
-      "gameProjection": "57.3",
-      "teamChanceLoss": "42.7"
-    },
-    "awayTeam": {
-      "id": "10",
-      "gameProjection": "42.7",
-      "teamChanceLoss": "57.3"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909856",
     "uid": "s:40~l:46~e:401909856",
@@ -5213,6 +5170,20 @@
       ]
     }
   },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "1",
+      "gameProjection": "57.3",
+      "teamChanceLoss": "42.7"
+    },
+    "awayTeam": {
+      "id": "10",
+      "gameProjection": "42.7",
+      "teamChanceLoss": "57.3"
+    }
+  },
   "article": {
     "id": 50263723,
     "nowId": "1-50263723",
@@ -5380,57 +5351,57 @@
         "type": "team"
       },
       {
-        "ticketName": "10/24 vs Rockets 423 tickets left",
+        "ticketName": "10/24 vs Rockets 251 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-24-2026/production/7432947?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Rockets 3748 tickets left",
+        "ticketName": "10/26 @ Rockets 3772 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Heat 3944 tickets left",
+        "ticketName": "10/28 vs Heat 3936 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-28-2026/production/7432871?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/29 vs Cavaliers 4155 tickets left",
+        "ticketName": "10/29 vs Cavaliers 4044 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-29-2026/production/7432823?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Pelicans 2614 tickets left",
+        "ticketName": "10/31 @ Pelicans 2622 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-31-2026/production/7432797?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Pacers 3533 tickets left",
+        "ticketName": "11/2 @ Pacers 3532 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-2-2026/production/7432855?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Wizards 7523 tickets left",
+        "ticketName": "11/4 @ Wizards 7540 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-4-2026/production/7433028?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Wizards 3661 tickets left",
+        "ticketName": "11/6 vs Wizards 3653 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-31-2026--sports-nba-basketball/production/7419727?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Nets 4301 tickets left",
+        "ticketName": "11/7 vs Nets 4287 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-7-2026/production/7433062?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Lakers 4541 tickets left",
+        "ticketName": "11/9 vs Lakers 4544 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-9-2026/production/7433066?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Bulls 4792 tickets left",
+        "ticketName": "11/13 @ Bulls 4769 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-30-2026--sports-nba-basketball/production/7419768?wsUser=717",
         "type": "event"
       },
@@ -5440,12 +5411,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Thunder 2012 tickets left",
+        "ticketName": "11/18 @ Thunder 2009 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-18-2026/production/7433070?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Hornets 4140 tickets left",
+        "ticketName": "11/20 vs Hornets 4147 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
         "type": "event"
       },
@@ -5459,7 +5430,7 @@
       "opponentTeamName": "Rockets",
       "currentTeamName": "Hawks",
       "venueName": "State Farm Arena",
-      "summary": "Tickets as low as $76",
+      "summary": "Tickets as low as $94",
       "date": "2026-10-25T00:30Z",
       "dateDay": "Sat",
       "homeAway": "home",
