@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
         },
         {
           "id": "401898408",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898400",
@@ -1172,8 +1172,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -1238,7 +1236,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2551,6 +2551,67 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-10-24T19:34Z",
+          "athlete": {
+            "id": "2990992",
+            "uid": "s:40~l:46~a:2990992",
+            "guid": "f5096a5b-cbc5-1d7f-d406-56c623c434e5",
+            "lastName": "Smart",
+            "fullName": "Marcus Smart",
+            "displayName": "Marcus Smart",
+            "shortName": "M. Smart",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/2990992/marcus-smart",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/2990992.png",
+              "alt": "Marcus Smart"
+            },
+            "jersey": "36",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/61669?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Forearm",
+            "location": "Arm",
+            "detail": "Strain",
+            "side": "Left",
+            "returnDate": "2026-10-24"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-10-24T17:20Z",
           "athlete": {
@@ -3318,20 +3379,6 @@
       "records": []
     }
   ],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "1",
-      "gameProjection": "57.3",
-      "teamChanceLoss": "42.7"
-    },
-    "awayTeam": {
-      "id": "10",
-      "gameProjection": "42.7",
-      "teamChanceLoss": "57.3"
-    }
-  },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -4359,6 +4406,167 @@
       }
     ]
   },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "1",
+      "gameProjection": "57.3",
+      "teamChanceLoss": "42.7"
+    },
+    "awayTeam": {
+      "id": "10",
+      "gameProjection": "42.7",
+      "teamChanceLoss": "57.3"
+    }
+  },
+  "article": {
+    "id": 50263723,
+    "nowId": "1-50263723",
+    "contentKey": "50263723-1-22-1",
+    "dataSourceIdentifier": "c4e23c1cc8d3e",
+    "publishedkey": "nba401909856",
+    "type": "Preview",
+    "gameId": "401909856",
+    "headline": "Atlanta plays Houston for out-of-conference matchup",
+    "description": "Houston Rockets (1-0, third in the Western Conference) vs. Atlanta Hawks (2-0, first in the Eastern Conference)",
+    "title": "Atlanta plays Houston for out-of-conference matchup",
+    "linkText": "Atlanta plays Houston for out-of-conference matchup",
+    "categorized": "2026-10-24T06:02:50Z",
+    "originallyPosted": "2026-10-24T06:02:49Z",
+    "lastModified": "2026-10-24T06:02:50Z",
+    "published": "2026-10-24T06:02:49Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4358,
+        "type": "team",
+        "uid": "s:40~l:46~t:1",
+        "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
+        "description": "Atlanta Hawks",
+        "sportId": 46,
+        "teamId": 1,
+        "team": {
+          "id": 1,
+          "description": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "shortDisplayName": "Hawks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4517,
+        "type": "team",
+        "uid": "s:40~l:46~t:10",
+        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+        "description": "Houston Rockets",
+        "sportId": 46,
+        "teamId": 10,
+        "team": {
+          "id": 10,
+          "description": "Houston Rockets",
+          "abbreviation": "HOU",
+          "shortDisplayName": "Rockets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909856",
+        "guid": "08a42943-f8a2-3f2f-a208-86f4a05909ed",
+        "description": "Houston Rockets @ Atlanta Hawks",
+        "eventId": 401909856,
+        "event": {
+          "id": 401909856,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Houston Rockets @ Atlanta Hawks"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Atlanta Hawks",
+      "Houston Rockets",
+      "Houston Rockets @ Atlanta Hawks"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (1-0, third in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/atl/atlanta-hawks\">Atlanta Hawks</a> (2-0, first in the Eastern Conference)\n\n\r\n              Atlanta; Saturday, 8:30 p.m. EDT\n\n\r\n              LINE: Hawks -1.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: Atlanta and Houston square off in non-conference action.\n\n\r\n              Atlanta finished 46-36 overall last season while going 24-17 at home. The Hawks averaged 9.4 steals, 4.7 blocks and 13.4 turnovers per game last season.\n\n\r\n              Houston finished 52-30 overall with a 22-19 record on the road last season. The Rockets gave up 110.0 points per game while committing 18.3 fouls last season.\n\n\r\n              INJURIES: Hawks: <a href=\"http://www.espn.com/nba/player/_/id/5105571/henri-veesaar\">Henri Veesaar</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a>: out (foot).\n\n\r\n              Rockets: <a href=\"http://www.espn.com/nba/player/_/id/4711272/reed-sheppard\">Reed Sheppard</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50263723"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50263723"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50263723"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909856"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909856",
     "uid": "s:40~l:46~e:401909856",
@@ -5152,160 +5360,7 @@
       ]
     }
   },
-  "article": {
-    "id": 50263723,
-    "nowId": "1-50263723",
-    "contentKey": "50263723-1-22-1",
-    "dataSourceIdentifier": "c4e23c1cc8d3e",
-    "publishedkey": "nba401909856",
-    "type": "Preview",
-    "gameId": "401909856",
-    "headline": "Atlanta plays Houston for out-of-conference matchup",
-    "description": "Houston Rockets (1-0, third in the Western Conference) vs. Atlanta Hawks (2-0, first in the Eastern Conference)",
-    "title": "Atlanta plays Houston for out-of-conference matchup",
-    "linkText": "Atlanta plays Houston for out-of-conference matchup",
-    "categorized": "2026-10-24T06:02:50Z",
-    "originallyPosted": "2026-10-24T06:02:49Z",
-    "lastModified": "2026-10-24T06:02:50Z",
-    "published": "2026-10-24T06:02:49Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4358,
-        "type": "team",
-        "uid": "s:40~l:46~t:1",
-        "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-        "description": "Atlanta Hawks",
-        "sportId": 46,
-        "teamId": 1,
-        "team": {
-          "id": 1,
-          "description": "Atlanta Hawks",
-          "abbreviation": "ATL",
-          "shortDisplayName": "Hawks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4517,
-        "type": "team",
-        "uid": "s:40~l:46~t:10",
-        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-        "description": "Houston Rockets",
-        "sportId": 46,
-        "teamId": 10,
-        "team": {
-          "id": 10,
-          "description": "Houston Rockets",
-          "abbreviation": "HOU",
-          "shortDisplayName": "Rockets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909856",
-        "guid": "08a42943-f8a2-3f2f-a208-86f4a05909ed",
-        "description": "Houston Rockets @ Atlanta Hawks",
-        "eventId": 401909856,
-        "event": {
-          "id": 401909856,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Houston Rockets @ Atlanta Hawks"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Atlanta Hawks",
-      "Houston Rockets",
-      "Houston Rockets @ Atlanta Hawks"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (1-0, third in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/atl/atlanta-hawks\">Atlanta Hawks</a> (2-0, first in the Eastern Conference)\n\n\r\n              Atlanta; Saturday, 8:30 p.m. EDT\n\n\r\n              LINE: Hawks -1.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: Atlanta and Houston square off in non-conference action.\n\n\r\n              Atlanta finished 46-36 overall last season while going 24-17 at home. The Hawks averaged 9.4 steals, 4.7 blocks and 13.4 turnovers per game last season.\n\n\r\n              Houston finished 52-30 overall with a 22-19 record on the road last season. The Rockets gave up 110.0 points per game while committing 18.3 fouls last season.\n\n\r\n              INJURIES: Hawks: <a href=\"http://www.espn.com/nba/player/_/id/5105571/henri-veesaar\">Henri Veesaar</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a>: out (foot).\n\n\r\n              Rockets: <a href=\"http://www.espn.com/nba/player/_/id/4711272/reed-sheppard\">Reed Sheppard</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50263723"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50263723"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50263723"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909856"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909856",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5319,17 +5374,17 @@
         "type": "team"
       },
       {
-        "ticketName": "10/24 vs Rockets 729 tickets left",
+        "ticketName": "10/24 vs Rockets 655 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-24-2026/production/7432947?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Rockets 3750 tickets left",
+        "ticketName": "10/26 @ Rockets 3760 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Heat 3949 tickets left",
+        "ticketName": "10/28 vs Heat 3936 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-28-2026/production/7432871?wsUser=717",
         "type": "event"
       },
@@ -5339,22 +5394,22 @@
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Pelicans 2732 tickets left",
+        "ticketName": "10/31 @ Pelicans 2749 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-31-2026/production/7432797?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Pacers 3540 tickets left",
+        "ticketName": "11/2 @ Pacers 3539 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-2-2026/production/7432855?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Wizards 7519 tickets left",
+        "ticketName": "11/4 @ Wizards 7525 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-4-2026/production/7433028?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Wizards 3685 tickets left",
+        "ticketName": "11/6 vs Wizards 3679 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-31-2026--sports-nba-basketball/production/7419727?wsUser=717",
         "type": "event"
       },
@@ -5369,12 +5424,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Bulls 4862 tickets left",
+        "ticketName": "11/13 @ Bulls 4819 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-30-2026--sports-nba-basketball/production/7419768?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Bucks 4619 tickets left",
+        "ticketName": "11/15 @ Bucks 6174 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-15-2026/production/7432897?wsUser=717",
         "type": "event"
       },
@@ -5384,12 +5439,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Hornets 4149 tickets left",
+        "ticketName": "11/20 vs Hornets 4146 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Pistons 3398 tickets left",
+        "ticketName": "11/22 vs Pistons 3397 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-22-2026/production/7433074?wsUser=717",
         "type": "event"
       }
@@ -5398,7 +5453,7 @@
       "opponentTeamName": "Rockets",
       "currentTeamName": "Hawks",
       "venueName": "State Farm Arena",
-      "summary": "Tickets as low as $51",
+      "summary": "Tickets as low as $53",
       "date": "2026-10-25T00:30Z",
       "dateDay": "Sat",
       "homeAway": "home",
@@ -5408,6 +5463,12 @@
       "teamLink": "https://www.vividseats.com/atlanta-hawks-tickets--sports-nba-basketball/performer/52?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909856",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
