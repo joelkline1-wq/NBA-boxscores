@@ -486,8 +486,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -552,7 +550,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909842",
@@ -662,8 +662,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -728,7 +726,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -907,6 +907,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -971,9 +973,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
         },
         {
           "id": "401901822",
@@ -995,8 +995,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -1061,7 +1059,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909838",
@@ -1083,8 +1083,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1149,7 +1147,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909850",
@@ -1171,8 +1171,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -1237,7 +1235,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3615,20 +3615,6 @@
       "records": []
     }
   ],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "23",
-      "gameProjection": "39.1",
-      "teamChanceLoss": "60.9"
-    },
-    "awayTeam": {
-      "id": "29",
-      "gameProjection": "60.9",
-      "teamChanceLoss": "39.1"
-    }
-  },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -4870,6 +4856,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "23",
+      "gameProjection": "39.1",
+      "teamChanceLoss": "60.9"
+    },
+    "awayTeam": {
+      "id": "29",
+      "gameProjection": "60.9",
+      "teamChanceLoss": "39.1"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401909867",
     "uid": "s:40~l:46~e:401909867",
@@ -5683,109 +5683,6 @@
       ]
     }
   },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Kings Tickets",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets--sports-nba-basketball/performer/748?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/25 vs Grizzlies 3627 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-25-2026/production/7432989?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/27 @ Spurs 1955 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-27-2026/production/7432991?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/29 @ Pelicans 1970 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-29-2026/production/7432795?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 @ Grizzlies 3879 tickets left",
-        "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026/production/7432993?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 @ Mavericks 6445 tickets left",
-        "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-2-2026/production/7432995?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 vs Lakers 6100 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-4-2026/production/7432997?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 vs Spurs 7450 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-31-2026--sports-nba-basketball/production/7420237?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/8 vs Heat 7631 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/10 vs Magic 6287 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-10-2026/production/7432999?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/13 vs Trail Blazers 7944 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 vs Thunder 7062 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 vs Suns 7093 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Lakers 5533 tickets left",
-        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-31-2026--sports-nba-basketball/production/7420174?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Celtics 6561 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-21-2026/production/7433003?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Spurs 5676 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Grizzlies",
-      "currentTeamName": "Kings",
-      "venueName": "Golden 1 Center",
-      "summary": "Tickets as low as $16",
-      "date": "2026-10-26T01:00Z",
-      "dateDay": "Sun",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-25-2026/production/7432989?wsUser=717",
-      "venueLink": "https://www.vividseats.com/golden-1-center-tickets/venue/14626?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/sacramento-kings-tickets--sports-nba-basketball/performer/748?wsUser=717",
-      "timeValid": true
-    }
-  },
   "article": {
     "id": 50263937,
     "nowId": "1-50263937",
@@ -5934,6 +5831,109 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Kings Tickets",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets--sports-nba-basketball/performer/748?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/25 vs Grizzlies 4623 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-25-2026/production/7432989?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/27 @ Spurs 1948 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-27-2026/production/7432991?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/29 @ Pelicans 1986 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-29-2026/production/7432795?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Grizzlies 3892 tickets left",
+        "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026/production/7432993?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 @ Mavericks 6454 tickets left",
+        "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-2-2026/production/7432995?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 vs Lakers 6098 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-4-2026/production/7432997?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 vs Spurs 7449 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-31-2026--sports-nba-basketball/production/7420237?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/8 vs Heat 7635 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/10 vs Magic 6287 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-10-2026/production/7432999?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/13 vs Trail Blazers 7944 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 vs Thunder 7068 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 vs Suns 7102 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Lakers 5542 tickets left",
+        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-31-2026--sports-nba-basketball/production/7420174?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Celtics 6556 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-21-2026/production/7433003?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Spurs 5676 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Grizzlies",
+      "currentTeamName": "Kings",
+      "venueName": "Golden 1 Center",
+      "summary": "Tickets as low as $16",
+      "date": "2026-10-26T01:00Z",
+      "dateDay": "Sun",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-25-2026/production/7432989?wsUser=717",
+      "venueLink": "https://www.vividseats.com/golden-1-center-tickets/venue/14626?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/sacramento-kings-tickets--sports-nba-basketball/performer/748?wsUser=717",
+      "timeValid": true
+    }
+  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909867",
     "gameSwitcherEnabled": true,
