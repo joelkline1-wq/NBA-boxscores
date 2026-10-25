@@ -662,8 +662,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -728,7 +726,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -819,8 +819,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -885,7 +883,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401908621",
@@ -1171,6 +1171,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -1235,9 +1237,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
         }
       ]
     }
@@ -3317,7 +3317,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3368,7 +3368,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888794%3Foutcomes%3D0ML86897855_1",
           "text": "Home Bet",
@@ -3392,7 +3392,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888794%3Foutcomes%3D0ML86897855_3",
           "text": "Away Bet",
@@ -3532,7 +3532,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888794%3Foutcomes%3D0ML86897855_1",
               "text": "Home Bet",
@@ -3564,7 +3564,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888794%3Foutcomes%3D0ML86897855_3",
               "text": "Away Bet",
@@ -3896,20 +3896,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "17",
-      "gameProjection": "36.1",
-      "teamChanceLoss": "63.9"
-    },
-    "awayTeam": {
-      "id": "11",
-      "gameProjection": "63.9",
-      "teamChanceLoss": "36.1"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5212,6 +5198,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "17",
+      "gameProjection": "35.8",
+      "teamChanceLoss": "64.2"
+    },
+    "awayTeam": {
+      "id": "11",
+      "gameProjection": "64.2",
+      "teamChanceLoss": "35.8"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401909862",
     "uid": "s:40~l:46~e:401909862",
@@ -6206,32 +6206,32 @@
         "type": "team"
       },
       {
-        "ticketName": "10/25 vs Pacers 1020 tickets left",
+        "ticketName": "10/25 vs Pacers 943 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-10-25-2026/production/7432847?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/27 @ Celtics 3994 tickets left",
+        "ticketName": "10/27 @ Celtics 3982 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-10-27-2026/production/7433154?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Pistons 4432 tickets left",
+        "ticketName": "10/30 vs Pistons 4416 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-10-30-2026--sports-nba-basketball/production/7418359?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 @ Pacers 2466 tickets left",
+        "ticketName": "11/1 @ Pacers 2459 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-1-2026/production/7432853?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Knicks 3803 tickets left",
+        "ticketName": "11/2 @ Knicks 3805 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-2-2026/production/7432933?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Hornets 4618 tickets left",
+        "ticketName": "11/4 vs Hornets 4594 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-4-2026/production/7432771?wsUser=717",
         "type": "event"
       },
@@ -6241,12 +6241,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Mavericks 5208 tickets left",
+        "ticketName": "11/8 @ Mavericks 5222 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-8-2026/production/7433118?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Pelicans 2505 tickets left",
+        "ticketName": "11/11 @ Pelicans 2705 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-11-2026/production/7432807?wsUser=717",
         "type": "event"
       },
@@ -6256,18 +6256,13 @@
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs 76ers 4247 tickets left",
+        "ticketName": "11/16 vs 76ers 4276 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bulls 3420 tickets left",
+        "ticketName": "11/18 vs Bulls 3428 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-18-2026/production/7433076?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 vs Magic 4771 tickets left",
-        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-10-31-2026--sports-nba-basketball/production/7418387?wsUser=717",
         "type": "event"
       },
       {
@@ -6285,7 +6280,7 @@
       "opponentTeamName": "Pacers",
       "currentTeamName": "Nets",
       "venueName": "Barclays Center",
-      "summary": "Tickets as low as $33",
+      "summary": "Tickets as low as $32",
       "date": "2026-10-25T22:00Z",
       "dateDay": "Sun",
       "homeAway": "home",
