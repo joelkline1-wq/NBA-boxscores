@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
         },
         {
           "id": "401909093",
@@ -1084,6 +1084,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -1148,9 +1150,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         },
         {
           "id": "401909847",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
         }
       ]
     }
@@ -2563,6 +2563,66 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-10-25T21:08Z",
+          "athlete": {
+            "id": "5124612",
+            "uid": "s:40~l:46~a:5124612",
+            "guid": "d5a0355a-95f4-38ed-b96d-ea0302ebbd0b",
+            "lastName": "Edgecombe",
+            "fullName": "VJ Edgecombe",
+            "displayName": "VJ Edgecombe",
+            "shortName": "V. Edgecombe",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5124612/vj-edgecombe",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
+              "alt": "VJ Edgecombe"
+            },
+            "jersey": "77",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5124612?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Abdomen",
+            "location": "Torso",
+            "detail": "Bruise",
+            "returnDate": "2026-10-25"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-10-25T17:13Z",
           "athlete": {
@@ -2801,64 +2861,6 @@
             "side": "Not Specified",
             "returnDate": "2026-11-02"
           }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-06T19:17Z",
-          "athlete": {
-            "id": "4871141",
-            "uid": "s:40~l:46~a:4871141",
-            "guid": "a6049cfa-a67e-3f3b-b609-5dba889ec7a6",
-            "lastName": "Hukporti",
-            "fullName": "Ariel Hukporti",
-            "displayName": "Ariel Hukporti",
-            "shortName": "A. Hukporti",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png",
-              "alt": "Ariel Hukporti"
-            },
-            "jersey": "55",
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OFS",
-              "abbreviation": "OFS",
-              "displayDescription": "OFS"
-            },
-            "type": "Achilles",
-            "location": "Leg",
-            "detail": "Surgery",
-            "side": "Right",
-            "returnDate": "2027-10-01"
-          }
         }
       ]
     },
@@ -3055,7 +3057,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3073,15 +3075,15 @@
         ]
       },
       "details": "DET -1.5",
-      "overUnder": 228.5,
+      "overUnder": 227.5,
       "spread": 1.5,
-      "overOdds": -108.0,
-      "underOdds": -112.0,
+      "overOdds": -115.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -112,
-        "spreadOdds": -102.0,
+        "moneyLine": -130,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -3091,8 +3093,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": -108,
-        "spreadOdds": -118.0,
+        "moneyLine": 110,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
         },
@@ -3106,7 +3108,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0ML86898039_1",
           "text": "Home Bet",
@@ -3130,7 +3132,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0ML86898039_3",
           "text": "Away Bet",
@@ -3203,7 +3205,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039O22850_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039O22750_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3216,7 +3218,7 @@
               "gameId": 401909866,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:228.5"
+              "betDetails": "Over:227.5"
             }
           }
         },
@@ -3227,7 +3229,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039U22850_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039U22750_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3240,7 +3242,7 @@
               "gameId": 401909866,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:228.5"
+              "betDetails": "Under:227.5"
             }
           }
         },
@@ -3263,14 +3265,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-108",
+            "odds": "+110",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0ML86898039_1",
               "text": "Home Bet",
@@ -3295,14 +3297,14 @@
         },
         "away": {
           "close": {
-            "odds": "-112",
+            "odds": "-130",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0ML86898039_3",
               "text": "Away Bet",
@@ -3332,7 +3334,7 @@
         "home": {
           "close": {
             "line": "+1.5",
-            "odds": "-118",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3366,7 +3368,7 @@
         "away": {
           "close": {
             "line": "-1.5",
-            "odds": "-102",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3403,8 +3405,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o228.5",
-            "odds": "-108",
+            "line": "o227.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3412,7 +3414,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039O22850_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039O22750_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3425,7 +3427,7 @@
                   "gameId": 401909866,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:228.5"
+                  "betDetails": "Over:227.5"
                 }
               }
             }
@@ -3437,8 +3439,8 @@
         },
         "under": {
           "close": {
-            "line": "u228.5",
-            "odds": "-112",
+            "line": "u227.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3446,7 +3448,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039U22850_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888879%3Foutcomes%3D0OU86898039U22750_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3459,7 +3461,7 @@
                   "gameId": 401909866,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:228.5"
+                  "betDetails": "Under:227.5"
                 }
               }
             }
@@ -3634,6 +3636,7 @@
       "records": []
     }
   ],
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -4910,154 +4913,6 @@
       "teamChanceLoss": "59.7"
     }
   },
-  "winprobability": [],
-  "article": {
-    "id": 50274497,
-    "nowId": "1-50274497",
-    "contentKey": "50274497-1-22-1",
-    "dataSourceIdentifier": "b4f7f89c56159",
-    "publishedkey": "nba401909866",
-    "type": "Preview",
-    "gameId": "401909866",
-    "headline": "76ers face the Pistons on 3-game win streak",
-    "description": "Detroit Pistons (2-0, second in the Eastern Conference) vs. Philadelphia 76ers (3-0, first in the Eastern Conference)",
-    "title": "76ers face the Pistons on 3-game win streak",
-    "linkText": "76ers face the Pistons on 3-game win streak",
-    "categorized": "2026-10-25T06:03:51Z",
-    "originallyPosted": "2026-10-25T06:03:49Z",
-    "lastModified": "2026-10-25T06:03:50Z",
-    "published": "2026-10-25T06:03:49Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4323,
-        "type": "team",
-        "uid": "s:40~l:46~t:20",
-        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-        "description": "Philadelphia 76ers",
-        "sportId": 46,
-        "teamId": 20,
-        "team": {
-          "id": 20,
-          "description": "Philadelphia 76ers",
-          "abbreviation": "PHI",
-          "shortDisplayName": "76ers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909866",
-        "guid": "6c308e3e-2777-36df-a6db-2ccec8c3844c",
-        "description": "Detroit Pistons @ Philadelphia 76ers",
-        "eventId": 401909866,
-        "event": {
-          "id": 401909866,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ Philadelphia 76ers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Philadelphia 76ers",
-      "Detroit Pistons",
-      "Detroit Pistons @ Philadelphia 76ers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (2-0, second in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (3-0, first in the Eastern Conference)\n\n\r\n              Philadelphia; Sunday, 7:30 p.m. EDT\n\n\r\n              LINE: 76ers -2.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: Philadelphia will try to build upon its three-game win streak with a victory over Detroit.\n\n\r\n              Philadelphia went 45-37 overall and 27-25 in Eastern Conference action a season ago. The 76ers gave up 116.1 points per game while committing 20.3 fouls last season.\n\n\r\n              Detroit went 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons averaged 10.4 steals, 6.4 blocks and 14.2 turnovers per game last season.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: out (hip), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/1966/lebron-james\">LeBron James</a>: out (back).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50274497"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50274497"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50274497"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909866"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909866",
     "uid": "s:40~l:46~e:401909866",
@@ -5855,13 +5710,154 @@
       ]
     }
   },
-  "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909866",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
+  "article": {
+    "id": 50274497,
+    "nowId": "1-50274497",
+    "contentKey": "50274497-1-22-1",
+    "dataSourceIdentifier": "b4f7f89c56159",
+    "publishedkey": "nba401909866",
+    "type": "Preview",
+    "gameId": "401909866",
+    "headline": "76ers face the Pistons on 3-game win streak",
+    "description": "Detroit Pistons (2-0, second in the Eastern Conference) vs. Philadelphia 76ers (3-0, first in the Eastern Conference)",
+    "title": "76ers face the Pistons on 3-game win streak",
+    "linkText": "76ers face the Pistons on 3-game win streak",
+    "categorized": "2026-10-25T06:03:51Z",
+    "originallyPosted": "2026-10-25T06:03:49Z",
+    "lastModified": "2026-10-25T06:03:50Z",
+    "published": "2026-10-25T06:03:49Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4323,
+        "type": "team",
+        "uid": "s:40~l:46~t:20",
+        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+        "description": "Philadelphia 76ers",
+        "sportId": 46,
+        "teamId": 20,
+        "team": {
+          "id": 20,
+          "description": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "shortDisplayName": "76ers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909866",
+        "guid": "6c308e3e-2777-36df-a6db-2ccec8c3844c",
+        "description": "Detroit Pistons @ Philadelphia 76ers",
+        "eventId": 401909866,
+        "event": {
+          "id": 401909866,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ Philadelphia 76ers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Philadelphia 76ers",
+      "Detroit Pistons",
+      "Detroit Pistons @ Philadelphia 76ers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (2-0, second in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (3-0, first in the Eastern Conference)\n\n\r\n              Philadelphia; Sunday, 7:30 p.m. EDT\n\n\r\n              LINE: 76ers -2.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: Philadelphia will try to build upon its three-game win streak with a victory over Detroit.\n\n\r\n              Philadelphia went 45-37 overall and 27-25 in Eastern Conference action a season ago. The 76ers gave up 116.1 points per game while committing 20.3 fouls last season.\n\n\r\n              Detroit went 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons averaged 10.4 steals, 6.4 blocks and 14.2 turnovers per game last season.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: out (hip), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/1966/lebron-james\">LeBron James</a>: out (back).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50274497"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50274497"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50274497"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909866"
+      }
+    },
+    "premium": false
   },
+  "videos": [],
+  "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
       {
@@ -5875,77 +5871,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/25 vs Pistons 936 tickets left",
+        "ticketName": "10/25 vs Pistons 637 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Pacers 3005 tickets left",
+        "ticketName": "10/28 @ Pacers 3007 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-28-2026/production/7432851?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Knicks 3792 tickets left",
+        "ticketName": "10/30 vs Knicks 3826 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Hornets 6394 tickets left",
+        "ticketName": "10/31 @ Hornets 6395 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Bulls 2884 tickets left",
+        "ticketName": "11/2 vs Bulls 2862 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Pistons 4556 tickets left",
+        "ticketName": "11/4 @ Pistons 4551 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Cavaliers 2867 tickets left",
+        "ticketName": "11/6 @ Cavaliers 2682 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Bulls 3612 tickets left",
+        "ticketName": "11/8 @ Bulls 3609 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Celtics 4064 tickets left",
+        "ticketName": "11/10 vs Celtics 4036 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Raptors 2786 tickets left",
+        "ticketName": "11/12 vs Raptors 2754 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Pacers 2412 tickets left",
+        "ticketName": "11/15 vs Pacers 2402 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nets 4279 tickets left",
+        "ticketName": "11/16 @ Nets 4290 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Magic 4721 tickets left",
+        "ticketName": "11/18 @ Magic 4706 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Bucks 2906 tickets left",
+        "ticketName": "11/21 vs Bucks 2871 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Trail Blazers 2944 tickets left",
+        "ticketName": "11/23 vs Trail Blazers 2909 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
         "type": "event"
       }
@@ -5964,6 +5960,12 @@
       "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909866",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

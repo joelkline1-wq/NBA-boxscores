@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "John Goble",
+        "displayName": "John Goble",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Andy Nagy",
+        "displayName": "Andy Nagy",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "JD Ralls",
+        "displayName": "JD Ralls",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -2581,8 +2613,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T21:34Z",
+          "status": "Out",
+          "date": "2026-10-25T21:25Z",
           "athlete": {
             "id": "4277869",
             "uid": "s:40~l:46~a:4277869",
@@ -2623,22 +2655,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Ankle",
             "location": "Leg",
             "detail": "Sprain",
             "side": "Left",
-            "returnDate": "2026-10-25"
+            "returnDate": "2026-10-27"
           }
         }
       ]
@@ -2768,67 +2800,6 @@
             "detail": "Not Specified",
             "side": "Left",
             "returnDate": "2026-10-28"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T17:28Z",
-          "athlete": {
-            "id": "4712849",
-            "uid": "s:40~l:46~a:4712849",
-            "guid": "819d6a57-b641-309d-bfbb-555428f8950e",
-            "lastName": "Black",
-            "fullName": "Anthony Black",
-            "displayName": "Anthony Black",
-            "shortName": "A. Black",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4712849/anthony-black",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png",
-              "alt": "Anthony Black"
-            },
-            "jersey": "0",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4712849?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Right",
-            "returnDate": "2026-10-25"
           }
         },
         {
@@ -3019,7 +2990,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3036,16 +3007,16 @@
           }
         ]
       },
-      "details": "NY -7.5",
+      "details": "NY -6.5",
       "overUnder": 224.5,
-      "spread": -7.5,
+      "spread": -6.5,
       "overOdds": -108.0,
       "underOdds": -112.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 230,
-        "spreadOdds": -115.0,
+        "moneyLine": 220,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/19?lang=en&region=us"
         },
@@ -3055,8 +3026,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -285,
-        "spreadOdds": -105.0,
+        "moneyLine": -270,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3070,7 +3041,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0ML86898037_1",
           "text": "Home Bet",
@@ -3094,7 +3065,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0ML86898037_3",
           "text": "Away Bet",
@@ -3119,7 +3090,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037N750_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037N650_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3132,7 +3103,7 @@
               "gameId": 401909863,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:NY-7.5"
+              "betDetails": "Spread:NY-6.5"
             }
           }
         },
@@ -3143,7 +3114,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037P750_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037P650_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3156,7 +3127,7 @@
               "gameId": 401909863,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:ORL+7.5"
+              "betDetails": "Spread:ORL+6.5"
             }
           }
         },
@@ -3227,14 +3198,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-285",
+            "odds": "-270",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0ML86898037_1",
               "text": "Home Bet",
@@ -3259,14 +3230,14 @@
         },
         "away": {
           "close": {
-            "odds": "+230",
+            "odds": "+220",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0ML86898037_3",
               "text": "Away Bet",
@@ -3295,8 +3266,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-7.5",
-            "odds": "-105",
+            "line": "-6.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3304,7 +3275,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037N750_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037N650_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3317,7 +3288,7 @@
                   "gameId": 401909863,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:NY-7.5"
+                  "betDetails": "Spread:NY-6.5"
                 }
               }
             }
@@ -3329,8 +3300,8 @@
         },
         "away": {
           "close": {
-            "line": "+7.5",
-            "odds": "-115",
+            "line": "+6.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3338,7 +3309,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037P750_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888877%3Foutcomes%3D0HC86898037P650_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3351,7 +3322,7 @@
                   "gameId": 401909863,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:ORL+7.5"
+                  "betDetails": "Spread:ORL+6.5"
                 }
               }
             }
@@ -3598,6 +3569,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "18",
+      "gameProjection": "70.4",
+      "teamChanceLoss": "29.6"
+    },
+    "awayTeam": {
+      "id": "19",
+      "gameProjection": "29.6",
+      "teamChanceLoss": "70.4"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4861,20 +4846,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "18",
-      "gameProjection": "70.4",
-      "teamChanceLoss": "29.6"
-    },
-    "awayTeam": {
-      "id": "19",
-      "gameProjection": "29.6",
-      "teamChanceLoss": "70.4"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909863",
     "uid": "s:40~l:46~e:401909863",
@@ -5820,12 +5791,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909863",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5839,57 +5804,57 @@
         "type": "team"
       },
       {
-        "ticketName": "10/25 vs Magic 973 tickets left",
+        "ticketName": "10/25 vs Magic 810 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-25-2026/production/7432927?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/27 vs Pistons 1994 tickets left",
+        "ticketName": "10/27 vs Pistons 1987 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-27-2026/production/7432929?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Bulls 4387 tickets left",
+        "ticketName": "10/28 @ Bulls 4371 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-28-2026/production/7432931?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ 76ers 3792 tickets left",
+        "ticketName": "10/30 @ 76ers 3826 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Nets 3761 tickets left",
+        "ticketName": "11/2 vs Nets 3767 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-2-2026/production/7432933?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Bulls 3356 tickets left",
+        "ticketName": "11/4 vs Bulls 3351 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Cavaliers 3182 tickets left",
+        "ticketName": "11/7 @ Cavaliers 2931 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-7-2026/production/7432937?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Bucks 2190 tickets left",
+        "ticketName": "11/10 vs Bucks 2172 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Cavaliers 4902 tickets left",
+        "ticketName": "11/11 vs Cavaliers 4906 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-11-2026/production/7432939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pacers 3734 tickets left",
+        "ticketName": "11/13 @ Pacers 3722 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Raptors 995 tickets left",
+        "ticketName": "11/15 @ Raptors 1005 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
@@ -5904,12 +5869,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Trail Blazers 4268 tickets left",
+        "ticketName": "11/21 vs Trail Blazers 4239 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Pacers 2608 tickets left",
+        "ticketName": "11/22 vs Pacers 2593 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-22-2026/production/7430984?wsUser=717",
         "type": "event"
       }
@@ -5918,7 +5883,7 @@
       "opponentTeamName": "Magic",
       "currentTeamName": "Knicks",
       "venueName": "Madison Square Garden",
-      "summary": "Tickets as low as $144",
+      "summary": "Tickets as low as $140",
       "date": "2026-10-25T23:00Z",
       "dateDay": "Sun",
       "homeAway": "home",
@@ -5928,6 +5893,12 @@
       "teamLink": "https://www.vividseats.com/new-york-knicks-tickets--sports-nba-basketball/performer/602?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909863",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
