@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909093",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401908946",
@@ -1084,6 +1084,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -1148,9 +1150,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         },
         {
           "id": "401909847",
@@ -2939,66 +2939,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T20:14Z",
-          "athlete": {
-            "id": "4684742",
-            "uid": "s:40~l:46~a:4684742",
-            "guid": "ee7a682c-a3e6-39eb-9bfa-2b7a84ae7e76",
-            "lastName": "Thompson",
-            "fullName": "Ausar Thompson",
-            "displayName": "Ausar Thompson",
-            "shortName": "A. Thompson",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4684742/ausar-thompson",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-              "alt": "Ausar Thompson"
-            },
-            "jersey": "9",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Right",
-            "returnDate": "2026-10-25"
-          }
-        },
-        {
           "status": "Out",
-          "date": "2026-10-24T20:08Z",
+          "date": "2026-10-25T14:56Z",
           "athlete": {
             "id": "4433621",
             "uid": "s:40~l:46~a:4433621",
@@ -3054,7 +2996,65 @@
             "location": "Leg",
             "detail": "Strain",
             "side": "Right",
-            "returnDate": "2026-10-27"
+            "returnDate": "2026-11-09"
+          }
+        },
+        {
+          "status": "Day-To-Day",
+          "date": "2026-10-24T20:14Z",
+          "athlete": {
+            "id": "4684742",
+            "uid": "s:40~l:46~a:4684742",
+            "guid": "ee7a682c-a3e6-39eb-9bfa-2b7a84ae7e76",
+            "lastName": "Thompson",
+            "fullName": "Ausar Thompson",
+            "displayName": "Ausar Thompson",
+            "shortName": "A. Thompson",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4684742/ausar-thompson",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
+              "alt": "Ausar Thompson"
+            },
+            "jersey": "9",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Ankle",
+            "location": "Leg",
+            "detail": "Sprain",
+            "side": "Right",
+            "returnDate": "2026-10-25"
           }
         }
       ]
@@ -3644,20 +3644,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "20",
-      "gameProjection": "64.4",
-      "teamChanceLoss": "35.6"
-    },
-    "awayTeam": {
-      "id": "8",
-      "gameProjection": "35.6",
-      "teamChanceLoss": "64.4"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3674,6 +3660,144 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50277066,
+        "nowId": "1-50277066",
+        "contentKey": "50277066-1-5-1",
+        "dataSourceIdentifier": "c97042bad7c94",
+        "type": "HeadlineNews",
+        "headline": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
+        "description": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+        "lastModified": "2026-10-25T14:59:55Z",
+        "published": "2026-10-25T14:59:55Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7f49d6dcebde7",
+            "id": 50118349,
+            "type": "header",
+            "name": "Jalen Duren [1296x729]",
+            "credit": "Mandatory Credit: Rick Osentoski-Imagn Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Jalen Duren heads to the locker room with a leg injury",
+            "caption": "Jalen Duren heads to the locker room with a leg injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/77af3c0a-e25c-44b3-92cb-af9436dc50df/77af3c0a-e25c-44b3-92cb-af9436dc50df.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4422,
+            "type": "team",
+            "uid": "s:40~l:46~t:8",
+            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+            "description": "Detroit Pistons",
+            "sportId": 46,
+            "teamId": 8,
+            "team": {
+              "id": 8,
+              "description": "Detroit Pistons",
+              "abbreviation": "DET",
+              "shortDisplayName": "Pistons",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533826,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4433621",
+            "guid": "6e30fca4-6751-37b6-b09a-2e4ecbec716e",
+            "description": "Jalen Duren",
+            "sportId": 46,
+            "athleteId": 4433621,
+            "athlete": {
+              "id": 4433621,
+              "description": "Jalen Duren",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50277066"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50277066"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50277066"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50274638,
         "nowId": "1-50274638",
@@ -4758,225 +4882,125 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50274492,
-        "nowId": "1-50274492",
-        "contentKey": "50274492-1-22-1",
-        "dataSourceIdentifier": "f11deb28208cc",
-        "type": "Preview",
-        "headline": "Charlotte and Washington square off in conference showdown",
-        "description": "Washington Wizards (1-1, sixth in the Eastern Conference) vs. Charlotte Hornets (2-1, fifth in the Eastern Conference)",
-        "lastModified": "2026-10-25T06:02:56Z",
-        "published": "2026-10-25T06:02:56Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909868.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 127884,
-            "type": "team",
-            "uid": "s:40~l:46~t:30",
-            "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-            "description": "Charlotte Hornets",
-            "sportId": 46,
-            "teamId": 30,
-            "team": {
-              "id": 30,
-              "description": "Charlotte Hornets",
-              "abbreviation": "CHA",
-              "shortDisplayName": "Hornets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4339,
-            "type": "team",
-            "uid": "s:40~l:46~t:27",
-            "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-            "description": "Washington Wizards",
-            "sportId": 46,
-            "teamId": 27,
-            "team": {
-              "id": 27,
-              "description": "Washington Wizards",
-              "abbreviation": "WSH",
-              "shortDisplayName": "Wizards",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909868",
-            "guid": "f146641b-82d7-3692-b3cd-1366a1ce6e9f",
-            "description": "Washington Wizards @ Charlotte Hornets",
-            "eventId": 401909868,
-            "event": {
-              "id": 401909868,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Washington Wizards @ Charlotte Hornets"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50274492"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50274492"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50274492"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909868"
-          }
-        },
-        "premium": false
       }
     ]
+  },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "20",
+      "gameProjection": "64.4",
+      "teamChanceLoss": "35.6"
+    },
+    "awayTeam": {
+      "id": "8",
+      "gameProjection": "35.6",
+      "teamChanceLoss": "64.4"
+    }
+  },
+  "winprobability": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All 76ers Tickets",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/25 vs Pistons 1689 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/28 @ Pacers 3052 tickets left",
+        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-28-2026/production/7432851?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/30 vs Knicks 3829 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Hornets 6440 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 vs Bulls 2904 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 @ Pistons 4573 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Cavaliers 2717 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/8 @ Bulls 3627 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/10 vs Celtics 4078 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 vs Raptors 2795 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 vs Pacers 2427 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 @ Nets 4253 tickets left",
+        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Magic 4715 tickets left",
+        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Bucks 2925 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Trail Blazers 2991 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Pistons",
+      "currentTeamName": "76ers",
+      "venueName": "Xfinity Mobile Arena",
+      "summary": "Tickets as low as $81",
+      "date": "2026-10-25T23:30Z",
+      "dateDay": "Sun",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
+      "venueLink": "https://www.vividseats.com/wells-fargo-center-pa-tickets/venue/564?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
+      "timeValid": true
+    }
   },
   "header": {
     "id": "401909866",
@@ -5923,104 +5947,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All 76ers Tickets",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/25 vs Pistons 1769 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/28 @ Pacers 3038 tickets left",
-        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-28-2026/production/7432851?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/30 vs Knicks 3825 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 @ Hornets 6440 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 @ Pistons 4587 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Cavaliers 2716 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/8 @ Bulls 3634 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/10 vs Celtics 4072 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 vs Raptors 2796 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 vs Pacers 2420 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 @ Nets 4269 tickets left",
-        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Magic 4708 tickets left",
-        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Bucks 2929 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Trail Blazers 2988 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Pistons",
-      "currentTeamName": "76ers",
-      "venueName": "Xfinity Mobile Arena",
-      "summary": "Tickets as low as $86",
-      "date": "2026-10-25T23:30Z",
-      "dateDay": "Sun",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-25-2026/production/7433080?wsUser=717",
-      "venueLink": "https://www.vividseats.com/wells-fargo-center-pa-tickets/venue/564?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
-      "timeValid": true
-    }
-  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909866",
     "gameSwitcherEnabled": true,
