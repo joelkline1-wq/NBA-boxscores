@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Ray Acosta",
+        "displayName": "Ray Acosta",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Sean Corbin",
+        "displayName": "Sean Corbin",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Derrick Collins",
+        "displayName": "Derrick Collins",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -487,6 +519,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -551,9 +585,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
         },
         {
           "id": "401908948",
@@ -575,6 +607,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -639,9 +673,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401909841",
@@ -663,6 +695,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -727,9 +761,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
         }
       ]
     },
@@ -908,8 +940,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "13",
             "uid": "s:40~l:46~t:13",
@@ -974,7 +1004,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898409",
@@ -996,8 +1028,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -1062,7 +1092,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909092",
@@ -1172,6 +1204,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -1236,9 +1270,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
         }
       ]
     }
@@ -1749,25 +1781,25 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Day-To-Day",
+                "status": "Out",
                 "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-10-24T20:17Z",
+                  "status": "Out",
+                  "date": "2026-10-25T00:33Z",
                   "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
+                    "id": "4",
+                    "name": "INJURY_STATUS_OUT",
+                    "description": "out",
+                    "abbreviation": "O"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
+                      "description": "OUT",
+                      "abbreviation": "OUT",
+                      "displayDescription": "Out"
                     },
                     "type": "Back",
                     "location": "Torso",
-                    "returnDate": "2026-10-24"
+                    "returnDate": "2026-10-26"
                   }
                 }
               },
@@ -2883,67 +2915,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T23:26Z",
-          "athlete": {
-            "id": "3913174",
-            "uid": "s:40~l:46~a:3913174",
-            "guid": "668a6a14-4003-d79c-c252-0ece0a960d36",
-            "lastName": "Kennard",
-            "fullName": "Luke Kennard",
-            "displayName": "Luke Kennard",
-            "shortName": "L. Kennard",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/3913174/luke-kennard",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/3913174.png",
-              "alt": "Luke Kennard"
-            },
-            "jersey": "8",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/3913174?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "detail": "Strain",
-            "side": "Left",
-            "returnDate": "2026-10-24"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-24T20:24Z",
           "athlete": {
@@ -3134,6 +3105,65 @@
       },
       "injuries": [
         {
+          "status": "Out",
+          "date": "2026-10-25T00:33Z",
+          "athlete": {
+            "id": "6589",
+            "uid": "s:40~l:46~a:6589",
+            "guid": "de360720-e416-25f2-8a6b-b5ff82616cb1",
+            "lastName": "Green",
+            "fullName": "Draymond Green",
+            "displayName": "Draymond Green",
+            "shortName": "D. Green",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/6589/draymond-green",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
+              "alt": "Draymond Green"
+            },
+            "jersey": "23",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/41760?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "returnDate": "2026-10-26"
+          }
+        },
+        {
           "status": "Day-To-Day",
           "date": "2026-10-24T20:22Z",
           "athlete": {
@@ -3249,65 +3279,6 @@
             "type": "Back",
             "location": "Torso",
             "returnDate": "2026-10-26"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-24T20:17Z",
-          "athlete": {
-            "id": "6589",
-            "uid": "s:40~l:46~a:6589",
-            "guid": "de360720-e416-25f2-8a6b-b5ff82616cb1",
-            "lastName": "Green",
-            "fullName": "Draymond Green",
-            "displayName": "Draymond Green",
-            "shortName": "D. Green",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/6589/draymond-green",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
-              "alt": "Draymond Green"
-            },
-            "jersey": "23",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/41760?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Back",
-            "location": "Torso",
-            "returnDate": "2026-10-24"
           }
         },
         {
@@ -3483,8 +3454,8 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 310,
-        "spreadOdds": -110.0,
+        "moneyLine": 320,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
         },
@@ -3494,8 +3465,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -395,
-        "spreadOdds": -110.0,
+        "moneyLine": -410,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
         },
@@ -3666,7 +3637,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-395",
+            "odds": "-410",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3698,7 +3669,7 @@
         },
         "away": {
           "close": {
-            "odds": "+310",
+            "odds": "+320",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3735,7 +3706,7 @@
         "home": {
           "close": {
             "line": "-9.5",
-            "odds": "-110",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3769,7 +3740,7 @@
         "away": {
           "close": {
             "line": "+9.5",
-            "odds": "-110",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -4037,6 +4008,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "21",
+      "gameProjection": "80.1",
+      "teamChanceLoss": "19.9"
+    },
+    "awayTeam": {
+      "id": "9",
+      "gameProjection": "19.9",
+      "teamChanceLoss": "80.1"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5064,20 +5049,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "21",
-      "gameProjection": "80.1",
-      "teamChanceLoss": "19.9"
-    },
-    "awayTeam": {
-      "id": "9",
-      "gameProjection": "19.9",
-      "teamChanceLoss": "80.1"
-    }
-  },
   "header": {
     "id": "401909860",
     "uid": "s:40~l:46~e:401909860",
@@ -6059,12 +6030,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909860",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6078,42 +6043,42 @@
         "type": "team"
       },
       {
-        "ticketName": "10/24 vs Warriors 1095 tickets left",
+        "ticketName": "10/24 vs Warriors 630 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-24-2026/production/7432831?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Thunder 2058 tickets left",
+        "ticketName": "10/26 @ Thunder 2069 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-26-2026/production/7432969?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Nuggets 3311 tickets left",
+        "ticketName": "10/30 vs Nuggets 3300 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-30-2026--sports-nba-basketball/production/7418089?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Warriors 5696 tickets left",
+        "ticketName": "11/2 @ Warriors 5684 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-2-2026/production/7432839?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Trail Blazers 3570 tickets left",
+        "ticketName": "11/4 vs Trail Blazers 3573 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 vs Magic 3874 tickets left",
+        "ticketName": "11/5 vs Magic 3870 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-5-2026/production/7432973?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Rockets 3700 tickets left",
+        "ticketName": "11/7 vs Rockets 3697 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Spurs 3925 tickets left",
+        "ticketName": "11/9 vs Spurs 3920 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-9-2026/production/7432975?wsUser=717",
         "type": "event"
       },
@@ -6123,22 +6088,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Hornets 3856 tickets left",
+        "ticketName": "11/12 vs Hornets 3853 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Lakers 3859 tickets left",
+        "ticketName": "11/15 vs Lakers 3855 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nuggets 5627 tickets left",
+        "ticketName": "11/16 @ Nuggets 5631 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-16-2026/production/7432981?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Kings 7065 tickets left",
+        "ticketName": "11/18 @ Kings 7099 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
         "type": "event"
       },
@@ -6157,7 +6122,7 @@
       "opponentTeamName": "Warriors",
       "currentTeamName": "Suns",
       "venueName": "Mortgage Matchup Center",
-      "summary": "Tickets as low as $72",
+      "summary": "Tickets as low as $70",
       "date": "2026-10-25T02:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
@@ -6167,6 +6132,12 @@
       "teamLink": "https://www.vividseats.com/phoenix-suns-tickets--sports-nba-basketball/performer/679?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909860",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
