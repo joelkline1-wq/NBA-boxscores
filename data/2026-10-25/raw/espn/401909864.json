@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Ben Taylor",
+        "displayName": "Ben Taylor",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Pat Fraher",
+        "displayName": "Pat Fraher",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Michael Smith",
+        "displayName": "Michael Smith",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -908,8 +940,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -974,7 +1004,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401908946",
@@ -2491,6 +2523,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-10-25T22:03Z",
+          "athlete": {
+            "id": "6450",
+            "uid": "s:40~l:46~a:6450",
+            "guid": "87ff907c-c68c-a82d-1215-37e05d0c62ef",
+            "lastName": "Leonard",
+            "fullName": "Kawhi Leonard",
+            "displayName": "Kawhi Leonard",
+            "shortName": "K. Leonard",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6450.png",
+              "alt": "Kawhi Leonard"
+            },
+            "jersey": "2",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/46049?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Knee",
+            "location": "Leg",
+            "detail": "Inflammation",
+            "side": "Left",
+            "returnDate": "2026-10-28"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-10-20T18:05Z",
           "athlete": {
             "id": "4432586",
@@ -2596,16 +2689,16 @@
           }
         ]
       },
-      "details": "MIN -1.5",
+      "details": "MIN -3.5",
       "overUnder": 228.5,
-      "spread": -1.5,
-      "overOdds": -115.0,
-      "underOdds": -105.0,
+      "spread": -3.5,
+      "overOdds": -112.0,
+      "underOdds": -108.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": -105,
-        "spreadOdds": -115.0,
+        "moneyLine": 140,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -2615,8 +2708,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -115,
-        "spreadOdds": -105.0,
+        "moneyLine": -166,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/16?lang=en&region=us"
         },
@@ -2679,7 +2772,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956N150_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956N350_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -2692,7 +2785,7 @@
               "gameId": 401909864,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:MIN-1.5"
+              "betDetails": "Spread:MIN-3.5"
             }
           }
         },
@@ -2703,7 +2796,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956P150_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956P350_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -2716,7 +2809,7 @@
               "gameId": 401909864,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:TOR+1.5"
+              "betDetails": "Spread:TOR+3.5"
             }
           }
         },
@@ -2787,7 +2880,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-115",
+            "odds": "-166",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2819,7 +2912,7 @@
         },
         "away": {
           "close": {
-            "odds": "-105",
+            "odds": "+140",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2855,8 +2948,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-1.5",
-            "odds": "-105",
+            "line": "-3.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2864,7 +2957,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956N150_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956N350_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -2877,7 +2970,7 @@
                   "gameId": 401909864,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:MIN-1.5"
+                  "betDetails": "Spread:MIN-3.5"
                 }
               }
             }
@@ -2889,8 +2982,8 @@
         },
         "away": {
           "close": {
-            "line": "+1.5",
-            "odds": "-115",
+            "line": "+3.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2898,7 +2991,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956P150_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34888840%3Foutcomes%3D0HC86897956P350_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -2911,7 +3004,7 @@
                   "gameId": 401909864,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:TOR+1.5"
+                  "betDetails": "Spread:TOR+3.5"
                 }
               }
             }
@@ -2928,7 +3021,7 @@
         "over": {
           "close": {
             "line": "o228.5",
-            "odds": "-115",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2962,7 +3055,7 @@
         "under": {
           "close": {
             "line": "u228.5",
-            "odds": "-105",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3158,6 +3251,1229 @@
       "records": []
     }
   ],
+  "news": {
+    "header": "NBA News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/nba/",
+      "text": "All NBA News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 50281331,
+        "nowId": "1-50281331",
+        "contentKey": "50281331-1-5-1",
+        "dataSourceIdentifier": "182c5ae6d23b6",
+        "type": "HeadlineNews",
+        "headline": "Raptors' Kawhi Leonard to miss Wolves game with knee swelling",
+        "description": "Raptors star Kawhi Leonard is out for Sunday night's game against the Timberwolves due to left knee swelling.",
+        "lastModified": "2026-10-25T22:29:57Z",
+        "published": "2026-10-25T22:29:57Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "07ea0883d04b0",
+            "id": 50281291,
+            "type": "header",
+            "name": "Kawhi Leonard [600x400]",
+            "credit": "Brad Mills-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4469,
+            "type": "team",
+            "uid": "s:40~l:46~t:28",
+            "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+            "description": "Toronto Raptors",
+            "sportId": 46,
+            "teamId": 28,
+            "team": {
+              "id": 28,
+              "description": "Toronto Raptors",
+              "abbreviation": "TOR",
+              "shortDisplayName": "Raptors",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 91976,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:6450",
+            "guid": "87ff907c-c68c-a82d-1215-37e05d0c62ef",
+            "description": "Kawhi Leonard",
+            "sportId": 46,
+            "athleteId": 6450,
+            "athlete": {
+              "id": 6450,
+              "description": "Kawhi Leonard",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50281331"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50281331"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50281331"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50281331/kawhi-leonard-miss-timberwolves-game-knee-swelling"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50279725,
+        "nowId": "1-50279725",
+        "contentKey": "50279725-1-5-1",
+        "dataSourceIdentifier": "548e9928baea9",
+        "type": "HeadlineNews",
+        "headline": "Sixers overrule Embiid, sit center with plantar fasciitis management",
+        "description": "Despite publicly calling to play Sunday against the Pistons, the 76ers decided to sit Joel Embiid due to right foot plantar fasciitis management.",
+        "lastModified": "2026-10-25T20:27:11Z",
+        "published": "2026-10-25T20:27:11Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "2fc42a2d9bf01",
+            "id": 49829435,
+            "type": "header",
+            "name": "Embiid\n [600x400]",
+            "caption": "Entering the 2026 postseason, Joel Embiid had played 490 games across the past 10 campaigns.",
+            "credit": "Kyle Ross-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/0904/r1711559_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
+            "caption": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_104509647_3706740/ss_20261023_104509647_3706740.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 128815,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3059318",
+            "guid": "89410119-0011-5ba0-efed-7b0b6c756c23",
+            "description": "Joel Embiid",
+            "sportId": 46,
+            "athleteId": 3059318,
+            "athlete": {
+              "id": 3059318,
+              "description": "Joel Embiid",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4422,
+            "type": "team",
+            "uid": "s:40~l:46~t:8",
+            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+            "description": "Detroit Pistons",
+            "sportId": 46,
+            "teamId": 8,
+            "team": {
+              "id": 8,
+              "description": "Detroit Pistons",
+              "abbreviation": "DET",
+              "shortDisplayName": "Pistons",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696331,
+            "type": "contributor",
+            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
+            "description": "Kris Rhim",
+            "slug": "kris-rhim",
+            "contributor": {
+              "id": 3957,
+              "description": "Kris Rhim"
+            }
+          }
+        ],
+        "byline": "Kris Rhim",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50279725"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50279725"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50279725"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50279725/76ers-rule-embiid-plantar-fasciitis-management"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50277066,
+        "nowId": "1-50277066",
+        "contentKey": "50277066-1-5-1",
+        "dataSourceIdentifier": "c97042bad7c94",
+        "type": "HeadlineNews",
+        "headline": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
+        "description": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+        "lastModified": "2026-10-25T14:59:55Z",
+        "published": "2026-10-25T14:59:55Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7f49d6dcebde7",
+            "id": 50118349,
+            "type": "header",
+            "name": "Jalen Duren [1296x729]",
+            "credit": "Mandatory Credit: Rick Osentoski-Imagn Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Jalen Duren heads to the locker room with a leg injury",
+            "caption": "Jalen Duren heads to the locker room with a leg injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/77af3c0a-e25c-44b3-92cb-af9436dc50df/77af3c0a-e25c-44b3-92cb-af9436dc50df.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4422,
+            "type": "team",
+            "uid": "s:40~l:46~t:8",
+            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+            "description": "Detroit Pistons",
+            "sportId": 46,
+            "teamId": 8,
+            "team": {
+              "id": 8,
+              "description": "Detroit Pistons",
+              "abbreviation": "DET",
+              "shortDisplayName": "Pistons",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533826,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4433621",
+            "guid": "6e30fca4-6751-37b6-b09a-2e4ecbec716e",
+            "description": "Jalen Duren",
+            "sportId": 46,
+            "athleteId": 4433621,
+            "athlete": {
+              "id": 4433621,
+              "description": "Jalen Duren",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50277066"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50277066"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50277066"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50275279,
+        "nowId": "1-50275279",
+        "contentKey": "50275279-1-6-1",
+        "dataSourceIdentifier": "8313535694f1c",
+        "type": "Story",
+        "headline": "Sunday's fantasy basketball adds and bets to make in the NBA",
+        "description": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
+        "lastModified": "2026-10-25T16:48:18Z",
+        "published": "2026-10-25T16:48:18Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "57e54a1015872",
+            "id": 50276971,
+            "type": "header",
+            "name": "Wendell Carter Jr. [576x324]",
+            "caption": "Don't be surprised if Wendell Carter Jr. sees more minutes and rebounding chances tonight.",
+            "alt": "Orlando Magic center Wendell Carter Jr. (34) controls the ball against the Minnesota Timberwolves in the first quarter at Kia Center.",
+            "credit": "Nathan Ray Seebeck-Imagn Images",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/photo/2026/1025/r1735906_576x324_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 187405,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4277847",
+            "guid": "14e2b9be-12d2-af66-d4d6-daa301c64168",
+            "description": "Wendell Carter Jr",
+            "sportId": 46,
+            "athleteId": 4277847,
+            "athlete": {
+              "id": 4277847,
+              "description": "Wendell Carter Jr",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4277847/wendell-carter-jr"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4277847/wendell-carter-jr"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 457842,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4278562",
+            "guid": "8b70ae67-c286-c72b-7b50-8741a5dbbb3d",
+            "description": "Paul Reed",
+            "sportId": 46,
+            "athleteId": 4278562,
+            "athlete": {
+              "id": 4278562,
+              "description": "Paul Reed",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 691695,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5175643",
+            "guid": "fb0aca8f-4878-3010-abe0-05b507191367",
+            "description": "Egor Demin",
+            "sportId": 46,
+            "athleteId": 5175643,
+            "athlete": {
+              "id": 5175643,
+              "description": "Egor Demin",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5175643/egor-demin"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5175643/egor-demin"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492477,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432165",
+            "guid": "bd1767da-2774-3ec3-9c48-f443f0777bf6",
+            "description": "Jalen Suggs",
+            "sportId": 46,
+            "athleteId": 4432165,
+            "athlete": {
+              "id": 4432165,
+              "description": "Jalen Suggs",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533805,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4433136",
+            "guid": "a362b0ba-25ef-3ceb-9dd3-039b3d8aa4aa",
+            "description": "Walker Kessler",
+            "sportId": 46,
+            "athleteId": 4433136,
+            "athlete": {
+              "id": 4433136,
+              "description": "Walker Kessler",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433136/walker-kessler"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433136/walker-kessler"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154335,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3917376",
+            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
+            "description": "Jaylen Brown",
+            "sportId": 46,
+            "athleteId": 3917376,
+            "athlete": {
+              "id": 3917376,
+              "description": "Jaylen Brown",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701343,
+            "type": "contributor",
+            "guid": "85cd03e0-50b4-387e-9711-d7faa737259f",
+            "description": "Jim McCormick",
+            "slug": "jim-mccormick",
+            "contributor": {
+              "id": 1749,
+              "description": "Jim McCormick"
+            }
+          }
+        ],
+        "byline": "Jim McCormick",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50275279"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50275279"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50275279"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50275279/fantasy-basketball-tips-nba-betting-picks-today"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50274638,
+        "nowId": "1-50274638",
+        "contentKey": "50274638-1-22-1",
+        "dataSourceIdentifier": "082d53db77c78",
+        "type": "Preview",
+        "headline": "Indiana travels to Brooklyn for conference matchup",
+        "description": "Indiana Pacers (1-1, ninth in the Eastern Conference) vs. Brooklyn Nets (0-2, 13th in the Eastern Conference)",
+        "lastModified": "2026-10-25T07:02:46Z",
+        "published": "2026-10-25T07:02:46Z",
+        "images": [
+          {
+            "type": "stitcher",
+            "name": "espn.applewatch.awayhome.1",
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.applewatch.awayhome.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.applewatch.homeaway.1",
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.applewatch.homeaway.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.16x9.1",
+            "ratio": "16x9",
+            "height": 173,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.16x9.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.16x9.1",
+            "ratio": "16x9",
+            "height": 173,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.16x9.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.1x1.1",
+            "ratio": "1x1",
+            "height": 308,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.1x1.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.1x1.1",
+            "ratio": "1x1",
+            "height": 308,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.1x1.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.5x2.1",
+            "ratio": "5x2",
+            "height": 124,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.5x2.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.5x2.1",
+            "ratio": "5x2",
+            "height": 124,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.5x2.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.16x9.2",
+            "ratio": "16x9",
+            "height": 353,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.16x9.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.16x9.2",
+            "ratio": "16x9",
+            "height": 353,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.16x9.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.5x2.2",
+            "ratio": "5x2",
+            "height": 251,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.5x2.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.5x2.2",
+            "ratio": "5x2",
+            "height": 251,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.5x2.2"
+          },
+          {
+            "type": "Media",
+            "name": "Kelly Oubre Jr. gets the and-1 to fall",
+            "caption": "Kelly Oubre Jr. gets the and-1 to fall",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/5acb8f79-657e-47b9-9815-453401d60cb7/5acb8f79-657e-47b9-9815-453401d60cb7.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 104965,
+            "type": "team",
+            "uid": "s:40~l:46~t:17",
+            "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+            "description": "Brooklyn Nets",
+            "sportId": 46,
+            "teamId": 17,
+            "team": {
+              "id": 17,
+              "description": "Brooklyn Nets",
+              "abbreviation": "BKN",
+              "shortDisplayName": "Nets",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4438,
+            "type": "team",
+            "uid": "s:40~l:46~t:11",
+            "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+            "description": "Indiana Pacers",
+            "sportId": 46,
+            "teamId": 11,
+            "team": {
+              "id": 11,
+              "description": "Indiana Pacers",
+              "abbreviation": "IND",
+              "shortDisplayName": "Pacers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "uid": "s:40~l:46~e:401909862",
+            "guid": "63ef1cdf-3e0a-3111-be29-fa534e8fb5e2",
+            "description": "Indiana Pacers @ Brooklyn Nets",
+            "eventId": 401909862,
+            "event": {
+              "id": 401909862,
+              "sport": "basketball",
+              "league": "nba",
+              "description": "Indiana Pacers @ Brooklyn Nets",
+              "links": {
+                "mobile": {
+                  "event": {
+                    "href": "https://www.espn.com/nba/game/_/gameId/401909862"
+                  }
+                },
+                "web": {
+                  "event": {
+                    "href": "https://www.espn.com/nba/game/_/gameId/401909862"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50274638"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50274638"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50274638"
+          },
+          "web": {
+            "href": "http://www.espn.com/nba/preview?gameId=401909862"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50274497,
+        "nowId": "1-50274497",
+        "contentKey": "50274497-1-22-1",
+        "dataSourceIdentifier": "b4f7f89c56159",
+        "type": "Preview",
+        "headline": "76ers face the Pistons on 3-game win streak",
+        "description": "Detroit Pistons (2-0, second in the Eastern Conference) vs. Philadelphia 76ers (3-0, first in the Eastern Conference)",
+        "lastModified": "2026-10-25T06:03:50Z",
+        "published": "2026-10-25T06:03:50Z",
+        "images": [
+          {
+            "type": "stitcher",
+            "name": "espn.applewatch.awayhome.1",
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.applewatch.awayhome.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.applewatch.homeaway.1",
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.applewatch.homeaway.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.16x9.1",
+            "ratio": "16x9",
+            "height": 173,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.16x9.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.16x9.1",
+            "ratio": "16x9",
+            "height": 173,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.16x9.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.1x1.1",
+            "ratio": "1x1",
+            "height": 308,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.1x1.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.1x1.1",
+            "ratio": "1x1",
+            "height": 308,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.1x1.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.5x2.1",
+            "ratio": "5x2",
+            "height": 124,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.5x2.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.5x2.1",
+            "ratio": "5x2",
+            "height": 124,
+            "width": 308,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.5x2.1"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.16x9.2",
+            "ratio": "16x9",
+            "height": 353,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.16x9.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.16x9.2",
+            "ratio": "16x9",
+            "height": 353,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.16x9.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.awayhome.5x2.2",
+            "ratio": "5x2",
+            "height": 251,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.5x2.2"
+          },
+          {
+            "type": "stitcher",
+            "name": "espn.all.homeaway.5x2.2",
+            "ratio": "5x2",
+            "height": 251,
+            "width": 628,
+            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.5x2.2"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4422,
+            "type": "team",
+            "uid": "s:40~l:46~t:8",
+            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+            "description": "Detroit Pistons",
+            "sportId": 46,
+            "teamId": 8,
+            "team": {
+              "id": 8,
+              "description": "Detroit Pistons",
+              "abbreviation": "DET",
+              "shortDisplayName": "Pistons",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "uid": "s:40~l:46~e:401909866",
+            "guid": "6c308e3e-2777-36df-a6db-2ccec8c3844c",
+            "description": "Detroit Pistons @ Philadelphia 76ers",
+            "eventId": 401909866,
+            "event": {
+              "id": 401909866,
+              "sport": "basketball",
+              "league": "nba",
+              "description": "Detroit Pistons @ Philadelphia 76ers"
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50274497"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50274497"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50274497"
+          },
+          "web": {
+            "href": "http://www.espn.com/nba/preview?gameId=401909866"
+          }
+        },
+        "premium": false
+      }
+    ]
+  },
   "header": {
     "id": "401909864",
     "uid": "s:40~l:46~e:401909864",
@@ -3967,1283 +5283,6 @@
       ]
     }
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "16",
-      "gameProjection": "59.8",
-      "teamChanceLoss": "40.2"
-    },
-    "awayTeam": {
-      "id": "28",
-      "gameProjection": "40.2",
-      "teamChanceLoss": "59.8"
-    }
-  },
-  "news": {
-    "header": "NBA News",
-    "link": {
-      "language": "en",
-      "rel": [
-        "index",
-        "desktop",
-        "league"
-      ],
-      "href": "https://www.espn.com/nba/",
-      "text": "All NBA News",
-      "shortText": "All News",
-      "isExternal": false,
-      "isPremium": false
-    },
-    "articles": [
-      {
-        "id": 50279725,
-        "nowId": "1-50279725",
-        "contentKey": "50279725-1-5-1",
-        "dataSourceIdentifier": "548e9928baea9",
-        "type": "HeadlineNews",
-        "headline": "Sixers overrule Embiid, sit center with plantar fasciitis management",
-        "description": "Despite publicly calling to play Sunday against the Pistons, the 76ers decided to sit Joel Embiid due to right foot plantar fasciitis management.",
-        "lastModified": "2026-10-25T20:27:11Z",
-        "published": "2026-10-25T20:27:11Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "2fc42a2d9bf01",
-            "id": 49829435,
-            "type": "header",
-            "name": "Embiid\n [600x400]",
-            "caption": "Entering the 2026 postseason, Joel Embiid had played 490 games across the past 10 campaigns.",
-            "credit": "Kyle Ross-Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/0904/r1711559_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
-            "caption": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_104509647_3706740/ss_20261023_104509647_3706740.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 128815,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3059318",
-            "guid": "89410119-0011-5ba0-efed-7b0b6c756c23",
-            "description": "Joel Embiid",
-            "sportId": 46,
-            "athleteId": 3059318,
-            "athlete": {
-              "id": 3059318,
-              "description": "Joel Embiid",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4422,
-            "type": "team",
-            "uid": "s:40~l:46~t:8",
-            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-            "description": "Detroit Pistons",
-            "sportId": 46,
-            "teamId": 8,
-            "team": {
-              "id": 8,
-              "description": "Detroit Pistons",
-              "abbreviation": "DET",
-              "shortDisplayName": "Pistons",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 696331,
-            "type": "contributor",
-            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
-            "description": "Kris Rhim",
-            "slug": "kris-rhim",
-            "contributor": {
-              "id": 3957,
-              "description": "Kris Rhim"
-            }
-          }
-        ],
-        "byline": "Kris Rhim",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50279725"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50279725"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50279725"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50279725/76ers-rule-embiid-plantar-fasciitis-management"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50277066,
-        "nowId": "1-50277066",
-        "contentKey": "50277066-1-5-1",
-        "dataSourceIdentifier": "c97042bad7c94",
-        "type": "HeadlineNews",
-        "headline": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
-        "description": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
-        "lastModified": "2026-10-25T14:59:55Z",
-        "published": "2026-10-25T14:59:55Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "7f49d6dcebde7",
-            "id": 50118349,
-            "type": "header",
-            "name": "Jalen Duren [1296x729]",
-            "credit": "Mandatory Credit: Rick Osentoski-Imagn Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Jalen Duren heads to the locker room with a leg injury",
-            "caption": "Jalen Duren heads to the locker room with a leg injury",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/77af3c0a-e25c-44b3-92cb-af9436dc50df/77af3c0a-e25c-44b3-92cb-af9436dc50df.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4422,
-            "type": "team",
-            "uid": "s:40~l:46~t:8",
-            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-            "description": "Detroit Pistons",
-            "sportId": 46,
-            "teamId": 8,
-            "team": {
-              "id": 8,
-              "description": "Detroit Pistons",
-              "abbreviation": "DET",
-              "shortDisplayName": "Pistons",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533826,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4433621",
-            "guid": "6e30fca4-6751-37b6-b09a-2e4ecbec716e",
-            "description": "Jalen Duren",
-            "sportId": 46,
-            "athleteId": 4433621,
-            "athlete": {
-              "id": 4433621,
-              "description": "Jalen Duren",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50277066"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50277066"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50277066"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50275279,
-        "nowId": "1-50275279",
-        "contentKey": "50275279-1-6-1",
-        "dataSourceIdentifier": "8313535694f1c",
-        "type": "Story",
-        "headline": "Sunday's fantasy basketball adds and bets to make in the NBA",
-        "description": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
-        "lastModified": "2026-10-25T16:48:18Z",
-        "published": "2026-10-25T16:48:18Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "57e54a1015872",
-            "id": 50276971,
-            "type": "header",
-            "name": "Wendell Carter Jr. [576x324]",
-            "caption": "Don't be surprised if Wendell Carter Jr. sees more minutes and rebounding chances tonight.",
-            "alt": "Orlando Magic center Wendell Carter Jr. (34) controls the ball against the Minnesota Timberwolves in the first quarter at Kia Center.",
-            "credit": "Nathan Ray Seebeck-Imagn Images",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/photo/2026/1025/r1735906_576x324_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 611584,
-            "type": "league",
-            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
-            "description": "Sports Betting",
-            "sportId": 22000,
-            "leagueId": 22000,
-            "league": {
-              "id": 22000,
-              "description": "Sports Betting"
-            }
-          },
-          {
-            "id": 137817,
-            "type": "topic",
-            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
-            "description": "news \u2013 sports betting",
-            "sportId": 0,
-            "topicId": 179
-          },
-          {
-            "id": 129403,
-            "type": "topic",
-            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
-            "description": "news - nba",
-            "sportId": 0,
-            "topicId": 122
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 141870,
-            "type": "topic",
-            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
-            "description": "news - fantasy",
-            "sportId": 0,
-            "topicId": 240
-          },
-          {
-            "id": 152380,
-            "type": "topic",
-            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
-            "description": "news - fantasy basketball",
-            "sportId": 0,
-            "topicId": 400
-          },
-          {
-            "id": 187405,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4277847",
-            "guid": "14e2b9be-12d2-af66-d4d6-daa301c64168",
-            "description": "Wendell Carter Jr",
-            "sportId": 46,
-            "athleteId": 4277847,
-            "athlete": {
-              "id": 4277847,
-              "description": "Wendell Carter Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277847/wendell-carter-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277847/wendell-carter-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 457842,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4278562",
-            "guid": "8b70ae67-c286-c72b-7b50-8741a5dbbb3d",
-            "description": "Paul Reed",
-            "sportId": 46,
-            "athleteId": 4278562,
-            "athlete": {
-              "id": 4278562,
-              "description": "Paul Reed",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 691695,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5175643",
-            "guid": "fb0aca8f-4878-3010-abe0-05b507191367",
-            "description": "Egor Demin",
-            "sportId": 46,
-            "athleteId": 5175643,
-            "athlete": {
-              "id": 5175643,
-              "description": "Egor Demin",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5175643/egor-demin"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5175643/egor-demin"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 492477,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4432165",
-            "guid": "bd1767da-2774-3ec3-9c48-f443f0777bf6",
-            "description": "Jalen Suggs",
-            "sportId": 46,
-            "athleteId": 4432165,
-            "athlete": {
-              "id": 4432165,
-              "description": "Jalen Suggs",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533805,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4433136",
-            "guid": "a362b0ba-25ef-3ceb-9dd3-039b3d8aa4aa",
-            "description": "Walker Kessler",
-            "sportId": 46,
-            "athleteId": 4433136,
-            "athlete": {
-              "id": 4433136,
-              "description": "Walker Kessler",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433136/walker-kessler"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433136/walker-kessler"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154335,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3917376",
-            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
-            "description": "Jaylen Brown",
-            "sportId": 46,
-            "athleteId": 3917376,
-            "athlete": {
-              "id": 3917376,
-              "description": "Jaylen Brown",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701343,
-            "type": "contributor",
-            "guid": "85cd03e0-50b4-387e-9711-d7faa737259f",
-            "description": "Jim McCormick",
-            "slug": "jim-mccormick",
-            "contributor": {
-              "id": 1749,
-              "description": "Jim McCormick"
-            }
-          }
-        ],
-        "byline": "Jim McCormick",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50275279"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50275279"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=50275279"
-          },
-          "web": {
-            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50275279/fantasy-basketball-tips-nba-betting-picks-today"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50274638,
-        "nowId": "1-50274638",
-        "contentKey": "50274638-1-22-1",
-        "dataSourceIdentifier": "082d53db77c78",
-        "type": "Preview",
-        "headline": "Indiana travels to Brooklyn for conference matchup",
-        "description": "Indiana Pacers (1-1, ninth in the Eastern Conference) vs. Brooklyn Nets (0-2, 13th in the Eastern Conference)",
-        "lastModified": "2026-10-25T07:02:46Z",
-        "published": "2026-10-25T07:02:46Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909862.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 104965,
-            "type": "team",
-            "uid": "s:40~l:46~t:17",
-            "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
-            "description": "Brooklyn Nets",
-            "sportId": 46,
-            "teamId": 17,
-            "team": {
-              "id": 17,
-              "description": "Brooklyn Nets",
-              "abbreviation": "BKN",
-              "shortDisplayName": "Nets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4438,
-            "type": "team",
-            "uid": "s:40~l:46~t:11",
-            "guid": "547fc042-3e02-4795-9637-9ab84322b625",
-            "description": "Indiana Pacers",
-            "sportId": 46,
-            "teamId": 11,
-            "team": {
-              "id": 11,
-              "description": "Indiana Pacers",
-              "abbreviation": "IND",
-              "shortDisplayName": "Pacers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909862",
-            "guid": "63ef1cdf-3e0a-3111-be29-fa534e8fb5e2",
-            "description": "Indiana Pacers @ Brooklyn Nets",
-            "eventId": 401909862,
-            "event": {
-              "id": 401909862,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Indiana Pacers @ Brooklyn Nets"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50274638"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50274638"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50274638"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909862"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50274497,
-        "nowId": "1-50274497",
-        "contentKey": "50274497-1-22-1",
-        "dataSourceIdentifier": "b4f7f89c56159",
-        "type": "Preview",
-        "headline": "76ers face the Pistons on 3-game win streak",
-        "description": "Detroit Pistons (2-0, second in the Eastern Conference) vs. Philadelphia 76ers (3-0, first in the Eastern Conference)",
-        "lastModified": "2026-10-25T06:03:50Z",
-        "published": "2026-10-25T06:03:50Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909866.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4422,
-            "type": "team",
-            "uid": "s:40~l:46~t:8",
-            "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-            "description": "Detroit Pistons",
-            "sportId": 46,
-            "teamId": 8,
-            "team": {
-              "id": 8,
-              "description": "Detroit Pistons",
-              "abbreviation": "DET",
-              "shortDisplayName": "Pistons",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909866",
-            "guid": "6c308e3e-2777-36df-a6db-2ccec8c3844c",
-            "description": "Detroit Pistons @ Philadelphia 76ers",
-            "eventId": 401909866,
-            "event": {
-              "id": 401909866,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Detroit Pistons @ Philadelphia 76ers"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50274497"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50274497"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50274497"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909866"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50274496,
-        "nowId": "1-50274496",
-        "contentKey": "50274496-1-22-1",
-        "dataSourceIdentifier": "9816c5df06494",
-        "type": "Preview",
-        "headline": "Boston hosts Chicago in conference matchup",
-        "description": "Chicago Bulls (1-1, 10th in the Eastern Conference) vs. Boston Celtics (1-1, seventh in the Eastern Conference)",
-        "lastModified": "2026-10-25T06:03:49Z",
-        "published": "2026-10-25T06:03:49Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909870.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4245,
-            "type": "team",
-            "uid": "s:40~l:46~t:2",
-            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
-            "description": "Boston Celtics",
-            "sportId": 46,
-            "teamId": 2,
-            "team": {
-              "id": 2,
-              "description": "Boston Celtics",
-              "abbreviation": "BOS",
-              "shortDisplayName": "Celtics",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4392,
-            "type": "team",
-            "uid": "s:40~l:46~t:4",
-            "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
-            "description": "Chicago Bulls",
-            "sportId": 46,
-            "teamId": 4,
-            "team": {
-              "id": 4,
-              "description": "Chicago Bulls",
-              "abbreviation": "CHI",
-              "shortDisplayName": "Bulls",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909870",
-            "guid": "b837da6d-720b-33d9-803d-4b9fda8650e5",
-            "description": "Chicago Bulls @ Boston Celtics",
-            "eventId": 401909870,
-            "event": {
-              "id": 401909870,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Chicago Bulls @ Boston Celtics"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50274496"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50274496"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50274496"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909870"
-          }
-        },
-        "premium": false
-      }
-    ]
-  },
   "article": {
     "id": 50263726,
     "nowId": "1-50263726",
@@ -5392,6 +5431,20 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "16",
+      "gameProjection": "59.8",
+      "teamChanceLoss": "40.2"
+    },
+    "awayTeam": {
+      "id": "28",
+      "gameProjection": "40.2",
+      "teamChanceLoss": "59.8"
+    }
+  },
+  "winprobability": [],
   "ticketsInfo": {
     "tickets": [
       {
@@ -5410,22 +5463,22 @@
         "type": "event"
       },
       {
-        "ticketName": "10/26 @ Cavaliers 2038 tickets left",
+        "ticketName": "10/26 @ Cavaliers 1949 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-26-2026/production/7432819?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Warriors 942 tickets left",
+        "ticketName": "10/28 vs Warriors 929 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-28-2026/production/7432835?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Clippers 893 tickets left",
+        "ticketName": "10/30 vs Clippers 890 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Spurs 3000 tickets left",
+        "ticketName": "10/31 @ Spurs 2968 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
         "type": "event"
       },
@@ -5435,12 +5488,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Rockets 3135 tickets left",
+        "ticketName": "11/4 @ Rockets 3125 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Pelicans 2732 tickets left",
+        "ticketName": "11/6 @ Pelicans 2748 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-30-2026--sports-nba-basketball/production/7419914?wsUser=717",
         "type": "event"
       },
@@ -5450,7 +5503,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Mavericks 1002 tickets left",
+        "ticketName": "11/12 vs Mavericks 999 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
         "type": "event"
       },
@@ -5465,17 +5518,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Trail Blazers 1057 tickets left",
+        "ticketName": "11/17 vs Trail Blazers 1053 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Knicks 805 tickets left",
+        "ticketName": "11/19 vs Knicks 804 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Grizzlies 953 tickets left",
+        "ticketName": "11/21 vs Grizzlies 825 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
         "type": "event"
       }
