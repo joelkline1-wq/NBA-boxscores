@@ -311,6 +311,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -375,9 +377,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401908622",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -1506,11 +1506,26 @@
                   "displayName": "Center",
                   "abbreviation": "C"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Out",
+                "injuries": {
+                  "status": "Out",
+                  "date": "2026-10-26T18:22Z",
+                  "type": {
+                    "id": "4",
+                    "name": "INJURY_STATUS_OUT",
+                    "description": "out",
+                    "abbreviation": "O"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "OUT",
+                      "abbreviation": "OUT",
+                      "displayDescription": "Out"
+                    },
+                    "type": "Knee",
+                    "location": "Leg",
+                    "returnDate": "2026-10-28"
+                  }
                 }
               },
               "statistics": [
@@ -2683,6 +2698,125 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-10-26T18:24Z",
+          "athlete": {
+            "id": "4683692",
+            "uid": "s:40~l:46~a:4683692",
+            "guid": "883078c3-d6cf-3df9-8844-45ff07b999e3",
+            "lastName": "Wallace",
+            "fullName": "Cason Wallace",
+            "displayName": "Cason Wallace",
+            "shortName": "C. Wallace",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png",
+              "alt": "Cason Wallace"
+            },
+            "jersey": "22",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4683692?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Shoulder",
+            "location": "Arm",
+            "side": "Left",
+            "returnDate": "2026-10-28"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-10-26T18:22Z",
+          "athlete": {
+            "id": "4433255",
+            "uid": "s:40~l:46~a:4433255",
+            "guid": "d28316e9-20cc-3cb2-b5d7-afdb6418315b",
+            "lastName": "Holmgren",
+            "fullName": "Chet Holmgren",
+            "displayName": "Chet Holmgren",
+            "shortName": "C. Holmgren",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+              "alt": "Chet Holmgren"
+            },
+            "jersey": "7",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433255?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Knee",
+            "location": "Leg",
+            "returnDate": "2026-10-28"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-10-26T14:03Z",
           "athlete": {
             "id": "4593803",
@@ -2737,129 +2871,9 @@
             },
             "type": "Ankle",
             "location": "Leg",
+            "detail": "Not Specified",
             "side": "Left",
             "returnDate": "2027-03-02"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-26T01:06Z",
-          "athlete": {
-            "id": "4432823",
-            "uid": "s:40~l:46~a:4432823",
-            "guid": "313a44e5-e230-3d17-91c0-307106d0087f",
-            "lastName": "Williams",
-            "fullName": "Jaylin Williams",
-            "displayName": "Jaylin Williams",
-            "shortName": "J. Williams",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4432823/jaylin-williams",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png",
-              "alt": "Jaylin Williams"
-            },
-            "jersey": "6",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432823?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Wrist",
-            "location": "Arm",
-            "detail": "Soreness",
-            "side": "Right",
-            "returnDate": "2026-10-26"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-26T00:19Z",
-          "athlete": {
-            "id": "4683692",
-            "uid": "s:40~l:46~a:4683692",
-            "guid": "883078c3-d6cf-3df9-8844-45ff07b999e3",
-            "lastName": "Wallace",
-            "fullName": "Cason Wallace",
-            "displayName": "Cason Wallace",
-            "shortName": "C. Wallace",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png",
-              "alt": "Cason Wallace"
-            },
-            "jersey": "22",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4683692?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Shoulder",
-            "location": "Arm",
-            "side": "Left",
-            "returnDate": "2026-10-26"
           }
         },
         {
@@ -2921,64 +2935,6 @@
             "detail": "Surgery",
             "side": "Right",
             "returnDate": "2027-07-01"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-21T22:13Z",
-          "athlete": {
-            "id": "5159925",
-            "uid": "s:40~l:46~a:5159925",
-            "guid": "d4609779-e07b-36a5-910e-bc4a44a46013",
-            "lastName": "Topic",
-            "fullName": "Nikola Topic",
-            "displayName": "Nikola Topic",
-            "shortName": "N. Topic",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/5159925/nikola-topic",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5159925.png",
-              "alt": "Nikola Topic"
-            },
-            "jersey": "44",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Back",
-            "location": "Torso",
-            "detail": "Surgery",
-            "side": "Not Specified",
-            "returnDate": "2026-10-26"
           }
         }
       ]
@@ -3050,8 +3006,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-25T22:25Z",
+          "status": "Out",
+          "date": "2026-10-26T18:30Z",
           "athlete": {
             "id": "4601023",
             "uid": "s:40~l:46~a:4601023",
@@ -3092,22 +3048,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Oblique",
             "location": "Torso",
             "detail": "Strain",
             "side": "Not Specified",
-            "returnDate": "2026-10-26"
+            "returnDate": "2026-10-30"
           }
         },
         {
@@ -3222,7 +3178,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3239,16 +3195,16 @@
           }
         ]
       },
-      "details": "OKC -10.5",
-      "overUnder": 220.5,
-      "spread": -10.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "details": "OKC -8.5",
+      "overUnder": 221.5,
+      "spread": -8.5,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 320,
-        "spreadOdds": -110.0,
+        "moneyLine": 260,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
         },
@@ -3258,8 +3214,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -410,
-        "spreadOdds": -110.0,
+        "moneyLine": -325,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/25?lang=en&region=us"
         },
@@ -3273,7 +3229,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_1",
           "text": "Home Bet",
@@ -3297,7 +3253,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_3",
           "text": "Away Bet",
@@ -3322,7 +3278,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511N1050_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511N850_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3335,7 +3291,7 @@
               "gameId": 401909873,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:OKC-10.5"
+              "betDetails": "Spread:OKC-8.5"
             }
           }
         },
@@ -3346,7 +3302,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511P1050_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511P850_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3359,7 +3315,7 @@
               "gameId": 401909873,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:PHX+10.5"
+              "betDetails": "Spread:PHX+8.5"
             }
           }
         },
@@ -3370,7 +3326,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511O22050_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511O22150_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3383,7 +3339,7 @@
               "gameId": 401909873,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:220.5"
+              "betDetails": "Over:221.5"
             }
           }
         },
@@ -3394,7 +3350,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511U22050_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511U22150_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3407,7 +3363,7 @@
               "gameId": 401909873,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:220.5"
+              "betDetails": "Under:221.5"
             }
           }
         },
@@ -3430,14 +3386,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-410",
+            "odds": "-325",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_1",
               "text": "Home Bet",
@@ -3462,14 +3418,14 @@
         },
         "away": {
           "close": {
-            "odds": "+320",
+            "odds": "+260",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_3",
               "text": "Away Bet",
@@ -3498,8 +3454,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-10.5",
-            "odds": "-110",
+            "line": "-8.5",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3507,7 +3463,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511N1050_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511N850_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3520,7 +3476,7 @@
                   "gameId": 401909873,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:OKC-10.5"
+                  "betDetails": "Spread:OKC-8.5"
                 }
               }
             }
@@ -3532,8 +3488,8 @@
         },
         "away": {
           "close": {
-            "line": "+10.5",
-            "odds": "-110",
+            "line": "+8.5",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3541,7 +3497,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511P1050_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0HC86931511P850_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3554,7 +3510,7 @@
                   "gameId": 401909873,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:PHX+10.5"
+                  "betDetails": "Spread:PHX+8.5"
                 }
               }
             }
@@ -3570,8 +3526,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o220.5",
-            "odds": "-112",
+            "line": "o221.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3579,7 +3535,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511O22050_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511O22150_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3592,7 +3548,7 @@
                   "gameId": 401909873,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:220.5"
+                  "betDetails": "Over:221.5"
                 }
               }
             }
@@ -3604,8 +3560,8 @@
         },
         "under": {
           "close": {
-            "line": "u220.5",
-            "odds": "-108",
+            "line": "u221.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3613,7 +3569,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511U22050_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0OU86931511U22150_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3626,7 +3582,7 @@
                   "gameId": 401909873,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:220.5"
+                  "betDetails": "Under:221.5"
                 }
               }
             }
@@ -3818,15 +3774,154 @@
     },
     "articles": [
       {
+        "id": 50289397,
+        "nowId": "1-50289397",
+        "contentKey": "50289397-1-5-1",
+        "dataSourceIdentifier": "90aaceff46b40",
+        "type": "HeadlineNews",
+        "headline": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
+        "description": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
+        "lastModified": "2026-10-26T19:01:30Z",
+        "published": "2026-10-26T19:01:30Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "4d11519f27384",
+            "id": 50289377,
+            "type": "header",
+            "name": "Jalen Suggs [1296x729]",
+            "alt": "Jalen Suggs",
+            "credit": "Wendell Cruz/Imagn Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736599_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Orlando Magic vs. New York Knicks: Game Highlights",
+            "caption": "Orlando Magic vs. New York Knicks: Game Highlights",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/f101f2453a9c408c9654bed9259c3bc971/f101f2453a9c408c9654bed9259c3bc971.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4309,
+            "type": "team",
+            "uid": "s:40~l:46~t:19",
+            "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+            "description": "Orlando Magic",
+            "sportId": 46,
+            "teamId": 19,
+            "team": {
+              "id": 19,
+              "description": "Orlando Magic",
+              "abbreviation": "ORL",
+              "shortDisplayName": "Magic",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 492477,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432165",
+            "guid": "bd1767da-2774-3ec3-9c48-f443f0777bf6",
+            "description": "Jalen Suggs",
+            "sportId": 46,
+            "athleteId": 4432165,
+            "athlete": {
+              "id": 4432165,
+              "description": "Jalen Suggs",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50289397"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50289397"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50289397"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50288799,
         "nowId": "1-50288799",
         "contentKey": "50288799-1-5-1",
         "dataSourceIdentifier": "c08078b4c9b8b",
         "type": "HeadlineNews",
-        "headline": "Sources: Dream, Valkyries to play Game 6, WNBA Finals at State Farm on Thursday",
-        "description": "WNBA Finals, Game 6 will be played Thursday,12:30p ET at State Farm Arena in Atlanta, sources told ESPN's Ramona Shelburne. Cavs, Hawks to start later that night.",
-        "lastModified": "2026-10-26T17:47:28Z",
-        "published": "2026-10-26T17:47:28Z",
+        "headline": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
+        "description": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
+        "lastModified": "2026-10-26T18:14:09Z",
+        "published": "2026-10-26T18:14:09Z",
         "images": [
           {
             "dataSourceIdentifier": "be931ed8a1a87",
@@ -3838,6 +3933,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Valkyries take down Dream in Game 4 to even WNBA Finals",
+            "caption": "Valkyries take down Dream in Game 4 to even WNBA Finals",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/55d3c8f9126e4861a9ec081fd2dce9b5943/55d3c8f9126e4861a9ec081fd2dce9b5943.jpg"
           }
         ],
         "categories": [
@@ -4818,157 +4921,23 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50028196,
-        "nowId": "1-50028196",
-        "contentKey": "50028196-1-6-1",
-        "dataSourceIdentifier": "6c1d8d0c3198e",
-        "type": "Story",
-        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-10-26T14:54:51Z",
-        "published": "2026-10-26T14:54:51Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "9794d99d85fc9",
-            "id": 50241205,
-            "type": "header",
-            "name": "porzingis [608x342] - Copy",
-            "credit": "D. Ross Cameron-Imagn Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "1d2dd1b0f7447",
-            "id": 50061081,
-            "type": "header",
-            "name": "kat [608x342]",
-            "credit": "Photo by Caleb Bowlin/Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "a754860d3e38f",
-            "id": 50028282,
-            "type": "header",
-            "name": "NBA LOGO [608x342] - Copy",
-            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
-            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409222,
-            "type": "topic",
-            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
-            "description": "daily",
-            "sportId": 0,
-            "topicId": 779
-          },
-          {
-            "id": 186377,
-            "type": "topic",
-            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
-            "description": "nba free agency",
-            "sportId": 0,
-            "topicId": 677
-          },
-          {
-            "id": 128110,
-            "type": "topic",
-            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-            "description": "news - frontpage",
-            "sportId": 0,
-            "topicId": 92
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "25",
-      "gameProjection": "80.7",
-      "teamChanceLoss": "19.3"
+      "gameProjection": "78.6",
+      "teamChanceLoss": "21.4"
     },
     "awayTeam": {
       "id": "21",
-      "gameProjection": "19.3",
-      "teamChanceLoss": "80.7"
+      "gameProjection": "21.4",
+      "teamChanceLoss": "78.6"
     }
   },
+  "winprobability": [],
   "header": {
     "id": "401909873",
     "uid": "s:40~l:46~e:401909873",
@@ -5991,77 +5960,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/26 vs Suns 504 tickets left",
+        "ticketName": "10/26 vs Suns 514 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-26-2026/production/7432969?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Mavericks 7604 tickets left",
+        "ticketName": "10/28 @ Mavericks 6111 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-28-2026/production/7433116?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Rockets 3904 tickets left",
+        "ticketName": "10/31 @ Rockets 3907 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Cavaliers 3474 tickets left",
+        "ticketName": "11/2 @ Cavaliers 3467 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-2-2026/production/7432827?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Cavaliers 2032 tickets left",
+        "ticketName": "11/4 vs Cavaliers 2004 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-4-2026/production/7433156?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Grizzlies 3585 tickets left",
+        "ticketName": "11/6 @ Grizzlies 3573 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-30-2026--sports-nba-basketball/production/7419906?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Wizards 2949 tickets left",
+        "ticketName": "11/7 vs Wizards 2940 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Trail Blazers 4124 tickets left",
+        "ticketName": "11/10 @ Trail Blazers 4107 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Trail Blazers 4221 tickets left",
+        "ticketName": "11/11 @ Trail Blazers 4193 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Clippers 3763 tickets left",
+        "ticketName": "11/13 @ Clippers 3802 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Kings 7142 tickets left",
+        "ticketName": "11/15 @ Kings 7158 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Hawks 2419 tickets left",
+        "ticketName": "11/18 vs Hawks 2418 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-18-2026/production/7433070?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Pelicans 2655 tickets left",
+        "ticketName": "11/20 vs Pelicans 2641 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Heat 5764 tickets left",
+        "ticketName": "11/22 @ Heat 5736 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pacers 4065 tickets left",
+        "ticketName": "11/23 @ Pacers 4050 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-23-2026/production/7430986?wsUser=717",
         "type": "event"
       }
@@ -6070,7 +6039,7 @@
       "opponentTeamName": "Suns",
       "currentTeamName": "Thunder",
       "venueName": "Paycom Center",
-      "summary": "Tickets as low as $22",
+      "summary": "Tickets as low as $24",
       "date": "2026-10-27T00:00Z",
       "dateDay": "Mon",
       "homeAway": "home",
