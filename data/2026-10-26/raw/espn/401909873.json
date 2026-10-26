@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Tony Brothers",
+        "displayName": "Tony Brothers",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Eric Lewis",
+        "displayName": "Eric Lewis",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "John Conley",
+        "displayName": "John Conley",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -1084,8 +1116,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -1150,7 +1180,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909860",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3232,7 +3264,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3283,7 +3315,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_1",
           "text": "Home Bet",
@@ -3307,7 +3339,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_3",
           "text": "Away Bet",
@@ -3447,7 +3479,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_1",
               "text": "Home Bet",
@@ -3479,7 +3511,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901570%3Foutcomes%3D0ML86931511_3",
               "text": "Away Bet",
@@ -3811,1114 +3843,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "news": {
-    "header": "NBA News",
-    "link": {
-      "language": "en",
-      "rel": [
-        "index",
-        "desktop",
-        "league"
-      ],
-      "href": "https://www.espn.com/nba/",
-      "text": "All NBA News",
-      "shortText": "All News",
-      "isExternal": false,
-      "isPremium": false
-    },
-    "articles": [
-      {
-        "id": 50287191,
-        "nowId": "1-50287191",
-        "contentKey": "50287191-1-6-1",
-        "dataSourceIdentifier": "c552f575eebf4",
-        "type": "Story",
-        "headline": "Jalen Williams, Cason Wallace injured: What's next for the OKC Thunder?",
-        "description": "The Thunder will be without two starting guards for months. Could they make a trade to try to replace Jalen Williams and Cason Wallace?",
-        "lastModified": "2026-10-26T22:38:25Z",
-        "published": "2026-10-26T22:38:25Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "c534df2b3fd85",
-            "id": 50287179,
-            "type": "header",
-            "name": "Jalen Williams of the Oklahoma City Thunder handles the ball during the game against the LA Clippers on Oct. 25, 2026, at Paycom Center in Oklahoma City. [608x342]",
-            "alt": "Jalen Williams of the Oklahoma City Thunder handles the ball during the game against the LA Clippers on Oct. 25, 2026, at Paycom Center in Oklahoma City.",
-            "credit": "Photo by Zach Beeker/NBAE via Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/1026/r1736471_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "32b24f7edc190",
-            "id": 50287150,
-            "type": "header",
-            "name": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.  [608x342]",
-            "alt": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.",
-            "credit": "AP Photo/Kyle Phillips",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/1026/r1736470_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-            "caption": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_104206792_3712041/ss_20261026_104206792_3712041.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4695,
-            "type": "team",
-            "uid": "s:40~l:46~t:25",
-            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
-            "description": "Oklahoma City Thunder",
-            "sportId": 46,
-            "teamId": 25,
-            "team": {
-              "id": 25,
-              "description": "Oklahoma City Thunder",
-              "abbreviation": "OKC",
-              "shortDisplayName": "Thunder",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533818,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4593803",
-            "guid": "2381f346-9247-3ba1-b632-fcef378a2799",
-            "description": "Jalen Williams",
-            "sportId": 46,
-            "athleteId": 4593803,
-            "athlete": {
-              "id": 4593803,
-              "description": "Jalen Williams",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 567148,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4683692",
-            "guid": "883078c3-d6cf-3df9-8844-45ff07b999e3",
-            "description": "Cason Wallace",
-            "sportId": 46,
-            "athleteId": 4683692,
-            "athlete": {
-              "id": 4683692,
-              "description": "Cason Wallace",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701917,
-            "type": "contributor",
-            "guid": "11ff8a66-a3b9-356a-b8f3-cf3e50464120",
-            "description": "NBA Insiders",
-            "slug": "nba-insiders",
-            "contributor": {
-              "id": 2496,
-              "description": "NBA Insiders"
-            }
-          }
-        ],
-        "byline": "NBA Insiders",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50287191"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50287191"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50287191"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50287191/jalen-williams-cason-wallace-injured-next-thunder"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 49960162,
-        "nowId": "1-49960162",
-        "contentKey": "49960162-1-6-1",
-        "dataSourceIdentifier": "d87b49108e8a7",
-        "type": "Story",
-        "headline": "Fantasy basketball points league rankings update: George, Jerome on the rise",
-        "description": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
-        "lastModified": "2026-10-26T22:21:47Z",
-        "published": "2026-10-26T22:21:47Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "4a1dc26727139",
-            "id": 50291106,
-            "type": "header",
-            "name": "Paul George [1296x729]",
-            "caption": "Things are looking up for Paul George in his first season in Boston.",
-            "alt": "Paul George #13 of the Boston Celtics waits for a rebound against the Detroit Pistons on October 20, 2026 at Little Caesars Arena in Detroit, Michigan.",
-            "credit": "Brian Sevald/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 141870,
-            "type": "topic",
-            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
-            "description": "news - fantasy",
-            "sportId": 0,
-            "topicId": 240
-          },
-          {
-            "id": 152380,
-            "type": "topic",
-            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
-            "description": "news - fantasy basketball",
-            "sportId": 0,
-            "topicId": 400
-          },
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "id": 384258,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4065733",
-            "guid": "c3105754-89ce-5055-3b1b-61c45e7ce40a",
-            "description": "Ty Jerome",
-            "sportId": 46,
-            "athleteId": 4065733,
-            "athlete": {
-              "id": 4065733,
-              "description": "Ty Jerome",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065733/ty-jerome"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065733/ty-jerome"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 76403,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4251",
-            "guid": "d7e5e918-d53f-018e-9d15-f9005b2390ad",
-            "description": "Paul George",
-            "sportId": 46,
-            "athleteId": 4251,
-            "athlete": {
-              "id": 4251,
-              "description": "Paul George",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4251/paul-george"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4251/paul-george"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 492124,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4278053",
-            "guid": "b35bafd9-3d93-3a83-c88a-6c08e851afa3",
-            "description": "Davion Mitchell",
-            "sportId": 46,
-            "athleteId": 4278053,
-            "athlete": {
-              "id": 4278053,
-              "description": "Davion Mitchell",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 699506,
-            "type": "contributor",
-            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
-            "description": "Andre Snellings",
-            "slug": "andre-snellings",
-            "contributor": {
-              "id": 3273,
-              "description": "Andre Snellings"
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Andre Snellings",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/49960162"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=49960162"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=49960162"
-          },
-          "web": {
-            "href": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50290179,
-        "nowId": "1-50290179",
-        "contentKey": "50290179-1-5-1",
-        "dataSourceIdentifier": "5beadcde7eb49",
-        "type": "HeadlineNews",
-        "headline": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
-        "description": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing surgery on their ankle and shoulder, respectively.",
-        "lastModified": "2026-10-26T22:48:21Z",
-        "published": "2026-10-26T22:48:21Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "02068d22e2fc0",
-            "id": 50287159,
-            "type": "header",
-            "name": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.  [600x400]",
-            "alt": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.",
-            "credit": "AP Photo/Kyle Phillips",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1026/r1736470_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
-            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 4695,
-            "type": "team",
-            "uid": "s:40~l:46~t:25",
-            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
-            "description": "Oklahoma City Thunder",
-            "sportId": 46,
-            "teamId": 25,
-            "team": {
-              "id": 25,
-              "description": "Oklahoma City Thunder",
-              "abbreviation": "OKC",
-              "shortDisplayName": "Thunder",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533818,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4593803",
-            "guid": "2381f346-9247-3ba1-b632-fcef378a2799",
-            "description": "Jalen Williams",
-            "sportId": 46,
-            "athleteId": 4593803,
-            "athlete": {
-              "id": 4593803,
-              "description": "Jalen Williams",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          }
-        ],
-        "byline": "Tim MacMahon",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50290179"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50290179"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50290179"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50289490,
-        "nowId": "1-50289490",
-        "contentKey": "50289490-1-293-1",
-        "dataSourceIdentifier": "59c38e4159da9",
-        "type": "Media",
-        "headline": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-        "description": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-        "lastModified": "2026-10-26T19:36:11Z",
-        "published": "2026-10-26T19:36:11Z",
-        "images": [
-          {
-            "name": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-            "caption": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 701394,
-            "type": "contributor",
-            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
-            "description": "Ramona Shelburne",
-            "slug": "ramona-shelburne",
-            "contributor": {
-              "id": 1831,
-              "description": "Ramona Shelburne"
-            }
-          },
-          {
-            "id": 711826,
-            "type": "editorialindicator",
-            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
-            "description": "2 Star Rating"
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9579,
-            "type": "league",
-            "uid": "s:40~l:59",
-            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
-            "description": "WNBA",
-            "sportId": 59,
-            "leagueId": 59,
-            "league": {
-              "id": 59,
-              "description": "WNBA",
-              "abbreviation": "WNBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/wnba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/wnba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409228,
-            "type": "topic",
-            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
-            "description": "fantasy",
-            "sportId": 0,
-            "topicId": 785
-          },
-          {
-            "id": 191422,
-            "type": "topic",
-            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
-            "description": "nba highlight",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "id": 692570,
-            "type": "team",
-            "uid": "s:40~l:59~t:129689",
-            "guid": "170598de-f63a-3497-a04d-1fc514508f56",
-            "description": "Golden State Valkyries",
-            "sportId": 59,
-            "teamId": 129689,
-            "team": {
-              "id": 129689,
-              "description": "Golden State Valkyries",
-              "abbreviation": "GS",
-              "shortDisplayName": "Valkyries",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 36562,
-            "type": "team",
-            "uid": "s:40~l:59~t:20",
-            "guid": "bceea196-4263-d338-17a7-9ae40f3aed3f",
-            "description": "Atlanta Dream",
-            "sportId": 59,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Atlanta Dream",
-              "abbreviation": "ATL",
-              "shortDisplayName": "Dream",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 730035,
-            "type": "editorialindicator",
-            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
-            "description": "Verts - Exclude Content"
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:59~e:401918310",
-            "guid": "8fa25242-a36a-361e-b33b-0d52d8357de6",
-            "description": "Golden State Valkyries @ Atlanta Dream",
-            "eventId": 401918310,
-            "event": {
-              "id": 401918310,
-              "sport": "basketball",
-              "league": "wnba",
-              "description": "Golden State Valkyries @ Atlanta Dream"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/7e2178b2-0d04-48c5-a35b-b06e85f0a004"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50289490"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50289490&videoDSI=59c38e4159da9"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=59c38e4159da9"
-              }
-            }
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50289397,
-        "nowId": "1-50289397",
-        "contentKey": "50289397-1-5-1",
-        "dataSourceIdentifier": "90aaceff46b40",
-        "type": "HeadlineNews",
-        "headline": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
-        "description": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
-        "lastModified": "2026-10-26T19:09:01Z",
-        "published": "2026-10-26T19:09:01Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "4d11519f27384",
-            "id": 50289377,
-            "type": "header",
-            "name": "Jalen Suggs [1296x729]",
-            "alt": "Jalen Suggs",
-            "credit": "Wendell Cruz/Imagn Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1026/r1736599_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Orlando Magic vs. New York Knicks: Game Highlights",
-            "caption": "Orlando Magic vs. New York Knicks: Game Highlights",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/f101f2453a9c408c9654bed9259c3bc971/f101f2453a9c408c9654bed9259c3bc971.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4309,
-            "type": "team",
-            "uid": "s:40~l:46~t:19",
-            "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
-            "description": "Orlando Magic",
-            "sportId": 46,
-            "teamId": 19,
-            "team": {
-              "id": 19,
-              "description": "Orlando Magic",
-              "abbreviation": "ORL",
-              "shortDisplayName": "Magic",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 492477,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4432165",
-            "guid": "bd1767da-2774-3ec3-9c48-f443f0777bf6",
-            "description": "Jalen Suggs",
-            "sportId": 46,
-            "athleteId": 4432165,
-            "athlete": {
-              "id": 4432165,
-              "description": "Jalen Suggs",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50289397"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50289397"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50289397"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50289181,
-        "nowId": "1-50289181",
-        "contentKey": "50289181-1-293-1",
-        "dataSourceIdentifier": "579ad71ae9f25",
-        "type": "Media",
-        "headline": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
-        "description": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
-        "lastModified": "2026-10-26T19:21:14Z",
-        "published": "2026-10-26T19:21:14Z",
-        "images": [
-          {
-            "name": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
-            "caption": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_143507972_3712203919/ss_20261026_143507972_3712203919.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409228,
-            "type": "topic",
-            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
-            "description": "fantasy",
-            "sportId": 0,
-            "topicId": 785
-          },
-          {
-            "id": 191422,
-            "type": "topic",
-            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
-            "description": "nba highlight",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "id": 4245,
-            "type": "team",
-            "uid": "s:40~l:46~t:2",
-            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
-            "description": "Boston Celtics",
-            "sportId": 46,
-            "teamId": 2,
-            "team": {
-              "id": 2,
-              "description": "Boston Celtics",
-              "abbreviation": "BOS",
-              "shortDisplayName": "Celtics",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 168976,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4065648",
-            "guid": "ed3343b0-2ffa-f6b4-e422-3a1920938c81",
-            "description": "Jayson Tatum",
-            "sportId": 46,
-            "athleteId": 4065648,
-            "athlete": {
-              "id": 4065648,
-              "description": "Jayson Tatum",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154335,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3917376",
-            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
-            "description": "Jaylen Brown",
-            "sportId": 46,
-            "athleteId": 3917376,
-            "athlete": {
-              "id": 3917376,
-              "description": "Jaylen Brown",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/9817cfc5-9757-45f1-8f71-883565dd42d9"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50289181"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50289181&videoDSI=579ad71ae9f25"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=579ad71ae9f25"
-              }
-            }
-          }
-        },
-        "premium": false
-      }
-    ]
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "25",
-      "gameProjection": "78.6",
-      "teamChanceLoss": "21.4"
-    },
-    "awayTeam": {
-      "id": "21",
-      "gameProjection": "21.4",
-      "teamChanceLoss": "78.6"
-    }
-  },
   "header": {
     "id": "401909873",
     "uid": "s:40~l:46~e:401909873",
@@ -5780,6 +4704,1114 @@
       ]
     }
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "25",
+      "gameProjection": "79.2",
+      "teamChanceLoss": "20.8"
+    },
+    "awayTeam": {
+      "id": "21",
+      "gameProjection": "20.8",
+      "teamChanceLoss": "79.2"
+    }
+  },
+  "winprobability": [],
+  "news": {
+    "header": "NBA News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/nba/",
+      "text": "All NBA News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 50287191,
+        "nowId": "1-50287191",
+        "contentKey": "50287191-1-6-1",
+        "dataSourceIdentifier": "c552f575eebf4",
+        "type": "Story",
+        "headline": "Jalen Williams, Cason Wallace injured: What's next for the OKC Thunder?",
+        "description": "The Thunder will be without two starting guards for months. Could they make a trade to try to replace Jalen Williams and Cason Wallace?",
+        "lastModified": "2026-10-26T22:38:25Z",
+        "published": "2026-10-26T22:38:25Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "c534df2b3fd85",
+            "id": 50287179,
+            "type": "header",
+            "name": "Jalen Williams of the Oklahoma City Thunder handles the ball during the game against the LA Clippers on Oct. 25, 2026, at Paycom Center in Oklahoma City. [608x342]",
+            "alt": "Jalen Williams of the Oklahoma City Thunder handles the ball during the game against the LA Clippers on Oct. 25, 2026, at Paycom Center in Oklahoma City.",
+            "credit": "Photo by Zach Beeker/NBAE via Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736471_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "32b24f7edc190",
+            "id": 50287150,
+            "type": "header",
+            "name": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.  [608x342]",
+            "alt": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.",
+            "credit": "AP Photo/Kyle Phillips",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736470_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
+            "caption": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_104206792_3712041/ss_20261026_104206792_3712041.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4695,
+            "type": "team",
+            "uid": "s:40~l:46~t:25",
+            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
+            "description": "Oklahoma City Thunder",
+            "sportId": 46,
+            "teamId": 25,
+            "team": {
+              "id": 25,
+              "description": "Oklahoma City Thunder",
+              "abbreviation": "OKC",
+              "shortDisplayName": "Thunder",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533818,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4593803",
+            "guid": "2381f346-9247-3ba1-b632-fcef378a2799",
+            "description": "Jalen Williams",
+            "sportId": 46,
+            "athleteId": 4593803,
+            "athlete": {
+              "id": 4593803,
+              "description": "Jalen Williams",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 567148,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4683692",
+            "guid": "883078c3-d6cf-3df9-8844-45ff07b999e3",
+            "description": "Cason Wallace",
+            "sportId": 46,
+            "athleteId": 4683692,
+            "athlete": {
+              "id": 4683692,
+              "description": "Cason Wallace",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701917,
+            "type": "contributor",
+            "guid": "11ff8a66-a3b9-356a-b8f3-cf3e50464120",
+            "description": "NBA Insiders",
+            "slug": "nba-insiders",
+            "contributor": {
+              "id": 2496,
+              "description": "NBA Insiders"
+            }
+          }
+        ],
+        "byline": "NBA Insiders",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50287191"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50287191"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50287191"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50287191/jalen-williams-cason-wallace-injured-next-thunder"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 49960162,
+        "nowId": "1-49960162",
+        "contentKey": "49960162-1-6-1",
+        "dataSourceIdentifier": "d87b49108e8a7",
+        "type": "Story",
+        "headline": "Fantasy basketball points league rankings update: George, Jerome on the rise",
+        "description": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
+        "lastModified": "2026-10-26T22:21:47Z",
+        "published": "2026-10-26T22:21:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "4a1dc26727139",
+            "id": 50291106,
+            "type": "header",
+            "name": "Paul George [1296x729]",
+            "caption": "Things are looking up for Paul George in his first season in Boston.",
+            "alt": "Paul George #13 of the Boston Celtics waits for a rebound against the Detroit Pistons on October 20, 2026 at Little Caesars Arena in Detroit, Michigan.",
+            "credit": "Brian Sevald/NBAE via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 384258,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4065733",
+            "guid": "c3105754-89ce-5055-3b1b-61c45e7ce40a",
+            "description": "Ty Jerome",
+            "sportId": 46,
+            "athleteId": 4065733,
+            "athlete": {
+              "id": 4065733,
+              "description": "Ty Jerome",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065733/ty-jerome"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065733/ty-jerome"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 76403,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4251",
+            "guid": "d7e5e918-d53f-018e-9d15-f9005b2390ad",
+            "description": "Paul George",
+            "sportId": 46,
+            "athleteId": 4251,
+            "athlete": {
+              "id": 4251,
+              "description": "Paul George",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4251/paul-george"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4251/paul-george"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492124,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4278053",
+            "guid": "b35bafd9-3d93-3a83-c88a-6c08e851afa3",
+            "description": "Davion Mitchell",
+            "sportId": 46,
+            "athleteId": 4278053,
+            "athlete": {
+              "id": 4278053,
+              "description": "Davion Mitchell",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 699506,
+            "type": "contributor",
+            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
+            "description": "Andre Snellings",
+            "slug": "andre-snellings",
+            "contributor": {
+              "id": 3273,
+              "description": "Andre Snellings"
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "byline": "Andre Snellings",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49960162"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49960162"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49960162"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50290179,
+        "nowId": "1-50290179",
+        "contentKey": "50290179-1-5-1",
+        "dataSourceIdentifier": "5beadcde7eb49",
+        "type": "HeadlineNews",
+        "headline": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
+        "description": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing ankle and shoulder surgery, respectively.",
+        "lastModified": "2026-10-26T23:17:38Z",
+        "published": "2026-10-26T23:17:38Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "02068d22e2fc0",
+            "id": 50287159,
+            "type": "header",
+            "name": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.  [600x400]",
+            "alt": "Oklahoma City Thunder guard Jalen Williams is taken off the court by medical staff during the second half of an NBA basketball game against the Los Angeles Clippers, Sunday, Oct. 25, 2026, in Oklahoma City.",
+            "credit": "AP Photo/Kyle Phillips",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736470_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 4695,
+            "type": "team",
+            "uid": "s:40~l:46~t:25",
+            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
+            "description": "Oklahoma City Thunder",
+            "sportId": 46,
+            "teamId": 25,
+            "team": {
+              "id": 25,
+              "description": "Oklahoma City Thunder",
+              "abbreviation": "OKC",
+              "shortDisplayName": "Thunder",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533818,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4593803",
+            "guid": "2381f346-9247-3ba1-b632-fcef378a2799",
+            "description": "Jalen Williams",
+            "sportId": 46,
+            "athleteId": 4593803,
+            "athlete": {
+              "id": 4593803,
+              "description": "Jalen Williams",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 698423,
+            "type": "contributor",
+            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
+            "description": "Tim MacMahon",
+            "slug": "tim-macmahon",
+            "contributor": {
+              "id": 1808,
+              "description": "Tim MacMahon"
+            }
+          }
+        ],
+        "byline": "Tim MacMahon",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50290179"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50290179"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50290179"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50289490,
+        "nowId": "1-50289490",
+        "contentKey": "50289490-1-293-1",
+        "dataSourceIdentifier": "59c38e4159da9",
+        "type": "Media",
+        "headline": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+        "description": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+        "lastModified": "2026-10-26T19:36:11Z",
+        "published": "2026-10-26T19:36:11Z",
+        "images": [
+          {
+            "name": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+            "caption": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 701394,
+            "type": "contributor",
+            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
+            "description": "Ramona Shelburne",
+            "slug": "ramona-shelburne",
+            "contributor": {
+              "id": 1831,
+              "description": "Ramona Shelburne"
+            }
+          },
+          {
+            "id": 711826,
+            "type": "editorialindicator",
+            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
+            "description": "2 Star Rating"
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9579,
+            "type": "league",
+            "uid": "s:40~l:59",
+            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
+            "description": "WNBA",
+            "sportId": 59,
+            "leagueId": 59,
+            "league": {
+              "id": 59,
+              "description": "WNBA",
+              "abbreviation": "WNBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409228,
+            "type": "topic",
+            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+            "description": "fantasy",
+            "sportId": 0,
+            "topicId": 785
+          },
+          {
+            "id": 191422,
+            "type": "topic",
+            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+            "description": "nba highlight",
+            "sportId": 0,
+            "topicId": 707
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 692570,
+            "type": "team",
+            "uid": "s:40~l:59~t:129689",
+            "guid": "170598de-f63a-3497-a04d-1fc514508f56",
+            "description": "Golden State Valkyries",
+            "sportId": 59,
+            "teamId": 129689,
+            "team": {
+              "id": 129689,
+              "description": "Golden State Valkyries",
+              "abbreviation": "GS",
+              "shortDisplayName": "Valkyries",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 36562,
+            "type": "team",
+            "uid": "s:40~l:59~t:20",
+            "guid": "bceea196-4263-d338-17a7-9ae40f3aed3f",
+            "description": "Atlanta Dream",
+            "sportId": 59,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Atlanta Dream",
+              "abbreviation": "ATL",
+              "shortDisplayName": "Dream",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 730035,
+            "type": "editorialindicator",
+            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
+            "description": "Verts - Exclude Content"
+          },
+          {
+            "type": "event",
+            "uid": "s:40~l:59~e:401918310",
+            "guid": "8fa25242-a36a-361e-b33b-0d52d8357de6",
+            "description": "Golden State Valkyries @ Atlanta Dream",
+            "eventId": 401918310,
+            "event": {
+              "id": 401918310,
+              "sport": "basketball",
+              "league": "wnba",
+              "description": "Golden State Valkyries @ Atlanta Dream"
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7e2178b2-0d04-48c5-a35b-b06e85f0a004"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50289490"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50289490&videoDSI=59c38e4159da9"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=59c38e4159da9"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50289397,
+        "nowId": "1-50289397",
+        "contentKey": "50289397-1-5-1",
+        "dataSourceIdentifier": "90aaceff46b40",
+        "type": "HeadlineNews",
+        "headline": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
+        "description": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
+        "lastModified": "2026-10-26T19:09:01Z",
+        "published": "2026-10-26T19:09:01Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "4d11519f27384",
+            "id": 50289377,
+            "type": "header",
+            "name": "Jalen Suggs [1296x729]",
+            "alt": "Jalen Suggs",
+            "credit": "Wendell Cruz/Imagn Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736599_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Orlando Magic vs. New York Knicks: Game Highlights",
+            "caption": "Orlando Magic vs. New York Knicks: Game Highlights",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/f101f2453a9c408c9654bed9259c3bc971/f101f2453a9c408c9654bed9259c3bc971.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4309,
+            "type": "team",
+            "uid": "s:40~l:46~t:19",
+            "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+            "description": "Orlando Magic",
+            "sportId": 46,
+            "teamId": 19,
+            "team": {
+              "id": 19,
+              "description": "Orlando Magic",
+              "abbreviation": "ORL",
+              "shortDisplayName": "Magic",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 492477,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432165",
+            "guid": "bd1767da-2774-3ec3-9c48-f443f0777bf6",
+            "description": "Jalen Suggs",
+            "sportId": 46,
+            "athleteId": 4432165,
+            "athlete": {
+              "id": 4432165,
+              "description": "Jalen Suggs",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50289397"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50289397"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50289397"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50289181,
+        "nowId": "1-50289181",
+        "contentKey": "50289181-1-293-1",
+        "dataSourceIdentifier": "579ad71ae9f25",
+        "type": "Media",
+        "headline": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
+        "description": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
+        "lastModified": "2026-10-26T19:21:14Z",
+        "published": "2026-10-26T19:21:14Z",
+        "images": [
+          {
+            "name": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
+            "caption": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_143507972_3712203919/ss_20261026_143507972_3712203919.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409228,
+            "type": "topic",
+            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+            "description": "fantasy",
+            "sportId": 0,
+            "topicId": 785
+          },
+          {
+            "id": 191422,
+            "type": "topic",
+            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+            "description": "nba highlight",
+            "sportId": 0,
+            "topicId": 707
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 4245,
+            "type": "team",
+            "uid": "s:40~l:46~t:2",
+            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+            "description": "Boston Celtics",
+            "sportId": 46,
+            "teamId": 2,
+            "team": {
+              "id": 2,
+              "description": "Boston Celtics",
+              "abbreviation": "BOS",
+              "shortDisplayName": "Celtics",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 168976,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4065648",
+            "guid": "ed3343b0-2ffa-f6b4-e422-3a1920938c81",
+            "description": "Jayson Tatum",
+            "sportId": 46,
+            "athleteId": 4065648,
+            "athlete": {
+              "id": 4065648,
+              "description": "Jayson Tatum",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154335,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3917376",
+            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
+            "description": "Jaylen Brown",
+            "sportId": 46,
+            "athleteId": 3917376,
+            "athlete": {
+              "id": 3917376,
+              "description": "Jaylen Brown",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9817cfc5-9757-45f1-8f71-883565dd42d9"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50289181"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50289181&videoDSI=579ad71ae9f25"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=579ad71ae9f25"
+              }
+            }
+          }
+        },
+        "premium": false
+      }
+    ]
+  },
   "article": {
     "id": 50285318,
     "nowId": "1-50285318",
@@ -5941,77 +5973,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/26 vs Suns 318 tickets left",
+        "ticketName": "10/26 vs Suns 255 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-26-2026/production/7432969?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Mavericks 5350 tickets left",
+        "ticketName": "10/28 @ Mavericks 5321 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-28-2026/production/7433116?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Rockets 3984 tickets left",
+        "ticketName": "10/31 @ Rockets 4037 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Cavaliers 2768 tickets left",
+        "ticketName": "11/2 @ Cavaliers 2852 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-2-2026/production/7432827?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Cavaliers 1994 tickets left",
+        "ticketName": "11/4 vs Cavaliers 1986 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-4-2026/production/7433156?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Grizzlies 4083 tickets left",
+        "ticketName": "11/6 @ Grizzlies 4089 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-30-2026--sports-nba-basketball/production/7419906?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Wizards 2848 tickets left",
+        "ticketName": "11/7 vs Wizards 2840 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Trail Blazers 4350 tickets left",
+        "ticketName": "11/10 @ Trail Blazers 4339 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Trail Blazers 4466 tickets left",
+        "ticketName": "11/11 @ Trail Blazers 4491 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Clippers 4250 tickets left",
+        "ticketName": "11/13 @ Clippers 4285 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Kings 7143 tickets left",
+        "ticketName": "11/15 @ Kings 7132 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Hawks 2474 tickets left",
+        "ticketName": "11/18 vs Hawks 2469 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-18-2026/production/7433070?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Pelicans 2667 tickets left",
+        "ticketName": "11/20 vs Pelicans 2680 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Heat 5673 tickets left",
+        "ticketName": "11/22 @ Heat 5666 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pacers 4014 tickets left",
+        "ticketName": "11/23 @ Pacers 4013 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-23-2026/production/7430986?wsUser=717",
         "type": "event"
       }
@@ -6020,7 +6052,7 @@
       "opponentTeamName": "Suns",
       "currentTeamName": "Thunder",
       "venueName": "Paycom Center",
-      "summary": "Tickets as low as $23",
+      "summary": "Tickets as low as $25",
       "date": "2026-10-27T00:00Z",
       "dateDay": "Mon",
       "homeAway": "home",

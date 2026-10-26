@@ -694,6 +694,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -758,9 +760,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
         }
       ]
     },
@@ -2999,7 +2999,67 @@
       "injuries": [
         {
           "status": "Out",
-          "date": "2026-10-26T22:39Z",
+          "date": "2026-10-26T23:09Z",
+          "athlete": {
+            "id": "4433076",
+            "uid": "s:40~l:46~a:4433076",
+            "guid": "80e725b8-72d0-3497-aeee-5c68d4d802c1",
+            "lastName": "Sheppard",
+            "fullName": "Ben Sheppard",
+            "displayName": "Ben Sheppard",
+            "shortName": "B. Sheppard",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4433076/ben-sheppard",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433076.png",
+              "alt": "Ben Sheppard"
+            },
+            "jersey": "26",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433076?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Knee",
+            "location": "Leg",
+            "side": "Left",
+            "returnDate": "2026-12-01"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-10-26T22:42Z",
           "athlete": {
             "id": "4395712",
             "uid": "s:40~l:46~a:4395712",
@@ -3051,8 +3111,8 @@
               "abbreviation": "OUT",
               "displayDescription": "Out"
             },
-            "type": "Neck",
-            "location": "Head",
+            "type": "Back",
+            "location": "Torso",
             "detail": "Soreness",
             "returnDate": "2026-10-28"
           }
@@ -3119,66 +3179,6 @@
           }
         },
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-26T18:22Z",
-          "athlete": {
-            "id": "4396909",
-            "uid": "s:40~l:46~a:4396909",
-            "guid": "524f7f01-f97b-eff0-2090-ba3212148d9e",
-            "lastName": "Nesmith",
-            "fullName": "Aaron Nesmith",
-            "displayName": "Aaron Nesmith",
-            "shortName": "A. Nesmith",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4396909/aaron-nesmith",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4396909.png",
-              "alt": "Aaron Nesmith"
-            },
-            "jersey": "23",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4396909?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Hamstring",
-            "location": "Leg",
-            "side": "Left",
-            "returnDate": "2026-10-26"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-26T18:20Z",
           "athlete": {
@@ -3238,15 +3238,15 @@
         },
         {
           "status": "Out",
-          "date": "2026-10-23T22:53Z",
+          "date": "2026-02-09T21:43Z",
           "athlete": {
-            "id": "4433076",
-            "uid": "s:40~l:46~a:4433076",
-            "guid": "80e725b8-72d0-3497-aeee-5c68d4d802c1",
-            "lastName": "Sheppard",
-            "fullName": "Ben Sheppard",
-            "displayName": "Ben Sheppard",
-            "shortName": "B. Sheppard",
+            "id": "5157066",
+            "uid": "s:40~l:46~a:5157066",
+            "guid": "0d594fa3-7e6f-3179-bafc-a240052c78e2",
+            "lastName": "Furphy",
+            "fullName": "Johnny Furphy",
+            "displayName": "Johnny Furphy",
+            "shortName": "J. Furphy",
             "links": [
               {
                 "rel": [
@@ -3254,22 +3254,22 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nba/player/_/id/4433076/ben-sheppard",
+                "href": "https://www.espn.com/nba/player/_/id/5157066/johnny-furphy",
                 "text": "Player Card"
               }
             ],
             "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433076.png",
-              "alt": "Ben Sheppard"
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5157066.png",
+              "alt": "Johnny Furphy"
             },
-            "jersey": "26",
+            "jersey": "12",
             "position": {
               "name": "Guard",
               "displayName": "Guard",
               "abbreviation": "G"
             },
             "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433076?lang=en&region=us"
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5157066?lang=en&region=us"
             },
             "status": {
               "id": "1",
@@ -3292,8 +3292,9 @@
             },
             "type": "Knee",
             "location": "Leg",
-            "side": "Left",
-            "returnDate": "2026-12-01"
+            "detail": "Surgery",
+            "side": "Right",
+            "returnDate": "2027-01-02"
           }
         }
       ]
@@ -3347,7 +3348,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3372,7 +3373,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -175,
+        "moneyLine": -166,
         "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/11?lang=en&region=us"
@@ -3383,7 +3384,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 145,
+        "moneyLine": 140,
         "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/15?lang=en&region=us"
@@ -3398,7 +3399,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901568%3Foutcomes%3D0ML86931501_1",
           "text": "Home Bet",
@@ -3422,7 +3423,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901568%3Foutcomes%3D0ML86931501_3",
           "text": "Away Bet",
@@ -3555,14 +3556,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+145",
+            "odds": "+140",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901568%3Foutcomes%3D0ML86931501_1",
               "text": "Home Bet",
@@ -3587,14 +3588,14 @@
         },
         "away": {
           "close": {
-            "odds": "-175",
+            "odds": "-166",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901568%3Foutcomes%3D0ML86931501_3",
               "text": "Away Bet",
@@ -3926,6 +3927,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "15",
+      "gameProjection": "35.5",
+      "teamChanceLoss": "64.5"
+    },
+    "awayTeam": {
+      "id": "11",
+      "gameProjection": "64.5",
+      "teamChanceLoss": "35.5"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4315,9 +4330,9 @@
         "dataSourceIdentifier": "5beadcde7eb49",
         "type": "HeadlineNews",
         "headline": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
-        "description": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing surgery on their ankle and shoulder, respectively.",
-        "lastModified": "2026-10-26T22:48:21Z",
-        "published": "2026-10-26T22:48:21Z",
+        "description": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing ankle and shoulder surgery, respectively.",
+        "lastModified": "2026-10-26T23:17:38Z",
+        "published": "2026-10-26T23:17:38Z",
         "images": [
           {
             "dataSourceIdentifier": "02068d22e2fc0",
@@ -5020,20 +5035,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "15",
-      "gameProjection": "36.1",
-      "teamChanceLoss": "63.9"
-    },
-    "awayTeam": {
-      "id": "11",
-      "gameProjection": "63.9",
-      "teamChanceLoss": "36.1"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909872",
     "uid": "s:40~l:46~e:401909872",
@@ -6050,17 +6051,17 @@
         "type": "team"
       },
       {
-        "ticketName": "10/26 vs Pacers 3530 tickets left",
+        "ticketName": "10/26 vs Pacers 961 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-26-2026/production/7432849?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 vs Rockets 4583 tickets left",
+        "ticketName": "10/28 vs Rockets 3765 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-28-2026/production/7432885?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 vs Cavaliers 6079 tickets left",
+        "ticketName": "10/31 vs Cavaliers 6644 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-31-2026/production/7432825?wsUser=717",
         "type": "event"
       },
@@ -6070,57 +6071,57 @@
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Celtics 4521 tickets left",
+        "ticketName": "11/4 @ Celtics 4481 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-4-2026/production/7432889?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Raptors 3975 tickets left",
+        "ticketName": "11/6 vs Raptors 4679 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-30-2026--sports-nba-basketball/production/7418897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Celtics 4819 tickets left",
+        "ticketName": "11/8 vs Celtics 5498 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-8-2026/production/7432891?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Knicks 2122 tickets left",
+        "ticketName": "11/10 @ Knicks 2105 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Lakers 3532 tickets left",
+        "ticketName": "11/11 vs Lakers 3528 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-11-2026/production/7432895?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Magic 4106 tickets left",
+        "ticketName": "11/13 @ Magic 4130 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-10-31-2026--sports-nba-basketball/production/7419021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hawks 5643 tickets left",
+        "ticketName": "11/15 vs Hawks 6214 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-15-2026/production/7432897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Heat 4332 tickets left",
+        "ticketName": "11/18 @ Heat 4347 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Trail Blazers 5434 tickets left",
+        "ticketName": "11/19 vs Trail Blazers 5970 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-19-2026/production/7432901?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ 76ers 3552 tickets left",
+        "ticketName": "11/21 @ 76ers 3542 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Raptors 1395 tickets left",
+        "ticketName": "11/23 @ Raptors 1401 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       }
@@ -6129,7 +6130,7 @@
       "opponentTeamName": "Pacers",
       "currentTeamName": "Bucks",
       "venueName": "Fiserv Forum",
-      "summary": "Tickets as low as $9",
+      "summary": "Tickets as low as $10",
       "date": "2026-10-27T00:00Z",
       "dateDay": "Mon",
       "homeAway": "home",
