@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Josh Tiven",
+        "displayName": "Josh Tiven",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Kevin Scott",
+        "displayName": "Kevin Scott",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Chelisa Painter",
+        "displayName": "Chelisa Painter",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,8 +343,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -377,7 +407,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898406",
@@ -487,6 +519,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -551,9 +585,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909847",
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909853",
@@ -820,6 +852,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -884,9 +918,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
         },
         {
           "id": "401898408",
@@ -1084,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1148,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909858",
@@ -1172,6 +1204,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -1236,9 +1270,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
         }
       ]
     }
@@ -3383,20 +3415,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "69.7",
-      "teamChanceLoss": "30.3"
-    },
-    "awayTeam": {
-      "id": "6",
-      "gameProjection": "30.3",
-      "teamChanceLoss": "69.7"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3980,8 +3998,8 @@
         "type": "HeadlineNews",
         "headline": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
         "description": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
-        "lastModified": "2026-10-26T19:36:58Z",
-        "published": "2026-10-26T19:36:58Z",
+        "lastModified": "2026-10-26T21:44:05Z",
+        "published": "2026-10-26T21:44:05Z",
         "images": [
           {
             "dataSourceIdentifier": "be931ed8a1a87",
@@ -4738,6 +4756,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "69.7",
+      "teamChanceLoss": "30.3"
+    },
+    "awayTeam": {
+      "id": "6",
+      "gameProjection": "30.3",
+      "teamChanceLoss": "69.7"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401909871",
     "uid": "s:40~l:46~e:401909871",
@@ -5724,67 +5756,67 @@
         "type": "team"
       },
       {
-        "ticketName": "10/26 vs Mavericks 2270 tickets left",
+        "ticketName": "10/26 vs Mavericks 1911 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-26-2026/production/7432869?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Hawks 3373 tickets left",
+        "ticketName": "10/28 @ Hawks 3591 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-28-2026/production/7432871?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Pacers 4757 tickets left",
+        "ticketName": "10/30 vs Pacers 4745 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-31-2026--sports-nba-basketball/production/7419660?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Lakers 5467 tickets left",
+        "ticketName": "11/2 @ Lakers 5450 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Clippers 2959 tickets left",
+        "ticketName": "11/4 @ Clippers 3020 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 @ Warriors 5128 tickets left",
+        "ticketName": "11/5 @ Warriors 5033 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-5-2026/production/7432841?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Kings 7742 tickets left",
+        "ticketName": "11/8 @ Kings 7690 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Jazz 2886 tickets left",
+        "ticketName": "11/10 @ Jazz 3014 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-10-2026/production/7432879?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Cavaliers 5525 tickets left",
+        "ticketName": "11/13 vs Cavaliers 5522 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 vs Pistons 5837 tickets left",
+        "ticketName": "11/14 vs Pistons 5844 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Rockets 6286 tickets left",
+        "ticketName": "11/16 vs Rockets 6308 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bucks 4348 tickets left",
+        "ticketName": "11/18 vs Bucks 4335 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 5728 tickets left",
+        "ticketName": "11/22 vs Thunder 5693 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
@@ -5803,7 +5835,7 @@
       "opponentTeamName": "Mavericks",
       "currentTeamName": "Heat",
       "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $26",
+      "summary": "Tickets as low as $24",
       "date": "2026-10-26T23:30Z",
       "dateDay": "Mon",
       "homeAway": "home",
