@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909096",
@@ -1084,6 +1084,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -1148,9 +1150,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401909856",
@@ -2674,7 +2674,7 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 170,
+        "moneyLine": 160,
         "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/1?lang=en&region=us"
@@ -2685,7 +2685,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -205,
+        "moneyLine": -192,
         "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
@@ -2857,7 +2857,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-205",
+            "odds": "-192",
             "link": {
               "language": "en-US",
               "rel": [
@@ -2889,7 +2889,7 @@
         },
         "away": {
           "close": {
-            "odds": "+170",
+            "odds": "+160",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3228,6 +3228,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "10",
+      "gameProjection": "56.7",
+      "teamChanceLoss": "43.3"
+    },
+    "awayTeam": {
+      "id": "1",
+      "gameProjection": "43.3",
+      "teamChanceLoss": "56.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3245,6 +3259,222 @@
     },
     "articles": [
       {
+        "id": 50289490,
+        "nowId": "1-50289490",
+        "contentKey": "50289490-1-293-1",
+        "dataSourceIdentifier": "59c38e4159da9",
+        "type": "Media",
+        "headline": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+        "description": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+        "lastModified": "2026-10-26T19:36:11Z",
+        "published": "2026-10-26T19:36:11Z",
+        "images": [
+          {
+            "name": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+            "caption": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 701394,
+            "type": "contributor",
+            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
+            "description": "Ramona Shelburne",
+            "slug": "ramona-shelburne",
+            "contributor": {
+              "id": 1831,
+              "description": "Ramona Shelburne"
+            }
+          },
+          {
+            "id": 711826,
+            "type": "editorialindicator",
+            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
+            "description": "2 Star Rating"
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9579,
+            "type": "league",
+            "uid": "s:40~l:59",
+            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
+            "description": "WNBA",
+            "sportId": 59,
+            "leagueId": 59,
+            "league": {
+              "id": 59,
+              "description": "WNBA",
+              "abbreviation": "WNBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409228,
+            "type": "topic",
+            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+            "description": "fantasy",
+            "sportId": 0,
+            "topicId": 785
+          },
+          {
+            "id": 191422,
+            "type": "topic",
+            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+            "description": "nba highlight",
+            "sportId": 0,
+            "topicId": 707
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 692570,
+            "type": "team",
+            "uid": "s:40~l:59~t:129689",
+            "guid": "170598de-f63a-3497-a04d-1fc514508f56",
+            "description": "Golden State Valkyries",
+            "sportId": 59,
+            "teamId": 129689,
+            "team": {
+              "id": 129689,
+              "description": "Golden State Valkyries",
+              "abbreviation": "GS",
+              "shortDisplayName": "Valkyries",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 36562,
+            "type": "team",
+            "uid": "s:40~l:59~t:20",
+            "guid": "bceea196-4263-d338-17a7-9ae40f3aed3f",
+            "description": "Atlanta Dream",
+            "sportId": 59,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Atlanta Dream",
+              "abbreviation": "ATL",
+              "shortDisplayName": "Dream",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 730035,
+            "type": "editorialindicator",
+            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
+            "description": "Verts - Exclude Content"
+          },
+          {
+            "type": "event",
+            "uid": "s:40~l:59~e:401918310",
+            "guid": "8fa25242-a36a-361e-b33b-0d52d8357de6",
+            "description": "Golden State Valkyries @ Atlanta Dream",
+            "eventId": 401918310,
+            "event": {
+              "id": 401918310,
+              "sport": "basketball",
+              "league": "wnba",
+              "description": "Golden State Valkyries @ Atlanta Dream"
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7e2178b2-0d04-48c5-a35b-b06e85f0a004"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50289490"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50289490&videoDSI=59c38e4159da9"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=59c38e4159da9"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50289397,
         "nowId": "1-50289397",
         "contentKey": "50289397-1-5-1",
@@ -3252,8 +3482,8 @@
         "type": "HeadlineNews",
         "headline": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
         "description": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
-        "lastModified": "2026-10-26T19:01:30Z",
-        "published": "2026-10-26T19:01:30Z",
+        "lastModified": "2026-10-26T19:09:01Z",
+        "published": "2026-10-26T19:09:01Z",
         "images": [
           {
             "dataSourceIdentifier": "4d11519f27384",
@@ -3384,6 +3614,210 @@
         "premium": false
       },
       {
+        "id": 50289181,
+        "nowId": "1-50289181",
+        "contentKey": "50289181-1-293-1",
+        "dataSourceIdentifier": "579ad71ae9f25",
+        "type": "Media",
+        "headline": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
+        "description": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
+        "lastModified": "2026-10-26T19:21:14Z",
+        "published": "2026-10-26T19:21:14Z",
+        "images": [
+          {
+            "name": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
+            "caption": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_143507972_3712203919/ss_20261026_143507972_3712203919.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409228,
+            "type": "topic",
+            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+            "description": "fantasy",
+            "sportId": 0,
+            "topicId": 785
+          },
+          {
+            "id": 191422,
+            "type": "topic",
+            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+            "description": "nba highlight",
+            "sportId": 0,
+            "topicId": 707
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 4245,
+            "type": "team",
+            "uid": "s:40~l:46~t:2",
+            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+            "description": "Boston Celtics",
+            "sportId": 46,
+            "teamId": 2,
+            "team": {
+              "id": 2,
+              "description": "Boston Celtics",
+              "abbreviation": "BOS",
+              "shortDisplayName": "Celtics",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 168976,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4065648",
+            "guid": "ed3343b0-2ffa-f6b4-e422-3a1920938c81",
+            "description": "Jayson Tatum",
+            "sportId": 46,
+            "athleteId": 4065648,
+            "athlete": {
+              "id": 4065648,
+              "description": "Jayson Tatum",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154335,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3917376",
+            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
+            "description": "Jaylen Brown",
+            "sportId": 46,
+            "athleteId": 3917376,
+            "athlete": {
+              "id": 3917376,
+              "description": "Jaylen Brown",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9817cfc5-9757-45f1-8f71-883565dd42d9"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50289181"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50289181&videoDSI=579ad71ae9f25"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=579ad71ae9f25"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50288799,
         "nowId": "1-50288799",
         "contentKey": "50288799-1-5-1",
@@ -3391,8 +3825,8 @@
         "type": "HeadlineNews",
         "headline": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
         "description": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
-        "lastModified": "2026-10-26T18:14:09Z",
-        "published": "2026-10-26T18:14:09Z",
+        "lastModified": "2026-10-26T19:36:58Z",
+        "published": "2026-10-26T19:36:58Z",
         "images": [
           {
             "dataSourceIdentifier": "be931ed8a1a87",
@@ -3407,11 +3841,11 @@
           },
           {
             "type": "Media",
-            "name": "Valkyries take down Dream in Game 4 to even WNBA Finals",
-            "caption": "Valkyries take down Dream in Game 4 to even WNBA Finals",
+            "name": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+            "caption": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
             "height": 324,
             "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/55d3c8f9126e4861a9ec081fd2dce9b5943/55d3c8f9126e4861a9ec081fd2dce9b5943.jpg"
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg"
           }
         ],
         "categories": [
@@ -4146,269 +4580,259 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50288053,
-        "nowId": "1-50288053",
-        "contentKey": "50288053-1-5-1",
-        "dataSourceIdentifier": "7c9d874659bf9",
-        "type": "HeadlineNews",
-        "headline": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-        "description": "Two U.S. senators called on the NBA to reevaluate a partnership with Rwanda and its dictator Paul Kagame, citing the American government's changing policy toward the small African nation.",
-        "lastModified": "2026-10-26T16:36:05Z",
-        "published": "2026-10-26T16:36:05Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "19e92b8b2d9e3",
-            "id": 50280338,
-            "type": "header",
-            "name": "NBA logo [600x400]",
-            "credit": "Photo by Erica Denhoff/Icon Sportswire",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1025/r1736092_600x400_3-2.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 700957,
-            "type": "contributor",
-            "guid": "5bf036c9-a848-33e2-89b8-d5c98d357734",
-            "description": "Mark Fainaru-Wada",
-            "slug": "mark-fainaru-wada",
-            "contributor": {
-              "id": 1326,
-              "description": "Mark Fainaru-Wada"
-            }
-          }
-        ],
-        "byline": "Mark Fainaru-Wada",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50288053"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50288053"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50288053"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50288053/us-senators-call-nba-reevaluate-rwanda-partnership"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50287555,
-        "nowId": "1-50287555",
-        "contentKey": "50287555-1-293-1",
-        "dataSourceIdentifier": "d59ac30ec2f5d",
-        "type": "Media",
-        "headline": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-        "description": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-        "lastModified": "2026-10-26T14:52:37Z",
-        "published": "2026-10-26T14:52:37Z",
-        "images": [
-          {
-            "name": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-            "caption": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_104206792_3712041/ss_20261026_104206792_3712041.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 711826,
-            "type": "editorialindicator",
-            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
-            "description": "2 Star Rating"
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 191422,
-            "type": "topic",
-            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
-            "description": "nba highlight",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 4695,
-            "type": "team",
-            "uid": "s:40~l:46~t:25",
-            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
-            "description": "Oklahoma City Thunder",
-            "sportId": 46,
-            "teamId": 25,
-            "team": {
-              "id": 25,
-              "description": "Oklahoma City Thunder",
-              "abbreviation": "OKC",
-              "shortDisplayName": "Thunder",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533818,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4593803",
-            "guid": "2381f346-9247-3ba1-b632-fcef378a2799",
-            "description": "Jalen Williams",
-            "sportId": 46,
-            "athleteId": 4593803,
-            "athlete": {
-              "id": 4593803,
-              "description": "Jalen Williams",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 756521,
-            "type": "contributor",
-            "guid": "46e60515-dc1c-33ff-b46c-7790f6ac696d",
-            "description": "Stephen A. Smith",
-            "slug": "stephen-a.-smith",
-            "contributor": {
-              "id": 4320,
-              "description": "Stephen A. Smith"
-            }
-          },
-          {
-            "id": 756047,
-            "type": "series",
-            "guid": "59fe7218-3b48-4543-8f24-7bafd3956f03",
-            "description": "First Take",
-            "series": {
-              "description": "First Take"
-            }
-          },
-          {
-            "id": 730035,
-            "type": "editorialindicator",
-            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
-            "description": "Verts - Exclude Content"
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/4036218b-91c4-4698-b8b1-586f1745f345"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50287555"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50287555&videoDSI=d59ac30ec2f5d"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50287555/jalen-williams-injury-big-blow-thunder-championship-hopes",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50287555/jalen-williams-injury-big-blow-thunder-championship-hopes",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=d59ac30ec2f5d"
-              }
-            }
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "10",
-      "gameProjection": "56.7",
-      "teamChanceLoss": "43.3"
+  "article": {
+    "id": 50274494,
+    "nowId": "1-50274494",
+    "contentKey": "50274494-1-22-1",
+    "dataSourceIdentifier": "9286252b91d55",
+    "publishedkey": "nba401909874",
+    "type": "Preview",
+    "gameId": "401909874",
+    "headline": "Rockets face the Hawks on 3-game win streak",
+    "description": "Atlanta Hawks (2-1, fourth in the Eastern Conference) vs. Houston Rockets (3-0, first in the Western Conference)",
+    "title": "Rockets face the Hawks on 3-game win streak",
+    "linkText": "Rockets face the Hawks on 3-game win streak",
+    "categorized": "2026-10-25T06:03:46Z",
+    "originallyPosted": "2026-10-25T06:03:45Z",
+    "lastModified": "2026-10-25T06:03:46Z",
+    "published": "2026-10-25T06:03:45Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4517,
+        "type": "team",
+        "uid": "s:40~l:46~t:10",
+        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+        "description": "Houston Rockets",
+        "sportId": 46,
+        "teamId": 10,
+        "team": {
+          "id": 10,
+          "description": "Houston Rockets",
+          "abbreviation": "HOU",
+          "shortDisplayName": "Rockets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4358,
+        "type": "team",
+        "uid": "s:40~l:46~t:1",
+        "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
+        "description": "Atlanta Hawks",
+        "sportId": 46,
+        "teamId": 1,
+        "team": {
+          "id": 1,
+          "description": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "shortDisplayName": "Hawks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909874",
+        "guid": "0015a1d7-cdd7-35f5-bf1b-1131121d7b2e",
+        "description": "Atlanta Hawks @ Houston Rockets",
+        "eventId": 401909874,
+        "event": {
+          "id": 401909874,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Atlanta Hawks @ Houston Rockets"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Houston Rockets",
+      "Atlanta Hawks",
+      "Atlanta Hawks @ Houston Rockets"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/atl/atlanta-hawks\">Atlanta Hawks</a> (2-1, fourth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (3-0, first in the Western Conference)\n\n\r\n              Houston; Monday, 8:30 p.m. EDT\n\n\r\n              BOTTOM LINE: Houston is looking to keep its three-game win streak going when the Rockets take on Atlanta.\n\n\r\n              Houston finished 52-30 overall a season ago while going 30-11 at home. The Rockets averaged 115.2 points per game last season, 53.0 in the paint, 17.1 off of turnovers and 14.0 on fast breaks.\n\n\r\n              Atlanta went 46-36 overall, 27-25 in Eastern Conference action and 22-19 on the road a season ago. The Hawks shot 47.4% from the field and 37.1% from 3-point range last season.\n\n\r\n              The teams meet for the second time this season. The Rockets won 121-114 in the last matchup on Oct. 25.\n\n\r\n              INJURIES: Rockets: <a href=\"http://www.espn.com/nba/player/_/id/2990992/marcus-smart\">Marcus Smart</a>: out (forearm), <a href=\"http://www.espn.com/nba/player/_/id/2991230/fred-vanvleet\">Fred VanVleet</a>: out (rest), <a href=\"http://www.espn.com/nba/player/_/id/2991235/steven-adams\">Steven Adams</a>: out (rest).\n\n\r\n              Hawks: <a href=\"http://www.espn.com/nba/player/_/id/5105571/henri-veesaar\">Henri Veesaar</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a>: out (foot).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50274494"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50274494"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50274494"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909874"
+      }
     },
-    "awayTeam": {
-      "id": "1",
-      "gameProjection": "43.3",
-      "teamChanceLoss": "56.7"
+    "premium": false
+  },
+  "videos": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Rockets Tickets",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/26 vs Hawks 1352 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/28 @ Bucks 4232 tickets left",
+        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-28-2026/production/7432885?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/30 @ Mavericks 7162 tickets left",
+        "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-30-2026--sports-nba-basketball/production/7417911?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 vs Thunder 3897 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 vs Celtics 5285 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-2-2026/production/7432955?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 vs Timberwolves 2845 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/7 @ Suns 3903 tickets left",
+        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/9 vs Nuggets 5938 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-9-2026/production/7432959?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/11 vs Warriors 4255 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/13 vs Jazz 5162 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 @ Wizards 8266 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 @ Heat 6280 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Pacers 4876 tickets left",
+        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Nuggets 5392 tickets left",
+        "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Clippers 6039 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Hawks",
+      "currentTeamName": "Rockets",
+      "venueName": "Toyota Center (Houston)",
+      "summary": "Tickets as low as $14",
+      "date": "2026-10-27T00:30Z",
+      "dateDay": "Mon",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
+      "venueLink": "https://www.vividseats.com/toyota-center-tx-tickets/venue/3030?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
+      "timeValid": true
     }
   },
-  "winprobability": [],
   "header": {
     "id": "401909874",
     "uid": "s:40~l:46~e:401909874",
@@ -4429,7 +4853,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -5202,262 +5626,12 @@
       ]
     }
   },
-  "article": {
-    "id": 50274494,
-    "nowId": "1-50274494",
-    "contentKey": "50274494-1-22-1",
-    "dataSourceIdentifier": "9286252b91d55",
-    "publishedkey": "nba401909874",
-    "type": "Preview",
-    "gameId": "401909874",
-    "headline": "Rockets face the Hawks on 3-game win streak",
-    "description": "Atlanta Hawks (2-1, fourth in the Eastern Conference) vs. Houston Rockets (3-0, first in the Western Conference)",
-    "title": "Rockets face the Hawks on 3-game win streak",
-    "linkText": "Rockets face the Hawks on 3-game win streak",
-    "categorized": "2026-10-25T06:03:46Z",
-    "originallyPosted": "2026-10-25T06:03:45Z",
-    "lastModified": "2026-10-25T06:03:46Z",
-    "published": "2026-10-25T06:03:45Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4517,
-        "type": "team",
-        "uid": "s:40~l:46~t:10",
-        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-        "description": "Houston Rockets",
-        "sportId": 46,
-        "teamId": 10,
-        "team": {
-          "id": 10,
-          "description": "Houston Rockets",
-          "abbreviation": "HOU",
-          "shortDisplayName": "Rockets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4358,
-        "type": "team",
-        "uid": "s:40~l:46~t:1",
-        "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-        "description": "Atlanta Hawks",
-        "sportId": 46,
-        "teamId": 1,
-        "team": {
-          "id": 1,
-          "description": "Atlanta Hawks",
-          "abbreviation": "ATL",
-          "shortDisplayName": "Hawks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909874",
-        "guid": "0015a1d7-cdd7-35f5-bf1b-1131121d7b2e",
-        "description": "Atlanta Hawks @ Houston Rockets",
-        "eventId": 401909874,
-        "event": {
-          "id": 401909874,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Atlanta Hawks @ Houston Rockets"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Houston Rockets",
-      "Atlanta Hawks",
-      "Atlanta Hawks @ Houston Rockets"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/atl/atlanta-hawks\">Atlanta Hawks</a> (2-1, fourth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (3-0, first in the Western Conference)\n\n\r\n              Houston; Monday, 8:30 p.m. EDT\n\n\r\n              BOTTOM LINE: Houston is looking to keep its three-game win streak going when the Rockets take on Atlanta.\n\n\r\n              Houston finished 52-30 overall a season ago while going 30-11 at home. The Rockets averaged 115.2 points per game last season, 53.0 in the paint, 17.1 off of turnovers and 14.0 on fast breaks.\n\n\r\n              Atlanta went 46-36 overall, 27-25 in Eastern Conference action and 22-19 on the road a season ago. The Hawks shot 47.4% from the field and 37.1% from 3-point range last season.\n\n\r\n              The teams meet for the second time this season. The Rockets won 121-114 in the last matchup on Oct. 25.\n\n\r\n              INJURIES: Rockets: <a href=\"http://www.espn.com/nba/player/_/id/2990992/marcus-smart\">Marcus Smart</a>: out (forearm), <a href=\"http://www.espn.com/nba/player/_/id/2991230/fred-vanvleet\">Fred VanVleet</a>: out (rest), <a href=\"http://www.espn.com/nba/player/_/id/2991235/steven-adams\">Steven Adams</a>: out (rest).\n\n\r\n              Hawks: <a href=\"http://www.espn.com/nba/player/_/id/5105571/henri-veesaar\">Henri Veesaar</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a>: out (foot).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50274494"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50274494"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50274494"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909874"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909874",
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Rockets Tickets",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/26 vs Hawks 2173 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/28 @ Bucks 4157 tickets left",
-        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-28-2026/production/7432885?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/30 @ Mavericks 7153 tickets left",
-        "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-30-2026--sports-nba-basketball/production/7417911?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 vs Thunder 3907 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 vs Celtics 5283 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-2-2026/production/7432955?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 vs Timberwolves 2853 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/7 @ Suns 3910 tickets left",
-        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/9 vs Nuggets 5918 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-9-2026/production/7432959?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/11 vs Warriors 4269 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/13 vs Jazz 5095 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 @ Wizards 7639 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 @ Heat 6286 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Pacers 4878 tickets left",
-        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Nuggets 5381 tickets left",
-        "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Clippers 6096 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Hawks",
-      "currentTeamName": "Rockets",
-      "venueName": "Toyota Center (Houston)",
-      "summary": "Tickets as low as $14",
-      "date": "2026-10-27T00:30Z",
-      "dateDay": "Mon",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-26-2026/production/7432949?wsUser=717",
-      "venueLink": "https://www.vividseats.com/toyota-center-tx-tickets/venue/3030?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
