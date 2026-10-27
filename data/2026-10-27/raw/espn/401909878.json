@@ -2909,66 +2909,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-27T15:24Z",
-          "athlete": {
-            "id": "4684742",
-            "uid": "s:40~l:46~a:4684742",
-            "guid": "ee7a682c-a3e6-39eb-9bfa-2b7a84ae7e76",
-            "lastName": "Thompson",
-            "fullName": "Ausar Thompson",
-            "displayName": "Ausar Thompson",
-            "shortName": "A. Thompson",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4684742/ausar-thompson",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-              "alt": "Ausar Thompson"
-            },
-            "jersey": "9",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Right",
-            "returnDate": "2026-10-27"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-10-26T20:54Z",
+          "status": "Out",
+          "date": "2026-10-27T23:21Z",
           "athlete": {
             "id": "4395702",
             "uid": "s:40~l:46~a:4395702",
@@ -3009,21 +2951,22 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Hip",
             "location": "Torso",
             "detail": "Bruise",
-            "returnDate": "2026-10-27"
+            "side": "Right",
+            "returnDate": "2026-10-28"
           }
         },
         {
@@ -3095,7 +3038,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3112,16 +3055,16 @@
           }
         ]
       },
-      "details": "NY -3.5",
-      "overUnder": 219.5,
-      "spread": -3.5,
+      "details": "NY -4.5",
+      "overUnder": 220.5,
+      "spread": -4.5,
       "overOdds": -112.0,
       "underOdds": -108.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 142,
-        "spreadOdds": -102.0,
+        "moneyLine": 145,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -3131,8 +3074,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -170,
-        "spreadOdds": -118.0,
+        "moneyLine": -175,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3146,7 +3089,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0ML86931384_1",
           "text": "Home Bet",
@@ -3170,7 +3113,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0ML86931384_3",
           "text": "Away Bet",
@@ -3195,7 +3138,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N350_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N450_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3208,7 +3151,7 @@
               "gameId": 401909878,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:NY-3.5"
+              "betDetails": "Spread:NY-4.5"
             }
           }
         },
@@ -3219,7 +3162,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P350_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P450_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3232,7 +3175,7 @@
               "gameId": 401909878,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:DET+3.5"
+              "betDetails": "Spread:DET+4.5"
             }
           }
         },
@@ -3243,7 +3186,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384O21950_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384O22050_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3256,7 +3199,7 @@
               "gameId": 401909878,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:219.5"
+              "betDetails": "Over:220.5"
             }
           }
         },
@@ -3267,7 +3210,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384U21950_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384U22050_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3280,7 +3223,7 @@
               "gameId": 401909878,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:219.5"
+              "betDetails": "Under:220.5"
             }
           }
         },
@@ -3303,14 +3246,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-170",
+            "odds": "-175",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0ML86931384_1",
               "text": "Home Bet",
@@ -3335,14 +3278,14 @@
         },
         "away": {
           "close": {
-            "odds": "+142",
+            "odds": "+145",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0ML86931384_3",
               "text": "Away Bet",
@@ -3371,8 +3314,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-3.5",
-            "odds": "-118",
+            "line": "-4.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3380,7 +3323,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N350_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N450_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3393,7 +3336,7 @@
                   "gameId": 401909878,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:NY-3.5"
+                  "betDetails": "Spread:NY-4.5"
                 }
               }
             }
@@ -3405,8 +3348,8 @@
         },
         "away": {
           "close": {
-            "line": "+3.5",
-            "odds": "-102",
+            "line": "+4.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3414,7 +3357,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P350_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P450_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3427,7 +3370,7 @@
                   "gameId": 401909878,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:DET+3.5"
+                  "betDetails": "Spread:DET+4.5"
                 }
               }
             }
@@ -3443,7 +3386,7 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o219.5",
+            "line": "o220.5",
             "odds": "-112",
             "link": {
               "language": "en-US",
@@ -3452,7 +3395,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384O21950_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384O22050_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3465,7 +3408,7 @@
                   "gameId": 401909878,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:219.5"
+                  "betDetails": "Over:220.5"
                 }
               }
             }
@@ -3477,7 +3420,7 @@
         },
         "under": {
           "close": {
-            "line": "u219.5",
+            "line": "u220.5",
             "odds": "-108",
             "link": {
               "language": "en-US",
@@ -3486,7 +3429,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384U21950_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0OU86931384U22050_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3499,7 +3442,7 @@
                   "gameId": 401909878,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:219.5"
+                  "betDetails": "Under:220.5"
                 }
               }
             }
@@ -3674,19 +3617,6 @@
       "records": []
     }
   ],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "18",
-      "gameProjection": "61.9",
-      "teamChanceLoss": "38.1"
-    },
-    "awayTeam": {
-      "id": "8",
-      "gameProjection": "38.1",
-      "teamChanceLoss": "61.9"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3703,6 +3633,282 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50028196,
+        "nowId": "1-50028196",
+        "contentKey": "50028196-1-6-1",
+        "dataSourceIdentifier": "6c1d8d0c3198e",
+        "type": "Story",
+        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+        "lastModified": "2026-10-27T23:02:47Z",
+        "published": "2026-10-27T23:02:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9794d99d85fc9",
+            "id": 50241205,
+            "type": "header",
+            "name": "porzingis [608x342] - Copy",
+            "credit": "D. Ross Cameron-Imagn Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1d2dd1b0f7447",
+            "id": 50061081,
+            "type": "header",
+            "name": "kat [608x342]",
+            "credit": "Photo by Caleb Bowlin/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "a754860d3e38f",
+            "id": 50028282,
+            "type": "header",
+            "name": "NBA LOGO [608x342] - Copy",
+            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409222,
+            "type": "topic",
+            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+            "description": "daily",
+            "sportId": 0,
+            "topicId": 779
+          },
+          {
+            "id": 186377,
+            "type": "topic",
+            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+            "description": "nba free agency",
+            "sportId": 0,
+            "topicId": 677
+          },
+          {
+            "id": 128110,
+            "type": "topic",
+            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+            "description": "news - frontpage",
+            "sportId": 0,
+            "topicId": 92
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50302115,
+        "nowId": "1-50302115",
+        "contentKey": "50302115-1-5-1",
+        "dataSourceIdentifier": "85c5172a9f523",
+        "type": "HeadlineNews",
+        "headline": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
+        "description": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee that will sideline him up to two months, sources told ESPN's Shams Charania.",
+        "lastModified": "2026-10-27T23:24:06Z",
+        "published": "2026-10-27T23:24:06Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "82c6dbacdacb1",
+            "id": 50302136,
+            "type": "header",
+            "name": "Anthony Edwards [600x400]",
+            "credit": "Jesse Johnson/Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Anthony Edwards' best plays of the season so far",
+            "caption": "Anthony Edwards' best plays of the season so far",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/c1f8513b-8708-406a-9997-4d5813a53b45/c1f8513b-8708-406a-9997-4d5813a53b45.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 457645,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4594268",
+            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "description": "Anthony Edwards",
+            "sportId": 46,
+            "athleteId": 4594268,
+            "athlete": {
+              "id": 4594268,
+              "description": "Anthony Edwards",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696270,
+            "type": "contributor",
+            "guid": "4a6cc67f-ee21-3b0c-a8e6-67c4b3703876",
+            "description": "Jamal Collier",
+            "slug": "jamal-collier",
+            "contributor": {
+              "id": 3897,
+              "description": "Jamal Collier"
+            }
+          }
+        ],
+        "byline": "Jamal Collier",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50302115"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50302115"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50302115"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50299852,
         "nowId": "1-50299852",
@@ -4517,519 +4723,9 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50300264,
-        "nowId": "1-50300264",
-        "contentKey": "50300264-1-5-1",
-        "dataSourceIdentifier": "ac4f10911e2b6",
-        "type": "HeadlineNews",
-        "headline": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
-        "description": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
-        "lastModified": "2026-10-27T20:59:07Z",
-        "published": "2026-10-27T20:59:07Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "c0ba9e1eda2fd",
-            "id": 50300240,
-            "type": "header",
-            "name": "Jaren Jackson Jr., Lauri Markkanen [1296x729]",
-            "alt": "Jaren Jackson Jr., Lauri Markkanen",
-            "credit": "Melissa Majchrzak/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "caption": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/8667a5b2-bfef-4589-9a76-a52582f40aed/8667a5b2-bfef-4589-9a76-a52582f40aed.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4564,
-            "type": "team",
-            "uid": "s:40~l:46~t:26",
-            "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-            "description": "Utah Jazz",
-            "sportId": 46,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "Utah Jazz",
-              "abbreviation": "UTAH",
-              "shortDisplayName": "Jazz",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 187408,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4277961",
-            "guid": "dbe0e9e5-0046-c414-000b-f4e629b08f5d",
-            "description": "Jaren Jackson Jr",
-            "sportId": 46,
-            "athleteId": 4277961,
-            "athlete": {
-              "id": 4277961,
-              "description": "Jaren Jackson Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 168881,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4066336",
-            "guid": "87ff7f1b-e52a-b236-308c-878d12df8446",
-            "description": "Lauri Markkanen",
-            "sportId": 46,
-            "athleteId": 4066336,
-            "athlete": {
-              "id": 4066336,
-              "description": "Lauri Markkanen",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 128786,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3102530",
-            "guid": "f8a22884-a6a5-39a4-9d69-1cbb729288c9",
-            "description": "Jusuf Nurkic",
-            "sportId": 46,
-            "athleteId": 3102530,
-            "athlete": {
-              "id": 3102530,
-              "description": "Jusuf Nurkic",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Tim MacMahon and Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50300264"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50300264"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50300264"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50299731,
-        "nowId": "1-50299731",
-        "contentKey": "50299731-1-5-1",
-        "dataSourceIdentifier": "1c69b3bc5921e",
-        "type": "HeadlineNews",
-        "headline": "Hornets to retire Muggsy Bogues' No. 1 jersey",
-        "description": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
-        "lastModified": "2026-10-27T20:40:44Z",
-        "published": "2026-10-27T20:40:44Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "890703a6f3fc9",
-            "id": 10959326,
-            "type": "header",
-            "name": "Bogues_Muggsy 140520 [1296x729]",
-            "alt": "Muggsy Bogues",
-            "credit": "Rocky Widner/NBAE/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2014/0520/sn_g_mbts_1296x729.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "This legend's jersey will be in Charlotte's rafters",
-            "caption": "This legend's jersey will be in Charlotte's rafters",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/dm_261027_Mugsy_Bogues_Vert_16x9/dm_261027_Mugsy_Bogues_Vert_16x9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 127884,
-            "type": "team",
-            "uid": "s:40~l:46~t:30",
-            "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-            "description": "Charlotte Hornets",
-            "sportId": 46,
-            "teamId": 30,
-            "team": {
-              "id": 30,
-              "description": "Charlotte Hornets",
-              "abbreviation": "CHA",
-              "shortDisplayName": "Hornets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50299731"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50299731"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50299731"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50299731/hornets-retire-muggsy-bogues-no-1-jersey"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "winprobability": [],
-  "article": {
-    "id": 50285319,
-    "nowId": "1-50285319",
-    "contentKey": "50285319-1-22-1",
-    "dataSourceIdentifier": "0d47a48f136b7",
-    "publishedkey": "nba401909878",
-    "type": "Preview",
-    "gameId": "401909878",
-    "headline": "Detroit plays New York on 3-game win streak",
-    "description": "Detroit Pistons (3-0, first in the Eastern Conference) vs. New York Knicks (0-3, 13th in the Eastern Conference)",
-    "title": "Detroit plays New York on 3-game win streak",
-    "linkText": "Detroit plays New York on 3-game win streak",
-    "categorized": "2026-10-26T06:03:00Z",
-    "originallyPosted": "2026-10-26T06:02:59Z",
-    "lastModified": "2026-10-26T06:03:00Z",
-    "published": "2026-10-26T06:02:59Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4293,
-        "type": "team",
-        "uid": "s:40~l:46~t:18",
-        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
-        "description": "New York Knicks",
-        "sportId": 46,
-        "teamId": 18,
-        "team": {
-          "id": 18,
-          "description": "New York Knicks",
-          "abbreviation": "NY",
-          "shortDisplayName": "Knicks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909878",
-        "guid": "fff5a603-7ab0-3d95-b71b-70adea8cf8d9",
-        "description": "Detroit Pistons @ New York Knicks",
-        "eventId": 401909878,
-        "event": {
-          "id": 401909878,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ New York Knicks"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "New York Knicks",
-      "Detroit Pistons",
-      "Detroit Pistons @ New York Knicks"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (3-0, first in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (0-3, 13th in the Eastern Conference)\n\n\r\n              New York; Tuesday, 8 p.m. EDT\n\n\r\n              BOTTOM LINE: Detroit seeks to continue its three-game win streak with a victory against New York.\n\n\r\n              New York went 53-29 overall and 35-17 in Eastern Conference action a season ago. The Knicks gave up 110.1 points per game while committing 20.0 fouls last season.\n\n\r\n              Detroit finished 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              INJURIES: Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: out (ankle).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50285319"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50285319"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50285319"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909878"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909878",
     "uid": "s:40~l:46~e:401909878",
@@ -5831,6 +5527,167 @@
       ]
     }
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "18",
+      "gameProjection": "61.9",
+      "teamChanceLoss": "38.1"
+    },
+    "awayTeam": {
+      "id": "8",
+      "gameProjection": "38.1",
+      "teamChanceLoss": "61.9"
+    }
+  },
+  "winprobability": [],
+  "article": {
+    "id": 50285319,
+    "nowId": "1-50285319",
+    "contentKey": "50285319-1-22-1",
+    "dataSourceIdentifier": "0d47a48f136b7",
+    "publishedkey": "nba401909878",
+    "type": "Preview",
+    "gameId": "401909878",
+    "headline": "Detroit plays New York on 3-game win streak",
+    "description": "Detroit Pistons (3-0, first in the Eastern Conference) vs. New York Knicks (0-3, 13th in the Eastern Conference)",
+    "title": "Detroit plays New York on 3-game win streak",
+    "linkText": "Detroit plays New York on 3-game win streak",
+    "categorized": "2026-10-26T06:03:00Z",
+    "originallyPosted": "2026-10-26T06:02:59Z",
+    "lastModified": "2026-10-26T06:03:00Z",
+    "published": "2026-10-26T06:02:59Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4293,
+        "type": "team",
+        "uid": "s:40~l:46~t:18",
+        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
+        "description": "New York Knicks",
+        "sportId": 46,
+        "teamId": 18,
+        "team": {
+          "id": 18,
+          "description": "New York Knicks",
+          "abbreviation": "NY",
+          "shortDisplayName": "Knicks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909878",
+        "guid": "fff5a603-7ab0-3d95-b71b-70adea8cf8d9",
+        "description": "Detroit Pistons @ New York Knicks",
+        "eventId": 401909878,
+        "event": {
+          "id": 401909878,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ New York Knicks"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "New York Knicks",
+      "Detroit Pistons",
+      "Detroit Pistons @ New York Knicks"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (3-0, first in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (0-3, 13th in the Eastern Conference)\n\n\r\n              New York; Tuesday, 8 p.m. EDT\n\n\r\n              BOTTOM LINE: Detroit seeks to continue its three-game win streak with a victory against New York.\n\n\r\n              New York went 53-29 overall and 35-17 in Eastern Conference action a season ago. The Knicks gave up 110.1 points per game while committing 20.0 fouls last season.\n\n\r\n              Detroit finished 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              INJURIES: Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: out (ankle).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50285319"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50285319"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50285319"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909878"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909878",
@@ -5851,47 +5708,47 @@
         "type": "team"
       },
       {
-        "ticketName": "10/27 vs Pistons 542 tickets left",
+        "ticketName": "10/27 vs Pistons 102 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-27-2026/production/7432929?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Bulls 3544 tickets left",
+        "ticketName": "10/28 @ Bulls 3541 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-28-2026/production/7432931?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ 76ers 4222 tickets left",
+        "ticketName": "10/30 @ 76ers 4192 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Nets 3341 tickets left",
+        "ticketName": "11/2 vs Nets 3345 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-2-2026/production/7432933?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Bulls 3652 tickets left",
+        "ticketName": "11/4 vs Bulls 3599 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Cavaliers 3755 tickets left",
+        "ticketName": "11/7 @ Cavaliers 3789 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-7-2026/production/7432937?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Bucks 2117 tickets left",
+        "ticketName": "11/10 vs Bucks 2120 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Cavaliers 5749 tickets left",
+        "ticketName": "11/11 vs Cavaliers 5719 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-11-2026/production/7432939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pacers 4066 tickets left",
+        "ticketName": "11/13 @ Pacers 4065 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
@@ -5906,22 +5763,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Timberwolves 823 tickets left",
+        "ticketName": "11/19 @ Timberwolves 813 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Trail Blazers 4842 tickets left",
+        "ticketName": "11/21 vs Trail Blazers 4817 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Pacers 2582 tickets left",
+        "ticketName": "11/22 vs Pacers 2594 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-22-2026/production/7430984?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Cavaliers 4619 tickets left",
+        "ticketName": "11/25 vs Cavaliers 4576 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
         "type": "event"
       }
@@ -5930,7 +5787,7 @@
       "opponentTeamName": "Pistons",
       "currentTeamName": "Knicks",
       "venueName": "Madison Square Garden",
-      "summary": "Tickets as low as $191",
+      "summary": "Tickets as low as $177",
       "date": "2026-10-28T00:00Z",
       "dateDay": "Tue",
       "homeAway": "home",

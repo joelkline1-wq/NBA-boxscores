@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "James Capers",
+        "displayName": "James Capers",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Natalie Sago",
+        "displayName": "Natalie Sago",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Suyash Mehta",
+        "displayName": "Suyash Mehta",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "10",
             "uid": "s:40~l:46~t:10",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909858",
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -820,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -886,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898843",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3187,7 +3219,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3213,7 +3245,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 1000,
-        "spreadOdds": -118.0,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/23?lang=en&region=us"
         },
@@ -3224,7 +3256,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -1800,
-        "spreadOdds": -102.0,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/24?lang=en&region=us"
         },
@@ -3238,7 +3270,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901564%3Foutcomes%3D0ML86931385_1",
           "text": "Home Bet",
@@ -3262,7 +3294,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901564%3Foutcomes%3D0ML86931385_3",
           "text": "Away Bet",
@@ -3402,7 +3434,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901564%3Foutcomes%3D0ML86931385_1",
               "text": "Home Bet",
@@ -3434,7 +3466,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901564%3Foutcomes%3D0ML86931385_3",
               "text": "Away Bet",
@@ -3464,7 +3496,7 @@
         "home": {
           "close": {
             "line": "-19.5",
-            "odds": "-102",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3498,7 +3530,7 @@
         "away": {
           "close": {
             "line": "+19.5",
-            "odds": "-118",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3766,20 +3798,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "24",
-      "gameProjection": "93.5",
-      "teamChanceLoss": "6.5"
-    },
-    "awayTeam": {
-      "id": "23",
-      "gameProjection": "6.5",
-      "teamChanceLoss": "93.5"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3796,6 +3814,282 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50028196,
+        "nowId": "1-50028196",
+        "contentKey": "50028196-1-6-1",
+        "dataSourceIdentifier": "6c1d8d0c3198e",
+        "type": "Story",
+        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+        "lastModified": "2026-10-27T23:02:47Z",
+        "published": "2026-10-27T23:02:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9794d99d85fc9",
+            "id": 50241205,
+            "type": "header",
+            "name": "porzingis [608x342] - Copy",
+            "credit": "D. Ross Cameron-Imagn Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1d2dd1b0f7447",
+            "id": 50061081,
+            "type": "header",
+            "name": "kat [608x342]",
+            "credit": "Photo by Caleb Bowlin/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "a754860d3e38f",
+            "id": 50028282,
+            "type": "header",
+            "name": "NBA LOGO [608x342] - Copy",
+            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409222,
+            "type": "topic",
+            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+            "description": "daily",
+            "sportId": 0,
+            "topicId": 779
+          },
+          {
+            "id": 186377,
+            "type": "topic",
+            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+            "description": "nba free agency",
+            "sportId": 0,
+            "topicId": 677
+          },
+          {
+            "id": 128110,
+            "type": "topic",
+            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+            "description": "news - frontpage",
+            "sportId": 0,
+            "topicId": 92
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50302115,
+        "nowId": "1-50302115",
+        "contentKey": "50302115-1-5-1",
+        "dataSourceIdentifier": "85c5172a9f523",
+        "type": "HeadlineNews",
+        "headline": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
+        "description": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee that will sideline him up to two months, sources told ESPN's Shams Charania.",
+        "lastModified": "2026-10-27T23:24:06Z",
+        "published": "2026-10-27T23:24:06Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "82c6dbacdacb1",
+            "id": 50302136,
+            "type": "header",
+            "name": "Anthony Edwards [600x400]",
+            "credit": "Jesse Johnson/Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Anthony Edwards' best plays of the season so far",
+            "caption": "Anthony Edwards' best plays of the season so far",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/c1f8513b-8708-406a-9997-4d5813a53b45/c1f8513b-8708-406a-9997-4d5813a53b45.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 457645,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4594268",
+            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "description": "Anthony Edwards",
+            "sportId": 46,
+            "athleteId": 4594268,
+            "athlete": {
+              "id": 4594268,
+              "description": "Anthony Edwards",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696270,
+            "type": "contributor",
+            "guid": "4a6cc67f-ee21-3b0c-a8e6-67c4b3703876",
+            "description": "Jamal Collier",
+            "slug": "jamal-collier",
+            "contributor": {
+              "id": 3897,
+              "description": "Jamal Collier"
+            }
+          }
+        ],
+        "byline": "Jamal Collier",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50302115"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50302115"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50302115"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50299852,
         "nowId": "1-50299852",
@@ -4610,368 +4904,6 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50300264,
-        "nowId": "1-50300264",
-        "contentKey": "50300264-1-5-1",
-        "dataSourceIdentifier": "ac4f10911e2b6",
-        "type": "HeadlineNews",
-        "headline": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
-        "description": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
-        "lastModified": "2026-10-27T20:59:07Z",
-        "published": "2026-10-27T20:59:07Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "c0ba9e1eda2fd",
-            "id": 50300240,
-            "type": "header",
-            "name": "Jaren Jackson Jr., Lauri Markkanen [1296x729]",
-            "alt": "Jaren Jackson Jr., Lauri Markkanen",
-            "credit": "Melissa Majchrzak/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "caption": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/8667a5b2-bfef-4589-9a76-a52582f40aed/8667a5b2-bfef-4589-9a76-a52582f40aed.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4564,
-            "type": "team",
-            "uid": "s:40~l:46~t:26",
-            "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-            "description": "Utah Jazz",
-            "sportId": 46,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "Utah Jazz",
-              "abbreviation": "UTAH",
-              "shortDisplayName": "Jazz",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 187408,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4277961",
-            "guid": "dbe0e9e5-0046-c414-000b-f4e629b08f5d",
-            "description": "Jaren Jackson Jr",
-            "sportId": 46,
-            "athleteId": 4277961,
-            "athlete": {
-              "id": 4277961,
-              "description": "Jaren Jackson Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 168881,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4066336",
-            "guid": "87ff7f1b-e52a-b236-308c-878d12df8446",
-            "description": "Lauri Markkanen",
-            "sportId": 46,
-            "athleteId": 4066336,
-            "athlete": {
-              "id": 4066336,
-              "description": "Lauri Markkanen",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 128786,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3102530",
-            "guid": "f8a22884-a6a5-39a4-9d69-1cbb729288c9",
-            "description": "Jusuf Nurkic",
-            "sportId": 46,
-            "athleteId": 3102530,
-            "athlete": {
-              "id": 3102530,
-              "description": "Jusuf Nurkic",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Tim MacMahon and Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50300264"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50300264"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50300264"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50299731,
-        "nowId": "1-50299731",
-        "contentKey": "50299731-1-5-1",
-        "dataSourceIdentifier": "1c69b3bc5921e",
-        "type": "HeadlineNews",
-        "headline": "Hornets to retire Muggsy Bogues' No. 1 jersey",
-        "description": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
-        "lastModified": "2026-10-27T20:40:44Z",
-        "published": "2026-10-27T20:40:44Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "890703a6f3fc9",
-            "id": 10959326,
-            "type": "header",
-            "name": "Bogues_Muggsy 140520 [1296x729]",
-            "alt": "Muggsy Bogues",
-            "credit": "Rocky Widner/NBAE/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2014/0520/sn_g_mbts_1296x729.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "This legend's jersey will be in Charlotte's rafters",
-            "caption": "This legend's jersey will be in Charlotte's rafters",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/dm_261027_Mugsy_Bogues_Vert_16x9/dm_261027_Mugsy_Bogues_Vert_16x9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 127884,
-            "type": "team",
-            "uid": "s:40~l:46~t:30",
-            "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-            "description": "Charlotte Hornets",
-            "sportId": 46,
-            "teamId": 30,
-            "team": {
-              "id": 30,
-              "description": "Charlotte Hornets",
-              "abbreviation": "CHA",
-              "shortDisplayName": "Hornets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50299731"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50299731"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50299731"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50299731/hornets-retire-muggsy-bogues-no-1-jersey"
-          }
-        },
-        "premium": false
       }
     ]
   },
@@ -5776,6 +5708,20 @@
       ]
     }
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "24",
+      "gameProjection": "93.5",
+      "teamChanceLoss": "6.5"
+    },
+    "awayTeam": {
+      "id": "23",
+      "gameProjection": "6.5",
+      "teamChanceLoss": "93.5"
+    }
+  },
+  "winprobability": [],
   "article": {
     "id": 50285324,
     "nowId": "1-50285324",
@@ -5924,6 +5870,12 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909879",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5937,77 +5889,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/27 vs Kings 534 tickets left",
+        "ticketName": "10/27 vs Kings 241 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-27-2026/production/7432991?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Jazz 2315 tickets left",
+        "ticketName": "10/28 @ Jazz 2324 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-28-2026/production/7433007?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 vs Timberwolves 2862 tickets left",
+        "ticketName": "10/31 vs Timberwolves 2826 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Jazz 1860 tickets left",
+        "ticketName": "11/2 vs Jazz 1844 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-2-2026/production/7433009?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Mavericks 5219 tickets left",
+        "ticketName": "11/4 vs Mavericks 5208 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-4-2026/production/7433011?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Kings 7484 tickets left",
+        "ticketName": "11/6 @ Kings 7456 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-31-2026--sports-nba-basketball/production/7420237?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Trail Blazers 5499 tickets left",
+        "ticketName": "11/7 @ Trail Blazers 5444 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-7-2026/production/7433013?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 @ Suns 4203 tickets left",
+        "ticketName": "11/9 @ Suns 4205 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-9-2026/production/7432975?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Bulls 8604 tickets left",
+        "ticketName": "11/11 @ Bulls 8752 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-11-2026/production/7433015?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Warriors 4157 tickets left",
+        "ticketName": "11/13 vs Warriors 4171 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-30-2026--sports-nba-basketball/production/7420264?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Jazz 4571 tickets left",
+        "ticketName": "11/15 @ Jazz 4574 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-15-2026/production/7433017?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Pistons 4031 tickets left",
+        "ticketName": "11/17 vs Pistons 4040 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Clippers 4358 tickets left",
+        "ticketName": "11/19 vs Clippers 4354 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Pelicans 3209 tickets left",
+        "ticketName": "11/21 vs Pelicans 3205 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Kings 7263 tickets left",
+        "ticketName": "11/23 @ Kings 7260 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
         "type": "event"
       }
@@ -6016,7 +5968,7 @@
       "opponentTeamName": "Kings",
       "currentTeamName": "Spurs",
       "venueName": "Frost Bank Center",
-      "summary": "Tickets as low as $26",
+      "summary": "Tickets as low as $25",
       "date": "2026-10-28T00:00Z",
       "dateDay": "Tue",
       "homeAway": "home",
@@ -6026,12 +5978,6 @@
       "teamLink": "https://www.vividseats.com/san-antonio-spurs-tickets--sports-nba-basketball/performer/754?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909879",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401909092",
@@ -1036,6 +1036,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -1100,9 +1102,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
         },
         {
           "id": "401909852",
@@ -3224,7 +3224,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3244,13 +3244,13 @@
       "details": "LAL -1.5",
       "overUnder": 233.5,
       "spread": -1.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "overOdds": -108.0,
+      "underOdds": -112.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 100,
-        "spreadOdds": -108.0,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/22?lang=en&region=us"
         },
@@ -3261,7 +3261,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -120,
-        "spreadOdds": -112.0,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/13?lang=en&region=us"
         },
@@ -3275,7 +3275,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901566%3Foutcomes%3D0ML86931397_1",
           "text": "Home Bet",
@@ -3299,7 +3299,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901566%3Foutcomes%3D0ML86931397_3",
           "text": "Away Bet",
@@ -3439,7 +3439,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901566%3Foutcomes%3D0ML86931397_1",
               "text": "Home Bet",
@@ -3471,7 +3471,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901566%3Foutcomes%3D0ML86931397_3",
               "text": "Away Bet",
@@ -3501,7 +3501,7 @@
         "home": {
           "close": {
             "line": "-1.5",
-            "odds": "-112",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3535,7 +3535,7 @@
         "away": {
           "close": {
             "line": "+1.5",
-            "odds": "-108",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3573,7 +3573,7 @@
         "over": {
           "close": {
             "line": "o233.5",
-            "odds": "-112",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3607,7 +3607,7 @@
         "under": {
           "close": {
             "line": "u233.5",
-            "odds": "-108",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3803,20 +3803,6 @@
       "records": []
     }
   ],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "13",
-      "gameProjection": "53.5",
-      "teamChanceLoss": "46.5"
-    },
-    "awayTeam": {
-      "id": "22",
-      "gameProjection": "46.5",
-      "teamChanceLoss": "53.5"
-    }
-  },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3833,6 +3819,282 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50028196,
+        "nowId": "1-50028196",
+        "contentKey": "50028196-1-6-1",
+        "dataSourceIdentifier": "6c1d8d0c3198e",
+        "type": "Story",
+        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+        "lastModified": "2026-10-27T23:02:47Z",
+        "published": "2026-10-27T23:02:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9794d99d85fc9",
+            "id": 50241205,
+            "type": "header",
+            "name": "porzingis [608x342] - Copy",
+            "credit": "D. Ross Cameron-Imagn Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1d2dd1b0f7447",
+            "id": 50061081,
+            "type": "header",
+            "name": "kat [608x342]",
+            "credit": "Photo by Caleb Bowlin/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "a754860d3e38f",
+            "id": 50028282,
+            "type": "header",
+            "name": "NBA LOGO [608x342] - Copy",
+            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "caption": "SGA has to look away after Jalen Williams suffers gruesome injury",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261025_215759649_37117470/ss_20261025_215759649_37117470.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409222,
+            "type": "topic",
+            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+            "description": "daily",
+            "sportId": 0,
+            "topicId": 779
+          },
+          {
+            "id": 186377,
+            "type": "topic",
+            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+            "description": "nba free agency",
+            "sportId": 0,
+            "topicId": 677
+          },
+          {
+            "id": 128110,
+            "type": "topic",
+            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+            "description": "news - frontpage",
+            "sportId": 0,
+            "topicId": 92
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50302115,
+        "nowId": "1-50302115",
+        "contentKey": "50302115-1-5-1",
+        "dataSourceIdentifier": "85c5172a9f523",
+        "type": "HeadlineNews",
+        "headline": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
+        "description": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee that will sideline him up to two months, sources told ESPN's Shams Charania.",
+        "lastModified": "2026-10-27T23:24:06Z",
+        "published": "2026-10-27T23:24:06Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "82c6dbacdacb1",
+            "id": 50302136,
+            "type": "header",
+            "name": "Anthony Edwards [600x400]",
+            "credit": "Jesse Johnson/Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Anthony Edwards' best plays of the season so far",
+            "caption": "Anthony Edwards' best plays of the season so far",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/c1f8513b-8708-406a-9997-4d5813a53b45/c1f8513b-8708-406a-9997-4d5813a53b45.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 457645,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4594268",
+            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "description": "Anthony Edwards",
+            "sportId": 46,
+            "athleteId": 4594268,
+            "athlete": {
+              "id": 4594268,
+              "description": "Anthony Edwards",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696270,
+            "type": "contributor",
+            "guid": "4a6cc67f-ee21-3b0c-a8e6-67c4b3703876",
+            "description": "Jamal Collier",
+            "slug": "jamal-collier",
+            "contributor": {
+              "id": 3897,
+              "description": "Jamal Collier"
+            }
+          }
+        ],
+        "byline": "Jamal Collier",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50302115"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50302115"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50302115"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50299852,
         "nowId": "1-50299852",
@@ -4647,371 +4909,170 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50300264,
-        "nowId": "1-50300264",
-        "contentKey": "50300264-1-5-1",
-        "dataSourceIdentifier": "ac4f10911e2b6",
-        "type": "HeadlineNews",
-        "headline": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
-        "description": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
-        "lastModified": "2026-10-27T20:59:07Z",
-        "published": "2026-10-27T20:59:07Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "c0ba9e1eda2fd",
-            "id": 50300240,
-            "type": "header",
-            "name": "Jaren Jackson Jr., Lauri Markkanen [1296x729]",
-            "alt": "Jaren Jackson Jr., Lauri Markkanen",
-            "credit": "Melissa Majchrzak/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "caption": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/8667a5b2-bfef-4589-9a76-a52582f40aed/8667a5b2-bfef-4589-9a76-a52582f40aed.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4564,
-            "type": "team",
-            "uid": "s:40~l:46~t:26",
-            "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-            "description": "Utah Jazz",
-            "sportId": 46,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "Utah Jazz",
-              "abbreviation": "UTAH",
-              "shortDisplayName": "Jazz",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 187408,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4277961",
-            "guid": "dbe0e9e5-0046-c414-000b-f4e629b08f5d",
-            "description": "Jaren Jackson Jr",
-            "sportId": 46,
-            "athleteId": 4277961,
-            "athlete": {
-              "id": 4277961,
-              "description": "Jaren Jackson Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 168881,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4066336",
-            "guid": "87ff7f1b-e52a-b236-308c-878d12df8446",
-            "description": "Lauri Markkanen",
-            "sportId": 46,
-            "athleteId": 4066336,
-            "athlete": {
-              "id": 4066336,
-              "description": "Lauri Markkanen",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 128786,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3102530",
-            "guid": "f8a22884-a6a5-39a4-9d69-1cbb729288c9",
-            "description": "Jusuf Nurkic",
-            "sportId": 46,
-            "athleteId": 3102530,
-            "athlete": {
-              "id": 3102530,
-              "description": "Jusuf Nurkic",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Tim MacMahon and Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50300264"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50300264"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50300264"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50299731,
-        "nowId": "1-50299731",
-        "contentKey": "50299731-1-5-1",
-        "dataSourceIdentifier": "1c69b3bc5921e",
-        "type": "HeadlineNews",
-        "headline": "Hornets to retire Muggsy Bogues' No. 1 jersey",
-        "description": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
-        "lastModified": "2026-10-27T20:40:44Z",
-        "published": "2026-10-27T20:40:44Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "890703a6f3fc9",
-            "id": 10959326,
-            "type": "header",
-            "name": "Bogues_Muggsy 140520 [1296x729]",
-            "alt": "Muggsy Bogues",
-            "credit": "Rocky Widner/NBAE/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2014/0520/sn_g_mbts_1296x729.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "This legend's jersey will be in Charlotte's rafters",
-            "caption": "This legend's jersey will be in Charlotte's rafters",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/dm_261027_Mugsy_Bogues_Vert_16x9/dm_261027_Mugsy_Bogues_Vert_16x9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 127884,
-            "type": "team",
-            "uid": "s:40~l:46~t:30",
-            "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-            "description": "Charlotte Hornets",
-            "sportId": 46,
-            "teamId": 30,
-            "team": {
-              "id": 30,
-              "description": "Charlotte Hornets",
-              "abbreviation": "CHA",
-              "shortDisplayName": "Hornets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Shams Charania",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50299731"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50299731"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50299731"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50299731/hornets-retire-muggsy-bogues-no-1-jersey"
-          }
-        },
-        "premium": false
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "13",
+      "gameProjection": "53.5",
+      "teamChanceLoss": "46.5"
+    },
+    "awayTeam": {
+      "id": "22",
+      "gameProjection": "46.5",
+      "teamChanceLoss": "53.5"
+    }
+  },
+  "winprobability": [],
+  "article": {
+    "id": 50285316,
+    "nowId": "1-50285316",
+    "contentKey": "50285316-1-22-1",
+    "dataSourceIdentifier": "7704242adf8ee",
+    "publishedkey": "nba401909880",
+    "type": "Preview",
+    "gameId": "401909880",
+    "headline": "Los Angeles plays Portland following Doncic's 52-point outing",
+    "description": "Portland Trail Blazers (2-0, sixth in the Western Conference) vs. Los Angeles Lakers (3-0, second in the Western Conference)",
+    "title": "Los Angeles plays Portland following Doncic's 52-point outing",
+    "linkText": "Los Angeles plays Portland following Doncic's 52-point outing",
+    "categorized": "2026-10-26T06:02:57Z",
+    "originallyPosted": "2026-10-26T06:02:48Z",
+    "lastModified": "2026-10-26T06:02:57Z",
+    "published": "2026-10-26T06:02:48Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4630,
+        "type": "team",
+        "uid": "s:40~l:46~t:13",
+        "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+        "description": "Los Angeles Lakers",
+        "sportId": 46,
+        "teamId": 13,
+        "team": {
+          "id": 13,
+          "description": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "shortDisplayName": "Lakers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4659,
+        "type": "team",
+        "uid": "s:40~l:46~t:22",
+        "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
+        "description": "Portland Trail Blazers",
+        "sportId": 46,
+        "teamId": 22,
+        "team": {
+          "id": 22,
+          "description": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "shortDisplayName": "Trail Blazers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909880",
+        "guid": "042fc38d-68e0-3f9e-adf2-d21ff4774699",
+        "description": "Portland Trail Blazers @ Los Angeles Lakers",
+        "eventId": 401909880,
+        "event": {
+          "id": 401909880,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Portland Trail Blazers @ Los Angeles Lakers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Los Angeles Lakers",
+      "Portland Trail Blazers",
+      "Portland Trail Blazers @ Los Angeles Lakers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/por/portland-trail-blazers\">Portland Trail Blazers</a> (2-0, sixth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/lal/los-angeles-lakers\">Los Angeles Lakers</a> (3-0, second in the Western Conference)\n\n\r\n              Los Angeles; Tuesday, 11 p.m. EDT\n\n\r\n              BOTTOM LINE: Los Angeles faces the Portland Trail Blazers after <a href=\"http://www.espn.com/nba/player/_/id/3945274/luka-doncic\">Luka Doncic</a> scored 52 points in the Los Angeles Lakers' 132-123 victory over the <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a>.\n\n\r\n              Los Angeles finished 53-29 overall, 33-19 in Western Conference action and 28-13 at home during the 2025-26 season. The Lakers averaged 116.3 points per game last season, 20.4 from the free-throw line and 35.4 from beyond the arc.\n\n\r\n              Portland went 42-40 overall and 29-23 in Western Conference action during the 2025-26 season. The Trail Blazers averaged 25.1 assists per game on 40.9 made field goals last season.\n\n\r\n              INJURIES: Lakers: <a href=\"http://www.espn.com/nba/player/_/id/5113969/cameron-carr\">Cameron Carr</a>: out (oblique), <a href=\"http://www.espn.com/nba/player/_/id/5060631/adou-thiero\">Adou Thiero</a>: out (knee).\n\n\r\n              Trail Blazers: <a href=\"http://www.espn.com/nba/player/_/id/4706557/chris-youngblood\">Chris Youngblood</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4914336/shaedon-sharpe\">Shaedon Sharpe</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/4592435/branden-carlson\">Branden Carlson</a>: day to day (concussion protocol).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50285316"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50285316"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50285316"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909880"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909880",
     "uid": "s:40~l:46~e:401909880",
@@ -5861,154 +5922,13 @@
       ]
     }
   },
-  "article": {
-    "id": 50285316,
-    "nowId": "1-50285316",
-    "contentKey": "50285316-1-22-1",
-    "dataSourceIdentifier": "7704242adf8ee",
-    "publishedkey": "nba401909880",
-    "type": "Preview",
-    "gameId": "401909880",
-    "headline": "Los Angeles plays Portland following Doncic's 52-point outing",
-    "description": "Portland Trail Blazers (2-0, sixth in the Western Conference) vs. Los Angeles Lakers (3-0, second in the Western Conference)",
-    "title": "Los Angeles plays Portland following Doncic's 52-point outing",
-    "linkText": "Los Angeles plays Portland following Doncic's 52-point outing",
-    "categorized": "2026-10-26T06:02:57Z",
-    "originallyPosted": "2026-10-26T06:02:48Z",
-    "lastModified": "2026-10-26T06:02:57Z",
-    "published": "2026-10-26T06:02:48Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4630,
-        "type": "team",
-        "uid": "s:40~l:46~t:13",
-        "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-        "description": "Los Angeles Lakers",
-        "sportId": 46,
-        "teamId": 13,
-        "team": {
-          "id": 13,
-          "description": "Los Angeles Lakers",
-          "abbreviation": "LAL",
-          "shortDisplayName": "Lakers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4659,
-        "type": "team",
-        "uid": "s:40~l:46~t:22",
-        "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
-        "description": "Portland Trail Blazers",
-        "sportId": 46,
-        "teamId": 22,
-        "team": {
-          "id": 22,
-          "description": "Portland Trail Blazers",
-          "abbreviation": "POR",
-          "shortDisplayName": "Trail Blazers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909880",
-        "guid": "042fc38d-68e0-3f9e-adf2-d21ff4774699",
-        "description": "Portland Trail Blazers @ Los Angeles Lakers",
-        "eventId": 401909880,
-        "event": {
-          "id": 401909880,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Portland Trail Blazers @ Los Angeles Lakers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Los Angeles Lakers",
-      "Portland Trail Blazers",
-      "Portland Trail Blazers @ Los Angeles Lakers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/por/portland-trail-blazers\">Portland Trail Blazers</a> (2-0, sixth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/lal/los-angeles-lakers\">Los Angeles Lakers</a> (3-0, second in the Western Conference)\n\n\r\n              Los Angeles; Tuesday, 11 p.m. EDT\n\n\r\n              BOTTOM LINE: Los Angeles faces the Portland Trail Blazers after <a href=\"http://www.espn.com/nba/player/_/id/3945274/luka-doncic\">Luka Doncic</a> scored 52 points in the Los Angeles Lakers' 132-123 victory over the <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a>.\n\n\r\n              Los Angeles finished 53-29 overall, 33-19 in Western Conference action and 28-13 at home during the 2025-26 season. The Lakers averaged 116.3 points per game last season, 20.4 from the free-throw line and 35.4 from beyond the arc.\n\n\r\n              Portland went 42-40 overall and 29-23 in Western Conference action during the 2025-26 season. The Trail Blazers averaged 25.1 assists per game on 40.9 made field goals last season.\n\n\r\n              INJURIES: Lakers: <a href=\"http://www.espn.com/nba/player/_/id/5113969/cameron-carr\">Cameron Carr</a>: out (oblique), <a href=\"http://www.espn.com/nba/player/_/id/5060631/adou-thiero\">Adou Thiero</a>: out (knee).\n\n\r\n              Trail Blazers: <a href=\"http://www.espn.com/nba/player/_/id/4706557/chris-youngblood\">Chris Youngblood</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4914336/shaedon-sharpe\">Shaedon Sharpe</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/4592435/branden-carlson\">Branden Carlson</a>: day to day (concussion protocol).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50285316"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50285316"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50285316"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909880"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909880",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6022,77 +5942,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/27 vs Trail Blazers 1148 tickets left",
+        "ticketName": "10/27 vs Trail Blazers 913 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-27-2026/production/7433104?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Clippers 2508 tickets left",
+        "ticketName": "10/28 @ Clippers 2520 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-28-2026/production/7433102?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ Warriors 4783 tickets left",
+        "ticketName": "10/30 @ Warriors 4727 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-10-30-2026--sports-nba-basketball/production/7420142?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 vs Raptors 3481 tickets left",
+        "ticketName": "11/1 vs Raptors 3462 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-1-2026/production/7433108?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Heat 5654 tickets left",
+        "ticketName": "11/2 vs Heat 5479 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Kings 6020 tickets left",
+        "ticketName": "11/4 @ Kings 5979 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-4-2026/production/7432997?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Trail Blazers 6155 tickets left",
+        "ticketName": "11/6 vs Trail Blazers 6054 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-30-2026--sports-nba-basketball/production/7420168?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Pistons 4790 tickets left",
+        "ticketName": "11/8 @ Pistons 4795 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 @ Hawks 4921 tickets left",
+        "ticketName": "11/9 @ Hawks 4961 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-9-2026/production/7433066?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Bucks 3798 tickets left",
+        "ticketName": "11/11 @ Bucks 2958 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-11-2026/production/7432895?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Suns 4196 tickets left",
+        "ticketName": "11/15 @ Suns 4192 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Hornets 5881 tickets left",
+        "ticketName": "11/17 vs Hornets 5845 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Jazz 5429 tickets left",
+        "ticketName": "11/18 vs Jazz 5431 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-18-2026/production/7433112?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Kings 5953 tickets left",
+        "ticketName": "11/20 vs Kings 5867 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-31-2026--sports-nba-basketball/production/7420174?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Jazz 5627 tickets left",
+        "ticketName": "11/23 vs Jazz 5657 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-23-2026/production/7431675?wsUser=717",
         "type": "event"
       }
@@ -6101,7 +6021,7 @@
       "opponentTeamName": "Trail Blazers",
       "currentTeamName": "Lakers",
       "venueName": "crypto.com Arena",
-      "summary": "Tickets as low as $74",
+      "summary": "Tickets as low as $78",
       "date": "2026-10-28T03:00Z",
       "dateDay": "Tue",
       "homeAway": "home",
@@ -6111,12 +6031,6 @@
       "teamLink": "https://www.vividseats.com/los-angeles-lakers-tickets--sports-nba-basketball/performer/483?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909880",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
