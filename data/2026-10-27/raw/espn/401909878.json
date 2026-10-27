@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Nick Buchert",
+        "displayName": "Nick Buchert",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Dedric Taylor",
+        "displayName": "Dedric Taylor",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Brett Nansel",
+        "displayName": "Brett Nansel",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,8 +431,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -465,7 +495,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909089",
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909863",
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -820,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -886,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401908946",
@@ -1084,8 +1116,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -1150,7 +1180,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909866",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3080,16 +3112,16 @@
           }
         ]
       },
-      "details": "NY -4.5",
+      "details": "NY -3.5",
       "overUnder": 219.5,
-      "spread": -4.5,
-      "overOdds": -108.0,
-      "underOdds": -112.0,
+      "spread": -3.5,
+      "overOdds": -112.0,
+      "underOdds": -108.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 142,
-        "spreadOdds": -115.0,
+        "spreadOdds": -102.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -3100,7 +3132,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -170,
-        "spreadOdds": -105.0,
+        "spreadOdds": -118.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3163,7 +3195,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N450_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N350_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3176,7 +3208,7 @@
               "gameId": 401909878,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:NY-4.5"
+              "betDetails": "Spread:NY-3.5"
             }
           }
         },
@@ -3187,7 +3219,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P450_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P350_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3200,7 +3232,7 @@
               "gameId": 401909878,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:DET+4.5"
+              "betDetails": "Spread:DET+3.5"
             }
           }
         },
@@ -3339,8 +3371,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-4.5",
-            "odds": "-105",
+            "line": "-3.5",
+            "odds": "-118",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3348,7 +3380,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N450_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384N350_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3361,7 +3393,7 @@
                   "gameId": 401909878,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:NY-4.5"
+                  "betDetails": "Spread:NY-3.5"
                 }
               }
             }
@@ -3373,8 +3405,8 @@
         },
         "away": {
           "close": {
-            "line": "+4.5",
-            "odds": "-115",
+            "line": "+3.5",
+            "odds": "-102",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3382,7 +3414,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P450_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34901563%3Foutcomes%3D0HC86931384P350_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3395,7 +3427,7 @@
                   "gameId": 401909878,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:DET+4.5"
+                  "betDetails": "Spread:DET+3.5"
                 }
               }
             }
@@ -3412,7 +3444,7 @@
         "over": {
           "close": {
             "line": "o219.5",
-            "odds": "-108",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3446,7 +3478,7 @@
         "under": {
           "close": {
             "line": "u219.5",
-            "odds": "-112",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3642,7 +3674,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -4137,8 +4168,8 @@
         "type": "HeadlineNews",
         "headline": "Ex-NBA player Malik Beasley agrees to plead guilty in sports betting case",
         "description": "Malik Beasley is scheduled to change his plea at a Dec. 9 hearing in Brooklyn.",
-        "lastModified": "2026-10-27T21:32:01Z",
-        "published": "2026-10-27T21:32:01Z",
+        "lastModified": "2026-10-27T22:15:50Z",
+        "published": "2026-10-27T22:15:50Z",
         "images": [
           {
             "dataSourceIdentifier": "e7c2a13b8b3ae",
@@ -4150,6 +4181,14 @@
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/0701/r1683045_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Malik Beasley indicted in federal gambling case",
+            "caption": "Malik Beasley indicted in federal gambling case",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0629/ss_20260629_150756061_3579511/ss_20260629_150756061_3579511.jpg"
           }
         ],
         "categories": [
@@ -4237,6 +4276,26 @@
                   }
                 }
               }
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
             }
           },
           {
@@ -4823,6 +4882,154 @@
       }
     ]
   },
+  "winprobability": [],
+  "article": {
+    "id": 50285319,
+    "nowId": "1-50285319",
+    "contentKey": "50285319-1-22-1",
+    "dataSourceIdentifier": "0d47a48f136b7",
+    "publishedkey": "nba401909878",
+    "type": "Preview",
+    "gameId": "401909878",
+    "headline": "Detroit plays New York on 3-game win streak",
+    "description": "Detroit Pistons (3-0, first in the Eastern Conference) vs. New York Knicks (0-3, 13th in the Eastern Conference)",
+    "title": "Detroit plays New York on 3-game win streak",
+    "linkText": "Detroit plays New York on 3-game win streak",
+    "categorized": "2026-10-26T06:03:00Z",
+    "originallyPosted": "2026-10-26T06:02:59Z",
+    "lastModified": "2026-10-26T06:03:00Z",
+    "published": "2026-10-26T06:02:59Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4293,
+        "type": "team",
+        "uid": "s:40~l:46~t:18",
+        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
+        "description": "New York Knicks",
+        "sportId": 46,
+        "teamId": 18,
+        "team": {
+          "id": 18,
+          "description": "New York Knicks",
+          "abbreviation": "NY",
+          "shortDisplayName": "Knicks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909878",
+        "guid": "fff5a603-7ab0-3d95-b71b-70adea8cf8d9",
+        "description": "Detroit Pistons @ New York Knicks",
+        "eventId": 401909878,
+        "event": {
+          "id": 401909878,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ New York Knicks"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "New York Knicks",
+      "Detroit Pistons",
+      "Detroit Pistons @ New York Knicks"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (3-0, first in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (0-3, 13th in the Eastern Conference)\n\n\r\n              New York; Tuesday, 8 p.m. EDT\n\n\r\n              BOTTOM LINE: Detroit seeks to continue its three-game win streak with a victory against New York.\n\n\r\n              New York went 53-29 overall and 35-17 in Eastern Conference action a season ago. The Knicks gave up 110.1 points per game while committing 20.0 fouls last season.\n\n\r\n              Detroit finished 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              INJURIES: Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: out (ankle).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50285319"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50285319"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50285319"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909878"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909878",
     "uid": "s:40~l:46~e:401909878",
@@ -5624,153 +5831,6 @@
       ]
     }
   },
-  "article": {
-    "id": 50285319,
-    "nowId": "1-50285319",
-    "contentKey": "50285319-1-22-1",
-    "dataSourceIdentifier": "0d47a48f136b7",
-    "publishedkey": "nba401909878",
-    "type": "Preview",
-    "gameId": "401909878",
-    "headline": "Detroit plays New York on 3-game win streak",
-    "description": "Detroit Pistons (3-0, first in the Eastern Conference) vs. New York Knicks (0-3, 13th in the Eastern Conference)",
-    "title": "Detroit plays New York on 3-game win streak",
-    "linkText": "Detroit plays New York on 3-game win streak",
-    "categorized": "2026-10-26T06:03:00Z",
-    "originallyPosted": "2026-10-26T06:02:59Z",
-    "lastModified": "2026-10-26T06:03:00Z",
-    "published": "2026-10-26T06:02:59Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4293,
-        "type": "team",
-        "uid": "s:40~l:46~t:18",
-        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
-        "description": "New York Knicks",
-        "sportId": 46,
-        "teamId": 18,
-        "team": {
-          "id": 18,
-          "description": "New York Knicks",
-          "abbreviation": "NY",
-          "shortDisplayName": "Knicks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909878",
-        "guid": "fff5a603-7ab0-3d95-b71b-70adea8cf8d9",
-        "description": "Detroit Pistons @ New York Knicks",
-        "eventId": 401909878,
-        "event": {
-          "id": 401909878,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ New York Knicks"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "New York Knicks",
-      "Detroit Pistons",
-      "Detroit Pistons @ New York Knicks"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (3-0, first in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (0-3, 13th in the Eastern Conference)\n\n\r\n              New York; Tuesday, 8 p.m. EDT\n\n\r\n              BOTTOM LINE: Detroit seeks to continue its three-game win streak with a victory against New York.\n\n\r\n              New York went 53-29 overall and 35-17 in Eastern Conference action a season ago. The Knicks gave up 110.1 points per game while committing 20.0 fouls last season.\n\n\r\n              Detroit finished 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              INJURIES: Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: out (ankle).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50285319"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50285319"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50285319"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909878"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909878",
@@ -5791,57 +5851,57 @@
         "type": "team"
       },
       {
-        "ticketName": "10/27 vs Pistons 734 tickets left",
+        "ticketName": "10/27 vs Pistons 542 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-27-2026/production/7432929?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/28 @ Bulls 3585 tickets left",
+        "ticketName": "10/28 @ Bulls 3544 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-28-2026/production/7432931?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/30 @ 76ers 4206 tickets left",
+        "ticketName": "10/30 @ 76ers 4222 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Nets 3377 tickets left",
+        "ticketName": "11/2 vs Nets 3341 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-2-2026/production/7432933?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Bulls 3684 tickets left",
+        "ticketName": "11/4 vs Bulls 3652 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Cavaliers 3576 tickets left",
+        "ticketName": "11/7 @ Cavaliers 3755 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-7-2026/production/7432937?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Bucks 2135 tickets left",
+        "ticketName": "11/10 vs Bucks 2117 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Cavaliers 5760 tickets left",
+        "ticketName": "11/11 vs Cavaliers 5749 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-11-2026/production/7432939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pacers 4103 tickets left",
+        "ticketName": "11/13 @ Pacers 4066 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Raptors 1043 tickets left",
+        "ticketName": "11/15 @ Raptors 1029 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Raptors 1101 tickets left",
+        "ticketName": "11/17 @ Raptors 1095 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
@@ -5851,17 +5911,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Trail Blazers 4825 tickets left",
+        "ticketName": "11/21 vs Trail Blazers 4842 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Pacers 2602 tickets left",
+        "ticketName": "11/22 vs Pacers 2582 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-22-2026/production/7430984?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Cavaliers 4634 tickets left",
+        "ticketName": "11/25 vs Cavaliers 4619 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
         "type": "event"
       }
@@ -5870,7 +5930,7 @@
       "opponentTeamName": "Pistons",
       "currentTeamName": "Knicks",
       "venueName": "Madison Square Garden",
-      "summary": "Tickets as low as $169",
+      "summary": "Tickets as low as $191",
       "date": "2026-10-28T00:00Z",
       "dateDay": "Tue",
       "homeAway": "home",
