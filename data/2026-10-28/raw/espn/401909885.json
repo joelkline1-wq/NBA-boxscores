@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Ed Malloy",
+        "displayName": "Ed Malloy",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Eric Dalen",
+        "displayName": "Eric Dalen",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Scott Twardoski",
+        "displayName": "Scott Twardoski",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,8 +343,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -377,7 +407,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401908946",
@@ -399,6 +431,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -463,9 +497,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
         },
         {
           "id": "401909837",
@@ -575,8 +607,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "27",
             "uid": "s:40~l:46~t:27",
@@ -641,7 +671,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909864",
@@ -820,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -886,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898406",
@@ -1084,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -1148,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909863",
@@ -2939,65 +2971,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-28T14:41Z",
-          "athlete": {
-            "id": "4712849",
-            "uid": "s:40~l:46~a:4712849",
-            "guid": "819d6a57-b641-309d-bfbb-555428f8950e",
-            "lastName": "Black",
-            "fullName": "Anthony Black",
-            "displayName": "Anthony Black",
-            "shortName": "A. Black",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4712849/anthony-black",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png",
-              "alt": "Anthony Black"
-            },
-            "jersey": "0",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4712849?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Personal",
-            "location": "Other",
-            "returnDate": "2026-10-28"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-27T18:48Z",
           "athlete": {
@@ -3236,6 +3209,67 @@
             "side": "Right",
             "returnDate": "2026-11-18"
           }
+        },
+        {
+          "status": "Out",
+          "date": "2026-09-28T21:33Z",
+          "athlete": {
+            "id": "5107251",
+            "uid": "s:40~l:46~a:5107251",
+            "guid": "958597f9-1595-3866-b892-18e4970af907",
+            "lastName": "Nelson",
+            "fullName": "Izaiyah Nelson",
+            "displayName": "Izaiyah Nelson",
+            "shortName": "I. Nelson",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5107251/izaiyah-nelson",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5107251.png",
+              "alt": "Izaiyah Nelson"
+            },
+            "jersey": "25",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5107251?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Ankle",
+            "location": "Leg",
+            "detail": "Surgery",
+            "side": "Left",
+            "returnDate": "2026-11-18"
+          }
         }
       ]
     }
@@ -3245,7 +3279,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3263,7 +3297,7 @@
         ]
       },
       "details": "TOR -4.5",
-      "overUnder": 223.5,
+      "overUnder": 224.5,
       "spread": -4.5,
       "overOdds": -115.0,
       "underOdds": -105.0,
@@ -3296,7 +3330,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0ML86939461_1",
           "text": "Home Bet",
@@ -3320,7 +3354,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0ML86939461_3",
           "text": "Away Bet",
@@ -3393,7 +3427,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461O22350_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461O22450_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3406,7 +3440,7 @@
               "gameId": 401909885,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:223.5"
+              "betDetails": "Over:224.5"
             }
           }
         },
@@ -3417,7 +3451,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461U22350_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461U22450_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3430,7 +3464,7 @@
               "gameId": 401909885,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:223.5"
+              "betDetails": "Under:224.5"
             }
           }
         },
@@ -3460,7 +3494,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0ML86939461_1",
               "text": "Home Bet",
@@ -3492,7 +3526,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0ML86939461_3",
               "text": "Away Bet",
@@ -3593,7 +3627,7 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o223.5",
+            "line": "o224.5",
             "odds": "-115",
             "link": {
               "language": "en-US",
@@ -3602,7 +3636,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461O22350_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461O22450_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3615,7 +3649,7 @@
                   "gameId": 401909885,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:223.5"
+                  "betDetails": "Over:224.5"
                 }
               }
             }
@@ -3627,7 +3661,7 @@
         },
         "under": {
           "close": {
-            "line": "u223.5",
+            "line": "u224.5",
             "odds": "-105",
             "link": {
               "language": "en-US",
@@ -3636,7 +3670,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461U22350_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904708%3Foutcomes%3D0OU86939461U22450_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3649,7 +3683,7 @@
                   "gameId": 401909885,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:223.5"
+                  "betDetails": "Under:224.5"
                 }
               }
             }
@@ -3824,835 +3858,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "28",
-      "gameProjection": "46.8",
-      "teamChanceLoss": "53.2"
-    },
-    "awayTeam": {
-      "id": "19",
-      "gameProjection": "53.2",
-      "teamChanceLoss": "46.8"
-    }
-  },
-  "news": {
-    "header": "NBA News",
-    "link": {
-      "language": "en",
-      "rel": [
-        "index",
-        "desktop",
-        "league"
-      ],
-      "href": "https://www.espn.com/nba/",
-      "text": "All NBA News",
-      "shortText": "All News",
-      "isExternal": false,
-      "isPremium": false
-    },
-    "articles": [
-      {
-        "id": 50310964,
-        "nowId": "1-50310964",
-        "contentKey": "50310964-1-5-1",
-        "dataSourceIdentifier": "05a4dd902a0dc",
-        "type": "HeadlineNews",
-        "headline": "Timberwolves say Anthony Edwards will be 'good as new' after knee surgery",
-        "description": "The Timberwolves believe Anthony Edwards will be \"good as new\" following arthroscopic surgery for a lingering injury to his right knee.",
-        "lastModified": "2026-10-28T21:39:59Z",
-        "published": "2026-10-28T21:39:59Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "7ef87f18d8632",
-            "id": 50307786,
-            "type": "header",
-            "name": "Anthony Edwards for Spin [600x400]",
-            "caption": "Anthony Edwards, who already had two 40-point nights to his credit in his first four games, will miss significant time with a knee injury.",
-            "alt": "Minnesota Timberwolves guard Anthony Edwards (5) looks on against the Toronto Raptors in the second half at Target Center.",
-            "credit": "Jesse Johnson-Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1028/r1737482_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
-            "caption": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_103714080_3714119647/ss_20261028_103714080_3714119647.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 4533,
-            "type": "team",
-            "uid": "s:40~l:46~t:16",
-            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
-            "description": "Minnesota Timberwolves",
-            "sportId": 46,
-            "teamId": 16,
-            "team": {
-              "id": 16,
-              "description": "Minnesota Timberwolves",
-              "abbreviation": "MIN",
-              "shortDisplayName": "Timberwolves",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 457645,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4594268",
-            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
-            "description": "Anthony Edwards",
-            "sportId": 46,
-            "athleteId": 4594268,
-            "athlete": {
-              "id": 4594268,
-              "description": "Anthony Edwards",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50310964"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50310964"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50310964"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50310964/wolves-say-edwards-good-new-knee-surgery"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50310776,
-        "nowId": "1-50310776",
-        "contentKey": "50310776-1-5-1",
-        "dataSourceIdentifier": "7bbfc50b45034",
-        "type": "HeadlineNews",
-        "headline": "Lakers rule out Luka Doncic, Ziaire Williams vs. Clippers",
-        "description": "Lakers star Luka Doncic (back) and starter Ziaire Williams (foot) will not play in Wednesday's game vs. the Clippers, who will be without Rui Hachimura (quad).",
-        "lastModified": "2026-10-28T21:03:22Z",
-        "published": "2026-10-28T21:03:22Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "f1f12ac676b8d",
-            "id": 48369755,
-            "type": "header",
-            "name": "Luka Doncic [1296x729]",
-            "caption": "The Lakers' championship odds are on the move again after Luka Doncic's injury.",
-            "alt": "Luka Doncic #77 of the Los Angeles Lakers handles the ball during the game against the Miami Heat on March 19, 2026 at Kaseya Center in Miami, Florida.",
-            "credit": "Issac Baldizon/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/0401/r1637203_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Dame Time! Lillard buries dagger 3 to help Blazers beat Lakers",
-            "caption": "Dame Time! Lillard buries dagger 3 to help Blazers beat Lakers",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/23af4671c68b4fd0a06d19c6cc18d2ee136/23af4671c68b4fd0a06d19c6cc18d2ee136.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 159574,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3945274",
-            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
-            "description": "Luka Doncic",
-            "sportId": 46,
-            "athleteId": 3945274,
-            "athlete": {
-              "id": 3945274,
-              "description": "Luka Doncic",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 492287,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4433137",
-            "guid": "ddb32530-906d-3a8e-94c6-e72430294a1a",
-            "description": "Ziaire Williams",
-            "sportId": 46,
-            "athleteId": 4433137,
-            "athlete": {
-              "id": 4433137,
-              "description": "Ziaire Williams",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 384217,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4066648",
-            "guid": "40c1bcf6-675b-f217-f97c-1d628073f927",
-            "description": "Rui Hachimura",
-            "sportId": 46,
-            "athleteId": 4066648,
-            "athlete": {
-              "id": 4066648,
-              "description": "Rui Hachimura",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4630,
-            "type": "team",
-            "uid": "s:40~l:46~t:13",
-            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-            "description": "Los Angeles Lakers",
-            "sportId": 46,
-            "teamId": 13,
-            "team": {
-              "id": 13,
-              "description": "Los Angeles Lakers",
-              "abbreviation": "LAL",
-              "shortDisplayName": "Lakers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154798,
-            "type": "team",
-            "uid": "s:40~l:46~t:12",
-            "guid": "083a58a6-b849-3501-e67b-059290d12295",
-            "description": "LA Clippers",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "abbreviation": "LAC",
-              "shortDisplayName": "Clippers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 698422,
-            "type": "contributor",
-            "guid": "1d8ecf87-0581-33b4-9cad-7e7d488956ab",
-            "description": "Dave McMenamin",
-            "slug": "dave-mcmenamin",
-            "contributor": {
-              "id": 1836,
-              "description": "Dave McMenamin"
-            }
-          }
-        ],
-        "byline": "Dave McMenamin",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50310776"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50310776"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50310776"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50310776/lakers-rule-luka-doncic-ziaire-williams-vs-clippers"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 44679680,
-        "nowId": "1-44679680",
-        "contentKey": "44679680-1-6-1",
-        "dataSourceIdentifier": "e791ebc716319",
-        "type": "Story",
-        "headline": "Updated NBA championship and MVP odds: Spurs take control; Thunder lose ground",
-        "description": "The San Antonio Spurs are the early favorites to win the NBA championship, with Victor Wembanyama the fave to take home MVP honors.",
-        "lastModified": "2026-10-28T20:04:47Z",
-        "published": "2026-10-28T20:04:47Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "e7583a11f8dbe",
-            "id": 50309684,
-            "type": "header",
-            "name": "Victor Wembanyama [1296x729]",
-            "caption": "Victor Wembanyama and the San Antonio Spurs are alone on top as the favorite to win the NBA championship.",
-            "alt": "Victor Wembanyama #1 of the San Antonio Spurs celebrates a basket  against Atlanta Hawks in the first half of the preseason game at Frost Bank Center on October 8, 2026 in San Antonio, Texas.",
-            "credit": "Ronald Cortes/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1028/r1737614_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 611584,
-            "type": "league",
-            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
-            "description": "Sports Betting",
-            "sportId": 22000,
-            "leagueId": 22000,
-            "league": {
-              "id": 22000,
-              "description": "Sports Betting"
-            }
-          },
-          {
-            "id": 137817,
-            "type": "topic",
-            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
-            "description": "news \u2013 sports betting",
-            "sportId": 0,
-            "topicId": 179
-          },
-          {
-            "id": 129403,
-            "type": "topic",
-            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
-            "description": "news - nba",
-            "sportId": 0,
-            "topicId": 122
-          },
-          {
-            "id": 696244,
-            "type": "contributor",
-            "guid": "b4b4279f-6f4d-329a-a5c2-1eeceea9f2bb",
-            "description": "Doug Greenberg",
-            "slug": "doug-greenberg",
-            "contributor": {
-              "id": 4050,
-              "description": "Doug Greenberg"
-            }
-          }
-        ],
-        "byline": "Doug Greenberg",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/44679680"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=44679680"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=44679680"
-          },
-          "web": {
-            "href": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50309868,
-        "nowId": "1-50309868",
-        "contentKey": "50309868-1-5-1",
-        "dataSourceIdentifier": "0c08208e25df9",
-        "type": "HeadlineNews",
-        "headline": "Ernie Johnson says this is his final season as 'Inside the NBA' host",
-        "description": "Ernie Johnson will retire as host of \"Inside the NBA\" after the season, saying that it was his decision to step away and that \"it's just time.\"",
-        "lastModified": "2026-10-28T21:19:26Z",
-        "published": "2026-10-28T21:19:26Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "a46317c804566",
-            "id": 50309991,
-            "type": "header",
-            "name": "261028 Ernie Johnson Inside the NBA photo [1296x729]",
-            "credit": "Rich Storry/ESPN Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1028/r1737637_2_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-            "caption": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_ernie_johnson_announcement/dm_261028_ernie_johnson_announcement.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50309868"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50309868"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50309868"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50309868/ernie-johnson-leaving-nba-host-season"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50309755,
-        "nowId": "1-50309755",
-        "contentKey": "50309755-1-293-1",
-        "dataSourceIdentifier": "a81a0a9315130",
-        "type": "Media",
-        "headline": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-        "description": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-        "lastModified": "2026-10-28T18:33:05Z",
-        "published": "2026-10-28T18:33:05Z",
-        "images": [
-          {
-            "name": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-            "caption": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_ernie_johnson_announcement/dm_261028_ernie_johnson_announcement.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/39663264-aa04-4b46-874f-4e2ee9883f40"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50309755"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50309755&videoDSI=a81a0a9315130"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50309755/ernie-johnson-announces-his-last-year-nba",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50309755/ernie-johnson-announces-his-last-year-nba",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=a81a0a9315130"
-              }
-            }
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50309718,
-        "nowId": "1-50309718",
-        "contentKey": "50309718-1-293-1",
-        "dataSourceIdentifier": "902893d6e7ca5",
-        "type": "Media",
-        "headline": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-        "description": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-        "lastModified": "2026-10-28T18:36:57Z",
-        "published": "2026-10-28T18:36:57Z",
-        "images": [
-          {
-            "name": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-            "caption": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_142813065_3714279871/ss_20261028_142813065_3714279871.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 4339,
-            "type": "team",
-            "uid": "s:40~l:46~t:27",
-            "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-            "description": "Washington Wizards",
-            "sportId": 46,
-            "teamId": 27,
-            "team": {
-              "id": 27,
-              "description": "Washington Wizards",
-              "abbreviation": "WSH",
-              "shortDisplayName": "Wizards",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 737814,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5142718",
-            "guid": "38a12eab-4c0d-3984-95c6-6bb5a14d90f9",
-            "description": "AJ Dybantsa",
-            "sportId": 46,
-            "athleteId": 5142718,
-            "athlete": {
-              "id": 5142718,
-              "description": "AJ Dybantsa",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142718/aj-dybantsa"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142718/aj-dybantsa"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 730035,
-            "type": "editorialindicator",
-            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
-            "description": "Verts - Exclude Content"
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909882",
-            "guid": "49780dc5-1969-30a9-8097-0b1c150d96af",
-            "description": "Washington Wizards @ Cleveland Cavaliers",
-            "eventId": 401909882,
-            "event": {
-              "id": 401909882,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Washington Wizards @ Cleveland Cavaliers"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/e8d2ceb1-5b71-4c5b-8ea1-83f2453d257d"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50309718"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50309718&videoDSI=902893d6e7ca5"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50309718/shams-confirms-aj-dybantsa-making-season-debut-tonight-vs-cavs",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50309718/shams-confirms-aj-dybantsa-making-season-debut-tonight-vs-cavs",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=902893d6e7ca5"
-              }
-            }
-          }
-        },
-        "premium": false
-      }
-    ]
-  },
   "header": {
     "id": "401909885",
     "uid": "s:40~l:46~e:401909885",
@@ -5454,6 +4659,811 @@
       ]
     }
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "28",
+      "gameProjection": "46.8",
+      "teamChanceLoss": "53.2"
+    },
+    "awayTeam": {
+      "id": "19",
+      "gameProjection": "53.2",
+      "teamChanceLoss": "46.8"
+    }
+  },
+  "news": {
+    "header": "NBA News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/nba/",
+      "text": "All NBA News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 50311622,
+        "nowId": "1-50311622",
+        "contentKey": "50311622-1-5-1",
+        "dataSourceIdentifier": "93005e85f1a46",
+        "type": "HeadlineNews",
+        "headline": "Mavericks exercise 2027-28 option on Zaccharie Risacher deal",
+        "description": "The Mavericks exercised the fourth-year team option in forward Zaccharie Risacher's contract, guaranteeing his $17.4 million salary next season.",
+        "lastModified": "2026-10-28T22:26:07Z",
+        "published": "2026-10-28T22:26:07Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7d0e5b0e64af3",
+            "id": 50311610,
+            "type": "header",
+            "name": "Risacher [600x600]",
+            "credit": "Kevin Jairaj-Imagn Images",
+            "height": 600,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1028/r1737780_600x600_1-1.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4485,
+            "type": "team",
+            "uid": "s:40~l:46~t:6",
+            "guid": "f00d1f4e-4ce6-d581-466c-5b52531cf7ad",
+            "description": "Dallas Mavericks",
+            "sportId": 46,
+            "teamId": 6,
+            "team": {
+              "id": 6,
+              "description": "Dallas Mavericks",
+              "abbreviation": "DAL",
+              "shortDisplayName": "Mavericks",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 667305,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5211175",
+            "guid": "d9a14bbd-d184-3703-86ba-f0c17b732ab4",
+            "description": "Zaccharie Risacher",
+            "sportId": 46,
+            "athleteId": 5211175,
+            "athlete": {
+              "id": 5211175,
+              "description": "Zaccharie Risacher",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5211175/zaccharie-risacher"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5211175/zaccharie-risacher"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 698423,
+            "type": "contributor",
+            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
+            "description": "Tim MacMahon",
+            "slug": "tim-macmahon",
+            "contributor": {
+              "id": 1808,
+              "description": "Tim MacMahon"
+            }
+          }
+        ],
+        "byline": "Tim MacMahon",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50311622"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50311622"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50311622"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50311622/mavericks-exercise-2027-28-option-zaccharie-risacher-deal"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50310964,
+        "nowId": "1-50310964",
+        "contentKey": "50310964-1-5-1",
+        "dataSourceIdentifier": "05a4dd902a0dc",
+        "type": "HeadlineNews",
+        "headline": "Timberwolves say Anthony Edwards will be 'good as new' after knee surgery",
+        "description": "The Timberwolves believe Anthony Edwards will be \"good as new\" following arthroscopic surgery for a lingering injury to his right knee.",
+        "lastModified": "2026-10-28T21:39:59Z",
+        "published": "2026-10-28T21:39:59Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7ef87f18d8632",
+            "id": 50307786,
+            "type": "header",
+            "name": "Anthony Edwards for Spin [600x400]",
+            "caption": "Anthony Edwards, who already had two 40-point nights to his credit in his first four games, will miss significant time with a knee injury.",
+            "alt": "Minnesota Timberwolves guard Anthony Edwards (5) looks on against the Toronto Raptors in the second half at Target Center.",
+            "credit": "Jesse Johnson-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1028/r1737482_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
+            "caption": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_103714080_3714119647/ss_20261028_103714080_3714119647.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 457645,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4594268",
+            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "description": "Anthony Edwards",
+            "sportId": 46,
+            "athleteId": 4594268,
+            "athlete": {
+              "id": 4594268,
+              "description": "Anthony Edwards",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50310964"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50310964"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50310964"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50310964/wolves-say-edwards-good-new-knee-surgery"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50310776,
+        "nowId": "1-50310776",
+        "contentKey": "50310776-1-5-1",
+        "dataSourceIdentifier": "7bbfc50b45034",
+        "type": "HeadlineNews",
+        "headline": "Lakers rule out Luka Doncic, Ziaire Williams vs. Clippers",
+        "description": "Lakers star Luka Doncic (back) and starter Ziaire Williams (foot) will not play in Wednesday's game vs. the Clippers, who will be without Rui Hachimura (quad).",
+        "lastModified": "2026-10-28T21:03:22Z",
+        "published": "2026-10-28T21:03:22Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "f1f12ac676b8d",
+            "id": 48369755,
+            "type": "header",
+            "name": "Luka Doncic [1296x729]",
+            "caption": "The Lakers' championship odds are on the move again after Luka Doncic's injury.",
+            "alt": "Luka Doncic #77 of the Los Angeles Lakers handles the ball during the game against the Miami Heat on March 19, 2026 at Kaseya Center in Miami, Florida.",
+            "credit": "Issac Baldizon/NBAE via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0401/r1637203_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Dame Time! Lillard buries dagger 3 to help Blazers beat Lakers",
+            "caption": "Dame Time! Lillard buries dagger 3 to help Blazers beat Lakers",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/23af4671c68b4fd0a06d19c6cc18d2ee136/23af4671c68b4fd0a06d19c6cc18d2ee136.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 159574,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3945274",
+            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
+            "description": "Luka Doncic",
+            "sportId": 46,
+            "athleteId": 3945274,
+            "athlete": {
+              "id": 3945274,
+              "description": "Luka Doncic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492287,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4433137",
+            "guid": "ddb32530-906d-3a8e-94c6-e72430294a1a",
+            "description": "Ziaire Williams",
+            "sportId": 46,
+            "athleteId": 4433137,
+            "athlete": {
+              "id": 4433137,
+              "description": "Ziaire Williams",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 384217,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4066648",
+            "guid": "40c1bcf6-675b-f217-f97c-1d628073f927",
+            "description": "Rui Hachimura",
+            "sportId": 46,
+            "athleteId": 4066648,
+            "athlete": {
+              "id": 4066648,
+              "description": "Rui Hachimura",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154798,
+            "type": "team",
+            "uid": "s:40~l:46~t:12",
+            "guid": "083a58a6-b849-3501-e67b-059290d12295",
+            "description": "LA Clippers",
+            "sportId": 46,
+            "teamId": 12,
+            "team": {
+              "id": 12,
+              "description": "LA Clippers",
+              "abbreviation": "LAC",
+              "shortDisplayName": "Clippers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 698422,
+            "type": "contributor",
+            "guid": "1d8ecf87-0581-33b4-9cad-7e7d488956ab",
+            "description": "Dave McMenamin",
+            "slug": "dave-mcmenamin",
+            "contributor": {
+              "id": 1836,
+              "description": "Dave McMenamin"
+            }
+          }
+        ],
+        "byline": "Dave McMenamin",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50310776"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50310776"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50310776"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50310776/lakers-rule-luka-doncic-ziaire-williams-vs-clippers"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 44679680,
+        "nowId": "1-44679680",
+        "contentKey": "44679680-1-6-1",
+        "dataSourceIdentifier": "e791ebc716319",
+        "type": "Story",
+        "headline": "Updated NBA championship and MVP odds: Spurs take control; Thunder lose ground",
+        "description": "The San Antonio Spurs are the early favorites to win the NBA championship, with Victor Wembanyama the fave to take home MVP honors.",
+        "lastModified": "2026-10-28T20:04:47Z",
+        "published": "2026-10-28T20:04:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "e7583a11f8dbe",
+            "id": 50309684,
+            "type": "header",
+            "name": "Victor Wembanyama [1296x729]",
+            "caption": "Victor Wembanyama and the San Antonio Spurs are alone on top as the favorite to win the NBA championship.",
+            "alt": "Victor Wembanyama #1 of the San Antonio Spurs celebrates a basket  against Atlanta Hawks in the first half of the preseason game at Frost Bank Center on October 8, 2026 in San Antonio, Texas.",
+            "credit": "Ronald Cortes/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1028/r1737614_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 696244,
+            "type": "contributor",
+            "guid": "b4b4279f-6f4d-329a-a5c2-1eeceea9f2bb",
+            "description": "Doug Greenberg",
+            "slug": "doug-greenberg",
+            "contributor": {
+              "id": 4050,
+              "description": "Doug Greenberg"
+            }
+          }
+        ],
+        "byline": "Doug Greenberg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/44679680"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=44679680"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=44679680"
+          },
+          "web": {
+            "href": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50309868,
+        "nowId": "1-50309868",
+        "contentKey": "50309868-1-5-1",
+        "dataSourceIdentifier": "0c08208e25df9",
+        "type": "HeadlineNews",
+        "headline": "Ernie Johnson says this is his final season as 'Inside the NBA' host",
+        "description": "Ernie Johnson will retire as host of \"Inside the NBA\" after the season, saying that it was his decision to step away and that \"it's just time.\"",
+        "lastModified": "2026-10-28T22:38:18Z",
+        "published": "2026-10-28T22:38:18Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "a46317c804566",
+            "id": 50309991,
+            "type": "header",
+            "name": "261028 Ernie Johnson Inside the NBA photo [1296x729]",
+            "credit": "Rich Storry/ESPN Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1028/r1737637_2_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+            "caption": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_ernie_johnson_announcement/dm_261028_ernie_johnson_announcement.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50309868"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50309868"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50309868"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50309868/ernie-johnson-leaving-nba-host-season"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50309755,
+        "nowId": "1-50309755",
+        "contentKey": "50309755-1-293-1",
+        "dataSourceIdentifier": "a81a0a9315130",
+        "type": "Media",
+        "headline": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+        "description": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+        "lastModified": "2026-10-28T18:33:05Z",
+        "published": "2026-10-28T18:33:05Z",
+        "images": [
+          {
+            "name": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+            "caption": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_ernie_johnson_announcement/dm_261028_ernie_johnson_announcement.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/39663264-aa04-4b46-874f-4e2ee9883f40"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50309755"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50309755&videoDSI=a81a0a9315130"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50309755/ernie-johnson-announces-his-last-year-nba",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50309755/ernie-johnson-announces-his-last-year-nba",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=a81a0a9315130"
+              }
+            }
+          }
+        },
+        "premium": false
+      }
+    ]
+  },
+  "winprobability": [],
   "article": {
     "id": 50294741,
     "nowId": "1-50294741",
@@ -5602,12 +5612,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909885",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5626,42 +5630,42 @@
         "type": "event"
       },
       {
-        "ticketName": "10/30 vs Magic 1123 tickets left",
+        "ticketName": "10/30 vs Magic 1116 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-10-30-2026--sports-nba-basketball/production/7419345?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 @ Lakers 3268 tickets left",
+        "ticketName": "11/1 @ Lakers 3238 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-1-2026/production/7433108?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Clippers 4200 tickets left",
+        "ticketName": "11/2 @ Clippers 4181 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-2-2026/production/7433106?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Nuggets 4480 tickets left",
+        "ticketName": "11/4 @ Nuggets 4516 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-4-2026/production/7433090?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Bucks 3504 tickets left",
+        "ticketName": "11/6 @ Bucks 3087 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-30-2026--sports-nba-basketball/production/7418897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Grizzlies 1780 tickets left",
+        "ticketName": "11/9 vs Grizzlies 1689 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-9-2026/production/7433048?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Celtics 1374 tickets left",
+        "ticketName": "11/11 vs Celtics 1377 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ 76ers 3579 tickets left",
+        "ticketName": "11/12 @ 76ers 3569 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
@@ -5671,22 +5675,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Knicks 1067 tickets left",
+        "ticketName": "11/17 vs Knicks 1064 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Wizards 1307 tickets left",
+        "ticketName": "11/18 vs Wizards 1315 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Pistons 3585 tickets left",
+        "ticketName": "11/20 @ Pistons 3550 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Bucks 1843 tickets left",
+        "ticketName": "11/23 vs Bucks 1845 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
@@ -5710,6 +5714,12 @@
       "teamLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909885",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Curtis Blair",
+        "displayName": "Curtis Blair",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Andy Nagy",
+        "displayName": "Andy Nagy",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Ashley Moyer-Gleich",
+        "displayName": "Ashley Moyer-Gleich",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,6 +431,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -463,9 +497,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
         },
         {
           "id": "401909845",
@@ -820,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -886,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909092",
@@ -908,8 +940,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "13",
             "uid": "s:40~l:46~t:13",
@@ -974,7 +1004,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909850",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -1831,26 +1863,11 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Day-To-Day",
-                "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-10-28T17:16Z",
-                  "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
-                  },
-                  "details": {
-                    "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
-                    },
-                    "type": "Foot",
-                    "location": "Leg",
-                    "returnDate": "2026-10-28"
-                  }
+                "status": {
+                  "id": "1",
+                  "name": "Active",
+                  "type": "active",
+                  "abbreviation": "Active"
                 }
               },
               "statistics": [
@@ -2769,65 +2786,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-28T17:16Z",
-          "athlete": {
-            "id": "5175737",
-            "uid": "s:40~l:46~a:5175737",
-            "guid": "b037d625-6e30-391c-a906-b39ea32c281f",
-            "lastName": "Lendeborg",
-            "fullName": "Yaxel Lendeborg",
-            "displayName": "Yaxel Lendeborg",
-            "shortName": "Y. Lendeborg",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5175737.png",
-              "alt": "Yaxel Lendeborg"
-            },
-            "jersey": "1",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5175737?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Foot",
-            "location": "Leg",
-            "returnDate": "2026-10-28"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-28T14:25Z",
           "athlete": {
@@ -3013,7 +2971,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3030,16 +2988,16 @@
           }
         ]
       },
-      "details": "MIN -3.5",
+      "details": "MIN -4.5",
       "overUnder": 227.5,
-      "spread": -3.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "spread": -4.5,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 142,
-        "spreadOdds": -105.0,
+        "spreadOdds": -118.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
         },
@@ -3050,7 +3008,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -170,
-        "spreadOdds": -115.0,
+        "spreadOdds": -102.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/16?lang=en&region=us"
         },
@@ -3064,7 +3022,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0ML86939464_1",
           "text": "Home Bet",
@@ -3088,7 +3046,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0ML86939464_3",
           "text": "Away Bet",
@@ -3113,7 +3071,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464N350_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464N450_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3126,7 +3084,7 @@
               "gameId": 401909888,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:MIN-3.5"
+              "betDetails": "Spread:MIN-4.5"
             }
           }
         },
@@ -3137,7 +3095,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464P350_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464P450_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3150,7 +3108,7 @@
               "gameId": 401909888,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:GS+3.5"
+              "betDetails": "Spread:GS+4.5"
             }
           }
         },
@@ -3228,7 +3186,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0ML86939464_1",
               "text": "Home Bet",
@@ -3260,7 +3218,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0ML86939464_3",
               "text": "Away Bet",
@@ -3289,8 +3247,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-3.5",
-            "odds": "-115",
+            "line": "-4.5",
+            "odds": "-102",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3298,7 +3256,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464N350_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464N450_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3311,7 +3269,7 @@
                   "gameId": 401909888,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:MIN-3.5"
+                  "betDetails": "Spread:MIN-4.5"
                 }
               }
             }
@@ -3323,8 +3281,8 @@
         },
         "away": {
           "close": {
-            "line": "+3.5",
-            "odds": "-105",
+            "line": "+4.5",
+            "odds": "-118",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3332,7 +3290,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464P350_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34904711%3Foutcomes%3D0HC86939464P450_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3345,7 +3303,7 @@
                   "gameId": 401909888,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:GS+3.5"
+                  "betDetails": "Spread:GS+4.5"
                 }
               }
             }
@@ -3362,7 +3320,7 @@
         "over": {
           "close": {
             "line": "o227.5",
-            "odds": "-112",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3396,7 +3354,7 @@
         "under": {
           "close": {
             "line": "u227.5",
-            "odds": "-108",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3592,6 +3550,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "16",
+      "gameProjection": "74.4",
+      "teamChanceLoss": "25.6"
+    },
+    "awayTeam": {
+      "id": "9",
+      "gameProjection": "25.6",
+      "teamChanceLoss": "74.4"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3608,6 +3580,148 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50311622,
+        "nowId": "1-50311622",
+        "contentKey": "50311622-1-5-1",
+        "dataSourceIdentifier": "93005e85f1a46",
+        "type": "HeadlineNews",
+        "headline": "Mavericks exercise 2027-28 option on Zaccharie Risacher deal",
+        "description": "The Mavericks exercised the fourth-year team option in forward Zaccharie Risacher's contract, guaranteeing his $17.4 million salary next season.",
+        "lastModified": "2026-10-28T22:26:07Z",
+        "published": "2026-10-28T22:26:07Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7d0e5b0e64af3",
+            "id": 50311610,
+            "type": "header",
+            "name": "Risacher [600x600]",
+            "credit": "Kevin Jairaj-Imagn Images",
+            "height": 600,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1028/r1737780_600x600_1-1.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4485,
+            "type": "team",
+            "uid": "s:40~l:46~t:6",
+            "guid": "f00d1f4e-4ce6-d581-466c-5b52531cf7ad",
+            "description": "Dallas Mavericks",
+            "sportId": 46,
+            "teamId": 6,
+            "team": {
+              "id": 6,
+              "description": "Dallas Mavericks",
+              "abbreviation": "DAL",
+              "shortDisplayName": "Mavericks",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/dal/dallas-mavericks"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 667305,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5211175",
+            "guid": "d9a14bbd-d184-3703-86ba-f0c17b732ab4",
+            "description": "Zaccharie Risacher",
+            "sportId": 46,
+            "athleteId": 5211175,
+            "athlete": {
+              "id": 5211175,
+              "description": "Zaccharie Risacher",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5211175/zaccharie-risacher"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5211175/zaccharie-risacher"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 698423,
+            "type": "contributor",
+            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
+            "description": "Tim MacMahon",
+            "slug": "tim-macmahon",
+            "contributor": {
+              "id": 1808,
+              "description": "Tim MacMahon"
+            }
+          }
+        ],
+        "byline": "Tim MacMahon",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50311622"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50311622"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50311622"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50311622/mavericks-exercise-2027-28-option-zaccharie-risacher-deal"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50310964,
         "nowId": "1-50310964",
@@ -4089,8 +4203,8 @@
         "type": "HeadlineNews",
         "headline": "Ernie Johnson says this is his final season as 'Inside the NBA' host",
         "description": "Ernie Johnson will retire as host of \"Inside the NBA\" after the season, saying that it was his decision to step away and that \"it's just time.\"",
-        "lastModified": "2026-10-28T21:19:26Z",
-        "published": "2026-10-28T21:19:26Z",
+        "lastModified": "2026-10-28T22:38:18Z",
+        "published": "2026-10-28T22:38:18Z",
         "images": [
           {
             "dataSourceIdentifier": "a46317c804566",
@@ -4238,189 +4352,112 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50309718,
-        "nowId": "1-50309718",
-        "contentKey": "50309718-1-293-1",
-        "dataSourceIdentifier": "902893d6e7ca5",
-        "type": "Media",
-        "headline": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-        "description": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-        "lastModified": "2026-10-28T18:36:57Z",
-        "published": "2026-10-28T18:36:57Z",
-        "images": [
-          {
-            "name": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-            "caption": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_142813065_3714279871/ss_20261028_142813065_3714279871.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 4339,
-            "type": "team",
-            "uid": "s:40~l:46~t:27",
-            "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-            "description": "Washington Wizards",
-            "sportId": 46,
-            "teamId": 27,
-            "team": {
-              "id": 27,
-              "description": "Washington Wizards",
-              "abbreviation": "WSH",
-              "shortDisplayName": "Wizards",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 689540,
-            "type": "contributor",
-            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
-            "description": "Shams Charania",
-            "slug": "shams-charania",
-            "contributor": {
-              "id": 4040,
-              "description": "Shams Charania",
-              "links": {
-                "mobile": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                },
-                "web": {
-                  "contributors": {
-                    "href": "https://www.espn.com/contributor/shams-charania"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 737814,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5142718",
-            "guid": "38a12eab-4c0d-3984-95c6-6bb5a14d90f9",
-            "description": "AJ Dybantsa",
-            "sportId": 46,
-            "athleteId": 5142718,
-            "athlete": {
-              "id": 5142718,
-              "description": "AJ Dybantsa",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142718/aj-dybantsa"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142718/aj-dybantsa"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 730035,
-            "type": "editorialindicator",
-            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
-            "description": "Verts - Exclude Content"
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909882",
-            "guid": "49780dc5-1969-30a9-8097-0b1c150d96af",
-            "description": "Washington Wizards @ Cleveland Cavaliers",
-            "eventId": 401909882,
-            "event": {
-              "id": 401909882,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Washington Wizards @ Cleveland Cavaliers"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/e8d2ceb1-5b71-4c5b-8ea1-83f2453d257d"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50309718"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50309718&videoDSI=902893d6e7ca5"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50309718/shams-confirms-aj-dybantsa-making-season-debut-tonight-vs-cavs",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50309718/shams-confirms-aj-dybantsa-making-season-debut-tonight-vs-cavs",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=902893d6e7ca5"
-              }
-            }
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "16",
-      "gameProjection": "74.4",
-      "teamChanceLoss": "25.6"
-    },
-    "awayTeam": {
-      "id": "9",
-      "gameProjection": "25.6",
-      "teamChanceLoss": "74.4"
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Timberwolves Tickets",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/28 vs Warriors 409 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-28-2026/production/7432835?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/30 vs Clippers 808 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Spurs 2822 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 vs Bucks 894 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-2-2026/production/7432887?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 @ Rockets 2913 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Pelicans 2872 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-30-2026--sports-nba-basketball/production/7419914?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/8 vs Jazz 785 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-8-2026/production/7432913?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 vs Mavericks 1025 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/14 vs Bulls 901 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 vs Trail Blazers 1063 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 vs Trail Blazers 1096 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/19 vs Knicks 1002 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Grizzlies 873 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Nets 947 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-23-2026/production/7431441?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 @ Thunder 1815 tickets left",
+        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-31-2026--sports-nba-basketball/production/7419920?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Warriors",
+      "currentTeamName": "Timberwolves",
+      "venueName": "Target Center",
+      "summary": "Tickets as low as $44",
+      "date": "2026-10-29T00:00Z",
+      "dateDay": "Wed",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-28-2026/production/7432835?wsUser=717",
+      "venueLink": "https://www.vividseats.com/target-center-tickets/venue/1663?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+      "timeValid": true
     }
   },
-  "winprobability": [],
   "header": {
     "id": "401909888",
     "uid": "s:40~l:46~e:401909888",
@@ -5371,109 +5408,6 @@
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Timberwolves Tickets",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/28 vs Warriors 439 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-28-2026/production/7432835?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/30 vs Clippers 815 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 @ Spurs 2827 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 vs Bucks 894 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-2-2026/production/7432887?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 @ Rockets 2918 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Pelicans 2894 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-30-2026--sports-nba-basketball/production/7419914?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/8 vs Jazz 785 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-8-2026/production/7432913?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 vs Mavericks 1021 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/14 vs Bulls 901 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 vs Trail Blazers 1063 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 vs Trail Blazers 1096 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/19 vs Knicks 998 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Grizzlies 875 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Nets 947 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-23-2026/production/7431441?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 @ Thunder 1814 tickets left",
-        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-31-2026--sports-nba-basketball/production/7419920?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Warriors",
-      "currentTeamName": "Timberwolves",
-      "venueName": "Target Center",
-      "summary": "Tickets as low as $38",
-      "date": "2026-10-29T00:00Z",
-      "dateDay": "Wed",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-28-2026/production/7432835?wsUser=717",
-      "venueLink": "https://www.vividseats.com/target-center-tickets/venue/1663?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
