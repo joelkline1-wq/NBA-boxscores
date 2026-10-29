@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401898409",
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401909838",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909850",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
         },
         {
           "id": "401909867",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         }
       ]
     }
@@ -2947,7 +2947,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 235,
-        "spreadOdds": -105.0,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/29?lang=en&region=us"
         },
@@ -2958,7 +2958,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -290,
-        "spreadOdds": -115.0,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/22?lang=en&region=us"
         },
@@ -3198,7 +3198,7 @@
         "home": {
           "close": {
             "line": "-7.5",
-            "odds": "-115",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3232,7 +3232,7 @@
         "away": {
           "close": {
             "line": "+7.5",
-            "odds": "-105",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3500,7 +3500,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -3514,6 +3513,7 @@
       "teamChanceLoss": "70.7"
     }
   },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5284,7 +5284,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -6270,52 +6270,52 @@
         "type": "team"
       },
       {
-        "ticketName": "10/29 vs Grizzlies 814 tickets left",
+        "ticketName": "10/29 vs Grizzlies 744 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-29-2026/production/7433046?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Jazz 1691 tickets left",
+        "ticketName": "10/31 @ Jazz 1773 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026/production/7433146?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Nuggets 5655 tickets left",
+        "ticketName": "11/2 @ Nuggets 5623 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-2-2026/production/7433086?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Suns 3463 tickets left",
+        "ticketName": "11/4 @ Suns 3143 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Lakers 6018 tickets left",
+        "ticketName": "11/6 @ Lakers 6036 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-30-2026--sports-nba-basketball/production/7420168?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Spurs 4681 tickets left",
+        "ticketName": "11/7 vs Spurs 4655 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-7-2026/production/7433013?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Thunder 5200 tickets left",
+        "ticketName": "11/10 vs Thunder 5187 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Thunder 5027 tickets left",
+        "ticketName": "11/11 vs Thunder 5050 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Kings 7686 tickets left",
+        "ticketName": "11/13 @ Kings 7799 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Timberwolves 1075 tickets left",
+        "ticketName": "11/16 @ Timberwolves 1070 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
         "type": "event"
       },
@@ -6325,22 +6325,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Bucks 5359 tickets left",
+        "ticketName": "11/19 @ Bucks 5590 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-19-2026/production/7432901?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Knicks 4873 tickets left",
+        "ticketName": "11/21 @ Knicks 4726 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ 76ers 3239 tickets left",
+        "ticketName": "11/23 @ 76ers 3251 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Spurs 5609 tickets left",
+        "ticketName": "11/25 vs Spurs 5596 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
         "type": "event"
       }
@@ -6349,7 +6349,7 @@
       "opponentTeamName": "Grizzlies",
       "currentTeamName": "Trail Blazers",
       "venueName": "Moda Center",
-      "summary": "Tickets as low as $17",
+      "summary": "Tickets as low as $18",
       "date": "2026-10-30T02:00Z",
       "dateDay": "Thu",
       "homeAway": "home",
