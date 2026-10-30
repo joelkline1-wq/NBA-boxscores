@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Tyler Ford",
+        "displayName": "Tyler Ford",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Kevin Cutler",
+        "displayName": "Kevin Cutler",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Catherine Chang",
+        "displayName": "Catherine Chang",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,8 +431,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -465,7 +495,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909841",
@@ -575,6 +607,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -639,9 +673,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
         },
         {
           "id": "401909880",
@@ -1084,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -1148,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
         },
         {
           "id": "401909875",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2622,8 +2654,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-29T18:57Z",
+          "status": "Out",
+          "date": "2026-10-30T00:32Z",
           "athlete": {
             "id": "4066211",
             "uid": "s:40~l:46~a:4066211",
@@ -2664,21 +2696,21 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Knee",
             "location": "Leg",
             "side": "Left",
-            "returnDate": "2026-10-29"
+            "returnDate": "2026-10-31"
           }
         },
         {
@@ -2731,15 +2763,15 @@
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Ankle",
             "location": "Leg",
             "detail": "Soreness",
             "side": "Left",
-            "returnDate": "2026-10-29"
+            "returnDate": "2026-10-31"
           }
         },
         {
@@ -3500,6 +3532,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "22",
+      "gameProjection": "70.7",
+      "teamChanceLoss": "29.3"
+    },
+    "awayTeam": {
+      "id": "29",
+      "gameProjection": "29.3",
+      "teamChanceLoss": "70.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3516,6 +3562,148 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50323505,
+        "nowId": "1-50323505",
+        "contentKey": "50323505-1-5-1",
+        "dataSourceIdentifier": "65f09e0bef299",
+        "type": "HeadlineNews",
+        "headline": "Knicks' Jose Alvarado (ankle) to miss fourth straight vs. 76ers",
+        "description": "Knicks reserve guard Jose Alvarado will miss Friday's NBA Cup game against the 76ers because of a right ankle injury.",
+        "lastModified": "2026-10-30T00:52:17Z",
+        "published": "2026-10-30T00:52:17Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "e3f77402c5121",
+            "id": 49191638,
+            "type": "header",
+            "name": "Alvarado [600x400]",
+            "credit": "Nathaniel S. Butler/NBAE via Getty Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/0626/r1680192_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4293,
+            "type": "team",
+            "uid": "s:40~l:46~t:18",
+            "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
+            "description": "New York Knicks",
+            "sportId": 46,
+            "teamId": 18,
+            "team": {
+              "id": 18,
+              "description": "New York Knicks",
+              "abbreviation": "NY",
+              "shortDisplayName": "Knicks",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 503014,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4277869",
+            "guid": "18344833-a108-3e67-e097-893870b766ce",
+            "description": "Jose Alvarado",
+            "sportId": 46,
+            "athleteId": 4277869,
+            "athlete": {
+              "id": 4277869,
+              "description": "Jose Alvarado",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4277869/jose-alvarado"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4277869/jose-alvarado"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 737430,
+            "type": "contributor",
+            "guid": "a6810773-d3f7-3f7b-b268-6dab1e4f9ede",
+            "description": "Vincent Goodwill",
+            "slug": "vincent-goodwill",
+            "contributor": {
+              "id": 4253,
+              "description": "Vincent Goodwill"
+            }
+          }
+        ],
+        "byline": "Vincent Goodwill",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50323505"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50323505"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50323505"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50323505/knicks-jose-alvarado-ankle-injury-76ers"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50320717,
         "nowId": "1-50320717",
@@ -5030,489 +5218,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50315469,
-        "nowId": "1-50315469",
-        "contentKey": "50315469-1-22-1",
-        "dataSourceIdentifier": "b88347fd65a56",
-        "type": "Preview",
-        "headline": "Warriors host Lakers Friday for NBA Cup group stage game",
-        "description": "Los Angeles Lakers (4-1, fourth in the Western Conference) vs. Golden State Warriors (2-3, 10th in the Western Conference)",
-        "lastModified": "2026-10-29T07:02:48Z",
-        "published": "2026-10-29T07:02:48Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909285.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4600,
-            "type": "team",
-            "uid": "s:40~l:46~t:9",
-            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-            "description": "Golden State Warriors",
-            "sportId": 46,
-            "teamId": 9,
-            "team": {
-              "id": 9,
-              "description": "Golden State Warriors",
-              "abbreviation": "GS",
-              "shortDisplayName": "Warriors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4630,
-            "type": "team",
-            "uid": "s:40~l:46~t:13",
-            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-            "description": "Los Angeles Lakers",
-            "sportId": 46,
-            "teamId": 13,
-            "team": {
-              "id": 13,
-              "description": "Los Angeles Lakers",
-              "abbreviation": "LAL",
-              "shortDisplayName": "Lakers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909285",
-            "guid": "bc2ade6f-9c0b-3c4c-9206-c53d3928b297",
-            "description": "Los Angeles Lakers @ Golden State Warriors",
-            "eventId": 401909285,
-            "event": {
-              "id": 401909285,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Los Angeles Lakers @ Golden State Warriors"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50315469"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50315469"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50315469"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909285"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "22",
-      "gameProjection": "70",
-      "teamChanceLoss": "30"
-    },
-    "awayTeam": {
-      "id": "29",
-      "gameProjection": "30",
-      "teamChanceLoss": "70"
-    }
-  },
-  "article": {
-    "id": 50305252,
-    "nowId": "1-50305252",
-    "contentKey": "50305252-1-22-1",
-    "dataSourceIdentifier": "91d347bd86f23",
-    "publishedkey": "nba401909895",
-    "type": "Preview",
-    "gameId": "401909895",
-    "headline": "Memphis faces Portland, looks for 4th straight road win",
-    "description": "Memphis Grizzlies (4-0, third in the Western Conference) vs. Portland Trail Blazers (2-0, fourth in the Western Conference)",
-    "title": "Memphis faces Portland, looks for 4th straight road win",
-    "linkText": "Memphis faces Portland, looks for 4th straight road win",
-    "categorized": "2026-10-28T06:22:46Z",
-    "originallyPosted": "2026-10-28T06:22:45Z",
-    "lastModified": "2026-10-28T06:22:46Z",
-    "published": "2026-10-28T06:22:45Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4659,
-        "type": "team",
-        "uid": "s:40~l:46~t:22",
-        "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
-        "description": "Portland Trail Blazers",
-        "sportId": 46,
-        "teamId": 22,
-        "team": {
-          "id": 22,
-          "description": "Portland Trail Blazers",
-          "abbreviation": "POR",
-          "shortDisplayName": "Trail Blazers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4584,
-        "type": "team",
-        "uid": "s:40~l:46~t:29",
-        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-        "description": "Memphis Grizzlies",
-        "sportId": 46,
-        "teamId": 29,
-        "team": {
-          "id": 29,
-          "description": "Memphis Grizzlies",
-          "abbreviation": "MEM",
-          "shortDisplayName": "Grizzlies",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909895",
-        "guid": "fd654e8d-fb53-31ce-b560-779d2948cdd4",
-        "description": "Memphis Grizzlies @ Portland Trail Blazers",
-        "eventId": 401909895,
-        "event": {
-          "id": 401909895,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Memphis Grizzlies @ Portland Trail Blazers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Portland Trail Blazers",
-      "Memphis Grizzlies",
-      "Memphis Grizzlies @ Portland Trail Blazers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (4-0, third in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/por/portland-trail-blazers\">Portland Trail Blazers</a> (2-0, fourth in the Western Conference)\n\n\r\n              Portland, Oregon; Thursday, 10 p.m. EDT\n\n\r\n              BOTTOM LINE: Memphis will try to keep its three-game road win streak alive when the Grizzlies take on Portland.\n\n\r\n              Portland finished 42-40 overall, 29-23 in Western Conference action and 24-17 at home during the 2025-26 season. The Trail Blazers allowed opponents to score 115.8 points per game and shoot 47.1% from the field last season.\n\n\r\n              Memphis finished 25-57 overall and 19-33 in Western Conference action during the 2025-26 season. The Grizzlies allowed opponents to score 120.7 points per game and shoot 48.5% from the field last season.\n\n\r\n              INJURIES: Trail Blazers: <a href=\"http://www.espn.com/nba/player/_/id/4914336/shaedon-sharpe\">Shaedon Sharpe</a>: out (meniscus).\n\n\r\n              Grizzlies: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50305252"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50305252"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50305252"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909895"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Trail Blazers Tickets",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets--sports-nba-basketball/performer/690?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/29 vs Grizzlies 377 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-29-2026/production/7433046?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 @ Jazz 1810 tickets left",
-        "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026/production/7433146?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 @ Nuggets 4293 tickets left",
-        "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-2-2026/production/7433086?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 @ Suns 3332 tickets left",
-        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Lakers 6025 tickets left",
-        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-30-2026--sports-nba-basketball/production/7420168?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/7 vs Spurs 4501 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-7-2026/production/7433013?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/10 vs Thunder 5029 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/11 vs Thunder 4931 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/13 @ Kings 6757 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 @ Timberwolves 1064 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 @ Timberwolves 1096 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/19 @ Bucks 5732 tickets left",
-        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-19-2026/production/7432901?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 @ Knicks 4611 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 @ 76ers 3219 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 vs Spurs 5400 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Grizzlies",
-      "currentTeamName": "Trail Blazers",
-      "venueName": "Moda Center",
-      "summary": "Tickets as low as $19",
-      "date": "2026-10-30T02:00Z",
-      "dateDay": "Thu",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-29-2026/production/7433046?wsUser=717",
-      "venueLink": "https://www.vividseats.com/moda-center-tickets/venue/1458?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/portland-trail-blazers-tickets--sports-nba-basketball/performer/690?wsUser=717",
-      "timeValid": true
-    }
   },
   "header": {
     "id": "401909895",
@@ -6359,7 +6066,257 @@
       ]
     }
   },
+  "article": {
+    "id": 50305252,
+    "nowId": "1-50305252",
+    "contentKey": "50305252-1-22-1",
+    "dataSourceIdentifier": "91d347bd86f23",
+    "publishedkey": "nba401909895",
+    "type": "Preview",
+    "gameId": "401909895",
+    "headline": "Memphis faces Portland, looks for 4th straight road win",
+    "description": "Memphis Grizzlies (4-0, third in the Western Conference) vs. Portland Trail Blazers (2-0, fourth in the Western Conference)",
+    "title": "Memphis faces Portland, looks for 4th straight road win",
+    "linkText": "Memphis faces Portland, looks for 4th straight road win",
+    "categorized": "2026-10-28T06:22:46Z",
+    "originallyPosted": "2026-10-28T06:22:45Z",
+    "lastModified": "2026-10-28T06:22:46Z",
+    "published": "2026-10-28T06:22:45Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4659,
+        "type": "team",
+        "uid": "s:40~l:46~t:22",
+        "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
+        "description": "Portland Trail Blazers",
+        "sportId": 46,
+        "teamId": 22,
+        "team": {
+          "id": 22,
+          "description": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "shortDisplayName": "Trail Blazers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4584,
+        "type": "team",
+        "uid": "s:40~l:46~t:29",
+        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
+        "description": "Memphis Grizzlies",
+        "sportId": 46,
+        "teamId": 29,
+        "team": {
+          "id": 29,
+          "description": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "shortDisplayName": "Grizzlies",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909895",
+        "guid": "fd654e8d-fb53-31ce-b560-779d2948cdd4",
+        "description": "Memphis Grizzlies @ Portland Trail Blazers",
+        "eventId": 401909895,
+        "event": {
+          "id": 401909895,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Memphis Grizzlies @ Portland Trail Blazers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Portland Trail Blazers",
+      "Memphis Grizzlies",
+      "Memphis Grizzlies @ Portland Trail Blazers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (4-0, third in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/por/portland-trail-blazers\">Portland Trail Blazers</a> (2-0, fourth in the Western Conference)\n\n\r\n              Portland, Oregon; Thursday, 10 p.m. EDT\n\n\r\n              BOTTOM LINE: Memphis will try to keep its three-game road win streak alive when the Grizzlies take on Portland.\n\n\r\n              Portland finished 42-40 overall, 29-23 in Western Conference action and 24-17 at home during the 2025-26 season. The Trail Blazers allowed opponents to score 115.8 points per game and shoot 47.1% from the field last season.\n\n\r\n              Memphis finished 25-57 overall and 19-33 in Western Conference action during the 2025-26 season. The Grizzlies allowed opponents to score 120.7 points per game and shoot 48.5% from the field last season.\n\n\r\n              INJURIES: Trail Blazers: <a href=\"http://www.espn.com/nba/player/_/id/4914336/shaedon-sharpe\">Shaedon Sharpe</a>: out (meniscus).\n\n\r\n              Grizzlies: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50305252"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50305252"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50305252"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909895"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Trail Blazers Tickets",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets--sports-nba-basketball/performer/690?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/29 vs Grizzlies 68 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-29-2026/production/7433046?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Jazz 1847 tickets left",
+        "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026/production/7433146?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 @ Nuggets 4261 tickets left",
+        "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-2-2026/production/7433086?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 @ Suns 3330 tickets left",
+        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Lakers 6019 tickets left",
+        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-10-30-2026--sports-nba-basketball/production/7420168?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/7 vs Spurs 4814 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-7-2026/production/7433013?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/10 vs Thunder 4981 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/11 vs Thunder 4895 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/13 @ Kings 6763 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 @ Timberwolves 1064 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 @ Timberwolves 1096 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/19 @ Bucks 5755 tickets left",
+        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-19-2026/production/7432901?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 @ Knicks 4619 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 @ 76ers 3207 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 vs Spurs 5414 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Grizzlies",
+      "currentTeamName": "Trail Blazers",
+      "venueName": "Moda Center",
+      "summary": "Tickets as low as $43",
+      "date": "2026-10-30T02:00Z",
+      "dateDay": "Thu",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-29-2026/production/7433046?wsUser=717",
+      "venueLink": "https://www.vividseats.com/moda-center-tickets/venue/1458?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/portland-trail-blazers-tickets--sports-nba-basketball/performer/690?wsUser=717",
+      "timeValid": true
+    }
+  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909895",
     "gameSwitcherEnabled": true,
