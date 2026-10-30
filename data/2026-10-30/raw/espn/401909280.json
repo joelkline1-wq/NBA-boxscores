@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
         },
         {
           "id": "401909866",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         },
         {
           "id": "401909863",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
         }
       ]
     }
@@ -3188,7 +3188,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3239,7 +3239,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0ML85857627_1",
           "text": "Home Bet",
@@ -3263,7 +3263,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0ML85857627_3",
           "text": "Away Bet",
@@ -3403,7 +3403,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0ML85857627_1",
               "text": "Home Bet",
@@ -3435,7 +3435,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0ML85857627_3",
               "text": "Away Bet",
@@ -3767,20 +3767,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "20",
-      "gameProjection": "56.2",
-      "teamChanceLoss": "43.8"
-    },
-    "awayTeam": {
-      "id": "18",
-      "gameProjection": "43.8",
-      "teamChanceLoss": "56.2"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -6520,6 +6506,20 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "20",
+      "gameProjection": "56.2",
+      "teamChanceLoss": "43.8"
+    },
+    "awayTeam": {
+      "id": "18",
+      "gameProjection": "43.8",
+      "teamChanceLoss": "56.2"
+    }
+  },
+  "winprobability": [],
   "article": {
     "id": 50315234,
     "nowId": "1-50315234",
@@ -6668,6 +6668,12 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909280",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6681,47 +6687,47 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Knicks 2600 tickets left",
+        "ticketName": "10/30 vs Knicks 2538 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "10/31 @ Hornets 4152 tickets left",
+        "ticketName": "10/31 @ Hornets 4180 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Bulls 3093 tickets left",
+        "ticketName": "11/2 vs Bulls 3089 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Pistons 4899 tickets left",
+        "ticketName": "11/4 @ Pistons 4870 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Cavaliers 3267 tickets left",
+        "ticketName": "11/6 @ Cavaliers 3278 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Bulls 1955 tickets left",
+        "ticketName": "11/8 @ Bulls 1941 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Celtics 3966 tickets left",
+        "ticketName": "11/10 vs Celtics 3959 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Raptors 3555 tickets left",
+        "ticketName": "11/12 vs Raptors 3557 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Pacers 2993 tickets left",
+        "ticketName": "11/15 vs Pacers 3004 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
         "type": "event"
       },
@@ -6731,27 +6737,27 @@
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Magic 4622 tickets left",
+        "ticketName": "11/18 @ Magic 4594 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Bucks 3400 tickets left",
+        "ticketName": "11/21 vs Bucks 3402 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Trail Blazers 3185 tickets left",
+        "ticketName": "11/23 vs Trail Blazers 3187 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Heat 3421 tickets left",
+        "ticketName": "11/25 vs Heat 3415 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Pacers 3367 tickets left",
+        "ticketName": "11/27 @ Pacers 3373 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-31-2026--sports-nba-basketball/production/7419620?wsUser=717",
         "type": "event"
       }
@@ -6760,7 +6766,7 @@
       "opponentTeamName": "Knicks",
       "currentTeamName": "76ers",
       "venueName": "Xfinity Mobile Arena",
-      "summary": "Tickets as low as $98",
+      "summary": "Tickets as low as $96",
       "date": "2026-10-30T23:30Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6770,12 +6776,6 @@
       "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909280",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
