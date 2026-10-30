@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909845",
@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909864",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909888",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909842",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "13",
             "uid": "s:40~l:46~t:13",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
         },
         {
           "id": "401909865",
@@ -1831,28 +1831,11 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Day-To-Day",
-                "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-10-30T18:00Z",
-                  "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
-                  },
-                  "details": {
-                    "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
-                    },
-                    "type": "Quadriceps",
-                    "location": "Leg",
-                    "detail": "Soreness",
-                    "side": "Left",
-                    "returnDate": "2026-10-30"
-                  }
+                "status": {
+                  "id": "1",
+                  "name": "Active",
+                  "type": "active",
+                  "abbreviation": "Active"
                 }
               },
               "statistics": [
@@ -2831,67 +2814,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-30T18:00Z",
-          "athlete": {
-            "id": "4066648",
-            "uid": "s:40~l:46~a:4066648",
-            "guid": "40c1bcf6-675b-f217-f97c-1d628073f927",
-            "lastName": "Hachimura",
-            "fullName": "Rui Hachimura",
-            "displayName": "Rui Hachimura",
-            "shortName": "R. Hachimura",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4066648.png",
-              "alt": "Rui Hachimura"
-            },
-            "jersey": "28",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4066648?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Quadriceps",
-            "location": "Leg",
-            "detail": "Soreness",
-            "side": "Left",
-            "returnDate": "2026-10-30"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-29T18:44Z",
           "athlete": {
@@ -3133,6 +3055,67 @@
             "detail": "Inflammation",
             "side": "Right",
             "returnDate": "2026-11-08"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-08-26T20:04Z",
+          "athlete": {
+            "id": "4396818",
+            "uid": "s:40~l:46~a:4396818",
+            "guid": "95f0a11b-bc2d-69ef-a842-ccb34d618696",
+            "lastName": "Miller",
+            "fullName": "Jordan Miller",
+            "displayName": "Jordan Miller",
+            "shortName": "J. Miller",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4396818/jordan-miller",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4396818.png",
+              "alt": "Jordan Miller"
+            },
+            "jersey": "22",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4396818?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Shoulder",
+            "location": "Arm",
+            "detail": "Surgery",
+            "side": "Left",
+            "returnDate": "2027-03-02"
           }
         }
       ]
@@ -3744,6 +3727,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "16",
+      "gameProjection": "81",
+      "teamChanceLoss": "19"
+    },
+    "awayTeam": {
+      "id": "12",
+      "gameProjection": "19",
+      "teamChanceLoss": "81"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3760,6 +3757,316 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50331319,
+        "nowId": "1-50331319",
+        "contentKey": "50331319-1-5-1",
+        "dataSourceIdentifier": "880915da1eaac",
+        "type": "HeadlineNews",
+        "headline": "Sources: Mark Walter, Josh Kushner finalize all terms of $12.5B Lakers sale",
+        "description": "Lakers owner Mark Walter and Thrive Capital founder Josh Kushner met Thursday to finalize the transaction and are expected to sign the formal agreement soon, sources told ESPN.",
+        "lastModified": "2026-10-30T22:45:19Z",
+        "published": "2026-10-30T22:45:19Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "ad74fbcf793eb",
+            "id": 49797023,
+            "type": "header",
+            "name": "Josh Kushner [600x600]",
+            "caption": "Josh Kushner has said he regrets his role in a failed plan to sell a stake in the FIFA World Cup.",
+            "alt": "Joshua Kushner, founder of Thrive Capital, during the Allen & Co. Media and Technology Conference in Sun Valley, Idaho, US, on Friday, July 10, 2026. The event brings together many of the biggest names in AI, media and technolo",
+            "credit": "David Paul Morris/Bloomberg via Getty Images",
+            "height": 600,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/0901/r1710146_600x600_1-1.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 701394,
+            "type": "contributor",
+            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
+            "description": "Ramona Shelburne",
+            "slug": "ramona-shelburne",
+            "contributor": {
+              "id": 1831,
+              "description": "Ramona Shelburne"
+            }
+          }
+        ],
+        "byline": "Ramona Shelburne",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50331319"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50331319"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50331319"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50331319/sources-mark-walter-josh-kushner-finalize-lakers-sale"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50287529,
+        "nowId": "1-50287529",
+        "contentKey": "50287529-1-6-1",
+        "dataSourceIdentifier": "1fe6998a397a2",
+        "type": "Story",
+        "headline": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
+        "description": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
+        "lastModified": "2026-10-30T22:33:34Z",
+        "published": "2026-10-30T22:33:34Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "079572f117869",
+            "id": 50259768,
+            "type": "header",
+            "name": "Lakers [1296x729]",
+            "caption": "The summer sale of the Lakers sent shockwaves across the sports world, and sent the organization into chaos -- again.",
+            "alt": "Lakers",
+            "credit": "AP Photo, Getty Images, Imagn Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1023/nba_lakers2_16x9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "768cb56cbfc71",
+            "id": 50288552,
+            "type": "header",
+            "name": "Shelburne Lakers sale -- photo2 [576x324]",
+            "caption": "When Jeanie Buss sold the Lakers to Walter, she showed Doncic paperwork that assured him that she would still be in charge of his basketball future. Ten months later, that promise is no longer certain.",
+            "credit": "Jayne Kamin-Oncea-Imagn Images",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736552_576x324_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "d364437bff381",
+            "id": 50288597,
+            "type": "header",
+            "name": "Shelburne Lakers sale -- photo3 [576x324]",
+            "caption": "The second sale of the Lakers put the team in significant transition again -- with new owners evaluating everything and squabbling former owners jostling for power and money. Iger and Kushner are Doncic's fifth team owners in the past three years.",
+            "credit": "Adam Pantozzi/NBAE via Getty Images",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/photo/2026/1026/r1736553_576x324_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shelburne reveals what's behind Jeanie Buss' Lakers ownership battle",
+            "caption": "Shelburne reveals what's behind Jeanie Buss' Lakers ownership battle",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/ss_20260818_084909900_3627967531/ss_20260818_084909900_3627967531.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 159574,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3945274",
+            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
+            "description": "Luka Doncic",
+            "sportId": 46,
+            "athleteId": 3945274,
+            "athlete": {
+              "id": 3945274,
+              "description": "Luka Doncic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 503007,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4066457",
+            "guid": "8a9d9e1c-6174-0009-4883-3b4e16b492d0",
+            "description": "Austin Reaves",
+            "sportId": 46,
+            "athleteId": 4066457,
+            "athlete": {
+              "id": 4066457,
+              "description": "Austin Reaves",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701394,
+            "type": "contributor",
+            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
+            "description": "Ramona Shelburne",
+            "slug": "ramona-shelburne",
+            "contributor": {
+              "id": 1831,
+              "description": "Ramona Shelburne"
+            }
+          }
+        ],
+        "byline": "Ramona Shelburne",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50287529"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50287529"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50287529"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50329901,
         "nowId": "1-50329901",
@@ -4384,548 +4691,112 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50328871,
-        "nowId": "1-50328871",
-        "contentKey": "50328871-1-5-1",
-        "dataSourceIdentifier": "3ce4a30a1efd5",
-        "type": "HeadlineNews",
-        "headline": "Heat unveil updated Dwyane Wade statue after original's face was panned",
-        "description": "Dwyane Wade has a new face -- on his statue.",
-        "lastModified": "2026-10-30T18:22:03Z",
-        "published": "2026-10-30T18:22:03Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "a05dce9fbff10",
-            "id": 42040743,
-            "type": "header",
-            "name": "Dwyane Wade poses in front of his statue at the unveiling ceremony outside Kaseya Center. [600x400]",
-            "caption": "Former Heat star Dwyane Wade poses at his statue unveiling ceremony outside Kaseya Center in Miami on Sunday.",
-            "credit": "AP Photo/Michael Laughlin",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2024/1027/r1406810_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Heat unveil Dwyane Wade statue outside arena",
-            "caption": "The Miami Heat unveil a statue honoring Dwyane Wade outside the Kaseya Center.",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/1027/dm_241027_wade_statue1223/dm_241027_wade_statue1223.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4259,
-            "type": "team",
-            "uid": "s:40~l:46~t:14",
-            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-            "description": "Miami Heat",
-            "sportId": 46,
-            "teamId": 14,
-            "team": {
-              "id": 14,
-              "description": "Miami Heat",
-              "abbreviation": "MIA",
-              "shortDisplayName": "Heat",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9402,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:1987",
-            "guid": "e555367f-c657-8096-8816-a75ac1c9d6b2",
-            "description": "Dwyane Wade",
-            "sportId": 46,
-            "athleteId": 1987,
-            "athlete": {
-              "id": 1987,
-              "description": "Dwyane Wade",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1987/dwyane-wade"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1987/dwyane-wade"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50328871"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50328871"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50328871"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50328871/heat-unveil-updated-dwyane-wade-statue-original-face-was-panned"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50324957,
-        "nowId": "1-50324957",
-        "contentKey": "50324957-1-6-1",
-        "dataSourceIdentifier": "205a3ebc4f7ad",
-        "type": "Story",
-        "headline": "Friday's fantasy basketball adds and bets to make in the NBA",
-        "description": "Andre Snellings breaks down Friday's games, highlighting the fantasy streamers to add and bets to make.",
-        "lastModified": "2026-10-30T17:03:01Z",
-        "published": "2026-10-30T17:03:01Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "438d9eb128718",
-            "id": 50328939,
-            "type": "header",
-            "name": "Dillon Brooks [1296x729]",
-            "caption": "Dillon Brooks of the Phoenix Suns has increased his scoring in every game this season.",
-            "credit": "Jeff Haynes/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1030/r1738596_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Terrence Shannon Jr. rocks the rim with jam",
-            "caption": "Terrence Shannon Jr. rocks the rim with jam",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/9d2bbddd-9254-489c-ac61-771215a5179f/9d2bbddd-9254-489c-ac61-771215a5179f.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 141870,
-            "type": "topic",
-            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
-            "description": "news - fantasy",
-            "sportId": 0,
-            "topicId": 240
-          },
-          {
-            "id": 152380,
-            "type": "topic",
-            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
-            "description": "news - fantasy basketball",
-            "sportId": 0,
-            "topicId": 400
-          },
-          {
-            "id": 129403,
-            "type": "topic",
-            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
-            "description": "news - nba",
-            "sportId": 0,
-            "topicId": 122
-          },
-          {
-            "id": 611584,
-            "type": "league",
-            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
-            "description": "Sports Betting",
-            "sportId": 22000,
-            "leagueId": 22000,
-            "league": {
-              "id": 22000,
-              "description": "Sports Betting"
-            }
-          },
-          {
-            "id": 137817,
-            "type": "topic",
-            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
-            "description": "news \u2013 sports betting",
-            "sportId": 0,
-            "topicId": 179
-          },
-          {
-            "id": 457842,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4278562",
-            "guid": "8b70ae67-c286-c72b-7b50-8741a5dbbb3d",
-            "description": "Paul Reed",
-            "sportId": 46,
-            "athleteId": 4278562,
-            "athlete": {
-              "id": 4278562,
-              "description": "Paul Reed",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278562/paul-reed"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 633425,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4684272",
-            "guid": "9dcb431c-2da6-3502-8a64-7812cfbe69ec",
-            "description": "Ja'Kobe Walter",
-            "sportId": 46,
-            "athleteId": 4684272,
-            "athlete": {
-              "id": 4684272,
-              "description": "Ja'Kobe Walter",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4684272/jakobe-walter"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4684272/jakobe-walter"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 169037,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3155526",
-            "guid": "653c07b5-8537-14ac-f4c6-b4e37919aca0",
-            "description": "Dillon Brooks",
-            "sportId": 46,
-            "athleteId": 3155526,
-            "athlete": {
-              "id": 3155526,
-              "description": "Dillon Brooks",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3155526/dillon-brooks"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3155526/dillon-brooks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409390,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4432847",
-            "guid": "37335dcf-ed28-c8e9-e8d8-1a6c7ff9dad6",
-            "description": "Terrence Shannon Jr",
-            "sportId": 46,
-            "athleteId": 4432847,
-            "athlete": {
-              "id": 4432847,
-              "description": "Terrence Shannon Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432847/terrence-shannon-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432847/terrence-shannon-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 699506,
-            "type": "contributor",
-            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
-            "description": "Andre Snellings",
-            "slug": "andre-snellings",
-            "contributor": {
-              "id": 3273,
-              "description": "Andre Snellings"
-            }
-          }
-        ],
-        "byline": "Andre Snellings",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50324957"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50324957"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=50324957"
-          },
-          "web": {
-            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50324957/fantasy-basketball-tips-nba-betting-picks-today"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "16",
-      "gameProjection": "81",
-      "teamChanceLoss": "19"
-    },
-    "awayTeam": {
-      "id": "12",
-      "gameProjection": "19",
-      "teamChanceLoss": "81"
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Timberwolves Tickets",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/30 vs Clippers 320 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Spurs 1614 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 vs Bucks 878 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-2-2026/production/7432887?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 @ Rockets 2863 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Pelicans 2774 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-30-2026--sports-nba-basketball/production/7419914?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/8 vs Jazz 765 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-8-2026/production/7432913?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 vs Mavericks 996 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/14 vs Bulls 878 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 vs Trail Blazers 1023 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 vs Trail Blazers 1055 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/19 vs Knicks 995 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Grizzlies 825 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Nets 943 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-23-2026/production/7431441?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 @ Thunder 2076 tickets left",
+        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-31-2026--sports-nba-basketball/production/7419920?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 vs Grizzlies 856 tickets left",
+        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-31-2026--sports-nba-basketball/production/7419912?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Clippers",
+      "currentTeamName": "Timberwolves",
+      "venueName": "Target Center",
+      "summary": "Tickets as low as $27",
+      "date": "2026-10-31T00:00Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
+      "venueLink": "https://www.vividseats.com/target-center-tickets/venue/1663?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+      "timeValid": true
     }
   },
-  "winprobability": [],
-  "article": {
-    "id": 50315471,
-    "nowId": "1-50315471",
-    "contentKey": "50315471-1-22-1",
-    "dataSourceIdentifier": "8edbbf8dff12d",
-    "publishedkey": "nba401909284",
-    "type": "Preview",
-    "gameId": "401909284",
-    "headline": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
-    "description": "Los Angeles Clippers (1-3, 12th in the Western Conference) vs. Minnesota Timberwolves (3-2, eighth in the Western Conference)",
-    "title": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
-    "linkText": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
-    "categorized": "2026-10-29T07:03:46Z",
-    "originallyPosted": "2026-10-29T07:03:45Z",
-    "lastModified": "2026-10-29T07:03:46Z",
-    "published": "2026-10-29T07:03:45Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4533,
-        "type": "team",
-        "uid": "s:40~l:46~t:16",
-        "guid": "13f727cb-254d-b484-a337-93fcc0047add",
-        "description": "Minnesota Timberwolves",
-        "sportId": 46,
-        "teamId": 16,
-        "team": {
-          "id": 16,
-          "description": "Minnesota Timberwolves",
-          "abbreviation": "MIN",
-          "shortDisplayName": "Timberwolves",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 154798,
-        "type": "team",
-        "uid": "s:40~l:46~t:12",
-        "guid": "083a58a6-b849-3501-e67b-059290d12295",
-        "description": "LA Clippers",
-        "sportId": 46,
-        "teamId": 12,
-        "team": {
-          "id": 12,
-          "description": "LA Clippers",
-          "abbreviation": "LAC",
-          "shortDisplayName": "Clippers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909284",
-        "guid": "b91667f3-e277-3885-9653-caf7bb8096c7",
-        "description": "LA Clippers @ Minnesota Timberwolves",
-        "eventId": 401909284,
-        "event": {
-          "id": 401909284,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "LA Clippers @ Minnesota Timberwolves"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Minnesota Timberwolves",
-      "LA Clippers",
-      "LA Clippers @ Minnesota Timberwolves"
-    ],
-    "story": "Los Angeles Clippers (1-3, 12th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/min/minnesota-timberwolves\">Minnesota Timberwolves</a> (3-2, eighth in the Western Conference)\n\n\r\n              Minneapolis; Friday, 8 p.m. EDT\n\n\r\n              LINE: Timberwolves -9.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: The Los Angeles Clippers travel to play the Los Angeles Clippers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Minnesota went 49-33 overall and 31-21 in Western Conference action last season. The Timberwolves averaged 118.0 points per game last season, 19.0 from the free-throw line and 41.4 from 3-point range.\n\n\r\n              Los Angeles went 42-40 overall and 25-27 in Western Conference play during the 2025-26 season. The Clippers averaged 113.8 points per game while shooting 48.4% from the field and 36.8% from behind the arc last season.\n\n\r\n              INJURIES: Timberwolves: <a href=\"http://www.espn.com/nba/player/_/id/3934673/donte-divincenzo\">Donte DiVincenzo</a>: out (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4594268/anthony-edwards\">Anthony Edwards</a>: out (knee).\n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/4065778/max-strus\">Max Strus</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/5108024/yanic-konan-niederhauser\">Yanic Konan Niederhauser</a>: out (lisfranc), <a href=\"http://www.espn.com/nba/player/_/id/4396818/jordan-miller\">Jordan Miller</a>: out (shoulder), <a href=\"http://www.espn.com/nba/player/_/id/3913176/brandon-ingram\">Brandon Ingram</a>: out (heel), <a href=\"http://www.espn.com/nba/player/_/id/4066648/rui-hachimura\">Rui Hachimura</a>: out (quad), <a href=\"http://www.espn.com/nba/player/_/id/6580/bradley-beal\">Bradley Beal</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315471"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315471"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315471"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909284"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909284",
     "uid": "s:40~l:46~e:401909284",
@@ -5740,110 +5611,154 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
-  "wallclockAvailable": false,
-  "ticketsInfo": {
-    "tickets": [
+  "article": {
+    "id": 50315471,
+    "nowId": "1-50315471",
+    "contentKey": "50315471-1-22-1",
+    "dataSourceIdentifier": "8edbbf8dff12d",
+    "publishedkey": "nba401909284",
+    "type": "Preview",
+    "gameId": "401909284",
+    "headline": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
+    "description": "Los Angeles Clippers (1-3, 12th in the Western Conference) vs. Minnesota Timberwolves (3-2, eighth in the Western Conference)",
+    "title": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
+    "linkText": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
+    "categorized": "2026-10-29T07:03:46Z",
+    "originallyPosted": "2026-10-29T07:03:45Z",
+    "lastModified": "2026-10-29T07:03:46Z",
+    "published": "2026-10-29T07:03:45Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
       {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "All Timberwolves Tickets",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
-        "type": "team"
+        "id": 4533,
+        "type": "team",
+        "uid": "s:40~l:46~t:16",
+        "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+        "description": "Minnesota Timberwolves",
+        "sportId": 46,
+        "teamId": 16,
+        "team": {
+          "id": 16,
+          "description": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "shortDisplayName": "Timberwolves",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "10/30 vs Clippers 391 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
-        "type": "event"
+        "id": 154798,
+        "type": "team",
+        "uid": "s:40~l:46~t:12",
+        "guid": "083a58a6-b849-3501-e67b-059290d12295",
+        "description": "LA Clippers",
+        "sportId": 46,
+        "teamId": 12,
+        "team": {
+          "id": 12,
+          "description": "LA Clippers",
+          "abbreviation": "LAC",
+          "shortDisplayName": "Clippers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "10/31 @ Spurs 1649 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026/production/7432909?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 vs Bucks 878 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-2-2026/production/7432887?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 @ Rockets 2864 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Pelicans 2814 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-30-2026--sports-nba-basketball/production/7419914?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/8 vs Jazz 767 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-8-2026/production/7432913?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 vs Mavericks 996 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/14 vs Bulls 878 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 vs Trail Blazers 1021 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 vs Trail Blazers 1055 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/19 vs Knicks 995 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Grizzlies 825 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Nets 941 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-23-2026/production/7431441?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 @ Thunder 2076 tickets left",
-        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-31-2026--sports-nba-basketball/production/7419920?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 vs Grizzlies 856 tickets left",
-        "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-31-2026--sports-nba-basketball/production/7419912?wsUser=717",
-        "type": "event"
+        "type": "event",
+        "uid": "s:40~l:46~e:401909284",
+        "guid": "b91667f3-e277-3885-9653-caf7bb8096c7",
+        "description": "LA Clippers @ Minnesota Timberwolves",
+        "eventId": 401909284,
+        "event": {
+          "id": 401909284,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "LA Clippers @ Minnesota Timberwolves"
+        }
       }
     ],
-    "seatSituation": {
-      "opponentTeamName": "Clippers",
-      "currentTeamName": "Timberwolves",
-      "venueName": "Target Center",
-      "summary": "Tickets as low as $35",
-      "date": "2026-10-31T00:00Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-30-2026--sports-nba-basketball/production/7419910?wsUser=717",
-      "venueLink": "https://www.vividseats.com/target-center-tickets/venue/1663?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
-      "timeValid": true
-    }
+    "keywords": [
+      "NBA",
+      "Minnesota Timberwolves",
+      "LA Clippers",
+      "LA Clippers @ Minnesota Timberwolves"
+    ],
+    "story": "Los Angeles Clippers (1-3, 12th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/min/minnesota-timberwolves\">Minnesota Timberwolves</a> (3-2, eighth in the Western Conference)\n\n\r\n              Minneapolis; Friday, 8 p.m. EDT\n\n\r\n              LINE: Timberwolves -9.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: The Los Angeles Clippers travel to play the Los Angeles Clippers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Minnesota went 49-33 overall and 31-21 in Western Conference action last season. The Timberwolves averaged 118.0 points per game last season, 19.0 from the free-throw line and 41.4 from 3-point range.\n\n\r\n              Los Angeles went 42-40 overall and 25-27 in Western Conference play during the 2025-26 season. The Clippers averaged 113.8 points per game while shooting 48.4% from the field and 36.8% from behind the arc last season.\n\n\r\n              INJURIES: Timberwolves: <a href=\"http://www.espn.com/nba/player/_/id/3934673/donte-divincenzo\">Donte DiVincenzo</a>: out (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4594268/anthony-edwards\">Anthony Edwards</a>: out (knee).\n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/4065778/max-strus\">Max Strus</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/5108024/yanic-konan-niederhauser\">Yanic Konan Niederhauser</a>: out (lisfranc), <a href=\"http://www.espn.com/nba/player/_/id/4396818/jordan-miller\">Jordan Miller</a>: out (shoulder), <a href=\"http://www.espn.com/nba/player/_/id/3913176/brandon-ingram\">Brandon Ingram</a>: out (heel), <a href=\"http://www.espn.com/nba/player/_/id/4066648/rui-hachimura\">Rui Hachimura</a>: out (quad), <a href=\"http://www.espn.com/nba/player/_/id/6580/bradley-beal\">Bradley Beal</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315471"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315471"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315471"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909284"
+      }
+    },
+    "premium": false
   },
+  "videos": [],
+  "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909284",
     "gameSwitcherEnabled": true,
