@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909847",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909881",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
         },
         {
           "id": "401909862",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909872",
@@ -1172,8 +1172,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -1238,7 +1236,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2722,6 +2722,128 @@
       },
       "injuries": [
         {
+          "status": "Out",
+          "date": "2026-10-30T19:09Z",
+          "athlete": {
+            "id": "2530530",
+            "uid": "s:40~l:46~a:2530530",
+            "guid": "14d9b685-3a6f-3167-02a8-027fe65d051d",
+            "lastName": "McConnell",
+            "fullName": "T.J. McConnell",
+            "displayName": "T.J. McConnell",
+            "shortName": "T.J. McConnell",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/2530530/tj-mcconnell",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/2530530.png",
+              "alt": "T.J. McConnell"
+            },
+            "jersey": "9",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/51279?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Hamstring",
+            "location": "Leg",
+            "detail": "Strain",
+            "side": "Right",
+            "returnDate": "2026-11-02"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-10-30T19:06Z",
+          "athlete": {
+            "id": "5157066",
+            "uid": "s:40~l:46~a:5157066",
+            "guid": "0d594fa3-7e6f-3179-bafc-a240052c78e2",
+            "lastName": "Furphy",
+            "fullName": "Johnny Furphy",
+            "displayName": "Johnny Furphy",
+            "shortName": "J. Furphy",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5157066/johnny-furphy",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5157066.png",
+              "alt": "Johnny Furphy"
+            },
+            "jersey": "12",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5157066?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Knee",
+            "location": "Leg",
+            "detail": "Surgery",
+            "side": "Right",
+            "returnDate": "2027-01-02"
+          }
+        },
+        {
           "status": "Day-To-Day",
           "date": "2026-10-29T21:08Z",
           "athlete": {
@@ -2896,127 +3018,6 @@
             "detail": "Sprain",
             "side": "Left",
             "returnDate": "2026-11-01"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-28T21:43Z",
-          "athlete": {
-            "id": "2530530",
-            "uid": "s:40~l:46~a:2530530",
-            "guid": "14d9b685-3a6f-3167-02a8-027fe65d051d",
-            "lastName": "McConnell",
-            "fullName": "T.J. McConnell",
-            "displayName": "T.J. McConnell",
-            "shortName": "T.J. McConnell",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/2530530/tj-mcconnell",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/2530530.png",
-              "alt": "T.J. McConnell"
-            },
-            "jersey": "9",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/51279?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Hamstring",
-            "location": "Leg",
-            "detail": "Strain",
-            "side": "Right",
-            "returnDate": "2026-11-02"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-28T21:41Z",
-          "athlete": {
-            "id": "4433076",
-            "uid": "s:40~l:46~a:4433076",
-            "guid": "80e725b8-72d0-3497-aeee-5c68d4d802c1",
-            "lastName": "Sheppard",
-            "fullName": "Ben Sheppard",
-            "displayName": "Ben Sheppard",
-            "shortName": "B. Sheppard",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4433076/ben-sheppard",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433076.png",
-              "alt": "Ben Sheppard"
-            },
-            "jersey": "26",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433076?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "side": "Left",
-            "returnDate": "2027-01-02"
           }
         }
       ]
@@ -3628,6 +3629,7 @@
       "records": []
     }
   ],
+  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -3641,7 +3643,6 @@
       "teamChanceLoss": "73.8"
     }
   },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3659,6 +3660,176 @@
     },
     "articles": [
       {
+        "id": 50329901,
+        "nowId": "1-50329901",
+        "contentKey": "50329901-1-5-1",
+        "dataSourceIdentifier": "c064d0a04a23a",
+        "type": "HeadlineNews",
+        "headline": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
+        "description": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
+        "lastModified": "2026-10-30T19:38:05Z",
+        "published": "2026-10-30T19:38:05Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "ce7b7ffc9f5ff",
+            "id": 39077801,
+            "type": "header",
+            "name": "Indiana Fever logo [1296x729]",
+            "credit": "M. Anthony Nesmith/Icon Sportswire via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2023/1209/r1264312_2_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 5840,
+            "type": "team",
+            "uid": "s:40~l:59~t:5",
+            "guid": "bfef1bdd-c2d1-310d-dd9f-645b90575da9",
+            "description": "Indiana Fever",
+            "sportId": 59,
+            "teamId": 5,
+            "team": {
+              "id": 5,
+              "description": "Indiana Fever",
+              "abbreviation": "IND",
+              "shortDisplayName": "Fever",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9579,
+            "type": "league",
+            "uid": "s:40~l:59",
+            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
+            "description": "WNBA",
+            "sportId": 59,
+            "leagueId": 59,
+            "league": {
+              "id": 59,
+              "description": "WNBA",
+              "abbreviation": "WNBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 116550,
+            "type": "topic",
+            "guid": "fe879255-6324-4784-385f-a1a18c22b5cc",
+            "description": "espnw",
+            "sportId": 0,
+            "topicId": 5
+          },
+          {
+            "id": 4659,
+            "type": "team",
+            "uid": "s:40~l:46~t:22",
+            "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
+            "description": "Portland Trail Blazers",
+            "sportId": 46,
+            "teamId": 22,
+            "team": {
+              "id": 22,
+              "description": "Portland Trail Blazers",
+              "abbreviation": "POR",
+              "shortDisplayName": "Trail Blazers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 757847,
+            "type": "contributor",
+            "guid": "0f42bf84-5597-3000-ae43-06406b8ed446",
+            "description": "Kareem Copeland",
+            "slug": "kareem-copeland",
+            "contributor": {
+              "id": 4341,
+              "description": "Kareem Copeland"
+            }
+          }
+        ],
+        "byline": "Kareem Copeland",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50329901"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50329901"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wnba/story?storyId=50329901"
+          },
+          "web": {
+            "href": "https://www.espn.com/wnba/story/_/id/50329901/source-fever-hires-blazers-sheri-sam-assistant-gm"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50329588,
         "nowId": "1-50329588",
         "contentKey": "50329588-1-5-1",
@@ -3666,8 +3837,8 @@
         "type": "HeadlineNews",
         "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
         "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-        "lastModified": "2026-10-30T18:49:43Z",
-        "published": "2026-10-30T18:49:43Z",
+        "lastModified": "2026-10-30T19:13:25Z",
+        "published": "2026-10-30T19:13:25Z",
         "images": [
           {
             "dataSourceIdentifier": "e671690067c45",
@@ -3794,8 +3965,20 @@
                 }
               }
             }
+          },
+          {
+            "id": 760098,
+            "type": "contributor",
+            "guid": "f877b8fa-3df9-3c82-b503-dc37aea5f4cb",
+            "description": "Ben Golliver",
+            "slug": "ben-golliver",
+            "contributor": {
+              "id": 4381,
+              "description": "Ben Golliver"
+            }
           }
         ],
+        "byline": "Ben Golliver",
         "links": {
           "api": {
             "self": {
@@ -4470,191 +4653,156 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50322550,
-        "nowId": "1-50322550",
-        "contentKey": "50322550-1-6-1",
-        "dataSourceIdentifier": "94c7708e56ea4",
-        "type": "Story",
-        "headline": "A trade? More cost-cutting? Where OKC could be headed this season",
-        "description": "What should OKC do after two season-altering injuries? Brian Windhorst and Tim MacMahon take the pulse of the league.",
-        "lastModified": "2026-10-30T10:57:03Z",
-        "published": "2026-10-30T10:57:03Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "1b31318358ed7",
-            "id": 50325944,
-            "type": "header",
-            "name": "Shai Gilgeous-Alexander [1296x729]",
-            "credit": "Alonzo Adams-Imagn Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1030/r1738480_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Mavericks hand the Thunder their first loss of the season",
-            "caption": "Mavericks hand the Thunder their first loss of the season",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/b589ae45-db92-460c-aa31-5503a66b5660/b589ae45-db92-460c-aa31-5503a66b5660.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4695,
-            "type": "team",
-            "uid": "s:40~l:46~t:25",
-            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
-            "description": "Oklahoma City Thunder",
-            "sportId": 46,
-            "teamId": 25,
-            "team": {
-              "id": 25,
-              "description": "Oklahoma City Thunder",
-              "abbreviation": "OKC",
-              "shortDisplayName": "Thunder",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4676,
-            "type": "team",
-            "uid": "s:40~l:46~t:23",
-            "guid": "e266c4ea-9af3-1bd8-06fb-fd608fd30e26",
-            "description": "Sacramento Kings",
-            "sportId": 46,
-            "teamId": 23,
-            "team": {
-              "id": 23,
-              "description": "Sacramento Kings",
-              "abbreviation": "SAC",
-              "shortDisplayName": "Kings",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 114922,
-            "type": "team",
-            "uid": "s:40~l:46~t:3",
-            "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
-            "description": "New Orleans Pelicans",
-            "sportId": 46,
-            "teamId": 3,
-            "team": {
-              "id": 3,
-              "description": "New Orleans Pelicans",
-              "abbreviation": "NO",
-              "shortDisplayName": "Pelicans",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701427,
-            "type": "contributor",
-            "guid": "d364b0f5-51b3-37fe-b8e2-54fe436eb756",
-            "description": "Brian Windhorst",
-            "slug": "brian-windhorst",
-            "contributor": {
-              "id": 1883,
-              "description": "Brian Windhorst"
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          }
-        ],
-        "byline": "Brian Windhorst and Tim MacMahon",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50322550"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50322550"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50322550"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50322550/thunder-trade-jalen-williams-cason-wallace"
-          }
-        },
-        "premium": false
       }
     ]
   },
+  "article": {
+    "id": 50315468,
+    "nowId": "1-50315468",
+    "contentKey": "50315468-1-22-1",
+    "dataSourceIdentifier": "daca0bf027460",
+    "publishedkey": "nba401909282",
+    "type": "Preview",
+    "gameId": "401909282",
+    "headline": "Heat and Pacers meet Friday in NBA Cup group stage",
+    "description": "Indiana Pacers (2-3, 10th in the Eastern Conference) vs. Miami Heat (1-4, 14th in the Eastern Conference)",
+    "title": "Heat and Pacers meet Friday in NBA Cup group stage",
+    "linkText": "Heat and Pacers meet Friday in NBA Cup group stage",
+    "categorized": "2026-10-29T07:02:47Z",
+    "originallyPosted": "2026-10-29T07:02:46Z",
+    "lastModified": "2026-10-29T07:02:47Z",
+    "published": "2026-10-29T07:02:46Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4259,
+        "type": "team",
+        "uid": "s:40~l:46~t:14",
+        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+        "description": "Miami Heat",
+        "sportId": 46,
+        "teamId": 14,
+        "team": {
+          "id": 14,
+          "description": "Miami Heat",
+          "abbreviation": "MIA",
+          "shortDisplayName": "Heat",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4438,
+        "type": "team",
+        "uid": "s:40~l:46~t:11",
+        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+        "description": "Indiana Pacers",
+        "sportId": 46,
+        "teamId": 11,
+        "team": {
+          "id": 11,
+          "description": "Indiana Pacers",
+          "abbreviation": "IND",
+          "shortDisplayName": "Pacers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909282",
+        "guid": "d3b8daa3-4d04-3fc1-9a3b-178d21735c0a",
+        "description": "Indiana Pacers @ Miami Heat",
+        "eventId": 401909282,
+        "event": {
+          "id": 401909282,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Indiana Pacers @ Miami Heat"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Miami Heat",
+      "Indiana Pacers",
+      "Indiana Pacers @ Miami Heat"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (2-3, 10th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (1-4, 14th in the Eastern Conference)\n\n\r\n              Miami; Friday, 8 p.m. EDT\n\n\r\n              LINE: Heat -3.5; over/under is 241.5\n\n\r\n              BOTTOM LINE: The Miami Heat host the Indiana Pacers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Miami went 43-39 overall, 27-25 in Eastern Conference action and 26-15 at home during the 2025-26 season. The Heat shot 46.8% from the field and 36.1% from 3-point range last season.\n\n\r\n              Indiana went 19-63 overall and 15-37 in Eastern Conference play during the 2025-26 season. The Pacers allowed opponents to score 120.4 points per game and shoot 48.9% from the field last season.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/3899664/simone-fontecchio\">Simone Fontecchio</a>: day to day (illness).\n\n\r\n              Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton\">Tyrese Haliburton</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4433076/ben-sheppard\">Ben Sheppard</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/2530530/tj-mcconnell\">T.J. McConnell</a>: day to day (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315468"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315468"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315468"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909282"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909282",
     "uid": "s:40~l:46~e:401909282",
@@ -4675,7 +4823,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -5469,154 +5617,13 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
-  "article": {
-    "id": 50315468,
-    "nowId": "1-50315468",
-    "contentKey": "50315468-1-22-1",
-    "dataSourceIdentifier": "daca0bf027460",
-    "publishedkey": "nba401909282",
-    "type": "Preview",
-    "gameId": "401909282",
-    "headline": "Heat and Pacers meet Friday in NBA Cup group stage",
-    "description": "Indiana Pacers (2-3, 10th in the Eastern Conference) vs. Miami Heat (1-4, 14th in the Eastern Conference)",
-    "title": "Heat and Pacers meet Friday in NBA Cup group stage",
-    "linkText": "Heat and Pacers meet Friday in NBA Cup group stage",
-    "categorized": "2026-10-29T07:02:47Z",
-    "originallyPosted": "2026-10-29T07:02:46Z",
-    "lastModified": "2026-10-29T07:02:47Z",
-    "published": "2026-10-29T07:02:46Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4259,
-        "type": "team",
-        "uid": "s:40~l:46~t:14",
-        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-        "description": "Miami Heat",
-        "sportId": 46,
-        "teamId": 14,
-        "team": {
-          "id": 14,
-          "description": "Miami Heat",
-          "abbreviation": "MIA",
-          "shortDisplayName": "Heat",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4438,
-        "type": "team",
-        "uid": "s:40~l:46~t:11",
-        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
-        "description": "Indiana Pacers",
-        "sportId": 46,
-        "teamId": 11,
-        "team": {
-          "id": 11,
-          "description": "Indiana Pacers",
-          "abbreviation": "IND",
-          "shortDisplayName": "Pacers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909282",
-        "guid": "d3b8daa3-4d04-3fc1-9a3b-178d21735c0a",
-        "description": "Indiana Pacers @ Miami Heat",
-        "eventId": 401909282,
-        "event": {
-          "id": 401909282,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Indiana Pacers @ Miami Heat"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Miami Heat",
-      "Indiana Pacers",
-      "Indiana Pacers @ Miami Heat"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (2-3, 10th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (1-4, 14th in the Eastern Conference)\n\n\r\n              Miami; Friday, 8 p.m. EDT\n\n\r\n              LINE: Heat -3.5; over/under is 241.5\n\n\r\n              BOTTOM LINE: The Miami Heat host the Indiana Pacers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Miami went 43-39 overall, 27-25 in Eastern Conference action and 26-15 at home during the 2025-26 season. The Heat shot 46.8% from the field and 36.1% from 3-point range last season.\n\n\r\n              Indiana went 19-63 overall and 15-37 in Eastern Conference play during the 2025-26 season. The Pacers allowed opponents to score 120.4 points per game and shoot 48.9% from the field last season.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/3899664/simone-fontecchio\">Simone Fontecchio</a>: day to day (illness).\n\n\r\n              Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton\">Tyrese Haliburton</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4433076/ben-sheppard\">Ben Sheppard</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/2530530/tj-mcconnell\">T.J. McConnell</a>: day to day (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315468"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315468"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315468"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909282"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909282",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5630,57 +5637,57 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Pacers 2138 tickets left",
+        "ticketName": "10/30 vs Pacers 2022 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-31-2026--sports-nba-basketball/production/7419660?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Lakers 5283 tickets left",
+        "ticketName": "11/2 @ Lakers 5259 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Clippers 2548 tickets left",
+        "ticketName": "11/4 @ Clippers 2533 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 @ Warriors 4507 tickets left",
+        "ticketName": "11/5 @ Warriors 4519 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-5-2026/production/7432841?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Kings 6412 tickets left",
+        "ticketName": "11/8 @ Kings 6424 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Jazz 3576 tickets left",
+        "ticketName": "11/10 @ Jazz 3565 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-10-2026/production/7432879?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Cavaliers 4986 tickets left",
+        "ticketName": "11/13 vs Cavaliers 4985 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 vs Pistons 5102 tickets left",
+        "ticketName": "11/14 vs Pistons 5092 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Rockets 5305 tickets left",
+        "ticketName": "11/16 vs Rockets 5302 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bucks 4014 tickets left",
+        "ticketName": "11/18 vs Bucks 3983 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 4984 tickets left",
+        "ticketName": "11/22 vs Thunder 4954 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
@@ -5690,7 +5697,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Knicks 3866 tickets left",
+        "ticketName": "11/27 @ Knicks 3865 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
@@ -5709,7 +5716,7 @@
       "opponentTeamName": "Pacers",
       "currentTeamName": "Heat",
       "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $33",
+      "summary": "Tickets as low as $31",
       "date": "2026-10-31T00:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -5719,12 +5726,6 @@
       "teamLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909282",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
