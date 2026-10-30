@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909878",
@@ -1084,8 +1084,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -1150,7 +1148,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909886",
@@ -1172,8 +1172,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -1238,7 +1236,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3205,16 +3205,16 @@
           }
         ]
       },
-      "details": "NY -2.5",
+      "details": "NY -1.5",
       "overUnder": 227.5,
-      "spread": 2.5,
+      "spread": 1.5,
       "overOdds": -110.0,
       "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -130,
-        "spreadOdds": -105.0,
+        "moneyLine": -125,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3224,8 +3224,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 110,
-        "spreadOdds": -115.0,
+        "moneyLine": 105,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
         },
@@ -3288,7 +3288,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627P250_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627P150_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3301,7 +3301,7 @@
               "gameId": 401909280,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:PHI+2.5"
+              "betDetails": "Spread:PHI+1.5"
             }
           }
         },
@@ -3312,7 +3312,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627N250_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627N150_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3325,7 +3325,7 @@
               "gameId": 401909280,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:NY-2.5"
+              "betDetails": "Spread:NY-1.5"
             }
           }
         },
@@ -3396,7 +3396,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+110",
+            "odds": "+105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3428,7 +3428,7 @@
         },
         "away": {
           "close": {
-            "odds": "-130",
+            "odds": "-125",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3464,8 +3464,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "+2.5",
-            "odds": "-115",
+            "line": "+1.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3473,7 +3473,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627P250_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627P150_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3486,7 +3486,7 @@
                   "gameId": 401909280,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:PHI+2.5"
+                  "betDetails": "Spread:PHI+1.5"
                 }
               }
             }
@@ -3498,8 +3498,8 @@
         },
         "away": {
           "close": {
-            "line": "-2.5",
-            "odds": "-105",
+            "line": "-1.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3507,7 +3507,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627N250_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515421%3Foutcomes%3D0HC85857627N150_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3520,7 +3520,7 @@
                   "gameId": 401909280,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:NY-2.5"
+                  "betDetails": "Spread:NY-1.5"
                 }
               }
             }
@@ -3767,6 +3767,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "20",
+      "gameProjection": "56.2",
+      "teamChanceLoss": "43.8"
+    },
+    "awayTeam": {
+      "id": "18",
+      "gameProjection": "43.8",
+      "teamChanceLoss": "56.2"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5704,270 +5718,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All 76ers Tickets",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/30 vs Knicks 2711 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "10/31 @ Hornets 4207 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 vs Bulls 3102 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 @ Pistons 4842 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Cavaliers 3280 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/8 @ Bulls 1957 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/10 vs Celtics 3960 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 vs Raptors 3549 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 vs Pacers 2995 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 @ Nets 4425 tickets left",
-        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Magic 4602 tickets left",
-        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Bucks 3401 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Trail Blazers 3192 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 vs Heat 3417 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 @ Pacers 3365 tickets left",
-        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-31-2026--sports-nba-basketball/production/7419620?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Knicks",
-      "currentTeamName": "76ers",
-      "venueName": "Xfinity Mobile Arena",
-      "summary": "Tickets as low as $96",
-      "date": "2026-10-30T23:30Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
-      "venueLink": "https://www.vividseats.com/wells-fargo-center-pa-tickets/venue/564?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
-      "timeValid": true
-    }
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "20",
-      "gameProjection": "56.2",
-      "teamChanceLoss": "43.8"
-    },
-    "awayTeam": {
-      "id": "18",
-      "gameProjection": "43.8",
-      "teamChanceLoss": "56.2"
-    }
-  },
-  "article": {
-    "id": 50315234,
-    "nowId": "1-50315234",
-    "contentKey": "50315234-1-22-1",
-    "dataSourceIdentifier": "48f9255978e6c",
-    "publishedkey": "nba401909280",
-    "type": "Preview",
-    "gameId": "401909280",
-    "headline": "76ers and Knicks meet Friday in NBA Cup group stage",
-    "description": "New York Knicks (2-3, eighth in the Eastern Conference) vs. Philadelphia 76ers (3-1, second in the Eastern Conference)",
-    "title": "76ers and Knicks meet Friday in NBA Cup group stage",
-    "linkText": "76ers and Knicks meet Friday in NBA Cup group stage",
-    "categorized": "2026-10-29T06:02:47Z",
-    "originallyPosted": "2026-10-29T06:02:46Z",
-    "lastModified": "2026-10-29T06:02:47Z",
-    "published": "2026-10-29T06:02:46Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4323,
-        "type": "team",
-        "uid": "s:40~l:46~t:20",
-        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-        "description": "Philadelphia 76ers",
-        "sportId": 46,
-        "teamId": 20,
-        "team": {
-          "id": 20,
-          "description": "Philadelphia 76ers",
-          "abbreviation": "PHI",
-          "shortDisplayName": "76ers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4293,
-        "type": "team",
-        "uid": "s:40~l:46~t:18",
-        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
-        "description": "New York Knicks",
-        "sportId": 46,
-        "teamId": 18,
-        "team": {
-          "id": 18,
-          "description": "New York Knicks",
-          "abbreviation": "NY",
-          "shortDisplayName": "Knicks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909280",
-        "guid": "9db973b9-aebc-39ee-af92-8d92e774accb",
-        "description": "New York Knicks @ Philadelphia 76ers",
-        "eventId": 401909280,
-        "event": {
-          "id": 401909280,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "New York Knicks @ Philadelphia 76ers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Philadelphia 76ers",
-      "New York Knicks",
-      "New York Knicks @ Philadelphia 76ers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (2-3, eighth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (3-1, second in the Eastern Conference)\n\n\r\n              Philadelphia; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: 76ers -3.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: The Philadelphia 76ers host the New York Knicks in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Philadelphia finished 45-37 overall, 27-25 in Eastern Conference action and 23-18 at home during the 2025-26 season. The 76ers averaged 9.1 steals, 5.7 blocks and 13.0 turnovers per game last season.\n\n\r\n              New York went 53-29 overall, 14-3 in Atlantic Division play and 23-19 on the road last season. The Knicks averaged 116.5 points per game last season, 16.8 from the free-throw line and 42.6 from deep.\n\n\r\n              The teams square off for the second time this season. The 76ers won the last meeting 106-100 on Oct. 20, with <a href=\"http://www.espn.com/nba/player/_/id/4431678/tyrese-maxey\">Tyrese Maxey</a> scoring 28 points in the victory.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432446/jabari-walker\">Jabari Walker</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: day to day (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: day to day (ankle).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315234"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315234"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315234"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909280"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909280",
     "uid": "s:40~l:46~e:401909280",
@@ -6770,7 +6520,257 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "article": {
+    "id": 50315234,
+    "nowId": "1-50315234",
+    "contentKey": "50315234-1-22-1",
+    "dataSourceIdentifier": "48f9255978e6c",
+    "publishedkey": "nba401909280",
+    "type": "Preview",
+    "gameId": "401909280",
+    "headline": "76ers and Knicks meet Friday in NBA Cup group stage",
+    "description": "New York Knicks (2-3, eighth in the Eastern Conference) vs. Philadelphia 76ers (3-1, second in the Eastern Conference)",
+    "title": "76ers and Knicks meet Friday in NBA Cup group stage",
+    "linkText": "76ers and Knicks meet Friday in NBA Cup group stage",
+    "categorized": "2026-10-29T06:02:47Z",
+    "originallyPosted": "2026-10-29T06:02:46Z",
+    "lastModified": "2026-10-29T06:02:47Z",
+    "published": "2026-10-29T06:02:46Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4323,
+        "type": "team",
+        "uid": "s:40~l:46~t:20",
+        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+        "description": "Philadelphia 76ers",
+        "sportId": 46,
+        "teamId": 20,
+        "team": {
+          "id": 20,
+          "description": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "shortDisplayName": "76ers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4293,
+        "type": "team",
+        "uid": "s:40~l:46~t:18",
+        "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
+        "description": "New York Knicks",
+        "sportId": 46,
+        "teamId": 18,
+        "team": {
+          "id": 18,
+          "description": "New York Knicks",
+          "abbreviation": "NY",
+          "shortDisplayName": "Knicks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909280",
+        "guid": "9db973b9-aebc-39ee-af92-8d92e774accb",
+        "description": "New York Knicks @ Philadelphia 76ers",
+        "eventId": 401909280,
+        "event": {
+          "id": 401909280,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "New York Knicks @ Philadelphia 76ers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Philadelphia 76ers",
+      "New York Knicks",
+      "New York Knicks @ Philadelphia 76ers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ny/new-york-knicks\">New York Knicks</a> (2-3, eighth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (3-1, second in the Eastern Conference)\n\n\r\n              Philadelphia; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: 76ers -3.5; over/under is 230.5\n\n\r\n              BOTTOM LINE: The Philadelphia 76ers host the New York Knicks in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Philadelphia finished 45-37 overall, 27-25 in Eastern Conference action and 23-18 at home during the 2025-26 season. The 76ers averaged 9.1 steals, 5.7 blocks and 13.0 turnovers per game last season.\n\n\r\n              New York went 53-29 overall, 14-3 in Atlantic Division play and 23-19 on the road last season. The Knicks averaged 116.5 points per game last season, 16.8 from the free-throw line and 42.6 from deep.\n\n\r\n              The teams square off for the second time this season. The 76ers won the last meeting 106-100 on Oct. 20, with <a href=\"http://www.espn.com/nba/player/_/id/4431678/tyrese-maxey\">Tyrese Maxey</a> scoring 28 points in the victory.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432446/jabari-walker\">Jabari Walker</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: day to day (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              Knicks: <a href=\"http://www.espn.com/nba/player/_/id/4277869/jose-alvarado\">Jose Alvarado</a>: day to day (ankle).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315234"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315234"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315234"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909280"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All 76ers Tickets",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/30 vs Knicks 2600 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "10/31 @ Hornets 4152 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 vs Bulls 3093 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 @ Pistons 4899 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Cavaliers 3267 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/8 @ Bulls 1955 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/10 vs Celtics 3966 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 vs Raptors 3555 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 vs Pacers 2993 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 @ Nets 4420 tickets left",
+        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Magic 4622 tickets left",
+        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Bucks 3400 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Trail Blazers 3185 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 vs Heat 3421 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 @ Pacers 3367 tickets left",
+        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-31-2026--sports-nba-basketball/production/7419620?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Knicks",
+      "currentTeamName": "76ers",
+      "venueName": "Xfinity Mobile Arena",
+      "summary": "Tickets as low as $98",
+      "date": "2026-10-30T23:30Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-30-2026--sports-nba-basketball/production/7419673?wsUser=717",
+      "venueLink": "https://www.vividseats.com/wells-fargo-center-pa-tickets/venue/564?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
+      "timeValid": true
+    }
+  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909280",
     "gameSwitcherEnabled": true,

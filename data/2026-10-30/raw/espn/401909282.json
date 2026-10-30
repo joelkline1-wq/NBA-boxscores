@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401909871",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909844",
@@ -3075,7 +3075,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 260,
-        "spreadOdds": -112.0,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/11?lang=en&region=us"
         },
@@ -3086,7 +3086,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -325,
-        "spreadOdds": -108.0,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
         },
@@ -3326,7 +3326,7 @@
         "home": {
           "close": {
             "line": "-8.5",
-            "odds": "-108",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3360,7 +3360,7 @@
         "away": {
           "close": {
             "line": "+8.5",
-            "odds": "-112",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3628,6 +3628,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "73.8",
+      "teamChanceLoss": "26.2"
+    },
+    "awayTeam": {
+      "id": "11",
+      "gameProjection": "26.2",
+      "teamChanceLoss": "73.8"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -6527,26 +6541,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909282",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "73.8",
-      "teamChanceLoss": "26.2"
-    },
-    "awayTeam": {
-      "id": "11",
-      "gameProjection": "26.2",
-      "teamChanceLoss": "73.8"
-    }
-  },
-  "winprobability": [],
   "ticketsInfo": {
     "tickets": [
       {
@@ -6560,27 +6554,27 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Pacers 3931 tickets left",
+        "ticketName": "10/30 vs Pacers 3387 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-31-2026--sports-nba-basketball/production/7419660?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Lakers 5330 tickets left",
+        "ticketName": "11/2 @ Lakers 5328 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Clippers 2546 tickets left",
+        "ticketName": "11/4 @ Clippers 2541 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 @ Warriors 4465 tickets left",
+        "ticketName": "11/5 @ Warriors 4561 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-5-2026/production/7432841?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Kings 6496 tickets left",
+        "ticketName": "11/8 @ Kings 6492 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
         "type": "event"
       },
@@ -6595,32 +6589,32 @@
         "type": "event"
       },
       {
-        "ticketName": "11/14 vs Pistons 5124 tickets left",
+        "ticketName": "11/14 vs Pistons 5121 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Rockets 5357 tickets left",
+        "ticketName": "11/16 vs Rockets 5335 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bucks 3998 tickets left",
+        "ticketName": "11/18 vs Bucks 4010 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 5038 tickets left",
+        "ticketName": "11/22 vs Thunder 5024 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ 76ers 3417 tickets left",
+        "ticketName": "11/25 @ 76ers 3421 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Knicks 3908 tickets left",
+        "ticketName": "11/27 @ Knicks 3897 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
@@ -6639,7 +6633,7 @@
       "opponentTeamName": "Pacers",
       "currentTeamName": "Heat",
       "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $39",
+      "summary": "Tickets as low as $36",
       "date": "2026-10-31T00:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6649,6 +6643,12 @@
       "teamLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909282",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
