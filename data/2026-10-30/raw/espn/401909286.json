@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909860",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909859",
@@ -1084,8 +1084,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -1150,7 +1148,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909889",
@@ -2984,6 +2984,66 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-10-30T20:30Z",
+          "athlete": {
+            "id": "4065813",
+            "uid": "s:40~l:46~a:4065813",
+            "guid": "f2f97f9e-11b4-081d-5d3a-1d140b3b9d9f",
+            "lastName": "Diallo",
+            "fullName": "Alpha Diallo",
+            "displayName": "Alpha Diallo",
+            "shortName": "A. Diallo",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4065813/alpha-diallo",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4065813.png",
+              "alt": "Alpha Diallo"
+            },
+            "jersey": "11",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4065813?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Personal",
+            "location": "Other",
+            "side": "Right",
+            "returnDate": "2026-10-30"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-10-30T18:41Z",
           "athlete": {
             "id": "3138196",
@@ -3039,66 +3099,6 @@
             "type": "Ankle",
             "location": "Leg",
             "detail": "Sprain",
-            "side": "Right",
-            "returnDate": "2026-10-30"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-29T23:50Z",
-          "athlete": {
-            "id": "4065813",
-            "uid": "s:40~l:46~a:4065813",
-            "guid": "f2f97f9e-11b4-081d-5d3a-1d140b3b9d9f",
-            "lastName": "Diallo",
-            "fullName": "Alpha Diallo",
-            "displayName": "Alpha Diallo",
-            "shortName": "A. Diallo",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4065813/alpha-diallo",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4065813.png",
-              "alt": "Alpha Diallo"
-            },
-            "jersey": "11",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4065813?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Personal",
-            "location": "Other",
             "side": "Right",
             "returnDate": "2026-10-30"
           }
@@ -3255,7 +3255,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3306,7 +3306,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516258%3Foutcomes%3D0ML85859654_1",
           "text": "Home Bet",
@@ -3330,7 +3330,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516258%3Foutcomes%3D0ML85859654_3",
           "text": "Away Bet",
@@ -3470,7 +3470,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516258%3Foutcomes%3D0ML85859654_1",
               "text": "Home Bet",
@@ -3502,7 +3502,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516258%3Foutcomes%3D0ML85859654_3",
               "text": "Away Bet",
@@ -3834,6 +3834,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "21",
+      "gameProjection": "46.1",
+      "teamChanceLoss": "53.9"
+    },
+    "awayTeam": {
+      "id": "7",
+      "gameProjection": "53.9",
+      "teamChanceLoss": "46.1"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3858,8 +3872,8 @@
         "type": "HeadlineNews",
         "headline": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
         "description": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
-        "lastModified": "2026-10-30T19:38:05Z",
-        "published": "2026-10-30T19:38:05Z",
+        "lastModified": "2026-10-30T20:02:38Z",
+        "published": "2026-10-30T20:02:38Z",
         "images": [
           {
             "dataSourceIdentifier": "ce7b7ffc9f5ff",
@@ -4028,8 +4042,8 @@
         "type": "HeadlineNews",
         "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
         "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-        "lastModified": "2026-10-30T19:13:25Z",
-        "published": "2026-10-30T19:13:25Z",
+        "lastModified": "2026-10-30T20:36:51Z",
+        "published": "2026-10-30T20:36:51Z",
         "images": [
           {
             "dataSourceIdentifier": "e671690067c45",
@@ -4041,6 +4055,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2026/1030/r1738441_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Ja Morant hits spin move with slick fake before sinking jumper",
+            "caption": "Ja Morant hits spin move with slick fake before sinking jumper  ",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/ss_20261029_225218748_3716467/ss_20261029_225218748_3716467.jpg"
           }
         ],
         "categories": [
@@ -4847,20 +4869,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "21",
-      "gameProjection": "46.1",
-      "teamChanceLoss": "53.9"
-    },
-    "awayTeam": {
-      "id": "7",
-      "gameProjection": "53.9",
-      "teamChanceLoss": "46.1"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909286",
     "uid": "s:40~l:46~e:401909286",
@@ -5843,12 +5851,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909286",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5862,77 +5864,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Nuggets 1754 tickets left",
+        "ticketName": "10/30 vs Nuggets 1623 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-30-2026--sports-nba-basketball/production/7418089?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Warriors 5203 tickets left",
+        "ticketName": "11/2 @ Warriors 5500 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-2-2026/production/7432839?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Trail Blazers 3189 tickets left",
+        "ticketName": "11/4 vs Trail Blazers 3314 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 vs Magic 3751 tickets left",
+        "ticketName": "11/5 vs Magic 3936 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-5-2026/production/7432973?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Rockets 3971 tickets left",
+        "ticketName": "11/7 vs Rockets 4020 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Spurs 4090 tickets left",
+        "ticketName": "11/9 vs Spurs 4187 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-9-2026/production/7432975?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Clippers 4246 tickets left",
+        "ticketName": "11/10 vs Clippers 4453 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Hornets 4069 tickets left",
+        "ticketName": "11/12 vs Hornets 4310 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Lakers 4070 tickets left",
+        "ticketName": "11/15 vs Lakers 4198 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nuggets 6226 tickets left",
+        "ticketName": "11/16 @ Nuggets 6208 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-16-2026/production/7432981?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Kings 6247 tickets left",
+        "ticketName": "11/18 @ Kings 6752 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Jazz 3590 tickets left",
+        "ticketName": "11/20 @ Jazz 3597 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026--sports-nba-basketball/production/7418205?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pelicans 3140 tickets left",
+        "ticketName": "11/23 @ Pelicans 3137 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Rockets 4468 tickets left",
+        "ticketName": "11/25 @ Rockets 4479 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-30-2026--sports-nba-basketball/production/7418039?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Mavericks 4068 tickets left",
+        "ticketName": "11/27 vs Mavericks 4159 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       }
@@ -5941,7 +5943,7 @@
       "opponentTeamName": "Nuggets",
       "currentTeamName": "Suns",
       "venueName": "Mortgage Matchup Center",
-      "summary": "Tickets as low as $28",
+      "summary": "Tickets as low as $24",
       "date": "2026-10-31T02:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -5951,6 +5953,12 @@
       "teamLink": "https://www.vividseats.com/phoenix-suns-tickets--sports-nba-basketball/performer/679?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909286",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

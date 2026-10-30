@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401909871",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909862",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
         },
         {
           "id": "401909872",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
         }
       ]
     }
@@ -1843,8 +1843,7 @@
                   "details": {
                     "fantasyStatus": {
                       "description": "OUT",
-                      "abbreviation": "OUT",
-                      "displayDescription": "Out"
+                      "abbreviation": "OUT"
                     },
                     "type": "Ankle",
                     "location": "Leg",
@@ -2596,7 +2595,7 @@
       "injuries": [
         {
           "status": "Day-To-Day",
-          "date": "2026-10-29T20:48Z",
+          "date": "2026-10-30T20:28Z",
           "athlete": {
             "id": "3899664",
             "uid": "s:40~l:46~a:3899664",
@@ -2721,6 +2720,65 @@
         ]
       },
       "injuries": [
+        {
+          "status": "Day-To-Day",
+          "date": "2026-10-30T20:27Z",
+          "athlete": {
+            "id": "4278355",
+            "uid": "s:40~l:46~a:4278355",
+            "guid": "5906d109-9922-295b-8e60-cd644f04178a",
+            "lastName": "Toppin",
+            "fullName": "Obi Toppin",
+            "displayName": "Obi Toppin",
+            "shortName": "O. Toppin",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4278355/obi-toppin",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278355.png",
+              "alt": "Obi Toppin"
+            },
+            "jersey": "1",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4278355?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "returnDate": "2026-10-30"
+          }
+        },
         {
           "status": "Out",
           "date": "2026-10-30T19:09Z",
@@ -2961,64 +3019,6 @@
             "location": "Leg",
             "returnDate": "2026-10-30"
           }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-29T21:04Z",
-          "athlete": {
-            "id": "4017837",
-            "uid": "s:40~l:46~a:4017837",
-            "guid": "314d5203-a973-39ef-ad47-e6bcd46f77fd",
-            "lastName": "Zubac",
-            "fullName": "Ivica Zubac",
-            "displayName": "Ivica Zubac",
-            "shortName": "I. Zubac",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4017837/ivica-zubac",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png",
-              "alt": "Ivica Zubac"
-            },
-            "jersey": "40",
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Left",
-            "returnDate": "2026-11-01"
-          }
         }
       ]
     }
@@ -3050,7 +3050,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3068,15 +3068,15 @@
         ]
       },
       "details": "MIA -8.5",
-      "overUnder": 237.5,
+      "overUnder": 236.5,
       "spread": -8.5,
-      "overOdds": -110.0,
-      "underOdds": -110.0,
+      "overOdds": -115.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 260,
-        "spreadOdds": -105.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/11?lang=en&region=us"
         },
@@ -3087,7 +3087,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -325,
-        "spreadOdds": -115.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
         },
@@ -3101,7 +3101,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0ML85858276_1",
           "text": "Home Bet",
@@ -3125,7 +3125,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0ML85858276_3",
           "text": "Away Bet",
@@ -3198,7 +3198,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276O23750_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276O23650_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3211,7 +3211,7 @@
               "gameId": 401909282,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:237.5"
+              "betDetails": "Over:236.5"
             }
           }
         },
@@ -3222,7 +3222,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276U23750_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276U23650_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3235,7 +3235,7 @@
               "gameId": 401909282,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:237.5"
+              "betDetails": "Under:236.5"
             }
           }
         },
@@ -3265,7 +3265,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0ML85858276_1",
               "text": "Home Bet",
@@ -3297,7 +3297,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0ML85858276_3",
               "text": "Away Bet",
@@ -3327,7 +3327,7 @@
         "home": {
           "close": {
             "line": "-8.5",
-            "odds": "-115",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3361,7 +3361,7 @@
         "away": {
           "close": {
             "line": "+8.5",
-            "odds": "-105",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3398,8 +3398,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o237.5",
-            "odds": "-110",
+            "line": "o236.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3407,7 +3407,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276O23750_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276O23650_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3420,7 +3420,7 @@
                   "gameId": 401909282,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:237.5"
+                  "betDetails": "Over:236.5"
                 }
               }
             }
@@ -3432,8 +3432,8 @@
         },
         "under": {
           "close": {
-            "line": "u237.5",
-            "odds": "-110",
+            "line": "u236.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3441,7 +3441,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276U23750_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515534%3Foutcomes%3D0OU85858276U23650_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3454,7 +3454,7 @@
                   "gameId": 401909282,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:237.5"
+                  "betDetails": "Under:236.5"
                 }
               }
             }
@@ -3629,20 +3629,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "73.8",
-      "teamChanceLoss": "26.2"
-    },
-    "awayTeam": {
-      "id": "11",
-      "gameProjection": "26.2",
-      "teamChanceLoss": "73.8"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3667,8 +3653,8 @@
         "type": "HeadlineNews",
         "headline": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
         "description": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
-        "lastModified": "2026-10-30T19:38:05Z",
-        "published": "2026-10-30T19:38:05Z",
+        "lastModified": "2026-10-30T20:02:38Z",
+        "published": "2026-10-30T20:02:38Z",
         "images": [
           {
             "dataSourceIdentifier": "ce7b7ffc9f5ff",
@@ -3837,8 +3823,8 @@
         "type": "HeadlineNews",
         "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
         "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-        "lastModified": "2026-10-30T19:13:25Z",
-        "published": "2026-10-30T19:13:25Z",
+        "lastModified": "2026-10-30T20:36:51Z",
+        "published": "2026-10-30T20:36:51Z",
         "images": [
           {
             "dataSourceIdentifier": "e671690067c45",
@@ -3850,6 +3836,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2026/1030/r1738441_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Ja Morant hits spin move with slick fake before sinking jumper",
+            "caption": "Ja Morant hits spin move with slick fake before sinking jumper  ",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/ss_20261029_225218748_3716467/ss_20261029_225218748_3716467.jpg"
           }
         ],
         "categories": [
@@ -4656,6 +4650,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "73.8",
+      "teamChanceLoss": "26.2"
+    },
+    "awayTeam": {
+      "id": "11",
+      "gameProjection": "26.2",
+      "teamChanceLoss": "73.8"
+    }
+  },
+  "winprobability": [],
   "article": {
     "id": 50315468,
     "nowId": "1-50315468",
@@ -5637,67 +5645,67 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Pacers 2022 tickets left",
+        "ticketName": "10/30 vs Pacers 1772 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-31-2026--sports-nba-basketball/production/7419660?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Lakers 5259 tickets left",
+        "ticketName": "11/2 @ Lakers 5256 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-2-2026/production/7432873?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Clippers 2533 tickets left",
+        "ticketName": "11/4 @ Clippers 2574 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 @ Warriors 4519 tickets left",
+        "ticketName": "11/5 @ Warriors 4849 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-5-2026/production/7432841?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Kings 6424 tickets left",
+        "ticketName": "11/8 @ Kings 6847 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-8-2026/production/7432877?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Jazz 3565 tickets left",
+        "ticketName": "11/10 @ Jazz 3549 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-10-2026/production/7432879?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Cavaliers 4985 tickets left",
+        "ticketName": "11/13 vs Cavaliers 5633 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 vs Pistons 5092 tickets left",
+        "ticketName": "11/14 vs Pistons 5812 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Rockets 5302 tickets left",
+        "ticketName": "11/16 vs Rockets 6135 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bucks 3983 tickets left",
+        "ticketName": "11/18 vs Bucks 4567 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 4954 tickets left",
+        "ticketName": "11/22 vs Thunder 5851 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ 76ers 3391 tickets left",
+        "ticketName": "11/25 @ 76ers 3405 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Knicks 3865 tickets left",
+        "ticketName": "11/27 @ Knicks 3887 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
@@ -5716,7 +5724,7 @@
       "opponentTeamName": "Pacers",
       "currentTeamName": "Heat",
       "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $31",
+      "summary": "Tickets as low as $30",
       "date": "2026-10-31T00:00Z",
       "dateDay": "Fri",
       "homeAway": "home",

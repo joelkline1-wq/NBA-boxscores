@@ -311,6 +311,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -375,9 +377,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
         },
         {
           "id": "401909088",
@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909095",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909848",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "27",
             "uid": "s:40~l:46~t:27",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909870",
@@ -2845,6 +2845,66 @@
       "injuries": [
         {
           "status": "Day-To-Day",
+          "date": "2026-10-30T20:38Z",
+          "athlete": {
+            "id": "4848625",
+            "uid": "s:40~l:46~a:4848625",
+            "guid": "59b6b767-0dab-3e45-88f2-55c31e1fd6c5",
+            "lastName": "Swain",
+            "fullName": "Dailyn Swain",
+            "displayName": "Dailyn Swain",
+            "shortName": "D. Swain",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4848625/dailyn-swain",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4848625.png",
+              "alt": "Dailyn Swain"
+            },
+            "jersey": "5",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4848625?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "detail": "Soreness",
+            "returnDate": "2026-10-30"
+          }
+        },
+        {
+          "status": "Day-To-Day",
           "date": "2026-10-29T18:55Z",
           "athlete": {
             "id": "4397189",
@@ -3030,7 +3090,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3047,16 +3107,16 @@
           }
         ]
       },
-      "details": "BOS -15.5",
-      "overUnder": 236.5,
-      "spread": -15.5,
+      "details": "BOS -14.5",
+      "overUnder": 235.5,
+      "spread": -14.5,
       "overOdds": -115.0,
       "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 625,
-        "spreadOdds": -115.0,
+        "moneyLine": 600,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/4?lang=en&region=us"
         },
@@ -3066,8 +3126,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -950,
-        "spreadOdds": -105.0,
+        "moneyLine": -900,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
         },
@@ -3081,7 +3141,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0ML85859652_1",
           "text": "Home Bet",
@@ -3105,7 +3165,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0ML85859652_3",
           "text": "Away Bet",
@@ -3130,7 +3190,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652N1550_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652N1450_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3143,7 +3203,7 @@
               "gameId": 401909278,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:BOS-15.5"
+              "betDetails": "Spread:BOS-14.5"
             }
           }
         },
@@ -3154,7 +3214,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652P1550_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652P1450_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3167,7 +3227,7 @@
               "gameId": 401909278,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:CHI+15.5"
+              "betDetails": "Spread:CHI+14.5"
             }
           }
         },
@@ -3191,7 +3251,7 @@
               "gameId": 401909278,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:236.5"
+              "betDetails": "Over:235.5"
             }
           }
         },
@@ -3215,7 +3275,7 @@
               "gameId": 401909278,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:236.5"
+              "betDetails": "Under:235.5"
             }
           }
         },
@@ -3238,14 +3298,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-950",
+            "odds": "-900",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0ML85859652_1",
               "text": "Home Bet",
@@ -3270,14 +3330,14 @@
         },
         "away": {
           "close": {
-            "odds": "+625",
+            "odds": "+600",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0ML85859652_3",
               "text": "Away Bet",
@@ -3306,8 +3366,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-15.5",
-            "odds": "-105",
+            "line": "-14.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3315,7 +3375,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652N1550_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652N1450_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3328,7 +3388,7 @@
                   "gameId": 401909278,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:BOS-15.5"
+                  "betDetails": "Spread:BOS-14.5"
                 }
               }
             }
@@ -3340,8 +3400,8 @@
         },
         "away": {
           "close": {
-            "line": "+15.5",
-            "odds": "-115",
+            "line": "+14.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3349,7 +3409,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652P1550_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516256%3Foutcomes%3D0HC85859652P1450_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3362,7 +3422,7 @@
                   "gameId": 401909278,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:CHI+15.5"
+                  "betDetails": "Spread:CHI+14.5"
                 }
               }
             }
@@ -3378,7 +3438,7 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o236.5",
+            "line": "o235.5",
             "odds": "-115",
             "link": {
               "language": "en-US",
@@ -3400,7 +3460,7 @@
                   "gameId": 401909278,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:236.5"
+                  "betDetails": "Over:235.5"
                 }
               }
             }
@@ -3412,7 +3472,7 @@
         },
         "under": {
           "close": {
-            "line": "u236.5",
+            "line": "u235.5",
             "odds": "-105",
             "link": {
               "language": "en-US",
@@ -3434,7 +3494,7 @@
                   "gameId": 401909278,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:236.5"
+                  "betDetails": "Under:235.5"
                 }
               }
             }
@@ -3609,6 +3669,19 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "2",
+      "gameProjection": "86.9",
+      "teamChanceLoss": "13.1"
+    },
+    "awayTeam": {
+      "id": "4",
+      "gameProjection": "13.1",
+      "teamChanceLoss": "86.9"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3633,8 +3706,8 @@
         "type": "HeadlineNews",
         "headline": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
         "description": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
-        "lastModified": "2026-10-30T19:38:05Z",
-        "published": "2026-10-30T19:38:05Z",
+        "lastModified": "2026-10-30T20:02:38Z",
+        "published": "2026-10-30T20:02:38Z",
         "images": [
           {
             "dataSourceIdentifier": "ce7b7ffc9f5ff",
@@ -3803,8 +3876,8 @@
         "type": "HeadlineNews",
         "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
         "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-        "lastModified": "2026-10-30T19:13:25Z",
-        "published": "2026-10-30T19:13:25Z",
+        "lastModified": "2026-10-30T20:36:51Z",
+        "published": "2026-10-30T20:36:51Z",
         "images": [
           {
             "dataSourceIdentifier": "e671690067c45",
@@ -3816,6 +3889,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2026/1030/r1738441_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Ja Morant hits spin move with slick fake before sinking jumper",
+            "caption": "Ja Morant hits spin move with slick fake before sinking jumper  ",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/ss_20261029_225218748_3716467/ss_20261029_225218748_3716467.jpg"
           }
         ],
         "categories": [
@@ -4622,166 +4703,6 @@
       }
     ]
   },
-  "article": {
-    "id": 50315240,
-    "nowId": "1-50315240",
-    "contentKey": "50315240-1-22-1",
-    "dataSourceIdentifier": "9decf7624304d",
-    "publishedkey": "nba401909278",
-    "type": "Preview",
-    "gameId": "401909278",
-    "headline": "Celtics and Bulls meet Friday in NBA Cup group stage",
-    "description": "Chicago Bulls (1-4, 12th in the Eastern Conference) vs. Boston Celtics (3-1, fourth in the Eastern Conference)",
-    "title": "Celtics and Bulls meet Friday in NBA Cup group stage",
-    "linkText": "Celtics and Bulls meet Friday in NBA Cup group stage",
-    "categorized": "2026-10-29T06:02:54Z",
-    "originallyPosted": "2026-10-29T06:02:53Z",
-    "lastModified": "2026-10-29T06:02:54Z",
-    "published": "2026-10-29T06:02:53Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4245,
-        "type": "team",
-        "uid": "s:40~l:46~t:2",
-        "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
-        "description": "Boston Celtics",
-        "sportId": 46,
-        "teamId": 2,
-        "team": {
-          "id": 2,
-          "description": "Boston Celtics",
-          "abbreviation": "BOS",
-          "shortDisplayName": "Celtics",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4392,
-        "type": "team",
-        "uid": "s:40~l:46~t:4",
-        "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
-        "description": "Chicago Bulls",
-        "sportId": 46,
-        "teamId": 4,
-        "team": {
-          "id": 4,
-          "description": "Chicago Bulls",
-          "abbreviation": "CHI",
-          "shortDisplayName": "Bulls",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909278",
-        "guid": "565dc591-a80e-32bf-9c8c-97da0928f558",
-        "description": "Chicago Bulls @ Boston Celtics",
-        "eventId": 401909278,
-        "event": {
-          "id": 401909278,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Chicago Bulls @ Boston Celtics"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Boston Celtics",
-      "Chicago Bulls",
-      "Chicago Bulls @ Boston Celtics"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/chi/chicago-bulls\">Chicago Bulls</a> (1-4, 12th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/bos/boston-celtics\">Boston Celtics</a> (3-1, fourth in the Eastern Conference)\n\n\r\n              Boston; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: Celtics -11.5; over/under is 232.5\n\n\r\n              BOTTOM LINE: The Boston Celtics take on the Chicago Bulls in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Boston finished 56-26 overall and 36-16 in Eastern Conference action last season. The Celtics gave up 107.2 points per game while committing 19.0 fouls last season.\n\n\r\n              Chicago went 31-51 overall and 19-32 in Eastern Conference play during the 2025-26 season. The Bulls averaged 7.6 steals, 5.0 blocks and 14.6 turnovers per game last season.\n\n\r\n              The teams meet for the second time this season. The Celtics won 134-99 in the last matchup on Oct. 26.\n\n\r\n              INJURIES: Celtics: <a href=\"http://www.espn.com/nba/player/_/id/4433188/devin-carter\">Devin Carter</a>: out (illness).\n\n\r\n              Bulls: <a href=\"http://www.espn.com/nba/player/_/id/5105555/tobe-awaka\">Tobe Awaka</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4431687/patrick-williams\">Patrick Williams</a>: day to day (groin), <a href=\"http://www.espn.com/nba/player/_/id/4278067/nic-claxton\">Nic Claxton</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315240"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315240"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315240"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909278"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "2",
-      "gameProjection": "86.9",
-      "teamChanceLoss": "13.1"
-    },
-    "awayTeam": {
-      "id": "4",
-      "gameProjection": "13.1",
-      "teamChanceLoss": "86.9"
-    }
-  },
   "winprobability": [],
   "header": {
     "id": "401909278",
@@ -5585,6 +5506,153 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "article": {
+    "id": 50315240,
+    "nowId": "1-50315240",
+    "contentKey": "50315240-1-22-1",
+    "dataSourceIdentifier": "9decf7624304d",
+    "publishedkey": "nba401909278",
+    "type": "Preview",
+    "gameId": "401909278",
+    "headline": "Celtics and Bulls meet Friday in NBA Cup group stage",
+    "description": "Chicago Bulls (1-4, 12th in the Eastern Conference) vs. Boston Celtics (3-1, fourth in the Eastern Conference)",
+    "title": "Celtics and Bulls meet Friday in NBA Cup group stage",
+    "linkText": "Celtics and Bulls meet Friday in NBA Cup group stage",
+    "categorized": "2026-10-29T06:02:54Z",
+    "originallyPosted": "2026-10-29T06:02:53Z",
+    "lastModified": "2026-10-29T06:02:54Z",
+    "published": "2026-10-29T06:02:53Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4245,
+        "type": "team",
+        "uid": "s:40~l:46~t:2",
+        "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+        "description": "Boston Celtics",
+        "sportId": 46,
+        "teamId": 2,
+        "team": {
+          "id": 2,
+          "description": "Boston Celtics",
+          "abbreviation": "BOS",
+          "shortDisplayName": "Celtics",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4392,
+        "type": "team",
+        "uid": "s:40~l:46~t:4",
+        "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
+        "description": "Chicago Bulls",
+        "sportId": 46,
+        "teamId": 4,
+        "team": {
+          "id": 4,
+          "description": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "shortDisplayName": "Bulls",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909278",
+        "guid": "565dc591-a80e-32bf-9c8c-97da0928f558",
+        "description": "Chicago Bulls @ Boston Celtics",
+        "eventId": 401909278,
+        "event": {
+          "id": 401909278,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Chicago Bulls @ Boston Celtics"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Boston Celtics",
+      "Chicago Bulls",
+      "Chicago Bulls @ Boston Celtics"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/chi/chicago-bulls\">Chicago Bulls</a> (1-4, 12th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/bos/boston-celtics\">Boston Celtics</a> (3-1, fourth in the Eastern Conference)\n\n\r\n              Boston; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: Celtics -11.5; over/under is 232.5\n\n\r\n              BOTTOM LINE: The Boston Celtics take on the Chicago Bulls in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Boston finished 56-26 overall and 36-16 in Eastern Conference action last season. The Celtics gave up 107.2 points per game while committing 19.0 fouls last season.\n\n\r\n              Chicago went 31-51 overall and 19-32 in Eastern Conference play during the 2025-26 season. The Bulls averaged 7.6 steals, 5.0 blocks and 14.6 turnovers per game last season.\n\n\r\n              The teams meet for the second time this season. The Celtics won 134-99 in the last matchup on Oct. 26.\n\n\r\n              INJURIES: Celtics: <a href=\"http://www.espn.com/nba/player/_/id/4433188/devin-carter\">Devin Carter</a>: out (illness).\n\n\r\n              Bulls: <a href=\"http://www.espn.com/nba/player/_/id/5105555/tobe-awaka\">Tobe Awaka</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4431687/patrick-williams\">Patrick Williams</a>: day to day (groin), <a href=\"http://www.espn.com/nba/player/_/id/4278067/nic-claxton\">Nic Claxton</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315240"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315240"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315240"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909278"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -5599,77 +5667,77 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Bulls 1663 tickets left",
+        "ticketName": "10/30 vs Bulls 1460 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419729?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 @ Magic 3372 tickets left",
+        "ticketName": "11/1 @ Magic 3475 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-1-2026/production/7433134?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 @ Rockets 4967 tickets left",
+        "ticketName": "11/2 @ Rockets 5051 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-2-2026/production/7432955?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Bucks 3825 tickets left",
+        "ticketName": "11/4 vs Bucks 4027 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-4-2026/production/7432889?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Hornets 4548 tickets left",
+        "ticketName": "11/6 @ Hornets 5123 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Bucks 5344 tickets left",
+        "ticketName": "11/8 @ Bucks 5190 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-8-2026/production/7432891?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ 76ers 3973 tickets left",
+        "ticketName": "11/10 @ 76ers 3958 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Raptors 1338 tickets left",
+        "ticketName": "11/11 @ Raptors 1332 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Mavericks 3779 tickets left",
+        "ticketName": "11/15 vs Mavericks 3751 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-15-2026/production/7433122?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Magic 3907 tickets left",
+        "ticketName": "11/16 vs Magic 4202 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-16-2026/production/7433142?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Nuggets 5268 tickets left",
+        "ticketName": "11/18 @ Nuggets 5302 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-18-2026/production/7433160?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Kings 5284 tickets left",
+        "ticketName": "11/21 @ Kings 5412 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-21-2026/production/7433003?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Warriors 4809 tickets left",
+        "ticketName": "11/22 @ Warriors 5010 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-22-2026/production/7431216?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 @ Wizards 6581 tickets left",
+        "ticketName": "11/24 @ Wizards 7266 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Hawks 3603 tickets left",
+        "ticketName": "11/27 vs Hawks 3783 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-10-31-2026--sports-nba-basketball/production/7419731?wsUser=717",
         "type": "event"
       }
@@ -5678,7 +5746,7 @@
       "opponentTeamName": "Bulls",
       "currentTeamName": "Celtics",
       "venueName": "TD Garden",
-      "summary": "Tickets as low as $71",
+      "summary": "Tickets as low as $66",
       "date": "2026-10-30T23:30Z",
       "dateDay": "Fri",
       "homeAway": "home",
