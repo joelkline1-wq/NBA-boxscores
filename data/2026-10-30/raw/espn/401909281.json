@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909885",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909834",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
         },
         {
           "id": "401909845",
@@ -3198,7 +3198,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3224,7 +3224,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 180,
-        "spreadOdds": -105.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/19?lang=en&region=us"
         },
@@ -3235,7 +3235,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -218,
-        "spreadOdds": -115.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -3249,7 +3249,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515528%3Foutcomes%3D0ML85858270_1",
           "text": "Home Bet",
@@ -3273,7 +3273,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515528%3Foutcomes%3D0ML85858270_3",
           "text": "Away Bet",
@@ -3413,7 +3413,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515528%3Foutcomes%3D0ML85858270_1",
               "text": "Home Bet",
@@ -3445,7 +3445,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34515528%3Foutcomes%3D0ML85858270_3",
               "text": "Away Bet",
@@ -3475,7 +3475,7 @@
         "home": {
           "close": {
             "line": "-5.5",
-            "odds": "-115",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3509,7 +3509,7 @@
         "away": {
           "close": {
             "line": "+5.5",
-            "odds": "-105",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3777,6 +3777,153 @@
       "records": []
     }
   ],
+  "article": {
+    "id": 50315236,
+    "nowId": "1-50315236",
+    "contentKey": "50315236-1-22-1",
+    "dataSourceIdentifier": "d4a5cd861c1a5",
+    "publishedkey": "nba401909281",
+    "type": "Preview",
+    "gameId": "401909281",
+    "headline": "Magic visit Raptors Friday in NBA Cup group stage",
+    "description": "Orlando Magic (1-3, 11th in the Eastern Conference) vs. Toronto Raptors (3-1, third in the Eastern Conference)",
+    "title": "Magic visit Raptors Friday in NBA Cup group stage",
+    "linkText": "Magic visit Raptors Friday in NBA Cup group stage",
+    "categorized": "2026-10-29T06:02:50Z",
+    "originallyPosted": "2026-10-29T06:02:48Z",
+    "lastModified": "2026-10-29T06:02:49Z",
+    "published": "2026-10-29T06:02:48Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4469,
+        "type": "team",
+        "uid": "s:40~l:46~t:28",
+        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+        "description": "Toronto Raptors",
+        "sportId": 46,
+        "teamId": 28,
+        "team": {
+          "id": 28,
+          "description": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "shortDisplayName": "Raptors",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4309,
+        "type": "team",
+        "uid": "s:40~l:46~t:19",
+        "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
+        "description": "Orlando Magic",
+        "sportId": 46,
+        "teamId": 19,
+        "team": {
+          "id": 19,
+          "description": "Orlando Magic",
+          "abbreviation": "ORL",
+          "shortDisplayName": "Magic",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909281",
+        "guid": "bc8c1baf-448a-3aa3-9200-12cfd87bdb78",
+        "description": "Orlando Magic @ Toronto Raptors",
+        "eventId": 401909281,
+        "event": {
+          "id": 401909281,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Orlando Magic @ Toronto Raptors"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Toronto Raptors",
+      "Orlando Magic",
+      "Orlando Magic @ Toronto Raptors"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/orl/orlando-magic\">Orlando Magic</a> (1-3, 11th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (3-1, third in the Eastern Conference)\n\n\r\n              Toronto; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: Raptors -3.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: The Orlando Magic travel to face the Orlando Magic in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Toronto went 46-36 overall and 33-19 in Eastern Conference action a season ago. The Raptors gave up 111.8 points per game while committing 20.9 fouls last season.\n\n\r\n              Orlando went 45-37 overall and 26-26 in Eastern Conference games during the 2025-26 season. The Magic averaged 115.7 points per game last season, 22.0 from the free-throw line and 35.1 from 3-point range.\n\n\r\n              The teams meet for the second time this season. The Raptors won 129-99 in the last matchup on Oct. 28.\n\n\r\n              INJURIES: Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot).\n\n\r\n              Magic: <a href=\"http://www.espn.com/nba/player/_/id/4432573/paolo-banchero\">Paolo Banchero</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4065654/jonathan-isaac\">Jonathan Isaac</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/5107251/izaiyah-nelson\">Izaiyah Nelson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/5214637/noah-penda\">Noah Penda</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4432165/jalen-suggs\">Jalen Suggs</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315236"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315236"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315236"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909281"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
@@ -3807,6 +3954,140 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50028196,
+        "nowId": "1-50028196",
+        "contentKey": "50028196-1-6-1",
+        "dataSourceIdentifier": "6c1d8d0c3198e",
+        "type": "Story",
+        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+        "lastModified": "2026-10-30T15:09:12Z",
+        "published": "2026-10-30T15:09:12Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9794d99d85fc9",
+            "id": 50241205,
+            "type": "header",
+            "name": "porzingis [608x342] - Copy",
+            "credit": "D. Ross Cameron-Imagn Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1d2dd1b0f7447",
+            "id": 50061081,
+            "type": "header",
+            "name": "kat [608x342]",
+            "credit": "Photo by Caleb Bowlin/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "a754860d3e38f",
+            "id": 50028282,
+            "type": "header",
+            "name": "NBA LOGO [608x342] - Copy",
+            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shams shares context on timing of Anthony Edwards' right knee procedure",
+            "caption": "Shams shares context on timing of Anthony Edwards' right knee procedure ",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_234140793_37138661430/ss_20261027_234140793_37138661430.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409222,
+            "type": "topic",
+            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+            "description": "daily",
+            "sportId": 0,
+            "topicId": 779
+          },
+          {
+            "id": 186377,
+            "type": "topic",
+            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+            "description": "nba free agency",
+            "sportId": 0,
+            "topicId": 677
+          },
+          {
+            "id": 128110,
+            "type": "topic",
+            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+            "description": "news - frontpage",
+            "sportId": 0,
+            "topicId": 92
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50322550,
         "nowId": "1-50322550",
@@ -5508,223 +5789,6 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50325801,
-        "nowId": "1-50325801",
-        "contentKey": "50325801-1-22-1",
-        "dataSourceIdentifier": "4bcfd79972dce",
-        "type": "Preview",
-        "headline": "New Orleans and Atlanta to meet in cross-conference matchup",
-        "description": "Atlanta Hawks (3-3, seventh in the Eastern Conference) vs. New Orleans Pelicans (1-4, 14th in the Western Conference)",
-        "lastModified": "2026-10-30T06:02:47Z",
-        "published": "2026-10-30T06:02:47Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909898.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 114922,
-            "type": "team",
-            "uid": "s:40~l:46~t:3",
-            "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
-            "description": "New Orleans Pelicans",
-            "sportId": 46,
-            "teamId": 3,
-            "team": {
-              "id": 3,
-              "description": "New Orleans Pelicans",
-              "abbreviation": "NO",
-              "shortDisplayName": "Pelicans",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4358,
-            "type": "team",
-            "uid": "s:40~l:46~t:1",
-            "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-            "description": "Atlanta Hawks",
-            "sportId": 46,
-            "teamId": 1,
-            "team": {
-              "id": 1,
-              "description": "Atlanta Hawks",
-              "abbreviation": "ATL",
-              "shortDisplayName": "Hawks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909898",
-            "guid": "c489bf37-4fdd-31dd-9e38-cdac1c576b3b",
-            "description": "Atlanta Hawks @ New Orleans Pelicans",
-            "eventId": 401909898,
-            "event": {
-              "id": 401909898,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Atlanta Hawks @ New Orleans Pelicans"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50325801"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50325801"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50325801"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909898"
-          }
-        },
-        "premium": false
       }
     ]
   },
@@ -6530,6 +6594,7 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
       {
@@ -6548,7 +6613,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/1 @ Lakers 2779 tickets left",
+        "ticketName": "11/1 @ Lakers 2780 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-1-2026/production/7433108?wsUser=717",
         "type": "event"
       },
@@ -6558,17 +6623,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Nuggets 4381 tickets left",
+        "ticketName": "11/4 @ Nuggets 4361 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-4-2026/production/7433090?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Bucks 3265 tickets left",
+        "ticketName": "11/6 @ Bucks 3186 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-30-2026--sports-nba-basketball/production/7418897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Grizzlies 2002 tickets left",
+        "ticketName": "11/9 vs Grizzlies 1994 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-9-2026/production/7433048?wsUser=717",
         "type": "event"
       },
@@ -6578,17 +6643,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ 76ers 3557 tickets left",
+        "ticketName": "11/12 @ 76ers 3551 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Knicks 1221 tickets left",
+        "ticketName": "11/15 vs Knicks 1195 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Knicks 1045 tickets left",
+        "ticketName": "11/17 vs Knicks 1047 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
@@ -6598,17 +6663,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Pistons 4215 tickets left",
+        "ticketName": "11/20 @ Pistons 4219 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Bucks 2306 tickets left",
+        "ticketName": "11/23 vs Bucks 2302 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Nets 1143 tickets left",
+        "ticketName": "11/27 vs Nets 1126 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-10-31-2026--sports-nba-basketball/production/7419365?wsUser=717",
         "type": "event"
       },
@@ -6622,7 +6687,7 @@
       "opponentTeamName": "Magic",
       "currentTeamName": "Raptors",
       "venueName": "Scotiabank Arena",
-      "summary": "Tickets as low as $59",
+      "summary": "Tickets as low as $56",
       "date": "2026-10-30T23:30Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6633,154 +6698,6 @@
       "timeValid": true
     }
   },
-  "article": {
-    "id": 50315236,
-    "nowId": "1-50315236",
-    "contentKey": "50315236-1-22-1",
-    "dataSourceIdentifier": "d4a5cd861c1a5",
-    "publishedkey": "nba401909281",
-    "type": "Preview",
-    "gameId": "401909281",
-    "headline": "Magic visit Raptors Friday in NBA Cup group stage",
-    "description": "Orlando Magic (1-3, 11th in the Eastern Conference) vs. Toronto Raptors (3-1, third in the Eastern Conference)",
-    "title": "Magic visit Raptors Friday in NBA Cup group stage",
-    "linkText": "Magic visit Raptors Friday in NBA Cup group stage",
-    "categorized": "2026-10-29T06:02:50Z",
-    "originallyPosted": "2026-10-29T06:02:48Z",
-    "lastModified": "2026-10-29T06:02:49Z",
-    "published": "2026-10-29T06:02:48Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4469,
-        "type": "team",
-        "uid": "s:40~l:46~t:28",
-        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
-        "description": "Toronto Raptors",
-        "sportId": 46,
-        "teamId": 28,
-        "team": {
-          "id": 28,
-          "description": "Toronto Raptors",
-          "abbreviation": "TOR",
-          "shortDisplayName": "Raptors",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4309,
-        "type": "team",
-        "uid": "s:40~l:46~t:19",
-        "guid": "74c23102-8c27-c8e6-ec1b-8a8fd4d42554",
-        "description": "Orlando Magic",
-        "sportId": 46,
-        "teamId": 19,
-        "team": {
-          "id": 19,
-          "description": "Orlando Magic",
-          "abbreviation": "ORL",
-          "shortDisplayName": "Magic",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/orl/orlando-magic"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909281",
-        "guid": "bc8c1baf-448a-3aa3-9200-12cfd87bdb78",
-        "description": "Orlando Magic @ Toronto Raptors",
-        "eventId": 401909281,
-        "event": {
-          "id": 401909281,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Orlando Magic @ Toronto Raptors"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Toronto Raptors",
-      "Orlando Magic",
-      "Orlando Magic @ Toronto Raptors"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/orl/orlando-magic\">Orlando Magic</a> (1-3, 11th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (3-1, third in the Eastern Conference)\n\n\r\n              Toronto; Friday, 7:30 p.m. EDT\n\n\r\n              LINE: Raptors -3.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: The Orlando Magic travel to face the Orlando Magic in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Toronto went 46-36 overall and 33-19 in Eastern Conference action a season ago. The Raptors gave up 111.8 points per game while committing 20.9 fouls last season.\n\n\r\n              Orlando went 45-37 overall and 26-26 in Eastern Conference games during the 2025-26 season. The Magic averaged 115.7 points per game last season, 22.0 from the free-throw line and 35.1 from 3-point range.\n\n\r\n              The teams meet for the second time this season. The Raptors won 129-99 in the last matchup on Oct. 28.\n\n\r\n              INJURIES: Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot).\n\n\r\n              Magic: <a href=\"http://www.espn.com/nba/player/_/id/4432573/paolo-banchero\">Paolo Banchero</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4065654/jonathan-isaac\">Jonathan Isaac</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/5107251/izaiyah-nelson\">Izaiyah Nelson</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/5214637/noah-penda\">Noah Penda</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4432165/jalen-suggs\">Jalen Suggs</a>: out (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315236"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315236"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315236"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909281"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909281",
     "gameSwitcherEnabled": true,
