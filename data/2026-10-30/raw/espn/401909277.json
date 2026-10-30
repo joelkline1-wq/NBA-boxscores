@@ -663,6 +663,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -727,9 +729,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
         }
       ]
     },
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909853",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
         },
         {
           "id": "401909868",
@@ -3383,7 +3383,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3400,16 +3400,16 @@
           }
         ]
       },
-      "details": "WSH -1.5",
-      "overUnder": 219.5,
-      "spread": -1.5,
-      "overOdds": -110.0,
-      "underOdds": -110.0,
+      "details": "CHA -1.5",
+      "overUnder": 218.5,
+      "spread": 1.5,
+      "overOdds": -108.0,
+      "underOdds": -112.0,
       "awayTeamOdds": {
-        "favorite": false,
-        "underdog": true,
-        "moneyLine": -102,
-        "spreadOdds": -122.0,
+        "favorite": true,
+        "underdog": false,
+        "moneyLine": -112,
+        "spreadOdds": -102.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
         },
@@ -3417,10 +3417,10 @@
         "favoriteAtOpen": true
       },
       "homeTeamOdds": {
-        "favorite": true,
-        "underdog": false,
-        "moneyLine": -118,
-        "spreadOdds": 102.0,
+        "favorite": false,
+        "underdog": true,
+        "moneyLine": -108,
+        "spreadOdds": -118.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/27?lang=en&region=us"
         },
@@ -3434,7 +3434,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0ML85859670_1",
           "text": "Home Bet",
@@ -3458,7 +3458,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0ML85859670_3",
           "text": "Away Bet",
@@ -3483,7 +3483,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670N150_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670P150_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3496,7 +3496,7 @@
               "gameId": 401909277,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:WSH-1.5"
+              "betDetails": "Spread:WSH+1.5"
             }
           }
         },
@@ -3507,7 +3507,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670P150_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670N150_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3520,7 +3520,7 @@
               "gameId": 401909277,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:CHA+1.5"
+              "betDetails": "Spread:CHA-1.5"
             }
           }
         },
@@ -3531,7 +3531,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670O21950_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670O21850_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3544,7 +3544,7 @@
               "gameId": 401909277,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:219.5"
+              "betDetails": "Over:218.5"
             }
           }
         },
@@ -3555,7 +3555,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670U21950_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670U21850_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3568,7 +3568,7 @@
               "gameId": 401909277,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:219.5"
+              "betDetails": "Under:218.5"
             }
           }
         },
@@ -3591,14 +3591,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-118",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0ML85859670_1",
               "text": "Home Bet",
@@ -3623,14 +3623,14 @@
         },
         "away": {
           "close": {
-            "odds": "-102",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0ML85859670_3",
               "text": "Away Bet",
@@ -3659,8 +3659,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-1.5",
-            "odds": "+102",
+            "line": "+1.5",
+            "odds": "-118",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3668,7 +3668,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670N150_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670P150_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3681,7 +3681,7 @@
                   "gameId": 401909277,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:WSH-1.5"
+                  "betDetails": "Spread:WSH+1.5"
                 }
               }
             }
@@ -3693,8 +3693,8 @@
         },
         "away": {
           "close": {
-            "line": "+1.5",
-            "odds": "-122",
+            "line": "-1.5",
+            "odds": "-102",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3702,7 +3702,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670P150_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0HC85859670N150_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3715,7 +3715,7 @@
                   "gameId": 401909277,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:CHA+1.5"
+                  "betDetails": "Spread:CHA-1.5"
                 }
               }
             }
@@ -3731,8 +3731,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o219.5",
-            "odds": "-110",
+            "line": "o218.5",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3740,7 +3740,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670O21950_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670O21850_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3753,7 +3753,7 @@
                   "gameId": 401909277,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:219.5"
+                  "betDetails": "Over:218.5"
                 }
               }
             }
@@ -3765,8 +3765,8 @@
         },
         "under": {
           "close": {
-            "line": "u219.5",
-            "odds": "-110",
+            "line": "u218.5",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3774,7 +3774,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670U21950_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34516264%3Foutcomes%3D0OU85859670U21850_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3787,7 +3787,7 @@
                   "gameId": 401909277,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:219.5"
+                  "betDetails": "Under:218.5"
                 }
               }
             }
@@ -3978,6 +3978,129 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50328871,
+        "nowId": "1-50328871",
+        "contentKey": "50328871-1-5-1",
+        "dataSourceIdentifier": "3ce4a30a1efd5",
+        "type": "HeadlineNews",
+        "headline": "Heat unveil updated Dwyane Wade statue after original's face was panned",
+        "description": "Dwyane Wade has a new face on his statue.",
+        "lastModified": "2026-10-30T16:41:56Z",
+        "published": "2026-10-30T16:41:56Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "a05dce9fbff10",
+            "id": 42040743,
+            "type": "header",
+            "name": "Dwyane Wade poses in front of his statue at the unveiling ceremony outside Kaseya Center. [600x400]",
+            "caption": "Former Heat star Dwyane Wade poses at his statue unveiling ceremony outside Kaseya Center in Miami on Sunday.",
+            "credit": "AP Photo/Michael Laughlin",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2024/1027/r1406810_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4259,
+            "type": "team",
+            "uid": "s:40~l:46~t:14",
+            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+            "description": "Miami Heat",
+            "sportId": 46,
+            "teamId": 14,
+            "team": {
+              "id": 14,
+              "description": "Miami Heat",
+              "abbreviation": "MIA",
+              "shortDisplayName": "Heat",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9402,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:1987",
+            "guid": "e555367f-c657-8096-8816-a75ac1c9d6b2",
+            "description": "Dwyane Wade",
+            "sportId": 46,
+            "athleteId": 1987,
+            "athlete": {
+              "id": 1987,
+              "description": "Dwyane Wade",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1987/dwyane-wade"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1987/dwyane-wade"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50328871"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50328871"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50328871"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50328871/heat-unveil-updated-dwyane-wade-statue-original-face-was-panned"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50028196,
         "nowId": "1-50028196",
@@ -5596,489 +5719,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50325802,
-        "nowId": "1-50325802",
-        "contentKey": "50325802-1-22-1",
-        "dataSourceIdentifier": "dc4aae3c7e363",
-        "type": "Preview",
-        "headline": "Grizzlies play the Kings on 5-game win streak",
-        "description": "Sacramento Kings (0-5, 15th in the Western Conference) vs. Memphis Grizzlies (5-0, second in the Western Conference)",
-        "lastModified": "2026-10-30T06:02:48Z",
-        "published": "2026-10-30T06:02:48Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4584,
-            "type": "team",
-            "uid": "s:40~l:46~t:29",
-            "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-            "description": "Memphis Grizzlies",
-            "sportId": 46,
-            "teamId": 29,
-            "team": {
-              "id": 29,
-              "description": "Memphis Grizzlies",
-              "abbreviation": "MEM",
-              "shortDisplayName": "Grizzlies",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4676,
-            "type": "team",
-            "uid": "s:40~l:46~t:23",
-            "guid": "e266c4ea-9af3-1bd8-06fb-fd608fd30e26",
-            "description": "Sacramento Kings",
-            "sportId": 46,
-            "teamId": 23,
-            "team": {
-              "id": 23,
-              "description": "Sacramento Kings",
-              "abbreviation": "SAC",
-              "shortDisplayName": "Kings",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909899",
-            "guid": "0567b6b3-fc76-36fb-bc5a-c38d82a89205",
-            "description": "Sacramento Kings @ Memphis Grizzlies",
-            "eventId": 401909899,
-            "event": {
-              "id": 401909899,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Sacramento Kings @ Memphis Grizzlies"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50325802"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50325802"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50325802"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909899"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "article": {
-    "id": 50315241,
-    "nowId": "1-50315241",
-    "contentKey": "50315241-1-22-1",
-    "dataSourceIdentifier": "aff5735615262",
-    "publishedkey": "nba401909277",
-    "type": "Preview",
-    "gameId": "401909277",
-    "headline": "Hornets visit Wizards Friday in NBA Cup group stage",
-    "description": "Charlotte Hornets (3-2, sixth in the Eastern Conference) vs. Washington Wizards (2-3, ninth in the Eastern Conference)",
-    "title": "Hornets visit Wizards Friday in NBA Cup group stage",
-    "linkText": "Hornets visit Wizards Friday in NBA Cup group stage",
-    "categorized": "2026-10-29T06:02:55Z",
-    "originallyPosted": "2026-10-29T06:02:54Z",
-    "lastModified": "2026-10-29T06:02:55Z",
-    "published": "2026-10-29T06:02:54Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4339,
-        "type": "team",
-        "uid": "s:40~l:46~t:27",
-        "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-        "description": "Washington Wizards",
-        "sportId": 46,
-        "teamId": 27,
-        "team": {
-          "id": 27,
-          "description": "Washington Wizards",
-          "abbreviation": "WSH",
-          "shortDisplayName": "Wizards",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 127884,
-        "type": "team",
-        "uid": "s:40~l:46~t:30",
-        "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-        "description": "Charlotte Hornets",
-        "sportId": 46,
-        "teamId": 30,
-        "team": {
-          "id": 30,
-          "description": "Charlotte Hornets",
-          "abbreviation": "CHA",
-          "shortDisplayName": "Hornets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909277",
-        "guid": "5163c28c-70dc-34c4-afb9-e61564277e6e",
-        "description": "Charlotte Hornets @ Washington Wizards",
-        "eventId": 401909277,
-        "event": {
-          "id": 401909277,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Charlotte Hornets @ Washington Wizards"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Washington Wizards",
-      "Charlotte Hornets",
-      "Charlotte Hornets @ Washington Wizards"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/cha/charlotte-hornets\">Charlotte Hornets</a> (3-2, sixth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/wsh/washington-wizards\">Washington Wizards</a> (2-3, ninth in the Eastern Conference)\n\n\r\n              Washington; Friday, 7 p.m. EDT\n\n\r\n              LINE: Wizards -1.5; over/under is 235.5\n\n\r\n              BOTTOM LINE: The Charlotte Hornets travel to play the Charlotte Hornets in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Washington finished 17-65 overall and 2-14 in Southeast Division action a season ago. The Wizards allowed opponents to score 124.9 points per game and shoot 48.8% from the field last season.\n\n\r\n              Charlotte went 44-38 overall, 11-5 in Southeast Division games and 23-18 on the road a season ago. The Hornets averaged 116.0 points per game last season, 17.8 on free throws and 49.2 from 3-point range.\n\n\r\n              The teams meet for the second time this season. The Hornets won 110-103 in the last matchup on Oct. 26.\n\n\r\n              INJURIES: Wizards: <a href=\"http://www.espn.com/nba/player/_/id/4997537/tristan-vukcevic\">Tristan Vukcevic</a>: out (hip), <a href=\"http://www.espn.com/nba/player/_/id/4606840/jamir-watkins\">Jamir Watkins</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/5238230/tre-johnson\">Tre Johnson</a>: day to day (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432907/justin-champagnie\">Justin Champagnie</a>: out (foot).\n\n\r\n              Hornets: <a href=\"http://www.espn.com/nba/player/_/id/4066218/grant-williams\">Grant Williams</a>: day to day (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4684269/kylan-boswell\">Kylan Boswell</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5061575/kon-knueppel\">Kon Knueppel</a>: day to day (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395651/coby-white\">Coby White</a>: day to day (calf).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50315241"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50315241"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50315241"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909277"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "27",
-      "gameProjection": "52.8",
-      "teamChanceLoss": "47.2"
-    },
-    "awayTeam": {
-      "id": "30",
-      "gameProjection": "47.2",
-      "teamChanceLoss": "52.8"
-    }
-  },
-  "winprobability": [],
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Wizards Tickets",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "10/30 vs Hornets 3104 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-31-2026--sports-nba-basketball/production/7419803?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/2 @ Magic 2713 tickets left",
-        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-2-2026/production/7433026?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/4 vs Hawks 6237 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-4-2026/production/7433028?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/6 @ Hawks 3651 tickets left",
-        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-31-2026--sports-nba-basketball/production/7419727?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/7 @ Thunder 2014 tickets left",
-        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/9 @ Pistons 5178 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-9-2026/production/7433032?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/11 @ Pacers 3930 tickets left",
-        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-11-2026/production/7432863?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 vs Pistons 7053 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-12-2026/production/7433034?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 vs Rockets 6683 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 vs Grizzlies 8339 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-16-2026/production/7433036?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Raptors 1392 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Bulls 2214 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-31-2026--sports-nba-basketball/production/7419779?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/22 vs Magic 6538 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-22-2026/production/7433044?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/24 vs Celtics 6491 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/28 vs Magic 5821 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-28-2026/production/7431044?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Hornets",
-      "currentTeamName": "Wizards",
-      "venueName": "Capital One Arena",
-      "summary": "Tickets as low as $23",
-      "date": "2026-10-30T23:00Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-31-2026--sports-nba-basketball/production/7419803?wsUser=717",
-      "venueLink": "https://www.vividseats.com/capital-one-arena-tickets/venue/1034?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
-      "timeValid": true
-    }
   },
   "header": {
     "id": "401909277",
@@ -6898,12 +6540,276 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "article": {
+    "id": 50315241,
+    "nowId": "1-50315241",
+    "contentKey": "50315241-1-22-1",
+    "dataSourceIdentifier": "aff5735615262",
+    "publishedkey": "nba401909277",
+    "type": "Preview",
+    "gameId": "401909277",
+    "headline": "Hornets visit Wizards Friday in NBA Cup group stage",
+    "description": "Charlotte Hornets (3-2, sixth in the Eastern Conference) vs. Washington Wizards (2-3, ninth in the Eastern Conference)",
+    "title": "Hornets visit Wizards Friday in NBA Cup group stage",
+    "linkText": "Hornets visit Wizards Friday in NBA Cup group stage",
+    "categorized": "2026-10-29T06:02:55Z",
+    "originallyPosted": "2026-10-29T06:02:54Z",
+    "lastModified": "2026-10-29T06:02:55Z",
+    "published": "2026-10-29T06:02:54Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4339,
+        "type": "team",
+        "uid": "s:40~l:46~t:27",
+        "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
+        "description": "Washington Wizards",
+        "sportId": 46,
+        "teamId": 27,
+        "team": {
+          "id": 27,
+          "description": "Washington Wizards",
+          "abbreviation": "WSH",
+          "shortDisplayName": "Wizards",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 127884,
+        "type": "team",
+        "uid": "s:40~l:46~t:30",
+        "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
+        "description": "Charlotte Hornets",
+        "sportId": 46,
+        "teamId": 30,
+        "team": {
+          "id": 30,
+          "description": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "shortDisplayName": "Hornets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909277",
+        "guid": "5163c28c-70dc-34c4-afb9-e61564277e6e",
+        "description": "Charlotte Hornets @ Washington Wizards",
+        "eventId": 401909277,
+        "event": {
+          "id": 401909277,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Charlotte Hornets @ Washington Wizards"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Washington Wizards",
+      "Charlotte Hornets",
+      "Charlotte Hornets @ Washington Wizards"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/cha/charlotte-hornets\">Charlotte Hornets</a> (3-2, sixth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/wsh/washington-wizards\">Washington Wizards</a> (2-3, ninth in the Eastern Conference)\n\n\r\n              Washington; Friday, 7 p.m. EDT\n\n\r\n              LINE: Wizards -1.5; over/under is 235.5\n\n\r\n              BOTTOM LINE: The Charlotte Hornets travel to play the Charlotte Hornets in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Washington finished 17-65 overall and 2-14 in Southeast Division action a season ago. The Wizards allowed opponents to score 124.9 points per game and shoot 48.8% from the field last season.\n\n\r\n              Charlotte went 44-38 overall, 11-5 in Southeast Division games and 23-18 on the road a season ago. The Hornets averaged 116.0 points per game last season, 17.8 on free throws and 49.2 from 3-point range.\n\n\r\n              The teams meet for the second time this season. The Hornets won 110-103 in the last matchup on Oct. 26.\n\n\r\n              INJURIES: Wizards: <a href=\"http://www.espn.com/nba/player/_/id/4997537/tristan-vukcevic\">Tristan Vukcevic</a>: out (hip), <a href=\"http://www.espn.com/nba/player/_/id/4606840/jamir-watkins\">Jamir Watkins</a>: out for season (acl), <a href=\"http://www.espn.com/nba/player/_/id/5238230/tre-johnson\">Tre Johnson</a>: day to day (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432907/justin-champagnie\">Justin Champagnie</a>: out (foot).\n\n\r\n              Hornets: <a href=\"http://www.espn.com/nba/player/_/id/4066218/grant-williams\">Grant Williams</a>: day to day (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4684269/kylan-boswell\">Kylan Boswell</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5061575/kon-knueppel\">Kon Knueppel</a>: day to day (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395651/coby-white\">Coby White</a>: day to day (calf).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50315241"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50315241"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50315241"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909277"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909277",
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
+  },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "27",
+      "gameProjection": "52.8",
+      "teamChanceLoss": "47.2"
+    },
+    "awayTeam": {
+      "id": "30",
+      "gameProjection": "47.2",
+      "teamChanceLoss": "52.8"
+    }
+  },
+  "winprobability": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Wizards Tickets",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "10/30 vs Hornets 2912 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-31-2026--sports-nba-basketball/production/7419803?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/2 @ Magic 2700 tickets left",
+        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-2-2026/production/7433026?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/4 vs Hawks 6260 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-4-2026/production/7433028?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/6 @ Hawks 3661 tickets left",
+        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-31-2026--sports-nba-basketball/production/7419727?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/7 @ Thunder 1996 tickets left",
+        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/9 @ Pistons 5214 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-9-2026/production/7433032?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/11 @ Pacers 3934 tickets left",
+        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-11-2026/production/7432863?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 vs Pistons 7002 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-12-2026/production/7433034?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 vs Rockets 6683 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 vs Grizzlies 8293 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-16-2026/production/7433036?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Raptors 1383 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Bulls 2212 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-31-2026--sports-nba-basketball/production/7419779?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/22 vs Magic 6557 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-22-2026/production/7433044?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/24 vs Celtics 6491 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/28 vs Magic 5836 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-28-2026/production/7431044?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Hornets",
+      "currentTeamName": "Wizards",
+      "venueName": "Capital One Arena",
+      "summary": "Tickets as low as $21",
+      "date": "2026-10-30T23:00Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-31-2026--sports-nba-basketball/production/7419803?wsUser=717",
+      "venueLink": "https://www.vividseats.com/capital-one-arena-tickets/venue/1034?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
+      "timeValid": true
+    }
   },
   "standings": {
     "fullViewLink": {
