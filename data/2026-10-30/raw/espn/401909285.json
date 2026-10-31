@@ -220,7 +220,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Tony Brothers",
+        "displayName": "Tony Brothers",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "John Butler",
+        "displayName": "John Butler",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Jenna Schroeder",
+        "displayName": "Jenna Schroeder",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -398,8 +430,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -464,7 +494,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909860",
@@ -486,8 +518,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -552,7 +582,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909876",
@@ -995,8 +1027,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1061,7 +1091,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909880",
@@ -1083,8 +1115,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -1149,7 +1179,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909892",
@@ -2732,64 +2764,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-10-30T20:37Z",
-          "athlete": {
-            "id": "4997536",
-            "uid": "s:40~l:46~a:4997536",
-            "guid": "3bcac1e3-9862-3a7c-b106-edf763dd24a2",
-            "lastName": "Santos",
-            "fullName": "Gui Santos",
-            "displayName": "Gui Santos",
-            "shortName": "G. Santos",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4997536/gui-santos",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4997536.png",
-              "alt": "Gui Santos"
-            },
-            "jersey": "15",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "detail": "Tendinitis",
-            "side": "Left",
-            "returnDate": "2026-10-30"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-10-28T14:25Z",
           "athlete": {
@@ -3765,6 +3739,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "9",
+      "gameProjection": "36.4",
+      "teamChanceLoss": "63.6"
+    },
+    "awayTeam": {
+      "id": "13",
+      "gameProjection": "63.6",
+      "teamChanceLoss": "36.4"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3781,6 +3769,332 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50332283,
+        "nowId": "1-50332283",
+        "contentKey": "50332283-1-5-1",
+        "dataSourceIdentifier": "3e5b974914afb",
+        "type": "HeadlineNews",
+        "headline": "Thunder's Chet Holmgren out 8-10 weeks due to small patellar tendon tear",
+        "description": "Thunder star Chet Holmgren will be out 8-to-10 weeks with a knee injury.",
+        "lastModified": "2026-10-31T01:08:35Z",
+        "published": "2026-10-31T01:08:35Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "3c513f5cd44f1",
+            "id": 48703572,
+            "type": "header",
+            "name": "Chet Holmgren [600x600]",
+            "caption": "Chet Holmgren led the Thunder with 24 points, 12 rebounds and three blocks in the decisive Game 1 win over the Lakers.",
+            "alt": "Chet Holmgren #7 of the Oklahoma City Thunder shoots over Austin Reaves #15 of the Los Angeles Lakers during the first quarter in Game One of the Second Round of the NBA Western Conference Playoffs at Paycom Center on May 05, 2026 in Oklahoma City, Oklaho",
+            "credit": "Joshua Gateley/Getty Images",
+            "height": 600,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/0507/r1654866_600x600_1-1.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Chet Holmgren's block leads to a Jalen Williams alley-oop slam",
+            "caption": "Chet Holmgren's block leads to a Jalen Williams alley-oop slam",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/c33e2b6b-b06d-4fbf-b26b-8aa6e64a4c58/c33e2b6b-b06d-4fbf-b26b-8aa6e64a4c58.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4695,
+            "type": "team",
+            "uid": "s:40~l:46~t:25",
+            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
+            "description": "Oklahoma City Thunder",
+            "sportId": 46,
+            "teamId": 25,
+            "team": {
+              "id": 25,
+              "description": "Oklahoma City Thunder",
+              "abbreviation": "OKC",
+              "shortDisplayName": "Thunder",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 533676,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4433255",
+            "guid": "d28316e9-20cc-3cb2-b5d7-afdb6418315b",
+            "description": "Chet Holmgren",
+            "sportId": 46,
+            "athleteId": 4433255,
+            "athlete": {
+              "id": 4433255,
+              "description": "Chet Holmgren",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50332283"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50332283"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50332283"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50332283/thunder-say-chet-holmgren-8-10-weeks-due-knee"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50321862,
+        "nowId": "1-50321862",
+        "contentKey": "50321862-1-6-1",
+        "dataSourceIdentifier": "d1b38874c3c64",
+        "type": "Story",
+        "headline": "Halloween 2026: Breaking down top athlete costumes from across the sports world",
+        "description": "Athletes far and wide across the sports world showed off special costumes for Halloween.",
+        "lastModified": "2026-10-31T00:38:27Z",
+        "published": "2026-10-31T00:38:27Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "8f0da3fef827b",
+            "id": 50331907,
+            "type": "header",
+            "name": "Yaxel Lendeborg [1296x729]",
+            "caption": "Yaxel Lendeborg arrives as Michael Myers from \"Halloween.\"",
+            "credit": "Warriors/X",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1031/r1738784_1296x729_16-9.png"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 80311,
+            "type": "league",
+            "uid": "s:1~l:10",
+            "guid": "b38f959b-7865-31ac-8841-b88355519e10",
+            "description": "MLB",
+            "sportId": 10,
+            "leagueId": 10,
+            "league": {
+              "id": 10,
+              "description": "MLB",
+              "abbreviation": "MLB",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mlb/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mlb/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9572,
+            "type": "league",
+            "uid": "s:20~l:28",
+            "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+            "description": "NFL",
+            "sportId": 28,
+            "leagueId": 28,
+            "league": {
+              "id": 28,
+              "description": "NFL",
+              "abbreviation": "NFL",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9580,
+            "type": "league",
+            "uid": "s:70~l:90",
+            "guid": "1a5f0227-a13e-396c-8cea-8961bc288666",
+            "description": "NHL",
+            "sportId": 90,
+            "leagueId": 90,
+            "league": {
+              "id": 90,
+              "description": "NHL",
+              "abbreviation": "NHL",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nhl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nhl/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50321862"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50321862"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50321862"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50321862/halloween-athlete-costumes-2026"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50331446,
         "nowId": "1-50331446",
@@ -4429,334 +4743,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50329588,
-        "nowId": "1-50329588",
-        "contentKey": "50329588-1-5-1",
-        "dataSourceIdentifier": "1d73e02030401",
-        "type": "HeadlineNews",
-        "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
-        "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-        "lastModified": "2026-10-30T20:36:51Z",
-        "published": "2026-10-30T20:36:51Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "e671690067c45",
-            "id": 50324769,
-            "type": "header",
-            "name": "Ja Morant [1296x729]",
-            "caption": "Ja Morant drives to the basket vs. Memphis Grizzlies at Moda Center in Portland, Oregon, on Oct. 29, 2026",
-            "credit": "Cameron Browne/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1030/r1738441_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Ja Morant hits spin move with slick fake before sinking jumper",
-            "caption": "Ja Morant hits spin move with slick fake before sinking jumper  ",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/ss_20261029_225218748_3716467/ss_20261029_225218748_3716467.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 384247,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4279888",
-            "guid": "de5f87e0-8571-a730-ade4-6d00d10b8577",
-            "description": "Ja Morant",
-            "sportId": 46,
-            "athleteId": 4279888,
-            "athlete": {
-              "id": 4279888,
-              "description": "Ja Morant",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4279888/ja-morant"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4279888/ja-morant"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4659,
-            "type": "team",
-            "uid": "s:40~l:46~t:22",
-            "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
-            "description": "Portland Trail Blazers",
-            "sportId": 46,
-            "teamId": 22,
-            "team": {
-              "id": 22,
-              "description": "Portland Trail Blazers",
-              "abbreviation": "POR",
-              "shortDisplayName": "Trail Blazers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 4584,
-            "type": "team",
-            "uid": "s:40~l:46~t:29",
-            "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-            "description": "Memphis Grizzlies",
-            "sportId": 46,
-            "teamId": 29,
-            "team": {
-              "id": 29,
-              "description": "Memphis Grizzlies",
-              "abbreviation": "MEM",
-              "shortDisplayName": "Grizzlies",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 760098,
-            "type": "contributor",
-            "guid": "f877b8fa-3df9-3c82-b503-dc37aea5f4cb",
-            "description": "Ben Golliver",
-            "slug": "ben-golliver",
-            "contributor": {
-              "id": 4381,
-              "description": "Ben Golliver"
-            }
-          }
-        ],
-        "byline": "Ben Golliver",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50329588"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50329588"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50329588"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50329588/ja-morant-least-four-weeks-injury-vs-grizzlies"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50028196,
-        "nowId": "1-50028196",
-        "contentKey": "50028196-1-6-1",
-        "dataSourceIdentifier": "6c1d8d0c3198e",
-        "type": "Story",
-        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-10-30T18:46:15Z",
-        "published": "2026-10-30T18:46:15Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "9794d99d85fc9",
-            "id": 50241205,
-            "type": "header",
-            "name": "porzingis [608x342] - Copy",
-            "credit": "D. Ross Cameron-Imagn Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "1d2dd1b0f7447",
-            "id": 50061081,
-            "type": "header",
-            "name": "kat [608x342]",
-            "credit": "Photo by Caleb Bowlin/Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "a754860d3e38f",
-            "id": 50028282,
-            "type": "header",
-            "name": "NBA LOGO [608x342] - Copy",
-            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Shams shares context on timing of Anthony Edwards' right knee procedure",
-            "caption": "Shams shares context on timing of Anthony Edwards' right knee procedure ",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_234140793_37138661430/ss_20261027_234140793_37138661430.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409222,
-            "type": "topic",
-            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
-            "description": "daily",
-            "sportId": 0,
-            "topicId": 779
-          },
-          {
-            "id": 186377,
-            "type": "topic",
-            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
-            "description": "nba free agency",
-            "sportId": 0,
-            "topicId": 677
-          },
-          {
-            "id": 128110,
-            "type": "topic",
-            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-            "description": "news - frontpage",
-            "sportId": 0,
-            "topicId": 92
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "9",
-      "gameProjection": "36.7",
-      "teamChanceLoss": "63.3"
-    },
-    "awayTeam": {
-      "id": "13",
-      "gameProjection": "63.3",
-      "teamChanceLoss": "36.7"
-    }
   },
   "header": {
     "id": "401909285",
@@ -5721,72 +5709,72 @@
         "type": "team"
       },
       {
-        "ticketName": "10/30 vs Lakers 1160 tickets left",
+        "ticketName": "10/30 vs Lakers 509 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-10-30-2026--sports-nba-basketball/production/7420142?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/1 vs Clippers 4203 tickets left",
+        "ticketName": "11/1 vs Clippers 4156 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-1-2026/production/7432837?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Suns 5449 tickets left",
+        "ticketName": "11/2 vs Suns 5423 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-2-2026/production/7432839?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 vs Heat 4795 tickets left",
+        "ticketName": "11/5 vs Heat 4736 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-5-2026/production/7432841?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Magic 5105 tickets left",
+        "ticketName": "11/7 vs Magic 5067 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-7-2026/production/7432843?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Pelicans 5653 tickets left",
+        "ticketName": "11/9 vs Pelicans 5687 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-9-2026/production/7432805?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 @ Rockets 4023 tickets left",
+        "ticketName": "11/11 @ Rockets 4008 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Spurs 3749 tickets left",
+        "ticketName": "11/13 @ Spurs 3699 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-30-2026--sports-nba-basketball/production/7420264?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Pelicans 3660 tickets left",
+        "ticketName": "11/16 @ Pelicans 3606 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-16-2026/production/7432811?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Mavericks 6283 tickets left",
+        "ticketName": "11/18 @ Mavericks 6271 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-18-2026/production/7433092?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Grizzlies 4789 tickets left",
+        "ticketName": "11/19 @ Grizzlies 4783 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-19-2026/production/7433056?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Celtics 4971 tickets left",
+        "ticketName": "11/22 vs Celtics 5004 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-22-2026/production/7431216?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Kings 6497 tickets left",
+        "ticketName": "11/25 vs Kings 6509 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-10-31-2026--sports-nba-basketball/production/7420144?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Trail Blazers 4624 tickets left",
+        "ticketName": "11/27 @ Trail Blazers 4592 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-31-2026--sports-nba-basketball/production/7420198?wsUser=717",
         "type": "event"
       },
@@ -5800,7 +5788,7 @@
       "opponentTeamName": "Lakers",
       "currentTeamName": "Warriors",
       "venueName": "Chase Center",
-      "summary": "Tickets as low as $85",
+      "summary": "Tickets as low as $79",
       "date": "2026-10-31T02:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
