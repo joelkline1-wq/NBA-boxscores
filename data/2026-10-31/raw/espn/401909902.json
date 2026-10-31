@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909094",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909873",
@@ -3272,7 +3272,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 120,
-        "spreadOdds": -115.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/25?lang=en&region=us"
         },
@@ -3283,7 +3283,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -142,
-        "spreadOdds": -105.0,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
         },
@@ -3523,7 +3523,7 @@
         "home": {
           "close": {
             "line": "-2.5",
-            "odds": "-105",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3557,7 +3557,7 @@
         "away": {
           "close": {
             "line": "+2.5",
-            "odds": "-115",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3825,6 +3825,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "10",
+      "gameProjection": "44.5",
+      "teamChanceLoss": "55.5"
+    },
+    "awayTeam": {
+      "id": "25",
+      "gameProjection": "55.5",
+      "teamChanceLoss": "44.5"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5156,20 +5170,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "10",
-      "gameProjection": "44.5",
-      "teamChanceLoss": "55.5"
-    },
-    "awayTeam": {
-      "id": "25",
-      "gameProjection": "55.5",
-      "teamChanceLoss": "44.5"
-    }
-  },
   "article": {
     "id": 50333811,
     "nowId": "1-50333811",
@@ -5330,7 +5330,7 @@
         "type": "team"
       },
       {
-        "ticketName": "10/31 vs Thunder 1886 tickets left",
+        "ticketName": "10/31 vs Thunder 2450 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026/production/7432953?wsUser=717",
         "type": "event"
       },
@@ -5340,12 +5340,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Timberwolves 2780 tickets left",
+        "ticketName": "11/4 vs Timberwolves 2775 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-4-2026/production/7432911?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Suns 3826 tickets left",
+        "ticketName": "11/7 @ Suns 3825 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
         "type": "event"
       },
@@ -5360,22 +5360,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Jazz 5175 tickets left",
+        "ticketName": "11/13 vs Jazz 5181 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Wizards 8614 tickets left",
+        "ticketName": "11/15 @ Wizards 8617 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Heat 6137 tickets left",
+        "ticketName": "11/16 @ Heat 6139 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Pacers 4785 tickets left",
+        "ticketName": "11/18 @ Pacers 4782 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
         "type": "event"
       },
@@ -5385,12 +5385,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Clippers 5872 tickets left",
+        "ticketName": "11/23 vs Clippers 5832 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Suns 4475 tickets left",
+        "ticketName": "11/25 vs Suns 4471 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-30-2026--sports-nba-basketball/production/7418039?wsUser=717",
         "type": "event"
       },

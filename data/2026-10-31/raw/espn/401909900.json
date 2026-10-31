@@ -398,6 +398,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -462,9 +464,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
         },
         {
           "id": "401909855",
@@ -574,8 +574,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -640,7 +638,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909887",
@@ -1171,6 +1171,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -1235,9 +1237,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
         }
       ]
     }
@@ -3144,7 +3144,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -375,
+        "moneyLine": -395,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/5?lang=en&region=us"
@@ -3155,7 +3155,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 295,
+        "moneyLine": 310,
         "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/15?lang=en&region=us"
@@ -3327,7 +3327,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+295",
+            "odds": "+310",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3359,7 +3359,7 @@
         },
         "away": {
           "close": {
-            "odds": "-375",
+            "odds": "-395",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3698,6 +3698,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "15",
+      "gameProjection": "26",
+      "teamChanceLoss": "74"
+    },
+    "awayTeam": {
+      "id": "5",
+      "gameProjection": "74",
+      "teamChanceLoss": "26"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5029,20 +5043,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "15",
-      "gameProjection": "26",
-      "teamChanceLoss": "74"
-    },
-    "awayTeam": {
-      "id": "5",
-      "gameProjection": "74",
-      "teamChanceLoss": "26"
-    }
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5056,7 +5056,7 @@
         "type": "team"
       },
       {
-        "ticketName": "10/31 vs Cavaliers 4871 tickets left",
+        "ticketName": "10/31 vs Cavaliers 3134 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-31-2026/production/7432825?wsUser=717",
         "type": "event"
       },
@@ -5066,7 +5066,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Celtics 3895 tickets left",
+        "ticketName": "11/4 @ Celtics 3900 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-4-2026/production/7432889?wsUser=717",
         "type": "event"
       },
@@ -5076,7 +5076,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Celtics 5117 tickets left",
+        "ticketName": "11/8 vs Celtics 5115 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-8-2026/production/7432891?wsUser=717",
         "type": "event"
       },
@@ -5086,7 +5086,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Lakers 3816 tickets left",
+        "ticketName": "11/11 vs Lakers 3814 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-11-2026/production/7432895?wsUser=717",
         "type": "event"
       },
@@ -5096,7 +5096,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hawks 6011 tickets left",
+        "ticketName": "11/15 vs Hawks 6009 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-15-2026/production/7432897?wsUser=717",
         "type": "event"
       },
@@ -5111,22 +5111,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ 76ers 3286 tickets left",
+        "ticketName": "11/21 @ 76ers 3282 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Raptors 2273 tickets left",
+        "ticketName": "11/23 @ Raptors 2264 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Nets 5694 tickets left",
+        "ticketName": "11/25 vs Nets 5680 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-31-2026--sports-nba-basketball/production/7418939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Pistons 4305 tickets left",
+        "ticketName": "11/27 @ Pistons 4304 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-30-2026--sports-nba-basketball/production/7418559?wsUser=717",
         "type": "event"
       }
