@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909853",
@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
         },
         {
           "id": "401909277",
@@ -1084,8 +1084,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1150,7 +1148,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909280",
@@ -1734,11 +1734,26 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Day-To-Day",
+                "injuries": {
+                  "status": "Day-To-Day",
+                  "date": "2026-10-31T13:48Z",
+                  "type": {
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
+                    },
+                    "type": "Rest",
+                    "location": "Other",
+                    "returnDate": "2026-10-31"
+                  }
                 }
               },
               "statistics": [
@@ -1814,11 +1829,26 @@
                   "displayName": "Center",
                   "abbreviation": "C"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Day-To-Day",
+                "injuries": {
+                  "status": "Day-To-Day",
+                  "date": "2026-10-31T13:42Z",
+                  "type": {
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
+                    },
+                    "type": "Rest",
+                    "location": "Other",
+                    "returnDate": "2026-10-31"
+                  }
                 }
               },
               "statistics": [
@@ -2781,9 +2811,9 @@
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Hamstring",
             "location": "Leg",
@@ -2841,9 +2871,9 @@
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Calf",
             "location": "Leg",
@@ -3043,6 +3073,121 @@
       "injuries": [
         {
           "status": "Day-To-Day",
+          "date": "2026-10-31T13:48Z",
+          "athlete": {
+            "id": "1966",
+            "uid": "s:40~l:46~a:1966",
+            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
+            "lastName": "James",
+            "fullName": "LeBron James",
+            "displayName": "LeBron James",
+            "shortName": "L. James",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+              "alt": "LeBron James"
+            },
+            "jersey": "23",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Rest",
+            "location": "Other",
+            "returnDate": "2026-10-31"
+          }
+        },
+        {
+          "status": "Day-To-Day",
+          "date": "2026-10-31T13:42Z",
+          "athlete": {
+            "id": "3059318",
+            "uid": "s:40~l:46~a:3059318",
+            "guid": "89410119-0011-5ba0-efed-7b0b6c756c23",
+            "lastName": "Embiid",
+            "fullName": "Joel Embiid",
+            "displayName": "Joel Embiid",
+            "shortName": "J. Embiid",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",
+              "alt": "Joel Embiid"
+            },
+            "jersey": "21",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/67433?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Rest",
+            "location": "Other",
+            "returnDate": "2026-10-31"
+          }
+        },
+        {
+          "status": "Day-To-Day",
           "date": "2026-10-31T04:58Z",
           "athlete": {
             "id": "3917376",
@@ -3221,122 +3366,6 @@
             "side": "Left",
             "returnDate": "2026-11-04"
           }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-19T21:07Z",
-          "athlete": {
-            "id": "4870562",
-            "uid": "s:40~l:46~a:4870562",
-            "guid": "b6f6857f-9a83-30a6-85a7-2e02c49d5ae5",
-            "lastName": "Barlow",
-            "fullName": "Dominick Barlow",
-            "displayName": "Dominick Barlow",
-            "shortName": "D. Barlow",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4870562/dominick-barlow",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
-              "alt": "Dominick Barlow"
-            },
-            "jersey": "25",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Back",
-            "location": "Torso",
-            "detail": "Fracture",
-            "side": "Not Specified",
-            "returnDate": "2026-11-04"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-06T19:17Z",
-          "athlete": {
-            "id": "4871141",
-            "uid": "s:40~l:46~a:4871141",
-            "guid": "a6049cfa-a67e-3f3b-b609-5dba889ec7a6",
-            "lastName": "Hukporti",
-            "fullName": "Ariel Hukporti",
-            "displayName": "Ariel Hukporti",
-            "shortName": "A. Hukporti",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png",
-              "alt": "Ariel Hukporti"
-            },
-            "jersey": "55",
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OFS",
-              "abbreviation": "OFS",
-              "displayDescription": "OFS"
-            },
-            "type": "Achilles",
-            "location": "Leg",
-            "detail": "Surgery",
-            "side": "Right",
-            "returnDate": "2027-10-01"
-          }
         }
       ]
     }
@@ -3346,7 +3375,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3397,7 +3426,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34924861%3Foutcomes%3D0ML86994135_1",
           "text": "Home Bet",
@@ -3421,7 +3450,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34924861%3Foutcomes%3D0ML86994135_3",
           "text": "Away Bet",
@@ -3561,7 +3590,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34924861%3Foutcomes%3D0ML86994135_1",
               "text": "Home Bet",
@@ -3593,7 +3622,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34924861%3Foutcomes%3D0ML86994135_3",
               "text": "Away Bet",
@@ -4599,9 +4628,9 @@
         "dataSourceIdentifier": "aca0934966dad",
         "type": "HeadlineNews",
         "headline": "Curry's ankle-breaker on Luka highlights Warriors' stunning 25-point comeback",
-        "description": "Behind a theatrical 31 points from Stephen Curry late Friday night, the Golden State Warriors roared back for a 112-95 win over the Los Angeles Lakers.",
-        "lastModified": "2026-10-31T11:49:27Z",
-        "published": "2026-10-31T11:49:27Z",
+        "description": "Behind a theatrical 31 points from Stephen Curry, the Warriors roared back for a 112-95 win over the Lakers.",
+        "lastModified": "2026-10-31T13:24:50Z",
+        "published": "2026-10-31T13:24:50Z",
         "images": [
           {
             "dataSourceIdentifier": "8c2fbcc4bed20",
@@ -4609,7 +4638,7 @@
             "type": "header",
             "name": "Stephen Curry [600x400]",
             "caption": "Stephen Curry brought the crowd to its feet when he dropped Luka Doncic to the floor before hitting a 3 for the Warriors, who turned a 25-point deficit into a 17-point win.",
-            "credit": "Photo by Ezra Shaw/Getty Images",
+            "credit": "Ezra Shaw/Getty Images",
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/1031/r1738862_600x400_3-2.jpg"
@@ -4676,6 +4705,116 @@
                 }
               }
             }
+          },
+          {
+            "id": 66001,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3975",
+            "guid": "5dda51f1-50c9-66e1-2026-400b73f34fad",
+            "description": "Stephen Curry",
+            "sportId": 46,
+            "athleteId": 3975,
+            "athlete": {
+              "id": 3975,
+              "description": "Stephen Curry",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3975/stephen-curry"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3975/stephen-curry"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 159574,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3945274",
+            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
+            "description": "Luka Doncic",
+            "sportId": 46,
+            "athleteId": 3945274,
+            "athlete": {
+              "id": 3945274,
+              "description": "Luka Doncic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 634271,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5175737",
+            "guid": "b037d625-6e30-391c-a906-b39ea32c281f",
+            "description": "Yaxel Lendeborg",
+            "sportId": 46,
+            "athleteId": 5175737,
+            "athlete": {
+              "id": 5175737,
+              "description": "Yaxel Lendeborg",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
           },
           {
             "id": 737429,
@@ -5146,7 +5285,6 @@
       }
     ]
   },
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -5160,6 +5298,154 @@
       "teamChanceLoss": "28.4"
     }
   },
+  "winprobability": [],
+  "article": {
+    "id": 50333644,
+    "nowId": "1-50333644",
+    "contentKey": "50333644-1-22-1",
+    "dataSourceIdentifier": "80112bbb8bfe1",
+    "publishedkey": "nba401909897",
+    "type": "Preview",
+    "gameId": "401909897",
+    "headline": "Charlotte plays conference foe Philadelphia",
+    "description": "Philadelphia 76ers (5-1, second in the Eastern Conference) vs. Charlotte Hornets (3-3, seventh in the Eastern Conference)",
+    "title": "Charlotte plays conference foe Philadelphia",
+    "linkText": "Charlotte plays conference foe Philadelphia",
+    "categorized": "2026-10-31T06:02:59Z",
+    "originallyPosted": "2026-10-31T06:02:58Z",
+    "lastModified": "2026-10-31T06:02:59Z",
+    "published": "2026-10-31T06:02:58Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 127884,
+        "type": "team",
+        "uid": "s:40~l:46~t:30",
+        "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
+        "description": "Charlotte Hornets",
+        "sportId": 46,
+        "teamId": 30,
+        "team": {
+          "id": 30,
+          "description": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "shortDisplayName": "Hornets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4323,
+        "type": "team",
+        "uid": "s:40~l:46~t:20",
+        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+        "description": "Philadelphia 76ers",
+        "sportId": 46,
+        "teamId": 20,
+        "team": {
+          "id": 20,
+          "description": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "shortDisplayName": "76ers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909897",
+        "guid": "c59377b2-0612-3b8f-bb51-46097f369a72",
+        "description": "Philadelphia 76ers @ Charlotte Hornets",
+        "eventId": 401909897,
+        "event": {
+          "id": 401909897,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Philadelphia 76ers @ Charlotte Hornets"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Charlotte Hornets",
+      "Philadelphia 76ers",
+      "Philadelphia 76ers @ Charlotte Hornets"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (5-1, second in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/cha/charlotte-hornets\">Charlotte Hornets</a> (3-3, seventh in the Eastern Conference)\n\n\r\n              Charlotte, North Carolina; Saturday, 6 p.m. EDT\n\n\r\n              LINE: 76ers -1.5; over/under is 216.5\n\n\r\n              BOTTOM LINE: Philadelphia visits Charlotte for an Eastern Conference matchup.\n\n\r\n              Charlotte went 44-38 overall and 26-26 in Eastern Conference games last season. The Hornets averaged 116.0 points per game last season, 45.2 in the paint, 15.6 off of turnovers and 13.3 on fast breaks.\n\n\r\n              Philadelphia finished 45-37 overall and 27-25 in Eastern Conference games during the 2025-26 season. The 76ers averaged 18.9 points off of turnovers, 15.4 second-chance points and 32.4 bench points last season.\n\n\r\n              INJURIES: Hornets: <a href=\"http://www.espn.com/nba/player/_/id/4066218/grant-williams\">Grant Williams</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4684269/kylan-boswell\">Kylan Boswell</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5061575/kon-knueppel\">Kon Knueppel</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395651/coby-white\">Coby White</a>: out (calf).\n\n\r\n              76ers: <a href=\"http://www.espn.com/nba/player/_/id/3917376/jaylen-brown\">Jaylen Brown</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432446/jabari-walker\">Jabari Walker</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: out (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50333644"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50333644"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50333644"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909897"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909897",
     "uid": "s:40~l:46~e:401909897",
@@ -5961,153 +6247,6 @@
       ]
     }
   },
-  "article": {
-    "id": 50333644,
-    "nowId": "1-50333644",
-    "contentKey": "50333644-1-22-1",
-    "dataSourceIdentifier": "80112bbb8bfe1",
-    "publishedkey": "nba401909897",
-    "type": "Preview",
-    "gameId": "401909897",
-    "headline": "Charlotte plays conference foe Philadelphia",
-    "description": "Philadelphia 76ers (5-1, second in the Eastern Conference) vs. Charlotte Hornets (3-3, seventh in the Eastern Conference)",
-    "title": "Charlotte plays conference foe Philadelphia",
-    "linkText": "Charlotte plays conference foe Philadelphia",
-    "categorized": "2026-10-31T06:02:59Z",
-    "originallyPosted": "2026-10-31T06:02:58Z",
-    "lastModified": "2026-10-31T06:02:59Z",
-    "published": "2026-10-31T06:02:58Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 127884,
-        "type": "team",
-        "uid": "s:40~l:46~t:30",
-        "guid": "377633c2-0dd1-91a1-83c0-9ed2d0c00ea1",
-        "description": "Charlotte Hornets",
-        "sportId": 46,
-        "teamId": 30,
-        "team": {
-          "id": 30,
-          "description": "Charlotte Hornets",
-          "abbreviation": "CHA",
-          "shortDisplayName": "Hornets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4323,
-        "type": "team",
-        "uid": "s:40~l:46~t:20",
-        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-        "description": "Philadelphia 76ers",
-        "sportId": 46,
-        "teamId": 20,
-        "team": {
-          "id": 20,
-          "description": "Philadelphia 76ers",
-          "abbreviation": "PHI",
-          "shortDisplayName": "76ers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909897",
-        "guid": "c59377b2-0612-3b8f-bb51-46097f369a72",
-        "description": "Philadelphia 76ers @ Charlotte Hornets",
-        "eventId": 401909897,
-        "event": {
-          "id": 401909897,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Philadelphia 76ers @ Charlotte Hornets"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Charlotte Hornets",
-      "Philadelphia 76ers",
-      "Philadelphia 76ers @ Charlotte Hornets"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (5-1, second in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/cha/charlotte-hornets\">Charlotte Hornets</a> (3-3, seventh in the Eastern Conference)\n\n\r\n              Charlotte, North Carolina; Saturday, 6 p.m. EDT\n\n\r\n              LINE: 76ers -1.5; over/under is 216.5\n\n\r\n              BOTTOM LINE: Philadelphia visits Charlotte for an Eastern Conference matchup.\n\n\r\n              Charlotte went 44-38 overall and 26-26 in Eastern Conference games last season. The Hornets averaged 116.0 points per game last season, 45.2 in the paint, 15.6 off of turnovers and 13.3 on fast breaks.\n\n\r\n              Philadelphia finished 45-37 overall and 27-25 in Eastern Conference games during the 2025-26 season. The 76ers averaged 18.9 points off of turnovers, 15.4 second-chance points and 32.4 bench points last season.\n\n\r\n              INJURIES: Hornets: <a href=\"http://www.espn.com/nba/player/_/id/4066218/grant-williams\">Grant Williams</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4684269/kylan-boswell\">Kylan Boswell</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5061575/kon-knueppel\">Kon Knueppel</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395651/coby-white\">Coby White</a>: out (calf).\n\n\r\n              76ers: <a href=\"http://www.espn.com/nba/player/_/id/3917376/jaylen-brown\">Jaylen Brown</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/4432446/jabari-walker\">Jabari Walker</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3904625/tacko-fall\">Tacko Fall</a>: out (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50333644"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50333644"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50333644"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909897"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -6122,27 +6261,27 @@
         "type": "team"
       },
       {
-        "ticketName": "10/31 vs 76ers 3313 tickets left",
+        "ticketName": "10/31 vs 76ers 3318 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-10-31-2026/production/7432767?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/2 vs Pistons 5080 tickets left",
+        "ticketName": "11/2 vs Pistons 5079 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-2-2026/production/7432769?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Nets 4413 tickets left",
+        "ticketName": "11/4 @ Nets 4410 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-4-2026/production/7432771?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Celtics 5009 tickets left",
+        "ticketName": "11/6 vs Celtics 5149 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Cavaliers 8109 tickets left",
+        "ticketName": "11/9 vs Cavaliers 8099 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-9-2026/production/7432773?wsUser=717",
         "type": "event"
       },
@@ -6157,22 +6296,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Lakers 5929 tickets left",
+        "ticketName": "11/17 @ Lakers 5931 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Hawks 4517 tickets left",
+        "ticketName": "11/20 @ Hawks 4514 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Grizzlies 7371 tickets left",
+        "ticketName": "11/23 vs Grizzlies 7363 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Bulls 3809 tickets left",
+        "ticketName": "11/25 vs Bulls 3807 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-31-2026--sports-nba-basketball/production/7419735?wsUser=717",
         "type": "event"
       },
