@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401909895",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909859",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401909889",
@@ -1734,25 +1734,25 @@
                   "displayName": "Guard",
                   "abbreviation": "G"
                 },
-                "status": "Day-To-Day",
+                "status": "Out",
                 "injuries": {
-                  "status": "Day-To-Day",
-                  "date": "2026-11-02T18:55Z",
+                  "status": "Out",
+                  "date": "2026-11-02T22:33Z",
                   "type": {
-                    "id": "6",
-                    "name": "INJURY_STATUS_DAYTODAY",
-                    "description": "day-to-day",
-                    "abbreviation": "DD"
+                    "id": "4",
+                    "name": "INJURY_STATUS_OUT",
+                    "description": "out",
+                    "abbreviation": "O"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
+                      "description": "OUT",
+                      "abbreviation": "OUT",
+                      "displayDescription": "Out"
                     },
                     "type": "Personal",
                     "location": "Other",
-                    "returnDate": "2026-11-02"
+                    "returnDate": "2026-11-04"
                   }
                 }
               },
@@ -3072,8 +3072,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-02T18:55Z",
+          "status": "Out",
+          "date": "2026-11-02T22:33Z",
           "athlete": {
             "id": "3907497",
             "uid": "s:40~l:46~a:3907497",
@@ -3114,20 +3114,20 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Personal",
             "location": "Other",
-            "returnDate": "2026-11-02"
+            "returnDate": "2026-11-04"
           }
         },
         {
@@ -3303,7 +3303,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3321,14 +3321,14 @@
         ]
       },
       "details": "MEM -5.5",
-      "overUnder": 232.5,
+      "overUnder": 231.5,
       "spread": -5.5,
-      "overOdds": -106.0,
-      "underOdds": -114.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 169,
+        "moneyLine": 178,
         "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/3?lang=en&region=us"
@@ -3339,7 +3339,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -203,
+        "moneyLine": -214,
         "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/29?lang=en&region=us"
@@ -3354,7 +3354,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0ML87027644_1",
           "text": "Home Bet",
@@ -3378,7 +3378,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0ML87027644_3",
           "text": "Away Bet",
@@ -3451,7 +3451,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644O23250_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644O23150_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3464,7 +3464,7 @@
               "gameId": 401909914,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:232.5"
+              "betDetails": "Over:231.5"
             }
           }
         },
@@ -3475,7 +3475,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644U23250_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644U23150_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3488,7 +3488,7 @@
               "gameId": 401909914,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:232.5"
+              "betDetails": "Under:231.5"
             }
           }
         },
@@ -3511,14 +3511,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-203",
+            "odds": "-214",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0ML87027644_1",
               "text": "Home Bet",
@@ -3543,14 +3543,14 @@
         },
         "away": {
           "close": {
-            "odds": "+169",
+            "odds": "+178",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0ML87027644_3",
               "text": "Away Bet",
@@ -3651,8 +3651,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o232.5",
-            "odds": "-106",
+            "line": "o231.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3660,7 +3660,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644O23250_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644O23150_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3673,7 +3673,7 @@
                   "gameId": 401909914,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:232.5"
+                  "betDetails": "Over:231.5"
                 }
               }
             }
@@ -3685,8 +3685,8 @@
         },
         "under": {
           "close": {
-            "line": "u232.5",
-            "odds": "-114",
+            "line": "u231.5",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3694,7 +3694,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644U23250_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936972%3Foutcomes%3D0OU87027644U23150_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3707,7 +3707,7 @@
                   "gameId": 401909914,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:232.5"
+                  "betDetails": "Under:231.5"
                 }
               }
             }
@@ -3895,7 +3895,6 @@
       "teamChanceLoss": "65.5"
     }
   },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -4350,8 +4349,8 @@
         "type": "Story",
         "headline": "Jaylen Brown's favorite purchase? An 18th century harp",
         "description": "The Sixers guard's Boston apartment contains possession of some rare pieces.",
-        "lastModified": "2026-11-02T20:21:19Z",
-        "published": "2026-11-02T20:21:19Z",
+        "lastModified": "2026-11-02T22:36:08Z",
+        "published": "2026-11-02T22:36:08Z",
         "images": [
           {
             "dataSourceIdentifier": "135472f0faa22",
@@ -5175,6 +5174,154 @@
       }
     ]
   },
+  "winprobability": [],
+  "article": {
+    "id": 50345542,
+    "nowId": "1-50345542",
+    "contentKey": "50345542-1-22-1",
+    "dataSourceIdentifier": "790f806b36a23",
+    "publishedkey": "nba401909914",
+    "type": "Preview",
+    "gameId": "401909914",
+    "headline": "Memphis takes on New Orleans, aims for 7th straight win",
+    "description": "New Orleans Pelicans (2-4, 11th in the Western Conference) vs. Memphis Grizzlies (6-0, first in the Western Conference)",
+    "title": "Memphis takes on New Orleans, aims for 7th straight win",
+    "linkText": "Memphis takes on New Orleans, aims for 7th straight win",
+    "categorized": "2026-11-01T06:02:47Z",
+    "originallyPosted": "2026-11-01T06:02:46Z",
+    "lastModified": "2026-11-01T06:02:47Z",
+    "published": "2026-11-01T06:02:46Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4584,
+        "type": "team",
+        "uid": "s:40~l:46~t:29",
+        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
+        "description": "Memphis Grizzlies",
+        "sportId": 46,
+        "teamId": 29,
+        "team": {
+          "id": 29,
+          "description": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "shortDisplayName": "Grizzlies",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 114922,
+        "type": "team",
+        "uid": "s:40~l:46~t:3",
+        "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
+        "description": "New Orleans Pelicans",
+        "sportId": 46,
+        "teamId": 3,
+        "team": {
+          "id": 3,
+          "description": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "shortDisplayName": "Pelicans",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909914",
+        "guid": "b3775e14-a5a7-349b-ac53-e231bcc88acb",
+        "description": "New Orleans Pelicans @ Memphis Grizzlies",
+        "eventId": 401909914,
+        "event": {
+          "id": 401909914,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "New Orleans Pelicans @ Memphis Grizzlies"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Memphis Grizzlies",
+      "New Orleans Pelicans",
+      "New Orleans Pelicans @ Memphis Grizzlies"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/no/new-orleans-pelicans\">New Orleans Pelicans</a> (2-4, 11th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (6-0, first in the Western Conference)\n\n\r\n              Memphis, Tennessee; Monday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: Memphis will try to keep its six-game win streak intact when the Grizzlies take on New Orleans.\n\n\r\n              Memphis finished 25-57 overall, 19-33 in Western Conference games and 14-27 at home during the 2025-26 season. The Grizzlies averaged 18.0 points off of turnovers, 14.9 second-chance points and 46.0 bench points last season.\n\n\r\n              New Orleans finished 26-56 overall, 7-9 in Southwest Division play and 9-32 on the road last season. The Pelicans averaged 115.5 points per game last season, 57.7 in the paint, 17.9 off of turnovers and 17.0 on fast breaks.\n\n\r\n              INJURIES: Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4065733/ty-jerome\">Ty Jerome</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4593016/quinten-post\">Quinten Post</a>: out (ankle).\n\n\r\n              Pelicans: <a href=\"http://www.espn.com/nba/player/_/id/3907497/dejounte-murray\">Dejounte Murray</a>: out (personal), <a href=\"http://www.espn.com/nba/player/_/id/5061589/yves-missi\">Yves Missi</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4277956/jordan-poole\">Jordan Poole</a>: out (ankle).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50345542"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50345542"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50345542"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909914"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909914",
     "uid": "s:40~l:46~e:401909914",
@@ -6008,153 +6155,6 @@
       ]
     }
   },
-  "article": {
-    "id": 50345542,
-    "nowId": "1-50345542",
-    "contentKey": "50345542-1-22-1",
-    "dataSourceIdentifier": "790f806b36a23",
-    "publishedkey": "nba401909914",
-    "type": "Preview",
-    "gameId": "401909914",
-    "headline": "Memphis takes on New Orleans, aims for 7th straight win",
-    "description": "New Orleans Pelicans (2-4, 11th in the Western Conference) vs. Memphis Grizzlies (6-0, first in the Western Conference)",
-    "title": "Memphis takes on New Orleans, aims for 7th straight win",
-    "linkText": "Memphis takes on New Orleans, aims for 7th straight win",
-    "categorized": "2026-11-01T06:02:47Z",
-    "originallyPosted": "2026-11-01T06:02:46Z",
-    "lastModified": "2026-11-01T06:02:47Z",
-    "published": "2026-11-01T06:02:46Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4584,
-        "type": "team",
-        "uid": "s:40~l:46~t:29",
-        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-        "description": "Memphis Grizzlies",
-        "sportId": 46,
-        "teamId": 29,
-        "team": {
-          "id": 29,
-          "description": "Memphis Grizzlies",
-          "abbreviation": "MEM",
-          "shortDisplayName": "Grizzlies",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 114922,
-        "type": "team",
-        "uid": "s:40~l:46~t:3",
-        "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
-        "description": "New Orleans Pelicans",
-        "sportId": 46,
-        "teamId": 3,
-        "team": {
-          "id": 3,
-          "description": "New Orleans Pelicans",
-          "abbreviation": "NO",
-          "shortDisplayName": "Pelicans",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909914",
-        "guid": "b3775e14-a5a7-349b-ac53-e231bcc88acb",
-        "description": "New Orleans Pelicans @ Memphis Grizzlies",
-        "eventId": 401909914,
-        "event": {
-          "id": 401909914,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "New Orleans Pelicans @ Memphis Grizzlies"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Memphis Grizzlies",
-      "New Orleans Pelicans",
-      "New Orleans Pelicans @ Memphis Grizzlies"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/no/new-orleans-pelicans\">New Orleans Pelicans</a> (2-4, 11th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (6-0, first in the Western Conference)\n\n\r\n              Memphis, Tennessee; Monday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: Memphis will try to keep its six-game win streak intact when the Grizzlies take on New Orleans.\n\n\r\n              Memphis finished 25-57 overall, 19-33 in Western Conference games and 14-27 at home during the 2025-26 season. The Grizzlies averaged 18.0 points off of turnovers, 14.9 second-chance points and 46.0 bench points last season.\n\n\r\n              New Orleans finished 26-56 overall, 7-9 in Southwest Division play and 9-32 on the road last season. The Pelicans averaged 115.5 points per game last season, 57.7 in the paint, 17.9 off of turnovers and 17.0 on fast breaks.\n\n\r\n              INJURIES: Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4065733/ty-jerome\">Ty Jerome</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4593016/quinten-post\">Quinten Post</a>: out (ankle).\n\n\r\n              Pelicans: <a href=\"http://www.espn.com/nba/player/_/id/3907497/dejounte-murray\">Dejounte Murray</a>: out (personal), <a href=\"http://www.espn.com/nba/player/_/id/5061589/yves-missi\">Yves Missi</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4277956/jordan-poole\">Jordan Poole</a>: out (ankle).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50345542"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50345542"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50345542"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909914"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -6169,52 +6169,52 @@
         "type": "team"
       },
       {
-        "ticketName": "11/2 vs Pelicans 2258 tickets left",
+        "ticketName": "11/2 vs Pelicans 1840 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-2-2026/production/7432799?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Pacers 4244 tickets left",
+        "ticketName": "11/4 vs Pacers 4241 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-4-2026/production/7432857?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Thunder 4260 tickets left",
+        "ticketName": "11/6 vs Thunder 4239 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-30-2026--sports-nba-basketball/production/7419906?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 @ Raptors 1854 tickets left",
+        "ticketName": "11/9 @ Raptors 1857 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-9-2026/production/7433048?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Nuggets 4340 tickets left",
+        "ticketName": "11/11 vs Nuggets 4359 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-11-2026/production/7433050?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pelicans 3551 tickets left",
+        "ticketName": "11/13 @ Pelicans 3555 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-10-31-2026--sports-nba-basketball/production/7419916?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 vs Nets 3972 tickets left",
+        "ticketName": "11/14 vs Nets 3969 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-14-2026/production/7433052?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Wizards 10552 tickets left",
+        "ticketName": "11/16 @ Wizards 10501 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-16-2026/production/7433036?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Cavaliers 3560 tickets left",
+        "ticketName": "11/18 @ Cavaliers 3698 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-18-2026/production/7433054?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Warriors 4791 tickets left",
+        "ticketName": "11/19 vs Warriors 4816 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-19-2026/production/7433056?wsUser=717",
         "type": "event"
       },
@@ -6224,12 +6224,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Hornets 7920 tickets left",
+        "ticketName": "11/23 @ Hornets 7942 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Clippers 4814 tickets left",
+        "ticketName": "11/25 vs Clippers 4805 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026--sports-nba-basketball/production/7419908?wsUser=717",
         "type": "event"
       },
@@ -6239,7 +6239,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Lakers 4055 tickets left",
+        "ticketName": "11/29 vs Lakers 4516 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-29-2026/production/7431762?wsUser=717",
         "type": "event"
       }
@@ -6248,7 +6248,7 @@
       "opponentTeamName": "Pelicans",
       "currentTeamName": "Grizzlies",
       "venueName": "FedExForum",
-      "summary": "Tickets as low as $8",
+      "summary": "Tickets as low as $7",
       "date": "2026-11-03T01:00Z",
       "dateDay": "Mon",
       "homeAway": "home",

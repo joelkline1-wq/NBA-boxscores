@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "James Capers",
+        "displayName": "James Capers",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "CJ Washington",
+        "displayName": "CJ Washington",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Rodney Mott",
+        "displayName": "Rodney Mott",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,6 +343,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -375,9 +409,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         },
         {
           "id": "401909863",
@@ -1084,8 +1116,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -1150,7 +1180,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909904",
@@ -3043,7 +3075,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3068,8 +3100,8 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 670,
-        "spreadOdds": -106.0,
+        "moneyLine": 640,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/17?lang=en&region=us"
         },
@@ -3079,8 +3111,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -1040,
-        "spreadOdds": -114.0,
+        "moneyLine": -970,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3094,7 +3126,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936967%3Foutcomes%3D0ML87027633_1",
           "text": "Home Bet",
@@ -3118,7 +3150,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936967%3Foutcomes%3D0ML87027633_3",
           "text": "Away Bet",
@@ -3251,14 +3283,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-1040",
+            "odds": "-970",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936967%3Foutcomes%3D0ML87027633_1",
               "text": "Home Bet",
@@ -3283,14 +3315,14 @@
         },
         "away": {
           "close": {
-            "odds": "+670",
+            "odds": "+640",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936967%3Foutcomes%3D0ML87027633_3",
               "text": "Away Bet",
@@ -3320,7 +3352,7 @@
         "home": {
           "close": {
             "line": "-14.5",
-            "odds": "-114",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3354,7 +3386,7 @@
         "away": {
           "close": {
             "line": "+14.5",
-            "odds": "-106",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3622,6 +3654,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "18",
+      "gameProjection": "86.2",
+      "teamChanceLoss": "13.8"
+    },
+    "awayTeam": {
+      "id": "17",
+      "gameProjection": "13.8",
+      "teamChanceLoss": "86.2"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4076,8 +4122,8 @@
         "type": "Story",
         "headline": "Jaylen Brown's favorite purchase? An 18th century harp",
         "description": "The Sixers guard's Boston apartment contains possession of some rare pieces.",
-        "lastModified": "2026-11-02T20:21:19Z",
-        "published": "2026-11-02T20:21:19Z",
+        "lastModified": "2026-11-02T22:36:08Z",
+        "published": "2026-11-02T22:36:08Z",
         "images": [
           {
             "dataSourceIdentifier": "135472f0faa22",
@@ -4901,20 +4947,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "18",
-      "gameProjection": "86.2",
-      "teamChanceLoss": "13.8"
-    },
-    "awayTeam": {
-      "id": "17",
-      "gameProjection": "13.8",
-      "teamChanceLoss": "86.2"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909910",
     "uid": "s:40~l:46~e:401909910",
@@ -5880,12 +5912,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909910",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5899,42 +5925,42 @@
         "type": "team"
       },
       {
-        "ticketName": "11/2 vs Nets 866 tickets left",
+        "ticketName": "11/2 vs Nets 816 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-2-2026/production/7432933?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Bulls 2371 tickets left",
+        "ticketName": "11/4 vs Bulls 2382 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Cavaliers 3079 tickets left",
+        "ticketName": "11/7 @ Cavaliers 3107 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-7-2026/production/7432937?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Bucks 1946 tickets left",
+        "ticketName": "11/10 vs Bucks 1951 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Cavaliers 5412 tickets left",
+        "ticketName": "11/11 vs Cavaliers 5414 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-11-2026/production/7432939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pacers 4197 tickets left",
+        "ticketName": "11/13 @ Pacers 4198 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Raptors 1079 tickets left",
+        "ticketName": "11/15 @ Raptors 1076 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Raptors 981 tickets left",
+        "ticketName": "11/17 @ Raptors 964 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
@@ -5944,32 +5970,32 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Trail Blazers 4492 tickets left",
+        "ticketName": "11/21 vs Trail Blazers 4458 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Pacers 2496 tickets left",
+        "ticketName": "11/22 vs Pacers 2493 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-22-2026/production/7430984?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Cavaliers 4999 tickets left",
+        "ticketName": "11/25 vs Cavaliers 5021 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Heat 3759 tickets left",
+        "ticketName": "11/27 vs Heat 3746 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Hawks 3289 tickets left",
+        "ticketName": "11/29 vs Hawks 3655 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-29-2026/production/7432058?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Bulls 7987 tickets left",
+        "ticketName": "12/1 @ Bulls 7974 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-1-2026/production/7432060?wsUser=717",
         "type": "event"
       }
@@ -5978,7 +6004,7 @@
       "opponentTeamName": "Nets",
       "currentTeamName": "Knicks",
       "venueName": "Madison Square Garden",
-      "summary": "Tickets as low as $161",
+      "summary": "Tickets as low as $147",
       "date": "2026-11-03T00:30Z",
       "dateDay": "Mon",
       "homeAway": "home",
@@ -5988,6 +6014,12 @@
       "teamLink": "https://www.vividseats.com/new-york-knicks-tickets--sports-nba-basketball/performer/602?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909910",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
