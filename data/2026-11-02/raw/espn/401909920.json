@@ -398,8 +398,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -464,7 +462,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909892",
@@ -662,6 +662,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -726,9 +728,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
         }
       ]
     },
@@ -907,8 +907,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -973,7 +971,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909885",
@@ -1171,8 +1171,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "13",
             "uid": "s:40~l:46~t:13",
@@ -1237,7 +1235,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2748,7 +2748,7 @@
       "injuries": [
         {
           "status": "Day-To-Day",
-          "date": "2026-11-02T04:47Z",
+          "date": "2026-11-02T20:21Z",
           "athlete": {
             "id": "3134908",
             "uid": "s:40~l:46~a:3134908",
@@ -2805,6 +2805,66 @@
             "detail": "Inflammation",
             "side": "Left",
             "returnDate": "2026-11-02"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-11-02T20:20Z",
+          "athlete": {
+            "id": "4432586",
+            "uid": "s:40~l:46~a:4432586",
+            "guid": "23fd2284-1f1f-3ec5-84fd-4a51c4af32ef",
+            "lastName": "Bittle",
+            "fullName": "Nate Bittle",
+            "displayName": "Nate Bittle",
+            "shortName": "N. Bittle",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4432586/nate-bittle",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432586.png",
+              "alt": "Nate Bittle"
+            },
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432586?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Foot",
+            "location": "Leg",
+            "detail": "Fracture",
+            "side": "Right",
+            "returnDate": "2026-11-09"
           }
         },
         {
@@ -2867,66 +2927,6 @@
             "side": "Left",
             "returnDate": "2026-11-23"
           }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-27T19:31Z",
-          "athlete": {
-            "id": "4432586",
-            "uid": "s:40~l:46~a:4432586",
-            "guid": "23fd2284-1f1f-3ec5-84fd-4a51c4af32ef",
-            "lastName": "Bittle",
-            "fullName": "Nate Bittle",
-            "displayName": "Nate Bittle",
-            "shortName": "N. Bittle",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4432586/nate-bittle",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432586.png",
-              "alt": "Nate Bittle"
-            },
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432586?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Foot",
-            "location": "Leg",
-            "detail": "Fracture",
-            "side": "Right",
-            "returnDate": "2026-11-02"
-          }
         }
       ]
     }
@@ -2983,8 +2983,8 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -205,
-        "spreadOdds": -106.0,
+        "moneyLine": -217,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -2994,8 +2994,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 171,
-        "spreadOdds": -114.0,
+        "moneyLine": 180,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
         },
@@ -3166,7 +3166,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+171",
+            "odds": "+180",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3198,7 +3198,7 @@
         },
         "away": {
           "close": {
-            "odds": "-205",
+            "odds": "-217",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3235,7 +3235,7 @@
         "home": {
           "close": {
             "line": "+5.5",
-            "odds": "-114",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3269,7 +3269,7 @@
         "away": {
           "close": {
             "line": "-5.5",
-            "odds": "-106",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3568,6 +3568,226 @@
     },
     "articles": [
       {
+        "id": 50360535,
+        "nowId": "1-50360535",
+        "contentKey": "50360535-1-6-1",
+        "dataSourceIdentifier": "3976f47e7944b",
+        "type": "Story",
+        "headline": "Michael Jordan congratulates Valykries star Gabby Williams after WNBA title",
+        "description": "His Airness had a simple message for the Golden State Valkyries star after her 30-point performance in Game 7.",
+        "lastModified": "2026-11-02T20:44:22Z",
+        "published": "2026-11-02T20:44:22Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "dedc8b359a40f",
+            "id": 50360588,
+            "type": "header",
+            "name": "Gabby Williams [1296x729]",
+            "credit": "Matthew Huang/Icon Sportswire via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1102/r1740185_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Gabby Williams propels Valkyries to WNBA title with 30 points",
+            "caption": "Gabby Williams propels Valkyries to WNBA title with 30 points",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/35630d3f-1bf8-4bb6-8c99-aeb76baee294/35630d3f-1bf8-4bb6-8c99-aeb76baee294.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9579,
+            "type": "league",
+            "uid": "s:40~l:59",
+            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
+            "description": "WNBA",
+            "sportId": 59,
+            "leagueId": 59,
+            "league": {
+              "id": 59,
+              "description": "WNBA",
+              "abbreviation": "WNBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 692570,
+            "type": "team",
+            "uid": "s:40~l:59~t:129689",
+            "guid": "170598de-f63a-3497-a04d-1fc514508f56",
+            "description": "Golden State Valkyries",
+            "sportId": 59,
+            "teamId": 129689,
+            "team": {
+              "id": 129689,
+              "description": "Golden State Valkyries",
+              "abbreviation": "GS",
+              "shortDisplayName": "Valkyries",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 183978,
+            "type": "athlete",
+            "uid": "s:40~l:59~a:3142328",
+            "guid": "868dcf7a-2db5-cda3-48ae-7ee29c87f2c5",
+            "description": "Gabby Williams",
+            "sportId": 59,
+            "athleteId": 3142328,
+            "athlete": {
+              "id": 3142328,
+              "description": "Gabby Williams",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/wnba/player/_/id/3142328/gabby-williams"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/wnba/player/_/id/3142328/gabby-williams"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4392,
+            "type": "team",
+            "uid": "s:40~l:46~t:4",
+            "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
+            "description": "Chicago Bulls",
+            "sportId": 46,
+            "teamId": 4,
+            "team": {
+              "id": 4,
+              "description": "Chicago Bulls",
+              "abbreviation": "CHI",
+              "shortDisplayName": "Bulls",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4353,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:1035",
+            "guid": "066a0eec-2b98-5179-bd13-d63826a4c057",
+            "description": "Michael Jordan",
+            "sportId": 46,
+            "athleteId": 1035,
+            "athlete": {
+              "id": 1035,
+              "description": "Michael Jordan",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1035/michael-jordan"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1035/michael-jordan"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696269,
+            "type": "contributor",
+            "guid": "d95bce36-78a4-3c71-8fc9-5b0434e17279",
+            "description": "Kendra Andrews",
+            "slug": "kendra-andrews",
+            "contributor": {
+              "id": 3898,
+              "description": "Kendra Andrews"
+            }
+          }
+        ],
+        "byline": "Kendra Andrews",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50360535"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50360535"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wnba/story?storyId=50360535"
+          },
+          "web": {
+            "href": "https://www.espn.com/wnba/story/_/id/50360535/gabby-williams-michael-jordan-wnba-finals"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50360248,
         "nowId": "1-50360248",
         "contentKey": "50360248-1-5-1",
@@ -3575,8 +3795,8 @@
         "type": "HeadlineNews",
         "headline": "Thunder to retire Russell Westbrook's No. 0",
         "description": "The Thunder will retire Russell Westbrook's No. 0 this season. The former MVP played the first 11 of his 18 seasons in Oklahoma City.",
-        "lastModified": "2026-11-02T19:59:55Z",
-        "published": "2026-11-02T19:59:55Z",
+        "lastModified": "2026-11-02T20:47:31Z",
+        "published": "2026-11-02T20:47:31Z",
         "images": [
           {
             "dataSourceIdentifier": "085cda945bcc6",
@@ -3587,6 +3807,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2019/0712/r569183_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "'NBA Today' reacts to Russell Westbrook's retirement",
+            "caption": "'NBA Today' reacts to Russell Westbrook's retirement",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0812/ss_20260812_152509609_3621302943/ss_20260812_152509609_3621302943.jpg"
           }
         ],
         "categories": [
@@ -3703,10 +3931,10 @@
         "contentKey": "50359641-1-6-1",
         "dataSourceIdentifier": "c8cf760b8944b",
         "type": "Story",
-        "headline": "Sixers' Jaylen Brown opens up about most expensive purchase in his Boston home",
+        "headline": "Jaylen Brown's favorite purchase? An 18th century harp",
         "description": "The Sixers guard's Boston apartment contains possession of some rare pieces.",
-        "lastModified": "2026-11-02T19:33:08Z",
-        "published": "2026-11-02T19:33:08Z",
+        "lastModified": "2026-11-02T20:21:19Z",
+        "published": "2026-11-02T20:21:19Z",
         "images": [
           {
             "dataSourceIdentifier": "135472f0faa22",
@@ -3847,8 +4075,8 @@
         "type": "HeadlineNews",
         "headline": "Wilbon taking leave of absence from ESPN to address health issues",
         "description": "Michael Wilbon, the longtime ESPN commentator and co-host of \"Pardon the Interruption,\" is taking a leave of absence to address health issues.",
-        "lastModified": "2026-11-02T19:48:48Z",
-        "published": "2026-11-02T19:48:48Z",
+        "lastModified": "2026-11-02T20:49:21Z",
+        "published": "2026-11-02T20:49:21Z",
         "images": [
           {
             "dataSourceIdentifier": "c8c55eb3ed9ee",
@@ -3859,6 +4087,14 @@
             "height": 729,
             "width": 1296,
             "url": "https://a.espncdn.com/photo/2026/1102/r1740152_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Tony Kornheiser and Michael Wilbon kick off PTI 25 with their top headlines",
+            "caption": "Tony Kornheiser and Michael Wilbon kick off PTI 25 with their top headlines",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_180106815_3706111/ss_20261022_180106815_3706111.jpg"
           }
         ],
         "categories": [
@@ -4719,140 +4955,6 @@
           },
           "web": {
             "href": "https://www.espn.com/fantasy/basketball/story/_/id/50359221/fantasy-basketball-tips-nba-betting-picks-today"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50028196,
-        "nowId": "1-50028196",
-        "contentKey": "50028196-1-6-1",
-        "dataSourceIdentifier": "6c1d8d0c3198e",
-        "type": "Story",
-        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-02T16:30:39Z",
-        "published": "2026-11-02T16:30:39Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "9794d99d85fc9",
-            "id": 50241205,
-            "type": "header",
-            "name": "porzingis [608x342] - Copy",
-            "credit": "D. Ross Cameron-Imagn Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "1d2dd1b0f7447",
-            "id": 50061081,
-            "type": "header",
-            "name": "kat [608x342]",
-            "credit": "Photo by Caleb Bowlin/Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "a754860d3e38f",
-            "id": 50028282,
-            "type": "header",
-            "name": "NBA LOGO [608x342] - Copy",
-            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Shams shares context on timing of Anthony Edwards' right knee procedure",
-            "caption": "Shams shares context on timing of Anthony Edwards' right knee procedure ",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_234140793_37138661430/ss_20261027_234140793_37138661430.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409222,
-            "type": "topic",
-            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
-            "description": "daily",
-            "sportId": 0,
-            "topicId": 779
-          },
-          {
-            "id": 186377,
-            "type": "topic",
-            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
-            "description": "nba free agency",
-            "sportId": 0,
-            "topicId": 677
-          },
-          {
-            "id": 128110,
-            "type": "topic",
-            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-            "description": "news - frontpage",
-            "sportId": 0,
-            "topicId": 92
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
           }
         },
         "premium": false
@@ -5845,67 +5947,67 @@
         "type": "team"
       },
       {
-        "ticketName": "11/2 vs Raptors 2226 tickets left",
+        "ticketName": "11/2 vs Raptors 1430 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-2-2026/production/7433106?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 vs Heat 2763 tickets left",
+        "ticketName": "11/4 vs Heat 2745 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Pelicans 2421 tickets left",
+        "ticketName": "11/8 vs Pelicans 2399 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-8-2026/production/7432803?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Suns 4683 tickets left",
+        "ticketName": "11/10 @ Suns 4659 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Thunder 4359 tickets left",
+        "ticketName": "11/13 vs Thunder 4364 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hornets 3780 tickets left",
+        "ticketName": "11/15 vs Hornets 3781 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Jazz 5233 tickets left",
+        "ticketName": "11/17 vs Jazz 5234 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-17-2026/production/7433110?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Spurs 3774 tickets left",
+        "ticketName": "11/19 @ Spurs 3900 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Mavericks 5372 tickets left",
+        "ticketName": "11/21 @ Mavericks 5466 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-21-2026/production/7433114?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Rockets 5483 tickets left",
+        "ticketName": "11/23 @ Rockets 5585 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Grizzlies 4579 tickets left",
+        "ticketName": "11/25 @ Grizzlies 4783 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026--sports-nba-basketball/production/7419908?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Pelicans 4911 tickets left",
+        "ticketName": "11/27 vs Pelicans 4867 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-31-2026--sports-nba-basketball/production/7419904?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Warriors 4353 tickets left",
+        "ticketName": "11/29 @ Warriors 4371 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-29-2026/production/7431220?wsUser=717",
         "type": "event"
       },
@@ -5924,7 +6026,7 @@
       "opponentTeamName": "Raptors",
       "currentTeamName": "Clippers",
       "venueName": "Intuit Dome",
-      "summary": "Tickets as low as $14",
+      "summary": "Tickets as low as $13",
       "date": "2026-11-03T03:00Z",
       "dateDay": "Mon",
       "homeAway": "home",
