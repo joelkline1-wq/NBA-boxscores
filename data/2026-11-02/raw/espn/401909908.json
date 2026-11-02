@@ -221,7 +221,49 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Gediminas Petraitis",
+        "displayName": "Gediminas Petraitis",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Pat Fraher",
+        "displayName": "Pat Fraher",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Jonathan Sterling",
+        "displayName": "Jonathan Sterling",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "JD Ralls",
+        "displayName": "JD Ralls",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,8 +441,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "27",
             "uid": "s:40~l:46~t:27",
@@ -465,7 +505,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909883",
@@ -663,8 +705,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -729,7 +769,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -908,8 +950,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -974,7 +1014,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909878",
@@ -3075,7 +3117,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -229,
+        "moneyLine": -237,
         "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
@@ -3086,7 +3128,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 189,
+        "moneyLine": 196,
         "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
@@ -3258,7 +3300,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+189",
+            "odds": "+196",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3290,7 +3332,7 @@
         },
         "away": {
           "close": {
-            "odds": "-229",
+            "odds": "-237",
             "link": {
               "language": "en-US",
               "rel": [
@@ -4372,8 +4414,8 @@
         "type": "HeadlineNews",
         "headline": "Wilbon taking leave of absence from ESPN to address health issues",
         "description": "Michael Wilbon, the longtime ESPN commentator and co-host of \"Pardon the Interruption,\" is taking a leave of absence to address health issues.",
-        "lastModified": "2026-11-02T21:02:48Z",
-        "published": "2026-11-02T21:02:48Z",
+        "lastModified": "2026-11-02T23:40:08Z",
+        "published": "2026-11-02T23:40:08Z",
         "images": [
           {
             "dataSourceIdentifier": "c8c55eb3ed9ee",
@@ -5055,7 +5097,6 @@
       }
     ]
   },
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -5069,6 +5110,7 @@
       "teamChanceLoss": "35.5"
     }
   },
+  "winprobability": [],
   "header": {
     "id": "401909908",
     "uid": "s:40~l:46~e:401909908",
@@ -5871,12 +5913,6 @@
     }
   },
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909908",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5890,22 +5926,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/2 vs Pistons 2175 tickets left",
+        "ticketName": "11/2 vs Pistons 1354 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-2-2026/production/7432769?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Nets 3417 tickets left",
+        "ticketName": "11/4 @ Nets 3452 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-4-2026/production/7432771?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 vs Celtics 4800 tickets left",
+        "ticketName": "11/6 vs Celtics 4744 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Cavaliers 6507 tickets left",
+        "ticketName": "11/9 vs Cavaliers 6513 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-9-2026/production/7432773?wsUser=717",
         "type": "event"
       },
@@ -5915,42 +5951,42 @@
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Clippers 3722 tickets left",
+        "ticketName": "11/15 @ Clippers 3701 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Lakers 5837 tickets left",
+        "ticketName": "11/17 @ Lakers 5832 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Hawks 4627 tickets left",
+        "ticketName": "11/20 @ Hawks 4626 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Grizzlies 7942 tickets left",
+        "ticketName": "11/23 vs Grizzlies 8045 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Bulls 5608 tickets left",
+        "ticketName": "11/25 vs Bulls 5623 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-31-2026--sports-nba-basketball/production/7419735?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 vs Nets 5379 tickets left",
+        "ticketName": "11/28 vs Nets 5390 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-28-2026/production/7431820?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Wizards 7263 tickets left",
+        "ticketName": "11/30 vs Wizards 8270 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-30-2026/production/7431728?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ Celtics 4323 tickets left",
+        "ticketName": "12/2 @ Celtics 4357 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-2-2026/production/7431828?wsUser=717",
         "type": "event"
       },
@@ -5979,6 +6015,12 @@
       "teamLink": "https://www.vividseats.com/charlotte-hornets-tickets--sports-nba-basketball/performer/4547?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909908",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

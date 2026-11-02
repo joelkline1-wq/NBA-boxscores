@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Mitchell Ervin",
+        "displayName": "Mitchell Ervin",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Eric Lewis",
+        "displayName": "Eric Lewis",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Leon Wood",
+        "displayName": "Leon Wood",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,6 +343,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -375,9 +409,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
         },
         {
           "id": "401909866",
@@ -487,6 +519,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -551,9 +585,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909280",
@@ -663,6 +695,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -727,9 +761,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         }
       ]
     },
@@ -1172,6 +1204,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -1236,9 +1270,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         }
       ]
     }
@@ -2732,6 +2764,64 @@
       },
       "injuries": [
         {
+          "status": "Out",
+          "date": "2026-11-02T23:05Z",
+          "athlete": {
+            "id": "4870562",
+            "uid": "s:40~l:46~a:4870562",
+            "guid": "b6f6857f-9a83-30a6-85a7-2e02c49d5ae5",
+            "lastName": "Barlow",
+            "fullName": "Dominick Barlow",
+            "displayName": "Dominick Barlow",
+            "shortName": "D. Barlow",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4870562/dominick-barlow",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
+              "alt": "Dominick Barlow"
+            },
+            "jersey": "25",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "detail": "Fracture",
+            "side": "Not Specified",
+            "returnDate": "2026-11-04"
+          }
+        },
+        {
           "status": "Day-To-Day",
           "date": "2026-11-01T22:12Z",
           "athlete": {
@@ -2789,64 +2879,6 @@
             "location": "Leg",
             "side": "Right",
             "returnDate": "2026-11-02"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-19T21:07Z",
-          "athlete": {
-            "id": "4870562",
-            "uid": "s:40~l:46~a:4870562",
-            "guid": "b6f6857f-9a83-30a6-85a7-2e02c49d5ae5",
-            "lastName": "Barlow",
-            "fullName": "Dominick Barlow",
-            "displayName": "Dominick Barlow",
-            "shortName": "D. Barlow",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4870562/dominick-barlow",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
-              "alt": "Dominick Barlow"
-            },
-            "jersey": "25",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Back",
-            "location": "Torso",
-            "detail": "Fracture",
-            "side": "Not Specified",
-            "returnDate": "2026-11-04"
           }
         },
         {
@@ -3061,10 +3093,10 @@
         ]
       },
       "details": "PHI -9.5",
-      "overUnder": 239.5,
+      "overUnder": 238.5,
       "spread": -9.5,
-      "overOdds": -105.0,
-      "underOdds": -115.0,
+      "overOdds": -115.0,
+      "underOdds": -106.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
@@ -3191,7 +3223,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642O23950_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642O23850_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3204,7 +3236,7 @@
               "gameId": 401909912,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:239.5"
+              "betDetails": "Over:238.5"
             }
           }
         },
@@ -3215,7 +3247,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642U23950_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642U23850_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3228,7 +3260,7 @@
               "gameId": 401909912,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:239.5"
+              "betDetails": "Under:238.5"
             }
           }
         },
@@ -3391,8 +3423,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o239.5",
-            "odds": "-105",
+            "line": "o238.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3400,7 +3432,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642O23950_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642O23850_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3413,7 +3445,7 @@
                   "gameId": 401909912,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:239.5"
+                  "betDetails": "Over:238.5"
                 }
               }
             }
@@ -3425,8 +3457,8 @@
         },
         "under": {
           "close": {
-            "line": "u239.5",
-            "odds": "-115",
+            "line": "u238.5",
+            "odds": "-106",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3434,7 +3466,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642U23950_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34936970%3Foutcomes%3D0OU87027642U23850_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3447,7 +3479,7 @@
                   "gameId": 401909912,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:239.5"
+                  "betDetails": "Under:238.5"
                 }
               }
             }
@@ -4219,8 +4251,8 @@
         "type": "HeadlineNews",
         "headline": "Wilbon taking leave of absence from ESPN to address health issues",
         "description": "Michael Wilbon, the longtime ESPN commentator and co-host of \"Pardon the Interruption,\" is taking a leave of absence to address health issues.",
-        "lastModified": "2026-11-02T21:02:48Z",
-        "published": "2026-11-02T21:02:48Z",
+        "lastModified": "2026-11-02T23:40:08Z",
+        "published": "2026-11-02T23:40:08Z",
         "images": [
           {
             "dataSourceIdentifier": "c8c55eb3ed9ee",
@@ -4915,153 +4947,6 @@
       "teamChanceLoss": "85.2"
     }
   },
-  "article": {
-    "id": 50345547,
-    "nowId": "1-50345547",
-    "contentKey": "50345547-1-22-1",
-    "dataSourceIdentifier": "eb2a7b331bffd",
-    "publishedkey": "nba401909912",
-    "type": "Preview",
-    "gameId": "401909912",
-    "headline": "Chicago faces Philadelphia, looks to stop 4-game skid",
-    "description": "Chicago Bulls (1-5, 13th in the Eastern Conference) vs. Philadelphia 76ers (6-1, first in the Eastern Conference)",
-    "title": "Chicago faces Philadelphia, looks to stop 4-game skid",
-    "linkText": "Chicago faces Philadelphia, looks to stop 4-game skid",
-    "categorized": "2026-11-01T06:02:53Z",
-    "originallyPosted": "2026-11-01T06:02:52Z",
-    "lastModified": "2026-11-01T06:02:53Z",
-    "published": "2026-11-01T06:02:52Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4323,
-        "type": "team",
-        "uid": "s:40~l:46~t:20",
-        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-        "description": "Philadelphia 76ers",
-        "sportId": 46,
-        "teamId": 20,
-        "team": {
-          "id": 20,
-          "description": "Philadelphia 76ers",
-          "abbreviation": "PHI",
-          "shortDisplayName": "76ers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4392,
-        "type": "team",
-        "uid": "s:40~l:46~t:4",
-        "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
-        "description": "Chicago Bulls",
-        "sportId": 46,
-        "teamId": 4,
-        "team": {
-          "id": 4,
-          "description": "Chicago Bulls",
-          "abbreviation": "CHI",
-          "shortDisplayName": "Bulls",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909912",
-        "guid": "8e6c3981-1659-3f7b-a16c-2eda0685fd87",
-        "description": "Chicago Bulls @ Philadelphia 76ers",
-        "eventId": 401909912,
-        "event": {
-          "id": 401909912,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Chicago Bulls @ Philadelphia 76ers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Philadelphia 76ers",
-      "Chicago Bulls",
-      "Chicago Bulls @ Philadelphia 76ers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/chi/chicago-bulls\">Chicago Bulls</a> (1-5, 13th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (6-1, first in the Eastern Conference)\n\n\r\n              Philadelphia; Monday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: Chicago aims to break its four-game skid with a victory against Philadelphia.\n\n\r\n              Philadelphia finished 45-37 overall, 27-25 in Eastern Conference play and 23-18 at home during the 2025-26 season. The 76ers averaged 18.9 points off of turnovers, 15.4 second-chance points and 32.4 bench points last season.\n\n\r\n              Chicago finished 31-51 overall and 19-32 in Eastern Conference games during the 2025-26 season. The Bulls shot 46.9% from the field and 35.6% from 3-point range last season.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/1966/lebron-james\">LeBron James</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/3059318/joel-embiid\">Joel Embiid</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              Bulls: <a href=\"http://www.espn.com/nba/player/_/id/4848625/dailyn-swain\">Dailyn Swain</a>: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/4278067/nic-claxton\">Nic Claxton</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50345547"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50345547"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50345547"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909912"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909912",
     "uid": "s:40~l:46~e:401909912",
@@ -5863,6 +5748,153 @@
       ]
     }
   },
+  "article": {
+    "id": 50345547,
+    "nowId": "1-50345547",
+    "contentKey": "50345547-1-22-1",
+    "dataSourceIdentifier": "eb2a7b331bffd",
+    "publishedkey": "nba401909912",
+    "type": "Preview",
+    "gameId": "401909912",
+    "headline": "Chicago faces Philadelphia, looks to stop 4-game skid",
+    "description": "Chicago Bulls (1-5, 13th in the Eastern Conference) vs. Philadelphia 76ers (6-1, first in the Eastern Conference)",
+    "title": "Chicago faces Philadelphia, looks to stop 4-game skid",
+    "linkText": "Chicago faces Philadelphia, looks to stop 4-game skid",
+    "categorized": "2026-11-01T06:02:53Z",
+    "originallyPosted": "2026-11-01T06:02:52Z",
+    "lastModified": "2026-11-01T06:02:53Z",
+    "published": "2026-11-01T06:02:52Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4323,
+        "type": "team",
+        "uid": "s:40~l:46~t:20",
+        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+        "description": "Philadelphia 76ers",
+        "sportId": 46,
+        "teamId": 20,
+        "team": {
+          "id": 20,
+          "description": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "shortDisplayName": "76ers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4392,
+        "type": "team",
+        "uid": "s:40~l:46~t:4",
+        "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
+        "description": "Chicago Bulls",
+        "sportId": 46,
+        "teamId": 4,
+        "team": {
+          "id": 4,
+          "description": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "shortDisplayName": "Bulls",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909912",
+        "guid": "8e6c3981-1659-3f7b-a16c-2eda0685fd87",
+        "description": "Chicago Bulls @ Philadelphia 76ers",
+        "eventId": 401909912,
+        "event": {
+          "id": 401909912,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Chicago Bulls @ Philadelphia 76ers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Philadelphia 76ers",
+      "Chicago Bulls",
+      "Chicago Bulls @ Philadelphia 76ers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/chi/chicago-bulls\">Chicago Bulls</a> (1-5, 13th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/phi/philadelphia-76ers\">Philadelphia 76ers</a> (6-1, first in the Eastern Conference)\n\n\r\n              Philadelphia; Monday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: Chicago aims to break its four-game skid with a victory against Philadelphia.\n\n\r\n              Philadelphia finished 45-37 overall, 27-25 in Eastern Conference play and 23-18 at home during the 2025-26 season. The 76ers averaged 18.9 points off of turnovers, 15.4 second-chance points and 32.4 bench points last season.\n\n\r\n              Chicago finished 31-51 overall and 19-32 in Eastern Conference games during the 2025-26 season. The Bulls shot 46.9% from the field and 35.6% from 3-point range last season.\n\n\r\n              INJURIES: 76ers: <a href=\"http://www.espn.com/nba/player/_/id/5091702/ariel-hukporti\">Ariel Hukporti</a>: out for season (achilles), <a href=\"http://www.espn.com/nba/player/_/id/1966/lebron-james\">LeBron James</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/3059318/joel-embiid\">Joel Embiid</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4870562/dominick-barlow\">Dominick Barlow</a>: out (back).\n\n\r\n              Bulls: <a href=\"http://www.espn.com/nba/player/_/id/4848625/dailyn-swain\">Dailyn Swain</a>: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/4278067/nic-claxton\">Nic Claxton</a>: out (hamstring).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50345547"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50345547"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50345547"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909912"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -5877,47 +5909,47 @@
         "type": "team"
       },
       {
-        "ticketName": "11/2 vs Bulls 1082 tickets left",
+        "ticketName": "11/2 vs Bulls 626 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-2-2026/production/7433064?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/4 @ Pistons 4510 tickets left",
+        "ticketName": "11/4 @ Pistons 4472 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/6 @ Cavaliers 2706 tickets left",
+        "ticketName": "11/6 @ Cavaliers 2687 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-30-2026--sports-nba-basketball/production/7419571?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 @ Bulls 1830 tickets left",
+        "ticketName": "11/8 @ Bulls 1822 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Celtics 3935 tickets left",
+        "ticketName": "11/10 vs Celtics 3929 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-10-2026/production/7433132?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Raptors 3581 tickets left",
+        "ticketName": "11/12 vs Raptors 3573 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Pacers 2761 tickets left",
+        "ticketName": "11/15 vs Pacers 2762 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-15-2026/production/7432865?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nets 4889 tickets left",
+        "ticketName": "11/16 @ Nets 4918 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-16-2026/production/7433140?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Magic 5023 tickets left",
+        "ticketName": "11/18 @ Magic 5186 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-11-18-2026/production/7433144?wsUser=717",
         "type": "event"
       },
@@ -5927,27 +5959,27 @@
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Trail Blazers 2996 tickets left",
+        "ticketName": "11/23 vs Trail Blazers 2988 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Heat 3144 tickets left",
+        "ticketName": "11/25 vs Heat 3187 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Pacers 3524 tickets left",
+        "ticketName": "11/27 @ Pacers 3536 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-31-2026--sports-nba-basketball/production/7419620?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 @ Rockets 3522 tickets left",
+        "ticketName": "11/28 @ Rockets 3605 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-28-2026/production/7430998?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Grizzlies 3112 tickets left",
+        "ticketName": "12/1 vs Grizzlies 3107 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-12-1-2026/production/7431531?wsUser=717",
         "type": "event"
       }
@@ -5956,7 +5988,7 @@
       "opponentTeamName": "Bulls",
       "currentTeamName": "76ers",
       "venueName": "Xfinity Mobile Arena",
-      "summary": "Tickets as low as $71",
+      "summary": "Tickets as low as $73",
       "date": "2026-11-03T00:30Z",
       "dateDay": "Mon",
       "homeAway": "home",
