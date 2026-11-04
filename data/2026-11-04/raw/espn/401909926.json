@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Brian Forte",
+        "displayName": "Brian Forte",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Ray Acosta",
+        "displayName": "Ray Acosta",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Brent Haskill",
+        "displayName": "Brent Haskill",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,8 +431,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -465,7 +495,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909886",
@@ -3290,6 +3322,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "18",
+      "gameProjection": "85.7",
+      "teamChanceLoss": "14.3"
+    },
+    "awayTeam": {
+      "id": "4",
+      "gameProjection": "14.3",
+      "teamChanceLoss": "85.7"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3313,9 +3359,9 @@
         "dataSourceIdentifier": "e791ebc716319",
         "type": "Story",
         "headline": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
-        "description": "San Antonio remains the favorites to win the NBA championship, but fast starts by Houston and Philadelphia have seen each of their odds shorten.",
-        "lastModified": "2026-11-04T22:53:28Z",
-        "published": "2026-11-04T22:53:28Z",
+        "description": "San Antonio remains the favorite to win the NBA championship, but fast starts by Houston and Philadelphia have seen their odds shorten.",
+        "lastModified": "2026-11-04T23:14:24Z",
+        "published": "2026-11-04T23:14:24Z",
         "images": [
           {
             "dataSourceIdentifier": "d7b70f5df8baa",
@@ -4527,20 +4573,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "18",
-      "gameProjection": "85.7",
-      "teamChanceLoss": "14.3"
-    },
-    "awayTeam": {
-      "id": "4",
-      "gameProjection": "14.3",
-      "teamChanceLoss": "85.7"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909926",
     "uid": "s:40~l:46~e:401909926",
@@ -5767,12 +5799,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909926",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5786,47 +5812,47 @@
         "type": "team"
       },
       {
-        "ticketName": "11/4 vs Bulls 634 tickets left",
+        "ticketName": "11/4 vs Bulls 444 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-4-2026/production/7432935?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 @ Cavaliers 3070 tickets left",
+        "ticketName": "11/7 @ Cavaliers 3037 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-7-2026/production/7432937?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Bucks 1364 tickets left",
+        "ticketName": "11/10 vs Bucks 1350 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Cavaliers 5158 tickets left",
+        "ticketName": "11/11 vs Cavaliers 5200 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-11-2026/production/7432939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Pacers 3977 tickets left",
+        "ticketName": "11/13 @ Pacers 3989 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-10-30-2026--sports-nba-basketball/production/7419606?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Raptors 1102 tickets left",
+        "ticketName": "11/15 @ Raptors 1150 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Raptors 877 tickets left",
+        "ticketName": "11/17 @ Raptors 906 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Timberwolves 1132 tickets left",
+        "ticketName": "11/19 @ Timberwolves 1134 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Trail Blazers 4513 tickets left",
+        "ticketName": "11/21 vs Trail Blazers 4522 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
@@ -5836,27 +5862,27 @@
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Cavaliers 5338 tickets left",
+        "ticketName": "11/25 vs Cavaliers 5313 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Heat 4111 tickets left",
+        "ticketName": "11/27 vs Heat 4116 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Hawks 3477 tickets left",
+        "ticketName": "11/29 vs Hawks 3491 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-29-2026/production/7432058?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Bulls 7851 tickets left",
+        "ticketName": "12/1 @ Bulls 7556 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-1-2026/production/7432060?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ Bucks 5492 tickets left",
+        "ticketName": "12/2 @ Bucks 5471 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-12-2-2026/production/7432420?wsUser=717",
         "type": "event"
       }
@@ -5865,7 +5891,7 @@
       "opponentTeamName": "Bulls",
       "currentTeamName": "Knicks",
       "venueName": "Madison Square Garden",
-      "summary": "Tickets as low as $152",
+      "summary": "Tickets as low as $154",
       "date": "2026-11-05T00:30Z",
       "dateDay": "Wed",
       "homeAway": "home",
@@ -5875,6 +5901,12 @@
       "teamLink": "https://www.vividseats.com/new-york-knicks-tickets--sports-nba-basketball/performer/602?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909926",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
