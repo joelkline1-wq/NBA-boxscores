@@ -486,8 +486,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -552,7 +550,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909279",
@@ -574,8 +574,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -640,7 +638,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909908",
@@ -662,8 +662,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -728,7 +726,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -2869,7 +2869,7 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 120,
+        "moneyLine": 114,
         "spreadOdds": -106.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
@@ -2880,7 +2880,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -142,
+        "moneyLine": -135,
         "spreadOdds": -114.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
@@ -3052,7 +3052,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-142",
+            "odds": "-135",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3084,7 +3084,7 @@
         },
         "away": {
           "close": {
-            "odds": "+120",
+            "odds": "+114",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3423,6 +3423,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "8",
+      "gameProjection": "46.3",
+      "teamChanceLoss": "53.7"
+    },
+    "awayTeam": {
+      "id": "20",
+      "gameProjection": "53.7",
+      "teamChanceLoss": "46.3"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3440,6 +3454,283 @@
     },
     "articles": [
       {
+        "id": 50028196,
+        "nowId": "1-50028196",
+        "contentKey": "50028196-1-6-1",
+        "dataSourceIdentifier": "6c1d8d0c3198e",
+        "type": "Story",
+        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+        "lastModified": "2026-11-04T17:37:37Z",
+        "published": "2026-11-04T17:37:37Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9794d99d85fc9",
+            "id": 50241205,
+            "type": "header",
+            "name": "porzingis [608x342] - Copy",
+            "credit": "D. Ross Cameron-Imagn Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1d2dd1b0f7447",
+            "id": 50061081,
+            "type": "header",
+            "name": "kat [608x342]",
+            "credit": "Photo by Caleb Bowlin/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "a754860d3e38f",
+            "id": 50028282,
+            "type": "header",
+            "name": "NBA LOGO [608x342] - Copy",
+            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shams shares context on timing of Anthony Edwards' right knee procedure",
+            "caption": "Shams shares context on timing of Anthony Edwards' right knee procedure ",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_234140793_37138661430/ss_20261027_234140793_37138661430.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409222,
+            "type": "topic",
+            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+            "description": "daily",
+            "sportId": 0,
+            "topicId": 779
+          },
+          {
+            "id": 186377,
+            "type": "topic",
+            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
+            "description": "nba free agency",
+            "sportId": 0,
+            "topicId": 677
+          },
+          {
+            "id": 128110,
+            "type": "topic",
+            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
+            "description": "news - frontpage",
+            "sportId": 0,
+            "topicId": 92
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50299136,
+        "nowId": "1-50299136",
+        "contentKey": "50299136-1-6-1",
+        "dataSourceIdentifier": "388c989046cb7",
+        "type": "Story",
+        "headline": "What are the Warriors' options as Kristaps Porzingis remains away from the team?",
+        "description": "Can the Warriors find a trade partner? Void Kristaps Porzingis' contract? Here's everything we know about the situation, and what could come next.",
+        "lastModified": "2026-11-04T17:16:12Z",
+        "published": "2026-11-04T17:16:12Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "fe2c0d2f05ced",
+            "id": 50299275,
+            "type": "header",
+            "name": "Kristaps Porzingis [608x342]",
+            "caption": "Center Kristaps Porzingis appeared in 15 of the Golden State Warriors' final 20 games last season, averaging 16.1 points and 5.3 rebounds. He has been away from the team all season and remains out indefinitely with a health-related issue.",
+            "credit": "Photo by Rocky Widner/NBAE via Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1027/r1737056_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+            "caption": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_143137740_3704753/ss_20261021_143137740_3704753.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 140914,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3102531",
+            "guid": "a1f467e2-5304-c8c1-db23-80fe313c3d7c",
+            "description": "Kristaps Porzingis",
+            "sportId": 46,
+            "athleteId": 3102531,
+            "athlete": {
+              "id": 3102531,
+              "description": "Kristaps Porzingis",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4600,
+            "type": "team",
+            "uid": "s:40~l:46~t:9",
+            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+            "description": "Golden State Warriors",
+            "sportId": 46,
+            "teamId": 9,
+            "team": {
+              "id": 9,
+              "description": "Golden State Warriors",
+              "abbreviation": "GS",
+              "shortDisplayName": "Warriors",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 737429,
+            "type": "contributor",
+            "guid": "86d01b33-56e3-3440-9ad9-9e0515416918",
+            "description": "Anthony Slater",
+            "slug": "anthony-slater",
+            "contributor": {
+              "id": 4252,
+              "description": "Anthony Slater"
+            }
+          }
+        ],
+        "byline": "Anthony Slater",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50299136"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50299136"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50299136"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50379460,
         "nowId": "1-50379460",
         "contentKey": "50379460-1-5-1",
@@ -3447,8 +3738,8 @@
         "type": "HeadlineNews",
         "headline": "Warriors withholding payments to Porzingis, sources say",
         "description": "The Golden State Warriors are not delivering semimonthly payments to veteran center Kristaps Porzingis on his $20 million salary, league sources told ESPN, ruling that the currently absent center is not rendering his services.",
-        "lastModified": "2026-11-04T16:34:23Z",
-        "published": "2026-11-04T16:34:23Z",
+        "lastModified": "2026-11-04T17:19:06Z",
+        "published": "2026-11-04T17:19:06Z",
         "images": [
           {
             "dataSourceIdentifier": "f711ad3f076ab",
@@ -3577,140 +3868,6 @@
           },
           "web": {
             "href": "https://www.espn.com/nba/story/_/id/50379460/warriors-not-making-payments-porzingis-sources-say"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50028196,
-        "nowId": "1-50028196",
-        "contentKey": "50028196-1-6-1",
-        "dataSourceIdentifier": "6c1d8d0c3198e",
-        "type": "Story",
-        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-04T16:08:47Z",
-        "published": "2026-11-04T16:08:47Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "9794d99d85fc9",
-            "id": 50241205,
-            "type": "header",
-            "name": "porzingis [608x342] - Copy",
-            "credit": "D. Ross Cameron-Imagn Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "1d2dd1b0f7447",
-            "id": 50061081,
-            "type": "header",
-            "name": "kat [608x342]",
-            "credit": "Photo by Caleb Bowlin/Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "a754860d3e38f",
-            "id": 50028282,
-            "type": "header",
-            "name": "NBA LOGO [608x342] - Copy",
-            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Shams shares context on timing of Anthony Edwards' right knee procedure",
-            "caption": "Shams shares context on timing of Anthony Edwards' right knee procedure ",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_234140793_37138661430/ss_20261027_234140793_37138661430.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409222,
-            "type": "topic",
-            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
-            "description": "daily",
-            "sportId": 0,
-            "topicId": 779
-          },
-          {
-            "id": 186377,
-            "type": "topic",
-            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
-            "description": "nba free agency",
-            "sportId": 0,
-            "topicId": 677
-          },
-          {
-            "id": 128110,
-            "type": "topic",
-            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-            "description": "news - frontpage",
-            "sportId": 0,
-            "topicId": 92
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
           }
         },
         "premium": false
@@ -5136,160 +5293,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50373620,
-        "nowId": "1-50373620",
-        "contentKey": "50373620-1-5-1",
-        "dataSourceIdentifier": "74ee4c1c925a9",
-        "type": "HeadlineNews",
-        "headline": "Raptors' Kawhi Leonard completes knee treatment, begins 'return to play process'",
-        "description": "Kawhi Leonard has completed a treatment to address left knee swelling and is beginning the \"return to play process\" in Toronto, the Raptors announced.",
-        "lastModified": "2026-11-04T11:54:32Z",
-        "published": "2026-11-04T11:54:32Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "07ea0883d04b0",
-            "id": 50281291,
-            "type": "header",
-            "name": "Kawhi Leonard [600x400]",
-            "credit": "Brad Mills-Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A. goes on epic rant over Kawhi's latest injury",
-            "caption": "Stephen A. goes on epic rant over Kawhi's latest injury",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_120535881_3713088/ss_20261027_120535881_3713088.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4469,
-            "type": "team",
-            "uid": "s:40~l:46~t:28",
-            "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
-            "description": "Toronto Raptors",
-            "sportId": 46,
-            "teamId": 28,
-            "team": {
-              "id": 28,
-              "description": "Toronto Raptors",
-              "abbreviation": "TOR",
-              "shortDisplayName": "Raptors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 91976,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:6450",
-            "guid": "87ff907c-c68c-a82d-1215-37e05d0c62ef",
-            "description": "Kawhi Leonard",
-            "sportId": 46,
-            "athleteId": 6450,
-            "athlete": {
-              "id": 6450,
-              "description": "Kawhi Leonard",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50373620"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50373620"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50373620"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50373620/kawhi-leonard-finishes-knee-treatment-begins-return-process"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "8",
-      "gameProjection": "46.3",
-      "teamChanceLoss": "53.7"
-    },
-    "awayTeam": {
-      "id": "20",
-      "gameProjection": "53.7",
-      "teamChanceLoss": "46.3"
-    }
   },
   "header": {
     "id": "401909922",
@@ -5783,7 +5788,7 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 120,
+              "moneyLine": 114,
               "spreadOdds": -106.0,
               "open": {
                 "favorite": false,
@@ -5822,12 +5827,12 @@
                   "american": "-106"
                 },
                 "moneyLine": {
-                  "value": 2.2,
-                  "displayValue": "6/5",
-                  "alternateDisplayValue": "+120",
-                  "decimal": 2.2,
-                  "fraction": "6/5",
-                  "american": "+120"
+                  "value": 2.14,
+                  "displayValue": "57/50",
+                  "alternateDisplayValue": "+114",
+                  "decimal": 2.14,
+                  "fraction": "57/50",
+                  "american": "+114"
                 }
               },
               "team": {
@@ -5837,7 +5842,7 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -142,
+              "moneyLine": -135,
               "spreadOdds": -114.0,
               "open": {
                 "favorite": true,
@@ -5876,12 +5881,12 @@
                   "american": "-114"
                 },
                 "moneyLine": {
-                  "value": 1.7,
-                  "displayValue": "50/71",
-                  "alternateDisplayValue": "-142",
-                  "decimal": 1.7,
-                  "fraction": "50/71",
-                  "american": "-142"
+                  "value": 1.74,
+                  "displayValue": "20/27",
+                  "alternateDisplayValue": "-135",
+                  "decimal": 1.74,
+                  "fraction": "20/27",
+                  "american": "-135"
                 }
               },
               "team": {
@@ -6398,7 +6403,7 @@
     "description": "Philadelphia 76ers (7-1, first in the Eastern Conference) vs. Detroit Pistons (6-1, second in the Eastern Conference)",
     "title": "Pistons set to play the 76ers Wednesday",
     "linkText": "Pistons set to play the 76ers Wednesday",
-    "categorized": "2026-11-03T07:03:55Z",
+    "categorized": "2026-11-04T17:21:01Z",
     "originallyPosted": "2026-11-03T07:03:54Z",
     "lastModified": "2026-11-03T07:03:55Z",
     "published": "2026-11-03T07:03:54Z",
@@ -6547,12 +6552,12 @@
         "type": "team"
       },
       {
-        "ticketName": "11/4 vs 76ers 2309 tickets left",
+        "ticketName": "11/4 vs 76ers 2169 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-4-2026/production/7433082?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Lakers 3862 tickets left",
+        "ticketName": "11/8 vs Lakers 3788 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
         "type": "event"
       },
@@ -6562,57 +6567,57 @@
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ Wizards 8976 tickets left",
+        "ticketName": "11/12 @ Wizards 8992 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-12-2026/production/7433034?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 @ Heat 5960 tickets left",
+        "ticketName": "11/14 @ Heat 5927 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Spurs 3418 tickets left",
+        "ticketName": "11/17 @ Spurs 3461 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Pelicans 2691 tickets left",
+        "ticketName": "11/18 @ Pelicans 2655 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Raptors 4468 tickets left",
+        "ticketName": "11/20 vs Raptors 4450 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Hawks 3609 tickets left",
+        "ticketName": "11/22 @ Hawks 3602 tickets left",
         "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-22-2026/production/7433074?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 @ Magic 4149 tickets left",
+        "ticketName": "11/24 @ Magic 4117 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-10-30-2026--sports-nba-basketball/production/7418987?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Bucks 4352 tickets left",
+        "ticketName": "11/27 vs Bucks 4337 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-30-2026--sports-nba-basketball/production/7418559?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Magic 4130 tickets left",
+        "ticketName": "11/29 vs Magic 4133 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-29-2026/production/7431046?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Nuggets 3685 tickets left",
+        "ticketName": "11/30 vs Nuggets 3684 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-30-2026/production/7430950?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Grizzlies 4617 tickets left",
+        "ticketName": "12/2 vs Grizzlies 4622 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-2-2026/production/7431768?wsUser=717",
         "type": "event"
       },
@@ -6626,7 +6631,7 @@
       "opponentTeamName": "76ers",
       "currentTeamName": "Pistons",
       "venueName": "Little Caesars Arena",
-      "summary": "Tickets as low as $49",
+      "summary": "Tickets as low as $44",
       "date": "2026-11-05T00:00Z",
       "dateDay": "Wed",
       "homeAway": "home",
