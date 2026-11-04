@@ -574,6 +574,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -638,9 +640,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
         },
         {
           "id": "401909920",
@@ -995,8 +995,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "1",
             "uid": "s:40~l:46~t:1",
@@ -1061,7 +1059,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909282",
@@ -1083,8 +1083,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1149,7 +1147,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909921",
@@ -3431,6 +3431,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "12",
+      "gameProjection": "41.7",
+      "teamChanceLoss": "58.3"
+    },
+    "awayTeam": {
+      "id": "14",
+      "gameProjection": "58.3",
+      "teamChanceLoss": "41.7"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3447,6 +3461,78 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50382263,
+        "nowId": "1-50382263",
+        "contentKey": "50382263-1-293-1",
+        "dataSourceIdentifier": "a3766b3c5fafd",
+        "type": "Media",
+        "headline": "NBA Wednesday Teaser",
+        "description": "NBA Wednesday Teaser",
+        "lastModified": "2026-11-04T21:45:55Z",
+        "published": "2026-11-04T21:45:55Z",
+        "images": [
+          {
+            "name": "NBA Wednesday Teaser",
+            "caption": "NBA Wednesday Teaser",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1104/dm_261104_nba_promo/dm_261104_nba_promo.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/d28479a7-3e0e-4021-b054-2082df29212e"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50382263"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50382263&videoDSI=a3766b3c5fafd"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50382263/nba-wednesday-teaser",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50382263/nba-wednesday-teaser",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=a3766b3c5fafd"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50381574,
         "nowId": "1-50381574",
@@ -4536,165 +4622,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50299136,
-        "nowId": "1-50299136",
-        "contentKey": "50299136-1-6-1",
-        "dataSourceIdentifier": "388c989046cb7",
-        "type": "Story",
-        "headline": "What are the Warriors' options as Kristaps Porzingis remains away from the team?",
-        "description": "Can the Warriors find a trade partner? Void Kristaps Porzingis' contract? Here's everything we know about the situation, and what could come next.",
-        "lastModified": "2026-11-04T17:16:12Z",
-        "published": "2026-11-04T17:16:12Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "fe2c0d2f05ced",
-            "id": 50299275,
-            "type": "header",
-            "name": "Kristaps Porzingis [608x342]",
-            "caption": "Center Kristaps Porzingis appeared in 15 of the Golden State Warriors' final 20 games last season, averaging 16.1 points and 5.3 rebounds. He has been away from the team all season and remains out indefinitely with a health-related issue.",
-            "credit": "Photo by Rocky Widner/NBAE via Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/1027/r1737056_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
-            "caption": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_143137740_3704753/ss_20261021_143137740_3704753.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 140914,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3102531",
-            "guid": "a1f467e2-5304-c8c1-db23-80fe313c3d7c",
-            "description": "Kristaps Porzingis",
-            "sportId": 46,
-            "athleteId": 3102531,
-            "athlete": {
-              "id": 3102531,
-              "description": "Kristaps Porzingis",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4600,
-            "type": "team",
-            "uid": "s:40~l:46~t:9",
-            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-            "description": "Golden State Warriors",
-            "sportId": 46,
-            "teamId": 9,
-            "team": {
-              "id": 9,
-              "description": "Golden State Warriors",
-              "abbreviation": "GS",
-              "shortDisplayName": "Warriors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 737429,
-            "type": "contributor",
-            "guid": "86d01b33-56e3-3440-9ad9-9e0515416918",
-            "description": "Anthony Slater",
-            "slug": "anthony-slater",
-            "contributor": {
-              "id": 4252,
-              "description": "Anthony Slater"
-            }
-          }
-        ],
-        "byline": "Anthony Slater",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50299136"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50299136"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50299136"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "12",
-      "gameProjection": "41.7",
-      "teamChanceLoss": "58.3"
-    },
-    "awayTeam": {
-      "id": "14",
-      "gameProjection": "58.3",
-      "teamChanceLoss": "41.7"
-    }
   },
   "ticketsInfo": {
     "tickets": [
@@ -4709,27 +4638,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/4 vs Heat 1142 tickets left",
+        "ticketName": "11/4 vs Heat 799 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-4-2026/production/7432875?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Pelicans 2468 tickets left",
+        "ticketName": "11/8 vs Pelicans 2489 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-8-2026/production/7432803?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Suns 4331 tickets left",
+        "ticketName": "11/10 @ Suns 4349 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Thunder 4552 tickets left",
+        "ticketName": "11/13 vs Thunder 4522 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hornets 3393 tickets left",
+        "ticketName": "11/15 vs Hornets 3400 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
         "type": "event"
       },
@@ -4739,42 +4668,42 @@
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Spurs 4130 tickets left",
+        "ticketName": "11/19 @ Spurs 4121 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Mavericks 5786 tickets left",
+        "ticketName": "11/21 @ Mavericks 5793 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-21-2026/production/7433114?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Rockets 5632 tickets left",
+        "ticketName": "11/23 @ Rockets 5466 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Grizzlies 4810 tickets left",
+        "ticketName": "11/25 @ Grizzlies 4809 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026--sports-nba-basketball/production/7419908?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Pelicans 4886 tickets left",
+        "ticketName": "11/27 vs Pelicans 4901 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-31-2026--sports-nba-basketball/production/7419904?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Warriors 4785 tickets left",
+        "ticketName": "11/29 @ Warriors 4784 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-29-2026/production/7431220?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Suns 4420 tickets left",
+        "ticketName": "12/1 @ Suns 4425 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-12-1-2026/production/7431532?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Timberwolves 3397 tickets left",
+        "ticketName": "12/2 vs Timberwolves 3413 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-12-2-2026/production/7431453?wsUser=717",
         "type": "event"
       },
@@ -4788,7 +4717,7 @@
       "opponentTeamName": "Heat",
       "currentTeamName": "Clippers",
       "venueName": "Intuit Dome",
-      "summary": "Tickets as low as $20",
+      "summary": "Tickets as low as $18",
       "date": "2026-11-05T03:30Z",
       "dateDay": "Wed",
       "homeAway": "home",
