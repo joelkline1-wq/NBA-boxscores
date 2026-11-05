@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Nick Buchert",
+        "displayName": "Nick Buchert",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Jacyn Goble",
+        "displayName": "Jacyn Goble",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Robert Hussey",
+        "displayName": "Robert Hussey",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -399,8 +431,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -465,7 +495,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909873",
@@ -575,6 +607,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -639,9 +673,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401909919",
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -2640,6 +2672,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-11-05T01:04Z",
+          "athlete": {
+            "id": "4278402",
+            "uid": "s:40~l:46~a:4278402",
+            "guid": "0bd90eae-7fa2-1afb-904f-535595216bb3",
+            "lastName": "Goodwin",
+            "fullName": "Jordan Goodwin",
+            "displayName": "Jordan Goodwin",
+            "shortName": "J. Goodwin",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4278402/jordan-goodwin",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png",
+              "alt": "Jordan Goodwin"
+            },
+            "jersey": "23",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4278402?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Calf",
+            "location": "Leg",
+            "detail": "Not Specified",
+            "side": "Left",
+            "returnDate": "2026-11-05"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-11-04T20:17Z",
           "athlete": {
             "id": "5105977",
@@ -2697,67 +2790,6 @@
             "detail": "Sprain",
             "side": "Left",
             "returnDate": "2026-11-05"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-11-04T00:26Z",
-          "athlete": {
-            "id": "4278402",
-            "uid": "s:40~l:46~a:4278402",
-            "guid": "0bd90eae-7fa2-1afb-904f-535595216bb3",
-            "lastName": "Goodwin",
-            "fullName": "Jordan Goodwin",
-            "displayName": "Jordan Goodwin",
-            "shortName": "J. Goodwin",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4278402/jordan-goodwin",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png",
-              "alt": "Jordan Goodwin"
-            },
-            "jersey": "23",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4278402?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Calf",
-            "location": "Leg",
-            "detail": "Not Specified",
-            "side": "Left",
-            "returnDate": "2026-11-04"
           }
         },
         {
@@ -3098,7 +3130,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 125,
+        "moneyLine": 124,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
@@ -3270,7 +3302,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+125",
+            "odds": "+124",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3642,6 +3674,19 @@
     }
   ],
   "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "21",
+      "gameProjection": "39.7",
+      "teamChanceLoss": "60.3"
+    },
+    "awayTeam": {
+      "id": "22",
+      "gameProjection": "60.3",
+      "teamChanceLoss": "39.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3666,8 +3711,8 @@
         "type": "Story",
         "headline": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
         "description": "San Antonio remains the favorite to win the NBA championship, but fast starts by Houston and Philadelphia have seen their odds shorten.",
-        "lastModified": "2026-11-04T23:14:24Z",
-        "published": "2026-11-04T23:14:24Z",
+        "lastModified": "2026-11-05T00:26:13Z",
+        "published": "2026-11-05T00:26:13Z",
         "images": [
           {
             "dataSourceIdentifier": "d7b70f5df8baa",
@@ -4879,19 +4924,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "21",
-      "gameProjection": "39.7",
-      "teamChanceLoss": "60.3"
-    },
-    "awayTeam": {
-      "id": "22",
-      "gameProjection": "60.3",
-      "teamChanceLoss": "39.7"
-    }
-  },
   "header": {
     "id": "401909932",
     "uid": "s:40~l:46~e:401909932",
@@ -5438,7 +5470,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 125,
+              "moneyLine": 124,
               "spreadOdds": -108.0,
               "open": {
                 "favorite": false,
@@ -5477,12 +5509,12 @@
                   "american": "-108"
                 },
                 "moneyLine": {
-                  "value": 2.25,
-                  "displayValue": "5/4",
-                  "alternateDisplayValue": "+125",
-                  "decimal": 2.25,
-                  "fraction": "5/4",
-                  "american": "+125"
+                  "value": 2.24,
+                  "displayValue": "31/25",
+                  "alternateDisplayValue": "+124",
+                  "decimal": 2.24,
+                  "fraction": "31/25",
+                  "american": "+124"
                 }
               },
               "team": {
@@ -6183,12 +6215,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909932",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6202,77 +6228,77 @@
         "type": "team"
       },
       {
-        "ticketName": "11/4 vs Trail Blazers 1191 tickets left",
+        "ticketName": "11/4 vs Trail Blazers 780 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-4-2026/production/7432971?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/5 vs Magic 3087 tickets left",
+        "ticketName": "11/5 vs Magic 3086 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-5-2026/production/7432973?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/7 vs Rockets 3689 tickets left",
+        "ticketName": "11/7 vs Rockets 3621 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-7-2026/production/7432957?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Spurs 4164 tickets left",
+        "ticketName": "11/9 vs Spurs 4165 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-9-2026/production/7432975?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Clippers 4394 tickets left",
+        "ticketName": "11/10 vs Clippers 4413 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Hornets 4288 tickets left",
+        "ticketName": "11/12 vs Hornets 4273 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Lakers 4470 tickets left",
+        "ticketName": "11/15 vs Lakers 4471 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nuggets 6391 tickets left",
+        "ticketName": "11/16 @ Nuggets 6396 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-16-2026/production/7432981?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Kings 6452 tickets left",
+        "ticketName": "11/18 @ Kings 6450 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Jazz 3572 tickets left",
+        "ticketName": "11/20 @ Jazz 3527 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026--sports-nba-basketball/production/7418205?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pelicans 3156 tickets left",
+        "ticketName": "11/23 @ Pelicans 3166 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Rockets 4300 tickets left",
+        "ticketName": "11/25 @ Rockets 4301 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-30-2026--sports-nba-basketball/production/7418039?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Mavericks 4424 tickets left",
+        "ticketName": "11/27 vs Mavericks 4501 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Jazz 3984 tickets left",
+        "ticketName": "11/29 @ Jazz 3992 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-29-2026/production/7431527?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Clippers 4503 tickets left",
+        "ticketName": "12/1 vs Clippers 4512 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-12-1-2026/production/7431532?wsUser=717",
         "type": "event"
       }
@@ -6281,7 +6307,7 @@
       "opponentTeamName": "Trail Blazers",
       "currentTeamName": "Suns",
       "venueName": "Mortgage Matchup Center",
-      "summary": "Tickets as low as $18",
+      "summary": "Tickets as low as $23",
       "date": "2026-11-05T02:00Z",
       "dateDay": "Wed",
       "homeAway": "home",
@@ -6291,6 +6317,12 @@
       "teamLink": "https://www.vividseats.com/phoenix-suns-tickets--sports-nba-basketball/performer/679?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909932",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
