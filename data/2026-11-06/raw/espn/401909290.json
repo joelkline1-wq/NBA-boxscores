@@ -663,6 +663,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -727,9 +729,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
         }
       ]
     },
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909890",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
         },
         {
           "id": "401909917",
@@ -3297,13 +3297,13 @@
       "details": "DAL -6.5",
       "overUnder": 225.5,
       "spread": -6.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 217,
-        "spreadOdds": -107.0,
+        "moneyLine": 211,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/26?lang=en&region=us"
         },
@@ -3313,8 +3313,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -264,
-        "spreadOdds": -113.0,
+        "moneyLine": -257,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/6?lang=en&region=us"
         },
@@ -3485,7 +3485,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-264",
+            "odds": "-257",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3517,7 +3517,7 @@
         },
         "away": {
           "close": {
-            "odds": "+217",
+            "odds": "+211",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3554,7 +3554,7 @@
         "home": {
           "close": {
             "line": "-6.5",
-            "odds": "-113",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3588,7 +3588,7 @@
         "away": {
           "close": {
             "line": "+6.5",
-            "odds": "-107",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3626,7 +3626,7 @@
         "over": {
           "close": {
             "line": "o225.5",
-            "odds": "-113",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3660,7 +3660,7 @@
         "under": {
           "close": {
             "line": "u225.5",
-            "odds": "-107",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3856,6 +3856,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "6",
+      "gameProjection": "62",
+      "teamChanceLoss": "38"
+    },
+    "awayTeam": {
+      "id": "26",
+      "gameProjection": "38",
+      "teamChanceLoss": "62"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3879,9 +3893,9 @@
         "dataSourceIdentifier": "55b7b772ad8b2",
         "type": "HeadlineNews",
         "headline": "Warriors' Kristaps Porzingis to 'step away,' prioritize health",
-        "description": "Kristaps Porzingis announced that he will \"step away\" from the NBA in order to prioritize his health. He has not played for the Warriors this season.",
-        "lastModified": "2026-11-06T21:50:23Z",
-        "published": "2026-11-06T21:50:23Z",
+        "description": "Kristaps Porzingis has announced that he will \"step away\" from the NBA to prioritize his health. He has not played for the Warriors this season.",
+        "lastModified": "2026-11-06T22:35:31Z",
+        "published": "2026-11-06T22:35:31Z",
         "images": [
           {
             "dataSourceIdentifier": "661b409cccae3",
@@ -4023,8 +4037,8 @@
         "type": "Story",
         "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
         "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-06T21:51:41Z",
-        "published": "2026-11-06T21:51:41Z",
+        "lastModified": "2026-11-06T21:57:15Z",
+        "published": "2026-11-06T21:57:15Z",
         "images": [
           {
             "dataSourceIdentifier": "9794d99d85fc9",
@@ -4822,20 +4836,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "6",
-      "gameProjection": "62",
-      "teamChanceLoss": "38"
-    },
-    "awayTeam": {
-      "id": "26",
-      "gameProjection": "38",
-      "teamChanceLoss": "62"
-    }
-  },
   "header": {
     "id": "401909290",
     "uid": "s:40~l:46~e:401909290",
@@ -5328,8 +5328,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 217,
-              "spreadOdds": -107.0,
+              "moneyLine": 211,
+              "spreadOdds": -108.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5359,20 +5359,20 @@
                   "american": "+6.5"
                 },
                 "spread": {
-                  "value": 1.93,
-                  "displayValue": "100/107",
-                  "alternateDisplayValue": "-107",
-                  "decimal": 1.93,
-                  "fraction": "100/107",
-                  "american": "-107"
+                  "value": 1.92,
+                  "displayValue": "25/27",
+                  "alternateDisplayValue": "-108",
+                  "decimal": 1.92,
+                  "fraction": "25/27",
+                  "american": "-108"
                 },
                 "moneyLine": {
-                  "value": 3.17,
-                  "displayValue": "217/100",
-                  "alternateDisplayValue": "+217",
-                  "decimal": 3.17,
-                  "fraction": "217/100",
-                  "american": "+217"
+                  "value": 3.11,
+                  "displayValue": "211/100",
+                  "alternateDisplayValue": "+211",
+                  "decimal": 3.11,
+                  "fraction": "211/100",
+                  "american": "+211"
                 }
               },
               "team": {
@@ -5382,8 +5382,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -264,
-              "spreadOdds": -113.0,
+              "moneyLine": -257,
+              "spreadOdds": -112.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5413,20 +5413,20 @@
                   "american": "-6.5"
                 },
                 "spread": {
-                  "value": 1.88,
-                  "displayValue": "100/113",
-                  "alternateDisplayValue": "-113",
-                  "decimal": 1.88,
-                  "fraction": "100/113",
-                  "american": "-113"
+                  "value": 1.89,
+                  "displayValue": "25/28",
+                  "alternateDisplayValue": "-112",
+                  "decimal": 1.89,
+                  "fraction": "25/28",
+                  "american": "-112"
                 },
                 "moneyLine": {
-                  "value": 1.37,
-                  "displayValue": "25/66",
-                  "alternateDisplayValue": "-264",
-                  "decimal": 1.37,
-                  "fraction": "25/66",
-                  "american": "-264"
+                  "value": 1.38,
+                  "displayValue": "100/257",
+                  "alternateDisplayValue": "-257",
+                  "decimal": 1.38,
+                  "fraction": "100/257",
+                  "american": "-257"
                 }
               },
               "team": {
@@ -5435,20 +5435,20 @@
             },
             "current": {
               "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "total": {
                 "alternateDisplayValue": "225.5",
@@ -6128,12 +6128,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909290",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6147,67 +6141,67 @@
         "type": "team"
       },
       {
-        "ticketName": "11/6 vs Jazz 1971 tickets left",
+        "ticketName": "11/6 vs Jazz 1032 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-31-2026--sports-nba-basketball/production/7417921?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Nets 4734 tickets left",
+        "ticketName": "11/8 vs Nets 2386 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-8-2026/production/7433118?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Pacers 5823 tickets left",
+        "ticketName": "11/9 vs Pacers 2587 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-9-2026/production/7432861?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ Timberwolves 863 tickets left",
+        "ticketName": "11/12 @ Timberwolves 701 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 @ Cavaliers 3894 tickets left",
+        "ticketName": "11/14 @ Cavaliers 2004 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-14-2026/production/7433120?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Celtics 3537 tickets left",
+        "ticketName": "11/15 @ Celtics 2586 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-15-2026/production/7433122?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Warriors 6271 tickets left",
+        "ticketName": "11/18 vs Warriors 2380 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-18-2026/production/7433092?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Clippers 5439 tickets left",
+        "ticketName": "11/21 vs Clippers 2222 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-21-2026/production/7433114?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Jazz 3879 tickets left",
+        "ticketName": "11/22 @ Jazz 2244 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-22-2026/production/7433124?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 @ Nuggets 5512 tickets left",
+        "ticketName": "11/24 @ Nuggets 2666 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-30-2026--sports-nba-basketball/production/7417985?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Suns 4422 tickets left",
+        "ticketName": "11/27 @ Suns 2614 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Celtics 5282 tickets left",
+        "ticketName": "11/30 vs Celtics 2425 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-30-2026/production/7431359?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Magic 4421 tickets left",
+        "ticketName": "12/2 vs Magic 2411 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-12-2-2026/production/7431048?wsUser=717",
         "type": "event"
       },
@@ -6226,7 +6220,7 @@
       "opponentTeamName": "Jazz",
       "currentTeamName": "Mavericks",
       "venueName": "American Airlines Center",
-      "summary": "Tickets as low as $24",
+      "summary": "Tickets as low as $25",
       "date": "2026-11-07T01:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6236,6 +6230,12 @@
       "teamLink": "https://www.vividseats.com/dallas-mavericks-tickets--sports-nba-basketball/performer/215?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909290",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
