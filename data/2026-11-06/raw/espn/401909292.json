@@ -486,6 +486,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -550,9 +552,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
         },
         {
           "id": "401909915",
@@ -3119,12 +3119,12 @@
       "details": "TOR -4.5",
       "overUnder": 229.5,
       "spread": 4.5,
-      "overOdds": -110.0,
-      "underOdds": -110.0,
+      "overOdds": -105.0,
+      "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -192,
+        "moneyLine": -184,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
@@ -3135,7 +3135,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 160,
+        "moneyLine": 154,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/15?lang=en&region=us"
@@ -3307,7 +3307,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+160",
+            "odds": "+154",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3339,7 +3339,7 @@
         },
         "away": {
           "close": {
-            "odds": "-192",
+            "odds": "-184",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3448,7 +3448,7 @@
         "over": {
           "close": {
             "line": "o229.5",
-            "odds": "-110",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3482,7 +3482,7 @@
         "under": {
           "close": {
             "line": "u229.5",
-            "odds": "-110",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3678,6 +3678,19 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "15",
+      "gameProjection": "45.7",
+      "teamChanceLoss": "54.3"
+    },
+    "awayTeam": {
+      "id": "28",
+      "gameProjection": "54.3",
+      "teamChanceLoss": "45.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4776,6 +4789,154 @@
       }
     ]
   },
+  "winprobability": [],
+  "article": {
+    "id": 50385965,
+    "nowId": "1-50385965",
+    "contentKey": "50385965-1-22-1",
+    "dataSourceIdentifier": "103b8db9df20c",
+    "publishedkey": "nba401909292",
+    "type": "Preview",
+    "gameId": "401909292",
+    "headline": "Bucks and Raptors meet Friday in NBA Cup group stage",
+    "description": "Toronto Raptors (4-4, fifth in the Eastern Conference) vs. Milwaukee Bucks (1-7, 15th in the Eastern Conference)",
+    "title": "Bucks and Raptors meet Friday in NBA Cup group stage",
+    "linkText": "Bucks and Raptors meet Friday in NBA Cup group stage",
+    "categorized": "2026-11-05T07:03:40Z",
+    "originallyPosted": "2026-11-05T07:03:39Z",
+    "lastModified": "2026-11-05T07:03:40Z",
+    "published": "2026-11-05T07:03:39Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4453,
+        "type": "team",
+        "uid": "s:40~l:46~t:15",
+        "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
+        "description": "Milwaukee Bucks",
+        "sportId": 46,
+        "teamId": 15,
+        "team": {
+          "id": 15,
+          "description": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "shortDisplayName": "Bucks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4469,
+        "type": "team",
+        "uid": "s:40~l:46~t:28",
+        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+        "description": "Toronto Raptors",
+        "sportId": 46,
+        "teamId": 28,
+        "team": {
+          "id": 28,
+          "description": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "shortDisplayName": "Raptors",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909292",
+        "guid": "a5991507-86a5-3126-828a-9ffea05fe1c7",
+        "description": "Toronto Raptors @ Milwaukee Bucks",
+        "eventId": 401909292,
+        "event": {
+          "id": 401909292,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Toronto Raptors @ Milwaukee Bucks"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Milwaukee Bucks",
+      "Toronto Raptors",
+      "Toronto Raptors @ Milwaukee Bucks"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (4-4, fifth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mil/milwaukee-bucks\">Milwaukee Bucks</a> (1-7, 15th in the Eastern Conference)\n\n\r\n              Milwaukee; Friday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: The Milwaukee Bucks play the Toronto Raptors in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Milwaukee finished 32-50 overall, 21-31 in Eastern Conference play and 19-22 at home during the 2025-26 season. The Bucks averaged 110.6 points per game while allowing opponents to score 116.8 last season.\n\n\r\n              Toronto went 46-36 overall and 33-19 in Eastern Conference play during the 2025-26 season. The Raptors averaged 8.8 steals, 4.8 blocks and 12.9 turnovers per game last season.\n\n\r\n              INJURIES: Bucks: <a href=\"http://www.espn.com/nba/player/_/id/4697268/kam-jones\">Kam Jones</a>: day to day (ankle).\n\n\r\n              Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50385965"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50385965"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50385965"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909292"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "header": {
     "id": "401909292",
     "uid": "s:40~l:46~e:401909292",
@@ -5268,7 +5429,7 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -192,
+              "moneyLine": -184,
               "spreadOdds": -110.0,
               "open": {
                 "favorite": true,
@@ -5307,12 +5468,12 @@
                   "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 1.52,
-                  "displayValue": "25/48",
-                  "alternateDisplayValue": "-192",
-                  "decimal": 1.52,
-                  "fraction": "25/48",
-                  "american": "-192"
+                  "value": 1.54,
+                  "displayValue": "25/46",
+                  "alternateDisplayValue": "-184",
+                  "decimal": 1.54,
+                  "fraction": "25/46",
+                  "american": "-184"
                 }
               },
               "team": {
@@ -5322,7 +5483,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 160,
+              "moneyLine": 154,
               "spreadOdds": -110.0,
               "open": {
                 "favorite": false,
@@ -5361,12 +5522,12 @@
                   "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 2.6,
-                  "displayValue": "8/5",
-                  "alternateDisplayValue": "+160",
-                  "decimal": 2.6,
-                  "fraction": "8/5",
-                  "american": "+160"
+                  "value": 2.54,
+                  "displayValue": "77/50",
+                  "alternateDisplayValue": "+154",
+                  "decimal": 2.54,
+                  "fraction": "77/50",
+                  "american": "+154"
                 }
               },
               "team": {
@@ -5375,20 +5536,20 @@
             },
             "current": {
               "over": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "under": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "total": {
                 "alternateDisplayValue": "229.5",
@@ -5506,38 +5667,38 @@
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
@@ -5888,174 +6049,7 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
-  "article": {
-    "id": 50385965,
-    "nowId": "1-50385965",
-    "contentKey": "50385965-1-22-1",
-    "dataSourceIdentifier": "103b8db9df20c",
-    "publishedkey": "nba401909292",
-    "type": "Preview",
-    "gameId": "401909292",
-    "headline": "Bucks and Raptors meet Friday in NBA Cup group stage",
-    "description": "Toronto Raptors (4-4, fifth in the Eastern Conference) vs. Milwaukee Bucks (1-7, 15th in the Eastern Conference)",
-    "title": "Bucks and Raptors meet Friday in NBA Cup group stage",
-    "linkText": "Bucks and Raptors meet Friday in NBA Cup group stage",
-    "categorized": "2026-11-05T07:03:40Z",
-    "originallyPosted": "2026-11-05T07:03:39Z",
-    "lastModified": "2026-11-05T07:03:40Z",
-    "published": "2026-11-05T07:03:39Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4453,
-        "type": "team",
-        "uid": "s:40~l:46~t:15",
-        "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
-        "description": "Milwaukee Bucks",
-        "sportId": 46,
-        "teamId": 15,
-        "team": {
-          "id": 15,
-          "description": "Milwaukee Bucks",
-          "abbreviation": "MIL",
-          "shortDisplayName": "Bucks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4469,
-        "type": "team",
-        "uid": "s:40~l:46~t:28",
-        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
-        "description": "Toronto Raptors",
-        "sportId": 46,
-        "teamId": 28,
-        "team": {
-          "id": 28,
-          "description": "Toronto Raptors",
-          "abbreviation": "TOR",
-          "shortDisplayName": "Raptors",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909292",
-        "guid": "a5991507-86a5-3126-828a-9ffea05fe1c7",
-        "description": "Toronto Raptors @ Milwaukee Bucks",
-        "eventId": 401909292,
-        "event": {
-          "id": 401909292,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Toronto Raptors @ Milwaukee Bucks"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Milwaukee Bucks",
-      "Toronto Raptors",
-      "Toronto Raptors @ Milwaukee Bucks"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (4-4, fifth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mil/milwaukee-bucks\">Milwaukee Bucks</a> (1-7, 15th in the Eastern Conference)\n\n\r\n              Milwaukee; Friday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: The Milwaukee Bucks play the Toronto Raptors in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Milwaukee finished 32-50 overall, 21-31 in Eastern Conference play and 19-22 at home during the 2025-26 season. The Bucks averaged 110.6 points per game while allowing opponents to score 116.8 last season.\n\n\r\n              Toronto went 46-36 overall and 33-19 in Eastern Conference play during the 2025-26 season. The Raptors averaged 8.8 steals, 4.8 blocks and 12.9 turnovers per game last season.\n\n\r\n              INJURIES: Bucks: <a href=\"http://www.espn.com/nba/player/_/id/4697268/kam-jones\">Kam Jones</a>: day to day (ankle).\n\n\r\n              Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50385965"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50385965"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50385965"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909292"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909292",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "15",
-      "gameProjection": "45.7",
-      "teamChanceLoss": "54.3"
-    },
-    "awayTeam": {
-      "id": "28",
-      "gameProjection": "54.3",
-      "teamChanceLoss": "45.7"
-    }
-  },
-  "winprobability": [],
   "ticketsInfo": {
     "tickets": [
       {
@@ -6069,77 +6063,77 @@
         "type": "team"
       },
       {
-        "ticketName": "11/6 vs Raptors 1678 tickets left",
+        "ticketName": "11/6 vs Raptors 1667 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-30-2026--sports-nba-basketball/production/7418897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Celtics 5116 tickets left",
+        "ticketName": "11/8 vs Celtics 5070 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-8-2026/production/7432891?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Knicks 1040 tickets left",
+        "ticketName": "11/10 @ Knicks 1043 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-10-2026/production/7432893?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Lakers 3948 tickets left",
+        "ticketName": "11/11 vs Lakers 3692 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-11-2026/production/7432895?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Magic 2943 tickets left",
+        "ticketName": "11/13 @ Magic 2914 tickets left",
         "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-10-31-2026--sports-nba-basketball/production/7419021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hawks 6349 tickets left",
+        "ticketName": "11/15 vs Hawks 6352 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-15-2026/production/7432897?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Heat 4833 tickets left",
+        "ticketName": "11/18 @ Heat 3486 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Trail Blazers 5374 tickets left",
+        "ticketName": "11/19 vs Trail Blazers 5345 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-19-2026/production/7432901?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ 76ers 3163 tickets left",
+        "ticketName": "11/21 @ 76ers 3375 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-21-2026/production/7432903?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Raptors 2348 tickets left",
+        "ticketName": "11/23 @ Raptors 2343 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Nets 5719 tickets left",
+        "ticketName": "11/25 vs Nets 5715 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-10-31-2026--sports-nba-basketball/production/7418939?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Pistons 4141 tickets left",
+        "ticketName": "11/27 @ Pistons 4120 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-30-2026--sports-nba-basketball/production/7418559?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 vs Thunder 4400 tickets left",
+        "ticketName": "11/28 vs Thunder 4377 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-28-2026/production/7431112?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Spurs 4729 tickets left",
+        "ticketName": "11/30 vs Spurs 4718 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-30-2026/production/7431072?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Knicks 5252 tickets left",
+        "ticketName": "12/2 vs Knicks 5250 tickets left",
         "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-12-2-2026/production/7432420?wsUser=717",
         "type": "event"
       }
@@ -6148,7 +6142,7 @@
       "opponentTeamName": "Raptors",
       "currentTeamName": "Bucks",
       "venueName": "Fiserv Forum",
-      "summary": "Tickets as low as $14",
+      "summary": "Tickets as low as $15",
       "date": "2026-11-07T01:00Z",
       "dateDay": "Fri",
       "homeAway": "home",
@@ -6158,6 +6152,12 @@
       "teamLink": "https://www.vividseats.com/milwaukee-bucks-tickets--sports-nba-basketball/performer/550?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909292",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
