@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909283",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
         },
         {
           "id": "401909890",
@@ -2682,65 +2682,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-06T19:05Z",
-          "athlete": {
-            "id": "6442",
-            "uid": "s:40~l:46~a:6442",
-            "guid": "4fb2e3fc-ad79-d9bc-ddd9-bbb09f29ead3",
-            "lastName": "Irving",
-            "fullName": "Kyrie Irving",
-            "displayName": "Kyrie Irving",
-            "shortName": "K. Irving",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/6442/kyrie-irving",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
-              "alt": "Kyrie Irving"
-            },
-            "jersey": "11",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/51267?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Illness",
-            "location": "Other",
-            "returnDate": "2026-11-06"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-11-05T22:24Z",
           "athlete": {
@@ -2800,128 +2741,6 @@
         },
         {
           "status": "Out",
-          "date": "2026-11-05T22:24Z",
-          "athlete": {
-            "id": "4593125",
-            "uid": "s:40~l:46~a:4593125",
-            "guid": "e1717a84-e7f6-3697-9dce-b101dfa9f386",
-            "lastName": "Aldama",
-            "fullName": "Santi Aldama",
-            "displayName": "Santi Aldama",
-            "shortName": "S. Aldama",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4593125/santi-aldama",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4593125.png",
-              "alt": "Santi Aldama"
-            },
-            "jersey": "34",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4593125?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "detail": "Surgery",
-            "side": "Right",
-            "returnDate": "2026-11-06"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-11-05T22:20Z",
-          "athlete": {
-            "id": "4432582",
-            "uid": "s:40~l:46~a:4432582",
-            "guid": "29a42e27-f5a8-3d6e-a950-2b76a81f1d20",
-            "lastName": "Christie",
-            "fullName": "Max Christie",
-            "displayName": "Max Christie",
-            "shortName": "M. Christie",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4432582/max-christie",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432582.png",
-              "alt": "Max Christie"
-            },
-            "jersey": "0",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432582?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Hip",
-            "location": "Torso",
-            "detail": "Not Specified",
-            "side": "Right",
-            "returnDate": "2026-11-06"
-          }
-        },
-        {
-          "status": "Out",
           "date": "2026-11-01T23:19Z",
           "athlete": {
             "id": "5148538",
@@ -2974,6 +2793,67 @@
             "type": "Heel",
             "location": "Leg",
             "detail": "Inflammation",
+            "side": "Right",
+            "returnDate": "2026-11-12"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-11-01T22:57Z",
+          "athlete": {
+            "id": "4683688",
+            "uid": "s:40~l:46~a:4683688",
+            "guid": "a0268e7a-137e-3749-b75c-bedefd1177e4",
+            "lastName": "Lively II",
+            "fullName": "Dereck Lively II",
+            "displayName": "Dereck Lively II",
+            "shortName": "D. Lively II",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4683688/dereck-lively-ii",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4683688.png",
+              "alt": "Dereck Lively II"
+            },
+            "jersey": "2",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4683688?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Foot",
+            "location": "Leg",
+            "detail": "Surgery",
             "side": "Right",
             "returnDate": "2026-11-12"
           }
@@ -3856,6 +3736,7 @@
       "records": []
     }
   ],
+  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -3869,7 +3750,6 @@
       "teamChanceLoss": "62"
     }
   },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5602,8 +5482,8 @@
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               }
             ]
@@ -6141,27 +6021,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/6 vs Jazz 1032 tickets left",
+        "ticketName": "11/6 vs Jazz 690 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-10-31-2026--sports-nba-basketball/production/7417921?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/8 vs Nets 2386 tickets left",
+        "ticketName": "11/8 vs Nets 2379 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-8-2026/production/7433118?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/9 vs Pacers 2587 tickets left",
+        "ticketName": "11/9 vs Pacers 2588 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-9-2026/production/7432861?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ Timberwolves 701 tickets left",
+        "ticketName": "11/12 @ Timberwolves 691 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-12-2026/production/7432915?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 @ Cavaliers 2004 tickets left",
+        "ticketName": "11/14 @ Cavaliers 2003 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-14-2026/production/7433120?wsUser=717",
         "type": "event"
       },
@@ -6171,7 +6051,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Warriors 2380 tickets left",
+        "ticketName": "11/18 vs Warriors 2381 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-18-2026/production/7433092?wsUser=717",
         "type": "event"
       },
@@ -6181,27 +6061,27 @@
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Jazz 2244 tickets left",
+        "ticketName": "11/22 @ Jazz 2245 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-22-2026/production/7433124?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 @ Nuggets 2666 tickets left",
+        "ticketName": "11/24 @ Nuggets 2645 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-30-2026--sports-nba-basketball/production/7417985?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Suns 2614 tickets left",
+        "ticketName": "11/27 @ Suns 2610 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Celtics 2425 tickets left",
+        "ticketName": "11/30 vs Celtics 2427 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-30-2026/production/7431359?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Magic 2411 tickets left",
+        "ticketName": "12/2 vs Magic 2408 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-12-2-2026/production/7431048?wsUser=717",
         "type": "event"
       },
@@ -6220,7 +6100,7 @@
       "opponentTeamName": "Jazz",
       "currentTeamName": "Mavericks",
       "venueName": "American Airlines Center",
-      "summary": "Tickets as low as $25",
+      "summary": "Tickets as low as $24",
       "date": "2026-11-07T01:00Z",
       "dateDay": "Fri",
       "homeAway": "home",

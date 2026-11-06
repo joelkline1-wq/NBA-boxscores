@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Tony Brothers",
+        "displayName": "Tony Brothers",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Marat Kogut",
+        "displayName": "Marat Kogut",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Brent Haskill",
+        "displayName": "Brent Haskill",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -487,8 +519,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -553,7 +583,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909908",
@@ -663,6 +695,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -727,9 +761,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
         }
       ]
     },
@@ -820,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -886,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909278",
@@ -908,8 +940,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -974,7 +1004,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909903",
@@ -1172,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -1238,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3137,15 +3169,15 @@
         ]
       },
       "details": "BOS -10.5",
-      "overUnder": 208.5,
+      "overUnder": 209.5,
       "spread": 10.5,
-      "overOdds": -105.0,
-      "underOdds": -115.0,
+      "overOdds": -107.0,
+      "underOdds": -113.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
         "moneyLine": -424,
-        "spreadOdds": -105.0,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
         },
@@ -3156,7 +3188,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 331,
-        "spreadOdds": -115.0,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
         },
@@ -3267,7 +3299,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560O20850_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560O20950_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3280,7 +3312,7 @@
               "gameId": 401909288,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:208.5"
+              "betDetails": "Over:209.5"
             }
           }
         },
@@ -3291,7 +3323,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560U20850_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560U20950_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3304,7 +3336,7 @@
               "gameId": 401909288,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:208.5"
+              "betDetails": "Under:209.5"
             }
           }
         },
@@ -3396,7 +3428,7 @@
         "home": {
           "close": {
             "line": "+10.5",
-            "odds": "-115",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3430,7 +3462,7 @@
         "away": {
           "close": {
             "line": "-10.5",
-            "odds": "-105",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3467,8 +3499,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o208.5",
-            "odds": "-105",
+            "line": "o209.5",
+            "odds": "-107",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3476,7 +3508,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560O20850_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560O20950_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3489,7 +3521,7 @@
                   "gameId": 401909288,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:208.5"
+                  "betDetails": "Over:209.5"
                 }
               }
             }
@@ -3501,8 +3533,8 @@
         },
         "under": {
           "close": {
-            "line": "u208.5",
-            "odds": "-115",
+            "line": "u209.5",
+            "odds": "-113",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3510,7 +3542,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560U20850_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34960992%3Foutcomes%3D0OU87089560U20950_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3523,7 +3555,7 @@
                   "gameId": 401909288,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:208.5"
+                  "betDetails": "Under:209.5"
                 }
               }
             }
@@ -3698,20 +3730,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "30",
-      "gameProjection": "22.7",
-      "teamChanceLoss": "77.3"
-    },
-    "awayTeam": {
-      "id": "2",
-      "gameProjection": "77.3",
-      "teamChanceLoss": "22.7"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4678,6 +4696,20 @@
       }
     ]
   },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "30",
+      "gameProjection": "22.7",
+      "teamChanceLoss": "77.3"
+    },
+    "awayTeam": {
+      "id": "2",
+      "gameProjection": "77.3",
+      "teamChanceLoss": "22.7"
+    }
+  },
   "header": {
     "id": "401909288",
     "uid": "s:40~l:46~e:401909288",
@@ -5171,7 +5203,7 @@
               "favorite": true,
               "underdog": false,
               "moneyLine": -424,
-              "spreadOdds": -105.0,
+              "spreadOdds": -108.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5201,12 +5233,12 @@
                   "american": "-10.5"
                 },
                 "spread": {
-                  "value": 1.95,
-                  "displayValue": "20/21",
-                  "alternateDisplayValue": "-105",
-                  "decimal": 1.95,
-                  "fraction": "20/21",
-                  "american": "-105"
+                  "value": 1.92,
+                  "displayValue": "25/27",
+                  "alternateDisplayValue": "-108",
+                  "decimal": 1.92,
+                  "fraction": "25/27",
+                  "american": "-108"
                 },
                 "moneyLine": {
                   "value": 1.23,
@@ -5225,7 +5257,7 @@
               "favorite": false,
               "underdog": true,
               "moneyLine": 331,
-              "spreadOdds": -115.0,
+              "spreadOdds": -112.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5255,12 +5287,12 @@
                   "american": "+10.5"
                 },
                 "spread": {
-                  "value": 1.86,
-                  "displayValue": "20/23",
-                  "alternateDisplayValue": "-115",
-                  "decimal": 1.86,
-                  "fraction": "20/23",
-                  "american": "-115"
+                  "value": 1.89,
+                  "displayValue": "25/28",
+                  "alternateDisplayValue": "-112",
+                  "decimal": 1.89,
+                  "fraction": "25/28",
+                  "american": "-112"
                 },
                 "moneyLine": {
                   "value": 4.31,
@@ -5277,24 +5309,24 @@
             },
             "current": {
               "over": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
+                "value": 1.93,
+                "displayValue": "100/107",
+                "alternateDisplayValue": "-107",
+                "decimal": 1.93,
+                "fraction": "100/107",
+                "american": "-107"
               },
               "under": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
+                "value": 1.88,
+                "displayValue": "100/113",
+                "alternateDisplayValue": "-113",
+                "decimal": 1.88,
+                "fraction": "100/113",
+                "american": "-113"
               },
               "total": {
-                "alternateDisplayValue": "208.5",
-                "american": "208.5"
+                "alternateDisplayValue": "209.5",
+                "american": "209.5"
               }
             },
             "propBets": [
@@ -5432,20 +5464,20 @@
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               }
             ]
@@ -5761,6 +5793,109 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Hornets Tickets",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets--sports-nba-basketball/performer/4547?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/6 vs Celtics 550 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/9 vs Cavaliers 3290 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-9-2026/production/7432773?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 @ Suns 2763 tickets left",
+        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 @ Clippers 1431 tickets left",
+        "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 @ Lakers 3249 tickets left",
+        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Hawks 1913 tickets left",
+        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Grizzlies 3040 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 vs Bulls 2826 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-31-2026--sports-nba-basketball/production/7419735?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/28 vs Nets 3109 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-28-2026/production/7431820?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/30 vs Wizards 3166 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-30-2026/production/7431728?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/2 @ Celtics 3396 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-2-2026/production/7431828?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/12 @ Wizards 6386 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-12-2026/production/7431732?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 vs Raptors 3489 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-14-2026/production/7431066?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 vs Clippers 3031 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-16-2026/production/7431836?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Thunder 4292 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-18-2026/production/7431120?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Celtics",
+      "currentTeamName": "Hornets",
+      "venueName": "Spectrum Center",
+      "summary": "Tickets as low as $30",
+      "date": "2026-11-07T00:00Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
+      "venueLink": "https://www.vividseats.com/spectrum-center-tickets/venue/3832?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/charlotte-hornets-tickets--sports-nba-basketball/performer/4547?wsUser=717",
+      "timeValid": true
+    }
+  },
   "article": {
     "id": 50385960,
     "nowId": "1-50385960",
@@ -5909,109 +6044,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Hornets Tickets",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets--sports-nba-basketball/performer/4547?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/6 vs Celtics 617 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/9 vs Cavaliers 3288 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-9-2026/production/7432773?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 @ Suns 2755 tickets left",
-        "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 @ Clippers 1444 tickets left",
-        "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 @ Lakers 3244 tickets left",
-        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-17-2026/production/7432779?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Hawks 1913 tickets left",
-        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-10-30-2026--sports-nba-basketball/production/7419725?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Grizzlies 3040 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 vs Bulls 2826 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-31-2026--sports-nba-basketball/production/7419735?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/28 vs Nets 3107 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-28-2026/production/7431820?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/30 vs Wizards 3166 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-30-2026/production/7431728?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/2 @ Celtics 3394 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-2-2026/production/7431828?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/12 @ Wizards 6386 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-12-2026/production/7431732?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 vs Raptors 3489 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-14-2026/production/7431066?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 vs Clippers 3031 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-16-2026/production/7431836?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Thunder 4292 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-18-2026/production/7431120?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Celtics",
-      "currentTeamName": "Hornets",
-      "venueName": "Spectrum Center",
-      "summary": "Tickets as low as $26",
-      "date": "2026-11-07T00:00Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-30-2026--sports-nba-basketball/production/7419733?wsUser=717",
-      "venueLink": "https://www.vividseats.com/spectrum-center-tickets/venue/3832?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/charlotte-hornets-tickets--sports-nba-basketball/performer/4547?wsUser=717",
-      "timeValid": true
-    }
-  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909288",
     "gameSwitcherEnabled": true,
