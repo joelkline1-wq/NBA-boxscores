@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909896",
@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401909932",
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401909901",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909917",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401909933",
@@ -2867,6 +2867,65 @@
         ]
       },
       "injuries": [
+        {
+          "status": "Out",
+          "date": "2026-11-07T21:12Z",
+          "athlete": {
+            "id": "4066211",
+            "uid": "s:40~l:46~a:4066211",
+            "guid": "1b8d057b-0e77-fd5d-fa46-99bb325a88bf",
+            "lastName": "Williams III",
+            "fullName": "Robert Williams III",
+            "displayName": "Robert Williams III",
+            "shortName": "R. Williams III",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4066211/robert-williams-iii",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4066211.png",
+              "alt": "Robert Williams III"
+            },
+            "jersey": "35",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4066211?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Rest",
+            "location": "Other",
+            "returnDate": "2026-11-10"
+          }
+        },
         {
           "status": "Out",
           "date": "2026-11-05T05:17Z",
@@ -5861,32 +5920,32 @@
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               }
             ]
@@ -6411,22 +6470,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/7 vs Spurs 774 tickets left",
+        "ticketName": "11/7 vs Spurs 631 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-7-2026/production/7433013?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 vs Thunder 1677 tickets left",
+        "ticketName": "11/10 vs Thunder 1672 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Thunder 1854 tickets left",
+        "ticketName": "11/11 vs Thunder 1850 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-11-2026/production/7433150?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Kings 1298 tickets left",
+        "ticketName": "11/13 @ Kings 1294 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-10-30-2026--sports-nba-basketball/production/7420228?wsUser=717",
         "type": "event"
       },
@@ -6436,7 +6495,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/17 @ Timberwolves 826 tickets left",
+        "ticketName": "11/17 @ Timberwolves 819 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-17-2026/production/7432921?wsUser=717",
         "type": "event"
       },
@@ -6446,32 +6505,32 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Knicks 1825 tickets left",
+        "ticketName": "11/21 @ Knicks 1821 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-11-21-2026/production/7432951?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ 76ers 1997 tickets left",
+        "ticketName": "11/23 @ 76ers 1995 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-23-2026/production/7431523?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Spurs 2154 tickets left",
+        "ticketName": "11/25 vs Spurs 2155 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Warriors 1818 tickets left",
+        "ticketName": "11/27 vs Warriors 1792 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-31-2026--sports-nba-basketball/production/7420198?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Pelicans 1057 tickets left",
+        "ticketName": "11/29 vs Pelicans 1071 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-29-2026/production/7430916?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Timberwolves 1033 tickets left",
+        "ticketName": "12/1 vs Timberwolves 1037 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-1-2026/production/7431449?wsUser=717",
         "type": "event"
       },
@@ -6481,7 +6540,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/12 vs Hawks 4071 tickets left",
+        "ticketName": "12/12 vs Hawks 1223 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-12-2026/production/7432062?wsUser=717",
         "type": "event"
       }
@@ -6490,7 +6549,7 @@
       "opponentTeamName": "Spurs",
       "currentTeamName": "Trail Blazers",
       "venueName": "Moda Center",
-      "summary": "Tickets as low as $65",
+      "summary": "Tickets as low as $66",
       "date": "2026-11-08T03:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
