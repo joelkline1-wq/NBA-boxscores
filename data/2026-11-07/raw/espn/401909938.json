@@ -397,6 +397,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -461,9 +463,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
         },
         {
           "id": "401909904",
@@ -1082,8 +1082,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -1148,7 +1146,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909931",
@@ -3460,20 +3460,6 @@
       "records": []
     }
   ],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "11",
-      "gameProjection": "22.9",
-      "teamChanceLoss": "77.1"
-    },
-    "awayTeam": {
-      "id": "7",
-      "gameProjection": "77.1",
-      "teamChanceLoss": "22.9"
-    }
-  },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5981,6 +5967,20 @@
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
+  },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "11",
+      "gameProjection": "22.9",
+      "teamChanceLoss": "77.1"
+    },
+    "awayTeam": {
+      "id": "7",
+      "gameProjection": "77.1",
+      "teamChanceLoss": "22.9"
+    }
   },
   "standings": {
     "fullViewLink": {

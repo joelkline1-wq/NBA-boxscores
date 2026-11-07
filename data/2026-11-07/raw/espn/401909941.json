@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
         },
         {
           "id": "401909923",
@@ -1654,21 +1654,21 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Out",
+                "status": "Day-To-Day",
                 "injuries": {
-                  "status": "Out",
-                  "date": "2026-11-06T22:37Z",
+                  "status": "Day-To-Day",
+                  "date": "2026-11-07T15:05Z",
                   "type": {
-                    "id": "4",
-                    "name": "INJURY_STATUS_OUT",
-                    "description": "out",
-                    "abbreviation": "O"
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "OUT",
-                      "abbreviation": "OUT",
-                      "displayDescription": "Out"
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
                     },
                     "type": "Ankle",
                     "location": "Leg",
@@ -1831,21 +1831,21 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Out",
+                "status": "Day-To-Day",
                 "injuries": {
-                  "status": "Out",
-                  "date": "2026-11-06T22:37Z",
+                  "status": "Day-To-Day",
+                  "date": "2026-11-07T15:05Z",
                   "type": {
-                    "id": "4",
-                    "name": "INJURY_STATUS_OUT",
-                    "description": "out",
-                    "abbreviation": "O"
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "OUT",
-                      "abbreviation": "OUT",
-                      "displayDescription": "Out"
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
                     },
                     "type": "Ankle",
                     "location": "Leg",
@@ -2425,8 +2425,8 @@
       },
       "injuries": [
         {
-          "status": "Out",
-          "date": "2026-11-05T23:20Z",
+          "status": "Day-To-Day",
+          "date": "2026-11-07T15:04Z",
           "athlete": {
             "id": "4432823",
             "uid": "s:40~l:46~a:4432823",
@@ -2467,16 +2467,16 @@
             }
           },
           "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
             },
             "type": "Back",
             "location": "Torso",
@@ -2528,16 +2528,6 @@
             "name": "INJURY_STATUS_OUT",
             "description": "out",
             "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Back",
-            "location": "Torso",
-            "returnDate": "2026-11-13"
           }
         },
         {
@@ -2789,8 +2779,8 @@
       },
       "injuries": [
         {
-          "status": "Out",
-          "date": "2026-11-06T22:37Z",
+          "status": "Day-To-Day",
+          "date": "2026-11-07T15:05Z",
           "athlete": {
             "id": "6583",
             "uid": "s:40~l:46~a:6583",
@@ -2831,16 +2821,16 @@
             }
           },
           "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
             },
             "type": "Ankle",
             "location": "Leg",
@@ -3701,19 +3691,6 @@
     }
   ],
   "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "25",
-      "gameProjection": "84.4",
-      "teamChanceLoss": "15.6"
-    },
-    "awayTeam": {
-      "id": "27",
-      "gameProjection": "15.6",
-      "teamChanceLoss": "84.4"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4970,6 +4947,19 @@
         "premium": false
       }
     ]
+  },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "25",
+      "gameProjection": "84.4",
+      "teamChanceLoss": "15.6"
+    },
+    "awayTeam": {
+      "id": "27",
+      "gameProjection": "15.6",
+      "teamChanceLoss": "84.4"
+    }
   },
   "header": {
     "id": "401909941",
@@ -6242,12 +6232,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909941",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6261,12 +6245,12 @@
         "type": "team"
       },
       {
-        "ticketName": "11/7 vs Wizards 472 tickets left",
+        "ticketName": "11/7 vs Wizards 465 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-11-7-2026/production/7433030?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Trail Blazers 1651 tickets left",
+        "ticketName": "11/10 @ Trail Blazers 1646 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-10-2026/production/7433148?wsUser=717",
         "type": "event"
       },
@@ -6276,12 +6260,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Clippers 1723 tickets left",
+        "ticketName": "11/13 @ Clippers 1724 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Kings 984 tickets left",
+        "ticketName": "11/15 @ Kings 1002 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-15-2026/production/7433001?wsUser=717",
         "type": "event"
       },
@@ -6291,12 +6275,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Pelicans 1147 tickets left",
+        "ticketName": "11/20 vs Pelicans 1143 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Heat 4022 tickets left",
+        "ticketName": "11/22 @ Heat 4013 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
@@ -6316,7 +6300,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/30 @ Nets 2324 tickets left",
+        "ticketName": "11/30 @ Nets 2322 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-30-2026/production/7431114?wsUser=717",
         "type": "event"
       },
@@ -6340,7 +6324,7 @@
       "opponentTeamName": "Wizards",
       "currentTeamName": "Thunder",
       "venueName": "Paycom Center",
-      "summary": "Tickets as low as $40",
+      "summary": "Tickets as low as $41",
       "date": "2026-11-08T01:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
@@ -6350,6 +6334,12 @@
       "teamLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets--sports-nba-basketball/performer/16164?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909941",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
