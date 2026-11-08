@@ -398,6 +398,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -462,9 +464,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909905",
@@ -1171,8 +1171,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -1237,7 +1235,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3141,7 +3141,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3161,8 +3161,8 @@
       "details": "NO -1.5",
       "overUnder": 226.5,
       "spread": 1.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "overOdds": -108.0,
+      "underOdds": -112.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
@@ -3192,7 +3192,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973494%3Foutcomes%3D0ML87124146_1",
           "text": "Home Bet",
@@ -3216,7 +3216,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973494%3Foutcomes%3D0ML87124146_3",
           "text": "Away Bet",
@@ -3356,7 +3356,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973494%3Foutcomes%3D0ML87124146_1",
               "text": "Home Bet",
@@ -3388,7 +3388,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973494%3Foutcomes%3D0ML87124146_3",
               "text": "Away Bet",
@@ -3490,7 +3490,7 @@
         "over": {
           "close": {
             "line": "o226.5",
-            "odds": "-112",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3524,7 +3524,7 @@
         "under": {
           "close": {
             "line": "u226.5",
-            "odds": "-108",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -4993,6 +4993,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "12",
+      "gameProjection": "48.6",
+      "teamChanceLoss": "51.4"
+    },
+    "awayTeam": {
+      "id": "3",
+      "gameProjection": "51.4",
+      "teamChanceLoss": "48.6"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401909950",
     "uid": "s:40~l:46~e:401909950",
@@ -5592,20 +5606,20 @@
             },
             "current": {
               "over": {
-                "value": 1.89,
-                "displayValue": "25/28",
-                "alternateDisplayValue": "-112",
-                "decimal": 1.89,
-                "fraction": "25/28",
-                "american": "-112"
-              },
-              "under": {
                 "value": 1.92,
                 "displayValue": "25/27",
                 "alternateDisplayValue": "-108",
                 "decimal": 1.92,
                 "fraction": "25/27",
                 "american": "-108"
+              },
+              "under": {
+                "value": 1.89,
+                "displayValue": "25/28",
+                "alternateDisplayValue": "-112",
+                "decimal": 1.89,
+                "fraction": "25/28",
+                "american": "-112"
               },
               "total": {
                 "alternateDisplayValue": "226.5",
@@ -6274,20 +6288,6 @@
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "12",
-      "gameProjection": "48.6",
-      "teamChanceLoss": "51.4"
-    },
-    "awayTeam": {
-      "id": "3",
-      "gameProjection": "51.4",
-      "teamChanceLoss": "48.6"
-    }
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6301,22 +6301,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/8 vs Pelicans 816 tickets left",
+        "ticketName": "11/8 vs Pelicans 820 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-8-2026/production/7432803?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/10 @ Suns 2531 tickets left",
+        "ticketName": "11/10 @ Suns 2528 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Thunder 1675 tickets left",
+        "ticketName": "11/13 vs Thunder 1674 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-30-2026--sports-nba-basketball/production/7419902?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Hornets 1529 tickets left",
+        "ticketName": "11/15 vs Hornets 1527 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-15-2026/production/7432777?wsUser=717",
         "type": "event"
       },
@@ -6336,7 +6336,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Rockets 3596 tickets left",
+        "ticketName": "11/23 @ Rockets 3600 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
@@ -6351,7 +6351,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Warriors 2781 tickets left",
+        "ticketName": "11/29 @ Warriors 2755 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-29-2026/production/7431220?wsUser=717",
         "type": "event"
       },
@@ -6380,7 +6380,7 @@
       "opponentTeamName": "Pelicans",
       "currentTeamName": "Clippers",
       "venueName": "Intuit Dome",
-      "summary": "Tickets as low as $23",
+      "summary": "Tickets as low as $20",
       "date": "2026-11-09T02:00Z",
       "dateDay": "Sun",
       "homeAway": "home",

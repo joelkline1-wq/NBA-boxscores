@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
         },
         {
           "id": "401909897",
@@ -2736,6 +2736,67 @@
       "injuries": [
         {
           "status": "Day-To-Day",
+          "date": "2026-11-08T15:07Z",
+          "athlete": {
+            "id": "2595516",
+            "uid": "s:40~l:46~a:2595516",
+            "guid": "4941d040-1812-cbb0-27bf-598cd624bc84",
+            "lastName": "Powell",
+            "fullName": "Norman Powell",
+            "displayName": "Norman Powell",
+            "shortName": "N. Powell",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/2595516/norman-powell",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/2595516.png",
+              "alt": "Norman Powell"
+            },
+            "jersey": "24",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/57041?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Shoulder",
+            "location": "Arm",
+            "detail": "Inflammation",
+            "side": "Right",
+            "returnDate": "2026-11-08"
+          }
+        },
+        {
+          "status": "Day-To-Day",
           "date": "2026-11-07T21:36Z",
           "athlete": {
             "id": "5105555",
@@ -3289,7 +3350,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3314,7 +3375,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -405,
+        "moneyLine": -420,
         "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
@@ -3325,7 +3386,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 319,
+        "moneyLine": 329,
         "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/4?lang=en&region=us"
@@ -3340,7 +3401,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973488%3Foutcomes%3D0ML87124130_1",
           "text": "Home Bet",
@@ -3364,7 +3425,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973488%3Foutcomes%3D0ML87124130_3",
           "text": "Away Bet",
@@ -3497,14 +3558,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+319",
+            "odds": "+329",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973488%3Foutcomes%3D0ML87124130_1",
               "text": "Home Bet",
@@ -3529,14 +3590,14 @@
         },
         "away": {
           "close": {
-            "odds": "-405",
+            "odds": "-420",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34973488%3Foutcomes%3D0ML87124130_3",
               "text": "Away Bet",
@@ -5141,6 +5202,20 @@
       }
     ]
   },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "4",
+      "gameProjection": "22.9",
+      "teamChanceLoss": "77.1"
+    },
+    "awayTeam": {
+      "id": "20",
+      "gameProjection": "77.1",
+      "teamChanceLoss": "22.9"
+    }
+  },
   "article": {
     "id": 50405888,
     "nowId": "1-50405888",
@@ -5288,20 +5363,6 @@
     "premium": false
   },
   "videos": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "4",
-      "gameProjection": "22.9",
-      "teamChanceLoss": "77.1"
-    },
-    "awayTeam": {
-      "id": "20",
-      "gameProjection": "77.1",
-      "teamChanceLoss": "22.9"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909945",
     "uid": "s:40~l:46~e:401909945",
@@ -5322,7 +5383,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -5794,7 +5855,7 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -405,
+              "moneyLine": -420,
               "spreadOdds": -105.0,
               "open": {
                 "favorite": true,
@@ -5833,12 +5894,12 @@
                   "american": "-105"
                 },
                 "moneyLine": {
-                  "value": 1.24,
-                  "displayValue": "20/81",
-                  "alternateDisplayValue": "-405",
-                  "decimal": 1.24,
-                  "fraction": "20/81",
-                  "american": "-405"
+                  "value": 1.23,
+                  "displayValue": "5/21",
+                  "alternateDisplayValue": "-420",
+                  "decimal": 1.23,
+                  "fraction": "5/21",
+                  "american": "-420"
                 }
               },
               "team": {
@@ -5848,7 +5909,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 319,
+              "moneyLine": 329,
               "spreadOdds": -115.0,
               "open": {
                 "favorite": false,
@@ -5887,12 +5948,12 @@
                   "american": "-115"
                 },
                 "moneyLine": {
-                  "value": 4.19,
-                  "displayValue": "319/100",
-                  "alternateDisplayValue": "+319",
-                  "decimal": 4.19,
-                  "fraction": "319/100",
-                  "american": "+319"
+                  "value": 4.29,
+                  "displayValue": "329/100",
+                  "alternateDisplayValue": "+329",
+                  "decimal": 4.29,
+                  "fraction": "329/100",
+                  "american": "+329"
                 }
               },
               "team": {
@@ -6385,12 +6446,6 @@
     }
   },
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909945",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6404,32 +6459,32 @@
         "type": "team"
       },
       {
-        "ticketName": "11/8 vs 76ers 1188 tickets left",
+        "ticketName": "11/8 vs 76ers 970 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-8-2026/production/7433068?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Spurs 1974 tickets left",
+        "ticketName": "11/11 vs Spurs 1976 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-11-2026/production/7433015?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Hawks 1957 tickets left",
+        "ticketName": "11/13 vs Hawks 1965 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-30-2026--sports-nba-basketball/production/7419768?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/14 @ Timberwolves 632 tickets left",
+        "ticketName": "11/14 @ Timberwolves 618 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Cavaliers 2036 tickets left",
+        "ticketName": "11/16 @ Cavaliers 2066 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-16-2026/production/7433072?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Nets 2004 tickets left",
+        "ticketName": "11/18 @ Nets 1982 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-11-18-2026/production/7433076?wsUser=717",
         "type": "event"
       },
@@ -6449,17 +6504,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Hornets 2837 tickets left",
+        "ticketName": "11/25 @ Hornets 2843 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-spectrum-center-10-31-2026--sports-nba-basketball/production/7419735?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 vs Pacers 2107 tickets left",
+        "ticketName": "11/28 vs Pacers 2105 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-28-2026/production/7430988?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Knicks 2348 tickets left",
+        "ticketName": "12/1 vs Knicks 2344 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-1-2026/production/7432060?wsUser=717",
         "type": "event"
       },
@@ -6483,7 +6538,7 @@
       "opponentTeamName": "76ers",
       "currentTeamName": "Bulls",
       "venueName": "United Center",
-      "summary": "Tickets as low as $109",
+      "summary": "Tickets as low as $107",
       "date": "2026-11-08T20:30Z",
       "dateDay": "Sun",
       "homeAway": "home",
@@ -6493,6 +6548,12 @@
       "teamLink": "https://www.vividseats.com/chicago-bulls-tickets--sports-nba-basketball/performer/161?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909945",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
