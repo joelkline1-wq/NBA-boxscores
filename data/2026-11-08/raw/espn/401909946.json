@@ -310,8 +310,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -376,7 +374,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909883",
@@ -486,8 +486,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -552,7 +550,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909908",
@@ -574,8 +574,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -640,7 +638,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909922",
@@ -995,8 +995,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -1061,7 +1059,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909934",
@@ -1083,8 +1083,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -1149,7 +1147,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909294",
@@ -2421,6 +2421,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-11-08T16:05Z",
+          "athlete": {
+            "id": "4433621",
+            "uid": "s:40~l:46~a:4433621",
+            "guid": "6e30fca4-6751-37b6-b09a-2e4ecbec716e",
+            "lastName": "Duren",
+            "fullName": "Jalen Duren",
+            "displayName": "Jalen Duren",
+            "shortName": "J. Duren",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+              "alt": "Jalen Duren"
+            },
+            "jersey": "0",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433621?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Hamstring",
+            "location": "Leg",
+            "detail": "Strain",
+            "side": "Right",
+            "returnDate": "2026-11-24"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-11-07T21:59Z",
           "athlete": {
             "id": "4395702",
@@ -2476,67 +2537,6 @@
             "type": "Hip",
             "location": "Torso",
             "detail": "Bruise",
-            "side": "Right",
-            "returnDate": "2026-11-09"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-25T14:56Z",
-          "athlete": {
-            "id": "4433621",
-            "uid": "s:40~l:46~a:4433621",
-            "guid": "6e30fca4-6751-37b6-b09a-2e4ecbec716e",
-            "lastName": "Duren",
-            "fullName": "Jalen Duren",
-            "displayName": "Jalen Duren",
-            "shortName": "J. Duren",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
-              "alt": "Jalen Duren"
-            },
-            "jersey": "0",
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433621?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Hamstring",
-            "location": "Leg",
-            "detail": "Strain",
             "side": "Right",
             "returnDate": "2026-11-09"
           }
@@ -3274,6 +3274,257 @@
       "records": []
     }
   ],
+  "article": {
+    "id": 50405887,
+    "nowId": "1-50405887",
+    "contentKey": "50405887-1-22-1",
+    "dataSourceIdentifier": "72bc6226b9f1f",
+    "publishedkey": "nba401909946",
+    "type": "Preview",
+    "gameId": "401909946",
+    "headline": "Doncic leads Los Angeles against Detroit after 40-point showing",
+    "description": "Los Angeles Lakers (7-2, first in the Western Conference) vs. Detroit Pistons (6-2, third in the Eastern Conference)",
+    "title": "Doncic leads Los Angeles against Detroit after 40-point showing",
+    "linkText": "Doncic leads Los Angeles against Detroit after 40-point showing",
+    "categorized": "2026-11-07T07:03:42Z",
+    "originallyPosted": "2026-11-07T07:03:40Z",
+    "lastModified": "2026-11-07T07:03:42Z",
+    "published": "2026-11-07T07:03:40Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4630,
+        "type": "team",
+        "uid": "s:40~l:46~t:13",
+        "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+        "description": "Los Angeles Lakers",
+        "sportId": 46,
+        "teamId": 13,
+        "team": {
+          "id": 13,
+          "description": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "shortDisplayName": "Lakers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909946",
+        "guid": "76dabfd8-0741-304f-b70a-0e0a35cd3c73",
+        "description": "Los Angeles Lakers @ Detroit Pistons",
+        "eventId": 401909946,
+        "event": {
+          "id": 401909946,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Los Angeles Lakers @ Detroit Pistons"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Detroit Pistons",
+      "Los Angeles Lakers",
+      "Los Angeles Lakers @ Detroit Pistons"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/lal/los-angeles-lakers\">Los Angeles Lakers</a> (7-2, first in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (6-2, third in the Eastern Conference)\n\n\r\n              Detroit; Sunday, 6 p.m. EST\n\n\r\n              BOTTOM LINE: Los Angeles visits the Detroit Pistons after <a href=\"http://www.espn.com/nba/player/_/id/3945274/luka-doncic\">Luka Doncic</a> scored 40 points in the Lakers' 116-103 victory over the <a href=\"http://www.espn.com/nba/team/_/name/sac/sacramento-kings\">Sacramento Kings</a>.\n\n\r\n              Detroit finished 60-22 overall with a 32-9 record at home during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              Los Angeles went 53-29 overall with a 25-16 record on the road last season. The Lakers gave up 114.6 points per game while committing 18.5 fouls last season.\n\n\r\n              INJURIES: Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              Lakers: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50405887"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50405887"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50405887"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909946"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
+  "winprobability": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Pistons Tickets",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets--sports-nba-basketball/performer/239?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/8 vs Lakers 1549 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/9 vs Wizards 2489 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-9-2026/production/7433032?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 @ Wizards 2190 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-12-2026/production/7433034?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/14 @ Heat 4391 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 @ Spurs 1595 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Pelicans 1122 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 vs Raptors 2500 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/22 @ Hawks 1629 tickets left",
+        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-22-2026/production/7433074?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/24 @ Magic 2149 tickets left",
+        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-10-30-2026--sports-nba-basketball/production/7418987?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 vs Bucks 2909 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-30-2026--sports-nba-basketball/production/7418559?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 vs Magic 2892 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-29-2026/production/7431046?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/30 vs Nuggets 2861 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-30-2026/production/7430950?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/2 vs Grizzlies 3114 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-2-2026/production/7431768?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/13 @ Pacers 2047 tickets left",
+        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-12-13-2026/production/7430994?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 vs Nets 2968 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-14-2026/production/7431966?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Lakers",
+      "currentTeamName": "Pistons",
+      "venueName": "Little Caesars Arena",
+      "summary": "Tickets as low as $51",
+      "date": "2026-11-08T23:00Z",
+      "dateDay": "Sun",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
+      "venueLink": "https://www.vividseats.com/little-caesars-arena-tickets/venue/16388?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/detroit-pistons-tickets--sports-nba-basketball/performer/239?wsUser=717",
+      "timeValid": true
+    }
+  },
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -3287,7 +3538,6 @@
       "teamChanceLoss": "66.8"
     }
   },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3304,6 +3554,241 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50392857,
+        "nowId": "1-50392857",
+        "contentKey": "50392857-1-6-1",
+        "dataSourceIdentifier": "c924d33f4c91c",
+        "type": "Story",
+        "headline": "Sunday's fantasy hoops adds, NBA bets to make: Nets, Clippers offer value",
+        "description": "Jim McCormick breaks down Sunday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
+        "lastModified": "2026-11-08T16:22:12Z",
+        "published": "2026-11-08T16:22:12Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "86c19fddf0169",
+            "id": 50420526,
+            "type": "header",
+            "name": "Day'Ron Sharpe [1296x729]",
+            "caption": "Check if Day'Ron Sharpe of the Brooklyn Nets is available in your league.",
+            "credit": "Nathaniel S. Butler/NBAE via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1108/r1742952_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Rui Hachimura fights off defender for and-1",
+            "caption": "Rui Hachimura fights off defender for and-1",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/2ce6a9b7-da00-456e-a37d-151159ed7f44/2ce6a9b7-da00-456e-a37d-151159ed7f44.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 492489,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432194",
+            "guid": "ca2f4b35-a2bc-3bbe-a229-a11f5e326a9f",
+            "description": "Day'Ron Sharpe",
+            "sportId": 46,
+            "athleteId": 4432194,
+            "athlete": {
+              "id": 4432194,
+              "description": "Day'Ron Sharpe",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 715635,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5279130",
+            "guid": "5fad9947-6e8a-3232-be05-b9f1088c8da1",
+            "description": "Nolan Traore",
+            "sportId": 46,
+            "athleteId": 5279130,
+            "athlete": {
+              "id": 5279130,
+              "description": "Nolan Traore",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5279130/nolan-traore"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5279130/nolan-traore"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 384227,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4278078",
+            "guid": "a2ef18dc-dcba-f71b-e39c-e794921f8193",
+            "description": "PJ Washington",
+            "sportId": 46,
+            "athleteId": 4278078,
+            "athlete": {
+              "id": 4278078,
+              "description": "PJ Washington",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278078/pj-washington"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278078/pj-washington"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 384217,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4066648",
+            "guid": "40c1bcf6-675b-f217-f97c-1d628073f927",
+            "description": "Rui Hachimura",
+            "sportId": 46,
+            "athleteId": 4066648,
+            "athlete": {
+              "id": 4066648,
+              "description": "Rui Hachimura",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701343,
+            "type": "contributor",
+            "guid": "85cd03e0-50b4-387e-9711-d7faa737259f",
+            "description": "Jim McCormick",
+            "slug": "jim-mccormick",
+            "contributor": {
+              "id": 1749,
+              "description": "Jim McCormick"
+            }
+          }
+        ],
+        "byline": "Jim McCormick",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50392857"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50392857"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50392857"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50392857/fantasy-basketball-tips-nba-betting-picks-today"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50401786,
         "nowId": "1-50401786",
@@ -4341,373 +4826,9 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50417884,
-        "nowId": "1-50417884",
-        "contentKey": "50417884-1-22-1",
-        "dataSourceIdentifier": "42d9bdd0028f5",
-        "type": "Preview",
-        "headline": "Denver plays Houston, seeks 4th straight road win",
-        "description": "Denver Nuggets (5-3, ninth in the Western Conference) vs. Houston Rockets (7-3, sixth in the Western Conference)",
-        "lastModified": "2026-11-08T07:03:34Z",
-        "published": "2026-11-08T07:03:34Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4517,
-            "type": "team",
-            "uid": "s:40~l:46~t:10",
-            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-            "description": "Houston Rockets",
-            "sportId": 46,
-            "teamId": 10,
-            "team": {
-              "id": 10,
-              "description": "Houston Rockets",
-              "abbreviation": "HOU",
-              "shortDisplayName": "Rockets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4502,
-            "type": "team",
-            "uid": "s:40~l:46~t:7",
-            "guid": "c4aceb39-0eb9-a30b-1120-9cb5b12b677a",
-            "description": "Denver Nuggets",
-            "sportId": 46,
-            "teamId": 7,
-            "team": {
-              "id": 7,
-              "description": "Denver Nuggets",
-              "abbreviation": "DEN",
-              "shortDisplayName": "Nuggets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909957",
-            "guid": "17d3f90d-1140-35c7-a8b7-92199e48fad9",
-            "description": "Denver Nuggets @ Houston Rockets",
-            "eventId": 401909957,
-            "event": {
-              "id": 401909957,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Denver Nuggets @ Houston Rockets"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50417884"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50417884"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50417884"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909957"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "article": {
-    "id": 50405887,
-    "nowId": "1-50405887",
-    "contentKey": "50405887-1-22-1",
-    "dataSourceIdentifier": "72bc6226b9f1f",
-    "publishedkey": "nba401909946",
-    "type": "Preview",
-    "gameId": "401909946",
-    "headline": "Doncic leads Los Angeles against Detroit after 40-point showing",
-    "description": "Los Angeles Lakers (7-2, first in the Western Conference) vs. Detroit Pistons (6-2, third in the Eastern Conference)",
-    "title": "Doncic leads Los Angeles against Detroit after 40-point showing",
-    "linkText": "Doncic leads Los Angeles against Detroit after 40-point showing",
-    "categorized": "2026-11-07T07:03:42Z",
-    "originallyPosted": "2026-11-07T07:03:40Z",
-    "lastModified": "2026-11-07T07:03:42Z",
-    "published": "2026-11-07T07:03:40Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4630,
-        "type": "team",
-        "uid": "s:40~l:46~t:13",
-        "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-        "description": "Los Angeles Lakers",
-        "sportId": 46,
-        "teamId": 13,
-        "team": {
-          "id": 13,
-          "description": "Los Angeles Lakers",
-          "abbreviation": "LAL",
-          "shortDisplayName": "Lakers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909946",
-        "guid": "76dabfd8-0741-304f-b70a-0e0a35cd3c73",
-        "description": "Los Angeles Lakers @ Detroit Pistons",
-        "eventId": 401909946,
-        "event": {
-          "id": 401909946,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Los Angeles Lakers @ Detroit Pistons"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Detroit Pistons",
-      "Los Angeles Lakers",
-      "Los Angeles Lakers @ Detroit Pistons"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/lal/los-angeles-lakers\">Los Angeles Lakers</a> (7-2, first in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (6-2, third in the Eastern Conference)\n\n\r\n              Detroit; Sunday, 6 p.m. EST\n\n\r\n              BOTTOM LINE: Los Angeles visits the Detroit Pistons after <a href=\"http://www.espn.com/nba/player/_/id/3945274/luka-doncic\">Luka Doncic</a> scored 40 points in the Lakers' 116-103 victory over the <a href=\"http://www.espn.com/nba/team/_/name/sac/sacramento-kings\">Sacramento Kings</a>.\n\n\r\n              Detroit finished 60-22 overall with a 32-9 record at home during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              Los Angeles went 53-29 overall with a 25-16 record on the road last season. The Lakers gave up 114.6 points per game while committing 18.5 fouls last season.\n\n\r\n              INJURIES: Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              Lakers: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50405887"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50405887"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50405887"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909946"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909946",
     "uid": "s:40~l:46~e:401909946",
@@ -5837,109 +5958,6 @@
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Pistons Tickets",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets--sports-nba-basketball/performer/239?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/8 vs Lakers 1585 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/9 vs Wizards 2491 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-9-2026/production/7433032?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 @ Wizards 2162 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-12-2026/production/7433034?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/14 @ Heat 4396 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 @ Spurs 1541 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Pelicans 1122 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 vs Raptors 2506 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/22 @ Hawks 1629 tickets left",
-        "ticketLink": "https://www.vividseats.com/atlanta-hawks-tickets-state-farm-arena-11-22-2026/production/7433074?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/24 @ Magic 2149 tickets left",
-        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-10-30-2026--sports-nba-basketball/production/7418987?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 vs Bucks 2909 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-30-2026--sports-nba-basketball/production/7418559?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 vs Magic 2892 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-29-2026/production/7431046?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/30 vs Nuggets 2864 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-30-2026/production/7430950?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/2 vs Grizzlies 3114 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-2-2026/production/7431768?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/13 @ Pacers 2047 tickets left",
-        "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-12-13-2026/production/7430994?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 vs Nets 2968 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-14-2026/production/7431966?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Lakers",
-      "currentTeamName": "Pistons",
-      "venueName": "Little Caesars Arena",
-      "summary": "Tickets as low as $51",
-      "date": "2026-11-08T23:00Z",
-      "dateDay": "Sun",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-8-2026/production/7433084?wsUser=717",
-      "venueLink": "https://www.vividseats.com/little-caesars-arena-tickets/venue/16388?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/detroit-pistons-tickets--sports-nba-basketball/performer/239?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
