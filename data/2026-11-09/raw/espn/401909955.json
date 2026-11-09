@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "John Goble",
+        "displayName": "John Goble",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Ashley Moyer-Gleich",
+        "displayName": "Ashley Moyer-Gleich",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Derrick Collins",
+        "displayName": "Derrick Collins",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -1084,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1148,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909291",
@@ -1349,7 +1381,7 @@
                 "status": "Out",
                 "injuries": {
                   "status": "Out",
-                  "date": "2026-11-09T22:49Z",
+                  "date": "2026-11-09T22:50Z",
                   "type": {
                     "id": "4",
                     "name": "INJURY_STATUS_OUT",
@@ -1526,7 +1558,7 @@
                 "status": "Out",
                 "injuries": {
                   "status": "Out",
-                  "date": "2026-11-09T22:49Z",
+                  "date": "2026-11-09T22:50Z",
                   "type": {
                     "id": "4",
                     "name": "INJURY_STATUS_OUT",
@@ -2365,7 +2397,126 @@
       "injuries": [
         {
           "status": "Out",
-          "date": "2026-11-09T22:49Z",
+          "date": "2026-11-09T22:54Z",
+          "athlete": {
+            "id": "4395724",
+            "uid": "s:40~l:46~a:4395724",
+            "guid": "4b4c31ed-e9b7-ab20-0462-1919716aaa63",
+            "lastName": "Quickley",
+            "fullName": "Immanuel Quickley",
+            "displayName": "Immanuel Quickley",
+            "shortName": "I. Quickley",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4395724/immanuel-quickley",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
+              "alt": "Immanuel Quickley"
+            },
+            "jersey": "5",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4395724?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Hamstring",
+            "location": "Leg",
+            "side": "Right",
+            "returnDate": "2026-11-11"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-11-09T22:52Z",
+          "athlete": {
+            "id": "5093267",
+            "uid": "s:40~l:46~a:5093267",
+            "guid": "8cca71b9-6ade-316f-9b13-a2486e0dbd46",
+            "lastName": "Murray-Boyles",
+            "fullName": "Collin Murray-Boyles",
+            "displayName": "Collin Murray-Boyles",
+            "shortName": "C. Murray-Boyles",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5093267/collin-murray-boyles",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5093267.png",
+              "alt": "Collin Murray-Boyles"
+            },
+            "jersey": "30",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5093267?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Illness",
+            "location": "Other",
+            "returnDate": "2026-11-11"
+          }
+        },
+        {
+          "status": "Out",
+          "date": "2026-11-09T22:50Z",
           "athlete": {
             "id": "4433134",
             "uid": "s:40~l:46~a:4433134",
@@ -2422,65 +2573,6 @@
             "detail": "Soreness",
             "side": "Left",
             "returnDate": "2026-11-11"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-11-09T18:28Z",
-          "athlete": {
-            "id": "5093267",
-            "uid": "s:40~l:46~a:5093267",
-            "guid": "8cca71b9-6ade-316f-9b13-a2486e0dbd46",
-            "lastName": "Murray-Boyles",
-            "fullName": "Collin Murray-Boyles",
-            "displayName": "Collin Murray-Boyles",
-            "shortName": "C. Murray-Boyles",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/5093267/collin-murray-boyles",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5093267.png",
-              "alt": "Collin Murray-Boyles"
-            },
-            "jersey": "30",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5093267?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Illness",
-            "location": "Other",
-            "returnDate": "2026-11-09"
           }
         },
         {
@@ -2542,66 +2634,6 @@
             "detail": "Fracture",
             "side": "Right",
             "returnDate": "2026-11-15"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-11-08T17:14Z",
-          "athlete": {
-            "id": "4395724",
-            "uid": "s:40~l:46~a:4395724",
-            "guid": "4b4c31ed-e9b7-ab20-0462-1919716aaa63",
-            "lastName": "Quickley",
-            "fullName": "Immanuel Quickley",
-            "displayName": "Immanuel Quickley",
-            "shortName": "I. Quickley",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4395724/immanuel-quickley",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
-              "alt": "Immanuel Quickley"
-            },
-            "jersey": "5",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4395724?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Hamstring",
-            "location": "Leg",
-            "side": "Right",
-            "returnDate": "2026-11-11"
           }
         },
         {
@@ -2963,15 +2995,15 @@
         ]
       },
       "details": "MEM -1.5",
-      "overUnder": 226.5,
+      "overUnder": 225.5,
       "spread": 1.5,
-      "overOdds": -110.0,
-      "underOdds": -110.0,
+      "overOdds": -105.0,
+      "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
         "moneyLine": -119,
-        "spreadOdds": -110.0,
+        "spreadOdds": -111.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/29?lang=en&region=us"
         },
@@ -2982,7 +3014,7 @@
         "favorite": false,
         "underdog": true,
         "moneyLine": 101,
-        "spreadOdds": -110.0,
+        "spreadOdds": -109.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -3093,7 +3125,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366O22650_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366O22550_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3106,7 +3138,7 @@
               "gameId": 401909955,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:226.5"
+              "betDetails": "Over:225.5"
             }
           }
         },
@@ -3117,7 +3149,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366U22650_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366U22550_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3130,7 +3162,7 @@
               "gameId": 401909955,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:226.5"
+              "betDetails": "Under:225.5"
             }
           }
         },
@@ -3222,7 +3254,7 @@
         "home": {
           "close": {
             "line": "+1.5",
-            "odds": "-110",
+            "odds": "-109",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3256,7 +3288,7 @@
         "away": {
           "close": {
             "line": "-1.5",
-            "odds": "-110",
+            "odds": "-111",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3293,8 +3325,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o226.5",
-            "odds": "-110",
+            "line": "o225.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3302,7 +3334,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366O22650_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366O22550_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3315,7 +3347,7 @@
                   "gameId": 401909955,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:226.5"
+                  "betDetails": "Over:225.5"
                 }
               }
             }
@@ -3327,8 +3359,8 @@
         },
         "under": {
           "close": {
-            "line": "u226.5",
-            "odds": "-110",
+            "line": "u225.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3336,7 +3368,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366U22650_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34978850%3Foutcomes%3D0OU87138366U22550_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3349,7 +3381,7 @@
                   "gameId": 401909955,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:226.5"
+                  "betDetails": "Under:225.5"
                 }
               }
             }
@@ -3524,6 +3556,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "28",
+      "gameProjection": "49.6",
+      "teamChanceLoss": "50.4"
+    },
+    "awayTeam": {
+      "id": "29",
+      "gameProjection": "50.4",
+      "teamChanceLoss": "49.6"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3541,6 +3587,190 @@
     },
     "articles": [
       {
+        "id": 50436573,
+        "nowId": "1-50436573",
+        "contentKey": "50436573-1-5-1",
+        "dataSourceIdentifier": "96a94f4a7e55a",
+        "type": "HeadlineNews",
+        "headline": "Luka Doncic returns for Lakers; Austin Reaves, Quentin Grimes out vs. Hawks",
+        "description": "Luka Doncic returns for the Lakers on Monday at Atlanta, but the team will be without Austin Reaves (illness) and Quentin Grimes (sprained finger).",
+        "lastModified": "2026-11-09T23:40:35Z",
+        "published": "2026-11-09T23:40:35Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "99e84aed88db9",
+            "id": 50436611,
+            "type": "header",
+            "name": "Luka Doncic  [600x400]",
+            "credit": "Joe Boatman/NBAE via Getty Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1109/r1743772_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 503007,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4066457",
+            "guid": "8a9d9e1c-6174-0009-4883-3b4e16b492d0",
+            "description": "Austin Reaves",
+            "sportId": 46,
+            "athleteId": 4066457,
+            "athlete": {
+              "id": 4066457,
+              "description": "Austin Reaves",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 159574,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3945274",
+            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
+            "description": "Luka Doncic",
+            "sportId": 46,
+            "athleteId": 3945274,
+            "athlete": {
+              "id": 3945274,
+              "description": "Luka Doncic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492136,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4397014",
+            "guid": "dbe4d07d-9166-07d7-19f0-52cc771d179d",
+            "description": "Quentin Grimes",
+            "sportId": 46,
+            "athleteId": 4397014,
+            "athlete": {
+              "id": 4397014,
+              "description": "Quentin Grimes",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397014/quentin-grimes"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397014/quentin-grimes"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 698422,
+            "type": "contributor",
+            "guid": "1d8ecf87-0581-33b4-9cad-7e7d488956ab",
+            "description": "Dave McMenamin",
+            "slug": "dave-mcmenamin",
+            "contributor": {
+              "id": 1836,
+              "description": "Dave McMenamin"
+            }
+          }
+        ],
+        "byline": "Dave McMenamin",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50436573"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50436573"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50436573"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50436573/lakers-luka-doncic-returns-vs-hawks-austin-reaves-quentin-grimes-out"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50436025,
         "nowId": "1-50436025",
         "contentKey": "50436025-1-5-1",
@@ -3548,8 +3778,8 @@
         "type": "HeadlineNews",
         "headline": "Bronny James gets into verbal exchange with Pistons fans during Lakers' win",
         "description": "Lakers guard Bronny James was captured getting into a verbal exchange with fans at Little Caesars Arena on Sunday night during L.A.'s win over the Pistons.",
-        "lastModified": "2026-11-09T22:54:36Z",
-        "published": "2026-11-09T22:54:36Z",
+        "lastModified": "2026-11-09T23:19:52Z",
+        "published": "2026-11-09T23:19:52Z",
         "images": [
           {
             "dataSourceIdentifier": "5b85c435c6bbf",
@@ -4468,172 +4698,6 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50432359,
-        "nowId": "1-50432359",
-        "contentKey": "50432359-1-5-1",
-        "dataSourceIdentifier": "9e40fb7408828",
-        "type": "HeadlineNews",
-        "headline": "Giannis Antetokounmpo 'speechless' over Doc Rivers barbs, warns against 'bitterness or pettiness'",
-        "description": "Giannis Antetokounmpo said he was \"speechless\" over Doc Rivers' recent comments, adding that athletes should not be dismayed by \"bitterness or pettiness.\"",
-        "lastModified": "2026-11-09T13:26:49Z",
-        "published": "2026-11-09T13:26:49Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "0e2f7c1b65e07",
-            "id": 39594270,
-            "type": "header",
-            "name": "Doc Giannis [1296x729]",
-            "caption": "Doc Rivers has coached his fair share star stacked teams, but has found a new and exciting challenge in managing the high profile duo of Giannis Antetokounmpo and Damian Lillard.",
-            "credit": "Mark J. Rebilas-USA TODAY Sports",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2024/0225/r1295834_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A. reacts to Doc Rivers' comments that Giannis is 'not easy' to coach",
-            "caption": "Stephen A. reacts to Doc Rivers' comments that Giannis is 'not easy' to coach",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1106/ss_20261106_103611947_3727589643/ss_20261106_103611947_3727589643.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4259,
-            "type": "team",
-            "uid": "s:40~l:46~t:14",
-            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-            "description": "Miami Heat",
-            "sportId": 46,
-            "teamId": 14,
-            "team": {
-              "id": 14,
-              "description": "Miami Heat",
-              "abbreviation": "MIA",
-              "shortDisplayName": "Heat",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4453,
-            "type": "team",
-            "uid": "s:40~l:46~t:15",
-            "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
-            "description": "Milwaukee Bucks",
-            "sportId": 46,
-            "teamId": 15,
-            "team": {
-              "id": 15,
-              "description": "Milwaukee Bucks",
-              "abbreviation": "MIL",
-              "shortDisplayName": "Bucks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 117636,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3032977",
-            "guid": "00985054-c4b3-4247-e825-ddf062d457c3",
-            "description": "Giannis Antetokounmpo",
-            "sportId": 46,
-            "athleteId": 3032977,
-            "athlete": {
-              "id": 3032977,
-              "description": "Giannis Antetokounmpo",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50432359"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50432359"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50432359"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50432359/giannis-antetokounmpo-speechless-doc-rivers-criticism"
-          }
-        },
-        "premium": false
       }
     ]
   },
@@ -5130,7 +5194,7 @@
               "favorite": true,
               "underdog": false,
               "moneyLine": -119,
-              "spreadOdds": -110.0,
+              "spreadOdds": -111.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5161,11 +5225,11 @@
                 },
                 "spread": {
                   "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
+                  "displayValue": "100/111",
+                  "alternateDisplayValue": "-111",
                   "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "fraction": "100/111",
+                  "american": "-111"
                 },
                 "moneyLine": {
                   "value": 1.84,
@@ -5184,7 +5248,7 @@
               "favorite": false,
               "underdog": true,
               "moneyLine": 101,
-              "spreadOdds": -110.0,
+              "spreadOdds": -109.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5214,12 +5278,12 @@
                   "american": "+1.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.91,
+                  "displayValue": "100/109",
+                  "alternateDisplayValue": "-109",
+                  "decimal": 1.91,
+                  "fraction": "100/109",
+                  "american": "-109"
                 },
                 "moneyLine": {
                   "value": 2.01,
@@ -5236,24 +5300,24 @@
             },
             "current": {
               "over": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "under": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "total": {
-                "alternateDisplayValue": "226.5",
-                "american": "226.5"
+                "alternateDisplayValue": "225.5",
+                "american": "225.5"
               }
             },
             "propBets": [
@@ -5343,68 +5407,68 @@
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "2",
-                  "name": "Total Assists"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "3",
-                  "name": "Total Rebounds"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "3",
-                  "name": "Total Rebounds"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               },
               {
                 "type": {
-                  "id": "3",
-                  "name": "Total Rebounds"
+                  "id": "1",
+                  "name": "Total Points"
                 }
               }
             ]
@@ -5876,26 +5940,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909955",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "28",
-      "gameProjection": "49.6",
-      "teamChanceLoss": "50.4"
-    },
-    "awayTeam": {
-      "id": "29",
-      "gameProjection": "50.4",
-      "teamChanceLoss": "49.6"
-    }
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5909,27 +5953,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/9 vs Grizzlies 159 tickets left",
+        "ticketName": "11/9 vs Grizzlies 136 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-9-2026/production/7433048?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Celtics 610 tickets left",
+        "ticketName": "11/11 vs Celtics 622 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ 76ers 2133 tickets left",
+        "ticketName": "11/12 @ 76ers 2125 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Knicks 894 tickets left",
+        "ticketName": "11/15 vs Knicks 892 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Knicks 652 tickets left",
+        "ticketName": "11/17 vs Knicks 650 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
@@ -5939,12 +5983,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Pistons 2530 tickets left",
+        "ticketName": "11/20 @ Pistons 2524 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Bucks 920 tickets left",
+        "ticketName": "11/23 vs Bucks 916 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
@@ -5954,17 +5998,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Nuggets 922 tickets left",
+        "ticketName": "11/29 vs Nuggets 926 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-29-2026/production/7430946?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Rockets 4108 tickets left",
+        "ticketName": "12/1 @ Rockets 4083 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/3 @ Spurs 1641 tickets left",
+        "ticketName": "12/3 @ Spurs 1622 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
         "type": "event"
       },
@@ -5988,7 +6032,7 @@
       "opponentTeamName": "Grizzlies",
       "currentTeamName": "Raptors",
       "venueName": "Scotiabank Arena",
-      "summary": "Tickets as low as $33",
+      "summary": "Tickets as low as $32",
       "date": "2026-11-10T00:30Z",
       "dateDay": "Mon",
       "homeAway": "home",
@@ -5998,6 +6042,12 @@
       "teamLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909955",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
