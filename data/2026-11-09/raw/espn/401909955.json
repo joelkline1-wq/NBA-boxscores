@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909914",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909927",
@@ -2364,6 +2364,65 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-11-09T18:28Z",
+          "athlete": {
+            "id": "5093267",
+            "uid": "s:40~l:46~a:5093267",
+            "guid": "8cca71b9-6ade-316f-9b13-a2486e0dbd46",
+            "lastName": "Murray-Boyles",
+            "fullName": "Collin Murray-Boyles",
+            "displayName": "Collin Murray-Boyles",
+            "shortName": "C. Murray-Boyles",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5093267/collin-murray-boyles",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5093267.png",
+              "alt": "Collin Murray-Boyles"
+            },
+            "jersey": "30",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5093267?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Illness",
+            "location": "Other",
+            "returnDate": "2026-11-09"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-11-08T21:20Z",
           "athlete": {
@@ -2906,13 +2965,13 @@
       "details": "TOR -2.5",
       "overUnder": 228.5,
       "spread": -2.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "overOdds": -108.0,
+      "underOdds": -112.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 125,
-        "spreadOdds": -103.0,
+        "moneyLine": 124,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/29?lang=en&region=us"
         },
@@ -2922,8 +2981,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -148,
-        "spreadOdds": -117.0,
+        "moneyLine": -147,
+        "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -3094,7 +3153,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-148",
+            "odds": "-147",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3126,7 +3185,7 @@
         },
         "away": {
           "close": {
-            "odds": "+125",
+            "odds": "+124",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3163,7 +3222,7 @@
         "home": {
           "close": {
             "line": "-2.5",
-            "odds": "-117",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3197,7 +3256,7 @@
         "away": {
           "close": {
             "line": "+2.5",
-            "odds": "-103",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3235,7 +3294,7 @@
         "over": {
           "close": {
             "line": "o228.5",
-            "odds": "-113",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3269,7 +3328,7 @@
         "under": {
           "close": {
             "line": "u228.5",
-            "odds": "-107",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3466,6 +3525,19 @@
     }
   ],
   "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "28",
+      "gameProjection": "50.8",
+      "teamChanceLoss": "49.2"
+    },
+    "awayTeam": {
+      "id": "29",
+      "gameProjection": "49.2",
+      "teamChanceLoss": "50.8"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3482,6 +3554,293 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50434186,
+        "nowId": "1-50434186",
+        "contentKey": "50434186-1-6-1",
+        "dataSourceIdentifier": "087586d1d30ad",
+        "type": "Story",
+        "headline": "Monday's fantasy hoops adds, NBA bets to make: Ty Jerome primed for a big game",
+        "description": "Andre Snellings breaks down Monday's eight-game NBA slate, highlighting the fantasy streamers to add and bets to make.",
+        "lastModified": "2026-11-09T18:49:13Z",
+        "published": "2026-11-09T18:49:13Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "044e312a5dd47",
+            "id": 50434488,
+            "type": "header",
+            "name": "Ty Jerome [1296x729]",
+            "caption": "Ty Jerome enters Monday on a roll against a Raptors defense he can exploit.",
+            "alt": "Ty Jerome #2 of the Memphis Grizzlies goes to the basket against Aaron Nesmith #23 of the Indiana Pacers during the first half at FedExForum on November 04, 2026 in Memphis, Tennessee.",
+            "credit": "Justin Ford/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1109/r1743633_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 154370,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3134908",
+            "guid": "a5b22bdb-e9e3-f482-72f9-06db2e339aff",
+            "description": "Jakob Poeltl",
+            "sportId": 46,
+            "athleteId": 3134908,
+            "athlete": {
+              "id": 3134908,
+              "description": "Jakob Poeltl",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3134908/jakob-poeltl"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3134908/jakob-poeltl"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 457653,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4397136",
+            "guid": "9d4d1b0c-ee2f-00e6-3d2c-0d9b9d2f5d4b",
+            "description": "Saddiq Bey",
+            "sportId": 46,
+            "athleteId": 4397136,
+            "athlete": {
+              "id": 4397136,
+              "description": "Saddiq Bey",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397136/saddiq-bey"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397136/saddiq-bey"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 384227,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4278078",
+            "guid": "a2ef18dc-dcba-f71b-e39c-e794921f8193",
+            "description": "PJ Washington",
+            "sportId": 46,
+            "athleteId": 4278078,
+            "athlete": {
+              "id": 4278078,
+              "description": "PJ Washington",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278078/pj-washington"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4278078/pj-washington"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 567898,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4592829",
+            "guid": "cf51d77e-b2a9-3d29-bb59-383e0c18bb89",
+            "description": "Quenton Jackson",
+            "sportId": 46,
+            "athleteId": 4592829,
+            "athlete": {
+              "id": 4592829,
+              "description": "Quenton Jackson",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4592829/quenton-jackson"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4592829/quenton-jackson"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 699506,
+            "type": "contributor",
+            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
+            "description": "Andre Snellings",
+            "slug": "andre-snellings",
+            "contributor": {
+              "id": 3273,
+              "description": "Andre Snellings"
+            }
+          }
+        ],
+        "byline": "Andre Snellings",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50434186"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50434186"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50434186"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50434186/fantasy-basketball-tips-nba-betting-picks-today"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50434463,
+        "nowId": "1-50434463",
+        "contentKey": "50434463-1-5-1",
+        "dataSourceIdentifier": "13a36244ed213",
+        "type": "HeadlineNews",
+        "headline": "Sources: NBA finalizing Miami as 2028 All-Star Weekend host",
+        "description": "The NBA is finalizing Miami as host of the 2028 All-Star Weekend, sources told ESPN's Shams Charania on Monday.",
+        "lastModified": "2026-11-09T18:59:48Z",
+        "published": "2026-11-09T18:59:48Z",
+        "images": [],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50434463"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50434463"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50434463"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50434463/nba-finalizing-miami-2028-all-star-weekend-host"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50430300,
         "nowId": "1-50430300",
@@ -4747,553 +5106,9 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50425453,
-        "nowId": "1-50425453",
-        "contentKey": "50425453-1-6-1",
-        "dataSourceIdentifier": "78406e2e1c54f",
-        "type": "Story",
-        "headline": "What's fueling the rocky start for Giannis Antetokounmpo and the Miami Heat",
-        "description": "At 4-6, the Heat aren't pointing fingers -- yet. But with each loss, the pressure rises on this season and next -- with Giannis' free agency looming.",
-        "lastModified": "2026-11-09T16:01:19Z",
-        "published": "2026-11-09T16:01:19Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "8c83764a9d66d",
-            "id": 50431862,
-            "type": "header",
-            "name": "Heat lede -- Shelburne [576x324]",
-            "credit": "Noah Graham/NBAE via Getty Images",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/photo/2026/1109/r1743497_576x324_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Stephen A. reacts to Doc Rivers' comments that Giannis is 'not easy' to coach",
-            "caption": "Stephen A. reacts to Doc Rivers' comments that Giannis is 'not easy' to coach",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1106/ss_20261106_103611947_3727589643/ss_20261106_103611947_3727589643.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4259,
-            "type": "team",
-            "uid": "s:40~l:46~t:14",
-            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-            "description": "Miami Heat",
-            "sportId": 46,
-            "teamId": 14,
-            "team": {
-              "id": 14,
-              "description": "Miami Heat",
-              "abbreviation": "MIA",
-              "shortDisplayName": "Heat",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 117636,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3032977",
-            "guid": "00985054-c4b3-4247-e825-ddf062d457c3",
-            "description": "Giannis Antetokounmpo",
-            "sportId": 46,
-            "athleteId": 3032977,
-            "athlete": {
-              "id": 3032977,
-              "description": "Giannis Antetokounmpo",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 168857,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4066261",
-            "guid": "38b3edc5-57ff-d3ff-9aa2-2865f7f01a4c",
-            "description": "Bam Adebayo",
-            "sportId": 46,
-            "athleteId": 4066261,
-            "athlete": {
-              "id": 4066261,
-              "description": "Bam Adebayo",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066261/bam-adebayo"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4066261/bam-adebayo"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701394,
-            "type": "contributor",
-            "guid": "c70ec1b7-80ee-3f07-b434-22b84d51029f",
-            "description": "Ramona Shelburne",
-            "slug": "ramona-shelburne",
-            "contributor": {
-              "id": 1831,
-              "description": "Ramona Shelburne"
-            }
-          }
-        ],
-        "byline": "Ramona Shelburne",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50425453"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50425453"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50425453"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50425453/miami-heat-giannis-antetokounmpo-erik-spoelstra"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50430283,
-        "nowId": "1-50430283",
-        "contentKey": "50430283-1-22-1",
-        "dataSourceIdentifier": "fc4adf32b6654",
-        "type": "Preview",
-        "headline": "Los Angeles visits Atlanta following Reaves' 43-point game",
-        "description": "Los Angeles Lakers (9-2, first in the Western Conference) vs. Atlanta Hawks (7-4, fourth in the Eastern Conference)",
-        "lastModified": "2026-11-09T07:04:44Z",
-        "published": "2026-11-09T07:04:44Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909952.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4358,
-            "type": "team",
-            "uid": "s:40~l:46~t:1",
-            "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-            "description": "Atlanta Hawks",
-            "sportId": 46,
-            "teamId": 1,
-            "team": {
-              "id": 1,
-              "description": "Atlanta Hawks",
-              "abbreviation": "ATL",
-              "shortDisplayName": "Hawks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4630,
-            "type": "team",
-            "uid": "s:40~l:46~t:13",
-            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-            "description": "Los Angeles Lakers",
-            "sportId": 46,
-            "teamId": 13,
-            "team": {
-              "id": 13,
-              "description": "Los Angeles Lakers",
-              "abbreviation": "LAL",
-              "shortDisplayName": "Lakers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909952",
-            "guid": "b00e4919-33e4-3639-8646-364f573b78c5",
-            "description": "Los Angeles Lakers @ Atlanta Hawks",
-            "eventId": 401909952,
-            "event": {
-              "id": 401909952,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Los Angeles Lakers @ Atlanta Hawks"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50430283"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50430283"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50430283"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909952"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "28",
-      "gameProjection": "50.8",
-      "teamChanceLoss": "49.2"
-    },
-    "awayTeam": {
-      "id": "29",
-      "gameProjection": "49.2",
-      "teamChanceLoss": "50.8"
-    }
-  },
-  "article": {
-    "id": 50417886,
-    "nowId": "1-50417886",
-    "contentKey": "50417886-1-22-1",
-    "dataSourceIdentifier": "8ca2cfb4fa289",
-    "publishedkey": "nba401909955",
-    "type": "Preview",
-    "gameId": "401909955",
-    "headline": "Memphis faces Toronto, looks to break 3-game slide",
-    "description": "Memphis Grizzlies (6-3, seventh in the Western Conference) vs. Toronto Raptors (5-4, sixth in the Eastern Conference)",
-    "title": "Memphis faces Toronto, looks to break 3-game slide",
-    "linkText": "Memphis faces Toronto, looks to break 3-game slide",
-    "categorized": "2026-11-08T07:03:37Z",
-    "originallyPosted": "2026-11-08T07:03:36Z",
-    "lastModified": "2026-11-08T07:03:37Z",
-    "published": "2026-11-08T07:03:36Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4469,
-        "type": "team",
-        "uid": "s:40~l:46~t:28",
-        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
-        "description": "Toronto Raptors",
-        "sportId": 46,
-        "teamId": 28,
-        "team": {
-          "id": 28,
-          "description": "Toronto Raptors",
-          "abbreviation": "TOR",
-          "shortDisplayName": "Raptors",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4584,
-        "type": "team",
-        "uid": "s:40~l:46~t:29",
-        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-        "description": "Memphis Grizzlies",
-        "sportId": 46,
-        "teamId": 29,
-        "team": {
-          "id": 29,
-          "description": "Memphis Grizzlies",
-          "abbreviation": "MEM",
-          "shortDisplayName": "Grizzlies",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909955",
-        "guid": "196e1202-78b1-3601-adaf-700a535f045e",
-        "description": "Memphis Grizzlies @ Toronto Raptors",
-        "eventId": 401909955,
-        "event": {
-          "id": 401909955,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Memphis Grizzlies @ Toronto Raptors"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Toronto Raptors",
-      "Memphis Grizzlies",
-      "Memphis Grizzlies @ Toronto Raptors"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (6-3, seventh in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (5-4, sixth in the Eastern Conference)\n\n\r\n              Toronto; Monday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: Memphis comes into the matchup with Toronto as losers of three in a row.\n\n\r\n              Toronto went 46-36 overall with a 24-17 record at home during the 2025-26 season. The Raptors averaged 29.5 assists per game on 42.6 made field goals last season.\n\n\r\n              Memphis went 25-57 overall last season while going 11-30 on the road. The Grizzlies averaged 114.7 points per game last season, 18.0 from the free-throw line and 41.7 from deep.\n\n\r\n              INJURIES: Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot), <a href=\"http://www.espn.com/nba/player/_/id/4433134/scottie-barnes\">Scottie Barnes</a>: day to day (adductor), <a href=\"http://www.espn.com/nba/player/_/id/4395724/immanuel-quickley\">Immanuel Quickley</a>: day to day (hamstring).\n\n\r\n              Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/4432810/isaiah-stewart\">Isaiah Stewart</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50417886"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50417886"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50417886"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909955"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909955",
     "uid": "s:40~l:46~e:401909955",
@@ -5786,8 +5601,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 125,
-              "spreadOdds": -103.0,
+              "moneyLine": 124,
+              "spreadOdds": -110.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5817,20 +5632,20 @@
                   "american": "+2.5"
                 },
                 "spread": {
-                  "value": 1.97,
-                  "displayValue": "100/103",
-                  "alternateDisplayValue": "-103",
-                  "decimal": 1.97,
-                  "fraction": "100/103",
-                  "american": "-103"
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 2.25,
-                  "displayValue": "5/4",
-                  "alternateDisplayValue": "+125",
-                  "decimal": 2.25,
-                  "fraction": "5/4",
-                  "american": "+125"
+                  "value": 2.24,
+                  "displayValue": "31/25",
+                  "alternateDisplayValue": "+124",
+                  "decimal": 2.24,
+                  "fraction": "31/25",
+                  "american": "+124"
                 }
               },
               "team": {
@@ -5840,8 +5655,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -148,
-              "spreadOdds": -117.0,
+              "moneyLine": -147,
+              "spreadOdds": -110.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5871,20 +5686,20 @@
                   "american": "-2.5"
                 },
                 "spread": {
-                  "value": 1.85,
-                  "displayValue": "100/117",
-                  "alternateDisplayValue": "-117",
-                  "decimal": 1.85,
-                  "fraction": "100/117",
-                  "american": "-117"
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 1.67,
-                  "displayValue": "25/37",
-                  "alternateDisplayValue": "-148",
-                  "decimal": 1.67,
-                  "fraction": "25/37",
-                  "american": "-148"
+                  "value": 1.68,
+                  "displayValue": "100/147",
+                  "alternateDisplayValue": "-147",
+                  "decimal": 1.68,
+                  "fraction": "100/147",
+                  "american": "-147"
                 }
               },
               "team": {
@@ -5893,20 +5708,20 @@
             },
             "current": {
               "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.92,
+                "displayValue": "25/27",
+                "alternateDisplayValue": "-108",
+                "decimal": 1.92,
+                "fraction": "25/27",
+                "american": "-108"
               },
               "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.89,
+                "displayValue": "25/28",
+                "alternateDisplayValue": "-112",
+                "decimal": 1.89,
+                "fraction": "25/28",
+                "american": "-112"
               },
               "total": {
                 "alternateDisplayValue": "228.5",
@@ -6385,6 +6200,153 @@
       ]
     }
   },
+  "article": {
+    "id": 50417886,
+    "nowId": "1-50417886",
+    "contentKey": "50417886-1-22-1",
+    "dataSourceIdentifier": "8ca2cfb4fa289",
+    "publishedkey": "nba401909955",
+    "type": "Preview",
+    "gameId": "401909955",
+    "headline": "Memphis faces Toronto, looks to break 3-game slide",
+    "description": "Memphis Grizzlies (6-3, seventh in the Western Conference) vs. Toronto Raptors (5-4, sixth in the Eastern Conference)",
+    "title": "Memphis faces Toronto, looks to break 3-game slide",
+    "linkText": "Memphis faces Toronto, looks to break 3-game slide",
+    "categorized": "2026-11-08T07:03:37Z",
+    "originallyPosted": "2026-11-08T07:03:36Z",
+    "lastModified": "2026-11-08T07:03:37Z",
+    "published": "2026-11-08T07:03:36Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4469,
+        "type": "team",
+        "uid": "s:40~l:46~t:28",
+        "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+        "description": "Toronto Raptors",
+        "sportId": 46,
+        "teamId": 28,
+        "team": {
+          "id": 28,
+          "description": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "shortDisplayName": "Raptors",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4584,
+        "type": "team",
+        "uid": "s:40~l:46~t:29",
+        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
+        "description": "Memphis Grizzlies",
+        "sportId": 46,
+        "teamId": 29,
+        "team": {
+          "id": 29,
+          "description": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "shortDisplayName": "Grizzlies",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909955",
+        "guid": "196e1202-78b1-3601-adaf-700a535f045e",
+        "description": "Memphis Grizzlies @ Toronto Raptors",
+        "eventId": 401909955,
+        "event": {
+          "id": 401909955,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Memphis Grizzlies @ Toronto Raptors"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Toronto Raptors",
+      "Memphis Grizzlies",
+      "Memphis Grizzlies @ Toronto Raptors"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (6-3, seventh in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/tor/toronto-raptors\">Toronto Raptors</a> (5-4, sixth in the Eastern Conference)\n\n\r\n              Toronto; Monday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: Memphis comes into the matchup with Toronto as losers of three in a row.\n\n\r\n              Toronto went 46-36 overall with a 24-17 record at home during the 2025-26 season. The Raptors averaged 29.5 assists per game on 42.6 made field goals last season.\n\n\r\n              Memphis went 25-57 overall last season while going 11-30 on the road. The Grizzlies averaged 114.7 points per game last season, 18.0 from the free-throw line and 41.7 from deep.\n\n\r\n              INJURIES: Raptors: <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/4432586/nate-bittle\">Nate Bittle</a>: day to day (foot), <a href=\"http://www.espn.com/nba/player/_/id/4433134/scottie-barnes\">Scottie Barnes</a>: day to day (adductor), <a href=\"http://www.espn.com/nba/player/_/id/4395724/immanuel-quickley\">Immanuel Quickley</a>: day to day (hamstring).\n\n\r\n              Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/4432810/isaiah-stewart\">Isaiah Stewart</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50417886"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50417886"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50417886"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909955"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -6399,7 +6361,7 @@
         "type": "team"
       },
       {
-        "ticketName": "11/9 vs Grizzlies 348 tickets left",
+        "ticketName": "11/9 vs Grizzlies 339 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-9-2026/production/7433048?wsUser=717",
         "type": "event"
       },
@@ -6409,12 +6371,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/12 @ 76ers 2006 tickets left",
+        "ticketName": "11/12 @ 76ers 2059 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Knicks 898 tickets left",
+        "ticketName": "11/15 vs Knicks 908 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
@@ -6424,12 +6386,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Wizards 820 tickets left",
+        "ticketName": "11/18 vs Wizards 822 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Pistons 2527 tickets left",
+        "ticketName": "11/20 @ Pistons 2524 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
@@ -6449,12 +6411,12 @@
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Rockets 3925 tickets left",
+        "ticketName": "12/1 @ Rockets 4099 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/3 @ Spurs 1636 tickets left",
+        "ticketName": "12/3 @ Spurs 1642 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
         "type": "event"
       },
