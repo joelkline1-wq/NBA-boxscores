@@ -487,6 +487,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -551,9 +553,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
         },
         {
           "id": "401909943",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909905",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
         },
         {
           "id": "401909920",
@@ -2884,67 +2884,6 @@
       "injuries": [
         {
           "status": "Out",
-          "date": "2026-11-10T00:21Z",
-          "athlete": {
-            "id": "4278402",
-            "uid": "s:40~l:46~a:4278402",
-            "guid": "0bd90eae-7fa2-1afb-904f-535595216bb3",
-            "lastName": "Goodwin",
-            "fullName": "Jordan Goodwin",
-            "displayName": "Jordan Goodwin",
-            "shortName": "J. Goodwin",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4278402/jordan-goodwin",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png",
-              "alt": "Jordan Goodwin"
-            },
-            "jersey": "23",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4278402?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Calf",
-            "location": "Leg",
-            "detail": "Not Specified",
-            "side": "Right",
-            "returnDate": "2026-11-10"
-          }
-        },
-        {
-          "status": "Out",
           "date": "2026-09-11T16:03Z",
           "athlete": {
             "id": "4701232",
@@ -3426,7 +3365,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3451,7 +3390,7 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 140,
+        "moneyLine": 145,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
@@ -3462,7 +3401,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -167,
+        "moneyLine": -173,
         "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
@@ -3477,7 +3416,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_1",
           "text": "Home Bet",
@@ -3501,7 +3440,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_3",
           "text": "Away Bet",
@@ -3634,14 +3573,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-167",
+            "odds": "-173",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_1",
               "text": "Home Bet",
@@ -3666,14 +3605,14 @@
         },
         "away": {
           "close": {
-            "odds": "+140",
+            "odds": "+145",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_3",
               "text": "Away Bet",
@@ -4005,6 +3944,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "21",
+      "gameProjection": "65.8",
+      "teamChanceLoss": "34.2"
+    },
+    "awayTeam": {
+      "id": "12",
+      "gameProjection": "34.2",
+      "teamChanceLoss": "65.8"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5245,20 +5198,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "21",
-      "gameProjection": "65.8",
-      "teamChanceLoss": "34.2"
-    },
-    "awayTeam": {
-      "id": "12",
-      "gameProjection": "34.2",
-      "teamChanceLoss": "65.8"
-    }
-  },
   "header": {
     "id": "401909962",
     "uid": "s:40~l:46~e:401909962",
@@ -5751,7 +5690,7 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 140,
+              "moneyLine": 145,
               "spreadOdds": -108.0,
               "open": {
                 "favorite": false,
@@ -5790,12 +5729,12 @@
                   "american": "-108"
                 },
                 "moneyLine": {
-                  "value": 2.4,
-                  "displayValue": "7/5",
-                  "alternateDisplayValue": "+140",
-                  "decimal": 2.4,
-                  "fraction": "7/5",
-                  "american": "+140"
+                  "value": 2.45,
+                  "displayValue": "29/20",
+                  "alternateDisplayValue": "+145",
+                  "decimal": 2.45,
+                  "fraction": "29/20",
+                  "american": "+145"
                 }
               },
               "team": {
@@ -5805,7 +5744,7 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -167,
+              "moneyLine": -173,
               "spreadOdds": -112.0,
               "open": {
                 "favorite": true,
@@ -5844,12 +5783,12 @@
                   "american": "-112"
                 },
                 "moneyLine": {
-                  "value": 1.59,
-                  "displayValue": "100/167",
-                  "alternateDisplayValue": "-167",
-                  "decimal": 1.59,
-                  "fraction": "100/167",
-                  "american": "-167"
+                  "value": 1.57,
+                  "displayValue": "100/173",
+                  "alternateDisplayValue": "-173",
+                  "decimal": 1.57,
+                  "fraction": "100/173",
+                  "american": "-173"
                 }
               },
               "team": {
@@ -6538,12 +6477,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909962",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6557,37 +6490,37 @@
         "type": "team"
       },
       {
-        "ticketName": "11/10 vs Clippers 1721 tickets left",
+        "ticketName": "11/10 vs Clippers 1662 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Hornets 2304 tickets left",
+        "ticketName": "11/12 vs Hornets 2301 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Lakers 2378 tickets left",
+        "ticketName": "11/15 vs Lakers 2416 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-15-2026/production/7432979?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Nuggets 3443 tickets left",
+        "ticketName": "11/16 @ Nuggets 3481 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-16-2026/production/7432981?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Kings 1048 tickets left",
+        "ticketName": "11/18 @ Kings 1129 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-18-2026/production/7432983?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Jazz 1925 tickets left",
+        "ticketName": "11/20 @ Jazz 1914 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026--sports-nba-basketball/production/7418205?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pelicans 1213 tickets left",
+        "ticketName": "11/23 @ Pelicans 1231 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
@@ -6597,17 +6530,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Mavericks 2491 tickets left",
+        "ticketName": "11/27 vs Mavericks 2486 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Jazz 2186 tickets left",
+        "ticketName": "11/29 @ Jazz 2300 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-29-2026/production/7431527?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Clippers 2981 tickets left",
+        "ticketName": "12/1 vs Clippers 2983 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-12-1-2026/production/7431532?wsUser=717",
         "type": "event"
       },
@@ -6636,7 +6569,7 @@
       "opponentTeamName": "Clippers",
       "currentTeamName": "Suns",
       "venueName": "Mortgage Matchup Center",
-      "summary": "Tickets as low as $10",
+      "summary": "Tickets as low as $9",
       "date": "2026-11-11T02:00Z",
       "dateDay": "Tue",
       "homeAway": "home",
@@ -6646,6 +6579,12 @@
       "teamLink": "https://www.vividseats.com/phoenix-suns-tickets--sports-nba-basketball/performer/679?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909962",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
