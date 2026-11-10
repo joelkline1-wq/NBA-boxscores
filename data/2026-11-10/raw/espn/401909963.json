@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909290",
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909921",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909937",
@@ -3436,6 +3436,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "26",
+      "gameProjection": "41.7",
+      "teamChanceLoss": "58.3"
+    },
+    "awayTeam": {
+      "id": "14",
+      "gameProjection": "58.3",
+      "teamChanceLoss": "41.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3453,6 +3467,104 @@
     },
     "articles": [
       {
+        "id": 50443078,
+        "nowId": "1-50443078",
+        "contentKey": "50443078-1-5-1",
+        "dataSourceIdentifier": "22a767bd0e41d",
+        "type": "HeadlineNews",
+        "headline": "Futures Basketball League to launch in April for U18 players",
+        "description": "The Futures Basketball League announced plans Tuesday to launch in April 2027, targeting the top 120 under-18 players in the country.",
+        "lastModified": "2026-11-10T16:29:14Z",
+        "published": "2026-11-10T16:29:14Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "f805ed76202db",
+            "id": 31740342,
+            "type": "header",
+            "name": "Generic basketball [600x400] - Copy",
+            "alt": "Generic basketball",
+            "credit": "Joe Robbins/Getty Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2016/0120/r45750_3_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9576,
+            "type": "league",
+            "uid": "s:40~l:41",
+            "guid": "11965179-4504-3b99-983e-83ea0e36d5f3",
+            "description": "NCAA Men's Basketball",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "NCAA Men's Basketball",
+              "abbreviation": "NCAAM",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "byline": "Ben Strauss",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50443078"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50443078"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/ncb/story?storyId=50443078"
+          },
+          "web": {
+            "href": "https://www.espn.com/mens-college-basketball/story/_/id/50443078/futures-basketball-league-launch-april-u18-players"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50028196,
         "nowId": "1-50028196",
         "contentKey": "50028196-1-6-1",
@@ -3460,8 +3572,8 @@
         "type": "Story",
         "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
         "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-10T16:01:15Z",
-        "published": "2026-11-10T16:01:15Z",
+        "lastModified": "2026-11-10T16:31:03Z",
+        "published": "2026-11-10T16:31:03Z",
         "images": [
           {
             "dataSourceIdentifier": "9794d99d85fc9",
@@ -4332,387 +4444,9 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50440191,
-        "nowId": "1-50440191",
-        "contentKey": "50440191-1-22-1",
-        "dataSourceIdentifier": "aad000a2a8c48",
-        "type": "Preview",
-        "headline": "Warriors take on the Rockets, aim for 9th straight win",
-        "description": "Golden State Warriors (8-3, fourth in the Western Conference) vs. Houston Rockets (8-3, sixth in the Western Conference)",
-        "lastModified": "2026-11-10T07:05:40Z",
-        "published": "2026-11-10T07:05:40Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4517,
-            "type": "team",
-            "uid": "s:40~l:46~t:10",
-            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-            "description": "Houston Rockets",
-            "sportId": 46,
-            "teamId": 10,
-            "team": {
-              "id": 10,
-              "description": "Houston Rockets",
-              "abbreviation": "HOU",
-              "shortDisplayName": "Rockets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4600,
-            "type": "team",
-            "uid": "s:40~l:46~t:9",
-            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-            "description": "Golden State Warriors",
-            "sportId": 46,
-            "teamId": 9,
-            "team": {
-              "id": 9,
-              "description": "Golden State Warriors",
-              "abbreviation": "GS",
-              "shortDisplayName": "Warriors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909974",
-            "guid": "bf780be0-5bf2-3318-ac81-4823471e75d0",
-            "description": "Golden State Warriors @ Houston Rockets",
-            "eventId": 401909974,
-            "event": {
-              "id": 401909974,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Golden State Warriors @ Houston Rockets"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50440191"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50440191"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50440191"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909974"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "26",
-      "gameProjection": "41.7",
-      "teamChanceLoss": "58.3"
-    },
-    "awayTeam": {
-      "id": "14",
-      "gameProjection": "58.3",
-      "teamChanceLoss": "41.7"
-    }
-  },
-  "winprobability": [],
-  "article": {
-    "id": 50430282,
-    "nowId": "1-50430282",
-    "contentKey": "50430282-1-22-1",
-    "dataSourceIdentifier": "53514d5288952",
-    "publishedkey": "nba401909963",
-    "type": "Preview",
-    "gameId": "401909963",
-    "headline": "Utah faces Miami, seeks to halt 8-game slide",
-    "description": "Miami Heat (4-6, eighth in the Eastern Conference) vs. Utah Jazz (1-9, 15th in the Western Conference)",
-    "title": "Utah faces Miami, seeks to halt 8-game slide",
-    "linkText": "Utah faces Miami, seeks to halt 8-game slide",
-    "categorized": "2026-11-09T07:04:43Z",
-    "originallyPosted": "2026-11-09T07:04:42Z",
-    "lastModified": "2026-11-09T07:04:43Z",
-    "published": "2026-11-09T07:04:42Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4564,
-        "type": "team",
-        "uid": "s:40~l:46~t:26",
-        "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-        "description": "Utah Jazz",
-        "sportId": 46,
-        "teamId": 26,
-        "team": {
-          "id": 26,
-          "description": "Utah Jazz",
-          "abbreviation": "UTAH",
-          "shortDisplayName": "Jazz",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4259,
-        "type": "team",
-        "uid": "s:40~l:46~t:14",
-        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-        "description": "Miami Heat",
-        "sportId": 46,
-        "teamId": 14,
-        "team": {
-          "id": 14,
-          "description": "Miami Heat",
-          "abbreviation": "MIA",
-          "shortDisplayName": "Heat",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909963",
-        "guid": "70d5f689-c447-3ce6-8012-25a5526047d7",
-        "description": "Miami Heat @ Utah Jazz",
-        "eventId": 401909963,
-        "event": {
-          "id": 401909963,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Miami Heat @ Utah Jazz"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Utah Jazz",
-      "Miami Heat",
-      "Miami Heat @ Utah Jazz"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (4-6, eighth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a> (1-9, 15th in the Western Conference)\n\n\r\n              Salt Lake City; Tuesday, 9 p.m. EST\n\n\r\n              BOTTOM LINE: Utah aims to end its eight-game skid when the Jazz play Miami.\n\n\r\n              Utah went 22-60 overall a season ago while going 14-27 at home. The Jazz allowed opponents to score 126.0 points per game and shoot 49.4% from the field last season.\n\n\r\n              Miami finished 43-39 overall with a 17-24 record on the road a season ago. The Heat shot 46.8% from the field and 36.1% from 3-point range last season.\n\n\r\n              INJURIES: Jazz: <a href=\"http://www.espn.com/nba/player/_/id/4066336/lauri-markkanen\">Lauri Markkanen</a>: out (wrist), <a href=\"http://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic\">Jusuf Nurkic</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4433627/keyonte-george\">Keyonte George</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr\">Jaren Jackson Jr</a>.: out (knee).\n\n\r\n              Heat: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50430282"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50430282"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50430282"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909963"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401909963",
     "uid": "s:40~l:46~e:401909963",
@@ -5820,7 +5554,6 @@
       ]
     }
   },
-  "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
       {
@@ -5834,22 +5567,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/10 vs Heat 996 tickets left",
+        "ticketName": "11/10 vs Heat 1008 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-10-2026/production/7432879?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/11 vs Magic 1771 tickets left",
+        "ticketName": "11/11 vs Magic 1754 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-11-2026/production/7433138?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 @ Rockets 2962 tickets left",
+        "ticketName": "11/13 @ Rockets 2976 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 vs Spurs 2248 tickets left",
+        "ticketName": "11/15 vs Spurs 2194 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-15-2026/production/7433017?wsUser=717",
         "type": "event"
       },
@@ -5859,17 +5592,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Lakers 2714 tickets left",
+        "ticketName": "11/18 @ Lakers 2718 tickets left",
         "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-11-18-2026/production/7433112?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Suns 1950 tickets left",
+        "ticketName": "11/20 vs Suns 1949 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026--sports-nba-basketball/production/7418205?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Mavericks 2273 tickets left",
+        "ticketName": "11/22 vs Mavericks 2277 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-22-2026/production/7433124?wsUser=717",
         "type": "event"
       },
@@ -5879,12 +5612,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Nuggets 2092 tickets left",
+        "ticketName": "11/27 vs Nuggets 2091 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-30-2026--sports-nba-basketball/production/7418189?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Suns 2318 tickets left",
+        "ticketName": "11/29 vs Suns 2314 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-11-29-2026/production/7431527?wsUser=717",
         "type": "event"
       },
@@ -5924,6 +5657,154 @@
       "timeValid": true
     }
   },
+  "article": {
+    "id": 50430282,
+    "nowId": "1-50430282",
+    "contentKey": "50430282-1-22-1",
+    "dataSourceIdentifier": "53514d5288952",
+    "publishedkey": "nba401909963",
+    "type": "Preview",
+    "gameId": "401909963",
+    "headline": "Utah faces Miami, seeks to halt 8-game slide",
+    "description": "Miami Heat (4-6, eighth in the Eastern Conference) vs. Utah Jazz (1-9, 15th in the Western Conference)",
+    "title": "Utah faces Miami, seeks to halt 8-game slide",
+    "linkText": "Utah faces Miami, seeks to halt 8-game slide",
+    "categorized": "2026-11-09T07:04:43Z",
+    "originallyPosted": "2026-11-09T07:04:42Z",
+    "lastModified": "2026-11-09T07:04:43Z",
+    "published": "2026-11-09T07:04:42Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4564,
+        "type": "team",
+        "uid": "s:40~l:46~t:26",
+        "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
+        "description": "Utah Jazz",
+        "sportId": 46,
+        "teamId": 26,
+        "team": {
+          "id": 26,
+          "description": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "shortDisplayName": "Jazz",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4259,
+        "type": "team",
+        "uid": "s:40~l:46~t:14",
+        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+        "description": "Miami Heat",
+        "sportId": 46,
+        "teamId": 14,
+        "team": {
+          "id": 14,
+          "description": "Miami Heat",
+          "abbreviation": "MIA",
+          "shortDisplayName": "Heat",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909963",
+        "guid": "70d5f689-c447-3ce6-8012-25a5526047d7",
+        "description": "Miami Heat @ Utah Jazz",
+        "eventId": 401909963,
+        "event": {
+          "id": 401909963,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Miami Heat @ Utah Jazz"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Utah Jazz",
+      "Miami Heat",
+      "Miami Heat @ Utah Jazz"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (4-6, eighth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a> (1-9, 15th in the Western Conference)\n\n\r\n              Salt Lake City; Tuesday, 9 p.m. EST\n\n\r\n              BOTTOM LINE: Utah aims to end its eight-game skid when the Jazz play Miami.\n\n\r\n              Utah went 22-60 overall a season ago while going 14-27 at home. The Jazz allowed opponents to score 126.0 points per game and shoot 49.4% from the field last season.\n\n\r\n              Miami finished 43-39 overall with a 17-24 record on the road a season ago. The Heat shot 46.8% from the field and 36.1% from 3-point range last season.\n\n\r\n              INJURIES: Jazz: <a href=\"http://www.espn.com/nba/player/_/id/4066336/lauri-markkanen\">Lauri Markkanen</a>: out (wrist), <a href=\"http://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic\">Jusuf Nurkic</a>: out (foot), <a href=\"http://www.espn.com/nba/player/_/id/4433627/keyonte-george\">Keyonte George</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr\">Jaren Jackson Jr</a>.: out (knee).\n\n\r\n              Heat: None listed.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50430282"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50430282"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50430282"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909963"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
+  "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909963",
     "gameSwitcherEnabled": true,
