@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
         },
         {
           "id": "401909936",
@@ -1084,6 +1084,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -1148,9 +1150,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
         },
         {
           "id": "401909950",
@@ -3426,7 +3426,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3451,7 +3451,7 @@
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 143,
+        "moneyLine": 140,
         "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
@@ -3462,7 +3462,7 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -170,
+        "moneyLine": -167,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
@@ -3477,7 +3477,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_1",
           "text": "Home Bet",
@@ -3501,7 +3501,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_3",
           "text": "Away Bet",
@@ -3634,14 +3634,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-170",
+            "odds": "-167",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_1",
               "text": "Home Bet",
@@ -3666,14 +3666,14 @@
         },
         "away": {
           "close": {
-            "odds": "+143",
+            "odds": "+140",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34983857%3Foutcomes%3D0ML87151637_3",
               "text": "Away Bet",
@@ -4005,1138 +4005,20 @@
       "records": []
     }
   ],
-  "header": {
-    "id": "401909962",
-    "uid": "s:40~l:46~e:401909962",
-    "season": {
-      "year": 2027,
-      "current": true,
-      "type": 2
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "21",
+      "gameProjection": "65.1",
+      "teamChanceLoss": "34.9"
     },
-    "timeValid": true,
-    "competitions": [
-      {
-        "id": "401909962",
-        "uid": "s:40~l:46~e:401909962~c:401909962",
-        "date": "2026-11-11T02:00Z",
-        "neutralSite": false,
-        "conferenceCompetition": false,
-        "boxscoreAvailable": false,
-        "commentaryAvailable": false,
-        "liveAvailable": false,
-        "onWatchESPN": false,
-        "recent": false,
-        "wallclockAvailable": false,
-        "boxscoreSource": "none",
-        "playByPlaySource": "none",
-        "competitors": [
-          {
-            "id": "21",
-            "uid": "s:40~l:46~t:21",
-            "order": 0,
-            "homeAway": "home",
-            "team": {
-              "id": "21",
-              "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
-              "uid": "s:40~l:46~t:21",
-              "location": "Phoenix",
-              "name": "Suns",
-              "abbreviation": "PHX",
-              "displayName": "Phoenix Suns",
-              "color": "29127a",
-              "alternateColor": "e56020",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-06-25T21:18Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:14Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "3-6",
-                "displayValue": "3-6"
-              },
-              {
-                "type": "home",
-                "summary": "3-3",
-                "displayValue": "3-3"
-              },
-              {
-                "type": "vsconf",
-                "summary": "2-6",
-                "displayValue": "2-6"
-              }
-            ],
-            "possession": false
-          },
-          {
-            "id": "12",
-            "uid": "s:40~l:46~t:12",
-            "order": 1,
-            "homeAway": "away",
-            "team": {
-              "id": "12",
-              "guid": "083a58a6-b849-3501-e67b-059290d12295",
-              "uid": "s:40~l:46~t:12",
-              "location": "LA",
-              "name": "Clippers",
-              "abbreviation": "LAC",
-              "displayName": "LA Clippers",
-              "color": "12173f",
-              "alternateColor": "c8102e",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-06-25T21:18Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:14Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "2-7",
-                "displayValue": "2-7"
-              },
-              {
-                "type": "road",
-                "summary": "0-4",
-                "displayValue": "0-4"
-              },
-              {
-                "type": "vsconf",
-                "summary": "2-5",
-                "displayValue": "2-5"
-              }
-            ],
-            "possession": false
-          }
-        ],
-        "status": {
-          "type": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Tue, November 10th at 9:00 PM EST",
-            "shortDetail": "11/10 - 9:00 PM EST"
-          }
-        },
-        "odds": [
-          {
-            "awayTeamOdds": {
-              "favorite": false,
-              "underdog": true,
-              "moneyLine": 143,
-              "spreadOdds": -112.0,
-              "open": {
-                "favorite": false,
-                "pointSpread": {
-                  "alternateDisplayValue": "+4.5",
-                  "american": "+4.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 2.41,
-                  "displayValue": "141/100",
-                  "alternateDisplayValue": "+141",
-                  "decimal": 2.41,
-                  "fraction": "141/100",
-                  "american": "+141"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "+3.5",
-                  "american": "+3.5"
-                },
-                "spread": {
-                  "value": 1.89,
-                  "displayValue": "25/28",
-                  "alternateDisplayValue": "-112",
-                  "decimal": 1.89,
-                  "fraction": "25/28",
-                  "american": "-112"
-                },
-                "moneyLine": {
-                  "value": 2.43,
-                  "displayValue": "143/100",
-                  "alternateDisplayValue": "+143",
-                  "decimal": 2.43,
-                  "fraction": "143/100",
-                  "american": "+143"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
-              }
-            },
-            "homeTeamOdds": {
-              "favorite": true,
-              "underdog": false,
-              "moneyLine": -170,
-              "spreadOdds": -108.0,
-              "open": {
-                "favorite": true,
-                "pointSpread": {
-                  "alternateDisplayValue": "-4.5",
-                  "american": "-4.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 1.59,
-                  "displayValue": "25/42",
-                  "alternateDisplayValue": "-168",
-                  "decimal": 1.59,
-                  "fraction": "25/42",
-                  "american": "-168"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "-3.5",
-                  "american": "-3.5"
-                },
-                "spread": {
-                  "value": 1.92,
-                  "displayValue": "25/27",
-                  "alternateDisplayValue": "-108",
-                  "decimal": 1.92,
-                  "fraction": "25/27",
-                  "american": "-108"
-                },
-                "moneyLine": {
-                  "value": 1.58,
-                  "displayValue": "10/17",
-                  "alternateDisplayValue": "-170",
-                  "decimal": 1.58,
-                  "fraction": "10/17",
-                  "american": "-170"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
-              }
-            },
-            "current": {
-              "over": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
-              },
-              "under": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
-              },
-              "total": {
-                "alternateDisplayValue": "224.5",
-                "american": "224.5"
-              }
-            },
-            "propBets": [
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              }
-            ]
-          }
-        ],
-        "broadcasts": [
-          {
-            "type": {
-              "id": "4",
-              "shortName": "Streaming"
-            },
-            "market": {
-              "id": "2",
-              "type": "Home"
-            },
-            "media": {
-              "shortName": "Suns Live"
-            },
-            "lang": "en",
-            "region": "us",
-            "isNational": false
-          },
-          {
-            "type": {
-              "id": "1",
-              "shortName": "TV"
-            },
-            "market": {
-              "id": "2",
-              "type": "Home"
-            },
-            "media": {
-              "shortName": "Arizona's Family 3TV"
-            },
-            "lang": "en",
-            "region": "us",
-            "isNational": false
-          },
-          {
-            "type": {
-              "id": "4",
-              "shortName": "Streaming"
-            },
-            "market": {
-              "id": "3",
-              "type": "Away"
-            },
-            "media": {
-              "shortName": "ClipperVision"
-            },
-            "lang": "en",
-            "region": "us",
-            "isNational": false
-          }
-        ],
-        "series": [
-          {
-            "type": "season",
-            "title": "Regular Season Series",
-            "description": "Regular Season Series",
-            "summary": "",
-            "completed": false,
-            "totalCompetitions": 4,
-            "competitors": [
-              {
-                "id": "21",
-                "uid": "s:40~l:46~t:21",
-                "wins": 0,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
-                }
-              },
-              {
-                "id": "12",
-                "uid": "s:40~l:46~t:12",
-                "wins": 0,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
-                }
-              }
-            ],
-            "events": [
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909962?lang=en&region=us",
-                "id": "401909962"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910073?lang=en&region=us",
-                "id": "401910073"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910367?lang=en&region=us",
-                "id": "401910367"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910889?lang=en&region=us",
-                "id": "401910889"
-              }
-            ],
-            "startDate": "2026-11-11T02:00Z"
-          }
-        ],
-        "boxscoreMinutes": false
-      }
-    ],
-    "links": [
-      {
-        "rel": [
-          "summary",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/game/_/gameId/401909962/clippers-suns",
-        "text": "Gamecast",
-        "shortText": "Summary",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "preview",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/preview/_/gameId/401909962",
-        "text": "Preview",
-        "shortText": "Preview",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "odds",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/odds/_/gameId/401909962",
-        "text": "Odds",
-        "shortText": "Odds",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "tickets",
-          "desktop"
-        ],
-        "href": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
-        "text": "Tickets",
-        "shortText": "Tickets",
-        "isExternal": true,
-        "isPremium": false
-      }
-    ],
-    "league": {
-      "id": "46",
-      "uid": "s:40~l:46",
-      "name": "National Basketball Association",
-      "abbreviation": "NBA",
-      "shortName": "NBA",
-      "slug": "nba",
-      "isTournament": false,
-      "links": [
-        {
-          "rel": [
-            "index",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "index",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "schedule",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/schedule",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "schedule",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "standings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "standings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "scores",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/scoreboard",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "scores",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "stats",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "stats",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "teams",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/teams",
-          "text": "Teams"
-        },
-        {
-          "rel": [
-            "athletes",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/players",
-          "text": "Players"
-        },
-        {
-          "rel": [
-            "injuries",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/injuries",
-          "text": "Injuries"
-        },
-        {
-          "rel": [
-            "odds",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "odds",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/playoff-bracket",
-          "text": "Bracket"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
-          "text": "Bracket"
-        }
-      ],
-      "logos": [
-        {
-          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-          "rel": [
-            "full",
-            "default"
-          ]
-        },
-        {
-          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
-          "rel": [
-            "full",
-            "dark"
-          ]
-        }
-      ]
+    "awayTeam": {
+      "id": "12",
+      "gameProjection": "34.9",
+      "teamChanceLoss": "65.1"
     }
   },
-  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -5153,6 +4035,395 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50401325,
+        "nowId": "1-50401325",
+        "contentKey": "50401325-1-6-1",
+        "dataSourceIdentifier": "a4eebbb09bd32",
+        "type": "Story",
+        "headline": "As Jaylen Brown faces the Celtics for the first time, familiar questions linger",
+        "description": "Jaylen Brown and the Philadelphia 76ers host Jayson Tatum and the Boston Celtics on Tuesday night.",
+        "lastModified": "2026-11-10T13:21:55Z",
+        "published": "2026-11-10T13:21:55Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "c3aad44182402",
+            "id": 50389497,
+            "type": "header",
+            "name": "Jaylen Brown faces his former team for the first time [1500x844]",
+            "alt": "Jaylen Brown and Boston Celtics",
+            "credit": "Illustration by ESPN",
+            "height": 844,
+            "width": 1500,
+            "url": "https://a.espncdn.com/photo/2026/1105/nba_jaylen-celtics_fc_16x9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "What to expect from Jaylen Brown in his first game vs. Jayson Tatum and the Celtics | NBA Today",
+            "caption": "Ramona Shelburne and Marc J. Spears join Jorge Sedano on NBA Today to discuss the Philadelphia 76ers\u2019 hot start to the season, LeBron\u2019s fit with the team and what to expect from Jaylen Brown\u2019s first game against Jayson Tatum and the Boston Celtics.",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/ss_20261109_152825742_37343901009/ss_20261109_152825742_37343901009.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4245,
+            "type": "team",
+            "uid": "s:40~l:46~t:2",
+            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+            "description": "Boston Celtics",
+            "sportId": 46,
+            "teamId": 2,
+            "team": {
+              "id": 2,
+              "description": "Boston Celtics",
+              "abbreviation": "BOS",
+              "shortDisplayName": "Celtics",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 168976,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4065648",
+            "guid": "ed3343b0-2ffa-f6b4-e422-3a1920938c81",
+            "description": "Jayson Tatum",
+            "sportId": 46,
+            "athleteId": 4065648,
+            "athlete": {
+              "id": 4065648,
+              "description": "Jayson Tatum",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4065648/jayson-tatum"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154335,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3917376",
+            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
+            "description": "Jaylen Brown",
+            "sportId": 46,
+            "athleteId": 3917376,
+            "athlete": {
+              "id": 3917376,
+              "description": "Jaylen Brown",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696331,
+            "type": "contributor",
+            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
+            "description": "Kris Rhim",
+            "slug": "kris-rhim",
+            "contributor": {
+              "id": 3957,
+              "description": "Kris Rhim"
+            }
+          }
+        ],
+        "byline": "Kris Rhim",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50401325"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50401325"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50401325"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50401325/jaylen-brown-faces-boston-celtics-jayson-tatum-sixers"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50434799,
+        "nowId": "1-50434799",
+        "contentKey": "50434799-1-6-1",
+        "dataSourceIdentifier": "00d335f04e4cd",
+        "type": "Story",
+        "headline": "The historic (and absurd) longevity of Steph Curry and Kevin Durant",
+        "description": "More than 10 years after briefly joining forces, Steph and KD remain near the top of their games at 38. How long can each legend keep this up?",
+        "lastModified": "2026-11-10T12:16:38Z",
+        "published": "2026-11-10T12:16:38Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "31c6c31f0e85d",
+            "id": 50008120,
+            "type": "header",
+            "name": "Curry Durant\n [1296x729]",
+            "credit": "Cary Edmondson-Imagn Image",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0922/r1720560_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "New Orleans Pelicans vs. Golden State Warriors: Game Highlights",
+            "caption": "New Orleans Pelicans vs. Golden State Warriors: Game Highlights",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/d54cbdd555714824a9ae044cc4513f3c86/d54cbdd555714824a9ae044cc4513f3c86.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4600,
+            "type": "team",
+            "uid": "s:40~l:46~t:9",
+            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+            "description": "Golden State Warriors",
+            "sportId": 46,
+            "teamId": 9,
+            "team": {
+              "id": 9,
+              "description": "Golden State Warriors",
+              "abbreviation": "GS",
+              "shortDisplayName": "Warriors",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4517,
+            "type": "team",
+            "uid": "s:40~l:46~t:10",
+            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+            "description": "Houston Rockets",
+            "sportId": 46,
+            "teamId": 10,
+            "team": {
+              "id": 10,
+              "description": "Houston Rockets",
+              "abbreviation": "HOU",
+              "shortDisplayName": "Rockets",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 66001,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3975",
+            "guid": "5dda51f1-50c9-66e1-2026-400b73f34fad",
+            "description": "Stephen Curry",
+            "sportId": 46,
+            "athleteId": 3975,
+            "athlete": {
+              "id": 3975,
+              "description": "Stephen Curry",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3975/stephen-curry"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3975/stephen-curry"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 51682,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3202",
+            "guid": "dc324fde-eee8-98e2-09ac-d31d8ad9909e",
+            "description": "Kevin Durant",
+            "sportId": 46,
+            "athleteId": 3202,
+            "athlete": {
+              "id": 3202,
+              "description": "Kevin Durant",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3202/kevin-durant"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3202/kevin-durant"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 760098,
+            "type": "contributor",
+            "guid": "f877b8fa-3df9-3c82-b503-dc37aea5f4cb",
+            "description": "Ben Golliver",
+            "slug": "ben-golliver",
+            "contributor": {
+              "id": 4381,
+              "description": "Ben Golliver"
+            }
+          }
+        ],
+        "byline": "Ben Golliver",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50434799"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50434799"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50434799"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50434799/stephen-curry-kevin-durant-warriors-rockets"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50440246,
         "nowId": "1-50440246",
@@ -5944,454 +5215,1138 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50440189,
-        "nowId": "1-50440189",
-        "contentKey": "50440189-1-22-1",
-        "dataSourceIdentifier": "3a06d449577e3",
-        "type": "Preview",
-        "headline": "Brooklyn visits New Orleans on 3-game road slide",
-        "description": "Brooklyn Nets (2-8, 13th in the Eastern Conference) vs. New Orleans Pelicans (4-7, 11th in the Western Conference)",
-        "lastModified": "2026-11-10T07:05:37Z",
-        "published": "2026-11-10T07:05:37Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909972.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 114922,
-            "type": "team",
-            "uid": "s:40~l:46~t:3",
-            "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
-            "description": "New Orleans Pelicans",
-            "sportId": 46,
-            "teamId": 3,
-            "team": {
-              "id": 3,
-              "description": "New Orleans Pelicans",
-              "abbreviation": "NO",
-              "shortDisplayName": "Pelicans",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 104965,
-            "type": "team",
-            "uid": "s:40~l:46~t:17",
-            "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
-            "description": "Brooklyn Nets",
-            "sportId": 46,
-            "teamId": 17,
-            "team": {
-              "id": 17,
-              "description": "Brooklyn Nets",
-              "abbreviation": "BKN",
-              "shortDisplayName": "Nets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909972",
-            "guid": "a2f8177c-0278-373b-a648-379d9b0c491e",
-            "description": "Brooklyn Nets @ New Orleans Pelicans",
-            "eventId": 401909972,
-            "event": {
-              "id": 401909972,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Brooklyn Nets @ New Orleans Pelicans"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50440189"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50440189"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50440189"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909972"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50440188,
-        "nowId": "1-50440188",
-        "contentKey": "50440188-1-22-1",
-        "dataSourceIdentifier": "27f06b8502454",
-        "type": "Preview",
-        "headline": "Los Angeles visits Phoenix, looks to end road skid",
-        "description": "Los Angeles Clippers (2-7, 13th in the Western Conference) vs. Phoenix Suns (3-6, 12th in the Western Conference)",
-        "lastModified": "2026-11-10T07:05:36Z",
-        "published": "2026-11-10T07:05:36Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909962.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4644,
-            "type": "team",
-            "uid": "s:40~l:46~t:21",
-            "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
-            "description": "Phoenix Suns",
-            "sportId": 46,
-            "teamId": 21,
-            "team": {
-              "id": 21,
-              "description": "Phoenix Suns",
-              "abbreviation": "PHX",
-              "shortDisplayName": "Suns",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154798,
-            "type": "team",
-            "uid": "s:40~l:46~t:12",
-            "guid": "083a58a6-b849-3501-e67b-059290d12295",
-            "description": "LA Clippers",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "abbreviation": "LAC",
-              "shortDisplayName": "Clippers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909962",
-            "guid": "911c9994-2f3b-3325-9a8a-fda128745682",
-            "description": "LA Clippers @ Phoenix Suns",
-            "eventId": 401909962,
-            "event": {
-              "id": 401909962,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "LA Clippers @ Phoenix Suns"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50440188"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50440188"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50440188"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909962"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "21",
-      "gameProjection": "65.1",
-      "teamChanceLoss": "34.9"
+  "header": {
+    "id": "401909962",
+    "uid": "s:40~l:46~e:401909962",
+    "season": {
+      "year": 2027,
+      "current": true,
+      "type": 2
     },
-    "awayTeam": {
-      "id": "12",
-      "gameProjection": "34.9",
-      "teamChanceLoss": "65.1"
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401909962",
+        "uid": "s:40~l:46~e:401909962~c:401909962",
+        "date": "2026-11-11T02:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": false,
+        "commentaryAvailable": false,
+        "liveAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "wallclockAvailable": false,
+        "boxscoreSource": "none",
+        "playByPlaySource": "none",
+        "competitors": [
+          {
+            "id": "21",
+            "uid": "s:40~l:46~t:21",
+            "order": 0,
+            "homeAway": "home",
+            "team": {
+              "id": "21",
+              "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
+              "uid": "s:40~l:46~t:21",
+              "location": "Phoenix",
+              "name": "Suns",
+              "abbreviation": "PHX",
+              "displayName": "Phoenix Suns",
+              "color": "29127a",
+              "alternateColor": "e56020",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-06-25T21:18Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:14Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/c6eade89-5971-0e84-8ccb-cd91482b2b50/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "3-6",
+                "displayValue": "3-6"
+              },
+              {
+                "type": "home",
+                "summary": "3-3",
+                "displayValue": "3-3"
+              },
+              {
+                "type": "vsconf",
+                "summary": "2-6",
+                "displayValue": "2-6"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "12",
+            "uid": "s:40~l:46~t:12",
+            "order": 1,
+            "homeAway": "away",
+            "team": {
+              "id": "12",
+              "guid": "083a58a6-b849-3501-e67b-059290d12295",
+              "uid": "s:40~l:46~t:12",
+              "location": "LA",
+              "name": "Clippers",
+              "abbreviation": "LAC",
+              "displayName": "LA Clippers",
+              "color": "12173f",
+              "alternateColor": "c8102e",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-06-25T21:18Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:14Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/083a58a6-b849-3501-e67b-059290d12295/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "2-7",
+                "displayValue": "2-7"
+              },
+              {
+                "type": "road",
+                "summary": "0-4",
+                "displayValue": "0-4"
+              },
+              {
+                "type": "vsconf",
+                "summary": "2-5",
+                "displayValue": "2-5"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "status": {
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Tue, November 10th at 9:00 PM EST",
+            "shortDetail": "11/10 - 9:00 PM EST"
+          }
+        },
+        "odds": [
+          {
+            "awayTeamOdds": {
+              "favorite": false,
+              "underdog": true,
+              "moneyLine": 140,
+              "spreadOdds": -112.0,
+              "open": {
+                "favorite": false,
+                "pointSpread": {
+                  "alternateDisplayValue": "+4.5",
+                  "american": "+4.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 2.41,
+                  "displayValue": "141/100",
+                  "alternateDisplayValue": "+141",
+                  "decimal": 2.41,
+                  "fraction": "141/100",
+                  "american": "+141"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "+3.5",
+                  "american": "+3.5"
+                },
+                "spread": {
+                  "value": 1.89,
+                  "displayValue": "25/28",
+                  "alternateDisplayValue": "-112",
+                  "decimal": 1.89,
+                  "fraction": "25/28",
+                  "american": "-112"
+                },
+                "moneyLine": {
+                  "value": 2.4,
+                  "displayValue": "7/5",
+                  "alternateDisplayValue": "+140",
+                  "decimal": 2.4,
+                  "fraction": "7/5",
+                  "american": "+140"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
+              }
+            },
+            "homeTeamOdds": {
+              "favorite": true,
+              "underdog": false,
+              "moneyLine": -167,
+              "spreadOdds": -108.0,
+              "open": {
+                "favorite": true,
+                "pointSpread": {
+                  "alternateDisplayValue": "-4.5",
+                  "american": "-4.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 1.59,
+                  "displayValue": "25/42",
+                  "alternateDisplayValue": "-168",
+                  "decimal": 1.59,
+                  "fraction": "25/42",
+                  "american": "-168"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "-3.5",
+                  "american": "-3.5"
+                },
+                "spread": {
+                  "value": 1.92,
+                  "displayValue": "25/27",
+                  "alternateDisplayValue": "-108",
+                  "decimal": 1.92,
+                  "fraction": "25/27",
+                  "american": "-108"
+                },
+                "moneyLine": {
+                  "value": 1.59,
+                  "displayValue": "100/167",
+                  "alternateDisplayValue": "-167",
+                  "decimal": 1.59,
+                  "fraction": "100/167",
+                  "american": "-167"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
+              }
+            },
+            "current": {
+              "over": {
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
+              },
+              "under": {
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
+              },
+              "total": {
+                "alternateDisplayValue": "224.5",
+                "american": "224.5"
+              }
+            },
+            "propBets": [
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              }
+            ]
+          }
+        ],
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "2",
+              "type": "Home"
+            },
+            "media": {
+              "shortName": "Suns Live"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          },
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "2",
+              "type": "Home"
+            },
+            "media": {
+              "shortName": "Arizona's Family 3TV"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          },
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "3",
+              "type": "Away"
+            },
+            "media": {
+              "shortName": "ClipperVision"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": false
+          }
+        ],
+        "series": [
+          {
+            "type": "season",
+            "title": "Regular Season Series",
+            "description": "Regular Season Series",
+            "summary": "",
+            "completed": false,
+            "totalCompetitions": 4,
+            "competitors": [
+              {
+                "id": "21",
+                "uid": "s:40~l:46~t:21",
+                "wins": 0,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/21?lang=en&region=us"
+                }
+              },
+              {
+                "id": "12",
+                "uid": "s:40~l:46~t:12",
+                "wins": 0,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
+                }
+              }
+            ],
+            "events": [
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909962?lang=en&region=us",
+                "id": "401909962"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910073?lang=en&region=us",
+                "id": "401910073"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910367?lang=en&region=us",
+                "id": "401910367"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910889?lang=en&region=us",
+                "id": "401910889"
+              }
+            ],
+            "startDate": "2026-11-11T02:00Z"
+          }
+        ],
+        "boxscoreMinutes": false
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/game/_/gameId/401909962/clippers-suns",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "preview",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/preview/_/gameId/401909962",
+        "text": "Preview",
+        "shortText": "Preview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "odds",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/odds/_/gameId/401909962",
+        "text": "Odds",
+        "shortText": "Odds",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "tickets",
+          "desktop"
+        ],
+        "href": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
+        "text": "Tickets",
+        "shortText": "Tickets",
+        "isExternal": true,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "46",
+      "uid": "s:40~l:46",
+      "name": "National Basketball Association",
+      "abbreviation": "NBA",
+      "shortName": "NBA",
+      "slug": "nba",
+      "isTournament": false,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/schedule",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/scoreboard",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/teams",
+          "text": "Teams"
+        },
+        {
+          "rel": [
+            "athletes",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/players",
+          "text": "Players"
+        },
+        {
+          "rel": [
+            "injuries",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/injuries",
+          "text": "Injuries"
+        },
+        {
+          "rel": [
+            "odds",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "odds",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/playoff-bracket",
+          "text": "Bracket"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+          "text": "Bracket"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
     }
   },
   "article": {
@@ -6555,12 +6510,12 @@
         "type": "team"
       },
       {
-        "ticketName": "11/10 vs Clippers 2004 tickets left",
+        "ticketName": "11/10 vs Clippers 2001 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-10-2026/production/7432977?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/12 vs Hornets 2318 tickets left",
+        "ticketName": "11/12 vs Hornets 2326 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-11-12-2026/production/7432775?wsUser=717",
         "type": "event"
       },
@@ -6580,12 +6535,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Jazz 1952 tickets left",
+        "ticketName": "11/20 @ Jazz 1950 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-31-2026--sports-nba-basketball/production/7418205?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Pelicans 1200 tickets left",
+        "ticketName": "11/23 @ Pelicans 1232 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
@@ -6595,7 +6550,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Mavericks 2512 tickets left",
+        "ticketName": "11/27 vs Mavericks 2515 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-10-31-2026--sports-nba-basketball/production/7418133?wsUser=717",
         "type": "event"
       },
