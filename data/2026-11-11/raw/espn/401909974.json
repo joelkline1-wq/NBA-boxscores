@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909916",
@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "2",
             "uid": "s:40~l:46~t:2",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
         },
         {
           "id": "401909930",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909957",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
         },
         {
           "id": "401909937",
@@ -2919,6 +2919,66 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-11-11T17:03Z",
+          "athlete": {
+            "id": "4897262",
+            "uid": "s:40~l:46~a:4897262",
+            "guid": "8d914de2-a6fa-3fd7-a7e2-604ae25a0519",
+            "lastName": "Richard",
+            "fullName": "Will Richard",
+            "displayName": "Will Richard",
+            "shortName": "W. Richard",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4897262/will-richard",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
+              "alt": "Will Richard"
+            },
+            "jersey": "3",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4897262?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Thumb",
+            "location": "Arm",
+            "side": "Left",
+            "returnDate": "2026-11-11"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-11-10T21:36Z",
           "athlete": {
@@ -2977,66 +3037,6 @@
             "detail": "Inflammation",
             "side": "Left",
             "returnDate": "2026-11-13"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-11-10T21:34Z",
-          "athlete": {
-            "id": "4897262",
-            "uid": "s:40~l:46~a:4897262",
-            "guid": "8d914de2-a6fa-3fd7-a7e2-604ae25a0519",
-            "lastName": "Richard",
-            "fullName": "Will Richard",
-            "displayName": "Will Richard",
-            "shortName": "W. Richard",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4897262/will-richard",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
-              "alt": "Will Richard"
-            },
-            "jersey": "3",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4897262?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Thumb",
-            "location": "Arm",
-            "side": "Left",
-            "returnDate": "2026-11-11"
           }
         },
         {
@@ -3804,6 +3804,1273 @@
       "records": []
     }
   ],
+  "header": {
+    "id": "401909974",
+    "uid": "s:40~l:46~e:401909974",
+    "season": {
+      "year": 2027,
+      "current": true,
+      "type": 2
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401909974",
+        "uid": "s:40~l:46~e:401909974~c:401909974",
+        "date": "2026-11-12T02:30Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": false,
+        "commentaryAvailable": false,
+        "liveAvailable": false,
+        "onWatchESPN": true,
+        "recent": false,
+        "wallclockAvailable": false,
+        "boxscoreSource": "none",
+        "playByPlaySource": "none",
+        "competitors": [
+          {
+            "id": "10",
+            "uid": "s:40~l:46~t:10",
+            "order": 0,
+            "homeAway": "home",
+            "team": {
+              "id": "10",
+              "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+              "uid": "s:40~l:46~t:10",
+              "location": "Houston",
+              "name": "Rockets",
+              "abbreviation": "HOU",
+              "displayName": "Houston Rockets",
+              "color": "ce0e2d",
+              "alternateColor": "000000",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2026-07-01T17:56Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/hou.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2026-07-01T17:57Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2026-07-01T17:56Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/hou.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2026-07-01T17:56Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "8-3",
+                "displayValue": "8-3"
+              },
+              {
+                "type": "home",
+                "summary": "5-1",
+                "displayValue": "5-1"
+              },
+              {
+                "type": "vsconf",
+                "summary": "4-3",
+                "displayValue": "4-3"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "9",
+            "uid": "s:40~l:46~t:9",
+            "order": 1,
+            "homeAway": "away",
+            "team": {
+              "id": "9",
+              "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+              "uid": "s:40~l:46~t:9",
+              "location": "Golden State",
+              "name": "Warriors",
+              "abbreviation": "GS",
+              "displayName": "Golden State Warriors",
+              "color": "fdb927",
+              "alternateColor": "1d428a",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-06-25T21:18Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:14Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "8-3",
+                "displayValue": "8-3"
+              },
+              {
+                "type": "road",
+                "summary": "2-2",
+                "displayValue": "2-2"
+              },
+              {
+                "type": "vsconf",
+                "summary": "6-3",
+                "displayValue": "6-3"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "status": {
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Wed, November 11th at 9:30 PM EST",
+            "shortDetail": "11/11 - 9:30 PM EST"
+          }
+        },
+        "odds": [
+          {
+            "awayTeamOdds": {
+              "favorite": false,
+              "underdog": true,
+              "moneyLine": 205,
+              "spreadOdds": -105.0,
+              "open": {
+                "favorite": false,
+                "pointSpread": {
+                  "alternateDisplayValue": "+5.5",
+                  "american": "+5.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 2.58,
+                  "displayValue": "79/50",
+                  "alternateDisplayValue": "+158",
+                  "decimal": 2.58,
+                  "fraction": "79/50",
+                  "american": "+158"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "+6.5",
+                  "american": "+6.5"
+                },
+                "spread": {
+                  "value": 1.95,
+                  "displayValue": "20/21",
+                  "alternateDisplayValue": "-105",
+                  "decimal": 1.95,
+                  "fraction": "20/21",
+                  "american": "-105"
+                },
+                "moneyLine": {
+                  "value": 3.05,
+                  "displayValue": "41/20",
+                  "alternateDisplayValue": "+205",
+                  "decimal": 3.05,
+                  "fraction": "41/20",
+                  "american": "+205"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
+              }
+            },
+            "homeTeamOdds": {
+              "favorite": true,
+              "underdog": false,
+              "moneyLine": -249,
+              "spreadOdds": -115.0,
+              "open": {
+                "favorite": true,
+                "pointSpread": {
+                  "alternateDisplayValue": "-5.5",
+                  "american": "-5.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 1.52,
+                  "displayValue": "100/189",
+                  "alternateDisplayValue": "-189",
+                  "decimal": 1.52,
+                  "fraction": "100/189",
+                  "american": "-189"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "-6.5",
+                  "american": "-6.5"
+                },
+                "spread": {
+                  "value": 1.86,
+                  "displayValue": "20/23",
+                  "alternateDisplayValue": "-115",
+                  "decimal": 1.86,
+                  "fraction": "20/23",
+                  "american": "-115"
+                },
+                "moneyLine": {
+                  "value": 1.4,
+                  "displayValue": "100/249",
+                  "alternateDisplayValue": "-249",
+                  "decimal": 1.4,
+                  "fraction": "100/249",
+                  "american": "-249"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
+              }
+            },
+            "current": {
+              "over": {
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
+              },
+              "under": {
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
+              },
+              "total": {
+                "alternateDisplayValue": "220.5",
+                "american": "220.5"
+              }
+            },
+            "propBets": [
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              }
+            ]
+          }
+        ],
+        "broadcasts": [
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": true
+          }
+        ],
+        "series": [
+          {
+            "type": "season",
+            "title": "Regular Season Series",
+            "description": "Regular Season Series",
+            "summary": "",
+            "completed": false,
+            "totalCompetitions": 4,
+            "competitors": [
+              {
+                "id": "10",
+                "uid": "s:40~l:46~t:10",
+                "wins": 0,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
+                }
+              },
+              {
+                "id": "9",
+                "uid": "s:40~l:46~t:9",
+                "wins": 0,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
+                }
+              }
+            ],
+            "events": [
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909974?lang=en&region=us",
+                "id": "401909974"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910225?lang=en&region=us",
+                "id": "401910225"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910635?lang=en&region=us",
+                "id": "401910635"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910679?lang=en&region=us",
+                "id": "401910679"
+              }
+            ],
+            "startDate": "2026-11-12T02:30Z"
+          }
+        ],
+        "boxscoreMinutes": false
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/game/_/gameId/401909974/warriors-rockets",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "preview",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/preview/_/gameId/401909974",
+        "text": "Preview",
+        "shortText": "Preview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "odds",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/odds/_/gameId/401909974",
+        "text": "Odds",
+        "shortText": "Odds",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "tickets",
+          "desktop"
+        ],
+        "href": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
+        "text": "Tickets",
+        "shortText": "Tickets",
+        "isExternal": true,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "46",
+      "uid": "s:40~l:46",
+      "name": "National Basketball Association",
+      "abbreviation": "NBA",
+      "shortName": "NBA",
+      "slug": "nba",
+      "isTournament": false,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/schedule",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/scoreboard",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/teams",
+          "text": "Teams"
+        },
+        {
+          "rel": [
+            "athletes",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/players",
+          "text": "Players"
+        },
+        {
+          "rel": [
+            "injuries",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/injuries",
+          "text": "Injuries"
+        },
+        {
+          "rel": [
+            "odds",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "odds",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/playoff-bracket",
+          "text": "Bracket"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+          "text": "Bracket"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
+    }
+  },
+  "article": {
+    "id": 50440191,
+    "nowId": "1-50440191",
+    "contentKey": "50440191-1-22-1",
+    "dataSourceIdentifier": "aad000a2a8c48",
+    "publishedkey": "nba401909974",
+    "type": "Preview",
+    "gameId": "401909974",
+    "headline": "Warriors take on the Rockets, aim for 9th straight win",
+    "description": "Golden State Warriors (8-3, fourth in the Western Conference) vs. Houston Rockets (8-3, sixth in the Western Conference)",
+    "title": "Warriors take on the Rockets, aim for 9th straight win",
+    "linkText": "Warriors take on the Rockets, aim for 9th straight win",
+    "categorized": "2026-11-10T07:05:40Z",
+    "originallyPosted": "2026-11-10T07:05:39Z",
+    "lastModified": "2026-11-10T07:05:40Z",
+    "published": "2026-11-10T07:05:39Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4517,
+        "type": "team",
+        "uid": "s:40~l:46~t:10",
+        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+        "description": "Houston Rockets",
+        "sportId": 46,
+        "teamId": 10,
+        "team": {
+          "id": 10,
+          "description": "Houston Rockets",
+          "abbreviation": "HOU",
+          "shortDisplayName": "Rockets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4600,
+        "type": "team",
+        "uid": "s:40~l:46~t:9",
+        "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+        "description": "Golden State Warriors",
+        "sportId": 46,
+        "teamId": 9,
+        "team": {
+          "id": 9,
+          "description": "Golden State Warriors",
+          "abbreviation": "GS",
+          "shortDisplayName": "Warriors",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909974",
+        "guid": "bf780be0-5bf2-3318-ac81-4823471e75d0",
+        "description": "Golden State Warriors @ Houston Rockets",
+        "eventId": 401909974,
+        "event": {
+          "id": 401909974,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Golden State Warriors @ Houston Rockets"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Houston Rockets",
+      "Golden State Warriors",
+      "Golden State Warriors @ Houston Rockets"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/gs/golden-state-warriors\">Golden State Warriors</a> (8-3, fourth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (8-3, sixth in the Western Conference)\n\n\r\n              Houston; Wednesday, 9:30 p.m. EST\n\n\r\n              BOTTOM LINE: Golden State will attempt to continue its eight-game win streak with a victory over Houston.\n\n\r\n              Houston finished 52-30 overall, 29-23 in Western Conference action and 30-11 at home during the 2025-26 season. The Rockets averaged 115.2 points per game while shooting 47.9% from the field and 36.4% from 3-point distance last season.\n\n\r\n              Golden State finished 37-45 overall and 24-28 in Western Conference action during the 2025-26 season. The Warriors shot 46.1% from the field and 35.6% from 3-point range last season.\n\n\r\n              INJURIES: Rockets: <a href=\"http://www.espn.com/nba/player/_/id/3102529/clint-capela\">Clint Capela</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/2991235/steven-adams\">Steven Adams</a>: out (calf).\n\n\r\n              Warriors: <a href=\"http://www.espn.com/nba/player/_/id/4897262/will-richard\">Will Richard</a>: out (thumb), <a href=\"http://www.espn.com/nba/player/_/id/4432171/moses-moody\">Moses Moody</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis\">Kristaps Porzingis</a>: out (illness), <a href=\"http://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii\">Jimmy Butler III</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3134903/gary-payton-ii\">Gary Payton II</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50440191"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50440191"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50440191"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909974"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
+  "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909974",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "10",
+      "gameProjection": "67.2",
+      "teamChanceLoss": "32.8"
+    },
+    "awayTeam": {
+      "id": "9",
+      "gameProjection": "32.8",
+      "teamChanceLoss": "67.2"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3820,6 +5087,234 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50453516,
+        "nowId": "1-50453516",
+        "contentKey": "50453516-1-6-1",
+        "dataSourceIdentifier": "b7e351b654459",
+        "type": "Story",
+        "headline": "Fantasy basketball adds and NBA bets: Take Warriors and the points at Houston?",
+        "description": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+        "lastModified": "2026-11-11T17:10:47Z",
+        "published": "2026-11-11T17:10:47Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "499931733c99a",
+            "id": 50453657,
+            "type": "header",
+            "name": "Stephen Curry [1296x729]",
+            "caption": "Stephen Curry and the red-hot Warriors head to Houston having won eight straight.",
+            "alt": "Stephen Curry #30 of the Golden State Warriors goes up for a shot on Wendell Carter Jr. #34 of the Orlando Magic during overtime at Chase Center on November 07, 2026 in San Francisco, California.",
+            "credit": "Ezra Shaw/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1111/r1744455_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 154370,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3134908",
+            "guid": "a5b22bdb-e9e3-f482-72f9-06db2e339aff",
+            "description": "Jakob Poeltl",
+            "sportId": 46,
+            "athleteId": 3134908,
+            "athlete": {
+              "id": 3134908,
+              "description": "Jakob Poeltl",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3134908/jakob-poeltl"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3134908/jakob-poeltl"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 453349,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432241",
+            "guid": "f5cf0cda-37c2-3a0c-b9c9-6c00e2b17c0d",
+            "description": "Jamal Shead",
+            "sportId": 46,
+            "athleteId": 4432241,
+            "athlete": {
+              "id": 4432241,
+              "description": "Jamal Shead",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432241/jamal-shead"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432241/jamal-shead"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 632844,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4683778",
+            "guid": "8c566cd5-1e08-353e-8490-f62a71496016",
+            "description": "Jared McCain",
+            "sportId": 46,
+            "athleteId": 4683778,
+            "athlete": {
+              "id": 4683778,
+              "description": "Jared McCain",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683778/jared-mccain"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683778/jared-mccain"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492489,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432194",
+            "guid": "ca2f4b35-a2bc-3bbe-a229-a11f5e326a9f",
+            "description": "Day'Ron Sharpe",
+            "sportId": 46,
+            "athleteId": 4432194,
+            "athlete": {
+              "id": 4432194,
+              "description": "Day'Ron Sharpe",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 699506,
+            "type": "contributor",
+            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
+            "description": "Andre Snellings",
+            "slug": "andre-snellings",
+            "contributor": {
+              "id": 3273,
+              "description": "Andre Snellings"
+            }
+          }
+        ],
+        "byline": "Andre Snellings",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50453516"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50453516"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50453516"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50453516/fantasy-basketball-tips-nba-betting-picks-today"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50453177,
         "nowId": "1-50453177",
@@ -4083,8 +5578,8 @@
         "type": "Story",
         "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
         "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-11T15:20:08Z",
-        "published": "2026-11-11T15:20:08Z",
+        "lastModified": "2026-11-11T16:08:25Z",
+        "published": "2026-11-11T16:08:25Z",
         "images": [
           {
             "dataSourceIdentifier": "9794d99d85fc9",
@@ -4355,8 +5850,8 @@
         "type": "Story",
         "headline": "NBA Power Rankings: 1-30 poll, plus the best newcomer on all 30 teams",
         "description": "Which NBA teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league.",
-        "lastModified": "2026-11-11T14:38:50Z",
-        "published": "2026-11-11T14:38:50Z",
+        "lastModified": "2026-11-11T17:06:31Z",
+        "published": "2026-11-11T17:06:31Z",
         "images": [
           {
             "dataSourceIdentifier": "0c8066c3ca32b",
@@ -5572,1338 +7067,8 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50451228,
-        "nowId": "1-50451228",
-        "contentKey": "50451228-1-22-1",
-        "dataSourceIdentifier": "2313e632df210",
-        "type": "Preview",
-        "headline": "Portland takes on Oklahoma City in conference matchup",
-        "description": "Oklahoma City Thunder (8-3, fifth in the Western Conference) vs. Portland Trail Blazers (7-3, eighth in the Western Conference)",
-        "lastModified": "2026-11-11T08:04:34Z",
-        "published": "2026-11-11T08:04:34Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909975.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4659,
-            "type": "team",
-            "uid": "s:40~l:46~t:22",
-            "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
-            "description": "Portland Trail Blazers",
-            "sportId": 46,
-            "teamId": 22,
-            "team": {
-              "id": 22,
-              "description": "Portland Trail Blazers",
-              "abbreviation": "POR",
-              "shortDisplayName": "Trail Blazers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4695,
-            "type": "team",
-            "uid": "s:40~l:46~t:25",
-            "guid": "bd458c44-2d33-47eb-cebc-35d3d4ac595c",
-            "description": "Oklahoma City Thunder",
-            "sportId": 46,
-            "teamId": 25,
-            "team": {
-              "id": 25,
-              "description": "Oklahoma City Thunder",
-              "abbreviation": "OKC",
-              "shortDisplayName": "Thunder",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909975",
-            "guid": "3d7bb6eb-9c6b-386b-804e-95ece79614aa",
-            "description": "Oklahoma City Thunder @ Portland Trail Blazers",
-            "eventId": 401909975,
-            "event": {
-              "id": 401909975,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Oklahoma City Thunder @ Portland Trail Blazers"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50451228"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50451228"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50451228"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909975"
-          }
-        },
-        "premium": false
       }
     ]
-  },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "10",
-      "gameProjection": "67.2",
-      "teamChanceLoss": "32.8"
-    },
-    "awayTeam": {
-      "id": "9",
-      "gameProjection": "32.8",
-      "teamChanceLoss": "67.2"
-    }
-  },
-  "header": {
-    "id": "401909974",
-    "uid": "s:40~l:46~e:401909974",
-    "season": {
-      "year": 2027,
-      "current": true,
-      "type": 2
-    },
-    "timeValid": true,
-    "competitions": [
-      {
-        "id": "401909974",
-        "uid": "s:40~l:46~e:401909974~c:401909974",
-        "date": "2026-11-12T02:30Z",
-        "neutralSite": false,
-        "conferenceCompetition": false,
-        "boxscoreAvailable": false,
-        "commentaryAvailable": false,
-        "liveAvailable": false,
-        "onWatchESPN": true,
-        "recent": false,
-        "wallclockAvailable": false,
-        "boxscoreSource": "none",
-        "playByPlaySource": "none",
-        "competitors": [
-          {
-            "id": "10",
-            "uid": "s:40~l:46~t:10",
-            "order": 0,
-            "homeAway": "home",
-            "team": {
-              "id": "10",
-              "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-              "uid": "s:40~l:46~t:10",
-              "location": "Houston",
-              "name": "Rockets",
-              "abbreviation": "HOU",
-              "displayName": "Houston Rockets",
-              "color": "ce0e2d",
-              "alternateColor": "000000",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2026-07-01T17:56Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/hou.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2026-07-01T17:57Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2026-07-01T17:56Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/hou.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2026-07-01T17:56Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/78113ad4-1ac7-0c04-dada-388a6ff4e15e/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "8-3",
-                "displayValue": "8-3"
-              },
-              {
-                "type": "home",
-                "summary": "5-1",
-                "displayValue": "5-1"
-              },
-              {
-                "type": "vsconf",
-                "summary": "4-3",
-                "displayValue": "4-3"
-              }
-            ],
-            "possession": false
-          },
-          {
-            "id": "9",
-            "uid": "s:40~l:46~t:9",
-            "order": 1,
-            "homeAway": "away",
-            "team": {
-              "id": "9",
-              "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-              "uid": "s:40~l:46~t:9",
-              "location": "Golden State",
-              "name": "Warriors",
-              "abbreviation": "GS",
-              "displayName": "Golden State Warriors",
-              "color": "fdb927",
-              "alternateColor": "1d428a",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-06-25T21:18Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:14Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/77a8546f-24bf-a333-8161-bf9f75396c49/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "8-3",
-                "displayValue": "8-3"
-              },
-              {
-                "type": "road",
-                "summary": "2-2",
-                "displayValue": "2-2"
-              },
-              {
-                "type": "vsconf",
-                "summary": "6-3",
-                "displayValue": "6-3"
-              }
-            ],
-            "possession": false
-          }
-        ],
-        "status": {
-          "type": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, November 11th at 9:30 PM EST",
-            "shortDetail": "11/11 - 9:30 PM EST"
-          }
-        },
-        "odds": [
-          {
-            "awayTeamOdds": {
-              "favorite": false,
-              "underdog": true,
-              "moneyLine": 205,
-              "spreadOdds": -105.0,
-              "open": {
-                "favorite": false,
-                "pointSpread": {
-                  "alternateDisplayValue": "+5.5",
-                  "american": "+5.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 2.58,
-                  "displayValue": "79/50",
-                  "alternateDisplayValue": "+158",
-                  "decimal": 2.58,
-                  "fraction": "79/50",
-                  "american": "+158"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "+6.5",
-                  "american": "+6.5"
-                },
-                "spread": {
-                  "value": 1.95,
-                  "displayValue": "20/21",
-                  "alternateDisplayValue": "-105",
-                  "decimal": 1.95,
-                  "fraction": "20/21",
-                  "american": "-105"
-                },
-                "moneyLine": {
-                  "value": 3.05,
-                  "displayValue": "41/20",
-                  "alternateDisplayValue": "+205",
-                  "decimal": 3.05,
-                  "fraction": "41/20",
-                  "american": "+205"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
-              }
-            },
-            "homeTeamOdds": {
-              "favorite": true,
-              "underdog": false,
-              "moneyLine": -249,
-              "spreadOdds": -115.0,
-              "open": {
-                "favorite": true,
-                "pointSpread": {
-                  "alternateDisplayValue": "-5.5",
-                  "american": "-5.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 1.52,
-                  "displayValue": "100/189",
-                  "alternateDisplayValue": "-189",
-                  "decimal": 1.52,
-                  "fraction": "100/189",
-                  "american": "-189"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "-6.5",
-                  "american": "-6.5"
-                },
-                "spread": {
-                  "value": 1.86,
-                  "displayValue": "20/23",
-                  "alternateDisplayValue": "-115",
-                  "decimal": 1.86,
-                  "fraction": "20/23",
-                  "american": "-115"
-                },
-                "moneyLine": {
-                  "value": 1.4,
-                  "displayValue": "100/249",
-                  "alternateDisplayValue": "-249",
-                  "decimal": 1.4,
-                  "fraction": "100/249",
-                  "american": "-249"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
-              }
-            },
-            "current": {
-              "over": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
-              },
-              "under": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
-              },
-              "total": {
-                "alternateDisplayValue": "220.5",
-                "american": "220.5"
-              }
-            },
-            "propBets": [
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              }
-            ]
-          }
-        ],
-        "broadcasts": [
-          {
-            "type": {
-              "id": "1",
-              "shortName": "TV"
-            },
-            "market": {
-              "id": "1",
-              "type": "National"
-            },
-            "media": {
-              "shortName": "ESPN"
-            },
-            "lang": "en",
-            "region": "us",
-            "isNational": true
-          }
-        ],
-        "series": [
-          {
-            "type": "season",
-            "title": "Regular Season Series",
-            "description": "Regular Season Series",
-            "summary": "",
-            "completed": false,
-            "totalCompetitions": 4,
-            "competitors": [
-              {
-                "id": "10",
-                "uid": "s:40~l:46~t:10",
-                "wins": 0,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
-                }
-              },
-              {
-                "id": "9",
-                "uid": "s:40~l:46~t:9",
-                "wins": 0,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
-                }
-              }
-            ],
-            "events": [
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909974?lang=en&region=us",
-                "id": "401909974"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910225?lang=en&region=us",
-                "id": "401910225"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910635?lang=en&region=us",
-                "id": "401910635"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910679?lang=en&region=us",
-                "id": "401910679"
-              }
-            ],
-            "startDate": "2026-11-12T02:30Z"
-          }
-        ],
-        "boxscoreMinutes": false
-      }
-    ],
-    "links": [
-      {
-        "rel": [
-          "summary",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/game/_/gameId/401909974/warriors-rockets",
-        "text": "Gamecast",
-        "shortText": "Summary",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "preview",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/preview/_/gameId/401909974",
-        "text": "Preview",
-        "shortText": "Preview",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "odds",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/odds/_/gameId/401909974",
-        "text": "Odds",
-        "shortText": "Odds",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "tickets",
-          "desktop"
-        ],
-        "href": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
-        "text": "Tickets",
-        "shortText": "Tickets",
-        "isExternal": true,
-        "isPremium": false
-      }
-    ],
-    "league": {
-      "id": "46",
-      "uid": "s:40~l:46",
-      "name": "National Basketball Association",
-      "abbreviation": "NBA",
-      "shortName": "NBA",
-      "slug": "nba",
-      "isTournament": false,
-      "links": [
-        {
-          "rel": [
-            "index",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "index",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "schedule",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/schedule",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "schedule",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "standings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "standings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "scores",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/scoreboard",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "scores",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "stats",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "stats",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "teams",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/teams",
-          "text": "Teams"
-        },
-        {
-          "rel": [
-            "athletes",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/players",
-          "text": "Players"
-        },
-        {
-          "rel": [
-            "injuries",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/injuries",
-          "text": "Injuries"
-        },
-        {
-          "rel": [
-            "odds",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "odds",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/playoff-bracket",
-          "text": "Bracket"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
-          "text": "Bracket"
-        }
-      ],
-      "logos": [
-        {
-          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-          "rel": [
-            "full",
-            "default"
-          ]
-        },
-        {
-          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
-          "rel": [
-            "full",
-            "dark"
-          ]
-        }
-      ]
-    }
   },
   "ticketsInfo": {
     "tickets": [
@@ -6918,57 +7083,57 @@
         "type": "team"
       },
       {
-        "ticketName": "11/11 vs Warriors 1363 tickets left",
+        "ticketName": "11/11 vs Warriors 777 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Jazz 3079 tickets left",
+        "ticketName": "11/13 vs Jazz 3081 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Wizards 2006 tickets left",
+        "ticketName": "11/15 @ Wizards 2113 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Heat 4214 tickets left",
+        "ticketName": "11/16 @ Heat 4178 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Pacers 2152 tickets left",
+        "ticketName": "11/18 @ Pacers 2150 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Nuggets 3275 tickets left",
+        "ticketName": "11/20 @ Nuggets 3271 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Clippers 3853 tickets left",
+        "ticketName": "11/23 vs Clippers 3901 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Suns 4156 tickets left",
+        "ticketName": "11/25 vs Suns 4143 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-30-2026--sports-nba-basketball/production/7418039?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 vs 76ers 2094 tickets left",
+        "ticketName": "11/28 vs 76ers 2102 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-28-2026/production/7430998?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Lakers 4069 tickets left",
+        "ticketName": "11/30 vs Lakers 4201 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-30-2026/production/7431000?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Raptors 3995 tickets left",
+        "ticketName": "12/1 vs Raptors 3991 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
         "type": "event"
       },
@@ -7007,160 +7172,6 @@
       "teamLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
       "timeValid": true
     }
-  },
-  "article": {
-    "id": 50440191,
-    "nowId": "1-50440191",
-    "contentKey": "50440191-1-22-1",
-    "dataSourceIdentifier": "aad000a2a8c48",
-    "publishedkey": "nba401909974",
-    "type": "Preview",
-    "gameId": "401909974",
-    "headline": "Warriors take on the Rockets, aim for 9th straight win",
-    "description": "Golden State Warriors (8-3, fourth in the Western Conference) vs. Houston Rockets (8-3, sixth in the Western Conference)",
-    "title": "Warriors take on the Rockets, aim for 9th straight win",
-    "linkText": "Warriors take on the Rockets, aim for 9th straight win",
-    "categorized": "2026-11-10T07:05:40Z",
-    "originallyPosted": "2026-11-10T07:05:39Z",
-    "lastModified": "2026-11-10T07:05:40Z",
-    "published": "2026-11-10T07:05:39Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4517,
-        "type": "team",
-        "uid": "s:40~l:46~t:10",
-        "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-        "description": "Houston Rockets",
-        "sportId": 46,
-        "teamId": 10,
-        "team": {
-          "id": 10,
-          "description": "Houston Rockets",
-          "abbreviation": "HOU",
-          "shortDisplayName": "Rockets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4600,
-        "type": "team",
-        "uid": "s:40~l:46~t:9",
-        "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-        "description": "Golden State Warriors",
-        "sportId": 46,
-        "teamId": 9,
-        "team": {
-          "id": 9,
-          "description": "Golden State Warriors",
-          "abbreviation": "GS",
-          "shortDisplayName": "Warriors",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909974",
-        "guid": "bf780be0-5bf2-3318-ac81-4823471e75d0",
-        "description": "Golden State Warriors @ Houston Rockets",
-        "eventId": 401909974,
-        "event": {
-          "id": 401909974,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Golden State Warriors @ Houston Rockets"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Houston Rockets",
-      "Golden State Warriors",
-      "Golden State Warriors @ Houston Rockets"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/gs/golden-state-warriors\">Golden State Warriors</a> (8-3, fourth in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> (8-3, sixth in the Western Conference)\n\n\r\n              Houston; Wednesday, 9:30 p.m. EST\n\n\r\n              BOTTOM LINE: Golden State will attempt to continue its eight-game win streak with a victory over Houston.\n\n\r\n              Houston finished 52-30 overall, 29-23 in Western Conference action and 30-11 at home during the 2025-26 season. The Rockets averaged 115.2 points per game while shooting 47.9% from the field and 36.4% from 3-point distance last season.\n\n\r\n              Golden State finished 37-45 overall and 24-28 in Western Conference action during the 2025-26 season. The Warriors shot 46.1% from the field and 35.6% from 3-point range last season.\n\n\r\n              INJURIES: Rockets: <a href=\"http://www.espn.com/nba/player/_/id/3102529/clint-capela\">Clint Capela</a>: out (ankle), <a href=\"http://www.espn.com/nba/player/_/id/2991235/steven-adams\">Steven Adams</a>: out (calf).\n\n\r\n              Warriors: <a href=\"http://www.espn.com/nba/player/_/id/4897262/will-richard\">Will Richard</a>: out (thumb), <a href=\"http://www.espn.com/nba/player/_/id/4432171/moses-moody\">Moses Moody</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis\">Kristaps Porzingis</a>: out (illness), <a href=\"http://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii\">Jimmy Butler III</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3134903/gary-payton-ii\">Gary Payton II</a>: day to day (knee).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50440191"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50440191"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50440191"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909974"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909974",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
