@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909931",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "10",
             "uid": "s:40~l:46~t:10",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909924",
@@ -996,8 +996,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -1062,7 +1060,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909949",
@@ -2734,8 +2734,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-10T21:54Z",
+          "status": "Out",
+          "date": "2026-11-11T17:37Z",
           "athlete": {
             "id": "4431684",
             "uid": "s:40~l:46~a:4431684",
@@ -2776,20 +2776,20 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Illness",
             "location": "Other",
-            "returnDate": "2026-11-11"
+            "returnDate": "2026-11-12"
           }
         },
         {
@@ -3100,15 +3100,88 @@
           }
         ]
       },
-      "injuries": []
+      "injuries": [
+        {
+          "status": "Out",
+          "date": "2026-11-11T17:53Z",
+          "athlete": {
+            "id": "4251",
+            "uid": "s:40~l:46~a:4251",
+            "guid": "d7e5e918-d53f-018e-9d15-f9005b2390ad",
+            "lastName": "George",
+            "fullName": "Paul George",
+            "displayName": "Paul George",
+            "shortName": "P. George",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4251/paul-george",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
+              "alt": "Paul George"
+            },
+            "jersey": "13",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/41772?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Illness",
+            "location": "Other",
+            "returnDate": "2026-11-15"
+          }
+        }
+      ]
     }
   ],
   "broadcasts": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "28",
+      "gameProjection": "21.9",
+      "teamChanceLoss": "78.1"
+    },
+    "awayTeam": {
+      "id": "2",
+      "gameProjection": "78.1",
+      "teamChanceLoss": "21.9"
+    }
+  },
   "pickcenter": [
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3128,13 +3201,13 @@
       "details": "BOS -5.5",
       "overUnder": 215.5,
       "spread": 5.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -243,
-        "spreadOdds": -118.0,
+        "moneyLine": -221,
+        "spreadOdds": -113.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
         },
@@ -3144,8 +3217,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 200,
-        "spreadOdds": -102.0,
+        "moneyLine": 184,
+        "spreadOdds": -107.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -3159,7 +3232,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988944%3Foutcomes%3D0ML87164377_1",
           "text": "Home Bet",
@@ -3183,7 +3256,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988944%3Foutcomes%3D0ML87164377_3",
           "text": "Away Bet",
@@ -3316,14 +3389,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+200",
+            "odds": "+184",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988944%3Foutcomes%3D0ML87164377_1",
               "text": "Home Bet",
@@ -3348,14 +3421,14 @@
         },
         "away": {
           "close": {
-            "odds": "-243",
+            "odds": "-221",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988944%3Foutcomes%3D0ML87164377_3",
               "text": "Away Bet",
@@ -3385,7 +3458,7 @@
         "home": {
           "close": {
             "line": "+5.5",
-            "odds": "-102",
+            "odds": "-107",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3419,7 +3492,7 @@
         "away": {
           "close": {
             "line": "-5.5",
-            "odds": "-118",
+            "odds": "-113",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3457,7 +3530,7 @@
         "over": {
           "close": {
             "line": "o215.5",
-            "odds": "-113",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3491,7 +3564,7 @@
         "under": {
           "close": {
             "line": "u215.5",
-            "odds": "-107",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3687,6 +3760,110 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Raptors Tickets",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/11 vs Celtics 373 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/12 @ 76ers 1932 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/15 vs Knicks 803 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/17 vs Knicks 583 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 vs Wizards 791 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Pistons 2452 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Bucks 893 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 vs Nets 958 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-10-31-2026--sports-nba-basketball/production/7419365?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 vs Nuggets 907 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-29-2026/production/7430946?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/1 @ Rockets 3994 tickets left",
+        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/3 @ Spurs 1691 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/13 @ Thunder 1234 tickets left",
+        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-12-13-2026/production/7431062?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 @ Hornets 3480 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-14-2026/production/7431066?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 vs Spurs 1166 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-16-2026/production/7431070?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Warriors 995 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-18-2026/production/7431074?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Celtics",
+      "currentTeamName": "Raptors",
+      "venueName": "Scotiabank Arena",
+      "summary": "Tickets as low as $51",
+      "date": "2026-11-12T00:00Z",
+      "dateDay": "Wed",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
+      "venueLink": "https://www.vividseats.com/scotiabank-arena-tickets/venue/24?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
+      "timeValid": true
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4466,8 +4643,8 @@
         "type": "Story",
         "headline": "NBA Power Rankings: 1-30 poll, plus the best newcomer on all 30 teams",
         "description": "Which NBA teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league.",
-        "lastModified": "2026-11-11T17:06:31Z",
-        "published": "2026-11-11T17:06:31Z",
+        "lastModified": "2026-11-11T17:39:01Z",
+        "published": "2026-11-11T17:39:01Z",
         "images": [
           {
             "dataSourceIdentifier": "0c8066c3ca32b",
@@ -5686,20 +5863,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "28",
-      "gameProjection": "21.9",
-      "teamChanceLoss": "78.1"
-    },
-    "awayTeam": {
-      "id": "2",
-      "gameProjection": "78.1",
-      "teamChanceLoss": "21.9"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909968",
     "uid": "s:40~l:46~e:401909968",
@@ -6192,8 +6355,8 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -243,
-              "spreadOdds": -118.0,
+              "moneyLine": -221,
+              "spreadOdds": -113.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -6223,20 +6386,20 @@
                   "american": "-5.5"
                 },
                 "spread": {
-                  "value": 1.84,
-                  "displayValue": "50/59",
-                  "alternateDisplayValue": "-118",
-                  "decimal": 1.84,
-                  "fraction": "50/59",
-                  "american": "-118"
+                  "value": 1.88,
+                  "displayValue": "100/113",
+                  "alternateDisplayValue": "-113",
+                  "decimal": 1.88,
+                  "fraction": "100/113",
+                  "american": "-113"
                 },
                 "moneyLine": {
-                  "value": 1.41,
-                  "displayValue": "100/243",
-                  "alternateDisplayValue": "-243",
-                  "decimal": 1.41,
-                  "fraction": "100/243",
-                  "american": "-243"
+                  "value": 1.45,
+                  "displayValue": "100/221",
+                  "alternateDisplayValue": "-221",
+                  "decimal": 1.45,
+                  "fraction": "100/221",
+                  "american": "-221"
                 }
               },
               "team": {
@@ -6246,8 +6409,8 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 200,
-              "spreadOdds": -102.0,
+              "moneyLine": 184,
+              "spreadOdds": -107.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -6277,20 +6440,20 @@
                   "american": "+5.5"
                 },
                 "spread": {
-                  "value": 1.98,
-                  "displayValue": "50/51",
-                  "alternateDisplayValue": "-102",
-                  "decimal": 1.98,
-                  "fraction": "50/51",
-                  "american": "-102"
+                  "value": 1.93,
+                  "displayValue": "100/107",
+                  "alternateDisplayValue": "-107",
+                  "decimal": 1.93,
+                  "fraction": "100/107",
+                  "american": "-107"
                 },
                 "moneyLine": {
-                  "value": 3.0,
-                  "displayValue": "2/1",
-                  "alternateDisplayValue": "+200",
-                  "decimal": 3.0,
-                  "fraction": "2/1",
-                  "american": "+200"
+                  "value": 2.84,
+                  "displayValue": "46/25",
+                  "alternateDisplayValue": "+184",
+                  "decimal": 2.84,
+                  "fraction": "46/25",
+                  "american": "+184"
                 }
               },
               "team": {
@@ -6299,20 +6462,20 @@
             },
             "current": {
               "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "total": {
                 "alternateDisplayValue": "215.5",
@@ -6430,14 +6593,14 @@
               },
               {
                 "type": {
-                  "id": "1",
-                  "name": "Total Points"
+                  "id": "2",
+                  "name": "Total Assists"
                 }
               },
               {
                 "type": {
-                  "id": "1",
-                  "name": "Total Points"
+                  "id": "2",
+                  "name": "Total Assists"
                 }
               },
               {
@@ -6935,109 +7098,6 @@
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Raptors Tickets",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/11 vs Celtics 380 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/12 @ 76ers 1934 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-11-12-2026/production/7433136?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/15 vs Knicks 815 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/17 vs Knicks 585 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 vs Wizards 791 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Pistons 2452 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Bucks 893 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 vs Nets 956 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-10-31-2026--sports-nba-basketball/production/7419365?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 vs Nuggets 907 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-29-2026/production/7430946?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/1 @ Rockets 3991 tickets left",
-        "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/3 @ Spurs 1697 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/13 @ Thunder 1234 tickets left",
-        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-12-13-2026/production/7431062?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 @ Hornets 3480 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-14-2026/production/7431066?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 vs Spurs 1166 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-16-2026/production/7431070?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Warriors 995 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-18-2026/production/7431074?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Celtics",
-      "currentTeamName": "Raptors",
-      "venueName": "Scotiabank Arena",
-      "summary": "Tickets as low as $59",
-      "date": "2026-11-12T00:00Z",
-      "dateDay": "Wed",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-11-2026/production/7433152?wsUser=717",
-      "venueLink": "https://www.vividseats.com/scotiabank-arena-tickets/venue/24?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
