@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "Mitchell Ervin",
+        "displayName": "Mitchell Ervin",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Eric Lewis",
+        "displayName": "Eric Lewis",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Brandon Adair",
+        "displayName": "Brandon Adair",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,8 +343,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -377,7 +407,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909916",
@@ -487,6 +519,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -551,9 +585,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909943",
@@ -820,6 +852,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -884,9 +918,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
         },
         {
           "id": "401909919",
@@ -908,6 +940,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -972,9 +1006,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
         },
         {
           "id": "401909937",
@@ -2919,66 +2951,6 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-11T19:09Z",
-          "athlete": {
-            "id": "4897262",
-            "uid": "s:40~l:46~a:4897262",
-            "guid": "8d914de2-a6fa-3fd7-a7e2-604ae25a0519",
-            "lastName": "Richard",
-            "fullName": "Will Richard",
-            "displayName": "Will Richard",
-            "shortName": "W. Richard",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4897262/will-richard",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
-              "alt": "Will Richard"
-            },
-            "jersey": "3",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4897262?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Thumb",
-            "location": "Arm",
-            "side": "Left",
-            "returnDate": "2026-11-11"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-11-10T21:36Z",
           "athlete": {
@@ -3216,6 +3188,67 @@
             "side": "Left",
             "returnDate": "2026-12-01"
           }
+        },
+        {
+          "status": "Out",
+          "date": "2026-10-16T16:11Z",
+          "athlete": {
+            "id": "6430",
+            "uid": "s:40~l:46~a:6430",
+            "guid": "076edf90-d167-2d15-88cb-a174c984b9e3",
+            "lastName": "Butler III",
+            "fullName": "Jimmy Butler III",
+            "displayName": "Jimmy Butler III",
+            "shortName": "J. Butler III",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6430.png",
+              "alt": "Jimmy Butler III"
+            },
+            "jersey": "10",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/41080?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Knee",
+            "location": "Leg",
+            "detail": "Surgery",
+            "side": "Right",
+            "returnDate": "2027-01-02"
+          }
         }
       ]
     }
@@ -3225,7 +3258,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3276,7 +3309,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988950%3Foutcomes%3D0ML87164383_1",
           "text": "Home Bet",
@@ -3300,7 +3333,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988950%3Foutcomes%3D0ML87164383_3",
           "text": "Away Bet",
@@ -3440,7 +3473,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988950%3Foutcomes%3D0ML87164383_1",
               "text": "Home Bet",
@@ -3472,7 +3505,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34988950%3Foutcomes%3D0ML87164383_3",
               "text": "Away Bet",
@@ -3804,20 +3837,20 @@
       "records": []
     }
   ],
-  "winprobability": [],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "10",
-      "gameProjection": "67.2",
-      "teamChanceLoss": "32.8"
+      "gameProjection": "66.9",
+      "teamChanceLoss": "33.1"
     },
     "awayTeam": {
       "id": "9",
-      "gameProjection": "32.8",
-      "teamChanceLoss": "67.2"
+      "gameProjection": "33.1",
+      "teamChanceLoss": "66.9"
     }
   },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3834,6 +3867,151 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50456501,
+        "nowId": "1-50456501",
+        "contentKey": "50456501-1-293-1",
+        "dataSourceIdentifier": "ad484d637e311",
+        "type": "Media",
+        "headline": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+        "description": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+        "lastModified": "2026-11-12T00:20:54Z",
+        "published": "2026-11-12T00:20:54Z",
+        "images": [
+          {
+            "name": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+            "caption": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_191539829_3737053/ss_20261111_191539829_3737053.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 711826,
+            "type": "editorialindicator",
+            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
+            "description": "2 Star Rating"
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 503007,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4066457",
+            "guid": "8a9d9e1c-6174-0009-4883-3b4e16b492d0",
+            "description": "Austin Reaves",
+            "sportId": 46,
+            "athleteId": 4066457,
+            "athlete": {
+              "id": 4066457,
+              "description": "Austin Reaves",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4630,
+            "type": "team",
+            "uid": "s:40~l:46~t:13",
+            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
+            "description": "Los Angeles Lakers",
+            "sportId": 46,
+            "teamId": 13,
+            "team": {
+              "id": 13,
+              "description": "Los Angeles Lakers",
+              "abbreviation": "LAL",
+              "shortDisplayName": "Lakers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 756050,
+            "type": "series",
+            "guid": "81ddeff5-8952-40e7-a832-61fd77b96960",
+            "description": "Inside the NBA",
+            "series": {
+              "description": "Inside the NBA"
+            }
+          },
+          {
+            "id": 664675,
+            "type": "editorialindicator",
+            "guid": "e8acf0b3-14b1-3a2f-813e-54390eff67c3",
+            "description": "League Boost"
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7ac533bf-814a-46d1-a8ea-9b8fea0ff2c2"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50456501"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50456501&videoDSI=ad484d637e311"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50456501/chuck-fumes-austin-reaves-larry-bird-comparison",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50456501/chuck-fumes-austin-reaves-larry-bird-comparison",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=ad484d637e311"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50456230,
         "nowId": "1-50456230",
@@ -4235,186 +4413,6 @@
           },
           "web": {
             "href": "https://www.espn.com/nba/story/_/id/50455735/curry-confronts-critics-comments-wife-ayesha"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50455162,
-        "nowId": "1-50455162",
-        "contentKey": "50455162-1-293-1",
-        "dataSourceIdentifier": "01da2430ddba7",
-        "type": "Media",
-        "headline": "NBA Wednesday Night Doubleheader Teaser",
-        "description": "NBA Wednesday Night Doubleheader Teaser",
-        "lastModified": "2026-11-11T21:49:02Z",
-        "published": "2026-11-11T21:49:02Z",
-        "images": [
-          {
-            "name": "NBA Wednesday Night Doubleheader Teaser",
-            "caption": "NBA Wednesday Night Doubleheader Teaser",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/dm_261111_NBA976/dm_261111_NBA976.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 4408,
-            "type": "team",
-            "uid": "s:40~l:46~t:5",
-            "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
-            "description": "Cleveland Cavaliers",
-            "sportId": 46,
-            "teamId": 5,
-            "team": {
-              "id": 5,
-              "description": "Cleveland Cavaliers",
-              "abbreviation": "CLE",
-              "shortDisplayName": "Cavaliers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4600,
-            "type": "team",
-            "uid": "s:40~l:46~t:9",
-            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-            "description": "Golden State Warriors",
-            "sportId": 46,
-            "teamId": 9,
-            "team": {
-              "id": 9,
-              "description": "Golden State Warriors",
-              "abbreviation": "GS",
-              "shortDisplayName": "Warriors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4517,
-            "type": "team",
-            "uid": "s:40~l:46~t:10",
-            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-            "description": "Houston Rockets",
-            "sportId": 46,
-            "teamId": 10,
-            "team": {
-              "id": 10,
-              "description": "Houston Rockets",
-              "abbreviation": "HOU",
-              "shortDisplayName": "Rockets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4293,
-            "type": "team",
-            "uid": "s:40~l:46~t:18",
-            "guid": "61719eb2-11c3-4e3d-90c3-0a1319fd850b",
-            "description": "New York Knicks",
-            "sportId": 46,
-            "teamId": 18,
-            "team": {
-              "id": 18,
-              "description": "New York Knicks",
-              "abbreviation": "NY",
-              "shortDisplayName": "Knicks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/14f399e3-30bb-46d3-a21f-9576efa75e99"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50455162"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50455162&videoDSI=01da2430ddba7"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50455162/nba-wednesday-night-doubleheader-teaser",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50455162/nba-wednesday-night-doubleheader-teaser",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=01da2430ddba7"
-              }
-            }
           }
         },
         "premium": false
@@ -6920,12 +6918,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909974",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6939,57 +6931,57 @@
         "type": "team"
       },
       {
-        "ticketName": "11/11 vs Warriors 400 tickets left",
+        "ticketName": "11/11 vs Warriors 220 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-11-2026/production/7432961?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/13 vs Jazz 2898 tickets left",
+        "ticketName": "11/13 vs Jazz 2835 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-31-2026--sports-nba-basketball/production/7418059?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/15 @ Wizards 2245 tickets left",
+        "ticketName": "11/15 @ Wizards 2303 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 @ Heat 4080 tickets left",
+        "ticketName": "11/16 @ Heat 4077 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Pacers 2112 tickets left",
+        "ticketName": "11/18 @ Pacers 2110 tickets left",
         "ticketLink": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-11-18-2026/production/7433162?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Nuggets 3238 tickets left",
+        "ticketName": "11/20 @ Nuggets 3227 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Clippers 3868 tickets left",
+        "ticketName": "11/23 vs Clippers 3848 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Suns 4156 tickets left",
+        "ticketName": "11/25 vs Suns 4150 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-10-30-2026--sports-nba-basketball/production/7418039?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/28 vs 76ers 2103 tickets left",
+        "ticketName": "11/28 vs 76ers 2087 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-28-2026/production/7430998?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/30 vs Lakers 4130 tickets left",
+        "ticketName": "11/30 vs Lakers 4126 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-30-2026/production/7431000?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Raptors 3981 tickets left",
+        "ticketName": "12/1 vs Raptors 3979 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
         "type": "event"
       },
@@ -7018,7 +7010,7 @@
       "opponentTeamName": "Warriors",
       "currentTeamName": "Rockets",
       "venueName": "Toyota Center (Houston)",
-      "summary": "Tickets as low as $58",
+      "summary": "Tickets as low as $105",
       "date": "2026-11-12T02:30Z",
       "dateDay": "Wed",
       "homeAway": "home",
@@ -7028,6 +7020,12 @@
       "teamLink": "https://www.vividseats.com/houston-rockets-tickets--sports-nba-basketball/performer/360?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909974",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
