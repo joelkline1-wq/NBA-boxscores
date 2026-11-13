@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909963",
@@ -663,6 +663,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -727,9 +729,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         }
       ]
     },
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
         },
         {
           "id": "401909953",
@@ -1084,6 +1084,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "30",
             "uid": "s:40~l:46~t:30",
@@ -1148,9 +1150,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
         },
         {
           "id": "401909967",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "18",
             "uid": "s:40~l:46~t:18",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
         }
       ]
     }
@@ -2562,8 +2562,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-13T18:22Z",
+          "status": "Out",
+          "date": "2026-11-13T23:21Z",
           "athlete": {
             "id": "6475",
             "uid": "s:40~l:46~a:6475",
@@ -2604,27 +2604,27 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Ankle",
             "location": "Leg",
             "detail": "Soreness",
             "side": "Left",
-            "returnDate": "2026-11-13"
+            "returnDate": "2026-11-14"
           }
         },
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-13T18:20Z",
+          "status": "Out",
+          "date": "2026-11-13T23:04Z",
           "athlete": {
             "id": "4601025",
             "uid": "s:40~l:46~a:4601025",
@@ -2665,20 +2665,20 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Illness",
             "location": "Other",
-            "returnDate": "2026-11-13"
+            "returnDate": "2026-11-14"
           }
         }
       ]
@@ -2867,6 +2867,65 @@
             "side": "Right",
             "returnDate": "2026-11-16"
           }
+        },
+        {
+          "status": "Out",
+          "date": "2026-10-20T15:11Z",
+          "athlete": {
+            "id": "5106268",
+            "uid": "s:40~l:46~a:5106268",
+            "guid": "cd020aab-9483-3614-a103-edcf4bf8ad74",
+            "lastName": "Tomlin",
+            "fullName": "Nae'Qwan Tomlin",
+            "displayName": "Nae'Qwan Tomlin",
+            "shortName": "N. Tomlin",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5106268/naeqwan-tomlin",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5106268.png",
+              "alt": "Nae'Qwan Tomlin"
+            },
+            "jersey": "35",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/5106268?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Back",
+            "location": "Torso",
+            "returnDate": "2026-11-16"
+          }
         }
       ]
     }
@@ -2916,10 +2975,10 @@
         ]
       },
       "details": "MIA -2.5",
-      "overUnder": 236.5,
+      "overUnder": 234.5,
       "spread": -2.5,
-      "overOdds": -107.0,
-      "underOdds": -113.0,
+      "overOdds": -115.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
@@ -3046,7 +3105,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866O23650_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866O23450_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3059,7 +3118,7 @@
               "gameId": 401909298,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:236.5"
+              "betDetails": "Over:234.5"
             }
           }
         },
@@ -3070,7 +3129,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866U23650_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866U23450_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3083,7 +3142,7 @@
               "gameId": 401909298,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:236.5"
+              "betDetails": "Under:234.5"
             }
           }
         },
@@ -3246,8 +3305,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o236.5",
-            "odds": "-107",
+            "line": "o234.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3255,7 +3314,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866O23650_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866O23450_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3268,7 +3327,7 @@
                   "gameId": 401909298,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:236.5"
+                  "betDetails": "Over:234.5"
                 }
               }
             }
@@ -3280,8 +3339,8 @@
         },
         "under": {
           "close": {
-            "line": "u236.5",
-            "odds": "-113",
+            "line": "u234.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3289,7 +3348,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866U23650_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35010444%3Foutcomes%3D0OU87219866U23450_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3302,7 +3361,7 @@
                   "gameId": 401909298,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:236.5"
+                  "betDetails": "Under:234.5"
                 }
               }
             }
@@ -3477,6 +3536,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "45.2",
+      "teamChanceLoss": "54.8"
+    },
+    "awayTeam": {
+      "id": "5",
+      "gameProjection": "54.8",
+      "teamChanceLoss": "45.2"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3501,8 +3574,8 @@
         "type": "HeadlineNews",
         "headline": "Lakers' Austin Reaves day-to-day with left heel bruise",
         "description": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday.",
-        "lastModified": "2026-11-13T22:54:44Z",
-        "published": "2026-11-13T22:54:44Z",
+        "lastModified": "2026-11-13T23:14:42Z",
+        "published": "2026-11-13T23:14:42Z",
         "images": [
           {
             "dataSourceIdentifier": "cff5507a8031a",
@@ -3516,11 +3589,11 @@
           },
           {
             "type": "Media",
-            "name": "Los Angeles Lakers vs. Milwaukee Bucks: Game Highlights",
-            "caption": "Los Angeles Lakers vs. Milwaukee Bucks: Game Highlights",
+            "name": "Austin Reaves with the and-1 bucket",
+            "caption": "Austin Reaves with the and-1 bucket",
             "height": 324,
             "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/573781f8-b1b2-4bab-b85d-2da207d1f516/573781f8-b1b2-4bab-b85d-2da207d1f516.jpg"
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/180244b3-72dc-4af0-a281-c52094df7f63/180244b3-72dc-4af0-a281-c52094df7f63.jpg"
           }
         ],
         "categories": [
@@ -4675,6 +4748,256 @@
       }
     ]
   },
+  "article": {
+    "id": 50459632,
+    "nowId": "1-50459632",
+    "contentKey": "50459632-1-22-1",
+    "dataSourceIdentifier": "5f40cb6ae9fdf",
+    "publishedkey": "nba401909298",
+    "type": "Preview",
+    "gameId": "401909298",
+    "headline": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
+    "description": "Cleveland Cavaliers (6-6, sixth in the Eastern Conference) vs. Miami Heat (5-6, eighth in the Eastern Conference)",
+    "title": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
+    "linkText": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
+    "categorized": "2026-11-12T07:04:38Z",
+    "originallyPosted": "2026-11-12T07:04:37Z",
+    "lastModified": "2026-11-12T07:04:38Z",
+    "published": "2026-11-12T07:04:37Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4259,
+        "type": "team",
+        "uid": "s:40~l:46~t:14",
+        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+        "description": "Miami Heat",
+        "sportId": 46,
+        "teamId": 14,
+        "team": {
+          "id": 14,
+          "description": "Miami Heat",
+          "abbreviation": "MIA",
+          "shortDisplayName": "Heat",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4408,
+        "type": "team",
+        "uid": "s:40~l:46~t:5",
+        "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+        "description": "Cleveland Cavaliers",
+        "sportId": 46,
+        "teamId": 5,
+        "team": {
+          "id": 5,
+          "description": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "shortDisplayName": "Cavaliers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909298",
+        "guid": "19442ca7-c46d-3091-97f1-3855e7744791",
+        "description": "Cleveland Cavaliers @ Miami Heat",
+        "eventId": 401909298,
+        "event": {
+          "id": 401909298,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Cleveland Cavaliers @ Miami Heat"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Miami Heat",
+      "Cleveland Cavaliers",
+      "Cleveland Cavaliers @ Miami Heat"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers\">Cleveland Cavaliers</a> (6-6, sixth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (5-6, eighth in the Eastern Conference)\n\n\r\n              Miami; Friday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: The Miami Heat play the Cleveland Cavaliers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Miami finished 43-39 overall and 27-25 in Eastern Conference action a season ago. The Heat allowed opponents to score 118.5 points per game and shoot 46.5% from the field last season.\n\n\r\n              Cleveland finished 52-30 overall and 33-19 in Eastern Conference action during the 2025-26 season. The Cavaliers allowed opponents to score 115.4 points per game and shoot 46.4% from the field last season.\n\n\r\n              INJURIES: Heat: None listed.\n\n\r\n              Cavaliers: Nae'Qwan Tomlin: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4066757/sam-merrill\">Sam Merrill</a>: day to day (elbow).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50459632"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50459632"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50459632"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909298"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Heat Tickets",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/13 vs Cavaliers 484 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/14 vs Pistons 3863 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 vs Rockets 3846 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 vs Bucks 2925 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/22 vs Thunder 3866 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 @ 76ers 2028 tickets left",
+        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 @ Knicks 2339 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 @ Cavaliers 2051 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/1 vs Hawks 4562 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-1-2026/production/7431006?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/3 vs Wizards 4076 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/12 vs Knicks 3805 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-12-2026/production/7431010?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 @ Bulls 2196 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-14-2026/production/7431012?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 @ Grizzlies 1720 tickets left",
+        "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-16-2026/production/7431014?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Clippers 4342 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-18-2026/production/7431016?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/20 vs Kings 4660 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-20-2026/production/7431018?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Cavaliers",
+      "currentTeamName": "Heat",
+      "venueName": "Kaseya Center",
+      "summary": "Tickets as low as $73",
+      "date": "2026-11-14T01:00Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
+      "venueLink": "https://www.vividseats.com/ftx-arena-tickets/venue/56?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
+      "timeValid": true
+    }
+  },
   "header": {
     "id": "401909298",
     "uid": "s:40~l:46~e:401909298",
@@ -5274,24 +5597,24 @@
             },
             "current": {
               "over": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "under": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "total": {
-                "alternateDisplayValue": "236.5",
-                "american": "236.5"
+                "alternateDisplayValue": "234.5",
+                "american": "234.5"
               }
             },
             "propBets": [
@@ -5771,276 +6094,12 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
-  "article": {
-    "id": 50459632,
-    "nowId": "1-50459632",
-    "contentKey": "50459632-1-22-1",
-    "dataSourceIdentifier": "5f40cb6ae9fdf",
-    "publishedkey": "nba401909298",
-    "type": "Preview",
-    "gameId": "401909298",
-    "headline": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
-    "description": "Cleveland Cavaliers (6-6, sixth in the Eastern Conference) vs. Miami Heat (5-6, eighth in the Eastern Conference)",
-    "title": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
-    "linkText": "Heat host Cavaliers Friday for NBA Cup group stage matchup",
-    "categorized": "2026-11-12T07:04:38Z",
-    "originallyPosted": "2026-11-12T07:04:37Z",
-    "lastModified": "2026-11-12T07:04:38Z",
-    "published": "2026-11-12T07:04:37Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4259,
-        "type": "team",
-        "uid": "s:40~l:46~t:14",
-        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-        "description": "Miami Heat",
-        "sportId": 46,
-        "teamId": 14,
-        "team": {
-          "id": 14,
-          "description": "Miami Heat",
-          "abbreviation": "MIA",
-          "shortDisplayName": "Heat",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4408,
-        "type": "team",
-        "uid": "s:40~l:46~t:5",
-        "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
-        "description": "Cleveland Cavaliers",
-        "sportId": 46,
-        "teamId": 5,
-        "team": {
-          "id": 5,
-          "description": "Cleveland Cavaliers",
-          "abbreviation": "CLE",
-          "shortDisplayName": "Cavaliers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909298",
-        "guid": "19442ca7-c46d-3091-97f1-3855e7744791",
-        "description": "Cleveland Cavaliers @ Miami Heat",
-        "eventId": 401909298,
-        "event": {
-          "id": 401909298,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Cleveland Cavaliers @ Miami Heat"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Miami Heat",
-      "Cleveland Cavaliers",
-      "Cleveland Cavaliers @ Miami Heat"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers\">Cleveland Cavaliers</a> (6-6, sixth in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (5-6, eighth in the Eastern Conference)\n\n\r\n              Miami; Friday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: The Miami Heat play the Cleveland Cavaliers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              Miami finished 43-39 overall and 27-25 in Eastern Conference action a season ago. The Heat allowed opponents to score 118.5 points per game and shoot 46.5% from the field last season.\n\n\r\n              Cleveland finished 52-30 overall and 33-19 in Eastern Conference action during the 2025-26 season. The Cavaliers allowed opponents to score 115.4 points per game and shoot 46.4% from the field last season.\n\n\r\n              INJURIES: Heat: None listed.\n\n\r\n              Cavaliers: Nae'Qwan Tomlin: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4066757/sam-merrill\">Sam Merrill</a>: day to day (elbow).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50459632"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50459632"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50459632"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909298"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909298",
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "45.2",
-      "teamChanceLoss": "54.8"
-    },
-    "awayTeam": {
-      "id": "5",
-      "gameProjection": "54.8",
-      "teamChanceLoss": "45.2"
-    }
-  },
-  "winprobability": [],
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Heat Tickets",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/13 vs Cavaliers 879 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/14 vs Pistons 3835 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 vs Rockets 3861 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 vs Bucks 2889 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/22 vs Thunder 3791 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 @ 76ers 2001 tickets left",
-        "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 @ Knicks 2268 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 @ Cavaliers 2058 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/1 vs Hawks 4505 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-1-2026/production/7431006?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/3 vs Wizards 3908 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/12 vs Knicks 3703 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-12-2026/production/7431010?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 @ Bulls 2196 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-14-2026/production/7431012?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 @ Grizzlies 1720 tickets left",
-        "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-16-2026/production/7431014?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Clippers 4342 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-18-2026/production/7431016?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/20 vs Kings 4660 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-20-2026/production/7431018?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Cavaliers",
-      "currentTeamName": "Heat",
-      "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $69",
-      "date": "2026-11-14T01:00Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-10-30-2026--sports-nba-basketball/production/7419656?wsUser=717",
-      "venueLink": "https://www.vividseats.com/ftx-arena-tickets/venue/56?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/miami-heat-tickets--sports-nba-basketball/performer/533?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
