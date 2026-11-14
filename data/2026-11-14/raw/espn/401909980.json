@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
         },
         {
           "id": "401909300",
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "22",
             "uid": "s:40~l:46~t:22",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
         },
         {
           "id": "401909931",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
         },
         {
           "id": "401909938",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909957",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
         }
       ]
     }
@@ -3251,12 +3251,12 @@
       "details": "DEN -12.5",
       "overUnder": 234.5,
       "spread": 12.5,
-      "overOdds": -110.0,
-      "underOdds": -110.0,
+      "overOdds": -105.0,
+      "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -620,
+        "moneyLine": -640,
         "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/7?lang=en&region=us"
@@ -3267,7 +3267,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 454,
+        "moneyLine": 470,
         "spreadOdds": -111.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/3?lang=en&region=us"
@@ -3439,7 +3439,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+454",
+            "odds": "+470",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3471,7 +3471,7 @@
         },
         "away": {
           "close": {
-            "odds": "-620",
+            "odds": "-640",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3580,7 +3580,7 @@
         "over": {
           "close": {
             "line": "o234.5",
-            "odds": "-110",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3614,7 +3614,7 @@
         "under": {
           "close": {
             "line": "u234.5",
-            "odds": "-110",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3810,6 +3810,20 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "3",
+      "gameProjection": "19.9",
+      "teamChanceLoss": "80.1"
+    },
+    "awayTeam": {
+      "id": "7",
+      "gameProjection": "80.1",
+      "teamChanceLoss": "19.9"
+    }
+  },
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -3827,15 +3841,243 @@
     },
     "articles": [
       {
+        "id": 50480388,
+        "nowId": "1-50480388",
+        "contentKey": "50480388-1-6-1",
+        "dataSourceIdentifier": "89718ae37e6e3",
+        "type": "Story",
+        "headline": "Fantasy basketball adds and NBA bets: Fire up Fears, Bey on Saturday",
+        "description": "Jim McCormick breaks down Saturday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+        "lastModified": "2026-11-14T17:09:28Z",
+        "published": "2026-11-14T17:09:28Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "22795de06306b",
+            "id": 50480619,
+            "type": "header",
+            "name": "Jeremiah Fears [1296x729]",
+            "caption": "New Orleans guard Jeremiah Fears is overlooked despite his recent success.",
+            "alt": "Jeremiah Fears #0 of the New Orleans Pelicans drives to the basket during the game against the Memphis Grizzlies during the 2026 Emirates NBA Cup on November 13, 2026 at the Smoothie King Center in New Orleans, Louisiana.",
+            "credit": "Layne Murdoch Jr./NBAE via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1114/r1745701_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 611584,
+            "type": "league",
+            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+            "description": "Sports Betting",
+            "sportId": 22000,
+            "leagueId": 22000,
+            "league": {
+              "id": 22000,
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 457653,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4397136",
+            "guid": "9d4d1b0c-ee2f-00e6-3d2c-0d9b9d2f5d4b",
+            "description": "Saddiq Bey",
+            "sportId": 46,
+            "athleteId": 4397136,
+            "athlete": {
+              "id": 4397136,
+              "description": "Saddiq Bey",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397136/saddiq-bey"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4397136/saddiq-bey"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492489,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4432194",
+            "guid": "ca2f4b35-a2bc-3bbe-a229-a11f5e326a9f",
+            "description": "Day'Ron Sharpe",
+            "sportId": 46,
+            "athleteId": 4432194,
+            "athlete": {
+              "id": 4432194,
+              "description": "Day'Ron Sharpe",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 570517,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5107199",
+            "guid": "6f2883eb-76f2-35e1-99b8-3f2a234ba41e",
+            "description": "Daniss Jenkins",
+            "sportId": 46,
+            "athleteId": 5107199,
+            "athlete": {
+              "id": 5107199,
+              "description": "Daniss Jenkins",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5107199/daniss-jenkins"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5107199/daniss-jenkins"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 492460,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4592492",
+            "guid": "16cd227a-e760-36eb-8664-f55aaef1a30f",
+            "description": "Bones Hyland",
+            "sportId": 46,
+            "athleteId": 4592492,
+            "athlete": {
+              "id": 4592492,
+              "description": "Bones Hyland",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4592492/bones-hyland"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4592492/bones-hyland"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701343,
+            "type": "contributor",
+            "guid": "85cd03e0-50b4-387e-9711-d7faa737259f",
+            "description": "Jim McCormick",
+            "slug": "jim-mccormick",
+            "contributor": {
+              "id": 1749,
+              "description": "Jim McCormick"
+            }
+          }
+        ],
+        "byline": "Jim McCormick",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50480388"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50480388"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50480388"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50480388/fantasy-basketball-tips-nba-betting-picks-today"
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50480516,
         "nowId": "1-50480516",
         "contentKey": "50480516-1-5-1",
         "dataSourceIdentifier": "2613decd4b0f5",
         "type": "HeadlineNews",
         "headline": "Josh Hart searching for answers after zero-point outing in Knicks loss",
-        "description": "Knicks wing Josh Hart says he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup loss to the Pacers.",
-        "lastModified": "2026-11-14T16:46:57Z",
-        "published": "2026-11-14T16:46:57Z",
+        "description": "Knicks wing Josh Hart said he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup loss to the Pacers.",
+        "lastModified": "2026-11-14T17:06:59Z",
+        "published": "2026-11-14T17:06:59Z",
         "images": [
           {
             "dataSourceIdentifier": "d952d49718ee2",
@@ -3849,11 +4091,11 @@
           },
           {
             "type": "Media",
-            "name": "KAT misses potential game-tying shot as Knicks fall to Pacers",
-            "caption": "KAT misses potential game-tying shot as Knicks fall to Pacers",
+            "name": "New York Knicks vs. Indiana Pacers: Game Highlights",
+            "caption": "New York Knicks vs. Indiana Pacers: Game Highlights",
             "height": 324,
             "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/c88dadc06a9749a2baa0d583e35982b31411/c88dadc06a9749a2baa0d583e35982b31411.jpg"
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/e0a82d9c-465b-478d-b2f0-ea98f50ef58c/e0a82d9c-465b-478d-b2f0-ea98f50ef58c.jpg"
           }
         ],
         "categories": [
@@ -4871,223 +5113,6 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50478199,
-        "nowId": "1-50478199",
-        "contentKey": "50478199-1-22-1",
-        "dataSourceIdentifier": "eec02003fa93b",
-        "type": "Preview",
-        "headline": "Los Angeles plays Phoenix, looks for 5th straight road win",
-        "description": "Los Angeles Lakers (11-2, second in the Western Conference) vs. Phoenix Suns (5-6, 11th in the Western Conference)",
-        "lastModified": "2026-11-14T07:04:42Z",
-        "published": "2026-11-14T07:04:42Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909986.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4644,
-            "type": "team",
-            "uid": "s:40~l:46~t:21",
-            "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
-            "description": "Phoenix Suns",
-            "sportId": 46,
-            "teamId": 21,
-            "team": {
-              "id": 21,
-              "description": "Phoenix Suns",
-              "abbreviation": "PHX",
-              "shortDisplayName": "Suns",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4630,
-            "type": "team",
-            "uid": "s:40~l:46~t:13",
-            "guid": "2876e98b-b9bc-2920-4319-46e6943f8be4",
-            "description": "Los Angeles Lakers",
-            "sportId": 46,
-            "teamId": 13,
-            "team": {
-              "id": 13,
-              "description": "Los Angeles Lakers",
-              "abbreviation": "LAL",
-              "shortDisplayName": "Lakers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909986",
-            "guid": "a779177f-46dc-3ffe-85b9-bce71dc211a2",
-            "description": "Los Angeles Lakers @ Phoenix Suns",
-            "eventId": 401909986,
-            "event": {
-              "id": 401909986,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Los Angeles Lakers @ Phoenix Suns"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50478199"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50478199"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50478199"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909986"
-          }
-        },
-        "premium": false
       }
     ]
   },
@@ -5583,7 +5608,7 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -620,
+              "moneyLine": -640,
               "spreadOdds": -108.0,
               "open": {
                 "favorite": true,
@@ -5622,12 +5647,12 @@
                   "american": "-108"
                 },
                 "moneyLine": {
-                  "value": 1.16,
-                  "displayValue": "5/31",
-                  "alternateDisplayValue": "-620",
-                  "decimal": 1.16,
-                  "fraction": "5/31",
-                  "american": "-620"
+                  "value": 1.15,
+                  "displayValue": "5/32",
+                  "alternateDisplayValue": "-640",
+                  "decimal": 1.15,
+                  "fraction": "5/32",
+                  "american": "-640"
                 }
               },
               "team": {
@@ -5637,7 +5662,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 454,
+              "moneyLine": 470,
               "spreadOdds": -111.0,
               "open": {
                 "favorite": false,
@@ -5676,12 +5701,12 @@
                   "american": "-111"
                 },
                 "moneyLine": {
-                  "value": 5.54,
-                  "displayValue": "227/50",
-                  "alternateDisplayValue": "+454",
-                  "decimal": 5.54,
-                  "fraction": "227/50",
-                  "american": "+454"
+                  "value": 5.7,
+                  "displayValue": "47/10",
+                  "alternateDisplayValue": "+470",
+                  "decimal": 5.7,
+                  "fraction": "47/10",
+                  "american": "+470"
                 }
               },
               "team": {
@@ -5690,20 +5715,20 @@
             },
             "current": {
               "over": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "under": {
-                "value": 1.9,
-                "displayValue": "10/11",
-                "alternateDisplayValue": "-110",
-                "decimal": 1.9,
-                "fraction": "10/11",
-                "american": "-110"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "total": {
                 "alternateDisplayValue": "234.5",
@@ -6354,20 +6379,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "3",
-      "gameProjection": "19.9",
-      "teamChanceLoss": "80.1"
-    },
-    "awayTeam": {
-      "id": "7",
-      "gameProjection": "80.1",
-      "teamChanceLoss": "19.9"
-    }
-  },
-  "winprobability": [],
   "ticketsInfo": {
     "tickets": [
       {
@@ -6381,12 +6392,12 @@
         "type": "team"
       },
       {
-        "ticketName": "11/14 vs Nuggets 1314 tickets left",
+        "ticketName": "11/14 vs Nuggets 1286 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-14-2026/production/7432809?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Warriors 1621 tickets left",
+        "ticketName": "11/16 vs Warriors 1623 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-16-2026/production/7432811?wsUser=717",
         "type": "event"
       },
@@ -6396,17 +6407,17 @@
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Thunder 1016 tickets left",
+        "ticketName": "11/20 @ Thunder 1017 tickets left",
         "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Spurs 1617 tickets left",
+        "ticketName": "11/21 @ Spurs 1650 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Suns 1225 tickets left",
+        "ticketName": "11/23 vs Suns 1229 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
@@ -6416,7 +6427,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Trail Blazers 1535 tickets left",
+        "ticketName": "11/29 @ Trail Blazers 1537 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-29-2026/production/7430916?wsUser=717",
         "type": "event"
       },
@@ -6426,7 +6437,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Lakers 1963 tickets left",
+        "ticketName": "12/2 vs Lakers 1964 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-2-2026/production/7430920?wsUser=717",
         "type": "event"
       },
@@ -6460,7 +6471,7 @@
       "opponentTeamName": "Nuggets",
       "currentTeamName": "Pelicans",
       "venueName": "Smoothie King Center",
-      "summary": "Tickets as low as $16",
+      "summary": "Tickets as low as $15",
       "date": "2026-11-15T00:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
