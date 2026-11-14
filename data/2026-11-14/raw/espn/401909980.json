@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "12",
             "uid": "s:40~l:46~t:12",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
         },
         {
           "id": "401909959",
@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
         },
         {
           "id": "401909300",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -3231,7 +3231,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3282,7 +3282,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014684%3Foutcomes%3D0ML87230641_1",
           "text": "Home Bet",
@@ -3306,7 +3306,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014684%3Foutcomes%3D0ML87230641_3",
           "text": "Away Bet",
@@ -3446,7 +3446,7 @@
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014684%3Foutcomes%3D0ML87230641_1",
               "text": "Home Bet",
@@ -3478,7 +3478,7 @@
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014684%3Foutcomes%3D0ML87230641_3",
               "text": "Away Bet",
@@ -5120,20 +5120,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "3",
-      "gameProjection": "19.9",
-      "teamChanceLoss": "80.1"
-    },
-    "awayTeam": {
-      "id": "7",
-      "gameProjection": "80.1",
-      "teamChanceLoss": "19.9"
-    }
-  },
   "article": {
     "id": 50478193,
     "nowId": "1-50478193",
@@ -5280,7 +5266,6 @@
     },
     "premium": false
   },
-  "videos": [],
   "header": {
     "id": "401909980",
     "uid": "s:40~l:46~e:401909980",
@@ -6396,12 +6381,27 @@
       ]
     }
   },
+  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401909980",
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
+  },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "3",
+      "gameProjection": "19.9",
+      "teamChanceLoss": "80.1"
+    },
+    "awayTeam": {
+      "id": "7",
+      "gameProjection": "80.1",
+      "teamChanceLoss": "19.9"
+    }
   },
   "ticketsInfo": {
     "tickets": [
@@ -6416,17 +6416,17 @@
         "type": "team"
       },
       {
-        "ticketName": "11/14 vs Nuggets 1398 tickets left",
+        "ticketName": "11/14 vs Nuggets 1364 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-14-2026/production/7432809?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Warriors 1617 tickets left",
+        "ticketName": "11/16 vs Warriors 1629 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-16-2026/production/7432811?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Pistons 1075 tickets left",
+        "ticketName": "11/18 vs Pistons 1084 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
         "type": "event"
       },
@@ -6436,12 +6436,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Spurs 1630 tickets left",
+        "ticketName": "11/21 @ Spurs 1619 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Suns 1218 tickets left",
+        "ticketName": "11/23 vs Suns 1234 tickets left",
         "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
         "type": "event"
       },
@@ -6466,7 +6466,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/13 @ Kings 1106 tickets left",
+        "ticketName": "12/13 @ Kings 1108 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-12-13-2026/production/7430922?wsUser=717",
         "type": "event"
       },
