@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909947",
@@ -820,6 +820,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -884,9 +886,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
         },
         {
           "id": "401909926",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
         },
         {
           "id": "401909969",
@@ -2900,8 +2900,8 @@
       "details": "MIN -15.5",
       "overUnder": 234.5,
       "spread": -15.5,
-      "overOdds": -115.0,
-      "underOdds": -105.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
@@ -3229,7 +3229,7 @@
         "over": {
           "close": {
             "line": "o234.5",
-            "odds": "-115",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3263,7 +3263,7 @@
         "under": {
           "close": {
             "line": "u234.5",
-            "odds": "-105",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3459,6 +3459,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "16",
+      "gameProjection": "90.7",
+      "teamChanceLoss": "9.3"
+    },
+    "awayTeam": {
+      "id": "4",
+      "gameProjection": "9.3",
+      "teamChanceLoss": "90.7"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5350,20 +5364,20 @@
             },
             "current": {
               "over": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "under": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "total": {
                 "alternateDisplayValue": "234.5",
@@ -5990,26 +6004,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "16",
-      "gameProjection": "90.7",
-      "teamChanceLoss": "9.3"
-    },
-    "awayTeam": {
-      "id": "4",
-      "gameProjection": "9.3",
-      "teamChanceLoss": "90.7"
-    }
-  },
-  "winprobability": [],
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909984",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6023,12 +6017,12 @@
         "type": "team"
       },
       {
-        "ticketName": "11/14 vs Bulls 447 tickets left",
+        "ticketName": "11/14 vs Bulls 406 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-14-2026/production/7432917?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Trail Blazers 605 tickets left",
+        "ticketName": "11/16 vs Trail Blazers 599 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-16-2026/production/7432919?wsUser=717",
         "type": "event"
       },
@@ -6038,7 +6032,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/19 vs Knicks 902 tickets left",
+        "ticketName": "11/19 vs Knicks 904 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-19-2026/production/7432923?wsUser=717",
         "type": "event"
       },
@@ -6063,12 +6057,12 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Kings 993 tickets left",
+        "ticketName": "11/29 @ Kings 991 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-29-2026/production/7431445?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Trail Blazers 1156 tickets left",
+        "ticketName": "12/1 @ Trail Blazers 1152 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-1-2026/production/7431449?wsUser=717",
         "type": "event"
       },
@@ -6102,7 +6096,7 @@
       "opponentTeamName": "Bulls",
       "currentTeamName": "Timberwolves",
       "venueName": "Target Center",
-      "summary": "Tickets as low as $70",
+      "summary": "Tickets as low as $68",
       "date": "2026-11-15T01:00Z",
       "dateDay": "Sat",
       "homeAway": "home",
@@ -6112,6 +6106,12 @@
       "teamLink": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909984",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
