@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "9",
             "uid": "s:40~l:46~t:9",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909951",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909298",
@@ -908,8 +908,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "20",
             "uid": "s:40~l:46~t:20",
@@ -974,7 +972,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909946",
@@ -1346,11 +1346,28 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Day-To-Day",
+                "injuries": {
+                  "status": "Day-To-Day",
+                  "date": "2026-11-14T18:07Z",
+                  "type": {
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
+                    },
+                    "type": "Wrist",
+                    "location": "Arm",
+                    "detail": "Sprain",
+                    "side": "Right",
+                    "returnDate": "2026-11-14"
+                  }
                 }
               },
               "statistics": [
@@ -1506,11 +1523,28 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Day-To-Day",
+                "injuries": {
+                  "status": "Day-To-Day",
+                  "date": "2026-11-14T18:07Z",
+                  "type": {
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
+                    },
+                    "type": "Wrist",
+                    "location": "Arm",
+                    "detail": "Sprain",
+                    "side": "Right",
+                    "returnDate": "2026-11-14"
+                  }
                 }
               },
               "statistics": [
@@ -2702,7 +2736,7 @@
       "injuries": [
         {
           "status": "Day-To-Day",
-          "date": "2026-11-14T15:02Z",
+          "date": "2026-11-14T18:12Z",
           "athlete": {
             "id": "4601025",
             "uid": "s:40~l:46~a:4601025",
@@ -2761,7 +2795,7 @@
         },
         {
           "status": "Day-To-Day",
-          "date": "2026-11-14T15:01Z",
+          "date": "2026-11-14T18:10Z",
           "athlete": {
             "id": "6475",
             "uid": "s:40~l:46~a:6475",
@@ -2815,8 +2849,66 @@
             },
             "type": "Ankle",
             "location": "Leg",
-            "detail": "Soreness",
+            "detail": "Sprain",
             "side": "Left",
+            "returnDate": "2026-11-14"
+          }
+        },
+        {
+          "status": "Day-To-Day",
+          "date": "2026-11-14T18:07Z",
+          "athlete": {
+            "id": "3032977",
+            "uid": "s:40~l:46~a:3032977",
+            "guid": "00985054-c4b3-4247-e825-ddf062d457c3",
+            "lastName": "Antetokounmpo",
+            "fullName": "Giannis Antetokounmpo",
+            "displayName": "Giannis Antetokounmpo",
+            "shortName": "G. Antetokounmpo",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
+              "alt": "Giannis Antetokounmpo"
+            },
+            "jersey": "7",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Wrist",
+            "location": "Arm",
+            "detail": "Sprain",
+            "side": "Right",
             "returnDate": "2026-11-14"
           }
         }
@@ -3078,7 +3170,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -3095,16 +3187,16 @@
           }
         ]
       },
-      "details": "DET -4.5",
-      "overUnder": 228.5,
-      "spread": 4.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "details": "DET -3.5",
+      "overUnder": 229.5,
+      "spread": 3.5,
+      "overOdds": -105.0,
+      "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -203,
-        "spreadOdds": -117.0,
+        "moneyLine": -173,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -3114,8 +3206,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 169,
-        "spreadOdds": -103.0,
+        "moneyLine": 146,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
         },
@@ -3129,7 +3221,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0ML87230955_1",
           "text": "Home Bet",
@@ -3153,7 +3245,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0ML87230955_3",
           "text": "Away Bet",
@@ -3178,7 +3270,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955P450_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955P350_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3191,7 +3283,7 @@
               "gameId": 401909982,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:MIA+4.5"
+              "betDetails": "Spread:MIA+3.5"
             }
           }
         },
@@ -3202,7 +3294,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955N450_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955N350_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3215,7 +3307,7 @@
               "gameId": 401909982,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:DET-4.5"
+              "betDetails": "Spread:DET-3.5"
             }
           }
         },
@@ -3226,7 +3318,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955O22850_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955O22950_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3239,7 +3331,7 @@
               "gameId": 401909982,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:228.5"
+              "betDetails": "Over:229.5"
             }
           }
         },
@@ -3250,7 +3342,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955U22850_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955U22950_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3263,7 +3355,7 @@
               "gameId": 401909982,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:228.5"
+              "betDetails": "Under:229.5"
             }
           }
         },
@@ -3286,14 +3378,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+169",
+            "odds": "+146",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0ML87230955_1",
               "text": "Home Bet",
@@ -3318,14 +3410,14 @@
         },
         "away": {
           "close": {
-            "odds": "-203",
+            "odds": "-173",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0ML87230955_3",
               "text": "Away Bet",
@@ -3354,8 +3446,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "+4.5",
-            "odds": "-103",
+            "line": "+3.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3363,7 +3455,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955P450_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955P350_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3376,7 +3468,7 @@
                   "gameId": 401909982,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:MIA+4.5"
+                  "betDetails": "Spread:MIA+3.5"
                 }
               }
             }
@@ -3388,8 +3480,8 @@
         },
         "away": {
           "close": {
-            "line": "-4.5",
-            "odds": "-117",
+            "line": "-3.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3397,7 +3489,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955N450_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0HC87230955N350_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3410,7 +3502,7 @@
                   "gameId": 401909982,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:DET-4.5"
+                  "betDetails": "Spread:DET-3.5"
                 }
               }
             }
@@ -3426,8 +3518,8 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o228.5",
-            "odds": "-113",
+            "line": "o229.5",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3435,7 +3527,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955O22850_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955O22950_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3448,7 +3540,7 @@
                   "gameId": 401909982,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:228.5"
+                  "betDetails": "Over:229.5"
                 }
               }
             }
@@ -3460,8 +3552,8 @@
         },
         "under": {
           "close": {
-            "line": "u228.5",
-            "odds": "-107",
+            "line": "u229.5",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3469,7 +3561,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955U22850_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014785%3Foutcomes%3D0OU87230955U22950_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3482,7 +3574,7 @@
                   "gameId": 401909982,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:228.5"
+                  "betDetails": "Under:229.5"
                 }
               }
             }
@@ -3657,1253 +3749,20 @@
       "records": []
     }
   ],
-  "header": {
-    "id": "401909982",
-    "uid": "s:40~l:46~e:401909982",
-    "season": {
-      "year": 2027,
-      "current": true,
-      "type": 2
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "45.3",
+      "teamChanceLoss": "54.7"
     },
-    "timeValid": true,
-    "competitions": [
-      {
-        "id": "401909982",
-        "uid": "s:40~l:46~e:401909982~c:401909982",
-        "date": "2026-11-15T01:00Z",
-        "neutralSite": false,
-        "conferenceCompetition": false,
-        "boxscoreAvailable": false,
-        "commentaryAvailable": false,
-        "liveAvailable": false,
-        "onWatchESPN": false,
-        "recent": false,
-        "wallclockAvailable": false,
-        "boxscoreSource": "none",
-        "playByPlaySource": "none",
-        "competitors": [
-          {
-            "id": "14",
-            "uid": "s:40~l:46~t:14",
-            "order": 0,
-            "homeAway": "home",
-            "team": {
-              "id": "14",
-              "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-              "uid": "s:40~l:46~t:14",
-              "location": "Miami",
-              "name": "Heat",
-              "abbreviation": "MIA",
-              "displayName": "Miami Heat",
-              "color": "98002e",
-              "alternateColor": "000000",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/mia.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-06-25T21:18Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mia.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:14Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "6-6",
-                "displayValue": "6-6"
-              },
-              {
-                "type": "home",
-                "summary": "2-3",
-                "displayValue": "2-3"
-              },
-              {
-                "type": "vsconf",
-                "summary": "3-2",
-                "displayValue": "3-2"
-              }
-            ],
-            "possession": false
-          },
-          {
-            "id": "8",
-            "uid": "s:40~l:46~t:8",
-            "order": 1,
-            "homeAway": "away",
-            "team": {
-              "id": "8",
-              "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-              "uid": "s:40~l:46~t:8",
-              "location": "Detroit",
-              "name": "Pistons",
-              "abbreviation": "DET",
-              "displayName": "Detroit Pistons",
-              "color": "1d428a",
-              "alternateColor": "c8102e",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-06-25T21:17Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-06-25T21:18Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-06-25T21:14Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:23Z"
-                }
-              ],
-              "links": [
-                {
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
-                  "text": "Clubhouse"
-                }
-              ]
-            },
-            "record": [
-              {
-                "type": "total",
-                "summary": "8-3",
-                "displayValue": "8-3"
-              },
-              {
-                "type": "road",
-                "summary": "5-1",
-                "displayValue": "5-1"
-              },
-              {
-                "type": "vsconf",
-                "summary": "8-2",
-                "displayValue": "8-2"
-              }
-            ],
-            "possession": false
-          }
-        ],
-        "status": {
-          "type": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Sat, November 14th at 8:00 PM EST",
-            "shortDetail": "11/14 - 8:00 PM EST"
-          }
-        },
-        "odds": [
-          {
-            "awayTeamOdds": {
-              "favorite": true,
-              "underdog": false,
-              "moneyLine": -203,
-              "spreadOdds": -117.0,
-              "open": {
-                "favorite": true,
-                "pointSpread": {
-                  "alternateDisplayValue": "-5.5",
-                  "american": "-5.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 1.53,
-                  "displayValue": "50/93",
-                  "alternateDisplayValue": "-186",
-                  "decimal": 1.53,
-                  "fraction": "50/93",
-                  "american": "-186"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "-4.5",
-                  "american": "-4.5"
-                },
-                "spread": {
-                  "value": 1.85,
-                  "displayValue": "100/117",
-                  "alternateDisplayValue": "-117",
-                  "decimal": 1.85,
-                  "fraction": "100/117",
-                  "american": "-117"
-                },
-                "moneyLine": {
-                  "value": 1.49,
-                  "displayValue": "100/203",
-                  "alternateDisplayValue": "-203",
-                  "decimal": 1.49,
-                  "fraction": "100/203",
-                  "american": "-203"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
-              }
-            },
-            "homeTeamOdds": {
-              "favorite": false,
-              "underdog": true,
-              "moneyLine": 169,
-              "spreadOdds": -103.0,
-              "open": {
-                "favorite": false,
-                "pointSpread": {
-                  "alternateDisplayValue": "+5.5",
-                  "american": "+5.5"
-                },
-                "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
-                },
-                "moneyLine": {
-                  "value": 2.56,
-                  "displayValue": "39/25",
-                  "alternateDisplayValue": "+156",
-                  "decimal": 2.56,
-                  "fraction": "39/25",
-                  "american": "+156"
-                }
-              },
-              "current": {
-                "pointSpread": {
-                  "alternateDisplayValue": "+4.5",
-                  "american": "+4.5"
-                },
-                "spread": {
-                  "value": 1.97,
-                  "displayValue": "100/103",
-                  "alternateDisplayValue": "-103",
-                  "decimal": 1.97,
-                  "fraction": "100/103",
-                  "american": "-103"
-                },
-                "moneyLine": {
-                  "value": 2.69,
-                  "displayValue": "169/100",
-                  "alternateDisplayValue": "+169",
-                  "decimal": 2.69,
-                  "fraction": "169/100",
-                  "american": "+169"
-                }
-              },
-              "team": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
-              }
-            },
-            "current": {
-              "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
-              },
-              "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
-              },
-              "total": {
-                "alternateDisplayValue": "228.5",
-                "american": "228.5"
-              }
-            },
-            "propBets": [
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "1",
-                  "name": "Total Points"
-                }
-              },
-              {
-                "type": {
-                  "id": "2",
-                  "name": "Total Assists"
-                }
-              },
-              {
-                "type": {
-                  "id": "2",
-                  "name": "Total Assists"
-                }
-              },
-              {
-                "type": {
-                  "id": "2",
-                  "name": "Total Assists"
-                }
-              },
-              {
-                "type": {
-                  "id": "2",
-                  "name": "Total Assists"
-                }
-              },
-              {
-                "type": {
-                  "id": "2",
-                  "name": "Total Assists"
-                }
-              }
-            ]
-          }
-        ],
-        "broadcasts": [
-          {
-            "type": {
-              "id": "1",
-              "shortName": "TV"
-            },
-            "market": {
-              "id": "1",
-              "type": "National"
-            },
-            "media": {
-              "shortName": "NBA TV"
-            },
-            "lang": "en",
-            "region": "us",
-            "isNational": true
-          }
-        ],
-        "series": [
-          {
-            "type": "season",
-            "title": "Regular Season Series",
-            "description": "Regular Season Series",
-            "summary": "DET leads series 1-0",
-            "completed": false,
-            "totalCompetitions": 4,
-            "competitors": [
-              {
-                "id": "14",
-                "uid": "s:40~l:46~t:14",
-                "wins": 0,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
-                }
-              },
-              {
-                "id": "8",
-                "uid": "s:40~l:46~t:8",
-                "wins": 1,
-                "ties": 0,
-                "team": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
-                }
-              }
-            ],
-            "events": [
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909847?lang=en&region=us",
-                "id": "401909847"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909982?lang=en&region=us",
-                "id": "401909982"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910601?lang=en&region=us",
-                "id": "401910601"
-              },
-              {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910885?lang=en&region=us",
-                "id": "401910885"
-              }
-            ],
-            "startDate": "2026-10-24T00:00Z"
-          }
-        ],
-        "boxscoreMinutes": false
-      }
-    ],
-    "links": [
-      {
-        "rel": [
-          "summary",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/game/_/gameId/401909982/pistons-heat",
-        "text": "Gamecast",
-        "shortText": "Summary",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "preview",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/preview/_/gameId/401909982",
-        "text": "Preview",
-        "shortText": "Preview",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "odds",
-          "desktop",
-          "event"
-        ],
-        "href": "https://www.espn.com/nba/odds/_/gameId/401909982",
-        "text": "Odds",
-        "shortText": "Odds",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "tickets",
-          "desktop"
-        ],
-        "href": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
-        "text": "Tickets",
-        "shortText": "Tickets",
-        "isExternal": true,
-        "isPremium": false
-      }
-    ],
-    "league": {
-      "id": "46",
-      "uid": "s:40~l:46",
-      "name": "National Basketball Association",
-      "abbreviation": "NBA",
-      "shortName": "NBA",
-      "slug": "nba",
-      "isTournament": false,
-      "links": [
-        {
-          "rel": [
-            "index",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "index",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
-          "text": "Index"
-        },
-        {
-          "rel": [
-            "schedule",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/schedule",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "schedule",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Schedule"
-        },
-        {
-          "rel": [
-            "standings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "standings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
-          "text": "Standings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "rankings",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
-          "text": "Rankings"
-        },
-        {
-          "rel": [
-            "scores",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/scoreboard",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "scores",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
-          "text": "Scores"
-        },
-        {
-          "rel": [
-            "stats",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "stats",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
-          "text": "Stats"
-        },
-        {
-          "rel": [
-            "teams",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/teams",
-          "text": "Teams"
-        },
-        {
-          "rel": [
-            "athletes",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/players",
-          "text": "Players"
-        },
-        {
-          "rel": [
-            "injuries",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/injuries",
-          "text": "Injuries"
-        },
-        {
-          "rel": [
-            "odds",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "odds",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
-          "text": "Odds"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "desktop",
-            "league"
-          ],
-          "href": "https://www.espn.com/nba/playoff-bracket",
-          "text": "Bracket"
-        },
-        {
-          "rel": [
-            "playoff-bracket",
-            "sportscenter",
-            "app",
-            "league"
-          ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
-          "text": "Bracket"
-        }
-      ],
-      "logos": [
-        {
-          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-          "rel": [
-            "full",
-            "default"
-          ]
-        },
-        {
-          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
-          "rel": [
-            "full",
-            "dark"
-          ]
-        }
-      ]
+    "awayTeam": {
+      "id": "8",
+      "gameProjection": "54.7",
+      "teamChanceLoss": "45.3"
     }
   },
-  "article": {
-    "id": 50478200,
-    "nowId": "1-50478200",
-    "contentKey": "50478200-1-22-1",
-    "dataSourceIdentifier": "86ad5e2c8614b",
-    "publishedkey": "nba401909982",
-    "type": "Preview",
-    "gameId": "401909982",
-    "headline": "Detroit visits Miami following Cunningham's 52-point showing",
-    "description": "Detroit Pistons (8-3, third in the Eastern Conference) vs. Miami Heat (6-6, fifth in the Eastern Conference)",
-    "title": "Detroit visits Miami following Cunningham's 52-point showing",
-    "linkText": "Detroit visits Miami following Cunningham's 52-point showing",
-    "categorized": "2026-11-14T07:04:44Z",
-    "originallyPosted": "2026-11-14T07:04:43Z",
-    "lastModified": "2026-11-14T07:04:44Z",
-    "published": "2026-11-14T07:04:43Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4259,
-        "type": "team",
-        "uid": "s:40~l:46~t:14",
-        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-        "description": "Miami Heat",
-        "sportId": 46,
-        "teamId": 14,
-        "team": {
-          "id": 14,
-          "description": "Miami Heat",
-          "abbreviation": "MIA",
-          "shortDisplayName": "Heat",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909982",
-        "guid": "d82e980d-addc-3eb7-8a2a-136547778668",
-        "description": "Detroit Pistons @ Miami Heat",
-        "eventId": 401909982,
-        "event": {
-          "id": 401909982,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ Miami Heat"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Miami Heat",
-      "Detroit Pistons",
-      "Detroit Pistons @ Miami Heat"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (8-3, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (6-6, fifth in the Eastern Conference)\n\n\r\n              Miami; Saturday, 8 p.m. EST\n\n\r\n              LINE: Pistons -4.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: Detroit visits the Miami Heat after <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a>'s 52-point game in the Pistons' 144-140 overtime win against the <a href=\"http://www.espn.com/nba/team/_/name/wsh/washington-wizards\">Washington Wizards</a>.\n\n\r\n              Miami went 43-39 overall, 27-25 in Eastern Conference play and 26-15 at home during the 2025-26 season. The Heat allowed opponents to score 118.5 points per game and shoot 46.5% from the field last season.\n\n\r\n              Detroit went 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              The two teams play for the second time this season. The Pistons defeated the Heat 128-111 in their last meeting on Oct. 24. <a href=\"http://www.espn.com/nba/player/_/id/3908845/john-collins\">John Collins</a> led the Pistons with 23 points, and <a href=\"http://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo\">Giannis Antetokounmpo</a> led the Heat with 36 points.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/6475/klay-thompson\">Klay Thompson</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4601025/pelle-larsson\">Pelle Larsson</a>: day to day (illness).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50478200"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50478200"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50478200"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909982"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "wallclockAvailable": false,
   "news": {
     "header": "NBA News",
     "link": {
@@ -6196,20 +5055,1253 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "45.3",
-      "teamChanceLoss": "54.7"
+  "article": {
+    "id": 50478200,
+    "nowId": "1-50478200",
+    "contentKey": "50478200-1-22-1",
+    "dataSourceIdentifier": "86ad5e2c8614b",
+    "publishedkey": "nba401909982",
+    "type": "Preview",
+    "gameId": "401909982",
+    "headline": "Detroit visits Miami following Cunningham's 52-point showing",
+    "description": "Detroit Pistons (8-3, third in the Eastern Conference) vs. Miami Heat (6-6, fifth in the Eastern Conference)",
+    "title": "Detroit visits Miami following Cunningham's 52-point showing",
+    "linkText": "Detroit visits Miami following Cunningham's 52-point showing",
+    "categorized": "2026-11-14T07:04:44Z",
+    "originallyPosted": "2026-11-14T07:04:43Z",
+    "lastModified": "2026-11-14T07:04:44Z",
+    "published": "2026-11-14T07:04:43Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4259,
+        "type": "team",
+        "uid": "s:40~l:46~t:14",
+        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+        "description": "Miami Heat",
+        "sportId": 46,
+        "teamId": 14,
+        "team": {
+          "id": 14,
+          "description": "Miami Heat",
+          "abbreviation": "MIA",
+          "shortDisplayName": "Heat",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909982",
+        "guid": "d82e980d-addc-3eb7-8a2a-136547778668",
+        "description": "Detroit Pistons @ Miami Heat",
+        "eventId": 401909982,
+        "event": {
+          "id": 401909982,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ Miami Heat"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Miami Heat",
+      "Detroit Pistons",
+      "Detroit Pistons @ Miami Heat"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (8-3, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (6-6, fifth in the Eastern Conference)\n\n\r\n              Miami; Saturday, 8 p.m. EST\n\n\r\n              LINE: Pistons -4.5; over/under is 226.5\n\n\r\n              BOTTOM LINE: Detroit visits the Miami Heat after <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a>'s 52-point game in the Pistons' 144-140 overtime win against the <a href=\"http://www.espn.com/nba/team/_/name/wsh/washington-wizards\">Washington Wizards</a>.\n\n\r\n              Miami went 43-39 overall, 27-25 in Eastern Conference play and 26-15 at home during the 2025-26 season. The Heat allowed opponents to score 118.5 points per game and shoot 46.5% from the field last season.\n\n\r\n              Detroit went 60-22 overall and 39-13 in Eastern Conference action during the 2025-26 season. The Pistons gave up 109.6 points per game while committing 22.0 fouls last season.\n\n\r\n              The two teams play for the second time this season. The Pistons defeated the Heat 128-111 in their last meeting on Oct. 24. <a href=\"http://www.espn.com/nba/player/_/id/3908845/john-collins\">John Collins</a> led the Pistons with 23 points, and <a href=\"http://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo\">Giannis Antetokounmpo</a> led the Heat with 36 points.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/6475/klay-thompson\">Klay Thompson</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4601025/pelle-larsson\">Pelle Larsson</a>: day to day (illness).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50478200"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50478200"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50478200"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909982"
+      }
     },
-    "awayTeam": {
-      "id": "8",
-      "gameProjection": "54.7",
-      "teamChanceLoss": "45.3"
+    "premium": false
+  },
+  "videos": [],
+  "header": {
+    "id": "401909982",
+    "uid": "s:40~l:46~e:401909982",
+    "season": {
+      "year": 2027,
+      "current": true,
+      "type": 2
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "401909982",
+        "uid": "s:40~l:46~e:401909982~c:401909982",
+        "date": "2026-11-15T01:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": false,
+        "boxscoreAvailable": false,
+        "commentaryAvailable": false,
+        "liveAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "wallclockAvailable": false,
+        "boxscoreSource": "none",
+        "playByPlaySource": "none",
+        "competitors": [
+          {
+            "id": "14",
+            "uid": "s:40~l:46~t:14",
+            "order": 0,
+            "homeAway": "home",
+            "team": {
+              "id": "14",
+              "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+              "uid": "s:40~l:46~t:14",
+              "location": "Miami",
+              "name": "Heat",
+              "abbreviation": "MIA",
+              "displayName": "Miami Heat",
+              "color": "98002e",
+              "alternateColor": "000000",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/mia.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-06-25T21:18Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mia.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:14Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/81e3212c-30ef-9b1b-5edb-453b13ff265a/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "6-6",
+                "displayValue": "6-6"
+              },
+              {
+                "type": "home",
+                "summary": "2-3",
+                "displayValue": "2-3"
+              },
+              {
+                "type": "vsconf",
+                "summary": "3-2",
+                "displayValue": "3-2"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "8",
+            "uid": "s:40~l:46~t:8",
+            "order": 1,
+            "homeAway": "away",
+            "team": {
+              "id": "8",
+              "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+              "uid": "s:40~l:46~t:8",
+              "location": "Detroit",
+              "name": "Pistons",
+              "abbreviation": "DET",
+              "displayName": "Detroit Pistons",
+              "color": "1d428a",
+              "alternateColor": "c8102e",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-06-25T21:17Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-06-25T21:18Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-06-25T21:14Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/4e096981-dc02-51d0-3dcd-2468fcc1e22d/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:23Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "record": [
+              {
+                "type": "total",
+                "summary": "8-3",
+                "displayValue": "8-3"
+              },
+              {
+                "type": "road",
+                "summary": "5-1",
+                "displayValue": "5-1"
+              },
+              {
+                "type": "vsconf",
+                "summary": "8-2",
+                "displayValue": "8-2"
+              }
+            ],
+            "possession": false
+          }
+        ],
+        "status": {
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, November 14th at 8:00 PM EST",
+            "shortDetail": "11/14 - 8:00 PM EST"
+          }
+        },
+        "odds": [
+          {
+            "awayTeamOdds": {
+              "favorite": true,
+              "underdog": false,
+              "moneyLine": -173,
+              "spreadOdds": -115.0,
+              "open": {
+                "favorite": true,
+                "pointSpread": {
+                  "alternateDisplayValue": "-5.5",
+                  "american": "-5.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 1.53,
+                  "displayValue": "50/93",
+                  "alternateDisplayValue": "-186",
+                  "decimal": 1.53,
+                  "fraction": "50/93",
+                  "american": "-186"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "-3.5",
+                  "american": "-3.5"
+                },
+                "spread": {
+                  "value": 1.86,
+                  "displayValue": "20/23",
+                  "alternateDisplayValue": "-115",
+                  "decimal": 1.86,
+                  "fraction": "20/23",
+                  "american": "-115"
+                },
+                "moneyLine": {
+                  "value": 1.57,
+                  "displayValue": "100/173",
+                  "alternateDisplayValue": "-173",
+                  "decimal": 1.57,
+                  "fraction": "100/173",
+                  "american": "-173"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
+              }
+            },
+            "homeTeamOdds": {
+              "favorite": false,
+              "underdog": true,
+              "moneyLine": 146,
+              "spreadOdds": -105.0,
+              "open": {
+                "favorite": false,
+                "pointSpread": {
+                  "alternateDisplayValue": "+5.5",
+                  "american": "+5.5"
+                },
+                "spread": {
+                  "value": 1.9,
+                  "displayValue": "10/11",
+                  "alternateDisplayValue": "-110",
+                  "decimal": 1.9,
+                  "fraction": "10/11",
+                  "american": "-110"
+                },
+                "moneyLine": {
+                  "value": 2.56,
+                  "displayValue": "39/25",
+                  "alternateDisplayValue": "+156",
+                  "decimal": 2.56,
+                  "fraction": "39/25",
+                  "american": "+156"
+                }
+              },
+              "current": {
+                "pointSpread": {
+                  "alternateDisplayValue": "+3.5",
+                  "american": "+3.5"
+                },
+                "spread": {
+                  "value": 1.95,
+                  "displayValue": "20/21",
+                  "alternateDisplayValue": "-105",
+                  "decimal": 1.95,
+                  "fraction": "20/21",
+                  "american": "-105"
+                },
+                "moneyLine": {
+                  "value": 2.46,
+                  "displayValue": "73/50",
+                  "alternateDisplayValue": "+146",
+                  "decimal": 2.46,
+                  "fraction": "73/50",
+                  "american": "+146"
+                }
+              },
+              "team": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
+              }
+            },
+            "current": {
+              "over": {
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
+              },
+              "under": {
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
+              },
+              "total": {
+                "alternateDisplayValue": "229.5",
+                "american": "229.5"
+              }
+            },
+            "propBets": [
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "name": "Total Points"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              },
+              {
+                "type": {
+                  "id": "2",
+                  "name": "Total Assists"
+                }
+              }
+            ]
+          }
+        ],
+        "broadcasts": [
+          {
+            "type": {
+              "id": "1",
+              "shortName": "TV"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "NBA TV"
+            },
+            "lang": "en",
+            "region": "us",
+            "isNational": true
+          }
+        ],
+        "series": [
+          {
+            "type": "season",
+            "title": "Regular Season Series",
+            "description": "Regular Season Series",
+            "summary": "DET leads series 1-0",
+            "completed": false,
+            "totalCompetitions": 4,
+            "competitors": [
+              {
+                "id": "14",
+                "uid": "s:40~l:46~t:14",
+                "wins": 0,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
+                }
+              },
+              {
+                "id": "8",
+                "uid": "s:40~l:46~t:8",
+                "wins": 1,
+                "ties": 0,
+                "team": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
+                }
+              }
+            ],
+            "events": [
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909847?lang=en&region=us",
+                "id": "401909847"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401909982?lang=en&region=us",
+                "id": "401909982"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910601?lang=en&region=us",
+                "id": "401910601"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401910885?lang=en&region=us",
+                "id": "401910885"
+              }
+            ],
+            "startDate": "2026-10-24T00:00Z"
+          }
+        ],
+        "boxscoreMinutes": false
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/game/_/gameId/401909982/pistons-heat",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "preview",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/preview/_/gameId/401909982",
+        "text": "Preview",
+        "shortText": "Preview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "odds",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/odds/_/gameId/401909982",
+        "text": "Odds",
+        "shortText": "Odds",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "tickets",
+          "desktop"
+        ],
+        "href": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
+        "text": "Tickets",
+        "shortText": "Tickets",
+        "isExternal": true,
+        "isPremium": false
+      }
+    ],
+    "league": {
+      "id": "46",
+      "uid": "s:40~l:46",
+      "name": "National Basketball Association",
+      "abbreviation": "NBA",
+      "shortName": "NBA",
+      "slug": "nba",
+      "isTournament": false,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/schedule",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/scoreboard",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/teams",
+          "text": "Teams"
+        },
+        {
+          "rel": [
+            "athletes",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/players",
+          "text": "Players"
+        },
+        {
+          "rel": [
+            "injuries",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/injuries",
+          "text": "Injuries"
+        },
+        {
+          "rel": [
+            "odds",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "odds",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+          "text": "Odds"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/nba/playoff-bracket",
+          "text": "Bracket"
+        },
+        {
+          "rel": [
+            "playoff-bracket",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+          "text": "Bracket"
+        }
+      ],
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ]
     }
   },
+  "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
       {
@@ -6223,52 +6315,52 @@
         "type": "team"
       },
       {
-        "ticketName": "11/14 vs Pistons 3213 tickets left",
+        "ticketName": "11/14 vs Pistons 2909 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-14-2026/production/7433088?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Rockets 3832 tickets left",
+        "ticketName": "11/16 vs Rockets 3806 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-16-2026/production/7433126?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Bucks 2960 tickets left",
+        "ticketName": "11/18 vs Bucks 2948 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 3833 tickets left",
+        "ticketName": "11/22 vs Thunder 3801 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ 76ers 1999 tickets left",
+        "ticketName": "11/25 @ 76ers 1867 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Knicks 2594 tickets left",
+        "ticketName": "11/27 @ Knicks 2598 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Cavaliers 2025 tickets left",
+        "ticketName": "11/29 @ Cavaliers 2011 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Hawks 4801 tickets left",
+        "ticketName": "12/1 vs Hawks 4804 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-1-2026/production/7431006?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/3 vs Wizards 4247 tickets left",
+        "ticketName": "12/3 vs Wizards 4243 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/12 vs Knicks 3811 tickets left",
+        "ticketName": "12/12 vs Knicks 3809 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-12-2026/production/7431010?wsUser=717",
         "type": "event"
       },
