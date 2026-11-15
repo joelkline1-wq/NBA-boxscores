@@ -431,6 +431,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "15",
             "uid": "s:40~l:46~t:15",
@@ -495,9 +497,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
         },
         {
           "id": "401909955",
@@ -519,8 +519,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -585,7 +583,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909968",
@@ -852,8 +852,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -918,7 +916,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909940",
@@ -1116,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "5",
             "uid": "s:40~l:46~t:5",
@@ -1180,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
         },
         {
           "id": "401909296",
@@ -1204,8 +1204,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -1270,7 +1268,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -1378,28 +1378,11 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Out",
-                "injuries": {
-                  "status": "Out",
-                  "date": "2026-11-15T21:43Z",
-                  "type": {
-                    "id": "4",
-                    "name": "INJURY_STATUS_OUT",
-                    "description": "out",
-                    "abbreviation": "O"
-                  },
-                  "details": {
-                    "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
-                    },
-                    "type": "Groin",
-                    "location": "Groin",
-                    "detail": "Strain",
-                    "side": "Left",
-                    "returnDate": "2026-11-15"
-                  }
+                "status": {
+                  "id": "1",
+                  "name": "Active",
+                  "type": "active",
+                  "abbreviation": "Active"
                 }
               },
               "statistics": [
@@ -1555,28 +1538,11 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": "Out",
-                "injuries": {
-                  "status": "Out",
-                  "date": "2026-11-15T21:43Z",
-                  "type": {
-                    "id": "4",
-                    "name": "INJURY_STATUS_OUT",
-                    "description": "out",
-                    "abbreviation": "O"
-                  },
-                  "details": {
-                    "fantasyStatus": {
-                      "description": "GTD",
-                      "abbreviation": "GTD",
-                      "displayDescription": "GTD"
-                    },
-                    "type": "Groin",
-                    "location": "Groin",
-                    "detail": "Strain",
-                    "side": "Left",
-                    "returnDate": "2026-11-15"
-                  }
+                "status": {
+                  "id": "1",
+                  "name": "Active",
+                  "type": "active",
+                  "abbreviation": "Active"
                 }
               },
               "statistics": [
@@ -2751,67 +2717,6 @@
       "injuries": [
         {
           "status": "Out",
-          "date": "2026-11-15T21:43Z",
-          "athlete": {
-            "id": "4433134",
-            "uid": "s:40~l:46~a:4433134",
-            "guid": "dd0bb1da-07b1-3d6b-b4b7-11a9e7b70d46",
-            "lastName": "Barnes",
-            "fullName": "Scottie Barnes",
-            "displayName": "Scottie Barnes",
-            "shortName": "S. Barnes",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
-              "alt": "Scottie Barnes"
-            },
-            "jersey": "4",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4433134?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Groin",
-            "location": "Groin",
-            "detail": "Strain",
-            "side": "Left",
-            "returnDate": "2026-11-15"
-          }
-        },
-        {
-          "status": "Out",
           "date": "2026-11-14T21:59Z",
           "athlete": {
             "id": "4432586",
@@ -3083,16 +2988,16 @@
           }
         ]
       },
-      "details": "NY -4.5",
+      "details": "NY -3.5",
       "overUnder": 217.5,
-      "spread": 4.5,
-      "overOdds": -115.0,
-      "underOdds": -105.0,
+      "spread": 3.5,
+      "overOdds": -113.0,
+      "underOdds": -107.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -184,
-        "spreadOdds": -106.0,
+        "moneyLine": -157,
+        "spreadOdds": -114.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
         },
@@ -3102,8 +3007,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 154,
-        "spreadOdds": -115.0,
+        "moneyLine": 132,
+        "spreadOdds": -106.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/28?lang=en&region=us"
         },
@@ -3166,7 +3071,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869P450_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869P350_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3179,7 +3084,7 @@
               "gameId": 401909990,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:TOR+4.5"
+              "betDetails": "Spread:TOR+3.5"
             }
           }
         },
@@ -3190,7 +3095,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869N450_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869N350_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3203,7 +3108,7 @@
               "gameId": 401909990,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:NY-4.5"
+              "betDetails": "Spread:NY-3.5"
             }
           }
         },
@@ -3274,7 +3179,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+154",
+            "odds": "+132",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3306,7 +3211,7 @@
         },
         "away": {
           "close": {
-            "odds": "-184",
+            "odds": "-157",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3342,8 +3247,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "+4.5",
-            "odds": "-115",
+            "line": "+3.5",
+            "odds": "-106",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3351,7 +3256,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869P450_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869P350_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3364,7 +3269,7 @@
                   "gameId": 401909990,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:TOR+4.5"
+                  "betDetails": "Spread:TOR+3.5"
                 }
               }
             }
@@ -3376,8 +3281,8 @@
         },
         "away": {
           "close": {
-            "line": "-4.5",
-            "odds": "-106",
+            "line": "-3.5",
+            "odds": "-114",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3385,7 +3290,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869N450_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35014772%3Foutcomes%3D0HC87230869N350_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3398,7 +3303,7 @@
                   "gameId": 401909990,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:NY-4.5"
+                  "betDetails": "Spread:NY-3.5"
                 }
               }
             }
@@ -3415,7 +3320,7 @@
         "over": {
           "close": {
             "line": "o217.5",
-            "odds": "-115",
+            "odds": "-113",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3449,7 +3354,7 @@
         "under": {
           "close": {
             "line": "u217.5",
-            "odds": "-105",
+            "odds": "-107",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3645,6 +3550,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "28",
+      "gameProjection": "31.3",
+      "teamChanceLoss": "68.7"
+    },
+    "awayTeam": {
+      "id": "18",
+      "gameProjection": "68.7",
+      "teamChanceLoss": "31.3"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3667,10 +3586,10 @@
         "contentKey": "50493152-1-5-1",
         "dataSourceIdentifier": "e135eac0d1f6e",
         "type": "HeadlineNews",
-        "headline": "LeBron James dishes 11 assists in 76ers win, climbs to third in NBA ranks",
+        "headline": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
         "description": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
-        "lastModified": "2026-11-15T21:51:23Z",
-        "published": "2026-11-15T21:51:23Z",
+        "lastModified": "2026-11-15T22:43:02Z",
+        "published": "2026-11-15T22:43:02Z",
         "images": [
           {
             "dataSourceIdentifier": "d86d687ed1430",
@@ -5025,20 +4944,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "28",
-      "gameProjection": "31.3",
-      "teamChanceLoss": "68.7"
-    },
-    "awayTeam": {
-      "id": "18",
-      "gameProjection": "68.7",
-      "teamChanceLoss": "31.3"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909990",
     "uid": "s:40~l:46~e:401909990",
@@ -5531,8 +5436,8 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -184,
-              "spreadOdds": -106.0,
+              "moneyLine": -157,
+              "spreadOdds": -114.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5558,24 +5463,24 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "-4.5",
-                  "american": "-4.5"
+                  "alternateDisplayValue": "-3.5",
+                  "american": "-3.5"
                 },
                 "spread": {
-                  "value": 1.94,
-                  "displayValue": "50/53",
-                  "alternateDisplayValue": "-106",
-                  "decimal": 1.94,
-                  "fraction": "50/53",
-                  "american": "-106"
+                  "value": 1.87,
+                  "displayValue": "50/57",
+                  "alternateDisplayValue": "-114",
+                  "decimal": 1.87,
+                  "fraction": "50/57",
+                  "american": "-114"
                 },
                 "moneyLine": {
-                  "value": 1.54,
-                  "displayValue": "25/46",
-                  "alternateDisplayValue": "-184",
-                  "decimal": 1.54,
-                  "fraction": "25/46",
-                  "american": "-184"
+                  "value": 1.63,
+                  "displayValue": "100/157",
+                  "alternateDisplayValue": "-157",
+                  "decimal": 1.63,
+                  "fraction": "100/157",
+                  "american": "-157"
                 }
               },
               "team": {
@@ -5585,8 +5490,8 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 154,
-              "spreadOdds": -115.0,
+              "moneyLine": 132,
+              "spreadOdds": -106.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5612,24 +5517,24 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "+4.5",
-                  "american": "+4.5"
+                  "alternateDisplayValue": "+3.5",
+                  "american": "+3.5"
                 },
                 "spread": {
-                  "value": 1.86,
-                  "displayValue": "20/23",
-                  "alternateDisplayValue": "-115",
-                  "decimal": 1.86,
-                  "fraction": "20/23",
-                  "american": "-115"
+                  "value": 1.94,
+                  "displayValue": "50/53",
+                  "alternateDisplayValue": "-106",
+                  "decimal": 1.94,
+                  "fraction": "50/53",
+                  "american": "-106"
                 },
                 "moneyLine": {
-                  "value": 2.54,
-                  "displayValue": "77/50",
-                  "alternateDisplayValue": "+154",
-                  "decimal": 2.54,
-                  "fraction": "77/50",
-                  "american": "+154"
+                  "value": 2.32,
+                  "displayValue": "33/25",
+                  "alternateDisplayValue": "+132",
+                  "decimal": 2.32,
+                  "fraction": "33/25",
+                  "american": "+132"
                 }
               },
               "team": {
@@ -5638,20 +5543,20 @@
             },
             "current": {
               "over": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
+                "value": 1.88,
+                "displayValue": "100/113",
+                "alternateDisplayValue": "-113",
+                "decimal": 1.88,
+                "fraction": "100/113",
+                "american": "-113"
               },
               "under": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
+                "value": 1.93,
+                "displayValue": "100/107",
+                "alternateDisplayValue": "-107",
+                "decimal": 1.93,
+                "fraction": "100/107",
+                "american": "-107"
               },
               "total": {
                 "alternateDisplayValue": "217.5",
@@ -6269,12 +6174,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401909990",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6288,27 +6187,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/15 vs Knicks 209 tickets left",
+        "ticketName": "11/15 vs Knicks 138 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-15-2026/production/7432941?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/17 vs Knicks 414 tickets left",
+        "ticketName": "11/17 vs Knicks 405 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-17-2026/production/7432945?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Wizards 642 tickets left",
+        "ticketName": "11/18 vs Wizards 633 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 @ Pistons 2250 tickets left",
+        "ticketName": "11/20 @ Pistons 2239 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-10-31-2026--sports-nba-basketball/production/7418581?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 vs Bucks 807 tickets left",
+        "ticketName": "11/23 vs Bucks 795 tickets left",
         "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-23-2026/production/7431058?wsUser=717",
         "type": "event"
       },
@@ -6323,7 +6222,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Rockets 3815 tickets left",
+        "ticketName": "12/1 @ Rockets 3809 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-1-2026/production/7431002?wsUser=717",
         "type": "event"
       },
@@ -6338,7 +6237,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/14 @ Hornets 3294 tickets left",
+        "ticketName": "12/14 @ Hornets 3279 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-12-14-2026/production/7431066?wsUser=717",
         "type": "event"
       },
@@ -6358,7 +6257,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/22 @ Wizards 2990 tickets left",
+        "ticketName": "12/22 @ Wizards 3040 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-22-2026/production/7431082?wsUser=717",
         "type": "event"
       }
@@ -6367,7 +6266,7 @@
       "opponentTeamName": "Knicks",
       "currentTeamName": "Raptors",
       "venueName": "Scotiabank Arena",
-      "summary": "Tickets as low as $47",
+      "summary": "Tickets as low as $50",
       "date": "2026-11-15T23:00Z",
       "dateDay": "Sun",
       "homeAway": "home",
@@ -6377,6 +6276,12 @@
       "teamLink": "https://www.vividseats.com/toronto-raptors-tickets--sports-nba-basketball/performer/879?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401909990",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {

@@ -399,6 +399,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -463,9 +465,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
         },
         {
           "id": "401909954",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909943",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
         },
         {
           "id": "401909957",
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
         },
         {
           "id": "401909974",
@@ -1172,6 +1172,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1236,9 +1238,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         }
       ]
     }
@@ -2330,8 +2330,8 @@
       },
       "injuries": [
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-14T21:09Z",
+          "status": "Out",
+          "date": "2026-11-15T22:31Z",
           "athlete": {
             "id": "5238230",
             "uid": "s:40~l:46~a:5238230",
@@ -2372,20 +2372,20 @@
             }
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
             },
             "type": "Back",
             "location": "Torso",
-            "returnDate": "2026-11-15"
+            "returnDate": "2026-11-16"
           }
         },
         {
@@ -2908,7 +2908,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -326,
+        "moneyLine": -345,
         "spreadOdds": -107.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/10?lang=en&region=us"
@@ -2919,7 +2919,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 262,
+        "moneyLine": 276,
         "spreadOdds": -113.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/27?lang=en&region=us"
@@ -3091,7 +3091,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+262",
+            "odds": "+276",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3123,7 +3123,7 @@
         },
         "away": {
           "close": {
-            "odds": "-326",
+            "odds": "-345",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3498,10 +3498,10 @@
         "contentKey": "50493152-1-5-1",
         "dataSourceIdentifier": "e135eac0d1f6e",
         "type": "HeadlineNews",
-        "headline": "LeBron James dishes 11 assists in 76ers win, climbs to third in NBA ranks",
+        "headline": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
         "description": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
-        "lastModified": "2026-11-15T21:51:23Z",
-        "published": "2026-11-15T21:51:23Z",
+        "lastModified": "2026-11-15T22:43:02Z",
+        "published": "2026-11-15T22:43:02Z",
         "images": [
           {
             "dataSourceIdentifier": "d86d687ed1430",
@@ -5348,7 +5348,7 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -326,
+              "moneyLine": -345,
               "spreadOdds": -107.0,
               "open": {
                 "favorite": true,
@@ -5387,12 +5387,12 @@
                   "american": "-107"
                 },
                 "moneyLine": {
-                  "value": 1.3,
-                  "displayValue": "50/163",
-                  "alternateDisplayValue": "-326",
-                  "decimal": 1.3,
-                  "fraction": "50/163",
-                  "american": "-326"
+                  "value": 1.28,
+                  "displayValue": "20/69",
+                  "alternateDisplayValue": "-345",
+                  "decimal": 1.28,
+                  "fraction": "20/69",
+                  "american": "-345"
                 }
               },
               "team": {
@@ -5402,7 +5402,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 262,
+              "moneyLine": 276,
               "spreadOdds": -113.0,
               "open": {
                 "favorite": false,
@@ -5441,12 +5441,12 @@
                   "american": "-113"
                 },
                 "moneyLine": {
-                  "value": 3.62,
-                  "displayValue": "131/50",
-                  "alternateDisplayValue": "+262",
-                  "decimal": 3.62,
-                  "fraction": "131/50",
-                  "american": "+262"
+                  "value": 3.76,
+                  "displayValue": "69/25",
+                  "alternateDisplayValue": "+276",
+                  "decimal": 3.76,
+                  "fraction": "69/25",
+                  "american": "+276"
                 }
               },
               "team": {
@@ -5947,109 +5947,6 @@
       ]
     }
   },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Wizards Tickets",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/15 vs Rockets 755 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/16 vs Grizzlies 2729 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-16-2026/production/7433036?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/18 @ Raptors 642 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Bulls 1829 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-31-2026--sports-nba-basketball/production/7419779?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/22 vs Magic 3089 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-22-2026/production/7433044?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/24 vs Celtics 2580 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/28 vs Magic 2969 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-28-2026/production/7431044?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/30 @ Hornets 3129 tickets left",
-        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-30-2026/production/7431728?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/3 @ Heat 4247 tickets left",
-        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/12 vs Hornets 2716 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-12-2026/production/7431732?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 @ Celtics 3468 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-14-2026/production/7431736?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 @ Celtics 3363 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-16-2026/production/7431740?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Knicks 2461 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-18-2026/production/7431744?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/20 @ Nets 2510 tickets left",
-        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-12-20-2026/production/7431746?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/22 vs Raptors 2990 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-22-2026/production/7431082?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Rockets",
-      "currentTeamName": "Wizards",
-      "venueName": "Capital One Arena",
-      "summary": "Tickets as low as $30",
-      "date": "2026-11-16T00:00Z",
-      "dateDay": "Sun",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
-      "venueLink": "https://www.vividseats.com/capital-one-arena-tickets/venue/1034?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
-      "timeValid": true
-    }
-  },
   "article": {
     "id": 50478185,
     "nowId": "1-50478185",
@@ -6203,6 +6100,109 @@
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
+  },
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Wizards Tickets",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/15 vs Rockets 543 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/16 vs Grizzlies 2716 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-16-2026/production/7433036?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/18 @ Raptors 633 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-11-18-2026/production/7433040?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Bulls 1823 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-10-31-2026--sports-nba-basketball/production/7419779?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/22 vs Magic 3099 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-22-2026/production/7433044?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/24 vs Celtics 2574 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/28 vs Magic 2965 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-28-2026/production/7431044?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/30 @ Hornets 3129 tickets left",
+        "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-30-2026/production/7431728?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/3 @ Heat 4251 tickets left",
+        "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/12 vs Hornets 2723 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-12-2026/production/7431732?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 @ Celtics 3459 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-14-2026/production/7431736?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 @ Celtics 3363 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-16-2026/production/7431740?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Knicks 2475 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-18-2026/production/7431744?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/20 @ Nets 2510 tickets left",
+        "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-12-20-2026/production/7431746?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/22 vs Raptors 3040 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-22-2026/production/7431082?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Rockets",
+      "currentTeamName": "Wizards",
+      "venueName": "Capital One Arena",
+      "summary": "Tickets as low as $30",
+      "date": "2026-11-16T00:00Z",
+      "dateDay": "Sun",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-11-15-2026/production/7432963?wsUser=717",
+      "venueLink": "https://www.vividseats.com/capital-one-arena-tickets/venue/1034?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/washington-wizards-tickets--sports-nba-basketball/performer/926?wsUser=717",
+      "timeValid": true
+    }
   },
   "standings": {
     "fullViewLink": {

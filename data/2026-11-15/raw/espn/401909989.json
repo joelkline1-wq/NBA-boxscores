@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "J.B. DeRosa",
+        "displayName": "J.B. DeRosa",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Ray Acosta",
+        "displayName": "Ray Acosta",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Derrick Collins",
+        "displayName": "Derrick Collins",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -663,8 +695,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -729,7 +759,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -908,8 +940,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "17",
             "uid": "s:40~l:46~t:17",
@@ -974,7 +1004,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909956",
@@ -1084,8 +1116,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -1150,7 +1180,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909981",
@@ -2444,6 +2476,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-11-15T22:27Z",
+          "athlete": {
+            "id": "4593125",
+            "uid": "s:40~l:46~a:4593125",
+            "guid": "e1717a84-e7f6-3697-9dce-b101dfa9f386",
+            "lastName": "Aldama",
+            "fullName": "Santi Aldama",
+            "displayName": "Santi Aldama",
+            "shortName": "S. Aldama",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4593125/santi-aldama",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4593125.png",
+              "alt": "Santi Aldama"
+            },
+            "jersey": "34",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4593125?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Ankle",
+            "location": "Leg",
+            "detail": "Sprain",
+            "side": "Left",
+            "returnDate": "2026-11-18"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-11-15T21:24Z",
           "athlete": {
             "id": "4432582",
@@ -2564,128 +2657,6 @@
           }
         },
         {
-          "status": "Day-To-Day",
-          "date": "2026-11-15T18:19Z",
-          "athlete": {
-            "id": "4593125",
-            "uid": "s:40~l:46~a:4593125",
-            "guid": "e1717a84-e7f6-3697-9dce-b101dfa9f386",
-            "lastName": "Aldama",
-            "fullName": "Santi Aldama",
-            "displayName": "Santi Aldama",
-            "shortName": "S. Aldama",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4593125/santi-aldama",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4593125.png",
-              "alt": "Santi Aldama"
-            },
-            "jersey": "34",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4593125?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Ankle",
-            "location": "Leg",
-            "detail": "Sprain",
-            "side": "Left",
-            "returnDate": "2026-11-15"
-          }
-        },
-        {
-          "status": "Day-To-Day",
-          "date": "2026-11-15T18:09Z",
-          "athlete": {
-            "id": "4278049",
-            "uid": "s:40~l:46~a:4278049",
-            "guid": "5ea1b27c-35dc-c1cf-3d9c-ba22c98062d4",
-            "lastName": "Gafford",
-            "fullName": "Daniel Gafford",
-            "displayName": "Daniel Gafford",
-            "shortName": "D. Gafford",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4278049/daniel-gafford",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png",
-              "alt": "Daniel Gafford"
-            },
-            "jersey": "21",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4278049?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "GTD",
-              "abbreviation": "GTD",
-              "displayDescription": "GTD"
-            },
-            "type": "Shoulder",
-            "location": "Arm",
-            "detail": "Stinger",
-            "side": "Right",
-            "returnDate": "2026-11-15"
-          }
-        },
-        {
           "status": "Out",
           "date": "2026-11-11T22:13Z",
           "athlete": {
@@ -2745,6 +2716,64 @@
             "side": "Right",
             "returnDate": "2026-11-18"
           }
+        },
+        {
+          "status": "Out",
+          "date": "2026-11-11T22:12Z",
+          "athlete": {
+            "id": "5148538",
+            "uid": "s:40~l:46~a:5148538",
+            "guid": "6caf707f-e691-303a-a8c0-aadc1e9b5c61",
+            "lastName": "Biberovic",
+            "fullName": "Tarik Biberovic",
+            "displayName": "Tarik Biberovic",
+            "shortName": "T. Biberovic",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/5148538/tarik-biberovic",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/5148538.png",
+              "alt": "Tarik Biberovic"
+            },
+            "jersey": "13",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Heel",
+            "location": "Leg",
+            "detail": "Inflammation",
+            "side": "Right",
+            "returnDate": "2026-11-18"
+          }
         }
       ]
     }
@@ -2796,13 +2825,13 @@
       "details": "BOS -15.5",
       "overUnder": 217.5,
       "spread": -15.5,
-      "overOdds": -112.0,
-      "underOdds": -108.0,
+      "overOdds": -115.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 690,
-        "spreadOdds": -114.0,
+        "moneyLine": 640,
+        "spreadOdds": -116.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/6?lang=en&region=us"
         },
@@ -2812,8 +2841,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -1080,
-        "spreadOdds": -106.0,
+        "moneyLine": -970,
+        "spreadOdds": -104.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
         },
@@ -2984,7 +3013,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-1080",
+            "odds": "-970",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3016,7 +3045,7 @@
         },
         "away": {
           "close": {
-            "odds": "+690",
+            "odds": "+640",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3053,7 +3082,7 @@
         "home": {
           "close": {
             "line": "-15.5",
-            "odds": "-106",
+            "odds": "-104",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3087,7 +3116,7 @@
         "away": {
           "close": {
             "line": "+15.5",
-            "odds": "-114",
+            "odds": "-116",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3125,7 +3154,7 @@
         "over": {
           "close": {
             "line": "o217.5",
-            "odds": "-112",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3159,7 +3188,7 @@
         "under": {
           "close": {
             "line": "u217.5",
-            "odds": "-108",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3355,6 +3384,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "2",
+      "gameProjection": "85.3",
+      "teamChanceLoss": "14.7"
+    },
+    "awayTeam": {
+      "id": "6",
+      "gameProjection": "14.7",
+      "teamChanceLoss": "85.3"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3377,10 +3420,10 @@
         "contentKey": "50493152-1-5-1",
         "dataSourceIdentifier": "e135eac0d1f6e",
         "type": "HeadlineNews",
-        "headline": "LeBron James dishes 11 assists in 76ers win, climbs to third in NBA ranks",
+        "headline": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
         "description": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
-        "lastModified": "2026-11-15T21:51:23Z",
-        "published": "2026-11-15T21:51:23Z",
+        "lastModified": "2026-11-15T22:43:02Z",
+        "published": "2026-11-15T22:43:02Z",
         "images": [
           {
             "dataSourceIdentifier": "d86d687ed1430",
@@ -4735,20 +4778,6 @@
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "2",
-      "gameProjection": "85.3",
-      "teamChanceLoss": "14.7"
-    },
-    "awayTeam": {
-      "id": "6",
-      "gameProjection": "14.7",
-      "teamChanceLoss": "85.3"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401909989",
     "uid": "s:40~l:46~e:401909989",
@@ -5241,8 +5270,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 690,
-              "spreadOdds": -114.0,
+              "moneyLine": 640,
+              "spreadOdds": -116.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5272,20 +5301,20 @@
                   "american": "+15.5"
                 },
                 "spread": {
-                  "value": 1.87,
-                  "displayValue": "50/57",
-                  "alternateDisplayValue": "-114",
-                  "decimal": 1.87,
-                  "fraction": "50/57",
-                  "american": "-114"
+                  "value": 1.86,
+                  "displayValue": "25/29",
+                  "alternateDisplayValue": "-116",
+                  "decimal": 1.86,
+                  "fraction": "25/29",
+                  "american": "-116"
                 },
                 "moneyLine": {
-                  "value": 7.9,
-                  "displayValue": "69/10",
-                  "alternateDisplayValue": "+690",
-                  "decimal": 7.9,
-                  "fraction": "69/10",
-                  "american": "+690"
+                  "value": 7.4,
+                  "displayValue": "32/5",
+                  "alternateDisplayValue": "+640",
+                  "decimal": 7.4,
+                  "fraction": "32/5",
+                  "american": "+640"
                 }
               },
               "team": {
@@ -5295,8 +5324,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -1080,
-              "spreadOdds": -106.0,
+              "moneyLine": -970,
+              "spreadOdds": -104.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5326,20 +5355,20 @@
                   "american": "-15.5"
                 },
                 "spread": {
-                  "value": 1.94,
-                  "displayValue": "50/53",
-                  "alternateDisplayValue": "-106",
-                  "decimal": 1.94,
-                  "fraction": "50/53",
-                  "american": "-106"
+                  "value": 1.96,
+                  "displayValue": "25/26",
+                  "alternateDisplayValue": "-104",
+                  "decimal": 1.96,
+                  "fraction": "25/26",
+                  "american": "-104"
                 },
                 "moneyLine": {
-                  "value": 1.09,
-                  "displayValue": "5/54",
-                  "alternateDisplayValue": "-1080",
-                  "decimal": 1.09,
-                  "fraction": "5/54",
-                  "american": "-1080"
+                  "value": 1.1,
+                  "displayValue": "10/97",
+                  "alternateDisplayValue": "-970",
+                  "decimal": 1.1,
+                  "fraction": "10/97",
+                  "american": "-970"
                 }
               },
               "team": {
@@ -5348,20 +5377,20 @@
             },
             "current": {
               "over": {
-                "value": 1.89,
-                "displayValue": "25/28",
-                "alternateDisplayValue": "-112",
-                "decimal": 1.89,
-                "fraction": "25/28",
-                "american": "-112"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "under": {
-                "value": 1.92,
-                "displayValue": "25/27",
-                "alternateDisplayValue": "-108",
-                "decimal": 1.92,
-                "fraction": "25/27",
-                "american": "-108"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "total": {
                 "alternateDisplayValue": "217.5",
@@ -6023,37 +6052,37 @@
         "type": "team"
       },
       {
-        "ticketName": "11/15 vs Mavericks 908 tickets left",
+        "ticketName": "11/15 vs Mavericks 519 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-15-2026/production/7433122?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/16 vs Magic 1893 tickets left",
+        "ticketName": "11/16 vs Magic 1866 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-11-16-2026/production/7433142?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 @ Nuggets 2559 tickets left",
+        "ticketName": "11/18 @ Nuggets 2557 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-18-2026/production/7433160?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Kings 1153 tickets left",
+        "ticketName": "11/21 @ Kings 1151 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-21-2026/production/7433003?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Warriors 2418 tickets left",
+        "ticketName": "11/22 @ Warriors 2403 tickets left",
         "ticketLink": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-11-22-2026/production/7431216?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 @ Wizards 2580 tickets left",
+        "ticketName": "11/24 @ Wizards 2574 tickets left",
         "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-10-30-2026--sports-nba-basketball/production/7419797?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Hawks 2028 tickets left",
+        "ticketName": "11/27 vs Hawks 2008 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-10-31-2026--sports-nba-basketball/production/7419731?wsUser=717",
         "type": "event"
       },
@@ -6063,22 +6092,22 @@
         "type": "event"
       },
       {
-        "ticketName": "11/30 @ Mavericks 2383 tickets left",
+        "ticketName": "11/30 @ Mavericks 2363 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-30-2026/production/7431359?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 vs Hornets 3053 tickets left",
+        "ticketName": "12/2 vs Hornets 3045 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-2-2026/production/7431828?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/13 @ Nets 1894 tickets left",
+        "ticketName": "12/13 @ Nets 1889 tickets left",
         "ticketLink": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-12-13-2026/production/7431962?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/14 vs Wizards 3468 tickets left",
+        "ticketName": "12/14 vs Wizards 3459 tickets left",
         "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-14-2026/production/7431736?wsUser=717",
         "type": "event"
       },
@@ -6102,7 +6131,7 @@
       "opponentTeamName": "Mavericks",
       "currentTeamName": "Celtics",
       "venueName": "TD Garden",
-      "summary": "Tickets as low as $108",
+      "summary": "Tickets as low as $99",
       "date": "2026-11-15T23:00Z",
       "dateDay": "Sun",
       "homeAway": "home",
