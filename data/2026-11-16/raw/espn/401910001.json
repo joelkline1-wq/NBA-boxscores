@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909938",
@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909957",
@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909980",
@@ -663,8 +663,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -729,7 +727,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     },
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "24",
             "uid": "s:40~l:46~t:24",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
         },
         {
           "id": "401909962",
@@ -2877,6 +2877,67 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-11-16T20:18Z",
+          "athlete": {
+            "id": "4888725",
+            "uid": "s:40~l:46~a:4888725",
+            "guid": "ca1ecfe6-1c97-3912-899f-f4f0c3cf596e",
+            "lastName": "Dunn",
+            "fullName": "Ryan Dunn",
+            "displayName": "Ryan Dunn",
+            "shortName": "R. Dunn",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4888725/ryan-dunn",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4888725.png",
+              "alt": "Ryan Dunn"
+            },
+            "jersey": "0",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4888725?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Thumb",
+            "location": "Arm",
+            "detail": "Soreness",
+            "side": "Right",
+            "returnDate": "2026-11-16"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-09-11T16:03Z",
           "athlete": {
@@ -3546,6 +3607,7 @@
       "records": []
     }
   ],
+  "winprobability": [],
   "news": {
     "header": "NBA News",
     "link": {
@@ -4778,151 +4840,18 @@
       }
     ]
   },
-  "article": {
-    "id": 50499323,
-    "nowId": "1-50499323",
-    "contentKey": "50499323-1-22-1",
-    "dataSourceIdentifier": "558404c1d73b5",
-    "publishedkey": "nba401910001",
-    "type": "Preview",
-    "gameId": "401910001",
-    "headline": "Phoenix visits Denver, aims to stop road skid",
-    "description": "Phoenix Suns (5-7, 11th in the Western Conference) vs. Denver Nuggets (7-4, eighth in the Western Conference)",
-    "title": "Phoenix visits Denver, aims to stop road skid",
-    "linkText": "Phoenix visits Denver, aims to stop road skid",
-    "categorized": "2026-11-16T07:04:42Z",
-    "originallyPosted": "2026-11-16T07:04:33Z",
-    "lastModified": "2026-11-16T07:04:42Z",
-    "published": "2026-11-16T07:04:33Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4502,
-        "type": "team",
-        "uid": "s:40~l:46~t:7",
-        "guid": "c4aceb39-0eb9-a30b-1120-9cb5b12b677a",
-        "description": "Denver Nuggets",
-        "sportId": 46,
-        "teamId": 7,
-        "team": {
-          "id": 7,
-          "description": "Denver Nuggets",
-          "abbreviation": "DEN",
-          "shortDisplayName": "Nuggets",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4644,
-        "type": "team",
-        "uid": "s:40~l:46~t:21",
-        "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
-        "description": "Phoenix Suns",
-        "sportId": 46,
-        "teamId": 21,
-        "team": {
-          "id": 21,
-          "description": "Phoenix Suns",
-          "abbreviation": "PHX",
-          "shortDisplayName": "Suns",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401910001",
-        "guid": "0baf67b6-9b88-3f24-9a37-997b693a7e05",
-        "description": "Phoenix Suns @ Denver Nuggets",
-        "eventId": 401910001,
-        "event": {
-          "id": 401910001,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Phoenix Suns @ Denver Nuggets"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Denver Nuggets",
-      "Phoenix Suns",
-      "Phoenix Suns @ Denver Nuggets"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/phx/phoenix-suns\">Phoenix Suns</a> (5-7, 11th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/den/denver-nuggets\">Denver Nuggets</a> (7-4, eighth in the Western Conference)\n\n\r\n              Denver; Monday, 9 p.m. EST\n\n\r\n              LINE: Nuggets -10.5; over/under is 228.5\n\n\r\n              BOTTOM LINE: Phoenix will try to stop its three-game road losing streak when the Suns face Denver.\n\n\r\n              Denver finished 54-28 overall, 36-16 in Western Conference play and 28-13 at home during the 2025-26 season. The Nuggets gave up 116.9 points per game while committing 19.1 fouls last season.\n\n\r\n              Phoenix went 45-37 overall and 29-23 in Western Conference action during the 2025-26 season. The Suns gave up 111.1 points per game while committing 20.6 fouls last season.\n\n\r\n              The two teams match up for the second time this season. The Nuggets defeated the Suns 127-120 in their last meeting on Oct. 31. <a href=\"http://www.espn.com/nba/player/_/id/3936299/jamal-murray\">Jamal Murray</a> led the Nuggets with 39 points, and <a href=\"http://www.espn.com/nba/player/_/id/4066383/miles-bridges\">Miles Bridges</a> led the Suns with 24 points.\n\n\r\n              INJURIES: Nuggets: <a href=\"http://www.espn.com/nba/player/_/id/4432181/julian-strawther\">Julian Strawther</a>: out (knee).\n\n\r\n              Suns: <a href=\"http://www.espn.com/nba/player/_/id/4701232/mark-williams\">Mark Williams</a>: out (shoulder).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50499323"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50499323"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50499323"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401910001"
-      }
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "7",
+      "gameProjection": "71.1",
+      "teamChanceLoss": "28.9"
     },
-    "premium": false
+    "awayTeam": {
+      "id": "21",
+      "gameProjection": "28.9",
+      "teamChanceLoss": "71.1"
+    }
   },
   "header": {
     "id": "401910001",
@@ -6039,28 +5968,154 @@
       ]
     }
   },
+  "article": {
+    "id": 50499323,
+    "nowId": "1-50499323",
+    "contentKey": "50499323-1-22-1",
+    "dataSourceIdentifier": "558404c1d73b5",
+    "publishedkey": "nba401910001",
+    "type": "Preview",
+    "gameId": "401910001",
+    "headline": "Phoenix visits Denver, aims to stop road skid",
+    "description": "Phoenix Suns (5-7, 11th in the Western Conference) vs. Denver Nuggets (7-4, eighth in the Western Conference)",
+    "title": "Phoenix visits Denver, aims to stop road skid",
+    "linkText": "Phoenix visits Denver, aims to stop road skid",
+    "categorized": "2026-11-16T07:04:42Z",
+    "originallyPosted": "2026-11-16T07:04:33Z",
+    "lastModified": "2026-11-16T07:04:42Z",
+    "published": "2026-11-16T07:04:33Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4502,
+        "type": "team",
+        "uid": "s:40~l:46~t:7",
+        "guid": "c4aceb39-0eb9-a30b-1120-9cb5b12b677a",
+        "description": "Denver Nuggets",
+        "sportId": 46,
+        "teamId": 7,
+        "team": {
+          "id": 7,
+          "description": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "shortDisplayName": "Nuggets",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4644,
+        "type": "team",
+        "uid": "s:40~l:46~t:21",
+        "guid": "c6eade89-5971-0e84-8ccb-cd91482b2b50",
+        "description": "Phoenix Suns",
+        "sportId": 46,
+        "teamId": 21,
+        "team": {
+          "id": 21,
+          "description": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "shortDisplayName": "Suns",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401910001",
+        "guid": "0baf67b6-9b88-3f24-9a37-997b693a7e05",
+        "description": "Phoenix Suns @ Denver Nuggets",
+        "eventId": 401910001,
+        "event": {
+          "id": 401910001,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Phoenix Suns @ Denver Nuggets"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Denver Nuggets",
+      "Phoenix Suns",
+      "Phoenix Suns @ Denver Nuggets"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/phx/phoenix-suns\">Phoenix Suns</a> (5-7, 11th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/den/denver-nuggets\">Denver Nuggets</a> (7-4, eighth in the Western Conference)\n\n\r\n              Denver; Monday, 9 p.m. EST\n\n\r\n              LINE: Nuggets -10.5; over/under is 228.5\n\n\r\n              BOTTOM LINE: Phoenix will try to stop its three-game road losing streak when the Suns face Denver.\n\n\r\n              Denver finished 54-28 overall, 36-16 in Western Conference play and 28-13 at home during the 2025-26 season. The Nuggets gave up 116.9 points per game while committing 19.1 fouls last season.\n\n\r\n              Phoenix went 45-37 overall and 29-23 in Western Conference action during the 2025-26 season. The Suns gave up 111.1 points per game while committing 20.6 fouls last season.\n\n\r\n              The two teams match up for the second time this season. The Nuggets defeated the Suns 127-120 in their last meeting on Oct. 31. <a href=\"http://www.espn.com/nba/player/_/id/3936299/jamal-murray\">Jamal Murray</a> led the Nuggets with 39 points, and <a href=\"http://www.espn.com/nba/player/_/id/4066383/miles-bridges\">Miles Bridges</a> led the Suns with 24 points.\n\n\r\n              INJURIES: Nuggets: <a href=\"http://www.espn.com/nba/player/_/id/4432181/julian-strawther\">Julian Strawther</a>: out (knee).\n\n\r\n              Suns: <a href=\"http://www.espn.com/nba/player/_/id/4701232/mark-williams\">Mark Williams</a>: out (shoulder).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50499323"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50499323"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50499323"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401910001"
+      }
+    },
+    "premium": false
+  },
   "videos": [],
   "wallclockAvailable": false,
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "7",
-      "gameProjection": "71.1",
-      "teamChanceLoss": "28.9"
-    },
-    "awayTeam": {
-      "id": "21",
-      "gameProjection": "28.9",
-      "teamChanceLoss": "71.1"
-    }
-  },
-  "winprobability": [],
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401910001",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6074,27 +6129,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/16 vs Suns 2149 tickets left",
+        "ticketName": "11/16 vs Suns 2061 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-16-2026/production/7432981?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/18 vs Celtics 2411 tickets left",
+        "ticketName": "11/18 vs Celtics 2153 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-18-2026/production/7433160?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Rockets 2780 tickets left",
+        "ticketName": "11/20 vs Rockets 2304 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Bulls 1957 tickets left",
+        "ticketName": "11/22 @ Bulls 2000 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-22-2026/production/7433078?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 vs Mavericks 2772 tickets left",
+        "ticketName": "11/24 vs Mavericks 2755 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-30-2026--sports-nba-basketball/production/7417985?wsUser=717",
         "type": "event"
       },
@@ -6114,17 +6169,17 @@
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ 76ers 2240 tickets left",
+        "ticketName": "12/2 @ 76ers 2236 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-12-2-2026/production/7431535?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/12 @ Jazz 2308 tickets left",
+        "ticketName": "12/12 @ Jazz 2307 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-12-12-2026/production/7431687?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/15 @ Trail Blazers 1473 tickets left",
+        "ticketName": "12/15 @ Trail Blazers 1479 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-15-2026/production/7432204?wsUser=717",
         "type": "event"
       },
@@ -6163,6 +6218,12 @@
       "teamLink": "https://www.vividseats.com/denver-nuggets-tickets--sports-nba-basketball/performer/235?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401910001",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
