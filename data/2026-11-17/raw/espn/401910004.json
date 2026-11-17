@@ -2537,6 +2537,67 @@
       "injuries": [
         {
           "status": "Out",
+          "date": "2026-11-17T16:25Z",
+          "athlete": {
+            "id": "3157465",
+            "uid": "s:40~l:46~a:3157465",
+            "guid": "36432468-246f-8e5e-4079-cf34dafef796",
+            "lastName": "Robinson",
+            "fullName": "Duncan Robinson",
+            "displayName": "Duncan Robinson",
+            "shortName": "D. Robinson",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/3157465/duncan-robinson",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
+              "alt": "Duncan Robinson"
+            },
+            "jersey": "55",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/3157465?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Quadriceps",
+            "location": "Leg",
+            "detail": "Strain",
+            "side": "Left",
+            "returnDate": "2026-11-27"
+          }
+        },
+        {
+          "status": "Out",
           "date": "2026-11-16T22:58Z",
           "athlete": {
             "id": "2990962",
@@ -2717,67 +2778,6 @@
         },
         {
           "status": "Out",
-          "date": "2026-11-16T22:37Z",
-          "athlete": {
-            "id": "3157465",
-            "uid": "s:40~l:46~a:3157465",
-            "guid": "36432468-246f-8e5e-4079-cf34dafef796",
-            "lastName": "Robinson",
-            "fullName": "Duncan Robinson",
-            "displayName": "Duncan Robinson",
-            "shortName": "D. Robinson",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/3157465/duncan-robinson",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
-              "alt": "Duncan Robinson"
-            },
-            "jersey": "55",
-            "position": {
-              "name": "Forward",
-              "displayName": "Forward",
-              "abbreviation": "F"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/3157465?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Quadriceps",
-            "location": "Leg",
-            "detail": "Strain",
-            "side": "Left",
-            "returnDate": "2026-11-18"
-          }
-        },
-        {
-          "status": "Out",
           "date": "2026-11-08T16:05Z",
           "athlete": {
             "id": "4433621",
@@ -2845,7 +2845,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -2866,12 +2866,12 @@
       "overUnder": 222.5,
       "spread": -9.5,
       "overOdds": -115.0,
-      "underOdds": -106.0,
+      "underOdds": -105.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 330,
-        "spreadOdds": -110.0,
+        "moneyLine": 340,
+        "spreadOdds": -105.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -2881,8 +2881,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -421,
-        "spreadOdds": -110.0,
+        "moneyLine": -437,
+        "spreadOdds": -116.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/24?lang=en&region=us"
         },
@@ -2896,7 +2896,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028655%3Foutcomes%3D0ML87266267_1",
           "text": "Home Bet",
@@ -2920,7 +2920,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028655%3Foutcomes%3D0ML87266267_3",
           "text": "Away Bet",
@@ -3053,14 +3053,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-421",
+            "odds": "-437",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028655%3Foutcomes%3D0ML87266267_1",
               "text": "Home Bet",
@@ -3085,14 +3085,14 @@
         },
         "away": {
           "close": {
-            "odds": "+330",
+            "odds": "+340",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028655%3Foutcomes%3D0ML87266267_3",
               "text": "Away Bet",
@@ -3122,7 +3122,7 @@
         "home": {
           "close": {
             "line": "-9.5",
-            "odds": "-110",
+            "odds": "-116",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3156,7 +3156,7 @@
         "away": {
           "close": {
             "line": "+9.5",
-            "odds": "-110",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3228,7 +3228,7 @@
         "under": {
           "close": {
             "line": "u222.5",
-            "odds": "-106",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3425,19 +3425,6 @@
     }
   ],
   "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "24",
-      "gameProjection": "78.3",
-      "teamChanceLoss": "21.7"
-    },
-    "awayTeam": {
-      "id": "8",
-      "gameProjection": "21.7",
-      "teamChanceLoss": "78.3"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3462,8 +3449,8 @@
         "type": "Story",
         "headline": "What the NBA's first month has revealed about all 30 teams",
         "description": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams.",
-        "lastModified": "2026-11-17T13:13:34Z",
-        "published": "2026-11-17T13:13:34Z",
+        "lastModified": "2026-11-17T16:32:16Z",
+        "published": "2026-11-17T16:32:16Z",
         "images": [
           {
             "dataSourceIdentifier": "c46b5574fd0ea",
@@ -4375,8 +4362,8 @@
         "type": "Story",
         "headline": "The clock is ticking on Steph Curry's final act with the Warriors",
         "description": "At 38, Curry is still brilliant -- but managing his body has become the biggest battle of his career.",
-        "lastModified": "2026-11-17T12:04:58Z",
-        "published": "2026-11-17T12:04:58Z",
+        "lastModified": "2026-11-17T16:58:52Z",
+        "published": "2026-11-17T16:58:52Z",
         "images": [
           {
             "dataSourceIdentifier": "67a36c394f73c",
@@ -5415,153 +5402,122 @@
       }
     ]
   },
-  "article": {
-    "id": 50499331,
-    "nowId": "1-50499331",
-    "contentKey": "50499331-1-22-1",
-    "dataSourceIdentifier": "3386575d0f4e9",
-    "publishedkey": "nba401910004",
-    "type": "Preview",
-    "gameId": "401910004",
-    "headline": "San Antonio faces Detroit, looks for 6th straight home win",
-    "description": "Detroit Pistons (8-4, third in the Eastern Conference) vs. San Antonio Spurs (12-2, first in the Western Conference)",
-    "title": "San Antonio faces Detroit, looks for 6th straight home win",
-    "linkText": "San Antonio faces Detroit, looks for 6th straight home win",
-    "categorized": "2026-11-16T07:04:52Z",
-    "originallyPosted": "2026-11-16T07:04:51Z",
-    "lastModified": "2026-11-16T07:04:52Z",
-    "published": "2026-11-16T07:04:51Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4548,
-        "type": "team",
-        "uid": "s:40~l:46~t:24",
-        "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
-        "description": "San Antonio Spurs",
-        "sportId": 46,
-        "teamId": 24,
-        "team": {
-          "id": 24,
-          "description": "San Antonio Spurs",
-          "abbreviation": "SA",
-          "shortDisplayName": "Spurs",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401910004",
-        "guid": "ac1121c5-3ecc-3414-8808-0e7f384f33f4",
-        "description": "Detroit Pistons @ San Antonio Spurs",
-        "eventId": 401910004,
-        "event": {
-          "id": 401910004,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ San Antonio Spurs"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "San Antonio Spurs",
-      "Detroit Pistons",
-      "Detroit Pistons @ San Antonio Spurs"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (8-4, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/sa/san-antonio-spurs\">San Antonio Spurs</a> (12-2, first in the Western Conference)\n\n\r\n              San Antonio; Tuesday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: San Antonio hosts Detroit aiming to continue its five-game home winning streak.\n\n\r\n              The Spurs have gone 5-2 in home games. San Antonio ranks ninth in the NBA with 12.9 offensive rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4395723/keldon-johnson\">Keldon Johnson</a> averaging 2.4 offensive boards.\n\n\r\n              The Pistons have gone 5-2 away from home. Detroit is ninth in the NBA with 32.3 defensive rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a> averaging 6.5.\n\n\r\n              The Spurs make 46.8% of their shots from the field this season, which is 2.6 percentage points higher than the Pistons have allowed to their opponents (44.2%). The Pistons average 13.5 made 3-pointers per game this season, 0.7 more makes per game than the Spurs give up.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/5104157/victor-wembanyama\">Victor Wembanyama</a> is averaging 28.6 points, 11.6 rebounds, 3.3 assists and 4.3 blocks for the Spurs. <a href=\"http://www.espn.com/nba/player/_/id/5037871/dylan-harper\">Dylan Harper</a> is averaging 18.3 points over the last 10 games.\n\n\r\n              Thompson is averaging 10.1 points, 8.6 rebounds and 5.1 assists for the Pistons. <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a> is averaging 27.0 points and 5.6 rebounds while shooting 47.4% over the last 10 games.\n\n\r\n              LAST 10 GAMES: Spurs: 10-0, averaging 119.7 points, 50.6 rebounds, 28.1 assists, 8.5 steals and 7.2 blocks per game while shooting 46.8% from the field. Their opponents have averaged 104.4 points per game.\n\n\r\n              Pistons: 6-4, averaging 113.9 points, 43.1 rebounds, 27.1 assists, 9.8 steals and 6.5 blocks per game while shooting 45.7% from the field. Their opponents have averaged 109.9 points.\n\n\r\n              INJURIES: Spurs: <a href=\"http://www.espn.com/nba/player/_/id/4066259/de'aaron-fox\">De'Aaron Fox</a>: day to day (hip), <a href=\"http://www.espn.com/nba/player/_/id/5101845/jayden-quaintance\">Jayden Quaintance</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/6440/tobias-harris\">Tobias Harris</a>: out (calf).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/3157465/duncan-robinson\">Duncan Robinson</a>: day to day (thigh), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50499331"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50499331"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50499331"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401910004"
-      }
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "24",
+      "gameProjection": "78.3",
+      "teamChanceLoss": "21.7"
     },
-    "premium": false
+    "awayTeam": {
+      "id": "8",
+      "gameProjection": "21.7",
+      "teamChanceLoss": "78.3"
+    }
   },
-  "videos": [],
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Spurs Tickets",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets--sports-nba-basketball/performer/754?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/17 vs Pistons 737 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/19 vs Clippers 1049 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 vs Pelicans 1406 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 @ Kings 830 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 @ Trail Blazers 1934 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 vs Lakers 1469 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026--sports-nba-basketball/production/7420272?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 vs Celtics 1410 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-29-2026/production/7431068?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/30 @ Bucks 644 tickets left",
+        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-30-2026/production/7431072?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/3 vs Raptors 1488 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/13 vs Clippers 1400 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-13-2026/production/7431076?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/15 @ Cavaliers 1954 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-15-2026/production/7431080?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 @ Raptors 1223 tickets left",
+        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-16-2026/production/7431070?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Bulls 1348 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-18-2026/production/7431084?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/20 @ Pelicans 1860 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-20-2026/production/7430930?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/21 vs Bucks 1335 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-21-2026/production/7431088?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Pistons",
+      "currentTeamName": "Spurs",
+      "venueName": "Frost Bank Center",
+      "summary": "Tickets as low as $34",
+      "date": "2026-11-18T01:00Z",
+      "dateDay": "Tue",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
+      "venueLink": "https://www.vividseats.com/att-center-tickets/venue/2455?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/san-antonio-spurs-tickets--sports-nba-basketball/performer/754?wsUser=717",
+      "timeValid": true
+    }
+  },
   "header": {
     "id": "401910004",
     "uid": "s:40~l:46~e:401910004",
@@ -6054,8 +6010,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 330,
-              "spreadOdds": -110.0,
+              "moneyLine": 340,
+              "spreadOdds": -105.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -6085,20 +6041,20 @@
                   "american": "+9.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.95,
+                  "displayValue": "20/21",
+                  "alternateDisplayValue": "-105",
+                  "decimal": 1.95,
+                  "fraction": "20/21",
+                  "american": "-105"
                 },
                 "moneyLine": {
-                  "value": 4.3,
-                  "displayValue": "33/10",
-                  "alternateDisplayValue": "+330",
-                  "decimal": 4.3,
-                  "fraction": "33/10",
-                  "american": "+330"
+                  "value": 4.4,
+                  "displayValue": "17/5",
+                  "alternateDisplayValue": "+340",
+                  "decimal": 4.4,
+                  "fraction": "17/5",
+                  "american": "+340"
                 }
               },
               "team": {
@@ -6108,8 +6064,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -421,
-              "spreadOdds": -110.0,
+              "moneyLine": -437,
+              "spreadOdds": -116.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -6139,20 +6095,20 @@
                   "american": "-9.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.86,
+                  "displayValue": "25/29",
+                  "alternateDisplayValue": "-116",
+                  "decimal": 1.86,
+                  "fraction": "25/29",
+                  "american": "-116"
                 },
                 "moneyLine": {
-                  "value": 1.23,
-                  "displayValue": "100/421",
-                  "alternateDisplayValue": "-421",
-                  "decimal": 1.23,
-                  "fraction": "100/421",
-                  "american": "-421"
+                  "value": 1.22,
+                  "displayValue": "100/437",
+                  "alternateDisplayValue": "-437",
+                  "decimal": 1.22,
+                  "fraction": "100/437",
+                  "american": "-437"
                 }
               },
               "team": {
@@ -6169,12 +6125,12 @@
                 "american": "-115"
               },
               "under": {
-                "value": 1.94,
-                "displayValue": "50/53",
-                "alternateDisplayValue": "-106",
-                "decimal": 1.94,
-                "fraction": "50/53",
-                "american": "-106"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "total": {
                 "alternateDisplayValue": "222.5",
@@ -6653,110 +6609,154 @@
       ]
     }
   },
-  "wallclockAvailable": false,
-  "ticketsInfo": {
-    "tickets": [
+  "article": {
+    "id": 50499331,
+    "nowId": "1-50499331",
+    "contentKey": "50499331-1-22-1",
+    "dataSourceIdentifier": "3386575d0f4e9",
+    "publishedkey": "nba401910004",
+    "type": "Preview",
+    "gameId": "401910004",
+    "headline": "San Antonio faces Detroit, looks for 6th straight home win",
+    "description": "Detroit Pistons (8-4, third in the Eastern Conference) vs. San Antonio Spurs (12-2, first in the Western Conference)",
+    "title": "San Antonio faces Detroit, looks for 6th straight home win",
+    "linkText": "San Antonio faces Detroit, looks for 6th straight home win",
+    "categorized": "2026-11-16T07:04:52Z",
+    "originallyPosted": "2026-11-16T07:04:51Z",
+    "lastModified": "2026-11-16T07:04:52Z",
+    "published": "2026-11-16T07:04:51Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
       {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "All Spurs Tickets",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets--sports-nba-basketball/performer/754?wsUser=717",
-        "type": "team"
+        "id": 4548,
+        "type": "team",
+        "uid": "s:40~l:46~t:24",
+        "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+        "description": "San Antonio Spurs",
+        "sportId": 46,
+        "teamId": 24,
+        "team": {
+          "id": 24,
+          "description": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "shortDisplayName": "Spurs",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "11/17 vs Pistons 766 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
-        "type": "event"
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
       },
       {
-        "ticketName": "11/19 vs Clippers 1054 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 vs Pelicans 1429 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 @ Kings 843 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 @ Trail Blazers 1937 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 vs Lakers 1473 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-10-31-2026--sports-nba-basketball/production/7420272?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 vs Celtics 1412 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-29-2026/production/7431068?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/30 @ Bucks 644 tickets left",
-        "ticketLink": "https://www.vividseats.com/milwaukee-bucks-tickets-fiserv-forum-11-30-2026/production/7431072?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/3 vs Raptors 1491 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/13 vs Clippers 1400 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-13-2026/production/7431076?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/15 @ Cavaliers 1954 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-15-2026/production/7431080?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 @ Raptors 1223 tickets left",
-        "ticketLink": "https://www.vividseats.com/toronto-raptors-tickets-scotiabank-arena-12-16-2026/production/7431070?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Bulls 1348 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-18-2026/production/7431084?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/20 @ Pelicans 1860 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-20-2026/production/7430930?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/21 vs Bucks 1335 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-21-2026/production/7431088?wsUser=717",
-        "type": "event"
+        "type": "event",
+        "uid": "s:40~l:46~e:401910004",
+        "guid": "ac1121c5-3ecc-3414-8808-0e7f384f33f4",
+        "description": "Detroit Pistons @ San Antonio Spurs",
+        "eventId": 401910004,
+        "event": {
+          "id": 401910004,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ San Antonio Spurs"
+        }
       }
     ],
-    "seatSituation": {
-      "opponentTeamName": "Pistons",
-      "currentTeamName": "Spurs",
-      "venueName": "Frost Bank Center",
-      "summary": "Tickets as low as $33",
-      "date": "2026-11-18T01:00Z",
-      "dateDay": "Tue",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-17-2026/production/7433019?wsUser=717",
-      "venueLink": "https://www.vividseats.com/att-center-tickets/venue/2455?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/san-antonio-spurs-tickets--sports-nba-basketball/performer/754?wsUser=717",
-      "timeValid": true
-    }
+    "keywords": [
+      "NBA",
+      "San Antonio Spurs",
+      "Detroit Pistons",
+      "Detroit Pistons @ San Antonio Spurs"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (8-4, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/sa/san-antonio-spurs\">San Antonio Spurs</a> (12-2, first in the Western Conference)\n\n\r\n              San Antonio; Tuesday, 8 p.m. EST\n\n\r\n              BOTTOM LINE: San Antonio hosts Detroit aiming to continue its five-game home winning streak.\n\n\r\n              The Spurs have gone 5-2 in home games. San Antonio ranks ninth in the NBA with 12.9 offensive rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4395723/keldon-johnson\">Keldon Johnson</a> averaging 2.4 offensive boards.\n\n\r\n              The Pistons have gone 5-2 away from home. Detroit is ninth in the NBA with 32.3 defensive rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a> averaging 6.5.\n\n\r\n              The Spurs make 46.8% of their shots from the field this season, which is 2.6 percentage points higher than the Pistons have allowed to their opponents (44.2%). The Pistons average 13.5 made 3-pointers per game this season, 0.7 more makes per game than the Spurs give up.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/5104157/victor-wembanyama\">Victor Wembanyama</a> is averaging 28.6 points, 11.6 rebounds, 3.3 assists and 4.3 blocks for the Spurs. <a href=\"http://www.espn.com/nba/player/_/id/5037871/dylan-harper\">Dylan Harper</a> is averaging 18.3 points over the last 10 games.\n\n\r\n              Thompson is averaging 10.1 points, 8.6 rebounds and 5.1 assists for the Pistons. <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a> is averaging 27.0 points and 5.6 rebounds while shooting 47.4% over the last 10 games.\n\n\r\n              LAST 10 GAMES: Spurs: 10-0, averaging 119.7 points, 50.6 rebounds, 28.1 assists, 8.5 steals and 7.2 blocks per game while shooting 46.8% from the field. Their opponents have averaged 104.4 points per game.\n\n\r\n              Pistons: 6-4, averaging 113.9 points, 43.1 rebounds, 27.1 assists, 9.8 steals and 6.5 blocks per game while shooting 45.7% from the field. Their opponents have averaged 109.9 points.\n\n\r\n              INJURIES: Spurs: <a href=\"http://www.espn.com/nba/player/_/id/4066259/de'aaron-fox\">De'Aaron Fox</a>: day to day (hip), <a href=\"http://www.espn.com/nba/player/_/id/5101845/jayden-quaintance\">Jayden Quaintance</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/6440/tobias-harris\">Tobias Harris</a>: out (calf).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/3157465/duncan-robinson\">Duncan Robinson</a>: day to day (thigh), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50499331"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50499331"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50499331"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401910004"
+      }
+    },
+    "premium": false
   },
+  "videos": [],
+  "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401910004",
     "gameSwitcherEnabled": true,
