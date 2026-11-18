@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "23",
             "uid": "s:40~l:46~t:23",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909963",
@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909298",
@@ -1084,8 +1084,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "19",
             "uid": "s:40~l:46~t:19",
@@ -1150,7 +1148,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909992",
@@ -3141,7 +3141,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3158,16 +3158,16 @@
           }
         ]
       },
-      "details": "MIA -12.5",
-      "overUnder": 235.5,
-      "spread": -12.5,
+      "details": "MIA -11.5",
+      "overUnder": 237.5,
+      "spread": -11.5,
       "overOdds": -105.0,
       "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 558,
-        "spreadOdds": -105.0,
+        "moneyLine": 505,
+        "spreadOdds": -107.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/15?lang=en&region=us"
         },
@@ -3177,8 +3177,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -800,
-        "spreadOdds": -115.0,
+        "moneyLine": -700,
+        "spreadOdds": -113.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
         },
@@ -3192,7 +3192,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0ML87277554_1",
           "text": "Home Bet",
@@ -3216,7 +3216,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0ML87277554_3",
           "text": "Away Bet",
@@ -3241,7 +3241,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554N1250_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554N1150_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3254,7 +3254,7 @@
               "gameId": 401910009,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:MIA-12.5"
+              "betDetails": "Spread:MIA-11.5"
             }
           }
         },
@@ -3265,7 +3265,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554P1250_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554P1150_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3278,7 +3278,7 @@
               "gameId": 401910009,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:MIL+12.5"
+              "betDetails": "Spread:MIL+11.5"
             }
           }
         },
@@ -3289,7 +3289,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554O23550_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554O23750_1",
           "text": "Over Odds",
           "shortText": "Over Odds",
           "isExternal": true,
@@ -3302,7 +3302,7 @@
               "gameId": 401910009,
               "betSide": "over",
               "betType": "straight",
-              "betDetails": "Over:235.5"
+              "betDetails": "Over:237.5"
             }
           }
         },
@@ -3313,7 +3313,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554U23550_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554U23750_3",
           "text": "Under Odds",
           "shortText": "Under Odds",
           "isExternal": true,
@@ -3326,7 +3326,7 @@
               "gameId": 401910009,
               "betSide": "under",
               "betType": "straight",
-              "betDetails": "Under:235.5"
+              "betDetails": "Under:237.5"
             }
           }
         },
@@ -3349,14 +3349,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-800",
+            "odds": "-700",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0ML87277554_1",
               "text": "Home Bet",
@@ -3381,14 +3381,14 @@
         },
         "away": {
           "close": {
-            "odds": "+558",
+            "odds": "+505",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0ML87277554_3",
               "text": "Away Bet",
@@ -3417,8 +3417,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-12.5",
-            "odds": "-115",
+            "line": "-11.5",
+            "odds": "-113",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3426,7 +3426,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554N1250_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554N1150_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3439,7 +3439,7 @@
                   "gameId": 401910009,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:MIA-12.5"
+                  "betDetails": "Spread:MIA-11.5"
                 }
               }
             }
@@ -3451,8 +3451,8 @@
         },
         "away": {
           "close": {
-            "line": "+12.5",
-            "odds": "-105",
+            "line": "+11.5",
+            "odds": "-107",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3460,7 +3460,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554P1250_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0HC87277554P1150_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3473,7 +3473,7 @@
                   "gameId": 401910009,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:MIL+12.5"
+                  "betDetails": "Spread:MIL+11.5"
                 }
               }
             }
@@ -3489,7 +3489,7 @@
         "shortDisplayName": "Total",
         "over": {
           "close": {
-            "line": "o235.5",
+            "line": "o237.5",
             "odds": "-105",
             "link": {
               "language": "en-US",
@@ -3498,7 +3498,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554O23550_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554O23750_1",
               "text": "Over Odds",
               "shortText": "Over Odds",
               "isExternal": true,
@@ -3511,7 +3511,7 @@
                   "gameId": 401910009,
                   "betSide": "over",
                   "betType": "straight",
-                  "betDetails": "Over:235.5"
+                  "betDetails": "Over:237.5"
                 }
               }
             }
@@ -3523,7 +3523,7 @@
         },
         "under": {
           "close": {
-            "line": "u235.5",
+            "line": "u237.5",
             "odds": "-115",
             "link": {
               "language": "en-US",
@@ -3532,7 +3532,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554U23550_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033284%3Foutcomes%3D0OU87277554U23750_3",
               "text": "Under Odds",
               "shortText": "Under Odds",
               "isExternal": true,
@@ -3545,7 +3545,7 @@
                   "gameId": 401910009,
                   "betSide": "under",
                   "betType": "straight",
-                  "betDetails": "Under:235.5"
+                  "betDetails": "Under:237.5"
                 }
               }
             }
@@ -3720,6 +3720,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "14",
+      "gameProjection": "80.3",
+      "teamChanceLoss": "19.7"
+    },
+    "awayTeam": {
+      "id": "15",
+      "gameProjection": "19.7",
+      "teamChanceLoss": "80.3"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3737,6 +3751,246 @@
     },
     "articles": [
       {
+        "id": 50520487,
+        "nowId": "1-50520487",
+        "contentKey": "50520487-1-293-1",
+        "dataSourceIdentifier": "81ad41d3cafca",
+        "type": "Media",
+        "headline": "LSU adds former NBA 2-way guard RJ Luis Jr. despite SEC pushback",
+        "description": "LSU adds former NBA 2-way guard RJ Luis Jr. despite SEC pushback",
+        "lastModified": "2026-11-18T14:09:38Z",
+        "published": "2026-11-18T14:09:38Z",
+        "images": [
+          {
+            "name": "LSU adds former NBA 2-way guard RJ Luis Jr. despite SEC pushback",
+            "caption": "LSU adds former NBA 2-way guard RJ Luis Jr. despite SEC pushback",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/ss_20261118_090548471_3747737/ss_20261118_090548471_3747737.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 700682,
+            "type": "contributor",
+            "guid": "ff456499-60fb-3b1e-ba79-a176440f782b",
+            "description": "Mike Greenberg",
+            "slug": "mike-greenberg",
+            "contributor": {
+              "id": 955,
+              "description": "Mike Greenberg"
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 569057,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5106035",
+            "guid": "51ef37a9-c1f0-3cf9-b260-44cc70aad83b",
+            "description": "RJ Luis Jr",
+            "sportId": 46,
+            "athleteId": 5106035,
+            "athlete": {
+              "id": 5106035,
+              "description": "RJ Luis Jr",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5106035/rj-luis-jr"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5106035/rj-luis-jr"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 1098,
+            "type": "team",
+            "uid": "s:20~l:23~t:99",
+            "guid": "b9a22bd6-7449-92bc-0e95-a6d8da673b3e",
+            "description": "LSU Tigers",
+            "sportId": 23,
+            "teamId": 99,
+            "team": {
+              "id": 99,
+              "description": "LSU Tigers",
+              "abbreviation": "LSU",
+              "shortDisplayName": "LSU",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 99,
+            "type": "team",
+            "guid": "bb1fe57d-d53d-3f5d-a207-281ead34f543",
+            "description": "Louisiana State University",
+            "sportId": 3170,
+            "teamId": 99,
+            "team": {
+              "id": 99,
+              "description": "Louisiana State University",
+              "abbreviation": "LSU",
+              "shortDisplayName": "LSU"
+            }
+          },
+          {
+            "id": 3179,
+            "type": "team",
+            "uid": "s:40~l:41~t:2599",
+            "guid": "ff52cb9b-b02b-9bdb-6e1b-48a7ff8f6c5d",
+            "description": "St. John's Red Storm",
+            "sportId": 41,
+            "teamId": 2599,
+            "team": {
+              "id": 2599,
+              "description": "St. John's Red Storm",
+              "abbreviation": "SJU",
+              "shortDisplayName": "St John's",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 2599,
+            "type": "team",
+            "guid": "6d9f51b6-325f-39ce-a24c-2cac097e41b3",
+            "description": "St. John's University (NY)",
+            "sportId": 3170,
+            "teamId": 2599,
+            "team": {
+              "id": 2599,
+              "description": "St. John's University (NY)",
+              "abbreviation": "St. John's",
+              "shortDisplayName": "St. John's"
+            }
+          },
+          {
+            "id": 129407,
+            "type": "topic",
+            "guid": "fc6a8510-0f8d-130b-1ee9-b91d6ab74c0b",
+            "description": "news - ncb",
+            "sportId": 0,
+            "topicId": 126
+          },
+          {
+            "id": 4245,
+            "type": "team",
+            "uid": "s:40~l:46~t:2",
+            "guid": "2ca761df-5f60-b2e9-22ed-e099c46d889b",
+            "description": "Boston Celtics",
+            "sportId": 46,
+            "teamId": 2,
+            "team": {
+              "id": 2,
+              "description": "Boston Celtics",
+              "abbreviation": "BOS",
+              "shortDisplayName": "Celtics",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 730035,
+            "type": "editorialindicator",
+            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
+            "description": "Verts - Exclude Content"
+          },
+          {
+            "id": 756046,
+            "type": "series",
+            "guid": "e114d885-c579-4bfb-b35c-4fc63c302d00",
+            "description": "Get Up!",
+            "series": {
+              "description": "Get Up!"
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/0ef8d919-5766-469b-89ec-1ca80e9f8a8c"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50520487"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50520487&videoDSI=81ad41d3cafca"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50520487/lsu-adds-former-nba-2-way-guard-rj-luis-jr-sec-pushback",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50520487/lsu-adds-former-nba-2-way-guard-rj-luis-jr-sec-pushback",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=81ad41d3cafca"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
         "id": 50513109,
         "nowId": "1-50513109",
         "contentKey": "50513109-1-6-1",
@@ -3744,8 +3998,8 @@
         "type": "Story",
         "headline": "NBA Power Rankings, Week 4: One wild stat for all 30 teams",
         "description": "Here's where all 30 teams rank this week -- along with one remarkable stat that has fueled each franchise through one month of the season.",
-        "lastModified": "2026-11-18T12:32:08Z",
-        "published": "2026-11-18T12:32:08Z",
+        "lastModified": "2026-11-18T15:00:26Z",
+        "published": "2026-11-18T15:00:26Z",
         "images": [
           {
             "dataSourceIdentifier": "2ef8f1865f02b",
@@ -5481,8 +5735,8 @@
         "type": "HeadlineNews",
         "headline": "Kansas' Tyran Stokes to undergo MRI after early exit vs. UNLV",
         "description": "Kansas freshman Tyran Stokes, the projected No. 1 pick in the 2027 NBA draft, left Tuesday's win at UNLV early in the second half.",
-        "lastModified": "2026-11-18T07:32:04Z",
-        "published": "2026-11-18T07:32:04Z",
+        "lastModified": "2026-11-18T14:31:45Z",
+        "published": "2026-11-18T14:31:45Z",
         "images": [
           {
             "dataSourceIdentifier": "94feef9b5d593",
@@ -5496,11 +5750,11 @@
           },
           {
             "type": "Media",
-            "name": "UNLV Rebels vs. Kansas Jayhawks: Game Highlights",
-            "caption": "UNLV Rebels vs. Kansas Jayhawks: Game Highlights",
+            "name": "Tyran Stokes leaves Kansas' win over UNLV with an injury",
+            "caption": "Tyran Stokes leaves Kansas' win over UNLV with an injury",
             "height": 324,
             "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/561cd835-89a5-4942-8847-cad8f14e7b41/561cd835-89a5-4942-8847-cad8f14e7b41.jpg"
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/ss_20261118_084035703_3747723/ss_20261118_084035703_3747723.jpg"
           }
         ],
         "categories": [
@@ -5674,345 +5928,156 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50518068,
-        "nowId": "1-50518068",
-        "contentKey": "50518068-1-293-1",
-        "dataSourceIdentifier": "38c26b16170f9",
-        "type": "Media",
-        "headline": "Utah Jazz vs. LA Clippers: Game Highlights",
-        "description": "Utah Jazz vs. LA Clippers: Game Highlights",
-        "lastModified": "2026-11-18T06:07:57Z",
-        "published": "2026-11-18T06:07:57Z",
-        "images": [
-          {
-            "name": "Utah Jazz vs. LA Clippers: Game Highlights",
-            "caption": "Utah Jazz vs. LA Clippers: Game Highlights",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/e5340672-2fc3-4430-a55e-16ab2b73743c/e5340672-2fc3-4430-a55e-16ab2b73743c.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 187394,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3133602",
-            "guid": "42c14314-82ab-e530-625f-862388fee382",
-            "description": "Svi Mykhailiuk",
-            "sportId": 46,
-            "athleteId": 3133602,
-            "athlete": {
-              "id": 3133602,
-              "description": "Svi Mykhailiuk",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3133602/svi-mykhailiuk"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3133602/svi-mykhailiuk"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4564,
-            "type": "team",
-            "uid": "s:40~l:46~t:26",
-            "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-            "description": "Utah Jazz",
-            "sportId": 46,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "Utah Jazz",
-              "abbreviation": "UTAH",
-              "shortDisplayName": "Jazz",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 187332,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4277919",
-            "guid": "74c0d8a8-9086-966f-3f7a-d48490abc675",
-            "description": "Mo Bamba",
-            "sportId": 46,
-            "athleteId": 4277919,
-            "athlete": {
-              "id": 4277919,
-              "description": "Mo Bamba",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277919/mo-bamba"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4277919/mo-bamba"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 568751,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5105839",
-            "guid": "e4a48b2c-b95d-36c5-b69d-b3dc357ff003",
-            "description": "Brice Sensabaugh",
-            "sportId": 46,
-            "athleteId": 5105839,
-            "athlete": {
-              "id": 5105839,
-              "description": "Brice Sensabaugh",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5105839/brice-sensabaugh"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5105839/brice-sensabaugh"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 711821,
-            "type": "editorialindicator",
-            "guid": "f3e05446-8d07-3064-a239-c10c32884ea2",
-            "description": "SC4U - Full Highlight"
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 47833,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3448",
-            "guid": "3496fbc1-fa88-c332-7f91-f015006e0c8b",
-            "description": "Brook Lopez",
-            "sportId": 46,
-            "athleteId": 3448,
-            "athlete": {
-              "id": 3448,
-              "description": "Brook Lopez",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3448/brook-lopez"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3448/brook-lopez"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 711824,
-            "type": "editorialindicator",
-            "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
-            "description": "SC4U  - Eligible"
-          },
-          {
-            "id": 154798,
-            "type": "team",
-            "uid": "s:40~l:46~t:12",
-            "guid": "083a58a6-b849-3501-e67b-059290d12295",
-            "description": "LA Clippers",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "abbreviation": "LAC",
-              "shortDisplayName": "Clippers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 187294,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4065663",
-            "guid": "d48af517-8b3f-1f26-ad6b-688b2de84fb4",
-            "description": "Josh Okogie",
-            "sportId": 46,
-            "athleteId": 4065663,
-            "athlete": {
-              "id": 4065663,
-              "description": "Josh Okogie",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065663/josh-okogie"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4065663/josh-okogie"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 711828,
-            "type": "editorialindicator",
-            "guid": "b14f9e1f-2d2c-3b10-b39d-d781f4c4aba7",
-            "description": "4 Star Rating"
-          },
-          {
-            "id": 409228,
-            "type": "topic",
-            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
-            "description": "fantasy",
-            "sportId": 0,
-            "topicId": 785
-          },
-          {
-            "id": 191422,
-            "type": "topic",
-            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
-            "description": "nba highlight",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401910006",
-            "guid": "81d34e50-13c5-3906-8ed3-64ee29e132c1",
-            "description": "Utah Jazz @ LA Clippers",
-            "eventId": 401910006,
-            "event": {
-              "id": 401910006,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Utah Jazz @ LA Clippers",
-              "links": {
-                "mobile": {
-                  "event": {
-                    "href": "https://www.espn.com/nba/game/_/gameId/401910006"
-                  }
-                },
-                "web": {
-                  "event": {
-                    "href": "https://www.espn.com/nba/game/_/gameId/401910006"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/5a12415c-b136-414c-aa89-2537e0c76f5d"
-            },
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/50518068"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=50518068&videoDSI=38c26b16170f9"
-          },
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/50518068/game-highlights",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/50518068/game-highlights",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=38c26b16170f9"
-              }
-            }
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "14",
-      "gameProjection": "80.3",
-      "teamChanceLoss": "19.7"
+  "article": {
+    "id": 50508607,
+    "nowId": "1-50508607",
+    "contentKey": "50508607-1-22-1",
+    "dataSourceIdentifier": "451af5d9466e2",
+    "publishedkey": "nba401910009",
+    "type": "Preview",
+    "gameId": "401910009",
+    "headline": "Milwaukee takes on Miami on 10-game skid",
+    "description": "Milwaukee Bucks (1-13, 15th in the Eastern Conference) vs. Miami Heat (8-6, fourth in the Eastern Conference)",
+    "title": "Milwaukee takes on Miami on 10-game skid",
+    "linkText": "Milwaukee takes on Miami on 10-game skid",
+    "categorized": "2026-11-17T07:04:44Z",
+    "originallyPosted": "2026-11-17T07:04:42Z",
+    "lastModified": "2026-11-17T07:04:43Z",
+    "published": "2026-11-17T07:04:42Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4259,
+        "type": "team",
+        "uid": "s:40~l:46~t:14",
+        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+        "description": "Miami Heat",
+        "sportId": 46,
+        "teamId": 14,
+        "team": {
+          "id": 14,
+          "description": "Miami Heat",
+          "abbreviation": "MIA",
+          "shortDisplayName": "Heat",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4453,
+        "type": "team",
+        "uid": "s:40~l:46~t:15",
+        "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
+        "description": "Milwaukee Bucks",
+        "sportId": 46,
+        "teamId": 15,
+        "team": {
+          "id": 15,
+          "description": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "shortDisplayName": "Bucks",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401910009",
+        "guid": "ebde3560-271d-39df-835d-f58fac4ca793",
+        "description": "Milwaukee Bucks @ Miami Heat",
+        "eventId": 401910009,
+        "event": {
+          "id": 401910009,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Milwaukee Bucks @ Miami Heat"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Miami Heat",
+      "Milwaukee Bucks",
+      "Milwaukee Bucks @ Miami Heat"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mil/milwaukee-bucks\">Milwaukee Bucks</a> (1-13, 15th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (8-6, fourth in the Eastern Conference)\n\n\r\n              Miami; Wednesday, 7 p.m. EST\n\n\r\n              BOTTOM LINE: Milwaukee is looking to break its 10-game losing streak with a win over Miami.\n\n\r\n              The Heat have gone 4-2 against Eastern Conference opponents. Miami is third in the league averaging 119.4 points and is shooting 47.2% from the field.\n\n\r\n              The Bucks are 1-10 in conference play. Milwaukee is 1-11 against opponents over .500.\n\n\r\n              The Heat are shooting 47.2% from the field this season, 1.1 percentage points higher than the 46.1% the Bucks allow to opponents. The Heat average 106.1 points per game, 13.0 fewer points than the 119.1 the Heat give up.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/4066261/bam-adebayo\">Bam Adebayo</a> is shooting 52.9% and averaging 18.4 points for the Heat. <a href=\"http://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo\">Giannis Antetokounmpo</a> is averaging 28.2 points over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/3134907/kyle-kuzma\">Kyle Kuzma</a> is shooting 45.0% and averaging 11.3 points for the Bucks. <a href=\"http://www.espn.com/nba/player/_/id/4432848/jaime-jaquez-jr\">Jaime Jaquez Jr</a>. is averaging 2.3 made 3-pointers over the last 10 games.\n\n\r\n              LAST 10 GAMES: Heat: 8-2, averaging 123.5 points, 43.4 rebounds, 31.7 assists, 7.9 steals and 6.0 blocks per game while shooting 48.8% from the field. Their opponents have averaged 118.1 points per game.\n\n\r\n              Bucks: 0-10, averaging 101.9 points, 42.7 rebounds, 24.1 assists, 7.5 steals and 4.8 blocks per game while shooting 40.9% from the field. Their opponents have averaged 118.7 points.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/4997528/nikola-jovic\">Nikola Jovic</a>: out (illness), <a href=\"http://www.espn.com/nba/player/_/id/4601025/pelle-larsson\">Pelle Larsson</a>: out (illness).\n\n\r\n              Bucks: <a href=\"http://www.espn.com/nba/player/_/id/4591725/ryan-rollins\">Ryan Rollins</a>: day to day (illness), <a href=\"http://www.espn.com/nba/player/_/id/4997526/ousmane-dieng\">Ousmane Dieng</a>: out (finger).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50508607"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50508607"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50508607"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401910009"
+      }
     },
-    "awayTeam": {
-      "id": "15",
-      "gameProjection": "19.7",
-      "teamChanceLoss": "80.3"
-    }
+    "premium": false
   },
+  "videos": [],
   "header": {
     "id": "401910009",
     "uid": "s:40~l:46~e:401910009",
@@ -6505,8 +6570,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 558,
-              "spreadOdds": -105.0,
+              "moneyLine": 505,
+              "spreadOdds": -107.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -6532,24 +6597,24 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "+12.5",
-                  "american": "+12.5"
+                  "alternateDisplayValue": "+11.5",
+                  "american": "+11.5"
                 },
                 "spread": {
-                  "value": 1.95,
-                  "displayValue": "20/21",
-                  "alternateDisplayValue": "-105",
-                  "decimal": 1.95,
-                  "fraction": "20/21",
-                  "american": "-105"
+                  "value": 1.93,
+                  "displayValue": "100/107",
+                  "alternateDisplayValue": "-107",
+                  "decimal": 1.93,
+                  "fraction": "100/107",
+                  "american": "-107"
                 },
                 "moneyLine": {
-                  "value": 6.58,
-                  "displayValue": "279/50",
-                  "alternateDisplayValue": "+558",
-                  "decimal": 6.58,
-                  "fraction": "279/50",
-                  "american": "+558"
+                  "value": 6.05,
+                  "displayValue": "101/20",
+                  "alternateDisplayValue": "+505",
+                  "decimal": 6.05,
+                  "fraction": "101/20",
+                  "american": "+505"
                 }
               },
               "team": {
@@ -6559,8 +6624,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -800,
-              "spreadOdds": -115.0,
+              "moneyLine": -700,
+              "spreadOdds": -113.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -6586,24 +6651,24 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "-12.5",
-                  "american": "-12.5"
+                  "alternateDisplayValue": "-11.5",
+                  "american": "-11.5"
                 },
                 "spread": {
-                  "value": 1.86,
-                  "displayValue": "20/23",
-                  "alternateDisplayValue": "-115",
-                  "decimal": 1.86,
-                  "fraction": "20/23",
-                  "american": "-115"
+                  "value": 1.88,
+                  "displayValue": "100/113",
+                  "alternateDisplayValue": "-113",
+                  "decimal": 1.88,
+                  "fraction": "100/113",
+                  "american": "-113"
                 },
                 "moneyLine": {
-                  "value": 1.12,
-                  "displayValue": "1/8",
-                  "alternateDisplayValue": "-800",
-                  "decimal": 1.12,
-                  "fraction": "1/8",
-                  "american": "-800"
+                  "value": 1.14,
+                  "displayValue": "1/7",
+                  "alternateDisplayValue": "-700",
+                  "decimal": 1.14,
+                  "fraction": "1/7",
+                  "american": "-700"
                 }
               },
               "team": {
@@ -6628,8 +6693,8 @@
                 "american": "-115"
               },
               "total": {
-                "alternateDisplayValue": "235.5",
-                "american": "235.5"
+                "alternateDisplayValue": "237.5",
+                "american": "237.5"
               }
             },
             "propBets": [
@@ -7144,6 +7209,7 @@
       ]
     }
   },
+  "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
       {
@@ -7157,42 +7223,42 @@
         "type": "team"
       },
       {
-        "ticketName": "11/18 vs Bucks 1738 tickets left",
+        "ticketName": "11/18 vs Bucks 1526 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-18-2026/production/7432899?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 vs Thunder 3291 tickets left",
+        "ticketName": "11/22 vs Thunder 3313 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-11-22-2026/production/7433128?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ 76ers 1877 tickets left",
+        "ticketName": "11/25 @ 76ers 1874 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-10-31-2026--sports-nba-basketball/production/7419677?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Knicks 2625 tickets left",
+        "ticketName": "11/27 @ Knicks 2619 tickets left",
         "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-30-2026--sports-nba-basketball/production/7419666?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 @ Cavaliers 2074 tickets left",
+        "ticketName": "11/29 @ Cavaliers 2091 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 vs Hawks 4571 tickets left",
+        "ticketName": "12/1 vs Hawks 4555 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-1-2026/production/7431006?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/3 vs Wizards 4044 tickets left",
+        "ticketName": "12/3 vs Wizards 4050 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-3-2026/production/7431008?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/12 vs Knicks 3846 tickets left",
+        "ticketName": "12/12 vs Knicks 3841 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-12-2026/production/7431010?wsUser=717",
         "type": "event"
       },
@@ -7202,7 +7268,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/16 @ Grizzlies 1689 tickets left",
+        "ticketName": "12/16 @ Grizzlies 1687 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-16-2026/production/7431014?wsUser=717",
         "type": "event"
       },
@@ -7236,7 +7302,7 @@
       "opponentTeamName": "Bucks",
       "currentTeamName": "Heat",
       "venueName": "Kaseya Center",
-      "summary": "Tickets as low as $144",
+      "summary": "Tickets as low as $155",
       "date": "2026-11-19T00:00Z",
       "dateDay": "Wed",
       "homeAway": "home",
@@ -7247,154 +7313,6 @@
       "timeValid": true
     }
   },
-  "article": {
-    "id": 50508607,
-    "nowId": "1-50508607",
-    "contentKey": "50508607-1-22-1",
-    "dataSourceIdentifier": "451af5d9466e2",
-    "publishedkey": "nba401910009",
-    "type": "Preview",
-    "gameId": "401910009",
-    "headline": "Milwaukee takes on Miami on 10-game skid",
-    "description": "Milwaukee Bucks (1-13, 15th in the Eastern Conference) vs. Miami Heat (8-6, fourth in the Eastern Conference)",
-    "title": "Milwaukee takes on Miami on 10-game skid",
-    "linkText": "Milwaukee takes on Miami on 10-game skid",
-    "categorized": "2026-11-17T07:04:44Z",
-    "originallyPosted": "2026-11-17T07:04:42Z",
-    "lastModified": "2026-11-17T07:04:43Z",
-    "published": "2026-11-17T07:04:42Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4259,
-        "type": "team",
-        "uid": "s:40~l:46~t:14",
-        "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-        "description": "Miami Heat",
-        "sportId": 46,
-        "teamId": 14,
-        "team": {
-          "id": 14,
-          "description": "Miami Heat",
-          "abbreviation": "MIA",
-          "shortDisplayName": "Heat",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4453,
-        "type": "team",
-        "uid": "s:40~l:46~t:15",
-        "guid": "f59bbabc-eedb-9ad2-c5dd-9bcd9f450a2f",
-        "description": "Milwaukee Bucks",
-        "sportId": 46,
-        "teamId": 15,
-        "team": {
-          "id": 15,
-          "description": "Milwaukee Bucks",
-          "abbreviation": "MIL",
-          "shortDisplayName": "Bucks",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401910009",
-        "guid": "ebde3560-271d-39df-835d-f58fac4ca793",
-        "description": "Milwaukee Bucks @ Miami Heat",
-        "eventId": 401910009,
-        "event": {
-          "id": 401910009,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Milwaukee Bucks @ Miami Heat"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Miami Heat",
-      "Milwaukee Bucks",
-      "Milwaukee Bucks @ Miami Heat"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/mil/milwaukee-bucks\">Milwaukee Bucks</a> (1-13, 15th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mia/miami-heat\">Miami Heat</a> (8-6, fourth in the Eastern Conference)\n\n\r\n              Miami; Wednesday, 7 p.m. EST\n\n\r\n              BOTTOM LINE: Milwaukee is looking to break its 10-game losing streak with a win over Miami.\n\n\r\n              The Heat have gone 4-2 against Eastern Conference opponents. Miami is third in the league averaging 119.4 points and is shooting 47.2% from the field.\n\n\r\n              The Bucks are 1-10 in conference play. Milwaukee is 1-11 against opponents over .500.\n\n\r\n              The Heat are shooting 47.2% from the field this season, 1.1 percentage points higher than the 46.1% the Bucks allow to opponents. The Heat average 106.1 points per game, 13.0 fewer points than the 119.1 the Heat give up.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/4066261/bam-adebayo\">Bam Adebayo</a> is shooting 52.9% and averaging 18.4 points for the Heat. <a href=\"http://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo\">Giannis Antetokounmpo</a> is averaging 28.2 points over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/3134907/kyle-kuzma\">Kyle Kuzma</a> is shooting 45.0% and averaging 11.3 points for the Bucks. <a href=\"http://www.espn.com/nba/player/_/id/4432848/jaime-jaquez-jr\">Jaime Jaquez Jr</a>. is averaging 2.3 made 3-pointers over the last 10 games.\n\n\r\n              LAST 10 GAMES: Heat: 8-2, averaging 123.5 points, 43.4 rebounds, 31.7 assists, 7.9 steals and 6.0 blocks per game while shooting 48.8% from the field. Their opponents have averaged 118.1 points per game.\n\n\r\n              Bucks: 0-10, averaging 101.9 points, 42.7 rebounds, 24.1 assists, 7.5 steals and 4.8 blocks per game while shooting 40.9% from the field. Their opponents have averaged 118.7 points.\n\n\r\n              INJURIES: Heat: <a href=\"http://www.espn.com/nba/player/_/id/4997528/nikola-jovic\">Nikola Jovic</a>: out (illness), <a href=\"http://www.espn.com/nba/player/_/id/4601025/pelle-larsson\">Pelle Larsson</a>: out (illness).\n\n\r\n              Bucks: <a href=\"http://www.espn.com/nba/player/_/id/4591725/ryan-rollins\">Ryan Rollins</a>: day to day (illness), <a href=\"http://www.espn.com/nba/player/_/id/4997526/ousmane-dieng\">Ousmane Dieng</a>: out (finger).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50508607"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50508607"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50508607"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401910009"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401910009",
     "gameSwitcherEnabled": true,
