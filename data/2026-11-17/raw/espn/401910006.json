@@ -574,8 +574,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -640,7 +638,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909987",
@@ -819,6 +819,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "16",
             "uid": "s:40~l:46~t:16",
@@ -883,9 +885,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
         },
         {
           "id": "401909963",
@@ -907,8 +907,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "14",
             "uid": "s:40~l:46~t:14",
@@ -973,7 +971,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909973",
@@ -3487,16 +3487,16 @@
           }
         ]
       },
-      "details": "LAC -6.5",
+      "details": "LAC -5.5",
       "overUnder": 226.5,
-      "spread": -6.5,
-      "overOdds": -105.0,
-      "underOdds": -115.0,
+      "spread": -5.5,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 190,
-        "spreadOdds": -119.0,
+        "spreadOdds": -103.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/26?lang=en&region=us"
         },
@@ -3507,7 +3507,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -229,
-        "spreadOdds": -101.0,
+        "spreadOdds": -117.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
         },
@@ -3570,7 +3570,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278N650_1",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278N550_1",
           "text": "Home Point Spread",
           "shortText": "Home Point Spread",
           "isExternal": true,
@@ -3583,7 +3583,7 @@
               "gameId": 401910006,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:LAC-6.5"
+              "betDetails": "Spread:LAC-5.5"
             }
           }
         },
@@ -3594,7 +3594,7 @@
             "desktop",
             "bets"
           ],
-          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278P650_3",
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278P550_3",
           "text": "Away Point Spread",
           "shortText": "Away Point Spread",
           "isExternal": true,
@@ -3607,7 +3607,7 @@
               "gameId": 401910006,
               "betSide": "none",
               "betType": "straight",
-              "betDetails": "Spread:UTAH+6.5"
+              "betDetails": "Spread:UTAH+5.5"
             }
           }
         },
@@ -3746,8 +3746,8 @@
         "shortDisplayName": "Spread",
         "home": {
           "close": {
-            "line": "-6.5",
-            "odds": "-101",
+            "line": "-5.5",
+            "odds": "-117",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3755,7 +3755,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278N650_1",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278N550_1",
               "text": "Home Point Spread",
               "shortText": "Home Point Spread",
               "isExternal": true,
@@ -3768,7 +3768,7 @@
                   "gameId": 401910006,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:LAC-6.5"
+                  "betDetails": "Spread:LAC-5.5"
                 }
               }
             }
@@ -3780,8 +3780,8 @@
         },
         "away": {
           "close": {
-            "line": "+6.5",
-            "odds": "-119",
+            "line": "+5.5",
+            "odds": "-103",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3789,7 +3789,7 @@
                 "desktop",
                 "bets"
               ],
-              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278P650_3",
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35028657%3Foutcomes%3D0HC87266278P550_3",
               "text": "Away Point Spread",
               "shortText": "Away Point Spread",
               "isExternal": true,
@@ -3802,7 +3802,7 @@
                   "gameId": 401910006,
                   "betSide": "none",
                   "betType": "straight",
-                  "betDetails": "Spread:UTAH+6.5"
+                  "betDetails": "Spread:UTAH+5.5"
                 }
               }
             }
@@ -3819,7 +3819,7 @@
         "over": {
           "close": {
             "line": "o226.5",
-            "odds": "-105",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3853,7 +3853,7 @@
         "under": {
           "close": {
             "line": "u226.5",
-            "odds": "-115",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -4049,871 +4049,6 @@
       "records": []
     }
   ],
-  "news": {
-    "header": "NBA News",
-    "link": {
-      "language": "en",
-      "rel": [
-        "index",
-        "desktop",
-        "league"
-      ],
-      "href": "https://www.espn.com/nba/",
-      "text": "All NBA News",
-      "shortText": "All News",
-      "isExternal": false,
-      "isPremium": false
-    },
-    "articles": [
-      {
-        "id": 50514699,
-        "nowId": "1-50514699",
-        "contentKey": "50514699-1-5-1",
-        "dataSourceIdentifier": "44da26a78b52b",
-        "type": "HeadlineNews",
-        "headline": "76ers' LeBron James sues makers of AI sports-betting app 'Bron'",
-        "description": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing.",
-        "lastModified": "2026-11-17T23:41:45Z",
-        "published": "2026-11-17T23:41:45Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "2bdc56891da9d",
-            "id": 50514685,
-            "type": "header",
-            "name": "LeBron James  [600x400]",
-            "credit": "Wendell Cruz/Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1117/r1747324_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "LeBron James moves past Jason Kidd for third all time in assists",
-            "caption": "LeBron James moves past Jason Kidd for third all time in assists",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/87c5d6cd92a5432c8e6ce6d77acc0b751009/87c5d6cd92a5432c8e6ce6d77acc0b751009.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9385,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:1966",
-            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
-            "description": "LeBron James",
-            "sportId": 46,
-            "athleteId": 1966,
-            "athlete": {
-              "id": 1966,
-              "description": "LeBron James",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50514699"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50514699"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50514699"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50514496,
-        "nowId": "1-50514496",
-        "contentKey": "50514496-1-5-1",
-        "dataSourceIdentifier": "05854f6599a86",
-        "type": "HeadlineNews",
-        "headline": "Raptors say Kawhi Leonard progressing but out at least another week",
-        "description": "The Raptors said Tuesday that while Kawhi Leonard is progressing in his recovery from left knee swelling, he will remain out for at least another week.",
-        "lastModified": "2026-11-17T23:23:13Z",
-        "published": "2026-11-17T23:23:13Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "07ea0883d04b0",
-            "id": 50281291,
-            "type": "header",
-            "name": "Kawhi Leonard [600x400]",
-            "credit": "Brad Mills-Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4469,
-            "type": "team",
-            "uid": "s:40~l:46~t:28",
-            "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
-            "description": "Toronto Raptors",
-            "sportId": 46,
-            "teamId": 28,
-            "team": {
-              "id": 28,
-              "description": "Toronto Raptors",
-              "abbreviation": "TOR",
-              "shortDisplayName": "Raptors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 91976,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:6450",
-            "guid": "87ff907c-c68c-a82d-1215-37e05d0c62ef",
-            "description": "Kawhi Leonard",
-            "sportId": 46,
-            "athleteId": 6450,
-            "athlete": {
-              "id": 6450,
-              "description": "Kawhi Leonard",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50514496"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50514496"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50514496"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50514496/raptors-kawhi-leonard-progressing-another-week"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50513416,
-        "nowId": "1-50513416",
-        "contentKey": "50513416-1-5-1",
-        "dataSourceIdentifier": "b2c2cd47acf63",
-        "type": "HeadlineNews",
-        "headline": "Terry Rozier co-defendant signals intent to change plea in NBA betting case",
-        "description": "Deniro Laster, a co-defendant in the federal sports betting case involving NBA player Terry Rozier, has signaled his intent to plead guilty.",
-        "lastModified": "2026-11-18T00:00:42Z",
-        "published": "2026-11-18T00:00:42Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "8af2e68c1fef8",
-            "id": 50514448,
-            "type": "header",
-            "name": "Deniro Laster [1296x729]",
-            "credit": "CHARLY TRIBALLEAU / AFP via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1117/r1747306_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 129403,
-            "type": "topic",
-            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
-            "description": "news - nba",
-            "sportId": 0,
-            "topicId": 122
-          },
-          {
-            "id": 137817,
-            "type": "topic",
-            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
-            "description": "news \u2013 sports betting",
-            "sportId": 0,
-            "topicId": 179
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 140919,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3074752",
-            "guid": "639066f0-013b-1e66-9f75-58454a8c43f2",
-            "description": "Terry Rozier",
-            "sportId": 46,
-            "athleteId": 3074752,
-            "athlete": {
-              "id": 3074752,
-              "description": "Terry Rozier",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3074752/terry-rozier"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3074752/terry-rozier"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 758208,
-            "type": "contributor",
-            "guid": "4e1c35af-4753-303a-afa9-238f400fef6b",
-            "description": "Tom Schad",
-            "slug": "tom-schad",
-            "contributor": {
-              "id": 4345,
-              "description": "Tom Schad"
-            }
-          }
-        ],
-        "byline": "Tom Schad",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50513416"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50513416"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50513416"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50513416/deniro-laster-terry-rozier-friend-change-plea-nba-betting"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50514320,
-        "nowId": "1-50514320",
-        "contentKey": "50514320-1-5-1",
-        "dataSourceIdentifier": "23f8e12ce709d",
-        "type": "HeadlineNews",
-        "headline": "76ers' Jaylen Brown (hamstring) to miss Wednesday's game vs. Magic",
-        "description": "Philadelphia 76ers forward Jaylen Brown will miss Wednesday's game against the Orlando Magic with a left hamstring strain, the Sixers announced Tuesday afternoon.",
-        "lastModified": "2026-11-17T23:40:15Z",
-        "published": "2026-11-17T23:40:15Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "7685789b3e4c0",
-            "id": 50293140,
-            "type": "header",
-            "name": "Jaylen Brown [600x400]",
-            "credit": "Bill Streicher-Imagn Images",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/1027/r1736831_600x400_3-2.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4323,
-            "type": "team",
-            "uid": "s:40~l:46~t:20",
-            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
-            "description": "Philadelphia 76ers",
-            "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
-              "abbreviation": "PHI",
-              "shortDisplayName": "76ers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154335,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3917376",
-            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
-            "description": "Jaylen Brown",
-            "sportId": 46,
-            "athleteId": 3917376,
-            "athlete": {
-              "id": 3917376,
-              "description": "Jaylen Brown",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 696331,
-            "type": "contributor",
-            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
-            "description": "Kris Rhim",
-            "slug": "kris-rhim",
-            "contributor": {
-              "id": 3957,
-              "description": "Kris Rhim"
-            }
-          }
-        ],
-        "byline": "Kris Rhim",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50514320"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50514320"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50514320"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50514320/76ers-brown-hamstring-miss-wednesday-game-vs-magic"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50028196,
-        "nowId": "1-50028196",
-        "contentKey": "50028196-1-6-1",
-        "dataSourceIdentifier": "6c1d8d0c3198e",
-        "type": "Story",
-        "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-        "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-        "lastModified": "2026-11-17T22:29:08Z",
-        "published": "2026-11-17T22:29:08Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "ccdc023633d08",
-            "id": 43498599,
-            "type": "header",
-            "name": "Dejounte Murray  [608x342]",
-            "caption": "Dejounte Murray drives to the basket vs. Utah Jazz at Smoothie King Center in New Orleans, Louisiana, on Jan. 20, 2025.",
-            "credit": "Layne Murdoch Jr./NBAE via Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "9794d99d85fc9",
-            "id": 50241205,
-            "type": "header",
-            "name": "porzingis [608x342] - Copy",
-            "credit": "D. Ross Cameron-Imagn Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "1d2dd1b0f7447",
-            "id": 50061081,
-            "type": "header",
-            "name": "kat [608x342]",
-            "credit": "Photo by Caleb Bowlin/Getty Images",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "a754860d3e38f",
-            "id": 50028282,
-            "type": "header",
-            "name": "NBA LOGO [608x342] - Copy",
-            "credit": "(Photo by Erica Denhoff/Icon Sportswire)",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2025/1112/r1574764_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Luka drops 43 points, adds nine assists in Lakers' eighth straight win",
-            "caption": "Luka drops 43 points, adds nine assists in Lakers' eighth straight win",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/ss_20261115_191414964_3744548/ss_20261115_191414964_3744548.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409222,
-            "type": "topic",
-            "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
-            "description": "daily",
-            "sportId": 0,
-            "topicId": 779
-          },
-          {
-            "id": 186377,
-            "type": "topic",
-            "guid": "ed07e700-de42-54a7-801c-285e65560e82",
-            "description": "nba free agency",
-            "sportId": 0,
-            "topicId": 677
-          },
-          {
-            "id": 128110,
-            "type": "topic",
-            "guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-            "description": "news - frontpage",
-            "sportId": 0,
-            "topicId": 92
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50028196"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50028196"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50028196"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50513506,
-        "nowId": "1-50513506",
-        "contentKey": "50513506-1-5-1",
-        "dataSourceIdentifier": "e9ca66ad4348b",
-        "type": "HeadlineNews",
-        "headline": "Hawks lose guard CJ McCollum for at least 4 weeks with calf strain",
-        "description": "Atlanta Hawks guard CJ McCollum will miss at least four weeks with a left calf strain, the team announced Tuesday.",
-        "lastModified": "2026-11-17T21:43:09Z",
-        "published": "2026-11-17T21:43:09Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "9c8740aec0970",
-            "id": 48642599,
-            "type": "header",
-            "name": "Hawks [600x400]",
-            "credit": "Copyright 2026 NBAE (Photo by Adam Hagy/NBAE via Getty Images)",
-            "height": 400,
-            "width": 600,
-            "url": "https://a.espncdn.com/photo/2026/0501/r1651721_600x400_3-2.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Hawks send the Bucks to their 10th-straight loss",
-            "caption": "Hawks send the Bucks to their 10th-straight loss",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/88e42a7505e94cfd81b7f8b08c827df21367/88e42a7505e94cfd81b7f8b08c827df21367.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4358,
-            "type": "team",
-            "uid": "s:40~l:46~t:1",
-            "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-            "description": "Atlanta Hawks",
-            "sportId": 46,
-            "teamId": 1,
-            "team": {
-              "id": 1,
-              "description": "Atlanta Hawks",
-              "abbreviation": "ATL",
-              "shortDisplayName": "Hawks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 117627,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:2490149",
-            "guid": "650bab3d-b658-cba4-a596-044c1e1fa8c0",
-            "description": "CJ McCollum",
-            "sportId": 46,
-            "athleteId": 2490149,
-            "athlete": {
-              "id": 2490149,
-              "description": "CJ McCollum",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/2490149/cj-mccollum"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/2490149/cj-mccollum"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 687626,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4873201",
-            "guid": "845890e6-99e5-3258-8430-8923e17e4a2d",
-            "description": "Asa Newell",
-            "sportId": 46,
-            "athleteId": 4873201,
-            "athlete": {
-              "id": 4873201,
-              "description": "Asa Newell",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4873201/asa-newell"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4873201/asa-newell"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50513506"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50513506"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50513506"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50513506/hawks-lose-cj-mccollum-least-4-weeks-calf-strain"
-          }
-        },
-        "premium": false
-      }
-    ]
-  },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "12",
-      "gameProjection": "61.7",
-      "teamChanceLoss": "38.3"
-    },
-    "awayTeam": {
-      "id": "26",
-      "gameProjection": "38.3",
-      "teamChanceLoss": "61.7"
-    }
-  },
-  "winprobability": [],
   "header": {
     "id": "401910006",
     "uid": "s:40~l:46~e:401910006",
@@ -5407,7 +4542,7 @@
               "favorite": false,
               "underdog": true,
               "moneyLine": 190,
-              "spreadOdds": -119.0,
+              "spreadOdds": -103.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5433,16 +4568,16 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "+6.5",
-                  "american": "+6.5"
+                  "alternateDisplayValue": "+5.5",
+                  "american": "+5.5"
                 },
                 "spread": {
-                  "value": 1.84,
-                  "displayValue": "100/119",
-                  "alternateDisplayValue": "-119",
-                  "decimal": 1.84,
-                  "fraction": "100/119",
-                  "american": "-119"
+                  "value": 1.97,
+                  "displayValue": "100/103",
+                  "alternateDisplayValue": "-103",
+                  "decimal": 1.97,
+                  "fraction": "100/103",
+                  "american": "-103"
                 },
                 "moneyLine": {
                   "value": 2.9,
@@ -5461,7 +4596,7 @@
               "favorite": true,
               "underdog": false,
               "moneyLine": -229,
-              "spreadOdds": -101.0,
+              "spreadOdds": -117.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5487,16 +4622,16 @@
               },
               "current": {
                 "pointSpread": {
-                  "alternateDisplayValue": "-6.5",
-                  "american": "-6.5"
+                  "alternateDisplayValue": "-5.5",
+                  "american": "-5.5"
                 },
                 "spread": {
-                  "value": 1.99,
-                  "displayValue": "100/101",
-                  "alternateDisplayValue": "-101",
-                  "decimal": 1.99,
-                  "fraction": "100/101",
-                  "american": "-101"
+                  "value": 1.85,
+                  "displayValue": "100/117",
+                  "alternateDisplayValue": "-117",
+                  "decimal": 1.85,
+                  "fraction": "100/117",
+                  "american": "-117"
                 },
                 "moneyLine": {
                   "value": 1.43,
@@ -5513,20 +4648,20 @@
             },
             "current": {
               "over": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "under": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "total": {
                 "alternateDisplayValue": "226.5",
@@ -6193,6 +5328,858 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "12",
+      "gameProjection": "62.2",
+      "teamChanceLoss": "37.8"
+    },
+    "awayTeam": {
+      "id": "26",
+      "gameProjection": "37.8",
+      "teamChanceLoss": "62.2"
+    }
+  },
+  "winprobability": [],
+  "news": {
+    "header": "NBA News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/nba/",
+      "text": "All NBA News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 50515349,
+        "nowId": "1-50515349",
+        "contentKey": "50515349-1-5-1",
+        "dataSourceIdentifier": "56dce64d74213",
+        "type": "HeadlineNews",
+        "headline": "Trail Blazers rule star Deni Avdija out vs. Timberwolves with sore foot",
+        "description": "The Trail Blazers ruled out star Deni Avdija for Tuesday night's game against the Timberwolves due to a sore left foot.",
+        "lastModified": "2026-11-18T00:55:23Z",
+        "published": "2026-11-18T00:55:23Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "681813a390be1",
+            "id": 50515310,
+            "type": "header",
+            "name": "Avdija [600x400]",
+            "credit": "Bruce Kluckhohn-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1118/r1747379_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4659,
+            "type": "team",
+            "uid": "s:40~l:46~t:22",
+            "guid": "ed294c02-3c44-db14-9e06-1b4e8cff9558",
+            "description": "Portland Trail Blazers",
+            "sportId": 46,
+            "teamId": 22,
+            "team": {
+              "id": 22,
+              "description": "Portland Trail Blazers",
+              "abbreviation": "POR",
+              "shortDisplayName": "Trail Blazers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4533,
+            "type": "team",
+            "uid": "s:40~l:46~t:16",
+            "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+            "description": "Minnesota Timberwolves",
+            "sportId": 46,
+            "teamId": 16,
+            "team": {
+              "id": 16,
+              "description": "Minnesota Timberwolves",
+              "abbreviation": "MIN",
+              "shortDisplayName": "Timberwolves",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 457719,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4683021",
+            "guid": "c025f56a-78ee-3e47-be5a-f962c1b58ffb",
+            "description": "Deni Avdija",
+            "sportId": 46,
+            "athleteId": 4683021,
+            "athlete": {
+              "id": 4683021,
+              "description": "Deni Avdija",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696270,
+            "type": "contributor",
+            "guid": "4a6cc67f-ee21-3b0c-a8e6-67c4b3703876",
+            "description": "Jamal Collier",
+            "slug": "jamal-collier",
+            "contributor": {
+              "id": 3897,
+              "description": "Jamal Collier"
+            }
+          }
+        ],
+        "byline": "Jamal Collier",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50515349"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50515349"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50515349"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50515349/blazers-rule-star-deni-avdija-vs-wolves-sore-foot"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50085674,
+        "nowId": "1-50085674",
+        "contentKey": "50085674-1-6-1",
+        "dataSourceIdentifier": "670febcfb7121",
+        "type": "Story",
+        "headline": "Miami Heat unveil 'A Night in Vice City' court, activities ahead of GTA VI release",
+        "description": "With Grand Theft Auto VI's long-awaited release date Thursday, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
+        "lastModified": "2026-11-18T00:19:35Z",
+        "published": "2026-11-18T00:19:35Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "049db4397bc7b",
+            "id": 50085627,
+            "type": "header",
+            "name": "miami vice city roof [608x342]",
+            "caption": "The Heat kicked off the promotion for the team's special  \u201cA Night in Vice City\u201d event on Thursday, lighting up \u201cWelcome to Vice City\u201d signage on the roof of the Kaseya Center.",
+            "credit": "Via Miami HEAT",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1002/r1725012_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shams: Bids for Las Vegas NBA expansion team down to 3 finalists",
+            "caption": "Shams: Bids for Las Vegas NBA expansion team down to 3 finalists",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/ss_20260930_160247853_3680072965/ss_20260930_160247853_3680072965.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4259,
+            "type": "team",
+            "uid": "s:40~l:46~t:14",
+            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
+            "description": "Miami Heat",
+            "sportId": 46,
+            "teamId": 14,
+            "team": {
+              "id": 14,
+              "description": "Miami Heat",
+              "abbreviation": "MIA",
+              "shortDisplayName": "Heat",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50085674"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50085674"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50085674"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50514699,
+        "nowId": "1-50514699",
+        "contentKey": "50514699-1-5-1",
+        "dataSourceIdentifier": "44da26a78b52b",
+        "type": "HeadlineNews",
+        "headline": "76ers' LeBron James sues makers of AI sports-betting app 'Bron'",
+        "description": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing.",
+        "lastModified": "2026-11-18T00:46:27Z",
+        "published": "2026-11-18T00:46:27Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "2bdc56891da9d",
+            "id": 50514685,
+            "type": "header",
+            "name": "LeBron James  [600x400]",
+            "credit": "Wendell Cruz/Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1117/r1747324_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "LeBron James moves past Jason Kidd for third all time in assists",
+            "caption": "LeBron James moves past Jason Kidd for third all time in assists",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/87c5d6cd92a5432c8e6ce6d77acc0b751009/87c5d6cd92a5432c8e6ce6d77acc0b751009.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9385,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:1966",
+            "guid": "1f6592b3-ff53-d321-8dc5-6038d48c1786",
+            "description": "LeBron James",
+            "sportId": 46,
+            "athleteId": 1966,
+            "athlete": {
+              "id": 1966,
+              "description": "LeBron James",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50514699"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50514699"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50514699"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50514496,
+        "nowId": "1-50514496",
+        "contentKey": "50514496-1-5-1",
+        "dataSourceIdentifier": "05854f6599a86",
+        "type": "HeadlineNews",
+        "headline": "Raptors say Kawhi Leonard progressing but out at least another week",
+        "description": "The Raptors said Tuesday that while Kawhi Leonard is progressing in his recovery from left knee swelling, he will remain out for at least another week.",
+        "lastModified": "2026-11-17T23:23:13Z",
+        "published": "2026-11-17T23:23:13Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "07ea0883d04b0",
+            "id": 50281291,
+            "type": "header",
+            "name": "Kawhi Leonard [600x400]",
+            "credit": "Brad Mills-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4469,
+            "type": "team",
+            "uid": "s:40~l:46~t:28",
+            "guid": "5a9c33b8-63fd-ff34-a833-925fe89320a6",
+            "description": "Toronto Raptors",
+            "sportId": 46,
+            "teamId": 28,
+            "team": {
+              "id": 28,
+              "description": "Toronto Raptors",
+              "abbreviation": "TOR",
+              "shortDisplayName": "Raptors",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 91976,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:6450",
+            "guid": "87ff907c-c68c-a82d-1215-37e05d0c62ef",
+            "description": "Kawhi Leonard",
+            "sportId": 46,
+            "athleteId": 6450,
+            "athlete": {
+              "id": 6450,
+              "description": "Kawhi Leonard",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50514496"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50514496"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50514496"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50514496/raptors-kawhi-leonard-progressing-another-week"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50513416,
+        "nowId": "1-50513416",
+        "contentKey": "50513416-1-5-1",
+        "dataSourceIdentifier": "b2c2cd47acf63",
+        "type": "HeadlineNews",
+        "headline": "Terry Rozier co-defendant signals intent to change plea in NBA betting case",
+        "description": "Deniro Laster, a co-defendant in the federal sports betting case involving NBA player Terry Rozier, has signaled his intent to plead guilty.",
+        "lastModified": "2026-11-18T00:52:22Z",
+        "published": "2026-11-18T00:52:22Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "8af2e68c1fef8",
+            "id": 50514448,
+            "type": "header",
+            "name": "Deniro Laster [1296x729]",
+            "credit": "CHARLY TRIBALLEAU / AFP via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1117/r1747306_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Rozier co-defendant signals intent to change plea in NBA betting case",
+            "caption": "Rozier co-defendant signals intent to change plea in NBA betting case",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/a6078eaa-855f-4796-9a95-059acb0964b0/a6078eaa-855f-4796-9a95-059acb0964b0.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 137817,
+            "type": "topic",
+            "guid": "14f579db-79ec-a898-9405-8fec63e16063",
+            "description": "news \u2013 sports betting",
+            "sportId": 0,
+            "topicId": 179
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 140919,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3074752",
+            "guid": "639066f0-013b-1e66-9f75-58454a8c43f2",
+            "description": "Terry Rozier",
+            "sportId": 46,
+            "athleteId": 3074752,
+            "athlete": {
+              "id": 3074752,
+              "description": "Terry Rozier",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3074752/terry-rozier"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3074752/terry-rozier"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 758208,
+            "type": "contributor",
+            "guid": "4e1c35af-4753-303a-afa9-238f400fef6b",
+            "description": "Tom Schad",
+            "slug": "tom-schad",
+            "contributor": {
+              "id": 4345,
+              "description": "Tom Schad"
+            }
+          }
+        ],
+        "byline": "Tom Schad",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50513416"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50513416"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50513416"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50513416/deniro-laster-terry-rozier-friend-change-plea-nba-betting"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50514320,
+        "nowId": "1-50514320",
+        "contentKey": "50514320-1-5-1",
+        "dataSourceIdentifier": "23f8e12ce709d",
+        "type": "HeadlineNews",
+        "headline": "76ers' Jaylen Brown (hamstring) to miss Wednesday's game vs. Magic",
+        "description": "Philadelphia 76ers forward Jaylen Brown will miss Wednesday's game against the Orlando Magic with a left hamstring strain, the Sixers announced Tuesday afternoon.",
+        "lastModified": "2026-11-17T23:40:15Z",
+        "published": "2026-11-17T23:40:15Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7685789b3e4c0",
+            "id": 50293140,
+            "type": "header",
+            "name": "Jaylen Brown [600x400]",
+            "credit": "Bill Streicher-Imagn Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1027/r1736831_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154335,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3917376",
+            "guid": "0d5cde01-f6d3-225f-dae5-44ef3304cda2",
+            "description": "Jaylen Brown",
+            "sportId": 46,
+            "athleteId": 3917376,
+            "athlete": {
+              "id": 3917376,
+              "description": "Jaylen Brown",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696331,
+            "type": "contributor",
+            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
+            "description": "Kris Rhim",
+            "slug": "kris-rhim",
+            "contributor": {
+              "id": 3957,
+              "description": "Kris Rhim"
+            }
+          }
+        ],
+        "byline": "Kris Rhim",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50514320"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50514320"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50514320"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50514320/76ers-brown-hamstring-miss-wednesday-game-vs-magic"
+          }
+        },
+        "premium": false
+      }
+    ]
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -6206,22 +6193,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/17 vs Jazz 1051 tickets left",
+        "ticketName": "11/17 vs Jazz 950 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-11-17-2026/production/7433110?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/19 @ Spurs 998 tickets left",
+        "ticketName": "11/19 @ Spurs 970 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Mavericks 1922 tickets left",
+        "ticketName": "11/21 @ Mavericks 1917 tickets left",
         "ticketLink": "https://www.vividseats.com/dallas-mavericks-tickets-american-airlines-center---tx-11-21-2026/production/7433114?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Rockets 3051 tickets left",
+        "ticketName": "11/23 @ Rockets 3038 tickets left",
         "ticketLink": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-11-23-2026/production/7430996?wsUser=717",
         "type": "event"
       },
@@ -6231,7 +6218,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/27 vs Pelicans 1748 tickets left",
+        "ticketName": "11/27 vs Pelicans 1745 tickets left",
         "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-31-2026--sports-nba-basketball/production/7419904?wsUser=717",
         "type": "event"
       },
@@ -6241,7 +6228,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ Suns 2920 tickets left",
+        "ticketName": "12/1 @ Suns 2945 tickets left",
         "ticketLink": "https://www.vividseats.com/phoenix-suns-tickets-mortgage-matchup-center-12-1-2026/production/7431532?wsUser=717",
         "type": "event"
       },
@@ -6261,7 +6248,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/18 @ Heat 4522 tickets left",
+        "ticketName": "12/18 @ Heat 4582 tickets left",
         "ticketLink": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-18-2026/production/7431016?wsUser=717",
         "type": "event"
       },
@@ -6285,7 +6272,7 @@
       "opponentTeamName": "Jazz",
       "currentTeamName": "Clippers",
       "venueName": "Intuit Dome",
-      "summary": "Tickets as low as $12",
+      "summary": "Tickets as low as $13",
       "date": "2026-11-18T03:30Z",
       "dateDay": "Tue",
       "homeAway": "home",
