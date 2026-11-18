@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401910001",
@@ -3044,6 +3044,20 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "7",
+      "gameProjection": "41.1",
+      "teamChanceLoss": "58.9"
+    },
+    "awayTeam": {
+      "id": "2",
+      "gameProjection": "58.9",
+      "teamChanceLoss": "41.1"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3068,8 +3082,8 @@
         "type": "Story",
         "headline": "Fantasy basketball adds and NBA bets: Ride the hot hand with Klay Thompson",
         "description": "Andre Snellings breaks down Wednesday's big NBA slate, highlighting the fantasy streamers to add and bets to make.",
-        "lastModified": "2026-11-18T20:58:37Z",
-        "published": "2026-11-18T20:58:37Z",
+        "lastModified": "2026-11-18T22:31:56Z",
+        "published": "2026-11-18T22:31:56Z",
         "images": [
           {
             "dataSourceIdentifier": "bd80c0d55677e",
@@ -4563,20 +4577,6 @@
       }
     ]
   },
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "7",
-      "gameProjection": "41.1",
-      "teamChanceLoss": "58.9"
-    },
-    "awayTeam": {
-      "id": "2",
-      "gameProjection": "58.9",
-      "teamChanceLoss": "41.1"
-    }
-  },
   "header": {
     "id": "401910015",
     "uid": "s:40~l:46~e:401910015",
@@ -5816,12 +5816,6 @@
   },
   "videos": [],
   "wallclockAvailable": false,
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401910015",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
-  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5835,27 +5829,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/18 vs Celtics 1221 tickets left",
+        "ticketName": "11/18 vs Celtics 1246 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-18-2026/production/7433160?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Rockets 2280 tickets left",
+        "ticketName": "11/20 vs Rockets 2287 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Bulls 2013 tickets left",
+        "ticketName": "11/22 @ Bulls 2017 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-22-2026/production/7433078?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 vs Mavericks 2557 tickets left",
+        "ticketName": "11/24 vs Mavericks 2549 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-30-2026--sports-nba-basketball/production/7417985?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Jazz 1930 tickets left",
+        "ticketName": "11/27 @ Jazz 1929 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-30-2026--sports-nba-basketball/production/7418189?wsUser=717",
         "type": "event"
       },
@@ -5865,27 +5859,27 @@
         "type": "event"
       },
       {
-        "ticketName": "11/30 @ Pistons 2868 tickets left",
+        "ticketName": "11/30 @ Pistons 2874 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-11-30-2026/production/7430950?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ 76ers 2323 tickets left",
+        "ticketName": "12/2 @ 76ers 2318 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-12-2-2026/production/7431535?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/12 @ Jazz 2316 tickets left",
+        "ticketName": "12/12 @ Jazz 2328 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-12-12-2026/production/7431687?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/15 @ Trail Blazers 1473 tickets left",
+        "ticketName": "12/15 @ Trail Blazers 1470 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-15-2026/production/7432204?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/17 vs Hawks 3893 tickets left",
+        "ticketName": "12/17 vs Hawks 3882 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-12-17-2026/production/7432066?wsUser=717",
         "type": "event"
       },
@@ -5924,6 +5918,12 @@
       "teamLink": "https://www.vividseats.com/denver-nuggets-tickets--sports-nba-basketball/performer/235?wsUser=717",
       "timeValid": true
     }
+  },
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401910015",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
