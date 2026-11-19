@@ -487,8 +487,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -553,7 +551,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909980",
@@ -820,8 +820,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "13",
             "uid": "s:40~l:46~t:13",
@@ -886,7 +884,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909954",
@@ -3133,7 +3133,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "Draft Kings",
+        "name": "DraftKings",
         "priority": 1,
         "logos": [
           {
@@ -3153,13 +3153,13 @@
       "details": "DET -4.5",
       "overUnder": 226.5,
       "spread": 4.5,
-      "overOdds": -105.0,
-      "underOdds": -115.0,
+      "overOdds": -107.0,
+      "underOdds": -113.0,
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -185,
-        "spreadOdds": -110.0,
+        "moneyLine": -191,
+        "spreadOdds": -115.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
         },
@@ -3169,8 +3169,8 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 155,
-        "spreadOdds": -110.0,
+        "moneyLine": 160,
+        "spreadOdds": -106.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/3?lang=en&region=us"
         },
@@ -3184,7 +3184,7 @@
             "home",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033289%3Foutcomes%3D0ML87277559_1",
           "text": "Home Bet",
@@ -3208,7 +3208,7 @@
             "away",
             "desktop",
             "bets",
-            "draft-kings"
+            "draftkings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033289%3Foutcomes%3D0ML87277559_3",
           "text": "Away Bet",
@@ -3341,14 +3341,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+155",
+            "odds": "+160",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033289%3Foutcomes%3D0ML87277559_1",
               "text": "Home Bet",
@@ -3373,14 +3373,14 @@
         },
         "away": {
           "close": {
-            "odds": "-185",
+            "odds": "-191",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draft-kings"
+                "draftkings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033289%3Foutcomes%3D0ML87277559_3",
               "text": "Away Bet",
@@ -3410,7 +3410,7 @@
         "home": {
           "close": {
             "line": "+4.5",
-            "odds": "-110",
+            "odds": "-106",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3444,7 +3444,7 @@
         "away": {
           "close": {
             "line": "-4.5",
-            "odds": "-110",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3482,7 +3482,7 @@
         "over": {
           "close": {
             "line": "o226.5",
-            "odds": "-105",
+            "odds": "-107",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3516,7 +3516,7 @@
         "under": {
           "close": {
             "line": "u226.5",
-            "odds": "-115",
+            "odds": "-113",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3712,6 +3712,123 @@
       "records": []
     }
   ],
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "3",
+      "gameProjection": "30.6",
+      "teamChanceLoss": "69.4"
+    },
+    "awayTeam": {
+      "id": "8",
+      "gameProjection": "69.4",
+      "teamChanceLoss": "30.6"
+    }
+  },
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Pelicans Tickets",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets--sports-nba-basketball/performer/153?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/18 vs Pistons 594 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/20 @ Thunder 585 tickets left",
+        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/21 @ Spurs 1494 tickets left",
+        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 vs Suns 1225 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/27 @ Clippers 1829 tickets left",
+        "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-31-2026--sports-nba-basketball/production/7419904?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 @ Trail Blazers 1836 tickets left",
+        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-29-2026/production/7430916?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/30 @ Kings 1194 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-30-2026/production/7430918?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/2 vs Lakers 1888 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-2-2026/production/7430920?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/13 @ Kings 1039 tickets left",
+        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-12-13-2026/production/7430922?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/14 @ Lakers 3179 tickets left",
+        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-12-14-2026/production/7430924?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 vs Knicks 1999 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-16-2026/production/7430926?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 vs Kings 1316 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-18-2026/production/7430928?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/20 vs Spurs 1835 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-20-2026/production/7430930?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/21 vs Grizzlies 1052 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-21-2026/production/7430932?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/23 vs Thunder 1715 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-23-2026/production/7430934?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Pistons",
+      "currentTeamName": "Pelicans",
+      "venueName": "Smoothie King Center",
+      "summary": "Tickets as low as $15",
+      "date": "2026-11-19T01:00Z",
+      "dateDay": "Wed",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
+      "venueLink": "https://www.vividseats.com/smoothie-king-center-tickets/venue/1191?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/new-orleans-pelicans-tickets--sports-nba-basketball/performer/153?wsUser=717",
+      "timeValid": true
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3728,6 +3845,272 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50525196,
+        "nowId": "1-50525196",
+        "contentKey": "50525196-1-5-1",
+        "dataSourceIdentifier": "edceba2d8b24f",
+        "type": "HeadlineNews",
+        "headline": "Spurs rule Dylan Harper out with hip soreness after slip on court",
+        "description": "The Spurs ruled guard Dylan Harper out for Thursday's game against the Clippers due to left hip soreness following his slip on the court Tuesday.",
+        "lastModified": "2026-11-18T23:51:39Z",
+        "published": "2026-11-18T23:51:39Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "42e3e052cd5d3",
+            "id": 50524029,
+            "type": "header",
+            "name": "Dylan Harper [600x400]",
+            "credit": "Photo by Ronald Cortes/Getty Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1118/r1747823_3_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4548,
+            "type": "team",
+            "uid": "s:40~l:46~t:24",
+            "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+            "description": "San Antonio Spurs",
+            "sportId": 46,
+            "teamId": 24,
+            "team": {
+              "id": 24,
+              "description": "San Antonio Spurs",
+              "abbreviation": "SA",
+              "shortDisplayName": "Spurs",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 688554,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5037871",
+            "guid": "d8fd1989-052d-3e45-91f2-6fda54fa5c8e",
+            "description": "Dylan Harper",
+            "sportId": 46,
+            "athleteId": 5037871,
+            "athlete": {
+              "id": 5037871,
+              "description": "Dylan Harper",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5037871/dylan-harper"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5037871/dylan-harper"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50525196"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50525196"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50525196"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50525196/spurs-rule-harper-hip-soreness-slip-court"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50525193,
+        "nowId": "1-50525193",
+        "contentKey": "50525193-1-5-1",
+        "dataSourceIdentifier": "3795335e834b2",
+        "type": "HeadlineNews",
+        "headline": "Sixers' Tyrese Maxey (foot) late scratch for Wednesday's game vs. Magic",
+        "description": "Already without Jaylen Brown, the Sixers also won't have guard Tyrese Maxey for Wednesday's game against the Magic because of right foot soreness.",
+        "lastModified": "2026-11-18T23:52:02Z",
+        "published": "2026-11-18T23:52:02Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "9106c0bd59c75",
+            "id": 50503292,
+            "type": "header",
+            "name": "Tyrese Maxey [600x400]",
+            "caption": "Tyrese Maxey has a chance to come up big on the second of a back-to-back.",
+            "alt": "Tyrese Maxey #0 of the Philadelphia 76ers dribbles the ball during the game against the Indiana Pacers on November 15, 2026 at the Xfinity Mobile Arena in Philadelphia, Pennsylvania.",
+            "credit": "David Dow/NBAE via Getty Images",
+            "height": 400,
+            "width": 600,
+            "url": "https://a.espncdn.com/photo/2026/1116/r1746730_600x400_3-2.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 4323,
+            "type": "team",
+            "uid": "s:40~l:46~t:20",
+            "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+            "description": "Philadelphia 76ers",
+            "sportId": 46,
+            "teamId": 20,
+            "team": {
+              "id": 20,
+              "description": "Philadelphia 76ers",
+              "abbreviation": "PHI",
+              "shortDisplayName": "76ers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 457693,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:4431678",
+            "guid": "4a24e9cd-a7a5-371b-9148-bef246046609",
+            "description": "Tyrese Maxey",
+            "sportId": 46,
+            "athleteId": 4431678,
+            "athlete": {
+              "id": 4431678,
+              "description": "Tyrese Maxey",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 696331,
+            "type": "contributor",
+            "guid": "f8df9378-b793-3dc0-92f3-5ca6b2e22104",
+            "description": "Kris Rhim",
+            "slug": "kris-rhim",
+            "contributor": {
+              "id": 3957,
+              "description": "Kris Rhim"
+            }
+          }
+        ],
+        "byline": "Kris Rhim",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50525193"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50525193"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50525193"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50525193/sixers-tyrese-maxey-late-scratch-wednesday-game-vs-magic"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50523313,
         "nowId": "1-50523313",
@@ -4843,408 +5226,156 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50522801,
-        "nowId": "1-50522801",
-        "contentKey": "50522801-1-6-1",
-        "dataSourceIdentifier": "a81deb4f55e30",
-        "type": "Story",
-        "headline": "Miami Heat players receive GTA VI care packages from Rockstar Games",
-        "description": "Heat players received a custom game-themed care package complete with custom controllers, consoles and, of course, a copy of the game.",
-        "lastModified": "2026-11-18T18:58:36Z",
-        "published": "2026-11-18T18:58:36Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "68c70fe649a10",
-            "id": 50522720,
-            "type": "header",
-            "name": "nick richards gta ig story [608x342]",
-            "caption": "Nick Richards posted about his GTA VI care package on his Instagram story.",
-            "credit": "nickrichards_/Instagram",
-            "height": 342,
-            "width": 608,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747751_608x342_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Why Perk credits Klay Thompson for the Heat's recent surge",
-            "caption": "Why Perk credits Klay Thompson for the Heat's recent surge",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1117/ss_20261117_162231762_3746548/ss_20261117_162231762_3746548.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4259,
-            "type": "team",
-            "uid": "s:40~l:46~t:14",
-            "guid": "81e3212c-30ef-9b1b-5edb-453b13ff265a",
-            "description": "Miami Heat",
-            "sportId": 46,
-            "teamId": 14,
-            "team": {
-              "id": 14,
-              "description": "Miami Heat",
-              "abbreviation": "MIA",
-              "shortDisplayName": "Heat",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mia/miami-heat"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 492124,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4278053",
-            "guid": "b35bafd9-3d93-3a83-c88a-6c08e851afa3",
-            "description": "Davion Mitchell",
-            "sportId": 46,
-            "athleteId": 4278053,
-            "athlete": {
-              "id": 4278053,
-              "description": "Davion Mitchell",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278053/davion-mitchell"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 457794,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4278076",
-            "guid": "d8842499-5c79-e6c6-deb0-9eff19d50af9",
-            "description": "Nick Richards",
-            "sportId": 46,
-            "athleteId": 4278076,
-            "athlete": {
-              "id": 4278076,
-              "description": "Nick Richards",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278076/nick-richards"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4278076/nick-richards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701887,
-            "type": "contributor",
-            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
-            "description": "ESPN Staff Profile",
-            "slug": "espn-staff-profile",
-            "contributor": {
-              "id": 2462,
-              "description": "ESPN Staff Profile"
-            }
-          }
-        ],
-        "byline": "ESPN staff",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50522801"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50522801"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50522801"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50522801/gta-vi-miami-heat-davion-mitchell-nick-richards"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50521575,
-        "nowId": "1-50521575",
-        "contentKey": "50521575-1-22-1",
-        "dataSourceIdentifier": "29422f84808cc",
-        "type": "Preview",
-        "headline": "Los Angeles plays San Antonio, looks to end road slide",
-        "description": "Los Angeles Clippers (4-9, 13th in the Western Conference) vs. San Antonio Spurs (12-3, second in the Western Conference)",
-        "lastModified": "2026-11-18T15:21:29Z",
-        "published": "2026-11-18T15:21:29Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910022.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4548,
-            "type": "team",
-            "uid": "s:40~l:46~t:24",
-            "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
-            "description": "San Antonio Spurs",
-            "sportId": 46,
-            "teamId": 24,
-            "team": {
-              "id": 24,
-              "description": "San Antonio Spurs",
-              "abbreviation": "SA",
-              "shortDisplayName": "Spurs",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154798,
-            "type": "team",
-            "uid": "s:40~l:46~t:12",
-            "guid": "083a58a6-b849-3501-e67b-059290d12295",
-            "description": "LA Clippers",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "abbreviation": "LAC",
-              "shortDisplayName": "Clippers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401910022",
-            "guid": "cf427b1e-0e3a-3ea8-b864-b510b7e339a4",
-            "description": "LA Clippers @ San Antonio Spurs",
-            "eventId": 401910022,
-            "event": {
-              "id": 401910022,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "LA Clippers @ San Antonio Spurs"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50521575"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50521575"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50521575"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401910022"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "3",
-      "gameProjection": "30.6",
-      "teamChanceLoss": "69.4"
+  "article": {
+    "id": 50521509,
+    "nowId": "1-50521509",
+    "contentKey": "50521509-1-22-1",
+    "dataSourceIdentifier": "a84422aa1fe9d",
+    "publishedkey": "nba401910013",
+    "type": "Preview",
+    "gameId": "401910013",
+    "headline": "Williamson, Pelicans to host Cunningham and the Pistons",
+    "description": "Detroit Pistons (9-4, third in the Eastern Conference) vs. New Orleans Pelicans (5-10, 12th in the Western Conference)",
+    "title": "Williamson, Pelicans to host Cunningham and the Pistons",
+    "linkText": "Williamson, Pelicans to host Cunningham and the Pistons",
+    "categorized": "2026-11-18T15:19:03Z",
+    "originallyPosted": "2026-11-18T15:19:02Z",
+    "lastModified": "2026-11-18T15:19:03Z",
+    "published": "2026-11-18T15:19:02Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 114922,
+        "type": "team",
+        "uid": "s:40~l:46~t:3",
+        "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
+        "description": "New Orleans Pelicans",
+        "sportId": 46,
+        "teamId": 3,
+        "team": {
+          "id": 3,
+          "description": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "shortDisplayName": "Pelicans",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4422,
+        "type": "team",
+        "uid": "s:40~l:46~t:8",
+        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
+        "description": "Detroit Pistons",
+        "sportId": 46,
+        "teamId": 8,
+        "team": {
+          "id": 8,
+          "description": "Detroit Pistons",
+          "abbreviation": "DET",
+          "shortDisplayName": "Pistons",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401910013",
+        "guid": "dcac0c1f-f436-39f7-9ef7-166aed38b280",
+        "description": "Detroit Pistons @ New Orleans Pelicans",
+        "eventId": 401910013,
+        "event": {
+          "id": 401910013,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Detroit Pistons @ New Orleans Pelicans"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "New Orleans Pelicans",
+      "Detroit Pistons",
+      "Detroit Pistons @ New Orleans Pelicans"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (9-4, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/no/new-orleans-pelicans\">New Orleans Pelicans</a> (5-10, 12th in the Western Conference)\n\n\r\n              New Orleans; Wednesday, 8 p.m. EST\n\n\r\n              LINE: Pistons -8.5; over/under is 229.5\n\n\r\n              BOTTOM LINE: The New Orleans Pelicans host the Detroit Pistons in non-conference play.\n\n\r\n              The Pelicans are 4-6 on their home court. New Orleans is the top team in the Western Conference with 54.8 points in the paint led by <a href=\"http://www.espn.com/nba/player/_/id/4395628/zion-williamson\">Zion Williamson</a> averaging 13.7.\n\n\r\n              The Pistons have gone 6-2 away from home. Detroit ranks seventh in the Eastern Conference with 44.3 rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a> averaging 8.7.\n\n\r\n              The 115.8 points per game the Pelicans score are 6.9 more points than the Pistons allow (108.9). The Pistons average 12.9 made 3-pointers per game this season, 0.4 fewer makes per game than the Pelicans give up.\n\n\r\n              TOP PERFORMERS: Williamson is scoring 21.5 points per game with 5.3 rebounds and 2.6 assists for the Pelicans. <a href=\"http://www.espn.com/nba/player/_/id/4397136/saddiq-bey\">Saddiq Bey</a> is averaging 18.8 points and 4.7 rebounds while shooting 46.4% over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a> is averaging 25.8 points, 5.2 rebounds and 7.8 assists for the Pistons. <a href=\"http://www.espn.com/nba/player/_/id/5107199/daniss-jenkins\">Daniss Jenkins</a> is averaging 2.3 made 3-pointers over the last 10 games.\n\n\r\n              LAST 10 GAMES: Pelicans: 4-6, averaging 114.0 points, 41.7 rebounds, 23.9 assists, 8.2 steals and 5.4 blocks per game while shooting 44.8% from the field. Their opponents have averaged 123.5 points per game.\n\n\r\n              Pistons: 6-4, averaging 113.8 points, 42.0 rebounds, 27.7 assists, 10.4 steals and 5.8 blocks per game while shooting 46.3% from the field. Their opponents have averaged 109.9 points.\n\n\r\n              INJURIES: Pelicans: <a href=\"http://www.espn.com/nba/player/_/id/4576086/bryce-mcgowens\">Bryce McGowens</a>: day to day (elbow), <a href=\"http://www.espn.com/nba/player/_/id/3907497/dejounte-murray\">Dejounte Murray</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4683634/bennedict-mathurin\">Bennedict Mathurin</a>: day to day (plantar), <a href=\"http://www.espn.com/nba/player/_/id/4431675/trendon-watford\">Trendon Watford</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4397688/trey-murphy-iii\">Trey Murphy III</a>: day to day (knee).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4683771/ronald-holland-ii\">Ronald Holland II</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/2990962/taurean-prince\">Taurean Prince</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/3157465/duncan-robinson\">Duncan Robinson</a>: out (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50521509"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50521509"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50521509"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401910013"
+      }
     },
-    "awayTeam": {
-      "id": "8",
-      "gameProjection": "69.4",
-      "teamChanceLoss": "30.6"
-    }
+    "premium": false
   },
-  "winprobability": [],
+  "videos": [],
   "header": {
     "id": "401910013",
     "uid": "s:40~l:46~e:401910013",
@@ -5737,8 +5868,8 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -185,
-              "spreadOdds": -110.0,
+              "moneyLine": -191,
+              "spreadOdds": -115.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5768,20 +5899,20 @@
                   "american": "-4.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.86,
+                  "displayValue": "20/23",
+                  "alternateDisplayValue": "-115",
+                  "decimal": 1.86,
+                  "fraction": "20/23",
+                  "american": "-115"
                 },
                 "moneyLine": {
-                  "value": 1.54,
-                  "displayValue": "20/37",
-                  "alternateDisplayValue": "-185",
-                  "decimal": 1.54,
-                  "fraction": "20/37",
-                  "american": "-185"
+                  "value": 1.52,
+                  "displayValue": "100/191",
+                  "alternateDisplayValue": "-191",
+                  "decimal": 1.52,
+                  "fraction": "100/191",
+                  "american": "-191"
                 }
               },
               "team": {
@@ -5791,8 +5922,8 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 155,
-              "spreadOdds": -110.0,
+              "moneyLine": 160,
+              "spreadOdds": -106.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5822,20 +5953,20 @@
                   "american": "+4.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.94,
+                  "displayValue": "50/53",
+                  "alternateDisplayValue": "-106",
+                  "decimal": 1.94,
+                  "fraction": "50/53",
+                  "american": "-106"
                 },
                 "moneyLine": {
-                  "value": 2.55,
-                  "displayValue": "31/20",
-                  "alternateDisplayValue": "+155",
-                  "decimal": 2.55,
-                  "fraction": "31/20",
-                  "american": "+155"
+                  "value": 2.6,
+                  "displayValue": "8/5",
+                  "alternateDisplayValue": "+160",
+                  "decimal": 2.6,
+                  "fraction": "8/5",
+                  "american": "+160"
                 }
               },
               "team": {
@@ -5844,20 +5975,20 @@
             },
             "current": {
               "over": {
-                "value": 1.95,
-                "displayValue": "20/21",
-                "alternateDisplayValue": "-105",
-                "decimal": 1.95,
-                "fraction": "20/21",
-                "american": "-105"
+                "value": 1.93,
+                "displayValue": "100/107",
+                "alternateDisplayValue": "-107",
+                "decimal": 1.93,
+                "fraction": "100/107",
+                "american": "-107"
               },
               "under": {
-                "value": 1.86,
-                "displayValue": "20/23",
-                "alternateDisplayValue": "-115",
-                "decimal": 1.86,
-                "fraction": "20/23",
-                "american": "-115"
+                "value": 1.88,
+                "displayValue": "100/113",
+                "alternateDisplayValue": "-113",
+                "decimal": 1.88,
+                "fraction": "100/113",
+                "american": "-113"
               },
               "total": {
                 "alternateDisplayValue": "226.5",
@@ -6352,262 +6483,12 @@
       ]
     }
   },
-  "article": {
-    "id": 50521509,
-    "nowId": "1-50521509",
-    "contentKey": "50521509-1-22-1",
-    "dataSourceIdentifier": "a84422aa1fe9d",
-    "publishedkey": "nba401910013",
-    "type": "Preview",
-    "gameId": "401910013",
-    "headline": "Williamson, Pelicans to host Cunningham and the Pistons",
-    "description": "Detroit Pistons (9-4, third in the Eastern Conference) vs. New Orleans Pelicans (5-10, 12th in the Western Conference)",
-    "title": "Williamson, Pelicans to host Cunningham and the Pistons",
-    "linkText": "Williamson, Pelicans to host Cunningham and the Pistons",
-    "categorized": "2026-11-18T15:19:03Z",
-    "originallyPosted": "2026-11-18T15:19:02Z",
-    "lastModified": "2026-11-18T15:19:03Z",
-    "published": "2026-11-18T15:19:02Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 114922,
-        "type": "team",
-        "uid": "s:40~l:46~t:3",
-        "guid": "9461f397-7882-94c0-c18c-e89bdc9e570e",
-        "description": "New Orleans Pelicans",
-        "sportId": 46,
-        "teamId": 3,
-        "team": {
-          "id": 3,
-          "description": "New Orleans Pelicans",
-          "abbreviation": "NO",
-          "shortDisplayName": "Pelicans",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4422,
-        "type": "team",
-        "uid": "s:40~l:46~t:8",
-        "guid": "4e096981-dc02-51d0-3dcd-2468fcc1e22d",
-        "description": "Detroit Pistons",
-        "sportId": 46,
-        "teamId": 8,
-        "team": {
-          "id": 8,
-          "description": "Detroit Pistons",
-          "abbreviation": "DET",
-          "shortDisplayName": "Pistons",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401910013",
-        "guid": "dcac0c1f-f436-39f7-9ef7-166aed38b280",
-        "description": "Detroit Pistons @ New Orleans Pelicans",
-        "eventId": 401910013,
-        "event": {
-          "id": 401910013,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Detroit Pistons @ New Orleans Pelicans"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "New Orleans Pelicans",
-      "Detroit Pistons",
-      "Detroit Pistons @ New Orleans Pelicans"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/det/detroit-pistons\">Detroit Pistons</a> (9-4, third in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/no/new-orleans-pelicans\">New Orleans Pelicans</a> (5-10, 12th in the Western Conference)\n\n\r\n              New Orleans; Wednesday, 8 p.m. EST\n\n\r\n              LINE: Pistons -8.5; over/under is 229.5\n\n\r\n              BOTTOM LINE: The New Orleans Pelicans host the Detroit Pistons in non-conference play.\n\n\r\n              The Pelicans are 4-6 on their home court. New Orleans is the top team in the Western Conference with 54.8 points in the paint led by <a href=\"http://www.espn.com/nba/player/_/id/4395628/zion-williamson\">Zion Williamson</a> averaging 13.7.\n\n\r\n              The Pistons have gone 6-2 away from home. Detroit ranks seventh in the Eastern Conference with 44.3 rebounds per game led by <a href=\"http://www.espn.com/nba/player/_/id/4684742/ausar-thompson\">Ausar Thompson</a> averaging 8.7.\n\n\r\n              The 115.8 points per game the Pelicans score are 6.9 more points than the Pistons allow (108.9). The Pistons average 12.9 made 3-pointers per game this season, 0.4 fewer makes per game than the Pelicans give up.\n\n\r\n              TOP PERFORMERS: Williamson is scoring 21.5 points per game with 5.3 rebounds and 2.6 assists for the Pelicans. <a href=\"http://www.espn.com/nba/player/_/id/4397136/saddiq-bey\">Saddiq Bey</a> is averaging 18.8 points and 4.7 rebounds while shooting 46.4% over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4432166/cade-cunningham\">Cade Cunningham</a> is averaging 25.8 points, 5.2 rebounds and 7.8 assists for the Pistons. <a href=\"http://www.espn.com/nba/player/_/id/5107199/daniss-jenkins\">Daniss Jenkins</a> is averaging 2.3 made 3-pointers over the last 10 games.\n\n\r\n              LAST 10 GAMES: Pelicans: 4-6, averaging 114.0 points, 41.7 rebounds, 23.9 assists, 8.2 steals and 5.4 blocks per game while shooting 44.8% from the field. Their opponents have averaged 123.5 points per game.\n\n\r\n              Pistons: 6-4, averaging 113.8 points, 42.0 rebounds, 27.7 assists, 10.4 steals and 5.8 blocks per game while shooting 46.3% from the field. Their opponents have averaged 109.9 points.\n\n\r\n              INJURIES: Pelicans: <a href=\"http://www.espn.com/nba/player/_/id/4576086/bryce-mcgowens\">Bryce McGowens</a>: day to day (elbow), <a href=\"http://www.espn.com/nba/player/_/id/3907497/dejounte-murray\">Dejounte Murray</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4683634/bennedict-mathurin\">Bennedict Mathurin</a>: day to day (plantar), <a href=\"http://www.espn.com/nba/player/_/id/4431675/trendon-watford\">Trendon Watford</a>: day to day (ankle), <a href=\"http://www.espn.com/nba/player/_/id/4397688/trey-murphy-iii\">Trey Murphy III</a>: day to day (knee).\n\n\r\n              Pistons: <a href=\"http://www.espn.com/nba/player/_/id/4433621/jalen-duren\">Jalen Duren</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4683771/ronald-holland-ii\">Ronald Holland II</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/2990962/taurean-prince\">Taurean Prince</a>: day to day (knee), <a href=\"http://www.espn.com/nba/player/_/id/3157465/duncan-robinson\">Duncan Robinson</a>: out (quadriceps), <a href=\"http://www.espn.com/nba/player/_/id/4395702/isaiah-joe\">Isaiah Joe</a>: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50521509"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50521509"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50521509"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401910013"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "wallclockAvailable": false,
   "meta": {
     "gp_topic": "gp-basketball-nba-401910013",
     "gameSwitcherEnabled": true,
     "picker_topic": "picker-basketball-nba",
     "gameState": "pre"
-  },
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Pelicans Tickets",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets--sports-nba-basketball/performer/153?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/18 vs Pistons 620 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/20 @ Thunder 680 tickets left",
-        "ticketLink": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-10-30-2026--sports-nba-basketball/production/7419918?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/21 @ Spurs 1381 tickets left",
-        "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 vs Suns 1205 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-23-2026/production/7430914?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/27 @ Clippers 1829 tickets left",
-        "ticketLink": "https://www.vividseats.com/la-clippers-tickets-intuit-dome-10-31-2026--sports-nba-basketball/production/7419904?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 @ Trail Blazers 1840 tickets left",
-        "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-11-29-2026/production/7430916?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/30 @ Kings 1194 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-30-2026/production/7430918?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/2 vs Lakers 1866 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-2-2026/production/7430920?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/13 @ Kings 1037 tickets left",
-        "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-12-13-2026/production/7430922?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/14 @ Lakers 3174 tickets left",
-        "ticketLink": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-12-14-2026/production/7430924?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 vs Knicks 1994 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-16-2026/production/7430926?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 vs Kings 1316 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-18-2026/production/7430928?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/20 vs Spurs 1835 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-20-2026/production/7430930?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/21 vs Grizzlies 1052 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-21-2026/production/7430932?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/23 vs Thunder 1715 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-23-2026/production/7430934?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Pistons",
-      "currentTeamName": "Pelicans",
-      "venueName": "Smoothie King Center",
-      "summary": "Tickets as low as $15",
-      "date": "2026-11-19T01:00Z",
-      "dateDay": "Wed",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-11-18-2026/production/7432813?wsUser=717",
-      "venueLink": "https://www.vividseats.com/smoothie-king-center-tickets/venue/1191?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/new-orleans-pelicans-tickets--sports-nba-basketball/performer/153?wsUser=717",
-      "timeValid": true
-    }
   },
   "standings": {
     "fullViewLink": {
