@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
         },
         {
           "id": "401910004",
@@ -663,6 +663,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "8",
             "uid": "s:40~l:46~t:8",
@@ -727,9 +729,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
         }
       ]
     },
@@ -996,6 +996,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "25",
             "uid": "s:40~l:46~t:25",
@@ -1060,9 +1062,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
         },
         {
           "id": "401909987",
@@ -1172,8 +1172,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "26",
             "uid": "s:40~l:46~t:26",
@@ -1238,7 +1236,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         }
       ]
     }
@@ -3341,13 +3341,13 @@
       "details": "SA -15.5",
       "overUnder": 224.5,
       "spread": -15.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "overOdds": -110.0,
+      "underOdds": -110.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 670,
-        "spreadOdds": -110.0,
+        "moneyLine": 660,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/12?lang=en&region=us"
         },
@@ -3357,8 +3357,8 @@
       "homeTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -1040,
-        "spreadOdds": -110.0,
+        "moneyLine": -1020,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/24?lang=en&region=us"
         },
@@ -3529,7 +3529,7 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "-1040",
+            "odds": "-1020",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3561,7 +3561,7 @@
         },
         "away": {
           "close": {
-            "odds": "+670",
+            "odds": "+660",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3598,7 +3598,7 @@
         "home": {
           "close": {
             "line": "-15.5",
-            "odds": "-110",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3632,7 +3632,7 @@
         "away": {
           "close": {
             "line": "+15.5",
-            "odds": "-110",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3670,7 +3670,7 @@
         "over": {
           "close": {
             "line": "o224.5",
-            "odds": "-113",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3704,7 +3704,7 @@
         "under": {
           "close": {
             "line": "u224.5",
-            "odds": "-107",
+            "odds": "-110",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3900,20 +3900,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "24",
-      "gameProjection": "90.2",
-      "teamChanceLoss": "9.8"
-    },
-    "awayTeam": {
-      "id": "12",
-      "gameProjection": "9.8",
-      "teamChanceLoss": "90.2"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -5170,6 +5156,20 @@
       }
     ]
   },
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "24",
+      "gameProjection": "90.2",
+      "teamChanceLoss": "9.8"
+    },
+    "awayTeam": {
+      "id": "12",
+      "gameProjection": "9.8",
+      "teamChanceLoss": "90.2"
+    }
+  },
+  "winprobability": [],
   "header": {
     "id": "401910022",
     "uid": "s:40~l:46~e:401910022",
@@ -5662,8 +5662,8 @@
             "awayTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 670,
-              "spreadOdds": -110.0,
+              "moneyLine": 660,
+              "spreadOdds": -112.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5693,20 +5693,20 @@
                   "american": "+15.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.89,
+                  "displayValue": "25/28",
+                  "alternateDisplayValue": "-112",
+                  "decimal": 1.89,
+                  "fraction": "25/28",
+                  "american": "-112"
                 },
                 "moneyLine": {
-                  "value": 7.7,
-                  "displayValue": "67/10",
-                  "alternateDisplayValue": "+670",
-                  "decimal": 7.7,
-                  "fraction": "67/10",
-                  "american": "+670"
+                  "value": 7.6,
+                  "displayValue": "33/5",
+                  "alternateDisplayValue": "+660",
+                  "decimal": 7.6,
+                  "fraction": "33/5",
+                  "american": "+660"
                 }
               },
               "team": {
@@ -5716,8 +5716,8 @@
             "homeTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -1040,
-              "spreadOdds": -110.0,
+              "moneyLine": -1020,
+              "spreadOdds": -108.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -5747,20 +5747,20 @@
                   "american": "-15.5"
                 },
                 "spread": {
-                  "value": 1.9,
-                  "displayValue": "10/11",
-                  "alternateDisplayValue": "-110",
-                  "decimal": 1.9,
-                  "fraction": "10/11",
-                  "american": "-110"
+                  "value": 1.92,
+                  "displayValue": "25/27",
+                  "alternateDisplayValue": "-108",
+                  "decimal": 1.92,
+                  "fraction": "25/27",
+                  "american": "-108"
                 },
                 "moneyLine": {
                   "value": 1.09,
-                  "displayValue": "5/52",
-                  "alternateDisplayValue": "-1040",
+                  "displayValue": "5/51",
+                  "alternateDisplayValue": "-1020",
                   "decimal": 1.09,
-                  "fraction": "5/52",
-                  "american": "-1040"
+                  "fraction": "5/51",
+                  "american": "-1020"
                 }
               },
               "team": {
@@ -5769,20 +5769,20 @@
             },
             "current": {
               "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
               },
               "total": {
                 "alternateDisplayValue": "224.5",
@@ -6462,22 +6462,22 @@
         "type": "team"
       },
       {
-        "ticketName": "11/19 vs Clippers 457 tickets left",
+        "ticketName": "11/19 vs Clippers 389 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-19-2026/production/7433021?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 vs Pelicans 1336 tickets left",
+        "ticketName": "11/21 vs Pelicans 1329 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-21-2026/production/7432815?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Kings 833 tickets left",
+        "ticketName": "11/23 @ Kings 838 tickets left",
         "ticketLink": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-11-23-2026/production/7431064?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 @ Trail Blazers 2192 tickets left",
+        "ticketName": "11/25 @ Trail Blazers 2062 tickets left",
         "ticketLink": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-10-30-2026--sports-nba-basketball/production/7420212?wsUser=717",
         "type": "event"
       },
@@ -6487,7 +6487,7 @@
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Celtics 1667 tickets left",
+        "ticketName": "11/29 vs Celtics 1660 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-11-29-2026/production/7431068?wsUser=717",
         "type": "event"
       },
@@ -6497,7 +6497,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/3 vs Raptors 1345 tickets left",
+        "ticketName": "12/3 vs Raptors 1354 tickets left",
         "ticketLink": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-3-2026/production/7431060?wsUser=717",
         "type": "event"
       },
@@ -6507,7 +6507,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/15 @ Cavaliers 2151 tickets left",
+        "ticketName": "12/15 @ Cavaliers 2145 tickets left",
         "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-15-2026/production/7431080?wsUser=717",
         "type": "event"
       },
@@ -6541,7 +6541,7 @@
       "opponentTeamName": "Clippers",
       "currentTeamName": "Spurs",
       "venueName": "Frost Bank Center",
-      "summary": "Tickets as low as $43",
+      "summary": "Tickets as low as $52",
       "date": "2026-11-20T01:00Z",
       "dateDay": "Thu",
       "homeAway": "home",
