@@ -221,7 +221,39 @@
           ]
         }
       ]
-    }
+    },
+    "officials": [
+      {
+        "fullName": "John Goble",
+        "displayName": "John Goble",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Eric Dalen",
+        "displayName": "Eric Dalen",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Chelisa Painter",
+        "displayName": "Chelisa Painter",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "lastFiveGames": [
     {
@@ -311,6 +343,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "11",
             "uid": "s:40~l:46~t:11",
@@ -375,9 +409,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
         },
         {
           "id": "401909957",
@@ -487,6 +519,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "29",
             "uid": "s:40~l:46~t:29",
@@ -551,9 +585,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
         },
         {
           "id": "401909980",
@@ -575,6 +607,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -639,9 +673,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
         },
         {
           "id": "401910001",
@@ -663,6 +695,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "21",
             "uid": "s:40~l:46~t:21",
@@ -727,9 +761,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
         }
       ]
     },
@@ -996,6 +1028,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "28",
             "uid": "s:40~l:46~t:28",
@@ -1060,9 +1094,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
         },
         {
           "id": "401909989",
@@ -1084,6 +1116,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "6",
             "uid": "s:40~l:46~t:6",
@@ -1148,9 +1182,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
         },
         {
           "id": "401909994",
@@ -2465,7 +2497,7 @@
     {
       "provider": {
         "id": "100",
-        "name": "DraftKings",
+        "name": "Draft Kings",
         "priority": 1,
         "logos": [
           {
@@ -2490,7 +2522,7 @@
       "awayTeamOdds": {
         "favorite": true,
         "underdog": false,
-        "moneyLine": -142,
+        "moneyLine": -136,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
@@ -2501,7 +2533,7 @@
       "homeTeamOdds": {
         "favorite": false,
         "underdog": true,
-        "moneyLine": 120,
+        "moneyLine": 115,
         "spreadOdds": -110.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/7?lang=en&region=us"
@@ -2516,7 +2548,7 @@
             "home",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033291%3Foutcomes%3D0ML87277561_1",
           "text": "Home Bet",
@@ -2540,7 +2572,7 @@
             "away",
             "desktop",
             "bets",
-            "draftkings"
+            "draft-kings"
           ],
           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033291%3Foutcomes%3D0ML87277561_3",
           "text": "Away Bet",
@@ -2673,14 +2705,14 @@
         "shortDisplayName": "ML",
         "home": {
           "close": {
-            "odds": "+120",
+            "odds": "+115",
             "link": {
               "language": "en-US",
               "rel": [
                 "home",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033291%3Foutcomes%3D0ML87277561_1",
               "text": "Home Bet",
@@ -2705,14 +2737,14 @@
         },
         "away": {
           "close": {
-            "odds": "-142",
+            "odds": "-136",
             "link": {
               "language": "en-US",
               "rel": [
                 "away",
                 "desktop",
                 "bets",
-                "draftkings"
+                "draft-kings"
               ],
               "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F35033291%3Foutcomes%3D0ML87277561_3",
               "text": "Away Bet",
@@ -3044,20 +3076,6 @@
       "records": []
     }
   ],
-  "winprobability": [],
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "7",
-      "gameProjection": "41.1",
-      "teamChanceLoss": "58.9"
-    },
-    "awayTeam": {
-      "id": "2",
-      "gameProjection": "58.9",
-      "teamChanceLoss": "41.1"
-    }
-  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -3082,8 +3100,8 @@
         "type": "HeadlineNews",
         "headline": "Spurs rule Dylan Harper out with hip soreness after slip on court",
         "description": "The Spurs ruled guard Dylan Harper out for Thursday's game against the Clippers due to left hip soreness following his slip on the court Tuesday.",
-        "lastModified": "2026-11-18T23:51:39Z",
-        "published": "2026-11-18T23:51:39Z",
+        "lastModified": "2026-11-19T00:16:31Z",
+        "published": "2026-11-19T00:16:31Z",
         "images": [
           {
             "dataSourceIdentifier": "42e3e052cd5d3",
@@ -3094,6 +3112,14 @@
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/1118/r1747823_3_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Dylan Harper goes down with a groin injury for the Spurs",
+            "caption": "Dylan Harper goes down with a groin injury for the Spurs",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/946b1cedf8c84daaa81fb73d4de9120c23/946b1cedf8c84daaa81fb73d4de9120c23.jpg"
           }
         ],
         "categories": [
@@ -3212,8 +3238,8 @@
         "type": "HeadlineNews",
         "headline": "Sixers' Tyrese Maxey (foot) late scratch for Wednesday's game vs. Magic",
         "description": "Already without Jaylen Brown, the Sixers also won't have guard Tyrese Maxey for Wednesday's game against the Magic because of right foot soreness.",
-        "lastModified": "2026-11-18T23:52:02Z",
-        "published": "2026-11-18T23:52:02Z",
+        "lastModified": "2026-11-19T00:27:12Z",
+        "published": "2026-11-19T00:27:12Z",
         "images": [
           {
             "dataSourceIdentifier": "9106c0bd59c75",
@@ -3226,6 +3252,14 @@
             "height": 400,
             "width": 600,
             "url": "https://a.espncdn.com/photo/2026/1116/r1746730_600x400_3-2.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Tyrese Maxey skies for big flush",
+            "caption": "Tyrese Maxey skies for big flush",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/660b2a9c-5885-47a1-9baf-f48632b9d1b0/660b2a9c-5885-47a1-9baf-f48632b9d1b0.jpg"
           }
         ],
         "categories": [
@@ -4950,7 +4984,7 @@
             "awayTeamOdds": {
               "favorite": true,
               "underdog": false,
-              "moneyLine": -142,
+              "moneyLine": -136,
               "spreadOdds": -110.0,
               "open": {
                 "favorite": true,
@@ -4989,12 +5023,12 @@
                   "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 1.7,
-                  "displayValue": "50/71",
-                  "alternateDisplayValue": "-142",
-                  "decimal": 1.7,
-                  "fraction": "50/71",
-                  "american": "-142"
+                  "value": 1.73,
+                  "displayValue": "25/34",
+                  "alternateDisplayValue": "-136",
+                  "decimal": 1.73,
+                  "fraction": "25/34",
+                  "american": "-136"
                 }
               },
               "team": {
@@ -5004,7 +5038,7 @@
             "homeTeamOdds": {
               "favorite": false,
               "underdog": true,
-              "moneyLine": 120,
+              "moneyLine": 115,
               "spreadOdds": -110.0,
               "open": {
                 "favorite": false,
@@ -5043,12 +5077,12 @@
                   "american": "-110"
                 },
                 "moneyLine": {
-                  "value": 2.2,
-                  "displayValue": "6/5",
-                  "alternateDisplayValue": "+120",
-                  "decimal": 2.2,
-                  "fraction": "6/5",
-                  "american": "+120"
+                  "value": 2.15,
+                  "displayValue": "23/20",
+                  "alternateDisplayValue": "+115",
+                  "decimal": 2.15,
+                  "fraction": "23/20",
+                  "american": "+115"
                 }
               },
               "team": {
@@ -5697,6 +5731,26 @@
   },
   "videos": [],
   "wallclockAvailable": false,
+  "meta": {
+    "gp_topic": "gp-basketball-nba-401910015",
+    "gameSwitcherEnabled": true,
+    "picker_topic": "picker-basketball-nba",
+    "gameState": "pre"
+  },
+  "winprobability": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "7",
+      "gameProjection": "40.8",
+      "teamChanceLoss": "59.2"
+    },
+    "awayTeam": {
+      "id": "2",
+      "gameProjection": "59.2",
+      "teamChanceLoss": "40.8"
+    }
+  },
   "ticketsInfo": {
     "tickets": [
       {
@@ -5710,27 +5764,27 @@
         "type": "team"
       },
       {
-        "ticketName": "11/18 vs Celtics 1043 tickets left",
+        "ticketName": "11/18 vs Celtics 241 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-11-18-2026/production/7433160?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/20 vs Rockets 2241 tickets left",
+        "ticketName": "11/20 vs Rockets 2215 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-31-2026--sports-nba-basketball/production/7418001?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/22 @ Bulls 2011 tickets left",
+        "ticketName": "11/22 @ Bulls 2009 tickets left",
         "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-22-2026/production/7433078?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/24 vs Mavericks 2542 tickets left",
+        "ticketName": "11/24 vs Mavericks 2506 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-10-30-2026--sports-nba-basketball/production/7417985?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Jazz 1925 tickets left",
+        "ticketName": "11/27 @ Jazz 1915 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-10-30-2026--sports-nba-basketball/production/7418189?wsUser=717",
         "type": "event"
       },
@@ -5745,12 +5799,12 @@
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ 76ers 2316 tickets left",
+        "ticketName": "12/2 @ 76ers 2315 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-12-2-2026/production/7431535?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/12 @ Jazz 2328 tickets left",
+        "ticketName": "12/12 @ Jazz 2330 tickets left",
         "ticketLink": "https://www.vividseats.com/utah-jazz-tickets-delta-center-12-12-2026/production/7431687?wsUser=717",
         "type": "event"
       },
@@ -5760,7 +5814,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/17 vs Hawks 3892 tickets left",
+        "ticketName": "12/17 vs Hawks 3880 tickets left",
         "ticketLink": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-12-17-2026/production/7432066?wsUser=717",
         "type": "event"
       },
@@ -5789,7 +5843,7 @@
       "opponentTeamName": "Celtics",
       "currentTeamName": "Nuggets",
       "venueName": "Ball Arena",
-      "summary": "Tickets as low as $47",
+      "summary": "Tickets as low as $50",
       "date": "2026-11-19T02:30Z",
       "dateDay": "Wed",
       "homeAway": "home",
@@ -5799,12 +5853,6 @@
       "teamLink": "https://www.vividseats.com/denver-nuggets-tickets--sports-nba-basketball/performer/235?wsUser=717",
       "timeValid": true
     }
-  },
-  "meta": {
-    "gp_topic": "gp-basketball-nba-401910015",
-    "gameSwitcherEnabled": true,
-    "picker_topic": "picker-basketball-nba",
-    "gameState": "pre"
   },
   "standings": {
     "fullViewLink": {
