@@ -311,8 +311,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "L",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "7",
             "uid": "s:40~l:46~t:7",
@@ -377,7 +375,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909300",
@@ -399,8 +399,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "3",
             "uid": "s:40~l:46~t:3",
@@ -465,7 +463,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401909983",
@@ -575,6 +575,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "27",
             "uid": "s:40~l:46~t:27",
@@ -639,9 +641,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
         },
         {
           "id": "401910007",
@@ -1358,9 +1358,9 @@
                   },
                   "details": {
                     "fantasyStatus": {
-                      "description": "OUT",
-                      "abbreviation": "OUT",
-                      "displayDescription": "Out"
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
                     },
                     "type": "Hip",
                     "location": "Torso",
@@ -1766,11 +1766,27 @@
                   "displayName": "Forward",
                   "abbreviation": "F"
                 },
-                "status": {
-                  "id": "1",
-                  "name": "Active",
-                  "type": "active",
-                  "abbreviation": "Active"
+                "status": "Day-To-Day",
+                "injuries": {
+                  "status": "Day-To-Day",
+                  "date": "2026-11-19T14:59Z",
+                  "type": {
+                    "id": "6",
+                    "name": "INJURY_STATUS_DAYTODAY",
+                    "description": "day-to-day",
+                    "abbreviation": "DD"
+                  },
+                  "details": {
+                    "fantasyStatus": {
+                      "description": "GTD",
+                      "abbreviation": "GTD",
+                      "displayDescription": "GTD"
+                    },
+                    "type": "Rest",
+                    "location": "Other",
+                    "side": "Not Specified",
+                    "returnDate": "2026-11-19"
+                  }
                 }
               },
               "statistics": [
@@ -2765,6 +2781,65 @@
       },
       "injuries": [
         {
+          "status": "Day-To-Day",
+          "date": "2026-11-19T14:44Z",
+          "athlete": {
+            "id": "4432810",
+            "uid": "s:40~l:46~a:4432810",
+            "guid": "85d20eec-daee-3fa1-9545-0011fb961cd8",
+            "lastName": "Stewart",
+            "fullName": "Isaiah Stewart",
+            "displayName": "Isaiah Stewart",
+            "shortName": "I. Stewart",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4432810/isaiah-stewart",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432810.png",
+              "alt": "Isaiah Stewart"
+            },
+            "jersey": "28",
+            "position": {
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432810?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Illness",
+            "location": "Other",
+            "returnDate": "2026-11-19"
+          }
+        },
+        {
           "status": "Out",
           "date": "2026-11-17T23:18Z",
           "athlete": {
@@ -2827,65 +2902,6 @@
         },
         {
           "status": "Out",
-          "date": "2026-11-17T22:10Z",
-          "athlete": {
-            "id": "4432810",
-            "uid": "s:40~l:46~a:4432810",
-            "guid": "85d20eec-daee-3fa1-9545-0011fb961cd8",
-            "lastName": "Stewart",
-            "fullName": "Isaiah Stewart",
-            "displayName": "Isaiah Stewart",
-            "shortName": "I. Stewart",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4432810/isaiah-stewart",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432810.png",
-              "alt": "Isaiah Stewart"
-            },
-            "jersey": "28",
-            "position": {
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432810?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Illness",
-            "location": "Other",
-            "returnDate": "2026-11-19"
-          }
-        },
-        {
-          "status": "Out",
           "date": "2026-11-17T22:07Z",
           "athlete": {
             "id": "4065733",
@@ -2934,9 +2950,9 @@
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
             },
             "type": "Hip",
             "location": "Torso",
@@ -3134,8 +3150,68 @@
       },
       "injuries": [
         {
-          "status": "Out",
-          "date": "2026-11-18T23:38Z",
+          "status": "Day-To-Day",
+          "date": "2026-11-19T14:59Z",
+          "athlete": {
+            "id": "6589",
+            "uid": "s:40~l:46~a:6589",
+            "guid": "de360720-e416-25f2-8a6b-b5ff82616cb1",
+            "lastName": "Green",
+            "fullName": "Draymond Green",
+            "displayName": "Draymond Green",
+            "shortName": "D. Green",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/6589/draymond-green",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
+              "alt": "Draymond Green"
+            },
+            "jersey": "23",
+            "position": {
+              "name": "Forward",
+              "displayName": "Forward",
+              "abbreviation": "F"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/41760?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
+            },
+            "type": "Rest",
+            "location": "Other",
+            "side": "Not Specified",
+            "returnDate": "2026-11-19"
+          }
+        },
+        {
+          "status": "Day-To-Day",
+          "date": "2026-11-19T14:51Z",
           "athlete": {
             "id": "3213",
             "uid": "s:40~l:46~a:3213",
@@ -3176,16 +3252,16 @@
             }
           },
           "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
+              "description": "GTD",
+              "abbreviation": "GTD",
+              "displayDescription": "GTD"
             },
             "type": "Back",
             "location": "Torso",
@@ -3368,67 +3444,6 @@
             "location": "Other",
             "returnDate": "2027-01-02"
           }
-        },
-        {
-          "status": "Out",
-          "date": "2026-10-16T16:14Z",
-          "athlete": {
-            "id": "4432171",
-            "uid": "s:40~l:46~a:4432171",
-            "guid": "dd869c0b-ea23-34a4-ae00-f343db752592",
-            "lastName": "Moody",
-            "fullName": "Moses Moody",
-            "displayName": "Moses Moody",
-            "shortName": "M. Moody",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4432171/moses-moody",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4432171.png",
-              "alt": "Moses Moody"
-            },
-            "jersey": "4",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4432171?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Knee",
-            "location": "Leg",
-            "detail": "Surgery",
-            "side": "Left",
-            "returnDate": "2026-12-01"
-          }
         }
       ]
     }
@@ -3480,13 +3495,13 @@
       "details": "MEM -6.5",
       "overUnder": 226.5,
       "spread": -6.5,
-      "overOdds": -113.0,
-      "underOdds": -107.0,
+      "overOdds": -105.0,
+      "underOdds": -115.0,
       "awayTeamOdds": {
         "favorite": false,
         "underdog": true,
         "moneyLine": 200,
-        "spreadOdds": -113.0,
+        "spreadOdds": -108.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/9?lang=en&region=us"
         },
@@ -3497,7 +3512,7 @@
         "favorite": true,
         "underdog": false,
         "moneyLine": -243,
-        "spreadOdds": -107.0,
+        "spreadOdds": -112.0,
         "team": {
           "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/29?lang=en&region=us"
         },
@@ -3737,7 +3752,7 @@
         "home": {
           "close": {
             "line": "-6.5",
-            "odds": "-107",
+            "odds": "-112",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3771,7 +3786,7 @@
         "away": {
           "close": {
             "line": "+6.5",
-            "odds": "-113",
+            "odds": "-108",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3809,7 +3824,7 @@
         "over": {
           "close": {
             "line": "o226.5",
-            "odds": "-113",
+            "odds": "-105",
             "link": {
               "language": "en-US",
               "rel": [
@@ -3843,7 +3858,7 @@
         "under": {
           "close": {
             "line": "u226.5",
-            "odds": "-107",
+            "odds": "-115",
             "link": {
               "language": "en-US",
               "rel": [
@@ -4039,6 +4054,19 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "29",
+      "gameProjection": "68.1",
+      "teamChanceLoss": "31.9"
+    },
+    "awayTeam": {
+      "id": "9",
+      "gameProjection": "31.9",
+      "teamChanceLoss": "68.1"
+    }
+  },
   "winprobability": [],
   "news": {
     "header": "NBA News",
@@ -4056,6 +4084,218 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50526626,
+        "nowId": "1-50526626",
+        "contentKey": "50526626-1-6-1",
+        "dataSourceIdentifier": "4ace0a76ad525",
+        "type": "Story",
+        "headline": "Revisiting sports and pop culture from GTA V's launch",
+        "description": "\"Grand Theft Auto VI\" was released Thursday following a 13-year wait since GTA V.",
+        "lastModified": "2026-11-19T15:21:54Z",
+        "published": "2026-11-19T15:21:54Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "af317c9ef78a1",
+            "id": 50526362,
+            "type": "header",
+            "name": "gta iv vice city [608x342]",
+            "credit": "(Photo by Joe Murphy/NBAE via Getty Images)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1119/r1747923_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "e1b5eba3c90b0",
+            "id": 50526328,
+            "type": "header",
+            "name": "super bowl 2014 [608x342]",
+            "caption": "Russell Wilson and the Legion of Boom took care of business in Super Bowl XLVIII.",
+            "credit": "(Photo by Rob Carr/Getty Images)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1119/r1747922_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "29a374ff6f22c",
+            "id": 50526284,
+            "type": "header",
+            "name": "minnesota lynx [608x342]",
+            "caption": "2013 in the WNBA belonged to the Minnesota Lynx.",
+            "credit": "(Photo by Kevin C. Cox/Getty Images)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1119/r1747920_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "aeb210bd49498",
+            "id": 50526245,
+            "type": "header",
+            "name": "heat 2013 [608x342]",
+            "caption": "The Heat were the team to beat back around GTA V's release.",
+            "credit": "(Photo by Mike Ehrmann/Getty Images)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1119/r1747919_2_608x342_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "1894f8862bdbe",
+            "id": 50526186,
+            "type": "header",
+            "name": "florida state 2014 [608x342]",
+            "caption": "Florida State won the final Rose Bowl of the BCS era.",
+            "credit": "(Photo by Stephen Dunn/Getty Images)",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1119/r1747917_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Stephen Adams jokes 'GTA VI' could hurt NBA performance",
+            "caption": "Stephen Adams jokes 'GTA VI' could hurt NBA performance",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0922/ss_20260922_163058925_3671046/ss_20260922_163058925_3671046.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9572,
+            "type": "league",
+            "uid": "s:20~l:28",
+            "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+            "description": "NFL",
+            "sportId": 28,
+            "leagueId": 28,
+            "league": {
+              "id": 28,
+              "description": "NFL",
+              "abbreviation": "NFL",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nfl/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 9579,
+            "type": "league",
+            "uid": "s:40~l:59",
+            "guid": "f74a6d24-af0c-30a0-bc20-e987c7093a68",
+            "description": "WNBA",
+            "sportId": 59,
+            "leagueId": 59,
+            "league": {
+              "id": 59,
+              "description": "WNBA",
+              "abbreviation": "WNBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/wnba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 80311,
+            "type": "league",
+            "uid": "s:1~l:10",
+            "guid": "b38f959b-7865-31ac-8841-b88355519e10",
+            "description": "MLB",
+            "sportId": 10,
+            "leagueId": 10,
+            "league": {
+              "id": 10,
+              "description": "MLB",
+              "abbreviation": "MLB",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mlb/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mlb/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 701887,
+            "type": "contributor",
+            "guid": "3139123a-2bc7-3127-b40d-448cdb859378",
+            "description": "ESPN Staff Profile",
+            "slug": "espn-staff-profile",
+            "contributor": {
+              "id": 2462,
+              "description": "ESPN Staff Profile"
+            }
+          }
+        ],
+        "byline": "ESPN staff",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50526626"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50526626"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50526626"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50526626/gta-sports-pop-culture-look-back"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50522350,
         "nowId": "1-50522350",
@@ -5043,386 +5283,9 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50528955,
-        "nowId": "1-50528955",
-        "contentKey": "50528955-1-22-1",
-        "dataSourceIdentifier": "46b054c120252",
-        "type": "Preview",
-        "headline": "Wizards visit Bulls Friday in NBA Cup group stage",
-        "description": "Washington Wizards (5-11, 11th in the Eastern Conference) vs. Chicago Bulls (4-10, 13th in the Eastern Conference)",
-        "lastModified": "2026-11-19T07:04:40Z",
-        "published": "2026-11-19T07:04:40Z",
-        "images": [
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.awayhome.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.applewatch.awayhome.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.applewatch.homeaway.1",
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.applewatch.homeaway.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.awayhome.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.1",
-            "ratio": "16x9",
-            "height": 173,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.homeaway.16x9.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.awayhome.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.1x1.1",
-            "ratio": "1x1",
-            "height": 308,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.homeaway.1x1.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.awayhome.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.1",
-            "ratio": "5x2",
-            "height": 124,
-            "width": 308,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.homeaway.5x2.1"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.awayhome.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.16x9.2",
-            "ratio": "16x9",
-            "height": 353,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.homeaway.16x9.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.awayhome.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.awayhome.5x2.2"
-          },
-          {
-            "type": "stitcher",
-            "name": "espn.all.homeaway.5x2.2",
-            "ratio": "5x2",
-            "height": 251,
-            "width": 628,
-            "url": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909309.png?templateId=espn.all.homeaway.5x2.2"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4392,
-            "type": "team",
-            "uid": "s:40~l:46~t:4",
-            "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
-            "description": "Chicago Bulls",
-            "sportId": 46,
-            "teamId": 4,
-            "team": {
-              "id": 4,
-              "description": "Chicago Bulls",
-              "abbreviation": "CHI",
-              "shortDisplayName": "Bulls",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4339,
-            "type": "team",
-            "uid": "s:40~l:46~t:27",
-            "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-            "description": "Washington Wizards",
-            "sportId": 46,
-            "teamId": 27,
-            "team": {
-              "id": 27,
-              "description": "Washington Wizards",
-              "abbreviation": "WSH",
-              "shortDisplayName": "Wizards",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:40~l:46~e:401909309",
-            "guid": "b04cd081-1c80-35ae-8c1b-194b62b7cdc7",
-            "description": "Washington Wizards @ Chicago Bulls",
-            "eventId": 401909309,
-            "event": {
-              "id": 401909309,
-              "sport": "basketball",
-              "league": "nba",
-              "description": "Washington Wizards @ Chicago Bulls"
-            }
-          }
-        ],
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50528955"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50528955"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50528955"
-          },
-          "web": {
-            "href": "http://www.espn.com/nba/preview?gameId=401909309"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "29",
-      "gameProjection": "68.1",
-      "teamChanceLoss": "31.9"
-    },
-    "awayTeam": {
-      "id": "9",
-      "gameProjection": "31.9",
-      "teamChanceLoss": "68.1"
-    }
-  },
-  "article": {
-    "id": 50528957,
-    "nowId": "1-50528957",
-    "contentKey": "50528957-1-22-1",
-    "dataSourceIdentifier": "f8420995c7e9c",
-    "publishedkey": "nba401910019",
-    "type": "Preview",
-    "gameId": "401910019",
-    "headline": "Memphis takes on Golden State, looks for 5th straight victory",
-    "description": "Golden State Warriors (8-7, 10th in the Western Conference) vs. Memphis Grizzlies (11-4, fifth in the Western Conference)",
-    "title": "Memphis takes on Golden State, looks for 5th straight victory",
-    "linkText": "Memphis takes on Golden State, looks for 5th straight victory",
-    "categorized": "2026-11-19T07:04:43Z",
-    "originallyPosted": "2026-11-19T07:04:41Z",
-    "lastModified": "2026-11-19T07:04:42Z",
-    "published": "2026-11-19T07:04:41Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4584,
-        "type": "team",
-        "uid": "s:40~l:46~t:29",
-        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-        "description": "Memphis Grizzlies",
-        "sportId": 46,
-        "teamId": 29,
-        "team": {
-          "id": 29,
-          "description": "Memphis Grizzlies",
-          "abbreviation": "MEM",
-          "shortDisplayName": "Grizzlies",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4600,
-        "type": "team",
-        "uid": "s:40~l:46~t:9",
-        "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-        "description": "Golden State Warriors",
-        "sportId": 46,
-        "teamId": 9,
-        "team": {
-          "id": 9,
-          "description": "Golden State Warriors",
-          "abbreviation": "GS",
-          "shortDisplayName": "Warriors",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401910019",
-        "guid": "911d9c62-6f6c-3805-8285-de193911103a",
-        "description": "Golden State Warriors @ Memphis Grizzlies",
-        "eventId": 401910019,
-        "event": {
-          "id": 401910019,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Golden State Warriors @ Memphis Grizzlies"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Memphis Grizzlies",
-      "Golden State Warriors",
-      "Golden State Warriors @ Memphis Grizzlies"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/gs/golden-state-warriors\">Golden State Warriors</a> (8-7, 10th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (11-4, fifth in the Western Conference)\n\n\r\n              Memphis, Tennessee; Thursday, 8 p.m. EST\n\n\r\n              LINE: Grizzlies -8.5; over/under is 225.5\n\n\r\n              BOTTOM LINE: Memphis is looking to keep its four-game win streak going when the Grizzlies take on Golden State.\n\n\r\n              The Grizzlies are 7-3 in Western Conference games. Memphis is fifth in the league with 46.5 rebounds led by <a href=\"http://www.espn.com/nba/player/_/id/5041935/cameron-boozer\">Cameron Boozer</a> averaging 9.4.\n\n\r\n              The Warriors have gone 6-7 against Western Conference opponents. Golden State ranks fifth in the Western Conference with 27.5 assists per game led by <a href=\"http://www.espn.com/nba/player/_/id/6589/draymond-green\">Draymond Green</a> averaging 6.5.\n\n\r\n              The Grizzlies average 15.6 made 3-pointers per game this season, 2.3 more made shots on average than the 13.3 per game the Warriors give up. The Warriors average 113.7 points per game, 0.8 more than the 112.9 the Grizzlies give up to opponents.\n\n\r\n              The two teams play for the second time this season. The Grizzlies defeated the Warriors 111-108 in their last matchup on Oct. 24. <a href=\"http://www.espn.com/nba/player/_/id/4065733/ty-jerome\">Ty Jerome</a> led the Grizzlies with 28 points, and <a href=\"http://www.espn.com/nba/player/_/id/3975/stephen-curry\">Stephen Curry</a> led the Warriors with 24 points.\n\n\r\n              TOP PERFORMERS: Boozer is averaging 16.6 points, 9.4 rebounds and 5.3 assists for the Grizzlies. <a href=\"http://www.espn.com/nba/player/_/id/4433083/cam-spencer\">Cam Spencer</a> is averaging 2.2 made 3-pointers over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4709138/brandin-podziemski\">Brandin Podziemski</a> is averaging 15.8 points and 3.8 assists for the Warriors. <a href=\"http://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg\">Yaxel Lendeborg</a> is averaging 19.1 points and 6.3 rebounds while shooting 45.8% over the past 10 games.\n\n\r\n              LAST 10 GAMES: Grizzlies: 6-4, averaging 123.7 points, 44.4 rebounds, 30.2 assists, 6.8 steals and 5.1 blocks per game while shooting 49.5% from the field. Their opponents have averaged 116.2 points per game.\n\n\r\n              Warriors: 6-4, averaging 111.7 points, 44.6 rebounds, 28.5 assists, 7.8 steals and 6.5 blocks per game while shooting 44.9% from the field. Their opponents have averaged 109.5 points.\n\n\r\n              INJURIES: Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4432810/isaiah-stewart\">Isaiah Stewart</a>: day to day (illness), <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: out (back), <a href=\"http://www.espn.com/nba/player/_/id/5105550/gg-jackson\">GG Jackson</a>: out (foot), Ty Jerome: day to day (hip), <a href=\"http://www.espn.com/nba/player/_/id/5105462/richie-saunders\">Richie Saunders</a>: day to day (knee).\n\n\r\n              Warriors: <a href=\"http://www.espn.com/nba/player/_/id/4397040/brandon-williams\">Brandon Williams</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4432171/moses-moody\">Moses Moody</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis\">Kristaps Porzingis</a>: out (illness), Stephen Curry: out (abdomen), <a href=\"http://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii\">Jimmy Butler III</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3213/al-horford\">Al Horford</a>: day to day (back).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50528957"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50528957"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50528957"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401910019"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
   "header": {
     "id": "401910019",
     "uid": "s:40~l:46~e:401910019",
@@ -5916,7 +5779,7 @@
               "favorite": false,
               "underdog": true,
               "moneyLine": 200,
-              "spreadOdds": -113.0,
+              "spreadOdds": -108.0,
               "open": {
                 "favorite": false,
                 "pointSpread": {
@@ -5946,12 +5809,12 @@
                   "american": "+6.5"
                 },
                 "spread": {
-                  "value": 1.88,
-                  "displayValue": "100/113",
-                  "alternateDisplayValue": "-113",
-                  "decimal": 1.88,
-                  "fraction": "100/113",
-                  "american": "-113"
+                  "value": 1.92,
+                  "displayValue": "25/27",
+                  "alternateDisplayValue": "-108",
+                  "decimal": 1.92,
+                  "fraction": "25/27",
+                  "american": "-108"
                 },
                 "moneyLine": {
                   "value": 3.0,
@@ -5970,7 +5833,7 @@
               "favorite": true,
               "underdog": false,
               "moneyLine": -243,
-              "spreadOdds": -107.0,
+              "spreadOdds": -112.0,
               "open": {
                 "favorite": true,
                 "pointSpread": {
@@ -6000,12 +5863,12 @@
                   "american": "-6.5"
                 },
                 "spread": {
-                  "value": 1.93,
-                  "displayValue": "100/107",
-                  "alternateDisplayValue": "-107",
-                  "decimal": 1.93,
-                  "fraction": "100/107",
-                  "american": "-107"
+                  "value": 1.89,
+                  "displayValue": "25/28",
+                  "alternateDisplayValue": "-112",
+                  "decimal": 1.89,
+                  "fraction": "25/28",
+                  "american": "-112"
                 },
                 "moneyLine": {
                   "value": 1.41,
@@ -6022,20 +5885,20 @@
             },
             "current": {
               "over": {
-                "value": 1.88,
-                "displayValue": "100/113",
-                "alternateDisplayValue": "-113",
-                "decimal": 1.88,
-                "fraction": "100/113",
-                "american": "-113"
+                "value": 1.95,
+                "displayValue": "20/21",
+                "alternateDisplayValue": "-105",
+                "decimal": 1.95,
+                "fraction": "20/21",
+                "american": "-105"
               },
               "under": {
-                "value": 1.93,
-                "displayValue": "100/107",
-                "alternateDisplayValue": "-107",
-                "decimal": 1.93,
-                "fraction": "100/107",
-                "american": "-107"
+                "value": 1.86,
+                "displayValue": "20/23",
+                "alternateDisplayValue": "-115",
+                "decimal": 1.86,
+                "fraction": "20/23",
+                "american": "-115"
               },
               "total": {
                 "alternateDisplayValue": "226.5",
@@ -6522,6 +6385,153 @@
       ]
     }
   },
+  "article": {
+    "id": 50528957,
+    "nowId": "1-50528957",
+    "contentKey": "50528957-1-22-1",
+    "dataSourceIdentifier": "f8420995c7e9c",
+    "publishedkey": "nba401910019",
+    "type": "Preview",
+    "gameId": "401910019",
+    "headline": "Memphis takes on Golden State, looks for 5th straight victory",
+    "description": "Golden State Warriors (8-7, 10th in the Western Conference) vs. Memphis Grizzlies (11-4, fifth in the Western Conference)",
+    "title": "Memphis takes on Golden State, looks for 5th straight victory",
+    "linkText": "Memphis takes on Golden State, looks for 5th straight victory",
+    "categorized": "2026-11-19T07:04:43Z",
+    "originallyPosted": "2026-11-19T07:04:41Z",
+    "lastModified": "2026-11-19T07:04:42Z",
+    "published": "2026-11-19T07:04:41Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4584,
+        "type": "team",
+        "uid": "s:40~l:46~t:29",
+        "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
+        "description": "Memphis Grizzlies",
+        "sportId": 46,
+        "teamId": 29,
+        "team": {
+          "id": 29,
+          "description": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "shortDisplayName": "Grizzlies",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4600,
+        "type": "team",
+        "uid": "s:40~l:46~t:9",
+        "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
+        "description": "Golden State Warriors",
+        "sportId": 46,
+        "teamId": 9,
+        "team": {
+          "id": 9,
+          "description": "Golden State Warriors",
+          "abbreviation": "GS",
+          "shortDisplayName": "Warriors",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401910019",
+        "guid": "911d9c62-6f6c-3805-8285-de193911103a",
+        "description": "Golden State Warriors @ Memphis Grizzlies",
+        "eventId": 401910019,
+        "event": {
+          "id": 401910019,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Golden State Warriors @ Memphis Grizzlies"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Memphis Grizzlies",
+      "Golden State Warriors",
+      "Golden State Warriors @ Memphis Grizzlies"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/gs/golden-state-warriors\">Golden State Warriors</a> (8-7, 10th in the Western Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/mem/memphis-grizzlies\">Memphis Grizzlies</a> (11-4, fifth in the Western Conference)\n\n\r\n              Memphis, Tennessee; Thursday, 8 p.m. EST\n\n\r\n              LINE: Grizzlies -8.5; over/under is 225.5\n\n\r\n              BOTTOM LINE: Memphis is looking to keep its four-game win streak going when the Grizzlies take on Golden State.\n\n\r\n              The Grizzlies are 7-3 in Western Conference games. Memphis is fifth in the league with 46.5 rebounds led by <a href=\"http://www.espn.com/nba/player/_/id/5041935/cameron-boozer\">Cameron Boozer</a> averaging 9.4.\n\n\r\n              The Warriors have gone 6-7 against Western Conference opponents. Golden State ranks fifth in the Western Conference with 27.5 assists per game led by <a href=\"http://www.espn.com/nba/player/_/id/6589/draymond-green\">Draymond Green</a> averaging 6.5.\n\n\r\n              The Grizzlies average 15.6 made 3-pointers per game this season, 2.3 more made shots on average than the 13.3 per game the Warriors give up. The Warriors average 113.7 points per game, 0.8 more than the 112.9 the Grizzlies give up to opponents.\n\n\r\n              The two teams play for the second time this season. The Grizzlies defeated the Warriors 111-108 in their last matchup on Oct. 24. <a href=\"http://www.espn.com/nba/player/_/id/4065733/ty-jerome\">Ty Jerome</a> led the Grizzlies with 28 points, and <a href=\"http://www.espn.com/nba/player/_/id/3975/stephen-curry\">Stephen Curry</a> led the Warriors with 24 points.\n\n\r\n              TOP PERFORMERS: Boozer is averaging 16.6 points, 9.4 rebounds and 5.3 assists for the Grizzlies. <a href=\"http://www.espn.com/nba/player/_/id/4433083/cam-spencer\">Cam Spencer</a> is averaging 2.2 made 3-pointers over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4709138/brandin-podziemski\">Brandin Podziemski</a> is averaging 15.8 points and 3.8 assists for the Warriors. <a href=\"http://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg\">Yaxel Lendeborg</a> is averaging 19.1 points and 6.3 rebounds while shooting 45.8% over the past 10 games.\n\n\r\n              LAST 10 GAMES: Grizzlies: 6-4, averaging 123.7 points, 44.4 rebounds, 30.2 assists, 6.8 steals and 5.1 blocks per game while shooting 49.5% from the field. Their opponents have averaged 116.2 points per game.\n\n\r\n              Warriors: 6-4, averaging 111.7 points, 44.6 rebounds, 28.5 assists, 7.8 steals and 6.5 blocks per game while shooting 44.9% from the field. Their opponents have averaged 109.5 points.\n\n\r\n              INJURIES: Grizzlies: <a href=\"http://www.espn.com/nba/player/_/id/4432810/isaiah-stewart\">Isaiah Stewart</a>: day to day (illness), <a href=\"http://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr\">Scotty Pippen Jr</a>.: out (back), <a href=\"http://www.espn.com/nba/player/_/id/5105550/gg-jackson\">GG Jackson</a>: out (foot), Ty Jerome: day to day (hip), <a href=\"http://www.espn.com/nba/player/_/id/5105462/richie-saunders\">Richie Saunders</a>: day to day (knee).\n\n\r\n              Warriors: <a href=\"http://www.espn.com/nba/player/_/id/4397040/brandon-williams\">Brandon Williams</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4432171/moses-moody\">Moses Moody</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis\">Kristaps Porzingis</a>: out (illness), Stephen Curry: out (abdomen), <a href=\"http://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii\">Jimmy Butler III</a>: out (knee), <a href=\"http://www.espn.com/nba/player/_/id/3213/al-horford\">Al Horford</a>: day to day (back).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50528957"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50528957"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50528957"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401910019"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
   "ticketsInfo": {
     "tickets": [
@@ -6536,42 +6546,42 @@
         "type": "team"
       },
       {
-        "ticketName": "11/19 vs Warriors 1211 tickets left",
+        "ticketName": "11/19 vs Warriors 1190 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-19-2026/production/7433056?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/21 @ Timberwolves 542 tickets left",
+        "ticketName": "11/21 @ Timberwolves 540 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-11-21-2026/production/7432925?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/23 @ Hornets 2756 tickets left",
+        "ticketName": "11/23 @ Hornets 2708 tickets left",
         "ticketLink": "https://www.vividseats.com/charlotte-hornets-tickets-spectrum-center-11-23-2026/production/7431755?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/25 vs Clippers 1282 tickets left",
+        "ticketName": "11/25 vs Clippers 1276 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-10-31-2026--sports-nba-basketball/production/7419908?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/27 @ Timberwolves 684 tickets left",
+        "ticketName": "11/27 @ Timberwolves 682 tickets left",
         "ticketLink": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-10-31-2026--sports-nba-basketball/production/7419912?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "11/29 vs Lakers 1617 tickets left",
+        "ticketName": "11/29 vs Lakers 1621 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-11-29-2026/production/7431762?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/1 @ 76ers 2528 tickets left",
+        "ticketName": "12/1 @ 76ers 2537 tickets left",
         "ticketLink": "https://www.vividseats.com/philadelphia-76ers-tickets-xfinity-mobile-arena-12-1-2026/production/7431531?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/2 @ Pistons 3156 tickets left",
+        "ticketName": "12/2 @ Pistons 3174 tickets left",
         "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-2-2026/production/7431768?wsUser=717",
         "type": "event"
       },
@@ -6581,22 +6591,22 @@
         "type": "event"
       },
       {
-        "ticketName": "12/14 vs Warriors 1752 tickets left",
+        "ticketName": "12/14 vs Warriors 1761 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-14-2026/production/7431228?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/16 vs Heat 1683 tickets left",
+        "ticketName": "12/16 vs Heat 1684 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-16-2026/production/7431014?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/18 vs Rockets 1742 tickets left",
+        "ticketName": "12/18 vs Rockets 1741 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-18-2026/production/7431780?wsUser=717",
         "type": "event"
       },
       {
-        "ticketName": "12/20 vs Suns 1708 tickets left",
+        "ticketName": "12/20 vs Suns 1706 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-20-2026/production/7431560?wsUser=717",
         "type": "event"
       },
@@ -6606,7 +6616,7 @@
         "type": "event"
       },
       {
-        "ticketName": "12/23 vs Raptors 1734 tickets left",
+        "ticketName": "12/23 vs Raptors 1732 tickets left",
         "ticketLink": "https://www.vividseats.com/memphis-grizzlies-tickets-fedexforum-12-23-2026/production/7431086?wsUser=717",
         "type": "event"
       }
@@ -6615,7 +6625,7 @@
       "opponentTeamName": "Warriors",
       "currentTeamName": "Grizzlies",
       "venueName": "FedExForum",
-      "summary": "Tickets as low as $15",
+      "summary": "Tickets as low as $14",
       "date": "2026-11-20T01:00Z",
       "dateDay": "Thu",
       "homeAway": "home",
