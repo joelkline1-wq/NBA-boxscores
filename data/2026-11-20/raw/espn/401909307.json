@@ -575,8 +575,6 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "4",
             "uid": "s:40~l:46~t:4",
@@ -641,7 +639,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA"
         },
         {
           "id": "401910007",
@@ -908,6 +908,8 @@
           "homeShootoutScore": "0",
           "awayShootoutScore": "0",
           "gameResult": "W",
+          "leagueName": "National Basketball Association",
+          "leagueAbbreviation": "NBA",
           "opponent": {
             "id": "27",
             "uid": "s:40~l:46~t:27",
@@ -972,9 +974,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-          "leagueName": "National Basketball Association",
-          "leagueAbbreviation": "NBA"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
         },
         {
           "id": "401909296",
@@ -3103,6 +3103,67 @@
       },
       "injuries": [
         {
+          "status": "Out",
+          "date": "2026-11-20T20:41Z",
+          "athlete": {
+            "id": "4396993",
+            "uid": "s:40~l:46~a:4396993",
+            "guid": "c4a0ba92-4e50-60af-a617-3345255115a7",
+            "lastName": "Haliburton",
+            "fullName": "Tyrese Haliburton",
+            "displayName": "Tyrese Haliburton",
+            "shortName": "T. Haliburton",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton",
+                "text": "Player Card"
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
+              "alt": "Tyrese Haliburton"
+            },
+            "jersey": "0",
+            "position": {
+              "name": "Guard",
+              "displayName": "Guard",
+              "abbreviation": "G"
+            },
+            "collegeAthlete": {
+              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4396993?lang=en&region=us"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT",
+              "displayDescription": "Out"
+            },
+            "type": "Hamstring",
+            "location": "Leg",
+            "detail": "Strain",
+            "side": "Left",
+            "returnDate": "2026-12-13"
+          }
+        },
+        {
           "status": "Day-To-Day",
           "date": "2026-11-19T22:14Z",
           "athlete": {
@@ -3283,67 +3344,6 @@
             "detail": "Sprain",
             "side": "Right",
             "returnDate": "2026-11-20"
-          }
-        },
-        {
-          "status": "Out",
-          "date": "2026-11-17T18:46Z",
-          "athlete": {
-            "id": "4396993",
-            "uid": "s:40~l:46~a:4396993",
-            "guid": "c4a0ba92-4e50-60af-a617-3345255115a7",
-            "lastName": "Haliburton",
-            "fullName": "Tyrese Haliburton",
-            "displayName": "Tyrese Haliburton",
-            "shortName": "T. Haliburton",
-            "links": [
-              {
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton",
-                "text": "Player Card"
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
-              "alt": "Tyrese Haliburton"
-            },
-            "jersey": "0",
-            "position": {
-              "name": "Guard",
-              "displayName": "Guard",
-              "abbreviation": "G"
-            },
-            "collegeAthlete": {
-              "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/mens-college-basketball/athletes/4396993?lang=en&region=us"
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT",
-              "displayDescription": "Out"
-            },
-            "type": "Hamstring",
-            "location": "Leg",
-            "detail": "Strain",
-            "side": "Left",
-            "returnDate": "2026-11-28"
           }
         },
         {
@@ -4016,6 +4016,19 @@
       "records": []
     }
   ],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "5",
+      "gameProjection": "81.1",
+      "teamChanceLoss": "18.9"
+    },
+    "awayTeam": {
+      "id": "11",
+      "gameProjection": "18.9",
+      "teamChanceLoss": "81.1"
+    }
+  },
   "news": {
     "header": "NBA News",
     "link": {
@@ -4032,6 +4045,685 @@
       "isPremium": false
     },
     "articles": [
+      {
+        "id": 50543371,
+        "nowId": "1-50543371",
+        "contentKey": "50543371-1-293-1",
+        "dataSourceIdentifier": "55ebf7851eabc",
+        "type": "Media",
+        "headline": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+        "description": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+        "lastModified": "2026-11-20T20:54:46Z",
+        "published": "2026-11-20T20:54:46Z",
+        "images": [
+          {
+            "name": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+            "caption": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154907835_3751400/ss_20261120_154907835_3751400.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 4517,
+            "type": "team",
+            "uid": "s:40~l:46~t:10",
+            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
+            "description": "Houston Rockets",
+            "sportId": 46,
+            "teamId": 10,
+            "team": {
+              "id": 10,
+              "description": "Houston Rockets",
+              "abbreviation": "HOU",
+              "shortDisplayName": "Rockets",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 711826,
+            "type": "editorialindicator",
+            "guid": "122acb1b-7e9e-31cf-88a1-d2dc784385cf",
+            "description": "2 Star Rating"
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 157435,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:2991230",
+            "guid": "6c6e5179-fc67-908e-bc50-0a5580d64159",
+            "description": "Fred VanVleet",
+            "sportId": 46,
+            "athleteId": 2991230,
+            "athlete": {
+              "id": 2991230,
+              "description": "Fred VanVleet",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/2991230/fred-vanvleet"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/2991230/fred-vanvleet"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 756049,
+            "type": "series",
+            "guid": "053a81e2-ea65-4dda-b15b-0f012152d7f1",
+            "description": "NBA Today",
+            "series": {
+              "description": "NBA Today"
+            }
+          },
+          {
+            "id": 730035,
+            "type": "editorialindicator",
+            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
+            "description": "Verts - Exclude Content"
+          },
+          {
+            "id": 701625,
+            "type": "contributor",
+            "guid": "59e56689-5313-381e-bc03-00fcae3aa714",
+            "description": "Michael C. Wright",
+            "slug": "michael-c.-wright",
+            "contributor": {
+              "id": 2126,
+              "description": "Michael C. Wright"
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/8bb58a4e-acbd-481e-87c7-34e53514d52f"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50543371"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50543371&videoDSI=55ebf7851eabc"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50543371/fred-vanvleet-brings-sense-calm-rockets",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50543371/fred-vanvleet-brings-sense-calm-rockets",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=55ebf7851eabc"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50543306,
+        "nowId": "1-50543306",
+        "contentKey": "50543306-1-293-1",
+        "dataSourceIdentifier": "408112e160510",
+        "type": "Media",
+        "headline": "Shams: Brandon Ingram will make Clippers debut Monday",
+        "description": "Shams: Brandon Ingram will make Clippers debut Monday",
+        "lastModified": "2026-11-20T20:49:55Z",
+        "published": "2026-11-20T20:49:55Z",
+        "images": [
+          {
+            "name": "Shams: Brandon Ingram will make Clippers debut Monday",
+            "caption": "Shams: Brandon Ingram will make Clippers debut Monday",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154334744_3751382947/ss_20261120_154334744_3751382947.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409228,
+            "type": "topic",
+            "guid": "3d170ccb-7b75-54f1-78c4-cfbf3ee3322d",
+            "description": "fantasy",
+            "sportId": 0,
+            "topicId": 785
+          },
+          {
+            "id": 191422,
+            "type": "topic",
+            "guid": "9660cd01-90a5-2726-f826-03bcf57d32ae",
+            "description": "nba highlight",
+            "sportId": 0,
+            "topicId": 707
+          },
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 730035,
+            "type": "editorialindicator",
+            "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
+            "description": "Verts - Exclude Content"
+          },
+          {
+            "id": 689540,
+            "type": "contributor",
+            "guid": "6d9f7279-3a66-3472-976a-f052d9d47e6b",
+            "description": "Shams Charania",
+            "slug": "shams-charania",
+            "contributor": {
+              "id": 4040,
+              "description": "Shams Charania",
+              "links": {
+                "mobile": {
+                  "contributors": {
+                    "href": "https://www.espn.com/contributor/shams-charania"
+                  }
+                },
+                "web": {
+                  "contributors": {
+                    "href": "https://www.espn.com/contributor/shams-charania"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154327,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3913176",
+            "guid": "735792ca-bca3-6bab-e2ed-68f39ccc7270",
+            "description": "Brandon Ingram",
+            "sportId": 46,
+            "athleteId": 3913176,
+            "athlete": {
+              "id": 3913176,
+              "description": "Brandon Ingram",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154798,
+            "type": "team",
+            "uid": "s:40~l:46~t:12",
+            "guid": "083a58a6-b849-3501-e67b-059290d12295",
+            "description": "LA Clippers",
+            "sportId": 46,
+            "teamId": 12,
+            "team": {
+              "id": 12,
+              "description": "LA Clippers",
+              "abbreviation": "LAC",
+              "shortDisplayName": "Clippers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/ab0cc3f9-a3d8-4cbb-ae78-08f14549041c"
+            },
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/50543306"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=50543306&videoDSI=408112e160510"
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/50543306/brandon-ingram-make-clippers-debut-monday",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/50543306/brandon-ingram-make-clippers-debut-monday",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=408112e160510"
+              }
+            }
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50542985,
+        "nowId": "1-50542985",
+        "contentKey": "50542985-1-5-1",
+        "dataSourceIdentifier": "ea4953bdaaec8",
+        "type": "HeadlineNews",
+        "headline": "Sources: Brandon Ingram (Achilles) expected to Clippers debut vs. Rockets",
+        "description": "After recovering from Achilles surgery, Brandon Ingram is set to make his Clippers debut Monday against the Rockets, sources told ESPN's Shams Charania.",
+        "lastModified": "2026-11-20T20:51:15Z",
+        "published": "2026-11-20T20:51:15Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7a471b69908e5",
+            "id": 50543106,
+            "type": "header",
+            "name": "Brandon Ingram [1296x729]",
+            "alt": "Brandon Ingram",
+            "credit": "Ronald Cortes/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/1120/r1748650_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Shams: Brandon Ingram will make Clippers debut Monday",
+            "caption": "Shams: Brandon Ingram will make Clippers debut Monday",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154334744_3751382947/ss_20261120_154334744_3751382947.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 154798,
+            "type": "team",
+            "uid": "s:40~l:46~t:12",
+            "guid": "083a58a6-b849-3501-e67b-059290d12295",
+            "description": "LA Clippers",
+            "sportId": 46,
+            "teamId": 12,
+            "team": {
+              "id": 12,
+              "description": "LA Clippers",
+              "abbreviation": "LAC",
+              "shortDisplayName": "Clippers",
+              "links": {
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 154327,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3913176",
+            "guid": "735792ca-bca3-6bab-e2ed-68f39ccc7270",
+            "description": "Brandon Ingram",
+            "sportId": 46,
+            "athleteId": 3913176,
+            "athlete": {
+              "id": 3913176,
+              "description": "Brandon Ingram",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50542985"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50542985"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/nba/story?storyId=50542985"
+          },
+          "web": {
+            "href": "https://www.espn.com/nba/story/_/id/50542985/sources-clippers-brandon-ingram-make-season-team-debut"
+          }
+        },
+        "premium": false
+      },
+      {
+        "id": 50541753,
+        "nowId": "1-50541753",
+        "contentKey": "50541753-1-6-1",
+        "dataSourceIdentifier": "108888c0a8820",
+        "type": "Story",
+        "headline": "Should fantasy hoops managers expect a return to dominance from Nikola Jokic?",
+        "description": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?",
+        "lastModified": "2026-11-20T19:47:49Z",
+        "published": "2026-11-20T19:47:49Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "3c1fe9f05b958",
+            "id": 50542643,
+            "type": "header",
+            "name": "Nikola Jokic and Victor Wembanyama [608x342]",
+            "caption": "Nikola Jokic is third on the Player Rater, behind Victor Wembanyama and Luka Doncic.\n",
+            "alt": "Nikola Jokic drives to the basket against Victor Wembanyama.",
+            "credit": "Catherine Steenkeste/Getty Images",
+            "height": 342,
+            "width": 608,
+            "url": "https://a.espncdn.com/photo/2026/1120/r1748619_608x342_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Nikola Jokic finds Christian Braun for a dunk to put Denver ahead",
+            "caption": "Nikola Jokic finds Christian Braun for a dunk to put Denver ahead",
+            "height": 324,
+            "width": 576,
+            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/ce592e53-4a25-4f70-9ff6-39380edc3d86/ce592e53-4a25-4f70-9ff6-39380edc3d86.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 12025,
+            "type": "league",
+            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
+            "description": "Fantasy NBA",
+            "sportId": 0,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA"
+            }
+          },
+          {
+            "id": 9577,
+            "type": "league",
+            "uid": "s:40~l:46",
+            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+            "description": "NBA",
+            "sportId": 46,
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
+              "abbreviation": "NBA",
+              "links": {
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 141870,
+            "type": "topic",
+            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
+            "description": "news - fantasy",
+            "sportId": 0,
+            "topicId": 240
+          },
+          {
+            "id": 152380,
+            "type": "topic",
+            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
+            "description": "news - fantasy basketball",
+            "sportId": 0,
+            "topicId": 400
+          },
+          {
+            "id": 129403,
+            "type": "topic",
+            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
+            "description": "news - nba",
+            "sportId": 0,
+            "topicId": 122
+          },
+          {
+            "id": 128824,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3112335",
+            "guid": "22f57511-06ae-1587-f01b-33965365ce0d",
+            "description": "Nikola Jokic",
+            "sportId": 46,
+            "athleteId": 3112335,
+            "athlete": {
+              "id": 3112335,
+              "description": "Nikola Jokic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 603357,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:5104157",
+            "guid": "0e8844b2-d923-3926-82d2-f19a29d69490",
+            "description": "Victor Wembanyama",
+            "sportId": 46,
+            "athleteId": 5104157,
+            "athlete": {
+              "id": 5104157,
+              "description": "Victor Wembanyama",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 159574,
+            "type": "athlete",
+            "uid": "s:40~l:46~a:3945274",
+            "guid": "583794eb-0f38-9bbd-3e25-9dd33b7f83b8",
+            "description": "Luka Doncic",
+            "sportId": 46,
+            "athleteId": 3945274,
+            "athlete": {
+              "id": 3945274,
+              "description": "Luka Doncic",
+              "links": {
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3945274/luka-doncic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 699506,
+            "type": "contributor",
+            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
+            "description": "Andre Snellings",
+            "slug": "andre-snellings",
+            "contributor": {
+              "id": 3273,
+              "description": "Andre Snellings"
+            }
+          }
+        ],
+        "byline": "Andre Snellings",
+        "links": {
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/50541753"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=50541753"
+            }
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=50541753"
+          },
+          "web": {
+            "href": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players"
+          }
+        },
+        "premium": false
+      },
       {
         "id": 50541974,
         "nowId": "1-50541974",
@@ -4423,1193 +5115,10 @@
           }
         },
         "premium": false
-      },
-      {
-        "id": 50538678,
-        "nowId": "1-50538678",
-        "contentKey": "50538678-1-6-1",
-        "dataSourceIdentifier": "39da8237c9c03",
-        "type": "Story",
-        "headline": "NBA betting roundtable: Experts weigh in on MVP, Rookie of the Year and more",
-        "description": "The NBA betting experts share their favorite future bets, including Rookie of the Year, MVP and more.",
-        "lastModified": "2026-11-20T19:17:31Z",
-        "published": "2026-11-20T19:17:31Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "6cbf40be82102",
-            "id": 50539160,
-            "type": "header",
-            "name": "Cameron Boozer [1296x729]",
-            "caption": "The Memphis Grizzlies, behind the impressive start by rookie Cameron Boozer, are a popular bet to make the playoffs.",
-            "alt": "Cameron Boozer #27 of the Memphis Grizzlies dribbles the ball during the game against the Golden State Warriors on November 19, 2026 at FedExForum in Memphis, Tennessee.",
-            "credit": "Joe Murphy/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1120/r1748454_1296x729_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "88a065b9f51b6",
-            "id": 50539221,
-            "type": "header",
-            "name": "Darius Acuff Jr. [1296x729]",
-            "caption": "Kings rookie Darius Acuff Jr. has averaged over 26.0 PPG in the opening month of his NBA career.",
-            "alt": "Darius Acuff Jr. #5 of the Sacramento Kings drives to the basket during the game against the Oklahoma City Thunder on November 15, 2026 at Golden 1 Center in Sacramento, California.",
-            "credit": "Rocky Widner/NBAE via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1120/r1748457_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 129403,
-            "type": "topic",
-            "guid": "35ca0660-5953-cf5d-cd90-758abb379355",
-            "description": "news - nba",
-            "sportId": 0,
-            "topicId": 122
-          },
-          {
-            "id": 611584,
-            "type": "league",
-            "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
-            "description": "Sports Betting",
-            "sportId": 22000,
-            "leagueId": 22000,
-            "league": {
-              "id": 22000,
-              "description": "Sports Betting"
-            }
-          }
-        ],
-        "byline": "ESPN",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50538678"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50538678"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=50538678"
-          },
-          "web": {
-            "href": "https://www.espn.com/espn/betting/story/_/id/50538678/nba-betting-mvp-rookie-year-playoff-longshots-2026-2027"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50524821,
-        "nowId": "1-50524821",
-        "contentKey": "50524821-1-6-1",
-        "dataSourceIdentifier": "db36e3f53c01d",
-        "type": "Story",
-        "headline": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
-        "description": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important.",
-        "lastModified": "2026-11-20T15:28:14Z",
-        "published": "2026-11-20T15:28:14Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "fbc0ee8741ce4",
-            "id": 50524749,
-            "type": "header",
-            "name": "FVV Dribble\n [1296x729]",
-            "credit": "(Photo by Clicks Images/Getty Images)",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "5adf8abfd69bc",
-            "id": 50524726,
-            "type": "header",
-            "name": "Rockets Floor\n [1296x729]",
-            "credit": "Copyright 2026 NBAE (Photo by Logan Riely/NBAE via Getty Images)",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747853_1296x729_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "8cf7af1b15829",
-            "id": 50524792,
-            "type": "header",
-            "name": "FVV Ime [1296x729]",
-            "caption": "Rockets coach Ime Udoka, right, considers VanVleet an extension of the coaching staff, holding everyone on staff accountable.",
-            "credit": "Copyright 2026 NBAE (Photo by Logan Riely/NBAE via Getty Images)",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747854_1296x729_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "e996ff4ba2d8b",
-            "id": 50524770,
-            "type": "header",
-            "name": "FVV Sheppard Bench [1296x729]",
-            "caption": "Fred VanVleet, who sat out last season because of an ACL injury, discusses strategy with Reed Sheppard during a game in 2025.",
-            "credit": "Troy Taormina-Imagn Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747855_1296x729_16-9.jpg"
-          },
-          {
-            "dataSourceIdentifier": "7fa42a76a8d58",
-            "id": 50524703,
-            "type": "header",
-            "name": "Thompson FVV\n [1296x729]",
-            "credit": "Erik Williams-USA TODAY Sports",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1118/r1747852_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Houston Rockets vs. Miami Heat: Game Highlights",
-            "caption": "Houston Rockets vs. Miami Heat: Game Highlights",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6d92444f-be46-440a-8dc2-f831150d181d/6d92444f-be46-440a-8dc2-f831150d181d.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4517,
-            "type": "team",
-            "uid": "s:40~l:46~t:10",
-            "guid": "78113ad4-1ac7-0c04-dada-388a6ff4e15e",
-            "description": "Houston Rockets",
-            "sportId": 46,
-            "teamId": 10,
-            "team": {
-              "id": 10,
-              "description": "Houston Rockets",
-              "abbreviation": "HOU",
-              "shortDisplayName": "Rockets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/hou/houston-rockets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 157435,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:2991230",
-            "guid": "6c6e5179-fc67-908e-bc50-0a5580d64159",
-            "description": "Fred VanVleet",
-            "sportId": 46,
-            "athleteId": 2991230,
-            "athlete": {
-              "id": 2991230,
-              "description": "Fred VanVleet",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/2991230/fred-vanvleet"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/2991230/fred-vanvleet"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 51682,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:3202",
-            "guid": "dc324fde-eee8-98e2-09ac-d31d8ad9909e",
-            "description": "Kevin Durant",
-            "sportId": 46,
-            "athleteId": 3202,
-            "athlete": {
-              "id": 3202,
-              "description": "Kevin Durant",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3202/kevin-durant"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3202/kevin-durant"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 492188,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4871144",
-            "guid": "dad4f5fb-9739-38ac-b3b5-5d7937c29232",
-            "description": "Alperen Sengun",
-            "sportId": 46,
-            "athleteId": 4871144,
-            "athlete": {
-              "id": 4871144,
-              "description": "Alperen Sengun",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 633099,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4711272",
-            "guid": "b2e3effa-a7ab-3837-8d7e-da8b05577441",
-            "description": "Reed Sheppard",
-            "sportId": 46,
-            "athleteId": 4711272,
-            "athlete": {
-              "id": 4711272,
-              "description": "Reed Sheppard",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4711272/reed-sheppard"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4711272/reed-sheppard"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 533755,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4432639",
-            "guid": "177499ed-dca9-30ab-b6b2-d4162549fd6a",
-            "description": "Jabari Smith Jr",
-            "sportId": 46,
-            "athleteId": 4432639,
-            "athlete": {
-              "id": 4432639,
-              "description": "Jabari Smith Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432639/jabari-smith-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4432639/jabari-smith-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 601969,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:4684740",
-            "guid": "d46a44b0-75e5-3475-a977-c64be5aaec40",
-            "description": "Amen Thompson",
-            "sportId": 46,
-            "athleteId": 4684740,
-            "athlete": {
-              "id": 4684740,
-              "description": "Amen Thompson",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4684740/amen-thompson"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4684740/amen-thompson"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701625,
-            "type": "contributor",
-            "guid": "59e56689-5313-381e-bc03-00fcae3aa714",
-            "description": "Michael C. Wright",
-            "slug": "michael-c.-wright",
-            "contributor": {
-              "id": 2126,
-              "description": "Michael C. Wright"
-            }
-          }
-        ],
-        "byline": "Michael C. Wright",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50524821"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50524821"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50524821"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 50534111,
-        "nowId": "1-50534111",
-        "contentKey": "50534111-1-6-1",
-        "dataSourceIdentifier": "d7a1f567a7084",
-        "type": "Story",
-        "headline": "Windhorst and MacMahon: League execs, scouts examine nine rookie starts",
-        "description": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league.",
-        "lastModified": "2026-11-20T13:34:23Z",
-        "published": "2026-11-20T13:34:23Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "4f607f313c4a4",
-            "id": 50534158,
-            "type": "header",
-            "name": "Cameron Boozer, AJ Dybantsa [1296x729]",
-            "credit": "Todd Olszewski/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1119/r1748266_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "How Yaxel Lendeborg is changing the Warriors' season outlook | NBA Today",
-            "caption": "On NBA Today, Ramona Shelburne Jorge Sedano and Marc J. Spears weigh in on the Golden State Warriors' win streak and rookie Yaxel Lendeborg's addition to the team. ",
-            "height": 324,
-            "width": 576,
-            "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1109/ss_20261109_162825205_37344361014/ss_20261109_162825205_37344361014.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4600,
-            "type": "team",
-            "uid": "s:40~l:46~t:9",
-            "guid": "77a8546f-24bf-a333-8161-bf9f75396c49",
-            "description": "Golden State Warriors",
-            "sportId": 46,
-            "teamId": 9,
-            "team": {
-              "id": 9,
-              "description": "Golden State Warriors",
-              "abbreviation": "GS",
-              "shortDisplayName": "Warriors",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4584,
-            "type": "team",
-            "uid": "s:40~l:46~t:29",
-            "guid": "af5d4942-aeb5-2d07-2a8a-f70b54617e51",
-            "description": "Memphis Grizzlies",
-            "sportId": 46,
-            "teamId": 29,
-            "team": {
-              "id": 29,
-              "description": "Memphis Grizzlies",
-              "abbreviation": "MEM",
-              "shortDisplayName": "Grizzlies",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/mem/memphis-grizzlies"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4339,
-            "type": "team",
-            "uid": "s:40~l:46~t:27",
-            "guid": "64d73af6-b8ec-e213-87e8-a4eab3a692e7",
-            "description": "Washington Wizards",
-            "sportId": 46,
-            "teamId": 27,
-            "team": {
-              "id": 27,
-              "description": "Washington Wizards",
-              "abbreviation": "WSH",
-              "shortDisplayName": "Wizards",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4564,
-            "type": "team",
-            "uid": "s:40~l:46~t:26",
-            "guid": "77cea2fb-1388-b7c8-d171-2e72b3aecbfb",
-            "description": "Utah Jazz",
-            "sportId": 46,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "Utah Jazz",
-              "abbreviation": "UTAH",
-              "shortDisplayName": "Jazz",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/utah/utah-jazz"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4392,
-            "type": "team",
-            "uid": "s:40~l:46~t:4",
-            "guid": "e588ccf1-ba03-ea43-c34c-9a9c8d1895ca",
-            "description": "Chicago Bulls",
-            "sportId": 46,
-            "teamId": 4,
-            "team": {
-              "id": 4,
-              "description": "Chicago Bulls",
-              "abbreviation": "CHI",
-              "shortDisplayName": "Bulls",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 154798,
-            "type": "team",
-            "uid": "s:40~l:46~t:12",
-            "guid": "083a58a6-b849-3501-e67b-059290d12295",
-            "description": "LA Clippers",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "abbreviation": "LAC",
-              "shortDisplayName": "Clippers",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4358,
-            "type": "team",
-            "uid": "s:40~l:46~t:1",
-            "guid": "15096a54-f015-c987-5ec8-55afedf6272f",
-            "description": "Atlanta Hawks",
-            "sportId": 46,
-            "teamId": 1,
-            "team": {
-              "id": 1,
-              "description": "Atlanta Hawks",
-              "abbreviation": "ATL",
-              "shortDisplayName": "Hawks",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 104965,
-            "type": "team",
-            "uid": "s:40~l:46~t:17",
-            "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
-            "description": "Brooklyn Nets",
-            "sportId": 46,
-            "teamId": 17,
-            "team": {
-              "id": 17,
-              "description": "Brooklyn Nets",
-              "abbreviation": "BKN",
-              "shortDisplayName": "Nets",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 4676,
-            "type": "team",
-            "uid": "s:40~l:46~t:23",
-            "guid": "e266c4ea-9af3-1bd8-06fb-fd608fd30e26",
-            "description": "Sacramento Kings",
-            "sportId": 46,
-            "teamId": 23,
-            "team": {
-              "id": 23,
-              "description": "Sacramento Kings",
-              "abbreviation": "SAC",
-              "shortDisplayName": "Kings",
-              "links": {
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 701427,
-            "type": "contributor",
-            "guid": "d364b0f5-51b3-37fe-b8e2-54fe436eb756",
-            "description": "Brian Windhorst",
-            "slug": "brian-windhorst",
-            "contributor": {
-              "id": 1883,
-              "description": "Brian Windhorst"
-            }
-          },
-          {
-            "id": 698423,
-            "type": "contributor",
-            "guid": "4ef3a72c-8433-33cc-9d1c-a89460e4a177",
-            "description": "Tim MacMahon",
-            "slug": "tim-macmahon",
-            "contributor": {
-              "id": 1808,
-              "description": "Tim MacMahon"
-            }
-          }
-        ],
-        "byline": "Brian Windhorst and Tim MacMahon",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/50534111"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=50534111"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/nba/story?storyId=50534111"
-          },
-          "web": {
-            "href": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel"
-          }
-        },
-        "premium": false
-      },
-      {
-        "id": 49960162,
-        "nowId": "1-49960162",
-        "contentKey": "49960162-1-6-1",
-        "dataSourceIdentifier": "d87b49108e8a7",
-        "type": "Story",
-        "headline": "Fantasy basketball points league rankings update: Lendeborg, Acuff Jr. on the rise",
-        "description": "Updated fantasy basketball rankings for points leagues, with several rookies on the rise.",
-        "lastModified": "2026-11-20T11:54:02Z",
-        "published": "2026-11-20T11:54:02Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "8f05e95c11107",
-            "id": 50538267,
-            "type": "header",
-            "name": "Yaxel Lendeborg [1296x729]",
-            "caption": "In a season with many impressive rookies, Golden State's Yaxel Lendeborg is near the top of the list.",
-            "alt": "Yaxel Lendeborg #1 of the Golden State Warriors takes a shot against Jahmai Mashack #21 of the Memphis Grizzlies during the second half at FedExForum on November 19, 2026 in Memphis, Tennessee.",
-            "credit": "Justin Ford/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/1120/r1748435_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 141870,
-            "type": "topic",
-            "guid": "ca127063-3a37-f49a-a3fc-0eeb89492361",
-            "description": "news - fantasy",
-            "sportId": 0,
-            "topicId": 240
-          },
-          {
-            "id": 152380,
-            "type": "topic",
-            "guid": "db281b05-18c1-d96f-e85b-0688b06f2854",
-            "description": "news - fantasy basketball",
-            "sportId": 0,
-            "topicId": 400
-          },
-          {
-            "id": 12025,
-            "type": "league",
-            "guid": "12c6e39f-b760-49b1-8e4c-b3eb90814c34",
-            "description": "Fantasy NBA",
-            "sportId": 0,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA"
-            }
-          },
-          {
-            "id": 634271,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5175737",
-            "guid": "b037d625-6e30-391c-a906-b39ea32c281f",
-            "description": "Yaxel Lendeborg",
-            "sportId": 46,
-            "athleteId": 5175737,
-            "athlete": {
-              "id": 5175737,
-              "description": "Yaxel Lendeborg",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5175737/yaxel-lendeborg"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 737643,
-            "type": "athlete",
-            "uid": "s:40~l:46~a:5142620",
-            "guid": "2d9a5748-cbb5-3a2d-81d9-01a474f70dfd",
-            "description": "Darius Acuff Jr",
-            "sportId": 46,
-            "athleteId": 5142620,
-            "athlete": {
-              "id": 5142620,
-              "description": "Darius Acuff Jr",
-              "links": {
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142620/darius-acuff-jr"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/5142620/darius-acuff-jr"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 699506,
-            "type": "contributor",
-            "guid": "1d9d3c1d-a782-33e0-b95c-374f8c9ceabb",
-            "description": "Andre Snellings",
-            "slug": "andre-snellings",
-            "contributor": {
-              "id": 3273,
-              "description": "Andre Snellings"
-            }
-          },
-          {
-            "id": 9577,
-            "type": "league",
-            "uid": "s:40~l:46",
-            "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-            "description": "NBA",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "abbreviation": "NBA",
-              "links": {
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "byline": "Andre Snellings",
-        "links": {
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/49960162"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=49960162"
-            }
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/wireless/story?storyId=49960162"
-          },
-          "web": {
-            "href": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season"
-          }
-        },
-        "premium": false
       }
     ]
   },
-  "predictor": {
-    "header": "Matchup Predictor",
-    "homeTeam": {
-      "id": "5",
-      "gameProjection": "81.1",
-      "teamChanceLoss": "18.9"
-    },
-    "awayTeam": {
-      "id": "11",
-      "gameProjection": "18.9",
-      "teamChanceLoss": "81.1"
-    }
-  },
   "winprobability": [],
-  "article": {
-    "id": 50528956,
-    "nowId": "1-50528956",
-    "contentKey": "50528956-1-22-1",
-    "dataSourceIdentifier": "e229dcd0fc8db",
-    "publishedkey": "nba401909307",
-    "type": "Preview",
-    "gameId": "401909307",
-    "headline": "Pacers visit Cavaliers Friday in NBA Cup group stage",
-    "description": "Indiana Pacers (5-10, 10th in the Eastern Conference) vs. Cleveland Cavaliers (8-8, seventh in the Eastern Conference)",
-    "title": "Pacers visit Cavaliers Friday in NBA Cup group stage",
-    "linkText": "Pacers visit Cavaliers Friday in NBA Cup group stage",
-    "categorized": "2026-11-19T07:04:41Z",
-    "originallyPosted": "2026-11-19T07:04:40Z",
-    "lastModified": "2026-11-19T07:04:41Z",
-    "published": "2026-11-19T07:04:40Z",
-    "root": "nba",
-    "section": "NBA",
-    "source": "Data Skrive",
-    "images": [],
-    "video": [],
-    "categories": [
-      {
-        "id": 9577,
-        "type": "league",
-        "uid": "s:40~l:46",
-        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
-        "description": "NBA",
-        "sportId": 46,
-        "leagueId": 46,
-        "league": {
-          "id": 46,
-          "description": "NBA",
-          "abbreviation": "NBA",
-          "links": {
-            "mobile": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            },
-            "web": {
-              "leagues": {
-                "href": "https://www.espn.com/nba/"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4408,
-        "type": "team",
-        "uid": "s:40~l:46~t:5",
-        "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
-        "description": "Cleveland Cavaliers",
-        "sportId": 46,
-        "teamId": 5,
-        "team": {
-          "id": 5,
-          "description": "Cleveland Cavaliers",
-          "abbreviation": "CLE",
-          "shortDisplayName": "Cavaliers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4438,
-        "type": "team",
-        "uid": "s:40~l:46~t:11",
-        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
-        "description": "Indiana Pacers",
-        "sportId": 46,
-        "teamId": 11,
-        "team": {
-          "id": 11,
-          "description": "Indiana Pacers",
-          "abbreviation": "IND",
-          "shortDisplayName": "Pacers",
-          "links": {
-            "mobile": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            },
-            "web": {
-              "teams": {
-                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "event",
-        "uid": "s:40~l:46~e:401909307",
-        "guid": "2474a9dd-6714-3338-a3a5-8fec91ea5425",
-        "description": "Indiana Pacers @ Cleveland Cavaliers",
-        "eventId": 401909307,
-        "event": {
-          "id": 401909307,
-          "sport": "basketball",
-          "league": "nba",
-          "description": "Indiana Pacers @ Cleveland Cavaliers"
-        }
-      }
-    ],
-    "keywords": [
-      "NBA",
-      "Cleveland Cavaliers",
-      "Indiana Pacers",
-      "Indiana Pacers @ Cleveland Cavaliers"
-    ],
-    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (5-10, 10th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers\">Cleveland Cavaliers</a> (8-8, seventh in the Eastern Conference)\n\n\r\n              Cleveland; Friday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: The Cleveland Cavaliers play the Indiana Pacers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              The Cavaliers are 6-5 in conference games. Cleveland is seventh in the Eastern Conference with 27.5 assists per game led by <a href=\"http://www.espn.com/nba/player/_/id/3992/james-harden\">James Harden</a> averaging 6.3.\n\n\r\n              The Pacers are 0-1 against opponents in the Central Division. Indiana ranks second in the Eastern Conference scoring 51.3 points per game in the paint led by <a href=\"http://www.espn.com/nba/player/_/id/3149673/pascal-siakam\">Pascal Siakam</a> averaging 11.1.\n\n\r\n              The Cavaliers' 15.1 made 3-pointers per game this season are only 0.6 more made shots on average than the 14.5 per game the Pacers allow. The Pacers average 11.7 made 3-pointers per game this season, 2.3 fewer made shots on average than the 14.0 per game the Cavaliers allow.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/3908809/donovan-mitchell\">Donovan Mitchell</a> is averaging 24.8 points and 5.3 assists for the Cavaliers. Harden is averaging 14.3 points over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4395712/andrew-nembhard\">Andrew Nembhard</a> is averaging 16.6 points and 7.6 assists for the Pacers. Siakam is averaging 20.4 points and 4.3 rebounds while shooting 50.0% over the last 10 games.\n\n\r\n              LAST 10 GAMES: Cavaliers: 4-6, averaging 116.6 points, 44.5 rebounds, 26.8 assists, 7.4 steals and 4.4 blocks per game while shooting 47.5% from the field. Their opponents have averaged 116.5 points per game.\n\n\r\n              Pacers: 3-7, averaging 109.8 points, 39.8 rebounds, 26.7 assists, 8.2 steals and 4.1 blocks per game while shooting 47.2% from the field. Their opponents have averaged 114.8 points.\n\n\r\n              INJURIES: Cavaliers: <a href=\"http://www.espn.com/nba/player/_/id/4576087/peyton-watson\">Peyton Watson</a>: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/5106268/nae'qwan-tomlin\">Nae'Qwan Tomlin</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4432158/evan-mobley\">Evan Mobley</a>: out (toe), <a href=\"http://www.espn.com/nba/player/_/id/4683747/jaylon-tyson\">Jaylon Tyson</a>: day to day (ankle).\n\n\r\n              Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton\">Tyrese Haliburton</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4433076/ben-sheppard\">Ben Sheppard</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), Andrew Nembhard: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
-    "allowContentReactions": false,
-    "allowSearch": true,
-    "isLiveBlog": false,
-    "links": {
-      "api": {
-        "self": {
-          "href": "https://content.core.api.espn.com/v1/sports/news/50528956"
-        }
-      },
-      "app": {
-        "sportscenter": {
-          "href": "sportscenter://x-callback-url/showStory?uid=50528956"
-        }
-      },
-      "mobile": {
-        "href": "http://m.espn.go.com/nba/story?storyId=50528956"
-      },
-      "web": {
-        "href": "http://www.espn.com/nba/preview?gameId=401909307"
-      }
-    },
-    "premium": false
-  },
-  "videos": [],
-  "ticketsInfo": {
-    "tickets": [
-      {
-        "ticketName": "All NBA Tickets",
-        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
-        "type": "league"
-      },
-      {
-        "ticketName": "All Cavaliers Tickets",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets--sports-nba-basketball/performer/182?wsUser=717",
-        "type": "team"
-      },
-      {
-        "ticketName": "11/20 vs Pacers 1098 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-31-2026--sports-nba-basketball/production/7419581?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/23 @ Bulls 1606 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-23-2026/production/7431154?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/25 @ Knicks 3007 tickets left",
-        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "11/29 vs Heat 2069 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/1 vs Pacers 2128 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-1-2026/production/7430990?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/3 @ Bulls 2012 tickets left",
-        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-3-2026/production/7431156?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/12 vs Warriors 1920 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-12-2026/production/7431158?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/15 vs Spurs 2116 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-15-2026/production/7431080?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/16 @ Magic 2416 tickets left",
-        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-12-16-2026/production/7431054?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/18 @ Pistons 2821 tickets left",
-        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-18-2026/production/7431160?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/20 vs Jazz 1992 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-20-2026/production/7431162?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/21 vs Knicks 2162 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-21-2026/production/7431164?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/23 @ Wizards 2885 tickets left",
-        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-23-2026/production/7431166?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/27 vs Wizards 1960 tickets left",
-        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-27-2026/production/7431168?wsUser=717",
-        "type": "event"
-      },
-      {
-        "ticketName": "12/28 @ Celtics 2867 tickets left",
-        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-28-2026/production/7431170?wsUser=717",
-        "type": "event"
-      }
-    ],
-    "seatSituation": {
-      "opponentTeamName": "Pacers",
-      "currentTeamName": "Cavaliers",
-      "venueName": "Rocket Arena",
-      "summary": "Tickets as low as $18",
-      "date": "2026-11-21T00:30Z",
-      "dateDay": "Fri",
-      "homeAway": "home",
-      "eventLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-31-2026--sports-nba-basketball/production/7419581?wsUser=717",
-      "venueLink": "https://www.vividseats.com/rocket-mortgage-fieldhouse-tickets/venue/684?wsUser=717",
-      "genericLink": "https://www.vividseats.com/?wsUser=717",
-      "teamLink": "https://www.vividseats.com/cleveland-cavaliers-tickets--sports-nba-basketball/performer/182?wsUser=717",
-      "timeValid": true
-    }
-  },
   "header": {
     "id": "401909307",
     "uid": "s:40~l:46~e:401909307",
@@ -5630,7 +5139,7 @@
         "commentaryAvailable": false,
         "liveAvailable": false,
         "onWatchESPN": false,
-        "recent": false,
+        "recent": true,
         "wallclockAvailable": false,
         "boxscoreSource": "none",
         "playByPlaySource": "none",
@@ -6710,7 +6219,257 @@
     },
     "gameNote": "NBA Cup - Group Play"
   },
+  "article": {
+    "id": 50528956,
+    "nowId": "1-50528956",
+    "contentKey": "50528956-1-22-1",
+    "dataSourceIdentifier": "e229dcd0fc8db",
+    "publishedkey": "nba401909307",
+    "type": "Preview",
+    "gameId": "401909307",
+    "headline": "Pacers visit Cavaliers Friday in NBA Cup group stage",
+    "description": "Indiana Pacers (5-10, 10th in the Eastern Conference) vs. Cleveland Cavaliers (8-8, seventh in the Eastern Conference)",
+    "title": "Pacers visit Cavaliers Friday in NBA Cup group stage",
+    "linkText": "Pacers visit Cavaliers Friday in NBA Cup group stage",
+    "categorized": "2026-11-19T07:04:41Z",
+    "originallyPosted": "2026-11-19T07:04:40Z",
+    "lastModified": "2026-11-19T07:04:41Z",
+    "published": "2026-11-19T07:04:40Z",
+    "root": "nba",
+    "section": "NBA",
+    "source": "Data Skrive",
+    "images": [],
+    "video": [],
+    "categories": [
+      {
+        "id": 9577,
+        "type": "league",
+        "uid": "s:40~l:46",
+        "guid": "7b3729c9-7f69-308a-bf8a-ee15a6aba154",
+        "description": "NBA",
+        "sportId": 46,
+        "leagueId": 46,
+        "league": {
+          "id": 46,
+          "description": "NBA",
+          "abbreviation": "NBA",
+          "links": {
+            "mobile": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/nba/"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4408,
+        "type": "team",
+        "uid": "s:40~l:46~t:5",
+        "guid": "ec79ad1f-e6d2-7762-a2db-7fe97d35126b",
+        "description": "Cleveland Cavaliers",
+        "sportId": 46,
+        "teamId": 5,
+        "team": {
+          "id": 5,
+          "description": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "shortDisplayName": "Cavaliers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4438,
+        "type": "team",
+        "uid": "s:40~l:46~t:11",
+        "guid": "547fc042-3e02-4795-9637-9ab84322b625",
+        "description": "Indiana Pacers",
+        "sportId": 46,
+        "teamId": 11,
+        "team": {
+          "id": 11,
+          "description": "Indiana Pacers",
+          "abbreviation": "IND",
+          "shortDisplayName": "Pacers",
+          "links": {
+            "mobile": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "uid": "s:40~l:46~e:401909307",
+        "guid": "2474a9dd-6714-3338-a3a5-8fec91ea5425",
+        "description": "Indiana Pacers @ Cleveland Cavaliers",
+        "eventId": 401909307,
+        "event": {
+          "id": 401909307,
+          "sport": "basketball",
+          "league": "nba",
+          "description": "Indiana Pacers @ Cleveland Cavaliers"
+        }
+      }
+    ],
+    "keywords": [
+      "NBA",
+      "Cleveland Cavaliers",
+      "Indiana Pacers",
+      "Indiana Pacers @ Cleveland Cavaliers"
+    ],
+    "story": "<a href=\"http://www.espn.com/nba/team/_/name/ind/indiana-pacers\">Indiana Pacers</a> (5-10, 10th in the Eastern Conference) vs. <a href=\"http://www.espn.com/nba/team/_/name/cle/cleveland-cavaliers\">Cleveland Cavaliers</a> (8-8, seventh in the Eastern Conference)\n\n\r\n              Cleveland; Friday, 7:30 p.m. EST\n\n\r\n              BOTTOM LINE: The Cleveland Cavaliers play the Indiana Pacers in an NBA Cup in-season tournament group play matchup.\n\n\r\n              The Cavaliers are 6-5 in conference games. Cleveland is seventh in the Eastern Conference with 27.5 assists per game led by <a href=\"http://www.espn.com/nba/player/_/id/3992/james-harden\">James Harden</a> averaging 6.3.\n\n\r\n              The Pacers are 0-1 against opponents in the Central Division. Indiana ranks second in the Eastern Conference scoring 51.3 points per game in the paint led by <a href=\"http://www.espn.com/nba/player/_/id/3149673/pascal-siakam\">Pascal Siakam</a> averaging 11.1.\n\n\r\n              The Cavaliers' 15.1 made 3-pointers per game this season are only 0.6 more made shots on average than the 14.5 per game the Pacers allow. The Pacers average 11.7 made 3-pointers per game this season, 2.3 fewer made shots on average than the 14.0 per game the Cavaliers allow.\n\n\r\n              TOP PERFORMERS: <a href=\"http://www.espn.com/nba/player/_/id/3908809/donovan-mitchell\">Donovan Mitchell</a> is averaging 24.8 points and 5.3 assists for the Cavaliers. Harden is averaging 14.3 points over the last 10 games.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4395712/andrew-nembhard\">Andrew Nembhard</a> is averaging 16.6 points and 7.6 assists for the Pacers. Siakam is averaging 20.4 points and 4.3 rebounds while shooting 50.0% over the last 10 games.\n\n\r\n              LAST 10 GAMES: Cavaliers: 4-6, averaging 116.6 points, 44.5 rebounds, 26.8 assists, 7.4 steals and 4.4 blocks per game while shooting 47.5% from the field. Their opponents have averaged 116.5 points per game.\n\n\r\n              Pacers: 3-7, averaging 109.8 points, 39.8 rebounds, 26.7 assists, 8.2 steals and 4.1 blocks per game while shooting 47.2% from the field. Their opponents have averaged 114.8 points.\n\n\r\n              INJURIES: Cavaliers: <a href=\"http://www.espn.com/nba/player/_/id/4576087/peyton-watson\">Peyton Watson</a>: day to day (back), <a href=\"http://www.espn.com/nba/player/_/id/5106268/nae'qwan-tomlin\">Nae'Qwan Tomlin</a>: out (back), <a href=\"http://www.espn.com/nba/player/_/id/4432158/evan-mobley\">Evan Mobley</a>: out (toe), <a href=\"http://www.espn.com/nba/player/_/id/4683747/jaylon-tyson\">Jaylon Tyson</a>: day to day (ankle).\n\n\r\n              Pacers: <a href=\"http://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton\">Tyrese Haliburton</a>: out (hamstring), <a href=\"http://www.espn.com/nba/player/_/id/4433076/ben-sheppard\">Ben Sheppard</a>: out (meniscus), <a href=\"http://www.espn.com/nba/player/_/id/5157066/johnny-furphy\">Johnny Furphy</a>: out for season (acl), Andrew Nembhard: day to day (hip).\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>.",
+    "allowContentReactions": false,
+    "allowSearch": true,
+    "isLiveBlog": false,
+    "links": {
+      "api": {
+        "self": {
+          "href": "https://content.core.api.espn.com/v1/sports/news/50528956"
+        }
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=50528956"
+        }
+      },
+      "mobile": {
+        "href": "http://m.espn.go.com/nba/story?storyId=50528956"
+      },
+      "web": {
+        "href": "http://www.espn.com/nba/preview?gameId=401909307"
+      }
+    },
+    "premium": false
+  },
+  "videos": [],
   "wallclockAvailable": false,
+  "ticketsInfo": {
+    "tickets": [
+      {
+        "ticketName": "All NBA Tickets",
+        "ticketLink": "https://www.vividseats.com/nba-basketball/?wsUser=717",
+        "type": "league"
+      },
+      {
+        "ticketName": "All Cavaliers Tickets",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets--sports-nba-basketball/performer/182?wsUser=717",
+        "type": "team"
+      },
+      {
+        "ticketName": "11/20 vs Pacers 988 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-31-2026--sports-nba-basketball/production/7419581?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/23 @ Bulls 1587 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-11-23-2026/production/7431154?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/25 @ Knicks 3003 tickets left",
+        "ticketLink": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-10-31-2026--sports-nba-basketball/production/7419668?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "11/29 vs Heat 2070 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-11-29-2026/production/7431004?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/1 vs Pacers 2109 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-1-2026/production/7430990?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/3 @ Bulls 2030 tickets left",
+        "ticketLink": "https://www.vividseats.com/chicago-bulls-tickets-united-center-12-3-2026/production/7431156?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/12 vs Warriors 1914 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-12-2026/production/7431158?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/15 vs Spurs 2095 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-15-2026/production/7431080?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/16 @ Magic 2414 tickets left",
+        "ticketLink": "https://www.vividseats.com/orlando-magic-tickets-kia-center-12-16-2026/production/7431054?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/18 @ Pistons 2816 tickets left",
+        "ticketLink": "https://www.vividseats.com/detroit-pistons-tickets-little-caesars-arena-12-18-2026/production/7431160?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/20 vs Jazz 1992 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-20-2026/production/7431162?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/21 vs Knicks 2162 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-21-2026/production/7431164?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/23 @ Wizards 2885 tickets left",
+        "ticketLink": "https://www.vividseats.com/washington-wizards-tickets-capital-one-arena-12-23-2026/production/7431166?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/27 vs Wizards 1960 tickets left",
+        "ticketLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-27-2026/production/7431168?wsUser=717",
+        "type": "event"
+      },
+      {
+        "ticketName": "12/28 @ Celtics 2867 tickets left",
+        "ticketLink": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-28-2026/production/7431170?wsUser=717",
+        "type": "event"
+      }
+    ],
+    "seatSituation": {
+      "opponentTeamName": "Pacers",
+      "currentTeamName": "Cavaliers",
+      "venueName": "Rocket Arena",
+      "summary": "Tickets as low as $18",
+      "date": "2026-11-21T00:30Z",
+      "dateDay": "Fri",
+      "homeAway": "home",
+      "eventLink": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-10-31-2026--sports-nba-basketball/production/7419581?wsUser=717",
+      "venueLink": "https://www.vividseats.com/rocket-mortgage-fieldhouse-tickets/venue/684?wsUser=717",
+      "genericLink": "https://www.vividseats.com/?wsUser=717",
+      "teamLink": "https://www.vividseats.com/cleveland-cavaliers-tickets--sports-nba-basketball/performer/182?wsUser=717",
+      "timeValid": true
+    }
+  },
   "meta": {
     "gp_topic": "gp-basketball-nba-401909307",
     "gameSwitcherEnabled": true,
